@@ -136,8 +136,12 @@ async function showSkill(topic) {
   paceNote();
 
   // Teach before drilling. Practising a skill nobody has explained is just repeated failure.
-  const lesson = await HSPT.lessonFor(skill.topic);
-  $('#lesson').innerHTML = HSPT.lessonHTML(lesson, skill.label);
+  // The primer is the short version; it links on to the full lesson when one exists.
+  const primer = await HSPT.primerFor(skill.topic);
+  await HSPT.lessons().catch(() => null);
+  const lessonKey = HSPT.lessonTopicFor(skill.topic);
+  $('#lesson').innerHTML =
+    HSPT.primerHTML(primer, skill.label, lessonKey ? HSPT.lessonLink(lessonKey) : null);
 
   showHistory();
   $('#setup').classList.remove('hide');
@@ -213,13 +217,25 @@ async function showResults(res) {
     correct: res.correct, total: res.total, timed, seconds: res.seconds
   });
 
+  // Under 70% the thing to fix is usually the method, not the number of reps.
+  let lead = '';
+  const lessonKey = HSPT.lessonTopicFor(skill.topic);
+  if (pct < 70 && lessonKey) {
+    const { lessons } = await HSPT.lessons();
+    lead = `<div class="note"><p>Worth reading before you try again:
+      <a href="${HSPT.lessonLink(lessonKey)}">the ${HSPT.esc(lessons[lessonKey].title)} lesson</a>.
+      At this score more questions rarely help on their own.</p></div>`;
+  }
+
   // Suggest the next skill in the same section.
   const all = await HSPT.skillIndex();
   const sameSection = all.filter(s => s.section === skill.section && s.topic !== skill.topic);
   if (sameSection.length) {
     const next = sameSection[Math.floor(Math.random() * sameSection.length)];
-    $('#nextup').innerHTML = `<div class="note"><p>More ${HSPT.esc(skill.sectionLabel)} practice:
+    $('#nextup').innerHTML = lead + `<div class="note"><p>More ${HSPT.esc(skill.sectionLabel)} practice:
       <a href="${next.href}">${HSPT.esc(next.label)}</a> — ${next.count} questions.</p></div>`;
+  } else {
+    $('#nextup').innerHTML = lead;
   }
 }
 

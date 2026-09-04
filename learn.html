@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Learn a skill — HSPT Prep</title>
+<meta name="description" content="A full lesson on every skill the HSPT tests — what the questions look like, the method that works under time pressure, worked examples and the traps to expect.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto+Slab:wght@600;700&display=swap">
+<link rel="icon" href="images/rj-crest.png">
+<meta name="theme-color" content="#C41130">
+<link rel="stylesheet" href="assets/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.css">
+</head>
+<body>
+
+<main>
+
+  <div class="wrap-wide hide" id="index">
+    <h1>Learn a skill</h1>
+    <p class="lede">One lesson for every skill the HSPT tests. Each shows you what the questions
+    actually look like, gives you a method you can run at test pace, works through examples and
+    names the traps. Read the lesson, then drill the skill.</p>
+    <p class="muted">Every practice set opens with a short version of its lesson, so you never
+    drill something you have not been taught. These are the long versions, for the skills you want
+    to fix rather than review. Not sure which? <a href="diagnostic.html">Find out what to study</a>.</p>
+    <div id="list"></div>
+  </div>
+
+  <div class="wrap hide" id="lesson">
+    <p class="small"><a href="learn.html">&larr; All lessons</a></p>
+    <h1 id="ls-title"></h1>
+    <div class="lesson-meta" id="ls-meta"></div>
+    <p class="lede" id="ls-lede"></p>
+    <div id="ls-body"></div>
+    <div class="lesson-foot" id="ls-foot"></div>
+    <div class="lesson-nav" id="ls-nav"></div>
+  </div>
+
+</main>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/contrib/auto-render.min.js"></script>
+<script src="assets/app.js"></script>
+<script>
+const $ = s => document.querySelector(s);
+const LTR = ['A', 'B', 'C', 'D', 'E'];
+
+/* Lesson prose is authored content in data/lessons.json, not anything a visitor supplies,
+   and it carries deliberate <b>/<i>/<code>. It is inserted as written. Anything reaching
+   this page from a URL is escaped. If you ever paste lesson text in from elsewhere,
+   escape it by hand first. */
+
+function block(b, i) {
+  switch (b.type) {
+    case 'h':   return `<h2>${b.text}</h2>`;
+    case 'p':   return `<p>${b.text}</p>`;
+    case 'ul':  return `<ul>${b.items.map(x => `<li>${x}</li>`).join('')}</ul>`;
+    case 'ol':  return `<ol>${b.items.map(x => `<li>${x}</li>`).join('')}</ol>`;
+    case 'note': return `<div class="note"><p>${b.text}</p></div>`;
+    case 'table': return `<div class="table-scroll"><table>
+        <thead><tr>${b.head.map(h => `<th>${h}</th>`).join('')}</tr></thead>
+        <tbody>${b.rows.map(r => `<tr>${r.map(c => `<td>${c}</td>`).join('')}</tr>`).join('')}</tbody>
+      </table></div>`;
+    case 'example': return `
+      <div class="wex" data-ex="${i}">
+        <p class="wex-tag">Try it</p>
+        <p class="wex-stem">${b.stem}</p>
+        <ol class="wex-opts">${b.options.map((o, n) =>
+          `<li data-opt="${n}"><span class="ltr">${LTR[n]}</span>${o}</li>`).join('')}</ol>
+        <button class="reveal" type="button">Show the working</button>
+        <div class="working hide">
+          <p class="verdict-line">${LTR[b.answer]} &mdash; ${b.options[b.answer]}</p>
+          <p>${b.walkthrough}</p>
+        </div>
+      </div>`;
+    default: return '';
+  }
+}
+
+/* ---------- every lesson ---------- */
+
+async function showIndex() {
+  const { order, lessons } = await HSPT.lessons();
+  const bySection = {};
+  order.forEach(t => {
+    const L = lessons[t];
+    (bySection[L.sectionLabel] = bySection[L.sectionLabel] || []).push([t, L]);
+  });
+
+  $('#list').innerHTML = Object.entries(bySection).map(([label, items]) => `
+    <h2>${HSPT.esc(label)}</h2>
+    <div class="cards">
+      ${items.map(([t, L]) => `
+        <a class="card" href="${HSPT.lessonLink(t)}">
+          <h3>${HSPT.esc(L.title)}</h3>
+          <p>${HSPT.esc(L.oneLine)}</p>
+          <span class="meta">${HSPT.esc(L.weight)}</span>
+        </a>`).join('')}
+    </div>`).join('');
+
+  $('#index').classList.remove('hide');
+}
+
+/* ---------- one lesson ---------- */
+
+async function showLesson(topic) {
+  const { order, lessons } = await HSPT.lessons();
+  const L = lessons[topic];
+  if (!L) return showIndex();
+
+  document.title = `${L.title} — HSPT Prep`;
+  $('#ls-title').textContent = L.title;
+  $('#ls-meta').innerHTML =
+    `<span class="pill">${HSPT.esc(L.sectionLabel)}</span><span>${HSPT.esc(L.weight)}</span>`;
+  $('#ls-lede').textContent = L.oneLine;
+  $('#ls-body').innerHTML = L.blocks.map(block).join('');
+
+  // One example at a time, so the page is never mistaken for a quiz waiting on an answer.
+  $('#ls-body').querySelectorAll('.wex .reveal').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const wex = btn.closest('.wex');
+      const ans = L.blocks[Number(wex.dataset.ex)].answer;
+      wex.querySelector('.working').classList.remove('hide');
+      wex.querySelector(`.wex-opts li[data-opt="${ans}"]`).classList.add('is-answer');
+      btn.remove();
+    });
+  });
+
+  const href = L.practiceHref || (L.practiceTopic ? HSPT.practiceLink(L.practiceTopic) : 'practice.html');
+  $('#ls-foot').innerHTML = `
+    <h2>Now practise it</h2>
+    <p>Reading about a skill and doing it are different things, and only the second one moves your
+    score. Work a set untimed until the method is automatic, then switch the clock on.</p>
+    <div class="btn-row"><a class="btn" href="${href}">Practise ${HSPT.esc(L.title)}</a>
+    <a class="btn plain" href="learn.html">All lessons</a></div>`;
+
+  const i = order.indexOf(topic);
+  const prev = i > 0 ? order[i - 1] : null;
+  const next = i < order.length - 1 ? order[i + 1] : null;
+  $('#ls-nav').innerHTML =
+    (prev ? `<a href="${HSPT.lessonLink(prev)}"><span>Previous</span>${HSPT.esc(lessons[prev].title)}</a>` : '<span></span>') +
+    (next ? `<a class="nx" href="${HSPT.lessonLink(next)}"><span>Next</span>${HSPT.esc(lessons[next].title)}</a>` : '');
+
+  HSPT.typeset($('#lesson'));
+  $('#lesson').classList.remove('hide');
+}
+
+const wanted = new URLSearchParams(location.search).get('topic');
+(wanted ? showLesson(wanted) : showIndex()).catch(e => {
+  document.querySelector('main').insertAdjacentHTML('afterbegin',
+    `<div class="wrap"><div class="note"><p>The lessons could not load: ${HSPT.esc(e.message)}</p></div></div>`);
+});
+
+HSPT.chrome('learn.html');
+</script>
+</body>
+</html>

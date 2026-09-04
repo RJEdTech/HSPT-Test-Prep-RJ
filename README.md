@@ -65,16 +65,18 @@ If you add copy, apply the same rules.
 index.html         landing page — five-question taster, then the study path
 guide.html         section-by-section guide
 diagnostic.html    40 questions across all five sections, with a weak-area report
+learn.html         lesson index, and one full lesson per skill via ?topic=
 practice.html      skill index, and one practice set per skill via ?topic=
 vocab.html         vocabulary flashcards, from data/vocab.json
 mock.html          five-section timed practice test
 resources.html     outside resources, with the not-vetted disclaimer
 images/            official logos — see Brand below
 assets/style.css   all styling
-assets/app.js      shared quiz engine, site chrome and the lesson renderer
+assets/app.js      shared quiz engine, site chrome, the primer renderer and the lesson bank
 assets/home.js     the landing-page taster and the "where you left off" block
 data/*.json        the question banks
-data/lessons.json  one short lesson per skill, shown above the practice questions
+data/primers.json  one short primer per skill, shown above the practice questions
+data/lessons.json  the 18 full lessons behind those primers, rendered by learn.html
 data/vocab.json    the 74 words the banks actually test
 build/*.py         the repair scripts, each asserting on its target before changing it
 ```
@@ -135,6 +137,7 @@ There is nothing else to update.
 Every skill has its own address, so you can link one directly from the Canva site or an email:
 
 ```
+learn.html?topic=Antonyms
 practice.html?topic=Antonyms
 practice.html?topic=Verbal%20Logic
 practice.html?topic=Punctuation
@@ -187,14 +190,17 @@ Seconds per question currently match the real HSPT for each section. If you add 
 you can raise `n` toward a full-length form. The diagnostic's mix is set the same way in
 `diagnostic.html`.
 
-## Lessons
+## Teaching content — two layers
 
-`data/lessons.json` holds one short lesson per skill — what the question type asks, the method in steps,
-a worked example and the mistake that costs students the most points. It is rendered above the questions
-on every practice page, open by default. Practising a skill nobody has explained is just repeated
-failure, so the site teaches first and drills second.
+Practising a skill nobody has explained is just repeated failure, so the site teaches first and drills
+second. It does that twice over, at two lengths, and the split is deliberate: **nobody reads 1,200 words
+before a ten-question drill, and nobody fixes a skill they are bad at in 80.**
 
-Each entry is plain JSON and needs no code changes:
+### The primer — `data/primers.json`
+
+One short primer per skill: what the question type asks, the method in steps, a worked example and the
+mistake that costs students the most points. Rendered above the questions on every practice page, open
+by default, and it links on to the full lesson.
 
 ```json
 "Antonyms": {
@@ -205,7 +211,68 @@ Each entry is plain JSON and needs no code changes:
 }
 ```
 
-The seven reading passages share one lesson, stored under the key `_reading`.
+The seven reading passages share one primer, stored under the key `_reading`.
+
+### The lesson — `data/lessons.json`
+
+The long version: 18 lessons, 100 worked examples, 33 reference tables. Reached from the primer, from
+the nav, from `guide.html`, and from any weak bar on a diagnostic or practice-test report.
+
+Lessons are keyed by the **same topic strings as the question banks and the primers**. Nothing maps one
+to another, so nothing can drift out of step — a lesson finds its practice set, a practice page finds
+its lesson, and a score report finds both. A topic with no lesson silently falls back to a practice
+link. `order` at the top of the file sets the index sequence and the previous/next links.
+
+```json
+"Antonyms": {
+  "title": "Antonyms",
+  "sectionLabel": "Verbal Skills",
+  "weight": "About nine of the 60 Verbal Skills questions",
+  "oneLine": "Shown on the index card and as the lesson's opening line.",
+  "practiceTopic": "Antonyms",
+  "blocks": [ ... ]
+}
+```
+
+Blocks are one of seven types, rendered by `block()` in `learn.html`:
+
+| type | fields | notes |
+|---|---|---|
+| `p` | `text` | paragraph |
+| `h` | `text` | subheading |
+| `ul` / `ol` | `items` | bullets, numbered steps |
+| `table` | `head`, `rows` | scrolls sideways on a phone |
+| `note` | `text` | the red-bordered box — one per lesson, for the thing that matters most |
+| `example` | `stem`, `options`, `answer`, `walkthrough` | working hidden behind a button |
+
+`answer` is a zero-based index, same as the banks. `<b>`, `<i>` and `<code>` are allowed in any text
+field and are rendered as written — **lesson prose is trusted content, so anything pasted in from
+elsewhere must be escaped by hand.** Maths uses `\(` and `\)`, the same delimiters as the banks.
+
+A lesson may set `practiceTopic: null` and `practiceHref` instead, which is how the reading lesson
+points at the section rather than one topic. Reading *practice* topics are passage slugs, so
+`lessonTopicFor()` in `app.js` maps any of them to the one Reading Comprehension lesson.
+
+### Keeping the two in step
+
+They are separate files written at different times, so they can contradict each other, and they have.
+A pass in September 2026 found 12 places where they did — opposite reading orders, a quotation rule
+stated wrongly in the primer, a lesson denying the existence of item types its own drill set contains.
+All are fixed in `build/patch_reconcile.py`. **If you edit one layer, read the other.**
+
+### Where the lessons came from
+
+Written from scratch. The commercial books — Peterson's and McGraw-Hill — are reference-only and none
+of their text, examples or exercises appear here. That is measured, not asserted:
+`build/check_provenance.py` shingles every string in the lessons, the primers, all four banks and the
+vocabulary list against the full text of the source chapters. The last run found **no shared phrase of
+12 words or more anywhere**. The only shorter matches are the test's own standard prompts, such as
+*Which word does not belong with the others?*, which are nobody's protected expression.
+
+Verbatim matching is necessary and not sufficient — a separate structural review caught an analogy
+category table that used the publisher's own labels and two classification items that were near
+variants of published ones, all original word for word. **Run both checks on new content: the script,
+and a person asking whether it is derivative in shape.**
 
 ## How the banks were built
 

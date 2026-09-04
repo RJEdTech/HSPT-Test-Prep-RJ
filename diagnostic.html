@@ -146,7 +146,7 @@ async function start() {
   });
 }
 
-function showResults(res) {
+async function showResults(res) {
   $('#quiz').classList.add('hide');
   $('#done').classList.remove('hide');
   window.scrollTo(0, 0);
@@ -159,6 +159,8 @@ function showResults(res) {
   Object.keys(HSPT.SECTIONS).forEach(k => secLabels[k] = HSPT.SECTIONS[k].label);
   $('#pacebox').innerHTML = HSPT.paceReport(
     { ...res, perQuestion: res.seconds / res.total }, LIMIT / TOTAL_Q, 'this mix of sections');
+  // Load the lesson bank first so a weak topic can link to its lesson as well as its drill.
+  try { await HSPT.lessons(); } catch (e) { /* the report still works without them */ }
   $('#secbars').innerHTML = HSPT.bars(res.bySection, secLabels);
   $('#topicbars').innerHTML = HSPT.bars(res.byTopic, {}, true);
 

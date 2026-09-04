@@ -176,7 +176,7 @@ $('#bnext').addEventListener('click', () => {
   });
 });
 
-function finishAll() {
+async function finishAll() {
   $('#quiz').classList.add('hide');
   $('#between').classList.add('hide');
   $('#done').classList.remove('hide');
@@ -199,6 +199,8 @@ function finishAll() {
 
   const secLabels = {};
   Object.keys(HSPT.SECTIONS).forEach(k => secLabels[k] = HSPT.SECTIONS[k].label);
+  // Load the lesson bank first so a weak topic can link to its lesson as well as its drill.
+  try { await HSPT.lessons(); } catch (e) { /* the report still works without them */ }
   $('#secbars').innerHTML = HSPT.bars(bySection, secLabels);
   $('#topicbars').innerHTML = HSPT.bars(byTopic, {}, true);
 
