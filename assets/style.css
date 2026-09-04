@@ -1,23 +1,27 @@
-/* HSPT Test Prep — Regis Jesuit High School */
+/* HSPT Test Prep — Regis Jesuit High School
+   Colours and type follow the RJHS Core Logo Usage Standards and Stylebook (v.08.2026).
+   Raider Red #C41130 and Jet #363636 are the official values; do not substitute. */
 
 :root {
-  --rj-red: #A6192E;
-  --rj-red-dark: #7d1322;
-  --rj-red-tint: #fdf2f3;
-  --ink: #16181d;
-  --ink-2: #3f444e;
-  --ink-3: #6b7280;
-  --line: #e3e5ea;
+  --rj-red: #C41130;          /* Raider Red — Pantone 187 C */
+  --rj-red-dark: #772330;     /* Red Accent — Pantone 188 C */
+  --rj-red-tint: #fdf1f3;
+  --ink: #363636;             /* Jet — the colour used on regisjesuit.com */
+  --ink-2: #55585c;
+  --ink-3: #7c8085;
+  --line: #D1D1D4;            /* Gray — Pantone 427 C */
+  --line-soft: #e6e6e9;
+  --slate: #394A59;           /* Charcoal Blue — Pantone 7546 C */
   --bg: #ffffff;
-  --bg-2: #f7f8fa;
+  --bg-2: #f6f6f7;
   --ok: #1a7f4b;
   --ok-tint: #eff8f2;
-  --no: #b3261e;
-  --no-tint: #fdf1f0;
+  --no: #C41130;
+  --no-tint: #fdf1f3;
   --radius: 10px;
   --wrap: 720px;
-  --serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
-  --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --serif: "Roboto Slab", Georgia, "Times New Roman", serif;
+  --sans: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
 }
 
 * { box-sizing: border-box; }
@@ -39,7 +43,7 @@ body {
 .wrap-wide { max-width: 940px; margin: 0 auto; padding: 0 20px; }
 
 header.site {
-  border-bottom: 1px solid var(--line);
+  border-bottom: 1px solid var(--line-soft);
   background: var(--bg);
   position: sticky;
   top: 0;
@@ -50,11 +54,17 @@ header.site .inner {
   display: flex; align-items: center; gap: 14px; flex-wrap: wrap;
 }
 header.site .mark {
-  font-family: var(--serif);
-  font-weight: 700; font-size: 19px; letter-spacing: -0.01em;
-  color: var(--rj-red); text-decoration: none; white-space: nowrap;
+  display: flex; align-items: center; gap: 12px;
+  text-decoration: none; color: inherit; white-space: nowrap;
 }
-header.site .mark span { color: var(--ink-3); font-weight: 400; }
+/* Official horizontal logo. Minimum 1.0in wide / 0.5in high per the standards;
+   96px is comfortably above that at typical screen density. */
+header.site .mark img { height: 40px; width: auto; display: block; }
+header.site .mark .lockup-text {
+  font-family: var(--serif); font-weight: 700; font-size: 17px;
+  letter-spacing: -0.01em; color: var(--ink);
+  border-left: 1px solid var(--line); padding-left: 12px;
+}
 header.site nav { margin-left: auto; display: flex; gap: 4px; flex-wrap: wrap; }
 header.site nav a {
   color: var(--ink-2); text-decoration: none; font-size: 15px;
@@ -66,22 +76,31 @@ header.site nav a[aria-current="page"] { color: var(--rj-red); font-weight: 600;
 main { padding: 40px 0 80px; }
 
 footer.site {
-  border-top: 1px solid var(--line);
-  padding: 28px 0 48px;
+  border-top: 3px solid var(--rj-red);
+  margin-top: 60px;
+  padding: 30px 0 56px;
   color: var(--ink-3); font-size: 14px;
+  background: var(--bg-2);
 }
 footer.site a { color: var(--ink-2); }
+footer.site .crest { height: 54px; width: auto; display: block; margin-bottom: 16px; }
+footer.site .policy {
+  font-size: 12.5px; line-height: 1.55; color: var(--ink-3);
+  border-top: 1px solid var(--line); margin-top: 20px; padding-top: 16px;
+}
+footer.site .policy p { margin: 0 0 8px; }
+footer.site .policy p:last-child { margin: 0; }
 
 /* ---------- type ---------- */
 
 h1 {
-  font-family: var(--serif);
+  font-family: var(--serif); font-weight: 700;
   font-size: clamp(30px, 5vw, 40px);
   line-height: 1.15; letter-spacing: -0.02em;
   margin: 0 0 14px;
 }
 h2 {
-  font-family: var(--serif);
+  font-family: var(--serif); font-weight: 700;
   font-size: 25px; line-height: 1.25; letter-spacing: -0.01em;
   margin: 44px 0 12px;
 }
@@ -114,8 +133,10 @@ code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 0
 /* ---------- cards ---------- */
 
 .cards { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); margin: 24px 0; }
+/* Four entry cards read better as a 2x2 block than as 3 + 1. */
+.cards.two { grid-template-columns: repeat(auto-fit, minmax(330px, 1fr)); }
 .card {
-  border: 1px solid var(--line); border-radius: var(--radius);
+  border: 1px solid var(--line-soft); border-radius: var(--radius);
   padding: 20px; text-decoration: none; color: inherit; display: block;
   background: var(--bg); transition: border-color .12s ease, transform .12s ease;
 }
@@ -134,7 +155,7 @@ a.card:hover { border-color: var(--rj-red); transform: translateY(-1px); }
 
 .table-scroll { overflow-x: auto; margin: 20px 0; }
 table { border-collapse: collapse; width: 100%; font-size: 15px; }
-th, td { text-align: left; padding: 9px 12px; border-bottom: 1px solid var(--line); }
+th, td { text-align: left; padding: 9px 12px; border-bottom: 1px solid var(--line-soft); }
 th { font-weight: 600; color: var(--ink-2); font-size: 13px; text-transform: uppercase; letter-spacing: .04em; }
 td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
 
@@ -171,7 +192,7 @@ td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
 .choice {
   display: flex; gap: 12px; align-items: flex-start; width: 100%; text-align: left;
   font: inherit; font-size: 16.5px; padding: 13px 16px; cursor: pointer;
-  border: 1px solid var(--line); border-radius: 9px; background: var(--bg); color: var(--ink);
+  border: 1px solid var(--line-soft); border-radius: 9px; background: var(--bg); color: var(--ink);
   transition: border-color .1s ease, background .1s ease;
 }
 .choice:hover { border-color: var(--ink-3); background: var(--bg-2); }
