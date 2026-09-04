@@ -1,1 +1,943 @@
-
+{
+ "section": "math",
+ "questions": [
+  {
+   "id": "602f2ecacb",
+   "stem": "Which is greater? A) The area of a square with side length 5 cm B) The area of a rectangle with length 6 cm and width 4 cm",
+   "options": [
+    "A > B",
+    "B > A",
+    "A = B",
+    "Not enough information"
+   ],
+   "answer": 0,
+   "topic": "Mathematic Comparisons",
+   "source": "Math_Comparisons_Bank",
+   "explanation": "Square area = 5\u00b2 = 25 cm\u00b2. Rectangle area = 6 \u00d7 4 = 24 cm\u00b2. 25 > 24, so A is greater."
+  },
+  {
+   "id": "60d212d097",
+   "stem": "Examine A, B, and C. Find the best answer. A) 25% of 80 B) 40% of 50 C) 30% of 60",
+   "options": [
+    "A > B",
+    "A < B",
+    "A = B",
+    "A < C"
+   ],
+   "answer": 2,
+   "topic": "Mathematic Comparisons",
+   "source": "Math_Comparisons_Bank",
+   "explanation": "A) 25% of 80 = 20 B) 40% of 50 = 20 C) 30% of 60 = 18"
+  },
+  {
+   "id": "0a51003f3f",
+   "stem": "Compare the perimeter of a rectangle with length 8 cm and width 3 cm to a square with side length 6 cm.",
+   "options": [
+    "Rectangle's perimeter is greater",
+    "Square's perimeter is greater",
+    "They have equal perimeters",
+    "Rectangle's perimeter is twice the square's"
+   ],
+   "answer": 1,
+   "topic": "Mathematic Comparisons",
+   "source": "Math_Comparisons_Bank",
+   "explanation": "Square's perimeter is greater Rectangle perimeter = 2(8 + 3) = 22 cm. Square perimeter = 4 \u00d7 6 = 24 cm."
+  },
+  {
+   "id": "893bb5b80a",
+   "stem": "Examine A, B, and C. Then choose the best answer. A) \\(\\sqrt{64}+\\sqrt{36}\\) B) \\(\\sqrt{144}\\) C) \\(2\\sqrt{49}\\)",
+   "options": [
+    "A < B < C",
+    "A > C",
+    "A = B = C",
+    "A = C and A > B"
+   ],
+   "answer": 3,
+   "topic": "Mathematic Comparisons",
+   "source": "Math_Comparisons_Bank",
+   "explanation": "A) \\(\\sqrt{64}+\\sqrt{36}=8+6=14\\) B) \\(\\sqrt{144}=12\\) C) \\(2\\sqrt{49}=2\\left(7\\right)=14\\)"
+  },
+  {
+   "id": "d2679b4c50",
+   "stem": "What is the sum of four squared and three cubed?",
+   "options": [
+    "16",
+    "17",
+    "27",
+    "43"
+   ],
+   "answer": 3,
+   "topic": "Mathematic Comparisons",
+   "source": "Math_Comparisons_Bank",
+   "explanation": "\\(4^2+3^3=16+27=43\\)"
+  },
+  {
+   "id": "e6e5739deb",
+   "stem": "Examine A, B, and C. Choose the best answer. A. \\(3^4\\) B. \\(4^3\\) C. \\(3\\times4\\)",
+   "options": [
+    "A = C and B < A",
+    "A = B = C",
+    "C < B and B = A",
+    "C < B and B < A"
+   ],
+   "answer": 3,
+   "topic": "Mathematic Comparisons",
+   "source": "Math_Comparisons_Bank",
+   "explanation": "A. \\(3^4=81\\) B. \\(4^3=64\\) C. \\(3\\times4=12\\)"
+  },
+  {
+   "id": "d93f3aa195",
+   "stem": "Look at the series: D2, G10, J50, ... What term should come next?",
+   "options": [
+    "K500",
+    "L60",
+    "M250",
+    "M100"
+   ],
+   "answer": 2,
+   "topic": "Mathematic Comparisons",
+   "source": "Math_Comparisons_Bank",
+   "explanation": "The pattern is to skip two letters from the previous term and multiply the number of the previous term by 5."
+  },
+  {
+   "id": "e3b6e7b307",
+   "stem": "Examine A, B, and C. Choose the best answer. A. \\(6\\left(4+2\\right)\\) B. \\(\\left(4+2\\right)^2\\) C. \\(\\left(6\\times4\\right)+2\\)",
+   "options": [
+    "C is greater than B.",
+    "C is less than A and B.",
+    "A is less than B.",
+    "A, B, and C are all equal."
+   ],
+   "answer": 1,
+   "topic": "Mathematic Comparisons",
+   "source": "Math_Comparisons_Bank",
+   "explanation": "A. \\(6\\left(4+2\\right)=36\\) B. \\(\\left(4+2\\right)^2=36\\) C. \\(\\left(6\\times4\\right)+2=26\\)"
+  },
+  {
+   "id": "24be35e43f",
+   "stem": "Examine A, B, and C. Choose the best answer. A. \\(0.03\\times10^3\\) B. \\(0.003\\times10^4\\) C. \\(0.3\\times10^2\\)",
+   "options": [
+    "A = B = C",
+    "A < B < C",
+    "A = B and C > B",
+    "B > C and A > B"
+   ],
+   "answer": 0,
+   "topic": "Mathematic Comparisons",
+   "source": "Math_Comparisons_Bank",
+   "explanation": "A. \\(0.03\\times10^3=30\\) B. \\(0.003\\times10^4=30\\) C. \\(0.3\\times10^2=30\\)"
+  },
+  {
+   "id": "e689d572ee",
+   "stem": "Examine A, B, and C. Choose the best answer. A. \\(2\\div\\frac{1}{10}\\div5\\) B. \\(2\\div\\left(\\frac{1}{10}\\div5\\right)\\) C. \\(\\left(2\\div\\frac{1}{10}\\right)\\div5\\)",
+   "options": [
+    "A = B = C",
+    "A < B and B < C",
+    "A < C and C < B",
+    "A = C and A < B"
+   ],
+   "answer": 3,
+   "topic": "Mathematic Comparisons",
+   "source": "Math_Comparisons_Bank",
+   "explanation": "A. \\(2\\div\\frac{1}{10}\\div5=4\\) B. \\(2\\div\\left(\\frac{1}{10}\\div5\\right)=100\\) C. \\(\\left(2\\div\\frac{1}{10}\\right)\\div5=4\\)"
+  },
+  {
+   "id": "91e5b8dc53",
+   "stem": "19 inches is closest to",
+   "options": [
+    "1 foot",
+    "2 feet",
+    "3 feet",
+    "4 feet"
+   ],
+   "answer": 1,
+   "topic": "Math Principles",
+   "source": "Math_Principles_Bank",
+   "explanation": "12 inches = 1 foot 24 inches = 2 feet 19 inches is closer to 2 feet."
+  },
+  {
+   "id": "3ade558895",
+   "stem": "If x and y are two different numbers, then their average will always be",
+   "options": [
+    "greater than both x and y",
+    "smaller than both x and y",
+    "between x and y",
+    "equal to either x or y"
+   ],
+   "answer": 2,
+   "topic": "Math Principles",
+   "source": "Math_Principles_Bank",
+   "explanation": "The average of two different numbers is the number that falls exactly halfway between the two on a number line."
+  },
+  {
+   "id": "c3a852c63a",
+   "stem": "If there are 16 cups in 1 gallon, which expression shows the number of cups in \\(x\\) gallons",
+   "options": [
+    "\\(\\frac{x}{16}\\)",
+    "\\(x+16\\)",
+    "\\(x\\times16\\)",
+    "\\(x-16\\)"
+   ],
+   "answer": 2,
+   "topic": "Math Principles",
+   "source": "Math_Principles_Bank",
+   "explanation": "1 gallon contains 16 cups, so the number of gallons needs to be multiplied by 16 in order to determine the number of cups."
+  },
+  {
+   "id": "b96c98ab5d",
+   "stem": "How many integers are between \\(\\frac{33}{7}\\) and \\(8.001\\) ?",
+   "options": [
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "answer": 1,
+   "topic": "Math Principles",
+   "source": "Math_Principles_Bank",
+   "explanation": "\\(\\frac{33}{7}\\) is \\(4\\frac{5}{7}\\) ; so 5, 6, 7, and 8 are between \\(\\frac{33}{7}\\) and \\(8.001\\) ."
+  },
+  {
+   "id": "fb85295e23",
+   "stem": "As a fraction, \\(0.24\\) is",
+   "options": [
+    "\\(\\frac{24}{1,000}\\)",
+    "\\(\\frac{6}{25}\\)",
+    "\\(\\frac{1}{4}\\)",
+    "\\(\\frac{100}{24}\\)"
+   ],
+   "answer": 1,
+   "topic": "Math Principles",
+   "source": "Math_Principles_Bank",
+   "explanation": "The digits 2 and 4 end in the hundredths place, so \\(0.24=\\frac{24}{100}\\) . When simplified, \\(\\frac{24}{100}=\\frac{6}{25}\\) ."
+  },
+  {
+   "id": "86aef55eeb",
+   "stem": "Which of the following is true?",
+   "options": [
+    "\\(a\\div\\left(b+c\\right)=\\frac{a}{b}+\\frac{a}{c}\\)",
+    "\\(a\\left(x+b\\right)=ax+b\\)",
+    "\\(a\\left(x+b\\right)=a\\left(x\\right)+ab\\)",
+    "\\(a\\div b=b\\left(\\frac{1}{a}\\right)\\)"
+   ],
+   "answer": 2,
+   "topic": "Math Principles",
+   "source": "Math_Principles_Bank",
+   "explanation": "Answer choice C shows the correct use of the distributive property."
+  },
+  {
+   "id": "287caf4bb6",
+   "stem": "Find the median of the following list: 1, 2, 3, 9, 10",
+   "options": [
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "answer": 0,
+   "topic": "Math Principles",
+   "source": "Math_Principles_Bank",
+   "explanation": "If a sorted list contains an odd number of values, the median is the value that is exactly in the middle."
+  },
+  {
+   "id": "0630a2f1f7",
+   "stem": "A boy M years old has a brother six years older and a sister four years younger. The combined age of all three is",
+   "options": [
+    "M + 10",
+    "3M + 2",
+    "3M - 2",
+    "2M - 6"
+   ],
+   "answer": 1,
+   "topic": "Math Principles",
+   "source": "Math_Principles_Bank",
+   "explanation": "Boy: M Brother: M + 6 Sister: M - 4 Combined age: M + (M + 6) + (M - 4) = 3M + 2"
+  },
+  {
+   "id": "cc38ad0b72",
+   "stem": "Simplify: \\(3\\left(-2\\right)^3\\)",
+   "options": [
+    "-216",
+    "-24",
+    "-18",
+    "1"
+   ],
+   "answer": 1,
+   "topic": "Math Principles",
+   "source": "Math_Principles_Bank",
+   "explanation": "\\(3\\left(-2\\right)^3=3\\left(-8\\right)=-24\\)"
+  },
+  {
+   "id": "9241e3703d",
+   "stem": "The average of \\(-2,0,2\\) and \\(4\\) is",
+   "options": [
+    "0",
+    "1",
+    "2",
+    "4"
+   ],
+   "answer": 1,
+   "topic": "Math Principles",
+   "source": "Math_Principles_Bank",
+   "explanation": "The average of a list of numbers is the sum of the numbers divided by how many there are. \\(-2+0+2+4=4\\) \\(4\\div4=1\\)"
+  },
+  {
+   "id": "f5e8545dd6",
+   "stem": "The square root of 198 is between",
+   "options": [
+    "98 and 100",
+    "90 and 100",
+    "19 and 20",
+    "14 and 15"
+   ],
+   "answer": 3,
+   "topic": "Math Principles",
+   "source": "Math_Principles_Bank",
+   "explanation": "\\(14^2=196\\) and \\(15^2=225\\) Since \\(14^2"
+  },
+  {
+   "id": "1581b4aca2",
+   "stem": "If there is 20% chance of rain on a certain day, what is the percent chance that it will NOT rain that day?",
+   "options": [
+    "20%",
+    "40%",
+    "80%",
+    "90%"
+   ],
+   "answer": 2,
+   "topic": "Math Principles",
+   "source": "Math_Principles_Bank",
+   "explanation": "Percent is always out of 100, so \\(100\\%-20\\%=80\\%\\) ."
+  },
+  {
+   "id": "d7f065d573",
+   "stem": "To the nearest tenth, 63.594 is written",
+   "options": [
+    "63.5",
+    "63.6",
+    "63.59",
+    "64"
+   ],
+   "answer": 1,
+   "topic": "Math Principles",
+   "source": "Math_Principles_Bank",
+   "explanation": "Rounding to the nearest tenth is rounding to one decimal."
+  },
+  {
+   "id": "0dcaa52cee",
+   "stem": "Which of the following is a pair of reciprocals?",
+   "options": [
+    "\\(\\left(3,-3\\right)\\)",
+    "\\(\\left(2^3,3^2\\right)\\)",
+    "\\(\\left(3\\frac{1}{3},\\frac{3}{10}\\right)\\)",
+    "\\(\\left(0,1\\right)\\)"
+   ],
+   "answer": 2,
+   "topic": "Math Principles",
+   "source": "Math_Principles_Bank",
+   "explanation": "The reciprocal of a fraction is the fraction \"reversed\" or \"flipped.\" \\(3\\frac{1}{3}=\\frac{10}{3}\\) So \\(\\frac{10}{3}\\) and \\(\\frac{3}{10}\\) are reciprocals."
+  },
+  {
+   "id": "aa91723b67",
+   "stem": "What comes next in the sequence: 3, 6, 11, 18, 27, ___?",
+   "options": [
+    "36",
+    "38",
+    "40",
+    "42"
+   ],
+   "answer": 1,
+   "topic": "Patterns in Numbers",
+   "source": "Patterns_in_Numbers_Bank",
+   "explanation": "The pattern is +3, +5, +7, +9, so the next number is 27 + 11 = 38."
+  },
+  {
+   "id": "ec008066f4",
+   "stem": "In the pattern 1, 4, 9, 16, 25, what is the next number?",
+   "options": [
+    "30",
+    "36",
+    "49",
+    "64"
+   ],
+   "answer": 1,
+   "topic": "Patterns in Numbers",
+   "source": "Patterns_in_Numbers_Bank",
+   "explanation": "These are square numbers. 1\u00b2 = 1, 2\u00b2 = 4, 3\u00b2 = 9, etc. The next is 6\u00b2 = 36."
+  },
+  {
+   "id": "3065be21a8",
+   "stem": "What's the missing number: 2, 6, 12, 20, ___, 42?",
+   "options": [
+    "30",
+    "32",
+    "34",
+    "36"
+   ],
+   "answer": 0,
+   "topic": "Patterns in Numbers",
+   "source": "Patterns_in_Numbers_Bank",
+   "explanation": "The difference between each term increases by 2. 4, 6, 8, 10, 12. So 20 + 10 = 30."
+  },
+  {
+   "id": "daf147d2d5",
+   "stem": "Which number comes next: 1, 3, 6, 10, 15, ___?",
+   "options": [
+    "18",
+    "21",
+    "24",
+    "28"
+   ],
+   "answer": 1,
+   "topic": "Patterns in Numbers",
+   "source": "Patterns_in_Numbers_Bank",
+   "explanation": "The pattern adds consecutive integers: +2, +3, +4, +5, so next is +6. 15 + 6 = 21."
+  },
+  {
+   "id": "d07ee7a381",
+   "stem": "In the sequence 64, 32, 16, 8, what comes next?",
+   "options": [
+    "2",
+    "3",
+    "4",
+    "6"
+   ],
+   "answer": 2,
+   "topic": "Patterns in Numbers",
+   "source": "Patterns_in_Numbers_Bank",
+   "explanation": "Each number is half of the previous one. So 8 \u00f7 2 = 4."
+  },
+  {
+   "id": "15255b8b54",
+   "stem": "What's the next number: 2, 3, 5, 8, 12, ___?",
+   "options": [
+    "15",
+    "17",
+    "19",
+    "21"
+   ],
+   "answer": 1,
+   "topic": "Patterns in Numbers",
+   "source": "Patterns_in_Numbers_Bank",
+   "explanation": "The differences are increasing by 1 each time: +1, +2, +3, +4, so next is +5. 12 + 5 = 17."
+  },
+  {
+   "id": "52c5fed16e",
+   "stem": "Find the missing term: 1, 2, 4, 8, 16, ___, 64",
+   "options": [
+    "24",
+    "28",
+    "32",
+    "36"
+   ],
+   "answer": 2,
+   "topic": "Patterns in Numbers",
+   "source": "Patterns_in_Numbers_Bank",
+   "explanation": "Each number is doubling. 16 \u00d7 2 = 32."
+  },
+  {
+   "id": "942ad2b817",
+   "stem": "What number continues the pattern: 5, 10, 20, 35, ___?",
+   "options": [
+    "45",
+    "50",
+    "55",
+    "60"
+   ],
+   "answer": 2,
+   "topic": "Patterns in Numbers",
+   "source": "Patterns_in_Numbers_Bank",
+   "explanation": "The pattern is +5, +10, +15, so the next step is +20. 35 + 20 = 55."
+  },
+  {
+   "id": "b09fbec010",
+   "stem": "In the sequence 1, 4, 13, 40, what comes next?",
+   "options": [
+    "81",
+    "105",
+    "121",
+    "145"
+   ],
+   "answer": 2,
+   "topic": "Patterns in Numbers",
+   "source": "Patterns_in_Numbers_Bank",
+   "explanation": "Multiply by 3 and add 1. (40 \u00d7 3) + 1 = 121."
+  },
+  {
+   "id": "61a25138f3",
+   "stem": "What is the next number in the sequence: 2, 5, 11, 23, 47, ___?",
+   "options": [
+    "85",
+    "91",
+    "95",
+    "97"
+   ],
+   "answer": 2,
+   "topic": "Patterns in Numbers",
+   "source": "Patterns_in_Numbers_Bank",
+   "explanation": "Each term is found by doubling the previous term and adding 1. 2 \u00d7 2 + 1 = 5 5 \u00d7 2 + 1 = 11 11 \u00d7 2 + 1 = 23 23 \u00d7 2 + 1 = 47 47 \u00d7 2 + 1 = 95"
+  },
+  {
+   "id": "8235fc651f",
+   "stem": "Mr. Allen paid $542.40 for his telephone bills last year. How much did he pay, on average, per month?",
+   "options": [
+    "$45.20",
+    "$46.20",
+    "$54.20",
+    "$55.20"
+   ],
+   "answer": 0,
+   "topic": "Problem Solving",
+   "source": "Problem_Solving_Bank",
+   "explanation": "\\(542.40\\div12=45.20\\)"
+  },
+  {
+   "id": "7af85731b9",
+   "stem": "If \\(-5+4x=21\\) , \\(x=\\)",
+   "options": [
+    "4",
+    "5.75",
+    "6.5",
+    "8.5"
+   ],
+   "answer": 2,
+   "topic": "Problem Solving",
+   "source": "Problem_Solving_Bank",
+   "explanation": "\\(-5+4x=21\\) \\(4x=21+5\\) \\(4x=26\\) \\(x=\\frac{26}{4}\\) \\(x=6.5\\)"
+  },
+  {
+   "id": "21b64be6ef",
+   "stem": "If N% of 60 is 24, N =",
+   "options": [
+    "40",
+    "84",
+    "125",
+    "150"
+   ],
+   "answer": 0,
+   "topic": "Problem Solving",
+   "source": "Problem_Solving_Bank",
+   "explanation": "\\(N\\%\\times60=24\\) \\(N\\%=\\frac{24}{60}\\) \\(N\\%=\\frac{2}{5}\\) \\(N\\%=0.4\\) \\(N\\%=40\\)"
+  },
+  {
+   "id": "ff78944f88",
+   "stem": "Solve: If \\(\\sqrt{x+36}=10\\) , then \\(x=\\)",
+   "options": [
+    "64",
+    "56",
+    "-16",
+    "-4"
+   ],
+   "answer": 0,
+   "topic": "Problem Solving",
+   "source": "Problem_Solving_Bank",
+   "explanation": "\\(\\sqrt{x+36}=10\\) \\((\\sqrt{x+36})^2=10^2\\) \\(x+36=100\\) \\(x=100-36\\) \\(x=64\\)"
+  },
+  {
+   "id": "02ce4ba9bf",
+   "stem": "A basket contains 2 red balls and 3 green balls. If a person reaches in without looking and randomly chooses one of the balls, what is the probability that the ball chosen is red?",
+   "options": [
+    "\\(\\frac{1}{5}\\)",
+    "\\(\\frac{1}{4}\\)",
+    "\\(\\frac{2}{5}\\)",
+    "\\(\\frac{3}{4}\\)"
+   ],
+   "answer": 2,
+   "topic": "Problem Solving",
+   "source": "Problem_Solving_Bank",
+   "explanation": "The probability that a red ball is chosen is equal to the number of red balls divided the total number of balls."
+  },
+  {
+   "id": "050f940383",
+   "stem": "If Katie is half of her brother's age, and her brother is 10 years old, in how many years will Katie be 12 years old?",
+   "options": [
+    "5",
+    "7",
+    "10",
+    "12"
+   ],
+   "answer": 1,
+   "topic": "Problem Solving",
+   "source": "Problem_Solving_Bank",
+   "explanation": "Since her brother is 10 years old, Katie is 5 years old. She will be 12 years old in 7 years ( \\(5+7=12\\) )."
+  },
+  {
+   "id": "055651ee99",
+   "stem": "A movie ticket normally costs $12, but there is a 25% discount on Wednesday afternoons. How much do 3 movie tickets cost on Wednesday afternoon?",
+   "options": [
+    "$12",
+    "$27",
+    "$31",
+    "$48"
+   ],
+   "answer": 1,
+   "topic": "Problem Solving",
+   "source": "Problem_Solving_Bank",
+   "explanation": "25% of $12 is $3, so the discounted price of each ticket is $9 ($12 - $3). $9 x 3 = $27"
+  },
+  {
+   "id": "05dd20949f",
+   "stem": "The average of 10 and what other number is equal to 18?",
+   "options": [
+    "10",
+    "18",
+    "20",
+    "26"
+   ],
+   "answer": 3,
+   "topic": "Problem Solving",
+   "source": "Problem_Solving_Bank",
+   "explanation": "The average of two number is half of their sum. If the average of two numbers is 18, their sum must be 36. If one number is 10, then the other must be 26."
+  },
+  {
+   "id": "8a9b373079",
+   "stem": "If Bennett can mow a lawn in \\(x\\) hours, what part of the lawn can he mow in 2 hours?",
+   "options": [
+    "\\(\\frac{2}{x}\\)",
+    "\\(\\frac{x}{2}\\)",
+    "\\(\\frac{1}{2}\\)",
+    "\\(\\frac{1}{x}\\)"
+   ],
+   "answer": 0,
+   "topic": "Problem Solving",
+   "source": "Problem_Solving_Bank",
+   "explanation": "This question can be solved using proportional reasoning. The relationship between part of the lawn and the whole lawn is the same as the relationship between the time it takes to mow part of the lawn and the time it takes to mow the whole lawn."
+  },
+  {
+   "id": "4600734e17",
+   "stem": "Casey has $10 less than four times the amount Sam has. If Casey has $88, how much does Sam have?",
+   "options": [
+    "$48",
+    "$24.50",
+    "$22",
+    "$16"
+   ],
+   "answer": 1,
+   "topic": "Problem Solving",
+   "source": "Problem_Solving_Bank",
+   "explanation": "Step 1: Add $10 to the amount Casey has, so $88 + $10 = $98 Step 2: Divide by 4, $98 \\(\\div\\) 4 = $24.50."
+  },
+  {
+   "id": "d43a2067de",
+   "stem": "The formula \\(F=\\frac{9}{5}C+32\\) converts temperature from Centigrade to Fahrenheit. What is the Fahrenheit temperature for \\(85^{\\circ}\\) Centigrade?",
+   "options": [
+    "\\(192^{\\circ}\\)",
+    "\\(185^{\\circ}\\)",
+    "\\(175^{\\circ}\\)",
+    "\\(130^{\\circ}\\)"
+   ],
+   "answer": 1,
+   "topic": "Problem Solving",
+   "source": "Problem_Solving_Bank",
+   "explanation": "\\(F=\\frac{9}{5}\\left(85\\right)+32=9\\left(17\\right)+32=153+32=185\\)"
+  },
+  {
+   "id": "4fc1319593",
+   "stem": "If the 5% sales tax on a snowmobile was $42, what was the price of the snowmobile not including the tax?",
+   "options": [
+    "$640",
+    "$680",
+    "$820",
+    "$840"
+   ],
+   "answer": 3,
+   "topic": "Problem Solving",
+   "source": "Problem_Solving_Bank",
+   "explanation": "Let \\(p=\\) price of the snowmobile before tax \\(0.05p=42\\) \\(p=42\\div0.05\\) \\(p=840\\)"
+  },
+  {
+   "id": "5c725a8eb4",
+   "stem": "If a flagpole has a shadow 56 feet long when a 6-foot man's shadow is 14 feet long, what is the height of the flagpole?",
+   "options": [
+    "20 feet",
+    "24 feet",
+    "28 feet",
+    "32 feet"
+   ],
+   "answer": 1,
+   "topic": "Problem Solving",
+   "source": "Problem_Solving_Bank",
+   "explanation": "The problem is solved using ratios. \\(\\frac{6}{14}=\\frac{x}{56}\\) \\(6\\left(56\\right)=14\\left(x\\right)\\) \\(336=14x\\) \\(x=\\frac{336}{14}\\) \\(x=24\\)"
+  },
+  {
+   "id": "5816536eb4",
+   "stem": "If the perimeter of a rectangular region is 50 units, and the length of one side is 7 units, what is the area of the rectangular region?",
+   "options": [
+    "124 square units",
+    "126 square units",
+    "252 square units",
+    "291 square units"
+   ],
+   "answer": 1,
+   "topic": "Problem Solving",
+   "source": "Problem_Solving_Bank",
+   "explanation": "First solve for the width of the rectangular region using the given information. Perimeter = \\(2\\left(length\\right)+2\\left(width\\right)\\) \\(50=2\\left(7\\right)+2\\left(width\\right)\\) \\(50=14+2\\left(width\\right)\\) \\(36=2\\left(width\\right)\\) \\(width=18\\) Now, find the area of the rectangular region. Area = \\(length\\times width\\) Area = \\(7\\times18=126\\)"
+  },
+  {
+   "id": "fd913c1768",
+   "stem": "If 18 is added to an integer, and the result is \\(\\frac{5}{4}\\) of the integer, what is the integer?",
+   "options": [
+    "-18",
+    "24",
+    "36",
+    "72"
+   ],
+   "answer": 3,
+   "topic": "Problem Solving",
+   "source": "Problem_Solving_Bank",
+   "explanation": "Let \\(x\\) be the unknown integer, and solve the following: \\(18+x=\\frac{5}{4}x\\) \\(18=\\frac{5}{4}x-x\\) \\(18=\\frac{5}{4}x-\\frac{4}{4}x\\) \\(18=\\frac{1}{4}x\\) \\(4\\cdot18=4\\cdot\\frac{1}{4}x\\) \\(x=72\\)"
+  },
+  {
+   "id": "7ce8eb83f9",
+   "stem": "Complete the proportion: \\(\\frac{5}{20}=\\frac{\\left(\\frac{1}{3}\\right)}{x}\\)",
+   "options": [
+    "\\(\\frac{1}{4}\\)",
+    "\\(\\frac{3}{4}\\)",
+    "\\(\\frac{4}{3}\\)",
+    "\\(4\\)"
+   ],
+   "answer": 2,
+   "topic": "Skills Check 4: Mathematic Skills",
+   "source": "Skills_Check_Mathematics_Bank",
+   "explanation": "\\(\\frac{5}{20}=\\frac{\\left(\\frac{1}{3}\\right)}{x}\\) \\(\\frac{1}{4}=\\frac{\\left(\\frac{1}{3}\\right)}{x}\\) \\(\\frac{1}{4}x=\\frac{1}{3}\\) \\(4\\cdot\\frac{1}{4}x=\\frac{1}{3}\\cdot4\\) \\(x=\\frac{4}{3}\\)"
+  },
+  {
+   "id": "2a65813ef5",
+   "stem": "The ratio of bathrooms to bedrooms in a mansion is \\(2:3\\) . If there are 18 bedrooms, how many bathrooms are there?",
+   "options": [
+    "9",
+    "12",
+    "15",
+    "21"
+   ],
+   "answer": 1,
+   "topic": "Skills Check 4: Mathematic Skills",
+   "source": "Skills_Check_Mathematics_Bank",
+   "explanation": "Set up a proportion to solve for the number of bathrooms. \\(\\frac{2}{3}=\\frac{x}{18}\\) Cross-multiply to solve. \\(18\\cdot2=3\\cdot x\\) \\(36=3x\\) Solve for \\(x\\) . \\(x=12\\)"
+  },
+  {
+   "id": "f9467de33b",
+   "stem": "In the following expression, what is \"3\" called? \\(\\left(3x+1\\right)\\left(x+2\\right)\\)",
+   "options": [
+    "Coefficient",
+    "Variable",
+    "Expression",
+    "Factor"
+   ],
+   "answer": 0,
+   "topic": "Skills Check 4: Mathematic Skills",
+   "source": "Skills_Check_Mathematics_Bank",
+   "explanation": "A number in front of a variable is called a coefficient."
+  },
+  {
+   "id": "acedd1d085",
+   "stem": "A dog's toy box contains 4 tennis balls, five stuffed animals, three chew bones, and one rope. What is the probability that a dog chooses a tennis ball from the toy box?",
+   "options": [
+    "\\(\\frac{1}{13}\\)",
+    "\\(\\frac{9}{13}\\)",
+    "\\(\\frac{4}{13}\\)",
+    "\\(\\frac{5}{13}\\)"
+   ],
+   "answer": 2,
+   "topic": "Skills Check 4: Mathematic Skills",
+   "source": "Skills_Check_Mathematics_Bank",
+   "explanation": "There are 13 toys total, and 4 of them are tennis balls. The probability of a dog selecting a tennis ball is \\(\\frac{4}{13}\\) ."
+  },
+  {
+   "id": "4c851be245",
+   "stem": "Which of these statements is false",
+   "options": [
+    "\\(\\frac{10+4}{2}=\\frac{10}{2}+4\\)",
+    "\\(\\left(4+6\\right)-2=4+\\left(6-2\\right)\\)",
+    "\\(\\frac{3\\times7}{4\\times5}=\\frac{3}{4}\\times\\frac{7}{5}\\)",
+    "\\(5\\left(8-2\\right)=5\\left(8\\right)-5\\left(2\\right)\\)"
+   ],
+   "answer": 0,
+   "topic": "Skills Check 4: Mathematic Skills",
+   "source": "Skills_Check_Mathematics_Bank",
+   "explanation": "You must divide both numbers in the numerator by 2 when splitting into two fractions."
+  },
+  {
+   "id": "7ff1e0b85b",
+   "stem": "What is the median of this data set? \\(5,0,0,10,20\\)",
+   "options": [
+    "0",
+    "5",
+    "7",
+    "20"
+   ],
+   "answer": 1,
+   "topic": "Skills Check 4: Mathematic Skills",
+   "source": "Skills_Check_Mathematics_Bank",
+   "explanation": "First the data in increasing order: \\(0,0,5,10,20\\) The median is the value in the middle, \\(5\\) ."
+  },
+  {
+   "id": "92f99f5115",
+   "stem": "Simplify: \\(12-3\\times3-1\\)",
+   "options": [
+    "2",
+    "3",
+    "18",
+    "26"
+   ],
+   "answer": 0,
+   "topic": "Skills Check 4: Mathematic Skills",
+   "source": "Skills_Check_Mathematics_Bank",
+   "explanation": "To simplify, use the order of operations: \\(12-3\\times3-1=12-9-1=3-1=2\\)"
+  },
+  {
+   "id": "7f32e99217",
+   "stem": "If \\(a=-1,b=-\\frac{1}{2},\\) and \\(c=-2\\) , what is the value of \\(c\\left(a-b\\right)^2?\\)",
+   "options": [
+    "\\(-1\\)",
+    "\\(-\\frac{1}{2}\\)",
+    "\\(\\frac{1}{2}\\)",
+    "\\(1\\)"
+   ],
+   "answer": 1,
+   "topic": "Skills Check 4: Mathematic Skills",
+   "source": "Skills_Check_Mathematics_Bank",
+   "explanation": "\\(-2(-1-\\left(-\\frac{1}{2}\\right))^2=-2\\left(-\\frac{1}{2}\\right)^2=-2\\left(\\frac{1}{4}\\right)=-\\frac{1}{2}\\)"
+  },
+  {
+   "id": "17c09b9283",
+   "stem": "The square root of 141 is between",
+   "options": [
+    "11 and 12.",
+    "20 and 22.",
+    "41 and 100.",
+    "70 and 71."
+   ],
+   "answer": 0,
+   "topic": "Skills Check 4: Mathematic Skills",
+   "source": "Skills_Check_Mathematics_Bank",
+   "explanation": "Since \\(121"
+  },
+  {
+   "id": "1c29078868",
+   "stem": "Look at this series: QXR SXT UXV ___ YXZ. What letter group should fill the blank in the middle of the series?",
+   "options": [
+    "WXV",
+    "WXZ",
+    "WXX",
+    "WXY"
+   ],
+   "answer": 2,
+   "topic": "Skills Check 2: Quantitative Skills",
+   "source": "Skills_Check_Quantitative_Bank",
+   "explanation": "Beginning with the letter Q, this series contains the letters of the alphabet in alphabetical order. The letter X appears in the middle of each set of three letters."
+  },
+  {
+   "id": "a90e3bb78b",
+   "stem": "What number is twice \\(\\frac{2}{3}\\) of 24?",
+   "options": [
+    "8",
+    "16",
+    "18",
+    "32"
+   ],
+   "answer": 3,
+   "topic": "Skills Check 2: Quantitative Skills",
+   "source": "Skills_Check_Quantitative_Bank",
+   "explanation": "Look for key terms such as twice or double that indicate you will need to multiply a quantity by 2. \\(2\\left(\\frac{2}{3}\\cdot24\\right)=2\\cdot\\left(16\\right)=32\\)"
+  },
+  {
+   "id": "a5a165994d",
+   "stem": "Examine A, B, and C. Choose the best answer. A. \\(\\left(7-3\\right)^2\\) B. \\(7^2-3^2\\) C. \\(\\left(3-7\\right)^2\\)",
+   "options": [
+    "A = B and C < A",
+    "A = B = C",
+    "A = C and A < B",
+    "C < A < B"
+   ],
+   "answer": 2,
+   "topic": "Skills Check 2: Quantitative Skills",
+   "source": "Skills_Check_Quantitative_Bank",
+   "explanation": "A. \\(\\left(7-3\\right)^2=16\\) B. \\(7^2-3^2=40\\) C. \\(\\left(3-7\\right)^2=16\\)"
+  },
+  {
+   "id": "fb81e2d700",
+   "stem": "Square MNOP has its vertices labelled in order, so that $\\overline{MO}$ is a diagonal. Choose the best answer.",
+   "options": [
+    "\\(\\overline{MN}\\) is equal to \\(\\overline{MO}\\) .",
+    "\\(\\overline{MO}\\) minus \\(\\overline{MN}\\) is equal to \\(\\overline{ON}\\) .",
+    "\\(\\angle OMP\\) is greater than \\(\\angle ONM\\) .",
+    "\\(\\overline{MO}\\) is greater than \\(\\overline{MP}\\) ."
+   ],
+   "answer": 3,
+   "topic": "Skills Check 2: Quantitative Skills",
+   "source": "Skills_Check_Quantitative_Bank",
+   "explanation": "\\(\\overline{MO}\\) creates two right triangles. The hypotenuse is always the longest side of a right triangle."
+  },
+  {
+   "id": "f0cd50c3e2",
+   "stem": "Examine A, B, and C. Choose the best answer. A. \\(6\\times10^2\\) B. \\(\\frac{6}{10}\\) C. \\(0.60\\)",
+   "options": [
+    "B is equal to C",
+    "A is less than B",
+    "C is greater than A and B",
+    "B is greater than A"
+   ],
+   "answer": 0,
+   "topic": "Skills Check 2: Quantitative Skills",
+   "source": "Skills_Check_Quantitative_Bank",
+   "explanation": "A. \\(6\\times10^2=600\\) B. \\(\\frac{6}{10}=0.60\\) C. \\(0.60\\)"
+  },
+  {
+   "id": "2c30cc9b0b",
+   "stem": "Examine A, B, and C. Choose the best answer. A. Four times the square of 4 B. Half the cube of 4 C. Twice the cube of 3",
+   "options": [
+    "A = B and B < C",
+    "A > C and C > B",
+    "C > B and B > A",
+    "A = B = C"
+   ],
+   "answer": 1,
+   "topic": "Skills Check 2: Quantitative Skills",
+   "source": "Skills_Check_Quantitative_Bank",
+   "explanation": "A. \\(4\\cdot4^2=64\\) (For times the square of 4) B. \\(\\frac{1}{2}\\left(4^3\\right)=\\frac{1}{2}\\left(64\\right)=32\\) (Half the cube of 4) C. \\(2\\cdot3^3=2\\cdot27=54\\) (Twice the cube of 3)"
+  },
+  {
+   "id": "938ed99e0d",
+   "stem": "Twice the sum of 4 and what number is the same as 4 times that number?",
+   "options": [
+    "2",
+    "4",
+    "6",
+    "8"
+   ],
+   "answer": 1,
+   "topic": "Skills Check 2: Quantitative Skills",
+   "source": "Skills_Check_Quantitative_Bank",
+   "explanation": "Let \\(n\\) be the number. \\(N\\) must satisfy the following equation: \\(2\\left(4+n\\right)=4n\\) Solve for \\(n\\) . \\(2\\left(4+n\\right)=4n\\) \\(8+2n=4n\\) \\(8=2n\\) \\(n=4\\)"
+  },
+  {
+   "id": "b09243a28d",
+   "stem": "Look at this series: 2, 4, 7, 14, 17, 34, ... What number should come next?",
+   "options": [
+    "35",
+    "36",
+    "37",
+    "39"
+   ],
+   "answer": 2,
+   "topic": "Skills Check 2: Quantitative Skills",
+   "source": "Skills_Check_Quantitative_Bank",
+   "explanation": "The pattern in this series is \\(\\times2,+3,\\times2,+3,\\ldots\\)"
+  },
+  {
+   "id": "b846d8b538",
+   "stem": "Look at this series: \\(\\frac{2}{27},\\frac{3}{4},\\frac{2}{9},\\frac{4}{5},\\frac{2}{3},\\frac{5}{6},\\ldots\\) What term should come next?",
+   "options": [
+    "\\(\\frac{6}{7}\\)",
+    "\\(\\frac{7}{8}\\)",
+    "\\(2\\)",
+    "6"
+   ],
+   "answer": 2,
+   "topic": "Skills Check 2: Quantitative Skills",
+   "source": "Skills_Check_Quantitative_Bank",
+   "explanation": "The 3rd and 5th terms are obtained by multiplying the previous term by 3. The 2nd, 4th, and 6th terms are obtained by adding 1 in the numerator and denominator of the previous term. The series asks for the 7th term, so you multiply \\(\\frac{2}{3}\\) by \\(3\\) to get \\(2.\\)"
+  }
+ ]
+}
