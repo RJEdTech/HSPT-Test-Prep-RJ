@@ -5,6 +5,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Practice by skill — HSPT Prep</title>
 <meta name="description" content="Drill one HSPT skill at a time — antonyms, analogies, verbal logic, punctuation, number patterns — with every answer explained.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto+Slab:wght@600;700&display=swap">
+<link rel="icon" href="images/rj-crest.png">
+<meta name="theme-color" content="#C41130">
 <link rel="stylesheet" href="assets/style.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.css">
 </head>
@@ -29,6 +34,13 @@
     <h1 id="sk-title"></h1>
     <p class="lede" id="sk-blurb"></p>
     <p class="muted" id="sk-meta"></p>
+
+    <h3>Pace</h3>
+    <div class="chooser" id="pace">
+      <button data-p="off" aria-pressed="true">Untimed</button>
+      <button data-p="on">At test pace</button>
+    </div>
+    <p class="small muted" id="pace-note"></p>
 
     <h3>How many questions</h3>
     <div class="chooser" id="counts">
@@ -56,6 +68,7 @@
       <button class="btn" id="again">Practise this again</button>
       <a class="btn plain" href="practice.html">Pick a different skill</a>
     </div>
+    <div id="pace-report"></div>
     <div id="nextup"></div>
     <h2>What you missed</h2>
     <div id="review"></div>
@@ -71,7 +84,7 @@ const $ = s => document.querySelector(s);
 
 const params = new URLSearchParams(location.search);
 const wantTopic = params.get('topic');
-let skill = null, pool = [], count = 10, passages = null;
+let skill = null, pool = [], count = 10, passages = null, timed = false;
 
 /* ---------- index of every skill ---------- */
 
@@ -116,17 +129,33 @@ async function showSkill(topic) {
     b.classList.toggle('hide', n !== 0 && n > pool.length);
   });
   if (count > pool.length) { count = 0; pressCount(); }
+  paceNote();
 
   showHistory();
   $('#setup').classList.remove('hide');
 }
+
+function paceNote() {
+  if (!skill) return;
+  const sp = HSPT.SECTIONS[skill.section].secsPerQ;
+  const n = count === 0 ? pool.length : Math.min(count, pool.length);
+  $('#pace-note').textContent = timed
+    ? `${sp} seconds a question — the real ${HSPT.SECTIONS[skill.section].label} allowance. ${n} questions in ${HSPT.fmtTime(sp * n)}.`
+    : `No limit. The clock still counts up, so you can see your own pace afterwards.`;
+}
+$('#pace').querySelectorAll('button').forEach(b => b.addEventListener('click', () => {
+  timed = b.dataset.p === 'on';
+  $('#pace').querySelectorAll('button')
+    .forEach(x => x.setAttribute('aria-pressed', String((x.dataset.p === 'on') === timed)));
+  paceNote();
+}));
 
 function pressCount() {
   $('#counts').querySelectorAll('button')
     .forEach(b => b.setAttribute('aria-pressed', String(Number(b.dataset.n) === count)));
 }
 $('#counts').querySelectorAll('button').forEach(b => b.addEventListener('click', () => {
-  count = Number(b.dataset.n); pressCount();
+  count = Number(b.dataset.n); pressCount(); paceNote();
 }));
 
 /* ---------- run ---------- */
@@ -150,7 +179,10 @@ function start() {
   window.scrollTo(0, 0);
 
   HSPT.run({
-    mount: $('#quiz'), questions: picked, mode: 'practice',
+    mount: $('#quiz'), questions: picked,
+    // Timed practice hides feedback until the end, the same as the real test.
+    mode: timed ? 'test' : 'practice',
+    seconds: timed ? HSPT.SECTIONS[skill.section].secsPerQ * picked.length : null,
     passages, label: skill.label, onDone: showResults
   });
 }
@@ -163,12 +195,14 @@ async function showResults(res) {
   const pct = Math.round((res.correct / res.total) * 100);
   $('#pct').textContent = pct + '%';
   $('#sub').textContent = `${res.correct} of ${res.total} correct · ${skill.label}`;
+  $('#pace-report').innerHTML =
+    HSPT.paceReport(res, HSPT.SECTIONS[skill.section].secsPerQ, HSPT.SECTIONS[skill.section].label);
   $('#review').innerHTML = HSPT.reviewList(res.answers, true);
   HSPT.typeset($('#review'));
 
   HSPT.saveResult('practice', {
     section: skill.section, topic: skill.topic, label: skill.label,
-    correct: res.correct, total: res.total
+    correct: res.correct, total: res.total, timed, seconds: res.seconds
   });
 
   // Suggest the next skill in the same section.

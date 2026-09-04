@@ -13,6 +13,52 @@ For a Regis Jesuit address instead, add a file named `CNAME` at the root contain
 for example `hspt.regisjesuit.com` — and ask whoever manages DNS for a CNAME record pointing that
 host at `rjedtech.github.io`.
 
+## Brand
+
+Colours and type follow the **RJHS Core Logo Usage Standards** and **Stylebook**, v.08.2026. Both are owned
+by Jessica Riles, Director of Marketing & Communications (jriles@regisjesuit.com, 303.269.8041) — new logo
+files, permissions and style questions go to her.
+
+| Token | Value | Source |
+|---|---|---|
+| `--rj-red` | `#C41130` | Raider Red, Pantone 187 C |
+| `--rj-red-dark` | `#772330` | Red Accent, Pantone 188 C |
+| `--ink` | `#363636` | Jet — the standards note this is the colour used on the website |
+| `--line` | `#D1D1D4` | Gray, Pantone 427 C |
+| `--slate` | `#394A59` | Charcoal Blue, Pantone 7546 C |
+
+Headings are **Roboto Slab**, body is **Lato**, both loaded from Google Fonts. The standards specify fonts
+for the marks only (Baker Signet for the logo, Zapfino for the motto) and codify no body typeface;
+these two match what regisjesuit.com renders, which is the defensible choice absent a published standard.
+
+### Logo rules that constrain this site
+
+- The official logo may be used on the website with essentially no restrictions.
+- On a coloured background the crest and flame **must be reversed to white**. Use `images/rj-logo-reversed.png`
+  if you ever put the lockup on a red panel — never the black-text version.
+- Do **not** pull elements out of the crest to use as decoration, and do not split the name from the crest.
+- Minimum size for the horizontal logo is 1.0in wide / 0.5in high. The header renders it at 40px tall, above that.
+- The full-colour logo and full-colour crest need permission from Marketing & Communications. The red/black
+  and reversed-white versions shipped here do not.
+
+### Required footer text
+
+The stylebook requires the non-discriminatory policy language in **all admissions materials**, per IRS rules
+for non-profits. This site is admissions material. That paragraph and the trademark line are rendered by
+`chrome()` in `assets/app.js` as the `POLICY` and `TRADEMARK` constants — **reproduced verbatim. Do not
+paraphrase, shorten or reformat them.**
+
+### House style applied to the copy
+
+- No serial comma — "bread, eggs and milk".
+- Numbers one to ten spelled out; numerals for 11 and above.
+- First reference "Regis Jesuit High School", then Regis Jesuit, RJ or RJHS. Never "Regis" alone.
+- "your student", not "your child".
+- Admissions Welcome Center / Admissions Office — not "Admissions Department".
+- Phone as 303.269.8000. Time as 9:00 am. Lowercase website, online, email, internet.
+
+If you add copy, apply the same rules.
+
 ## Layout
 
 ```
@@ -22,6 +68,7 @@ diagnostic.html    40 questions across all five sections, with a weak-area repor
 practice.html      skill index, and one practice set per skill via ?topic=
 mock.html          five-section timed practice test
 resources.html     outside resources, with the not-vetted disclaimer
+images/            official logos — see Brand below
 assets/style.css   all styling
 assets/app.js      shared quiz engine used by all three quiz pages
 data/*.json        the question banks
@@ -94,6 +141,21 @@ the data.
 `resources.html` lists third-party study sites. It carries a disclaimer that Regis Jesuit has not vetted
 them. **Click every link before publishing, and re-check them each year** — third-party sites move,
 go paid, or disappear, and a dead link on a school page reflects on the school.
+
+## Timing
+
+Every quiz page can run untimed or at real HSPT pace. The allowances live in `SECTIONS` at the top of
+`assets/app.js` as `secsPerQ`, derived from the real test — Verbal 16min/60Q = 16s, Quantitative 30/52 = 35s,
+Reading 25/62 = 24s, Mathematics 45/64 = 42s, Language 25/60 = 25s.
+
+- **Practice** defaults to untimed; timed mode also hides feedback until the end, since you cannot read an
+  explanation and keep to the clock at the same time.
+- **The diagnostic** defaults to timed, because an untimed diagnostic overstates what a student can do on
+  the day. Its limit is the sum of the per-section allowances for its exact question mix.
+- **The practice test** is always timed, per section.
+
+Every result — timed or not — reports actual seconds per question against the allowance, so a student can
+watch their margin change. Untimed runs still count up rather than hiding the clock.
 
 ## Adjusting the practice test
 
