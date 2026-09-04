@@ -1,0 +1,719 @@
+{
+  "Reading Comprehension": {
+    "title": "Reading Comprehension",
+    "sectionLabel": "Reading",
+    "weight": "40 of the 62 Reading questions — four passages, about 10 questions each",
+    "oneLine": "Four short non-fiction passages, each followed by about 10 questions about what the passage says, what it forces you to conclude and how it is built.",
+    "practiceTopic": null,
+    "practiceHref": "practice.html",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "The Reading section opens with four passages, each three to six paragraphs long and each followed by about 10 questions. The subjects are ordinary non-fiction — a piece of history, a natural process, a craft, a technology. Nothing is asked of you that the passage does not contain, and knowing a great deal about the topic can actually hurt you, because the test rewards only what is on the page."
+      },
+      {
+        "type": "p",
+        "text": "The questions come in a small number of recognizable shapes, and the two heaviest kinds are the easiest: <b>supporting detail</b>, which asks what the passage said, and <b>vocabulary in context</b>, which asks what one word meant where it stood. Both are lookups. Learn to do them quickly and accurately and you have most of the section."
+      },
+      {
+        "type": "h",
+        "text": "What the 62 questions cost you in time"
+      },
+      {
+        "type": "note",
+        "text": "You get 25 minutes for the whole Reading section. Budget five minutes for each passage and its questions — roughly 90 seconds to read and three and a half minutes to answer — and five minutes for the entire 22-question vocabulary block at the end. Four passages at five minutes plus five minutes of vocabulary is 25 minutes exactly. There is no slack in that budget. A passage you are still arguing with at the six-minute mark is not costing you that question; it is costing you questions on a passage you have not reached yet."
+      },
+      {
+        "type": "p",
+        "text": "Two things follow. You cannot afford to reread a passage from the top, and you cannot afford to leave the vocabulary block for the time left over, because there will not be any. Some students do the 22 vocabulary questions <i>first</i>, at about 13 seconds each, and give the passages the rest — a legitimate plan that protects the cheapest points on the page. Choose your order before test day, not during it."
+      },
+      {
+        "type": "h",
+        "text": "The question types, and how often each shows up"
+      },
+      {
+        "type": "table",
+        "head": [
+          "Question type",
+          "What the stem sounds like",
+          "How often"
+        ],
+        "rows": [
+          [
+            "Supporting detail",
+            "“According to the passage…”, “The passage states that…”",
+            "Two or three per passage"
+          ],
+          [
+            "Vocabulary in context",
+            "“The word <i>steady</i> in paragraph 2 most nearly means…”",
+            "One or two per passage"
+          ],
+          [
+            "Inference",
+            "“It can be inferred…”, “The passage suggests…”",
+            "One or two per passage"
+          ],
+          [
+            "Main idea or purpose",
+            "“The passage is mainly about…”, “The author’s main purpose is…”",
+            "Usually one per passage"
+          ],
+          [
+            "Author’s purpose for one detail",
+            "“Why does the author mention…?”",
+            "About one per passage"
+          ],
+          [
+            "Tone or attitude",
+            "“The author’s attitude toward… is best described as…”",
+            "Roughly every other passage"
+          ],
+          [
+            "Pronoun reference",
+            "“In the third paragraph, <i>they</i> refers to…”",
+            "Occasional"
+          ],
+          [
+            "Comparison inside the passage",
+            "“How did the older method differ from the newer one?”",
+            "Occasional"
+          ],
+          [
+            "Extending the passage",
+            "“The author would most likely agree that…”, “What probably happened next?”",
+            "Occasional"
+          ],
+          [
+            "Best title",
+            "“The best title for this passage is…”",
+            "Occasional"
+          ],
+          [
+            "Making the discussion clearer",
+            "“This discussion would be clearer if the author…”",
+            "One or two on the whole test"
+          ]
+        ]
+      },
+      {
+        "type": "h",
+        "text": "The method"
+      },
+      {
+        "type": "p",
+        "text": "Take the questions before the passage — the stems only, never the answer choices. You are not trying to remember them. You are building a short list of what to watch for, so that you notice those things going past."
+      },
+      {
+        "type": "ol",
+        "items": [
+          "<b>Skim the question stems.</b> Ten seconds. Note the two or three that name a specific word, person or number, because you already know you will have to go back and look those up.",
+          "<b>Read the passage once, straight through, at a steady pace.</b> Do not stop on a sentence you disliked, and do not try to memorize anything. You are reading for shape, not for storage.",
+          "<b>Give each paragraph a two-word job title as you pass it.</b> “The problem.” “How it worked.” “What changed.” That is your map for every question that follows, and it costs nothing.",
+          "<b>Answer in order, going back to the text for every detail question.</b> Looking is faster than being wrong. If a stem says “according to the passage”, that is an instruction to put your finger on a line.",
+          "<b>Before you fill in a bubble, find the line that supports it.</b> For a detail question the line says it outright. For an inference the line forces it. If you cannot find any line at all, you have not finished the question — you have guessed."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "That last step is the whole discipline of this section: <b>every correct answer can be defended by pointing at specific words in the passage.</b> Every one. If your reason is that a choice sounds right, it is not an answer yet."
+      },
+      {
+        "type": "h",
+        "text": "Main idea, and the true-but-narrow trap"
+      },
+      {
+        "type": "p",
+        "text": "The most common wrong answer in this whole section is a <i>true</i> statement. It is lifted accurately out of the passage, it is not disputable, and it is wrong — because it covers one paragraph when the question asked about four."
+      },
+      {
+        "type": "p",
+        "text": "Test these choices mechanically. Hold each one against each paragraph in turn and ask whether that paragraph is about this. The right answer is the only choice that survives all of them. A choice fails the same test from the other side if it promises material the passage never touches. Best-title questions are main-idea questions in a different hat — run the identical test."
+      },
+      {
+        "type": "h",
+        "text": "Passage A"
+      },
+      {
+        "type": "p",
+        "text": "For most of history, a coastline at night told a sailor almost nothing. Rocks, sandbars and the mouth of a safe harbor all looked identical from the deck of a ship, and a crew that guessed wrong seldom got a second chance. A lighthouse solved that problem in the simplest way available: it put a fixed, recognizable light exactly where the danger was. The light did not tell a captain where to steer. It told him where he was, and the steering was still his own decision."
+      },
+      {
+        "type": "p",
+        "text": "The answer created a new problem. A second light on the same stretch of coast is useless if a sailor cannot tell the two apart. Builders therefore gave every station a signature. Some lights turned, so an observer saw a regular flash; some burned steadily; some were shuttered on a fixed rhythm. Towers were painted in stripes, spirals or broad bands so that they could be told apart in daylight as well. Published lists recorded each pattern, and a navigator who knew the list could name the point of land he was passing."
+      },
+      {
+        "type": "p",
+        "text": "The light itself improved more slowly than the towers did. Early stations burned wood or coal in an open iron basket, which was bright but hopeless in weather. Oil lamps were steadier, although a plain lamp throws most of its light uselessly into the sky and the water. The lasting fix was optical rather than chemical: a ringed glass lens that bent stray light back into a single flat beam. The same flame, gathered this way, carried much farther, and the useful range of a station increased sharply."
+      },
+      {
+        "type": "p",
+        "text": "Nearly every station was automated during the twentieth century and the keepers went home. Satellite navigation now does most of what a lighthouse once did, and does it in fog, at any hour, for a receiver that fits in a pocket. Many towers survive anyway. A few are maintained as a backup for the day the satellites are unavailable; more are preserved because a community decided the building was worth keeping. The function has largely moved on. The landmark has not."
+      },
+      {
+        "type": "example",
+        "stem": "The passage is mainly about",
+        "options": [
+          "the invention of the lens that made lighthouses effective",
+          "the problem lighthouses were built to solve and what has become of them",
+          "the reasons satellite navigation replaced older methods of navigation",
+          "the difficulty of building towers on dangerous stretches of coastline"
+        ],
+        "answer": 1,
+        "walkthrough": "Run each choice past all four paragraphs. The lens is paragraph three only, and satellite navigation is paragraph four only — both are true, both are narrow, and both are the standard trap. Building towers is never discussed at all, so that choice is out for the opposite reason. Only the second choice describes paragraph one, paragraph two, paragraph three and paragraph four."
+      },
+      {
+        "type": "example",
+        "stem": "According to the passage, towers were painted in stripes and bands so that",
+        "options": [
+          "the paint would reflect sunlight and extend the light’s range",
+          "each station could be told apart during the day",
+          "sailors would know which stretches of coast were most dangerous",
+          "the pattern would match the rhythm at which the light was shuttered"
+        ],
+        "answer": 1,
+        "walkthrough": "This is a lookup, so look. Paragraph two says the towers were painted “so that they could be told apart in daylight as well”, and the choice restates that line almost exactly. Reflecting sunlight sounds like something paint might plausibly do in the world, but the passage never says it — that is the true-in-the-world trap. The last choice steals real words from the paragraph, shuttering and rhythm, and connects them to the wrong thing."
+      },
+      {
+        "type": "h",
+        "text": "Inference: what the passage forces, not what it allows"
+      },
+      {
+        "type": "p",
+        "text": "An inference question asks what <i>must</i> be true given the passage. The wrong answers are almost always reasonable. They fit the subject, they sound like something the author might have written and nothing in the passage rules them out — but nothing in the passage requires them either, and that is the only standard that counts."
+      },
+      {
+        "type": "p",
+        "text": "The working test is a sentence. Name the line that forces the choice. If your justification begins with “well, probably” or “it would make sense that”, you are looking at the trap. Notice how close this is to a detail question: a detail is stated outright, an inference is one short step from something stated. One step. Not three."
+      },
+      {
+        "type": "h",
+        "text": "Tone: start at neutral and make the passage argue you out of it"
+      },
+      {
+        "type": "p",
+        "text": "Most passages on this test are written to inform; the author explains something and stays out of the way. Students lose tone questions by hearing more feeling than is there. A passage that describes a problem is not therefore angry, and one that describes an achievement is not therefore enthusiastic. Choose a strong tone word only when you can quote the words that carry it."
+      },
+      {
+        "type": "table",
+        "head": [
+          "Tone word",
+          "What it claims",
+          "What the passage must actually contain"
+        ],
+        "rows": [
+          [
+            "Informative, objective",
+            "The author is explaining, not judging",
+            "Plain statements and few loaded adjectives. This is the default and it is usually right."
+          ],
+          [
+            "Appreciative, admiring",
+            "The author thinks the subject is worth admiring",
+            "Real praise — words like patient, careful, ingenious, remarkable"
+          ],
+          [
+            "Critical",
+            "The author thinks the subject is flawed",
+            "Actual fault-finding. Describing a difficulty is not criticizing anyone."
+          ],
+          [
+            "Skeptical",
+            "The author doubts a claim",
+            "Hedges aimed at someone else’s claim: supposedly, claims to, has yet to be shown"
+          ],
+          [
+            "Concerned",
+            "The author is worried about an outcome",
+            "A stated risk that the author treats as serious"
+          ],
+          [
+            "Nostalgic",
+            "The author misses something now gone",
+            "Warm language about the past plus regret that it ended"
+          ],
+          [
+            "Enthusiastic",
+            "The author is excited",
+            "Strong, unqualified praise. Rare in a test passage — be suspicious of it."
+          ],
+          [
+            "Amused, humorous",
+            "The author finds the subject funny",
+            "An actual joke or a clear piece of irony"
+          ]
+        ]
+      },
+      {
+        "type": "h",
+        "text": "Passage B"
+      },
+      {
+        "type": "p",
+        "text": "A honeybee that finds a good patch of flowers does not simply return to the hive and rest. She walks onto the vertical comb, in the dark, and moves in a repeating figure eight: a straight run through the middle, a loop back to the start, the same straight run again, a loop the other way. Other bees crowd in around her and follow the pattern with their antennae. Within minutes some of them leave and fly, with no further guidance, toward a patch of flowers they have never seen."
+      },
+      {
+        "type": "p",
+        "text": "The information is in the straight run. Its direction, measured against straight up on the comb, gives the direction of the food measured against the sun. A run angled 30 degrees to the right of vertical means the flowers lie 30 degrees to the right of the sun. The length of the run and the vigor of the waggling report distance: a longer run means a longer flight. So the dancer sends two numbers, in the dark, on a vertical wall, to an audience that cannot see her."
+      },
+      {
+        "type": "p",
+        "text": "Working this out took decades of patient observation. Researchers marked individual bees with paint, set feeding stations at measured distances and recorded where the recruits actually landed. The bees were not always exact, and the early results were noisy enough that some scientists doubted the dance carried any information at all. The dispute was settled the way such disputes usually are, by better experiments — among them hives fitted with mechanical dancers, which sent live bees to places no live bee had visited."
+      },
+      {
+        "type": "p",
+        "text": "Even now the account is incomplete. Bees also pass along the scent of the flowers, and a recruit that fails to find the advertised patch will usually search nearby and settle for something else. The dance is best understood as a strong suggestion rather than a set of coordinates. What is no longer in doubt is that the suggestion is specific and that the other bees understand it."
+      },
+      {
+        "type": "example",
+        "stem": "It can be inferred from the passage that the bees following a dancer",
+        "options": [
+          "have already visited the patch of flowers she is describing",
+          "read the dance by touch rather than by sight",
+          "can see the dancer well enough in the dim light of the hive",
+          "will not leave the hive unless the flowers are close by"
+        ],
+        "answer": 1,
+        "walkthrough": "Collect the lines. The dance happens “in the dark”, the followers use “their antennae” and the audience “cannot see her”. Three separate statements force touch, so this is an inference of exactly one step. The first and third choices are contradicted outright — the recruits fly to flowers “they have never seen” — and the fourth is the classic plausible-but-unforced answer: distance is mentioned, a refusal to fly is not."
+      },
+      {
+        "type": "example",
+        "stem": "The author mentions hives fitted with mechanical dancers mainly in order to",
+        "options": [
+          "show how the doubt about the dance was finally answered",
+          "argue that live bees are unreliable subjects for research",
+          "describe a modern use of the honeybee dance in farming",
+          "suggest that the early researchers had been careless"
+        ],
+        "answer": 0,
+        "walkthrough": "A “why does the author mention” question is answered by the sentence around the mention, not by the mention itself. The mechanical dancers arrive inside the sentence about how “the dispute was settled… by better experiments”, so their job in the passage is to close the dispute. The other three choices are all things the author never claims, and the last one adds a judgment of the earlier scientists that the passage carefully avoids."
+      },
+      {
+        "type": "example",
+        "stem": "The author’s attitude toward the research described in the passage is best described as",
+        "options": [
+          "doubtful that the dance carries real information",
+          "respectful of the work and of the evidence it produced",
+          "delighted by a personal hobby",
+          "impatient with the scientists who disagreed"
+        ],
+        "answer": 1,
+        "walkthrough": "Point at the words. “Decades of patient observation”, “settled… by better experiments” and “no longer in doubt” are approving but measured, which is exactly what respectful means. The first choice belongs to the doubters the author is describing, not to the author. The third overshoots into excitement the text never shows, and the fourth invents an irritation with the doubters — the passage treats their doubt as a reasonable response to noisy data."
+      },
+      {
+        "type": "h",
+        "text": "Passage C"
+      },
+      {
+        "type": "p",
+        "text": "Before the 1960s, cargo crossed the ocean loose. Boxes, sacks, barrels and crates went aboard one at a time and were stacked into the hold by hand, and the same work was done again in reverse at the far end. A ship could spend longer tied to a pier than it spent at sea. Loading was slow, theft was ordinary, and the cost of moving goods was governed not by the voyage but by what happened at each end of it."
+      },
+      {
+        "type": "p",
+        "text": "The fix was not a faster ship. It was a box. If freight is packed once, into a steel container of a standard size, the container can be lifted by crane from a truck onto a ship and from a ship onto a train without anyone opening it. The gain comes entirely from the standard. A box that fits every crane, every chassis and every set of corner fittings in the world is worth far more than a better box that fits only the port that designed it."
+      },
+      {
+        "type": "p",
+        "text": "The consequences reached well past the docks. Ports built for loose cargo had shallow water and narrow streets, and many lost their traffic to newer harbors with room for cranes and container yards. Factories, no longer tied to a nearby port, could be built wherever land and labor were cheapest, because shipping the output had become a small part of the total cost. Cheap transport did not by itself create global manufacturing, but it removed one of the largest obstacles to it."
+      },
+      {
+        "type": "p",
+        "text": "None of this was obvious at the time. The first container voyages were treated as a curiosity rather than a threat, and shipping lines, dockworkers and port authorities each had reasons of their own to resist a change that would rearrange the industry around them. Some of that resistance lasted years and a little of it is still going. The box won anyway, and it won on arithmetic rather than on argument."
+      },
+      {
+        "type": "example",
+        "stem": "According to the passage, the advantage of the shipping container came mainly from",
+        "options": [
+          "the strength of steel compared with wood or canvas",
+          "the fact that every box fit the same cranes, chassis and fittings",
+          "the greater speed of the ships built to carry containers",
+          "the lower wages paid at the newer harbors"
+        ],
+        "answer": 1,
+        "walkthrough": "The passage hands you the line: “The gain comes entirely from the standard.” The third choice is not merely unsupported, it is denied in so many words — “the fix was not a faster ship” — and choices the passage explicitly rules out are worth learning to spot. Steel is mentioned but never credited, and the wage claim reverses the passage: cheap labor is where factories moved to, not why the box worked."
+      },
+      {
+        "type": "example",
+        "stem": "The discussion in the last paragraph would be clearest if the author added",
+        "options": [
+          "one specific example of a group that resisted containers and what it stood to lose",
+          "a fuller description of how a crane lifts a container off a truck",
+          "a list of the busiest container ports in the world today",
+          "the author’s own opinion of present-day shipping companies"
+        ],
+        "answer": 0,
+        "walkthrough": "These questions ask what the paragraph asserts without showing. The last paragraph says three groups resisted the change and never says what any of them feared, so an example is the missing piece. The crane is already explained in paragraph two, a list of ports would answer a question nobody asked, and an opinion would not make an argument clearer — it would replace it."
+      },
+      {
+        "type": "h",
+        "text": "The traps, named"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "<b>True in the world, absent from the passage.</b> The choice is a fact you happen to know, or one that sounds like it. Ask where it is on the page. If it is nowhere, it is wrong, however true it is.",
+          "<b>Cause and effect reversed.</b> The passage says A led to B; the choice says B led to A. Both sentences use the same words, which is why this one works. Read the direction, not the vocabulary.",
+          "<b>Too extreme.</b> Watch <i>always, never, all, none, only, entirely, proved</i>. Passages hedge; wrong answers do not. A single counterexample in the passage kills an extreme choice, and there is usually one.",
+          "<b>Answers a different question.</b> The choice is a perfectly good statement about the passage — it simply is not a reply to the stem you were asked. Reread the stem before you bubble, especially on “why does the author mention” questions.",
+          "<b>Second best.</b> Two choices both fit; one fits better. Do not settle at 80 percent. Put them side by side and find the word that separates them — usually one covers less of the passage or claims a little more than the text does."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "One habit defeats most of these: answer the question in your own words before you read the four choices. A pre-formed answer is very hard to talk you out of."
+      },
+      {
+        "type": "h",
+        "text": "When a passage is going badly, and how to guess"
+      },
+      {
+        "type": "ol",
+        "items": [
+          "Do not reread from the top. A passage you did not absorb the first time costs two minutes on the second pass and usually returns nothing.",
+          "Take the detail questions first. They are lookups, they do not require that you understood the passage, and they are the cheapest points on the page.",
+          "Answer every question. There is no penalty for a wrong answer on the HSPT, so a blank is always worse than a guess.",
+          "When you guess, eliminate first: anything extreme, anything you cannot locate in the passage and anything that answers a different question. Two eliminations turn a one-in-four guess into a coin flip.",
+          "If you must pick blind, prefer the moderate, hedged choice, and on a main-idea or title question prefer the one that covers the most paragraphs.",
+          "Watch the answer sheet when you skip. Skipping a question without skipping the bubble is the most expensive mistake available here — it can cost every answer after it."
+        ]
+      },
+      {
+        "type": "h",
+        "text": "Worth memorizing"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Five minutes per passage and its questions; five minutes for the whole vocabulary block.",
+          "“According to the passage” and “the passage states” mean go back and look. Never answer those from memory.",
+          "A detail is stated. An inference is one step from something stated. Nothing you answer is three steps from anything.",
+          "The default tone is informative. Make the passage prove any stronger word.",
+          "A main idea has to cover every paragraph. A true sentence about one paragraph is the trap.",
+          "Point at the line, every time."
+        ]
+      }
+    ]
+  },
+  "Vocabulary": {
+    "title": "Vocabulary in Context",
+    "sectionLabel": "Reading",
+    "weight": "22 of the 62 Reading questions",
+    "oneLine": "A short phrase with one word set apart, and four choices — you pick the meaning that word carries in that phrase.",
+    "practiceTopic": "Vocabulary",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "The last 22 questions of the Reading section are vocabulary. Each one is a short phrase with a single word set apart in it, followed by four choices. There is no passage attached and the phrases have nothing to do with one another — each question is a separate three-second world. Your job is to say what that word means <i>in that phrase</i>."
+      },
+      {
+        "type": "p",
+        "text": "These are the cheapest points in the whole Reading section. A question you know takes about five seconds, and 22 of them are worth as much as two full passages. The clock is the only real enemy: 22 questions in about five minutes is roughly 13 seconds each, so a word you do not recognize gets one guess and no more."
+      },
+      {
+        "type": "note",
+        "text": "Decide what the word means before you look at the choices. Cover them with your hand if you have to. The four options are written to pull a reader who arrives without an answer of his own, and every trap in this question type works only on someone who is shopping rather than checking."
+      },
+      {
+        "type": "h",
+        "text": "The method"
+      },
+      {
+        "type": "ol",
+        "items": [
+          "<b>Read the whole phrase, not just the word.</b> The other words are there for a reason — they are what tells you which sense of the word is wanted.",
+          "<b>Say the meaning to yourself in plain language.</b> Rough is fine. For <i>a hasty decision</i>, “made too fast” is a perfectly good answer to hold.",
+          "<b>Now uncover the choices and look for your meaning.</b> Usually one choice is your own phrase in better clothes.",
+          "<b>If nothing matches, test each choice back in the phrase.</b> Read the phrase four times, once with each choice swapped in. The wrong ones normally sound wrong.",
+          "<b>Move.</b> Thirteen seconds. Mark anything you guessed and come back only if the section somehow leaves you time, which it usually will not."
+        ]
+      },
+      {
+        "type": "example",
+        "stem": "a <b>meager</b> portion",
+        "options": [
+          "generous",
+          "spicy",
+          "scanty",
+          "costly"
+        ],
+        "answer": 2,
+        "walkthrough": "Say the meaning first: a meager portion is a small one, not enough. “Scanty” is that word in better clothes. “Generous” is the exact opposite, which is the single most common wrong answer on this question type — opposites feel related, and a reader skimming for a word that <i>goes with</i> portion can grab one. Spicy and costly describe portions too, but they do not describe this word."
+      },
+      {
+        "type": "example",
+        "stem": "a <b>somber</b> ceremony",
+        "options": [
+          "ritual",
+          "gloomy",
+          "lengthy",
+          "public"
+        ],
+        "answer": 1,
+        "walkthrough": "Somber means dark or grave in mood, so “gloomy” is it. Look hard at “ritual”: it is a fine synonym — for <i>ceremony</i>, the other word in the phrase. Defining the wrong word is a trap that appears constantly, and the defense is simply to know which word you were asked about before you start reading choices."
+      },
+      {
+        "type": "h",
+        "text": "When the everyday meaning is the wrong answer"
+      },
+      {
+        "type": "p",
+        "text": "Plenty of these words have one common meaning and one that the test prefers. <i>Novel</i> is usually a book. <i>Grave</i> is usually a burial place. <i>Reserved</i> usually means booked ahead. In a vocabulary phrase, the surrounding words decide which sense is meant, and they decide it before you have finished reading."
+      },
+      {
+        "type": "p",
+        "text": "The signal is almost always the part of speech and the noun being described. If the tested word is sitting in front of a noun, it is doing the work of an adjective, and a noun meaning cannot be right no matter how familiar it is. <i>A novel approach</i> cannot mean a book, because “a book approach” is not English."
+      },
+      {
+        "type": "example",
+        "stem": "a <b>novel</b> approach",
+        "options": [
+          "new",
+          "fictional",
+          "careless",
+          "popular"
+        ],
+        "answer": 0,
+        "walkthrough": "Read the phrase and check the grammar. <i>Novel</i> here sits in front of a noun, so it is describing the approach, which rules out every book-related meaning at once. An approach that is novel is one nobody has tried before: new. “Fictional” is the everyday meaning dragged in from the noun, and it is the whole reason this question exists."
+      },
+      {
+        "type": "h",
+        "text": "Taking apart a word you do not know"
+      },
+      {
+        "type": "p",
+        "text": "Most long words on this test are assembled from parts, and the parts are worth more to you than any list of definitions you could memorize in the time available. You do not need the exact meaning. You need enough to eliminate two choices."
+      },
+      {
+        "type": "table",
+        "head": [
+          "Word part",
+          "Meaning",
+          "A word you already know"
+        ],
+        "rows": [
+          [
+            "bene-",
+            "good, well",
+            "benefit"
+          ],
+          [
+            "mal-",
+            "bad",
+            "malfunction"
+          ],
+          [
+            "in-, im-, un-, non-",
+            "not",
+            "invisible, impossible"
+          ],
+          [
+            "dis-",
+            "apart, not",
+            "disagree"
+          ],
+          [
+            "pre-",
+            "before",
+            "prevent"
+          ],
+          [
+            "post-",
+            "after",
+            "postpone"
+          ],
+          [
+            "re-",
+            "again, back",
+            "return"
+          ],
+          [
+            "sub-",
+            "under",
+            "submarine"
+          ],
+          [
+            "trans-",
+            "across",
+            "transport"
+          ],
+          [
+            "inter-",
+            "between",
+            "interrupt"
+          ],
+          [
+            "contra-, counter-",
+            "against",
+            "contradict"
+          ],
+          [
+            "-dict-",
+            "say",
+            "predict, dictate"
+          ],
+          [
+            "-spec-, -spect-",
+            "look",
+            "inspect, spectator"
+          ],
+          [
+            "-port-",
+            "carry",
+            "export, portable"
+          ],
+          [
+            "-cred-",
+            "believe",
+            "credit, incredible"
+          ],
+          [
+            "-vit-, -viv-",
+            "life",
+            "survive, vital"
+          ],
+          [
+            "-chron-",
+            "time",
+            "chronological"
+          ],
+          [
+            "-scrib-, -script-",
+            "write",
+            "describe, manuscript"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Suffixes are less about meaning than about grammar, and grammar is what tells you which choices are even eligible."
+      },
+      {
+        "type": "table",
+        "head": [
+          "Suffix",
+          "It makes the word a…",
+          "Example"
+        ],
+        "rows": [
+          [
+            "-ous, -ful, -ive, -al",
+            "adjective (describes something)",
+            "perilous, decisive"
+          ],
+          [
+            "-less",
+            "adjective meaning without",
+            "harmless"
+          ],
+          [
+            "-able, -ible",
+            "adjective meaning able to be",
+            "durable, edible"
+          ],
+          [
+            "-tion, -ment, -ness, -ity",
+            "noun (a thing or a state)",
+            "creation, kindness"
+          ],
+          [
+            "-ist, -er, -or",
+            "noun meaning a person who",
+            "geologist, inventor"
+          ],
+          [
+            "-ify, -ize, -ate",
+            "verb (an action)",
+            "clarify, activate"
+          ],
+          [
+            "-ly",
+            "adverb (how something is done)",
+            "quietly"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Two more tools. First, <b>charge</b>: even when you cannot define a word you can often feel whether it is a compliment or an insult. If you are sure the word is negative, every positive choice is gone, and you have improved a one-in-four guess to one in two without knowing anything. Second, <b>part of speech</b>: the four choices are nearly always the same part of speech as the tested word, so if three choices are adjectives and one is a noun, the odd one out is decoration."
+      },
+      {
+        "type": "example",
+        "stem": "an <b>intransigent</b> negotiator",
+        "options": [
+          "skilled",
+          "dishonest",
+          "inexperienced",
+          "unyielding"
+        ],
+        "answer": 3,
+        "walkthrough": "Take it apart: <i>in-</i> is the negative prefix, and the middle of the word is the same root that gives <i>transact</i> and <i>transaction</i> — something to do with making a deal. So an intransigent negotiator is one who will not deal: unyielding. Even without the root, the negative prefix tells you the word is unflattering, which removes “skilled” immediately, and dishonest and inexperienced are unflattering in ways the prefix does not point at."
+      },
+      {
+        "type": "h",
+        "text": "The traps"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "<b>The common meaning of a word with two meanings.</b> The choice is a real definition, just not the one this phrase asks for. Let the grammar and the neighboring noun decide.",
+          "<b>A synonym for a different word in the phrase.</b> You were asked about one word. The choice defines the other one and reads as comfortably familiar. Know which word you are defining before you read the options.",
+          "<b>The sound-alike.</b> <i>Ingenuous</i> and <i>ingenious</i>. <i>Eminent</i> and <i>imminent</i>. <i>Adapt</i> and <i>adopt</i>. One letter apart, unrelated in meaning, and always a choice.",
+          "<b>Too strong or too weak.</b> The choice moves in the right direction but goes too far, or not far enough. <i>Chilly</i> is not <i>frozen</i>. <i>Reduce</i> is not <i>eliminate</i>.",
+          "<b>The exact opposite.</b> Common enough to name on its own. If a choice is the reverse of your own pre-formed answer, that is a sign you had the right idea, not a sign you were wrong."
+        ]
+      },
+      {
+        "type": "example",
+        "stem": "an <b>ingenuous</b> reply",
+        "options": [
+          "clever",
+          "rude",
+          "lengthy",
+          "frank"
+        ],
+        "answer": 3,
+        "walkthrough": "“Clever” is here because <i>ingenious</i> means clever and the two words are one letter apart. <i>Ingenuous</i> is the other word: open, innocent, saying what you actually think — frank. When two choices seem to fit and one of them matches a word that merely looks like the one on the page, take the other one."
+      },
+      {
+        "type": "example",
+        "stem": "to <b>curtail</b> a program",
+        "options": [
+          "expand",
+          "evaluate",
+          "cut short",
+          "abolish entirely"
+        ],
+        "answer": 2,
+        "walkthrough": "Curtail means to cut back or shorten, so “cut short” is exact. “Abolish entirely” is the too-strong trap and it is a good one, because it moves in the correct direction — both shrink the program — and simply travels further than the word does. A curtailed program still exists. “Expand” is the opposite, and “evaluate” is something else people do to programs."
+      },
+      {
+        "type": "h",
+        "text": "When nothing looks familiar"
+      },
+      {
+        "type": "ol",
+        "items": [
+          "Look for any recognizable piece: a prefix, a root, a shorter word hiding inside it.",
+          "Decide whether the word is positive or negative from the company it keeps in the phrase, and cross off everything with the wrong charge.",
+          "Cross off any choice that is the wrong part of speech, and any choice that is really a synonym for one of the other words in the phrase.",
+          "Of what remains, take the more moderate option. Test writers build the correct answer to be defensible, and extreme words are hard to defend.",
+          "Bubble something and move on. There is no penalty for a wrong answer, and a question left blank while you think about it is worth exactly zero."
+        ]
+      },
+      {
+        "type": "h",
+        "text": "Worth memorizing"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Thirteen seconds a question. One guess, then go.",
+          "Your own meaning first, choices second. Always in that order.",
+          "The tested word is the one they set apart — not the other word in the phrase.",
+          "Prefixes for <i>not</i> and <i>bad</i>, <i>in- im- un- non- dis- mal-</i>, are the highest-value thing on the word-parts table. They give you charge, and charge alone halves a guess.",
+          "Never leave one blank."
+        ]
+      }
+    ]
+  }
+}

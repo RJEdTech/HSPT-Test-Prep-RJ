@@ -1,0 +1,1381 @@
+{
+  "Synonyms": {
+    "title": "Synonyms",
+    "sectionLabel": "Verbal Skills",
+    "weight": "About 13 to 15 of the 60 Verbal Skills questions",
+    "oneLine": "You are given one word and you pick the choice that comes closest to its meaning.",
+    "practiceTopic": "Synonyms",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "A synonym question is one word and four choices. You pick the choice nearest in meaning. Not a perfect match, just closer than the other three. About 13 to 15 of the 60 Verbal Skills questions work this way, which makes it one of the two most common types in the section."
+      },
+      {
+        "type": "p",
+        "text": "This is a recognition test, not a thinking test. Either you know the word, in which case you should answer in about five seconds and bank the time, or you do not, in which case you need a method. There is very little in between that is worth 16 seconds."
+      },
+      {
+        "type": "p",
+        "text": "The words themselves are not exotic. They are the words of middle-school reading, a step or two above everyday conversation. If you read books, you have already met most of them, even if you have never stopped to define them."
+      },
+      {
+        "type": "h",
+        "text": "The method"
+      },
+      {
+        "type": "ol",
+        "items": [
+          "Read the word and say what it means <i>in your own words</i>, before you look down at the choices. This keeps the choices from steering you.",
+          "Scan for the choice that matches what you said. If one clearly does, mark it and go.",
+          "If nothing matches, decide whether the word is positive or negative and cross out every choice with the wrong charge.",
+          "Break the word into its pieces — prefix, root, suffix — and see how much meaning falls out.",
+          "Answer, even if you are guessing. There is no penalty for a wrong answer on the HSPT, so a blank bubble is a wasted question."
+        ]
+      },
+      {
+        "type": "h",
+        "text": "Taking a word apart"
+      },
+      {
+        "type": "p",
+        "text": "Most long words are built out of smaller pieces, and the pieces carry meaning. <i>Benevolent</i> is <i>bene</i> (good) plus <i>vol</i> (wish): wishing good. <i>Retract</i> is <i>re</i> (back) plus <i>tract</i> (pull): to pull back. <i>Inaudible</i> is <i>in</i> (not) plus <i>aud</i> (hear): not able to be heard. You are not trying to rebuild the dictionary definition. You are trying to get close enough to tell four choices apart, and that is a much lower bar."
+      },
+      {
+        "type": "p",
+        "text": "These are the pieces that pay off most often on this test."
+      },
+      {
+        "type": "table",
+        "head": [
+          "Prefix",
+          "Meaning",
+          "Example"
+        ],
+        "rows": [
+          [
+            "ante-",
+            "before",
+            "antecedent"
+          ],
+          [
+            "anti-",
+            "against",
+            "antidote"
+          ],
+          [
+            "bene-",
+            "good, well",
+            "benefit"
+          ],
+          [
+            "circum-",
+            "around",
+            "circumference"
+          ],
+          [
+            "contra-, counter-",
+            "against",
+            "contradict"
+          ],
+          [
+            "de-",
+            "down, away from",
+            "descend"
+          ],
+          [
+            "dis-",
+            "apart, not",
+            "disperse"
+          ],
+          [
+            "ex-, e-",
+            "out",
+            "exhale"
+          ],
+          [
+            "in-, im-, un-, non-",
+            "not",
+            "invisible"
+          ],
+          [
+            "inter-",
+            "between",
+            "intervene"
+          ],
+          [
+            "mal-",
+            "bad",
+            "malfunction"
+          ],
+          [
+            "mis-",
+            "wrong",
+            "misjudge"
+          ],
+          [
+            "pre-",
+            "before",
+            "preview"
+          ],
+          [
+            "pro-",
+            "forward, in favor of",
+            "propel"
+          ],
+          [
+            "re-",
+            "back, again",
+            "rewind"
+          ],
+          [
+            "sub-",
+            "under",
+            "submerge"
+          ],
+          [
+            "super-",
+            "above, beyond",
+            "superior"
+          ],
+          [
+            "trans-",
+            "across",
+            "transport"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Roots sit in the middle of the word and carry most of its meaning. A root you recognize can rescue a word you have never seen."
+      },
+      {
+        "type": "table",
+        "head": [
+          "Root",
+          "Meaning",
+          "Example"
+        ],
+        "rows": [
+          [
+            "aud",
+            "hear",
+            "audible"
+          ],
+          [
+            "chron",
+            "time",
+            "chronological"
+          ],
+          [
+            "dict",
+            "say, speak",
+            "dictate"
+          ],
+          [
+            "duc, duct",
+            "lead",
+            "conduct"
+          ],
+          [
+            "fid",
+            "faith, trust",
+            "confide"
+          ],
+          [
+            "greg",
+            "flock, group",
+            "congregate"
+          ],
+          [
+            "ject",
+            "throw",
+            "eject"
+          ],
+          [
+            "loqu, loc",
+            "speak",
+            "eloquent"
+          ],
+          [
+            "luc, lum",
+            "light",
+            "illuminate"
+          ],
+          [
+            "magn",
+            "great, large",
+            "magnify"
+          ],
+          [
+            "mort",
+            "death",
+            "mortal"
+          ],
+          [
+            "pac, plac",
+            "peace, calm",
+            "pacify"
+          ],
+          [
+            "port",
+            "carry",
+            "portable"
+          ],
+          [
+            "scrib, script",
+            "write",
+            "inscribe"
+          ],
+          [
+            "spec, spect",
+            "look",
+            "spectator"
+          ],
+          [
+            "tract",
+            "pull, drag",
+            "traction"
+          ],
+          [
+            "ven, vent",
+            "come",
+            "convene"
+          ],
+          [
+            "vid, vis",
+            "see",
+            "visible"
+          ],
+          [
+            "voc, vok",
+            "call, voice",
+            "vocal"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Suffixes rarely change what a word is about, but they tell you what kind of word it is, and that is worth knowing: the four choices are almost always the same part of speech as the word in the question. If the word ends in <i>-ous</i>, it is an adjective, and the answer will be an adjective too."
+      },
+      {
+        "type": "table",
+        "head": [
+          "Suffix",
+          "What it makes",
+          "Example"
+        ],
+        "rows": [
+          [
+            "-able, -ible",
+            "adjective: able to be",
+            "reversible"
+          ],
+          [
+            "-ance, -ence",
+            "noun: the state of",
+            "persistence"
+          ],
+          [
+            "-er, -or, -ist",
+            "noun: one who does",
+            "narrator"
+          ],
+          [
+            "-ful",
+            "adjective: full of",
+            "remorseful"
+          ],
+          [
+            "-ify, -ize",
+            "verb: to make",
+            "clarify"
+          ],
+          [
+            "-less",
+            "adjective: without",
+            "tireless"
+          ],
+          [
+            "-ment",
+            "noun: the result of",
+            "refinement"
+          ],
+          [
+            "-ous, -ious",
+            "adjective: full of",
+            "perilous"
+          ],
+          [
+            "-tion, -sion",
+            "noun: the act of",
+            "retention"
+          ]
+        ]
+      },
+      {
+        "type": "h",
+        "text": "Positive or negative"
+      },
+      {
+        "type": "p",
+        "text": "When the pieces do not get you there, fall back on charge. Ask one question: does this word sound like a compliment or an insult, a good thing or a bad thing? You can often answer that even when you cannot define the word, because you have heard it used and you remember the tone of the sentence it was in. Then cross out every choice with the wrong charge. Sometimes only one choice survives, and you have answered the question without ever knowing exactly what the word means."
+      },
+      {
+        "type": "note",
+        "text": "The four choices are almost always the same part of speech and all sound like real, plausible words. What separates them is <b>direction</b> and <b>degree</b>. Get the direction right — positive or negative, more or less — and you have usually cut four choices down to one or two."
+      },
+      {
+        "type": "h",
+        "text": "Worked examples"
+      },
+      {
+        "type": "example",
+        "stem": "An <b>abundant</b> harvest is:",
+        "options": [
+          "scarce",
+          "plentiful",
+          "costly",
+          "hidden"
+        ],
+        "answer": 1,
+        "walkthrough": "Say the meaning first: an abundant harvest is a big one, lots of it. That points straight at <i>plentiful</i>. The trap is <i>scarce</i>, which is on exactly the right topic — quantity — but points the wrong way. On synonym questions the opposite of the word is one of the most common wrong answers, because being about the right subject feels like being right."
+      },
+      {
+        "type": "example",
+        "stem": "A <b>benevolent</b> ruler is:",
+        "options": [
+          "cruel",
+          "wealthy",
+          "kindly",
+          "talkative"
+        ],
+        "answer": 2,
+        "walkthrough": "If the word is not familiar, take it apart: <i>bene</i> means good and <i>vol</i> means wish, so a benevolent ruler wishes people well. <i>Kindly</i> is the only choice that says that. <i>Cruel</i> is the reversal trap and <i>wealthy</i> is an association — rulers are often rich, but the word does not mean rich."
+      },
+      {
+        "type": "example",
+        "stem": "A <b>credulous</b> shopper is:",
+        "options": [
+          "believable",
+          "trusting",
+          "dishonest",
+          "wealthy"
+        ],
+        "answer": 1,
+        "walkthrough": "The root <i>cred</i> means believe, so the word has to do with believing, and the four choices force you to decide who is doing the believing. A <i>credulous</i> shopper believes whatever she is told, so she is <i>trusting</i>. <i>Believable</i> is the trap, and it is a good one: it means <i>credible</i>, which describes the thing being believed rather than the person doing it. Same root, opposite side of the sentence."
+      },
+      {
+        "type": "example",
+        "stem": "A <b>deleterious</b> habit is:",
+        "options": [
+          "harmful",
+          "delightful",
+          "delayed",
+          "thorough"
+        ],
+        "answer": 0,
+        "walkthrough": "There is no root here that most students will know, so use charge. You have probably only ever heard this word in a phrase like <i>the deleterious effects of</i> something, and that phrase is never good news, so the word is negative. Of the four choices only <i>harmful</i> is negative, and you are done without a definition. <i>Delightful</i> and <i>delayed</i> are there because they start with the same three letters, which is not a reason."
+      },
+      {
+        "type": "h",
+        "text": "The traps"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "<b>The opposite.</b> The antonym of the word appears as a choice very often. It is about the right topic, so it feels related, and related is not the same as equal.",
+          "<b>The look-alike.</b> A choice that shares letters or a sound with the word but no meaning. <i>Prudent</i> and <i>rude</i>. <i>Deleterious</i> and <i>delayed</i>. Sound is not evidence.",
+          "<b>The word-form shift.</b> <i>Credulous</i> and <i>credible</i>, <i>respectful</i> and <i>respectable</i>. Same root, different jobs.",
+          "<b>The right idea at the wrong strength.</b> <i>Warm</i> is not <i>scalding</i> and <i>annoyed</i> is not <i>furious</i>. When two choices point the same way, the question is asking which degree matches.",
+          "<b>The association.</b> A word that turns up near the word in real life without meaning the same thing. A <i>vessel</i> is not a <i>sailor</i>."
+        ]
+      },
+      {
+        "type": "h",
+        "text": "When you are stuck"
+      },
+      {
+        "type": "ol",
+        "items": [
+          "Put the word in a sentence you have actually heard or read. The sentence usually remembers the meaning even when you do not.",
+          "Decide the charge and cut every choice on the wrong side.",
+          "Look for two choices that mean roughly the same thing as each other. Only one answer can be correct, so if two choices are synonyms of each other, neither one is the answer. That can turn four choices into two.",
+          "Take the best of what is left, mark it and move. Two choices out of four is a real improvement over four, and guessing costs you nothing.",
+          "Do not go back and reread. Rereading a word you do not know does not make you know it, and it costs you a question elsewhere."
+        ]
+      },
+      {
+        "type": "h",
+        "text": "Worth memorizing"
+      },
+      {
+        "type": "p",
+        "text": "The three tables above. Roughly 20 prefixes and 20 roots cover a surprising share of the hard words on this test, and they keep paying you back in Reading and in Language too. Five a day for a month and you will meet them again on test day. Beyond that, the only reliable way to raise a vocabulary score is to read something every day that is a little harder than you find comfortable."
+      }
+    ]
+  },
+  "Antonyms": {
+    "title": "Antonyms",
+    "sectionLabel": "Verbal Skills",
+    "weight": "About nine of the 60 Verbal Skills questions",
+    "oneLine": "You are given one word and you pick the choice that means most nearly the opposite.",
+    "practiceTopic": "Antonyms",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "An antonym question looks almost exactly like a synonym question: one word, four choices. The difference is one word buried in the instruction — <i>opposite</i>. About nine of the 60 Verbal Skills questions are antonyms, and they are usually phrased as <i>X means the opposite of</i>."
+      },
+      {
+        "type": "p",
+        "text": "It is the same skill as synonyms with the direction reversed, plus one trap that costs students more points than anything else in this part of the section."
+      },
+      {
+        "type": "note",
+        "text": "<b>A synonym of the word is planted among the four choices, nearly every time.</b> It is there because it is the answer your eye wants. You read <i>timid</i>, you see <i>shy</i>, the two words light up together and your hand moves before your brain does. Before you mark anything, say the whole sentence in your head: <i>the opposite of timid is ___</i>. The word <i>opposite</i> in the middle is what saves you."
+      },
+      {
+        "type": "h",
+        "text": "The method"
+      },
+      {
+        "type": "ol",
+        "items": [
+          "Register that this is an antonym question. Some students underline the word <i>opposite</i> every time. It looks unnecessary until the day you are tired and it is not.",
+          "Say what the word means, in your own words.",
+          "Say the opposite out loud in your head <i>before</i> you look at the choices. Now you are looking for something specific instead of shopping.",
+          "Find the choice closest to what you said.",
+          "Check the charge. If the word was negative and your answer is also negative, stop — you have almost certainly picked the planted synonym."
+        ]
+      },
+      {
+        "type": "h",
+        "text": "Charge does more work here than anywhere else"
+      },
+      {
+        "type": "p",
+        "text": "On a synonym question the answer has the same charge as the word, so charge cannot separate the answer from the sympathetic wrong choices. On an antonym question the answer has the <i>opposite</i> charge, which means charge alone eliminates. If the word is clearly negative, cross out every negative choice on sight. What is left is usually one word, occasionally two."
+      },
+      {
+        "type": "p",
+        "text": "That single move handles a large share of these questions. <i>Insolent</i> is negative, so the answer is a positive word, and any choice that sounds like an insult is out no matter how well it fits the topic."
+      },
+      {
+        "type": "h",
+        "text": "Prefixes that flip a word"
+      },
+      {
+        "type": "p",
+        "text": "A handful of prefixes exist only to reverse meaning. Sometimes the test hands you the answer this way: the opposite of <i>audible</i> is <i>inaudible</i>. More often it does not, but knowing them helps you read the choices quickly."
+      },
+      {
+        "type": "table",
+        "head": [
+          "Prefix",
+          "Effect",
+          "Pair"
+        ],
+        "rows": [
+          [
+            "un-",
+            "not",
+            "willing / unwilling"
+          ],
+          [
+            "in-, im-, il-, ir-",
+            "not",
+            "prudent / imprudent"
+          ],
+          [
+            "non-",
+            "not",
+            "essential / nonessential"
+          ],
+          [
+            "dis-",
+            "away, not",
+            "approve / disapprove"
+          ],
+          [
+            "a-, an-",
+            "without",
+            "typical / atypical"
+          ],
+          [
+            "mis-",
+            "wrongly",
+            "trust / mistrust"
+          ],
+          [
+            "mal-",
+            "badly",
+            "nourished / malnourished"
+          ],
+          [
+            "anti-",
+            "against",
+            "social / antisocial"
+          ],
+          [
+            "counter-",
+            "against",
+            "act / counteract"
+          ],
+          [
+            "de-",
+            "reverse, remove",
+            "activate / deactivate"
+          ]
+        ]
+      },
+      {
+        "type": "h",
+        "text": "Worked examples"
+      },
+      {
+        "type": "example",
+        "stem": "<b>Timid</b> means the opposite of:",
+        "options": [
+          "shy",
+          "bold",
+          "fearful",
+          "polite"
+        ],
+        "answer": 1,
+        "walkthrough": "A timid person is easily frightened, so the opposite is someone unafraid: <i>bold</i>. Two of the four choices, <i>shy</i> and <i>fearful</i>, are synonyms of the word rather than opposites, and they are there for the student who reads the word and grabs. <i>Polite</i> is an association — timid people often seem polite — but politeness is not the reverse of fear."
+      },
+      {
+        "type": "example",
+        "stem": "<b>Abandon</b> means the opposite of:",
+        "options": [
+          "retain",
+          "desert",
+          "damage",
+          "borrow"
+        ],
+        "answer": 0,
+        "walkthrough": "To abandon something is to leave it for good, so the opposite is to keep it: <i>retain</i>. <i>Desert</i> is the planted synonym and it is the most tempting choice on the list, because it is the closest word in meaning to the one in the question. On an antonym item, the choice that feels most closely connected is the one to check hardest."
+      },
+      {
+        "type": "example",
+        "stem": "<b>Augment</b> means the opposite of:",
+        "options": [
+          "argue",
+          "enlarge",
+          "reduce",
+          "approve"
+        ],
+        "answer": 2,
+        "walkthrough": "To augment is to add to something, so the opposite is <i>reduce</i>. Two different traps are in play. <i>Argue</i> is a look-alike — augment and argument share letters and nothing else. <i>Enlarge</i> is the planted synonym, and it is the choice most students who half-know the word land on, because they recognize the meaning and forget the direction."
+      },
+      {
+        "type": "example",
+        "stem": "<b>Obstinate</b> means the opposite of:",
+        "options": [
+          "stubborn",
+          "hostile",
+          "yielding",
+          "noisy"
+        ],
+        "answer": 2,
+        "walkthrough": "Start with charge: obstinate is a criticism, so the answer is a positive or neutral word, which removes <i>hostile</i> and <i>noisy</i> immediately. Between the two survivors, <i>stubborn</i> is what obstinate means and <i>yielding</i> is its reverse. Charge cuts the list in half and the synonym check finishes the job."
+      },
+      {
+        "type": "example",
+        "stem": "<b>Miserly</b> means the opposite of:",
+        "options": [
+          "unhappy",
+          "generous",
+          "stingy",
+          "wealthy"
+        ],
+        "answer": 1,
+        "walkthrough": "A miserly person hoards money and will not spend it, so the opposite is <i>generous</i>. All three wrong choices are a different flavor of trap: <i>stingy</i> is the planted synonym, <i>unhappy</i> is a look-alike borrowed from <i>miserable</i>, and <i>wealthy</i> is an association, since misers in stories are usually rich. None of them is a reversal, and reversal is the only thing being asked for."
+      },
+      {
+        "type": "h",
+        "text": "The traps"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "<b>The planted synonym.</b> Say it again: the word that means the same thing is almost always sitting right there. Assume it is until you have proved otherwise.",
+          "<b>The look-alike.</b> <i>Miserly</i> and <i>miserable</i>. <i>Augment</i> and <i>argue</i>. Shared letters are not shared meaning.",
+          "<b>The association.</b> A word that shows up alongside the word in real life. A miser is often wealthy, but wealthy is not the opposite of miserly.",
+          "<b>The opposite of the other meaning.</b> Some words have two senses. <i>Blunt</i> can be dull or it can be painfully direct, and those two senses have different opposites. Pick the sense the choices are built around.",
+          "<b>The half-opposite.</b> When two choices both point the other way, take the stronger one. <i>Cool</i> reverses <i>hot</i> a little; <i>cold</i> reverses it properly."
+        ]
+      },
+      {
+        "type": "h",
+        "text": "When you are stuck"
+      },
+      {
+        "type": "ol",
+        "items": [
+          "Decide the charge of the word and cross out every choice on the same side. This is the highest-value three seconds you can spend on this question type.",
+          "Check the part of speech. The answer is almost always the same kind of word as the one in the question; a choice that is a noun when the word is an adjective is usually decoration.",
+          "If two choices mean nearly the same thing as each other, neither is the answer. Only one choice can be correct, so a matched pair is a matched pair of wrong answers.",
+          "Guess from what is left and move on. Nothing is subtracted for a wrong answer, and a 16-minute section does not forgive a 45-second question."
+        ]
+      },
+      {
+        "type": "h",
+        "text": "Worth memorizing"
+      },
+      {
+        "type": "p",
+        "text": "Nothing new. The same prefixes, roots and suffixes from the synonyms lesson do the work here, plus one habit worth drilling until it is automatic: on every antonym item, say the sentence <i>the opposite of ___ is ___</i> before your pencil touches the page. The whole question type is built on students not doing that."
+      }
+    ]
+  },
+  "Analogies": {
+    "title": "Verbal Analogies",
+    "sectionLabel": "Verbal Skills",
+    "weight": "About 10 of the 60 Verbal Skills questions",
+    "oneLine": "You are given a pair of words and you pick the word that gives a second pair the same relationship.",
+    "practiceTopic": "Analogies",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "An analogy reads <i>A is to B as C is to ___</i>, with four choices for the blank. About 10 of the 60 Verbal Skills questions are analogies."
+      },
+      {
+        "type": "p",
+        "text": "The words are usually easy. The question is not testing whether you know them, it is testing whether you can see how two of them are connected and then find the same connection somewhere else. That is why an analogy can be missed by a student with an excellent vocabulary and answered instantly by one who has learned the method."
+      },
+      {
+        "type": "h",
+        "text": "The method"
+      },
+      {
+        "type": "ol",
+        "items": [
+          "Make a sentence out of the first pair that states the connection exactly. <i>A broom is used to sweep.</i>",
+          "Name the relationship if you can — purpose, part to whole, opposite and so on. Naming it is what makes the next step fast.",
+          "Put the third word into the same sentence and try each choice in the blank.",
+          "Keep the order. If your sentence is <i>a rung is part of a ladder</i>, the answer must be the whole, not another part.",
+          "Match the part of speech. If the first pair runs noun to adjective, the answer is an adjective.",
+          "If two choices still fit, your sentence is too loose. Make it narrower and run them again."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "That last point is the one to take seriously. <i>A dog is related to a bone</i> is true of nearly any pair of words you could name, so it eliminates nothing. <i>A dog chews a bone</i> excludes almost everything. The looser your sentence, the more choices survive, and surviving choices are how you lose the question."
+      },
+      {
+        "type": "note",
+        "text": "Say the relationship as a complete sentence <b>before</b> you read the choices. Everything else in this lesson is detail. Students who look straight at the four choices end up picking whichever word feels connected to the third word, and <i>feels connected</i> is exactly the material the wrong answers are built from."
+      },
+      {
+        "type": "h",
+        "text": "The relationship categories"
+      },
+      {
+        "type": "p",
+        "text": "The people who write this test work from a list of relationship types, and the answer keys name them. Learning the list is worth doing, because recognizing the category tells you the shape of the answer before you have read a single choice."
+      },
+      {
+        "type": "table",
+        "head": [
+          "Category",
+          "Example pair",
+          "The sentence you would say"
+        ],
+        "rows": [
+          [
+            "Object to characteristic",
+            "sponge : porous",
+            "A sponge is porous."
+          ],
+          [
+            "Object to purpose",
+            "broom : sweep",
+            "A broom is used to sweep."
+          ],
+          [
+            "Part to whole",
+            "rung : ladder",
+            "A rung is part of a ladder."
+          ],
+          [
+            "Sequence",
+            "dusk : night",
+            "Dusk comes just before night."
+          ],
+          [
+            "Antonym or opposite",
+            "ascend : descend",
+            "To ascend is the opposite of to descend."
+          ],
+          [
+            "Association",
+            "needle : thread",
+            "A needle is used together with thread."
+          ],
+          [
+            "Creature to habitat",
+            "otter : river",
+            "An otter lives in a river."
+          ],
+          [
+            "Product to source",
+            "wool : sheep",
+            "Wool comes from a sheep."
+          ],
+          [
+            "Example to object",
+            "sonnet : poem",
+            "A sonnet is a kind of poem."
+          ],
+          [
+            "Measurement to range",
+            "quart : volume",
+            "A quart measures volume."
+          ],
+          [
+            "Common characteristic",
+            "granite : marble",
+            "Granite and marble are both stone."
+          ],
+          [
+            "Symbol",
+            "dove : peace",
+            "A dove stands for peace."
+          ]
+        ]
+      },
+      {
+        "type": "h",
+        "text": "Order and part of speech"
+      },
+      {
+        "type": "p",
+        "text": "Direction is half of the relationship. <i>Wool is to sheep</i> is product first, source second. If you build the sentence backwards you will happily pick a word that is wrong in a way you never notice, because the pair does have the right relationship — pointing the wrong way. Read your sentence back with the third word in it and check that it still sounds like the first one."
+      },
+      {
+        "type": "p",
+        "text": "Part of speech is the fastest elimination available on this question type and it takes no thought at all. If the first pair is a noun and then an adjective, any choice that is not an adjective is out. That alone often removes two of the four."
+      },
+      {
+        "type": "h",
+        "text": "Worked examples"
+      },
+      {
+        "type": "example",
+        "stem": "<b>Scissors</b> is to <b>cut</b> as <b>broom</b> is to:",
+        "options": [
+          "floor",
+          "sweep",
+          "handle",
+          "dustpan"
+        ],
+        "answer": 1,
+        "walkthrough": "The sentence is <i>scissors are used to cut</i> — object to purpose — so the answer has to be what a broom is used to do. <i>Sweep</i> is the only verb on the list, so part of speech settles it before meaning does. <i>Floor</i> and <i>dustpan</i> are things a broom is used near, and <i>handle</i> is a part of one; none of the three is a purpose."
+      },
+      {
+        "type": "example",
+        "stem": "<b>Rung</b> is to <b>ladder</b> as <b>page</b> is to:",
+        "options": [
+          "ink",
+          "book",
+          "reading",
+          "paper"
+        ],
+        "answer": 1,
+        "walkthrough": "The sentence is <i>a rung is part of a ladder</i>, so the answer is the thing a page is part of: a <i>book</i>. Each wrong choice is a different relationship wearing the same clothes. <i>Paper</i> is what a page is made of, <i>ink</i> is what is on it and <i>reading</i> is what it is for. All true, none of them part to whole."
+      },
+      {
+        "type": "example",
+        "stem": "<b>Wool</b> is to <b>sheep</b> as <b>honey</b> is to:",
+        "options": [
+          "bee",
+          "hive",
+          "sweet",
+          "jar"
+        ],
+        "answer": 0,
+        "walkthrough": "The sentence is <i>wool comes from a sheep</i>, so the answer is what honey comes from: a <i>bee</i>. This item is really a test of order. <i>Hive</i> is where the bee lives, and if you had built the sentence backwards as <i>a sheep produces wool in a barn</i> you would find yourself reaching for it. <i>Sweet</i> is a characteristic and <i>jar</i> is a container."
+      },
+      {
+        "type": "example",
+        "stem": "<b>Feather</b> is to <b>light</b> as <b>anvil</b> is to:",
+        "options": [
+          "heavy",
+          "iron",
+          "blacksmith",
+          "metal"
+        ],
+        "answer": 0,
+        "walkthrough": "<i>A feather is light</i> — object to characteristic, and <i>light</i> is an adjective, so the answer is an adjective. That removes <i>iron</i>, <i>blacksmith</i> and <i>metal</i> in one pass without your having to think about anvils at all. <i>Heavy</i> is left, and it is right: an anvil is heavy in the same obvious way a feather is light."
+      },
+      {
+        "type": "example",
+        "stem": "<b>Odometer</b> is to <b>distance</b> as <b>barometer</b> is to:",
+        "options": [
+          "weather",
+          "pressure",
+          "forecast",
+          "temperature"
+        ],
+        "answer": 1,
+        "walkthrough": "The sentence is <i>an odometer measures distance</i>, which is measurement to range, so the answer must be the exact quantity a barometer measures. That is air <i>pressure</i>. <i>Weather</i> and <i>forecast</i> are what the reading gets used for, which is close enough to feel right and not close enough to be right, and <i>temperature</i> belongs to a different instrument. When a choice is in the right subject but not the exact quantity, tighten the sentence and it falls out."
+      },
+      {
+        "type": "h",
+        "text": "The traps"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "<b>The association.</b> A word that goes with the third word in daily life. Bees make honey, so <i>hive</i> and <i>flower</i> both feel plausible on any bee question. Feeling connected is not a relationship.",
+          "<b>The same-topic word.</b> Ladders, rungs, steps, climbing — all one subject, only one of them in the right role.",
+          "<b>The reversed pair.</b> The right relationship pointing the wrong way. The only defense is reading your sentence back.",
+          "<b>The material.</b> <i>Page</i> and <i>paper</i>, <i>door</i> and <i>wood</i>. What a thing is made of is its own category and it is rarely the one being asked about.",
+          "<b>The wrong part of speech.</b> Nearly free to spot and it is on almost every analogy item."
+        ]
+      },
+      {
+        "type": "h",
+        "text": "When you are stuck"
+      },
+      {
+        "type": "ol",
+        "items": [
+          "If one word in the first pair is unfamiliar, build the sentence out of what you do know. Often the four choices tell you the category on their own — if three of them are verbs, you are being asked about purpose.",
+          "Eliminate by part of speech first. It is mechanical, it is fast and it does not require you to have understood the question.",
+          "Cross out any choice that only connects to the third word by subject matter.",
+          "If two survive, add one more word to your sentence to make it stricter, then take the better one and move.",
+          "Guess and go. Nothing is deducted for a wrong answer, and this section does not give you the time to admire a hard question."
+        ]
+      },
+      {
+        "type": "h",
+        "text": "Worth memorizing"
+      },
+      {
+        "type": "p",
+        "text": "The category table. Twelve relationship names is a short list, and having the names in your head changes what you see when you read a pair. Instead of two words with a vague link you see <i>part to whole</i>, and the answer stops being a matter of taste. Practice by naming the category out loud on every analogy you do for a week, even the ones you get right instantly."
+      }
+    ]
+  },
+  "Classification": {
+    "title": "Verbal Classification",
+    "sectionLabel": "Verbal Skills",
+    "weight": "About 16 of the 60 Verbal Skills questions — the largest single type",
+    "oneLine": "You are given four words and you pick the one that does not belong with the other three.",
+    "practiceTopic": "Classification",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Four words. Three of them belong together and one does not, and you pick the one that does not. About 16 of the 60 Verbal Skills questions are classifications, which makes this the single most common question type in the section — more common than synonyms, and worth more than a quarter of the whole Verbal score."
+      },
+      {
+        "type": "p",
+        "text": "The words are not always nouns. You will see sets of verbs, sets of adjectives, sets of places and occasionally sets of proper names. The subject changes; the task never does. Find what three of them share."
+      },
+      {
+        "type": "h",
+        "text": "The method"
+      },
+      {
+        "type": "ol",
+        "items": [
+          "Read all four before you decide anything. The odd one is defined by the other three, so you cannot judge any word until you have seen the group.",
+          "Name the category that covers three of them, in words, in your head. Not a feeling — an actual phrase: <i>three of these are instruments you blow into</i>.",
+          "Test the fourth word against that phrase. If it fails the phrase, it is your answer.",
+          "If your phrase covers all four, or only covers two, it is the wrong phrase. Try another one.",
+          "Mark it and move. These should be your fastest questions in the section."
+        ]
+      },
+      {
+        "type": "note",
+        "text": "Name the category before you look for the odd one. Finish the sentence <i>three of these are ___</i> out loud in your head. If you cannot finish it, you have not found the split yet, and a word that merely <i>feels</i> different is not a reason to choose it."
+      },
+      {
+        "type": "h",
+        "text": "The right category leaves exactly one word out"
+      },
+      {
+        "type": "p",
+        "text": "This is the test of whether you have found the real split, and it settles more questions than anything else in this lesson. A correct category name includes three words and excludes one. If your name excludes two, it is not the name the question was built on, no matter how true it is."
+      },
+      {
+        "type": "p",
+        "text": "Take <i>square</i>, <i>triangle</i>, <i>circle</i> and <i>rectangle</i>. <i>Four-sided figures</i> is a real category and it is no use here: it keeps the square and the rectangle and throws out the triangle and the circle, two on each side. <i>Shapes made of straight lines</i> keeps the square, the triangle and the rectangle and throws out the circle by itself. The second name is the one the question is built on. Count what your category leaves out before you commit to it."
+      },
+      {
+        "type": "h",
+        "text": "Do not stop at the first plausible split"
+      },
+      {
+        "type": "p",
+        "text": "The first difference you notice is often a real difference and still not the answer. In <i>sprint</i>, <i>jog</i>, <i>stroll</i> and <i>swim</i>, the first thing most students see is that strolling is the slow one while the others are quick. That is true, and it is not the split: sprinting, jogging and strolling are all ways of moving on your own two feet, and swimming is not. Speed is a difference among the words. Being done on foot is the line that separates three from one."
+      },
+      {
+        "type": "p",
+        "text": "As a rule of thumb: splits by <b>degree</b> — louder, bigger, faster, more expensive — are usually decoys, because degree is a sliding scale and the test wants a clean line. Splits by <b>kind</b> — this one is a different sort of thing from the other three — are usually the answer. When you find a degree split, spend one more second looking for a kind split underneath it."
+      },
+      {
+        "type": "h",
+        "text": "When two readings both work"
+      },
+      {
+        "type": "p",
+        "text": "Some items genuinely support two answers, and this is where most legitimate complaints about this question type come from. Two rules keep you out of trouble. First, prefer the category based on what the things <i>are</i> over one based on where they are found or what they are sometimes used for; a category built on an unusual fact you happen to know is almost never the intended one. Second, prefer the plainer name — the one a seventh grader would say first. The test is not trying to be clever with you."
+      },
+      {
+        "type": "p",
+        "text": "If you are still split after ten seconds, take the more obvious of the two, mark it and go. An ambiguous classification item is worth exactly one point, the same as every other question in the section, and it is not worth the three questions you could answer with the time you would spend arguing with it."
+      },
+      {
+        "type": "h",
+        "text": "Worked examples"
+      },
+      {
+        "type": "example",
+        "stem": "Which word does not belong with the others?",
+        "options": [
+          "violin",
+          "trumpet",
+          "cello",
+          "harp"
+        ],
+        "answer": 1,
+        "walkthrough": "All four are musical instruments, so that category is too big to be the split — it leaves nobody out. Go one level finer: the violin, the cello and the harp all make their sound from strings, and the trumpet is blown. Three strings, one horn. Whenever all four words share an obvious category, the split you want is one level below the label you thought of first."
+      },
+      {
+        "type": "example",
+        "stem": "Which word does not belong with the others?",
+        "options": [
+          "canoe",
+          "bicycle",
+          "motorcycle",
+          "car"
+        ],
+        "answer": 0,
+        "walkthrough": "Two tempting names both fail the counting test: <i>has an engine</i> keeps the motorcycle and the car and drops two, and <i>powered by a person</i> keeps the canoe and the bicycle and drops two. <i>Runs on wheels</i> keeps the bicycle, the motorcycle and the car and drops the canoe alone, so that is the split. When a category leaves two words out, it is not the one the question was written around, however true it is."
+      },
+      {
+        "type": "example",
+        "stem": "Which word does not belong with the others?",
+        "options": [
+          "whisper",
+          "listen",
+          "shout",
+          "murmur"
+        ],
+        "answer": 1,
+        "walkthrough": "The tempting split is volume: shouting is loud and the other two are quiet, so <i>shout</i> looks like the outlier. That is a split by degree and it is a decoy. Whispering, shouting and murmuring are all ways of using your voice, while listening is something you do with your ears — a split by kind, and the one that holds."
+      },
+      {
+        "type": "example",
+        "stem": "Which word does not belong with the others?",
+        "options": [
+          "shovel",
+          "rake",
+          "harvest",
+          "hoe"
+        ],
+        "answer": 2,
+        "walkthrough": "Name the category first: three of these are garden tools. A shovel, a rake and a hoe are all things you hold; a harvest is the work you do with them, or its result. Every word in the set belongs to the same scene, which is the point — a set can be all on one topic and still have a clean line through it. Do not look for the word that feels out of place, look for the word that fails the phrase."
+      },
+      {
+        "type": "example",
+        "stem": "Which word does not belong with the others?",
+        "options": [
+          "paragraph",
+          "chapter",
+          "sentence",
+          "novel"
+        ],
+        "answer": 3,
+        "walkthrough": "Sentences, paragraphs and chapters are all parts of a written work, arranged small to large. A novel is the whole work, not a piece of one. The trap is looking for the extreme — students often reach for <i>sentence</i> as the smallest or <i>novel</i> as the longest and pick on size rather than role. Size is degree. Part against whole is kind."
+      },
+      {
+        "type": "h",
+        "text": "The traps"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "<b>Degree instead of kind.</b> The loudest, the biggest or the most expensive word looks like an outlier and usually is not.",
+          "<b>Stopping at the obvious category.</b> When all four words fit one label, the split is a level finer than the label you first thought of.",
+          "<b>The unfamiliar word.</b> If three words form a clean category, the fourth is the answer even if you cannot define it. But if only two of them group, the strange word is not automatically the odd one — that is a guess dressed up as reasoning.",
+          "<b>Mixed parts of speech.</b> Occasionally the split is grammatical: three verbs and a noun. Worth a glance when the meanings will not separate.",
+          "<b>Overthinking.</b> The clever category you constructed is almost never the intended one. Plain beats ingenious on this question type."
+        ]
+      },
+      {
+        "type": "h",
+        "text": "When you are stuck"
+      },
+      {
+        "type": "ol",
+        "items": [
+          "Write, or at least say, two candidate category names.",
+          "Ask of each one: how many words does it leave out? Keep the one that leaves exactly one.",
+          "If both leave exactly one, take the plainer name — the one about what the things are rather than what they are used for or where they turn up.",
+          "Still stuck after ten seconds? Guess and move. Nothing is subtracted for a wrong answer, and with 16 seconds a question you cannot afford to buy a hard item with the time for three easy ones."
+        ]
+      },
+      {
+        "type": "h",
+        "text": "Worth memorizing"
+      },
+      {
+        "type": "p",
+        "text": "Nothing, and that is the good news about this question type: there is no list to learn. What improves is speed, and speed comes from doing enough of them that naming the category becomes automatic. Since classifications are the largest block of questions in Verbal Skills and they carry no vocabulary requirement beyond what you already have, they are the most efficient practice on this section. Do 20 a day and time yourself."
+      }
+    ]
+  },
+  "Verbal Logic": {
+    "title": "Verbal Logic",
+    "sectionLabel": "Verbal Skills",
+    "weight": "About 10 to 12 of the 60 Verbal Skills questions",
+    "oneLine": "You are given three statements and you decide whether the third one is true, false or uncertain if the first two are true.",
+    "practiceTopic": "Verbal Logic",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Three short statements. You are told to assume the first two are true, and you decide whether the third is true, false or uncertain. About 10 to 12 of the 60 Verbal Skills questions are built this way."
+      },
+      {
+        "type": "p",
+        "text": "This is the only question type in Verbal Skills that does not depend on vocabulary at all, which makes it the best place on the section to gain points. It runs on one rule. Learn the rule properly and these become the questions you finish fastest and miss least."
+      },
+      {
+        "type": "note",
+        "text": "The third statement is <b>false</b> only if the first two make it impossible. If the first two simply do not settle the matter, the answer is <b>uncertain</b> — even when you know from the outside world that the statement is wrong."
+      },
+      {
+        "type": "h",
+        "text": "The three verdicts"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "<b>True</b> — the first two statements force it. There is no way for both of them to be true and the third one false.",
+          "<b>False</b> — the first two statements forbid it. There is no way for both of them to be true and the third one true as well.",
+          "<b>Uncertain</b> — the first two allow it without requiring it. It might be true, it might not, and the statements do not say."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Look closely at what uncertain means, because it is the verdict students misunderstand. It does not mean <i>probably not</i>. It does not mean <i>the statements are about something else</i>. It means the first two statements leave the question open. Most students use this answer far less often than they should, and every unused uncertain is a point."
+      },
+      {
+        "type": "h",
+        "text": "Why a statement you know is wrong can still be uncertain"
+      },
+      {
+        "type": "p",
+        "text": "You are not being asked whether the third statement is true in the world. You are being asked what follows from the first two statements and nothing else. Pretend you know nothing except what those two sentences told you, and answer from there."
+      },
+      {
+        "type": "p",
+        "text": "Take these three: <i>All penguins are birds. A robin is a bird. A robin is a penguin.</i> You know perfectly well that a robin is not a penguin. But look at what you were given. The first statement says penguins are inside the group called birds. The second says robins are inside that group too. Neither statement says the two kinds cannot overlap, so nothing you were told rules the third statement out. It is not proven, and it is not forbidden. The answer is uncertain, and the fact that you happen to know a robin from a penguin is information the question did not give you and does not want."
+      },
+      {
+        "type": "p",
+        "text": "That feels wrong the first few times. It stops feeling wrong once you accept what the question is actually asking, which is not <i>is this true?</i> but <i>did the first two statements settle this?</i>"
+      },
+      {
+        "type": "h",
+        "text": "A procedure you can run in 15 seconds"
+      },
+      {
+        "type": "ol",
+        "items": [
+          "Decide which kind of item it is. Comparisons use words like <i>taller</i>, <i>faster</i>, <i>older</i>, <i>more than</i>, <i>as many as</i>. Categories use <i>all</i>, <i>every</i>, <i>some</i>, <i>no</i>, <i>none</i>.",
+          "For a comparison, put the names in a single line, largest on the left, using only what the statements actually say.",
+          "Read the third statement against the line. Agrees with the line: true. Reverses the line: false. Names never connected to each other: uncertain.",
+          "For a category item, ask whether the second statement puts its subject <i>inside</i> the group the first statement talks about. Inside means you get a definite answer. Merely sharing a trait with that group means uncertain.",
+          "Before you mark false, make sure the first two make the third impossible, not just unproven. Unproven is uncertain."
+        ]
+      },
+      {
+        "type": "h",
+        "text": "Comparison chains"
+      },
+      {
+        "type": "p",
+        "text": "Comparisons are the friendliest items here, because a definite answer is usually available. The whole technique is to draw the line. Do not hold three relationships in your head under time pressure; put the names in order in the margin, biggest first, and read the answer off."
+      },
+      {
+        "type": "p",
+        "text": "A three-term chain links everything: if A is above B and B is above C, then A is above C. This is the pattern that produces most of the <i>true</i> answers on this question type."
+      },
+      {
+        "type": "example",
+        "stem": "Maya's backpack is heavier than Devon's. Devon's backpack is heavier than Ruth's. <b>Maya's backpack is heavier than Ruth's.</b>",
+        "options": [
+          "True",
+          "False",
+          "Uncertain"
+        ],
+        "answer": 0,
+        "walkthrough": "Write the line heaviest first: Maya, Devon, Ruth. Every name is connected to the next one, so the whole line is fixed and Maya is above Ruth on it. The third statement agrees with the line, so it is true. Chains like this are the closest thing to free points in Verbal Skills."
+      },
+      {
+        "type": "p",
+        "text": "Four-term chains work the same way and are only longer. The extra name is often there to make you lose track, not to complicate the logic."
+      },
+      {
+        "type": "example",
+        "stem": "Priya finished ahead of Malik, and Malik finished ahead of Cole. Cole finished ahead of Sana. <b>Priya finished ahead of Sana.</b>",
+        "options": [
+          "True",
+          "False",
+          "Uncertain"
+        ],
+        "answer": 0,
+        "walkthrough": "The first statement gives you two links at once. The line reads Priya, Malik, Cole, Sana, first to last, and every neighbor is connected, so the order of all four is settled. Priya is ahead of Sana on that line, so the third statement is true. Notice that the first statement carried two relationships; count links, not sentences."
+      },
+      {
+        "type": "p",
+        "text": "A chain only settles a comparison if the two names in the third statement actually end up connected. When two names are each compared to a third but never to each other, the line has a fork in it and no definite answer exists."
+      },
+      {
+        "type": "example",
+        "stem": "Rosa runs faster than Kim. Tomas runs faster than Kim. <b>Rosa runs faster than Tomas.</b>",
+        "options": [
+          "True",
+          "False",
+          "Uncertain"
+        ],
+        "answer": 2,
+        "walkthrough": "Both statements compare somebody to Kim, and neither compares Rosa with Tomas. All you know is that Kim is slower than both of them; above Kim the order could go either way. The answer is uncertain. This is the shape to watch for: when the same name appears in both of the first two statements as the <i>smaller</i> side, the other two names are usually left unconnected."
+      },
+      {
+        "type": "h",
+        "text": "Equality, and mixing more with as many as"
+      },
+      {
+        "type": "p",
+        "text": "<i>As many as</i>, <i>as long as</i> and <i>the same as</i> are equal signs. They do not make anything bigger; they pass a comparison straight through. If Ana has as many as Ben, then anything true about Ben's amount is true about Ana's, and the two of them sit at the same point on your line."
+      },
+      {
+        "type": "p",
+        "text": "The trap is reading <i>as many as</i> as though it meant <i>more than</i>. It does not. It is exactly equal, which is precisely why it is useful: it lets you connect two names without changing the order of anything."
+      },
+      {
+        "type": "example",
+        "stem": "The orchard has more apple trees than pear trees. It has as many plum trees as pear trees. <b>The orchard has more apple trees than plum trees.</b>",
+        "options": [
+          "True",
+          "False",
+          "Uncertain"
+        ],
+        "answer": 0,
+        "walkthrough": "Plum equals pear, so put them at the same spot on the line, and apple is above pear. Since plum sits exactly where pear sits, apple is above plum too. True. The equal sign did all the work by moving the plum trees onto a name you already had placed."
+      },
+      {
+        "type": "example",
+        "stem": "Ben scored higher than Cara. Dev scored higher than Cara. <b>Dev scored the same as Ben.</b>",
+        "options": [
+          "True",
+          "False",
+          "Uncertain"
+        ],
+        "answer": 2,
+        "walkthrough": "Ben and Dev are both above Cara and nothing connects them to each other, so they could be equal or either one could be higher. The statements allow the third without requiring it, which is the definition of uncertain. Beware the reflex that says <i>the same</i> sounds like a strong claim and strong claims must be false — how a statement sounds is not evidence."
+      },
+      {
+        "type": "example",
+        "stem": "The hall is longer than the gym. The gym is exactly as long as the cafeteria, and the library is longer than the cafeteria. <b>The library is longer than the gym.</b>",
+        "options": [
+          "True",
+          "False",
+          "Uncertain"
+        ],
+        "answer": 0,
+        "walkthrough": "Ignore the hall; it is a spare part. The gym and the cafeteria are equal, so they occupy the same point on the line, and the library is above the cafeteria, which means it is above the gym as well. True. Four names, one of them irrelevant, and an equal sign in the middle — that is about as hard as a comparison item gets."
+      },
+      {
+        "type": "h",
+        "text": "All, some and none"
+      },
+      {
+        "type": "p",
+        "text": "Categorical items use <i>all</i>, <i>every</i>, <i>some</i> and <i>no</i>. The key fact is that <b>all is a one-way street</b>. <i>All A are B</i> tells you that everything in group A is also in group B. It tells you nothing whatever about whether a particular thing in B is in A, because B is the bigger group and has room for other things."
+      },
+      {
+        "type": "p",
+        "text": "Picture it as an arrow: all trumpets point into brass. You may travel along the arrow — find a trumpet, conclude it is brass — but never against it. Finding something brass tells you nothing about whether it is a trumpet."
+      },
+      {
+        "type": "p",
+        "text": "<i>Some</i> means at least one, and no more than that. <i>Some tools are rusty</i> guarantees that at least one rusty tool exists; it does not promise that the rest are shiny, and it does not tell you which ones. <i>No</i> and <i>none</i> are the strongest of the four, because they forbid, and forbidding is what produces a verdict of false."
+      },
+      {
+        "type": "h",
+        "text": "The undistributed middle"
+      },
+      {
+        "type": "p",
+        "text": "This one pattern costs students more points than anything else in Verbal Logic, so it is worth naming and learning cold. It looks like this: <i>All A are B. C is B. Therefore C is A.</i> The answer is uncertain, every single time."
+      },
+      {
+        "type": "p",
+        "text": "Here is why. The first statement puts A inside B. The second puts C inside B as well. B is the larger circle and it contains things that are not A, so C might be one of those, or C might be an A. Nothing you were told decides it. The argument travels against the arrow, which the arrow does not allow — but failing to prove something is not the same as disproving it, so the verdict is uncertain rather than false."
+      },
+      {
+        "type": "example",
+        "stem": "All the trumpets in the school band are made of brass. Nadia's instrument is made of brass. <b>Nadia plays the trumpet.</b>",
+        "options": [
+          "True",
+          "False",
+          "Uncertain"
+        ],
+        "answer": 2,
+        "walkthrough": "This is the pattern exactly: all trumpets are brass, Nadia's instrument is brass, so Nadia plays a trumpet. But brass is the bigger group and a tuba is brass too. The statements do not rule the trumpet out and do not require it, so the answer is uncertain. Nothing said the band has only trumpets."
+      },
+      {
+        "type": "example",
+        "stem": "All penguins are birds. A robin is a bird. <b>A robin is a penguin.</b>",
+        "options": [
+          "True",
+          "False",
+          "Uncertain"
+        ],
+        "answer": 2,
+        "walkthrough": "Everything in you wants to answer false, because you know robins from penguins. Look only at what you were given: penguins are inside birds, robins are inside birds, and neither statement says the two cannot overlap. The first two do not make the third impossible, so it is uncertain. Outside knowledge is not evidence on this question type, and this item exists to find out whether you know that."
+      },
+      {
+        "type": "p",
+        "text": "Compare a version that runs along the arrow instead of against it. Same words, different direction, definite answer."
+      },
+      {
+        "type": "example",
+        "stem": "Every member of the chess club stayed after school on Friday. Jonah is a member of the chess club. <b>Jonah stayed after school on Friday.</b>",
+        "options": [
+          "True",
+          "False",
+          "Uncertain"
+        ],
+        "answer": 0,
+        "walkthrough": "The second statement puts Jonah inside the group the first statement is about, so the first statement applies to him directly. This is travel along the arrow, and it produces a definite answer: true. The difference between this item and the one before it is only which way the second statement points, and that difference is the whole question type."
+      },
+      {
+        "type": "example",
+        "stem": "Some of the tools in the shed are rusty. Every rusty tool in the shed is a saw. <b>Some of the saws in the shed are rusty.</b>",
+        "options": [
+          "True",
+          "False",
+          "Uncertain"
+        ],
+        "answer": 0,
+        "walkthrough": "<i>Some</i> guarantees that at least one rusty tool exists. The second statement says every rusty tool in the shed is a saw, so that tool is a saw, and it is rusty. At least one rusty saw therefore exists, which is exactly what the third statement claims. True. With <i>some</i> items, find the thing the statement guarantees exists and follow it."
+      },
+      {
+        "type": "h",
+        "text": "When the answer really is false"
+      },
+      {
+        "type": "p",
+        "text": "False is the rarest of the three verdicts, and it turns up in two recognizable shapes. The first is a comparison whose order the third statement reverses. The second is a flat contradiction of a <i>no</i>, <i>none</i> or <i>every</i> statement. In both, the first two statements do not merely fail to support the third — they rule it out."
+      },
+      {
+        "type": "example",
+        "stem": "The blue house is older than the green house. The green house is older than the yellow house. <b>The yellow house is older than the blue house.</b>",
+        "options": [
+          "True",
+          "False",
+          "Uncertain"
+        ],
+        "answer": 1,
+        "walkthrough": "The line reads blue, green, yellow, oldest to newest, and it is fully connected, so the position of all three is fixed. The third statement puts yellow above blue, which the line forbids. That is impossible rather than merely unproven, so the answer is false. Reversal of a settled order is the most common way a false answer is built."
+      },
+      {
+        "type": "example",
+        "stem": "No student in Mr. Alvarez's class rides the bus. Elena is a student in Mr. Alvarez's class. <b>Elena rides the bus.</b>",
+        "options": [
+          "True",
+          "False",
+          "Uncertain"
+        ],
+        "answer": 1,
+        "walkthrough": "The second statement puts Elena inside the group, and the first statement forbids everyone in that group from riding the bus. So the third statement is not just unsupported, it is impossible: false. Note the contrast with the trumpet item. There, the second statement only said that Nadia shared a trait with the group. Here it says Elena is in it."
+      },
+      {
+        "type": "h",
+        "text": "Same structure, three different verdicts"
+      },
+      {
+        "type": "table",
+        "head": [
+          "Statements one and two",
+          "Statement three",
+          "Answer",
+          "Why"
+        ],
+        "rows": [
+          [
+            "Ivy is taller than Sam. Sam is taller than Noor.",
+            "Ivy is taller than Noor.",
+            "True",
+            "The line reads Ivy, Sam, Noor. The third statement agrees with it."
+          ],
+          [
+            "Ivy is taller than Sam. Sam is taller than Noor.",
+            "Noor is taller than Ivy.",
+            "False",
+            "The same line puts Noor last. The third statement reverses it, so the first two make it impossible."
+          ],
+          [
+            "Ivy is taller than Sam. Noor is taller than Sam.",
+            "Ivy is taller than Noor.",
+            "Uncertain",
+            "Both are above Sam and nothing compares Ivy with Noor. The statements allow it without requiring it."
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "The three items differ by a handful of words. Two of them use the same third statement and have different answers, and one of them changes only which name sits on which side of the second statement. That is the level of attention these questions ask for, and it is why you read the second statement twice."
+      },
+      {
+        "type": "h",
+        "text": "The traps"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "<b>Answering from the world instead of from the statements.</b> The most expensive habit on this question type, and the one the undistributed middle items are designed to catch.",
+          "<b>Calling it false when it is only unproven.</b> False means impossible. If you cannot show it is impossible, it is uncertain.",
+          "<b>Traveling against the arrow.</b> <i>All A are B</i> never tells you that a B is an A.",
+          "<b>Reading <i>as many as</i> as <i>more than</i>.</b> It is an equal sign. It moves a name onto the line without changing the order.",
+          "<b>Missing the fork.</b> When both of the first two statements compare somebody to the same person, check whether the two names in the third statement were ever compared to each other.",
+          "<b>Swapping the names.</b> The names are short, similar and deliberately easy to reverse when you are rushing. Read the third statement once more before you mark it."
+        ]
+      },
+      {
+        "type": "h",
+        "text": "If you cannot decide"
+      },
+      {
+        "type": "p",
+        "text": "Then the answer is uncertain, and that is not a guess, it is the definition. If you have read the first two statements with care and you can neither show that the third must be true nor show that it is impossible, uncertain is the correct answer, not the consolation prize. The mistake is the opposite one: sitting on an item hunting for a proof that is not there."
+      },
+      {
+        "type": "p",
+        "text": "And if you are lost because the wording has tangled you up rather than the logic, mark uncertain and move on. There is no penalty for a wrong answer on the HSPT, and at 16 seconds a question the time is worth more than the item."
+      },
+      {
+        "type": "h",
+        "text": "Worth memorizing"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "False means impossible. Unproven means uncertain.",
+          "<i>All A are B</i> travels one way only.",
+          "<i>All A are B; C is B; therefore C is A</i> is uncertain, always.",
+          "For comparisons, write the line, largest on the left.",
+          "<i>As many as</i> is an equal sign, not a bigger sign.",
+          "Two names that never got compared cannot produce a definite answer."
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,1472 @@
+{
+ "Capitalization": {
+  "title": "Capitalization",
+  "sectionLabel": "Language Skills",
+  "weight": "Part of the 12 punctuation and capitalization questions",
+  "oneLine": "You are shown three sentences and must find the one that capitalizes a word it should not, or fails to capitalize one it should — or decide that all three are correct.",
+  "practiceTopic": "Capitalization",
+  "blocks": [
+   {
+    "type": "p",
+    "text": "Capitalization questions come in a fixed shape. You get three sentences, labeled A, B and C, and a fourth choice that reads <i>No mistakes.</i> Exactly one of the four is right. Your job is to find the sentence with a capital letter where none belongs, or a lowercase letter where a capital belongs — or to decide that all three sentences are clean."
+   },
+   {
+    "type": "p",
+    "text": "The test is not asking whether a sentence sounds good. It is asking about one narrow thing. Almost every capitalization item turns on the same idea: a proper noun names one specific person, place, thing or event, and a common noun names a category. <i>Ocean</i> is a category. <i>Pacific Ocean</i> is one specific ocean. The whole difficulty is the long list of words that feel important enough to deserve a capital and do not get one."
+   },
+   {
+    "type": "h",
+    "text": "How to work the item"
+   },
+   {
+    "type": "ol",
+    "items": [
+     "Read sentence A on its own, from the first word to the period. Do not compare it with B and C. Each sentence is judged by itself.",
+     "Scan the capital letters first. For each one, ask what gives it the right to be there. If you cannot name a reason, you have probably found the error.",
+     "Then scan for words that should be capitalized and are not: names, months, days, holidays, languages, brands, specific places.",
+     "If A survives both passes, do the same for B, then C.",
+     "If all three survive, choose <i>No mistakes.</i> and move on. Do not go back and hunt for something you missed."
+    ]
+   },
+   {
+    "type": "note",
+    "text": "<i>No mistakes.</i> is a real answer, not a trick. It comes up regularly, and students lose more points by inventing an error than by missing one. You have 25 minutes for 60 questions, which is about 25 seconds each. If you have checked all three sentences once and found nothing, trust that and move."
+   },
+   {
+    "type": "h",
+    "text": "Names and titles"
+   },
+   {
+    "type": "p",
+    "text": "A title is capitalized when it sits in front of a name, because it has become part of the name. It is lowercase when it stands alone or follows the name. <i>Principal Hayes spoke first.</i> <i>Ana Hayes, the principal, spoke first.</i> Same word, two different jobs."
+   },
+   {
+    "type": "p",
+    "text": "Family words work the same way. If you can swap the word for a first name and the sentence still makes sense, capitalize it. <i>I asked Grandpa about the farm</i> — you could say <i>I asked Louis about the farm</i>, so <i>Grandpa</i> is standing in for a name. <i>I asked my grandpa about the farm</i> — you cannot say <i>I asked my Louis</i>, so the word is a description and stays lowercase. A <i>my</i>, <i>his</i>, <i>her</i> or <i>our</i> in front is the usual signal."
+   },
+   {
+    "type": "h",
+    "text": "Places, directions and regions"
+   },
+   {
+    "type": "p",
+    "text": "A compass direction is lowercase: <i>drive west</i>, <i>three blocks south of the school</i>. A named region is capitalized: <i>the Midwest</i>, <i>the Pacific Northwest</i>, <i>the South</i>. Ask whether the word names a part of the country people would recognize as a place, or simply tells you which way to turn."
+   },
+   {
+    "type": "h",
+    "text": "Dates, seasons and school subjects"
+   },
+   {
+    "type": "p",
+    "text": "Days, months and holidays are capitalized. Seasons are not. <i>We start in September, right after Labor Day, and the work runs through winter.</i> Seasons are the single most common false capital on this test, probably because they sit next to months so often."
+   },
+   {
+    "type": "p",
+    "text": "School subjects are lowercase — <i>history</i>, <i>biology</i>, <i>algebra</i>. Two things change that. A language is always capitalized, because it comes from the name of a people or a place: <i>Spanish</i>, <i>Latin</i>, <i>English</i>. And a specific numbered course is a title: <i>Algebra II</i>, <i>Chemistry 101</i>. You can study chemistry and be enrolled in Chemistry 101 in the same sentence, and both are right."
+   },
+   {
+    "type": "h",
+    "text": "Brands, titles of works and events"
+   },
+   {
+    "type": "p",
+    "text": "A brand name is a proper noun; the product it makes is not. You blow your nose on a tissue, even if the box says Kleenex. You wear jeans, even if they are Levi's."
+   },
+   {
+    "type": "p",
+    "text": "In the title of a book, poem, song or film, capitalize the first word, the last word and everything in between except articles (<i>a</i>, <i>an</i>, <i>the</i>), short prepositions (<i>of</i>, <i>in</i>, <i>on</i>, <i>to</i>, <i>at</i>) and the joining words <i>and</i>, <i>but</i> and <i>or</i>. <i>The Rise of the Prairie Towns</i> keeps <i>of</i> and the second <i>the</i> lowercase because neither is the first or the last word."
+   },
+   {
+    "type": "p",
+    "text": "Named historical periods and events are capitalized: <i>the Great Depression</i>, <i>the Renaissance</i>, <i>the Battle of Gettysburg</i>. Centuries and loose stretches of time are not: <i>the twentieth century</i>, <i>the war years</i>, <i>the early nineties</i>."
+   },
+   {
+    "type": "h",
+    "text": "Quoted sentences"
+   },
+   {
+    "type": "p",
+    "text": "The first word of a quoted sentence is capitalized even though it sits inside a longer sentence. <i>Marcus said, \"The bus leaves in ten minutes.\"</i> If what you quote is only a fragment, no capital is added: <i>She called the plan \"a waste of a good Saturday.\"</i>"
+   },
+   {
+    "type": "table",
+    "head": [
+     "Capitalize",
+     "Leave lowercase"
+    ],
+    "rows": [
+     [
+      "Monday, June, Thanksgiving, Labor Day",
+      "spring, summer, fall, autumn, winter"
+     ],
+     [
+      "Spanish, Latin, English, French",
+      "history, biology, algebra, art"
+     ],
+     [
+      "Algebra II, Chemistry 101",
+      "the algebra test, the chemistry lab"
+     ],
+     [
+      "the Midwest, the South, the East Coast",
+      "drive south, two miles east, the west side of town"
+     ],
+     [
+      "Aunt Marie, Grandpa Louis, Mom",
+      "my aunt, her grandpa, our mom"
+     ],
+     [
+      "Principal Hayes, Senator Ruiz, Dr. Alvarez",
+      "Ana Hayes, the principal, a senator"
+     ],
+     [
+      "Kleenex, Levi's, Ford",
+      "tissue, jeans, truck"
+     ],
+     [
+      "the Great Depression, the Renaissance",
+      "the twentieth century, the war years"
+     ],
+     [
+      "Mississippi River, Larimer Street, Colorado",
+      "the river, that street, the state"
+     ]
+    ]
+   },
+   {
+    "type": "h",
+    "text": "Worked examples"
+   },
+   {
+    "type": "example",
+    "stem": "Find the sentence that contains a capitalization error. If there is no error, choose <i>No mistakes.</i>",
+    "options": [
+     "We drove South for three hours before we stopped for lunch.",
+     "The museum on Larimer Street opens at ten o'clock on Tuesday.",
+     "My favorite season is autumn, though I do not like the short days.",
+     "No mistakes."
+    ],
+    "answer": 0,
+    "walkthrough": "Take the capitals one at a time. In A, <i>South</i> is telling you which way the car went, so it is a direction, not a region, and it should be lowercase. B has <i>Larimer Street</i>, a specific street, and <i>Tuesday</i>, a day of the week — both earn their capitals. C is the trap for careless readers: <i>autumn</i> looks like it belongs with the months and days, but seasons are common nouns. The wrong answers here are built for a student who capitalizes by feel instead of by category."
+   },
+   {
+    "type": "example",
+    "stem": "Find the sentence that contains a capitalization error. If there is no error, choose <i>No mistakes.</i>",
+    "options": [
+     "Ask Grandma whether she remembers the summer of the big flood.",
+     "The Battle of Gettysburg is covered in the last chapter of our History textbook.",
+     "Marcus said, \"The bus leaves in ten minutes.\"",
+     "No mistakes."
+    ],
+    "answer": 1,
+    "walkthrough": "In A, <i>Grandma</i> is used in place of a name — you could substitute a first name and the sentence would still work — so the capital is correct, and <i>summer</i> is correctly lowercase. In B, <i>the Battle of Gettysburg</i> is a named event and keeps its capitals, but <i>History</i> is a school subject, not a language, so <i>history textbook</i> should be lowercase. C capitalizes <i>The</i> because it opens a quoted sentence, which is required. The trap in B is that the correct capitals earlier in the sentence make the wrong one look normal."
+   },
+   {
+    "type": "example",
+    "stem": "Find the sentence that contains a capitalization error. If there is no error, choose <i>No mistakes.</i>",
+    "options": [
+     "The Pacific Northwest gets more rain in winter than the Southwest does.",
+     "She joined the debate team in September, right after Labor Day.",
+     "Coach Mendez told us that the new Basketballs had arrived.",
+     "No mistakes."
+    ],
+    "answer": 2,
+    "walkthrough": "A capitalizes two named regions and leaves <i>winter</i> alone, which is exactly right. B capitalizes a month and a holiday. C capitalizes <i>Coach</i> correctly, because the title comes in front of the name, and then capitalizes <i>Basketballs</i>, which is an ordinary object. This is the most common trap on the whole topic: a word that feels important is not a proper noun. Equipment, teams, offices and school buildings are all common nouns unless they carry a specific name."
+   },
+   {
+    "type": "example",
+    "stem": "Find the sentence that contains a capitalization error. If there is no error, choose <i>No mistakes.</i>",
+    "options": [
+     "Her report was titled <i>The Rise Of The Prairie Towns</i>.",
+     "The library closes early on Christmas Eve.",
+     "Every Thursday my sister volunteers at the animal shelter.",
+     "No mistakes."
+    ],
+    "answer": 0,
+    "walkthrough": "A is a title of a work, so the rule about small words applies: <i>Of</i> is a short preposition and the second <i>The</i> is an article, and neither is the first or last word, so both should be lowercase — <i>The Rise of the Prairie Towns</i>. B and C are ordinary sentences with a holiday and a day of the week correctly capitalized. Titles are the one place where a capital can be wrong even though the word begins a phrase."
+   },
+   {
+    "type": "example",
+    "stem": "Find the sentence that contains a capitalization error. If there is no error, choose <i>No mistakes.</i>",
+    "options": [
+     "My brother will start his job at Hensley Motors in the spring.",
+     "Mr. Okafor teaches French and two sections of geometry.",
+     "We crossed the Mississippi River on the second day of our trip east.",
+     "No mistakes."
+    ],
+    "answer": 3,
+    "walkthrough": "Check each capital and each lowercase word. A: a company name is capitalized, a season is not. B: a title before a name is capitalized, a language is capitalized, a school subject that is not a language is not. C: a named river is capitalized, and <i>east</i> here is a direction of travel, so it stays lowercase. Nothing is wrong, so the answer is <i>No mistakes.</i> Items like this one are why you should check by category rather than reading for a vague sense that something is off — every word in this item is one the test expects you to over-capitalize."
+   },
+   {
+    "type": "h",
+    "text": "The traps, named"
+   },
+   {
+    "type": "ul",
+    "items": [
+     "Seasons. <i>Spring</i>, <i>summer</i>, <i>fall</i>, <i>autumn</i> and <i>winter</i> are common nouns.",
+     "School subjects that are not languages.",
+     "Compass directions used as directions.",
+     "Family words with <i>my</i>, <i>his</i>, <i>her</i> or <i>our</i> in front.",
+     "Titles that follow the name instead of leading it.",
+     "Ordinary nouns that feel official: <i>the Principal's office</i>, <i>our History textbook</i>, <i>the Basketball team</i>. Importance is not a reason to capitalize.",
+     "Small words inside the title of a work.",
+     "The product instead of the brand: <i>a Tissue</i>, <i>a Soda</i>, <i>a Copy machine</i>."
+    ]
+   },
+   {
+    "type": "h",
+    "text": "If you are stuck"
+   },
+   {
+    "type": "p",
+    "text": "Guessing is free on the HSPT. Nothing is subtracted for a wrong answer, so never leave a blank and never spend a minute on one item. If you have found no error and are not fully confident, choose <i>No mistakes.</i> — you have already done the work that answer requires. If you are torn between two sentences, pick the one containing a capital you cannot justify, because a capital that does not belong is tested more often than a capital that is missing."
+   },
+   {
+    "type": "h",
+    "text": "Worth memorizing"
+   },
+   {
+    "type": "p",
+    "text": "Two short lists carry most of the points. Always capitalized: names of people and places, days, months, holidays, languages, brands, named events and periods, the first word of a sentence and the first word of a quoted sentence. Never capitalized on their own: seasons, compass directions, school subjects other than languages, family words used as descriptions, titles that follow a name. If you know those two lists cold, you will recognize most items in a few seconds."
+   }
+  ]
+ },
+ "Punctuation": {
+  "title": "Punctuation",
+  "sectionLabel": "Language Skills",
+  "weight": "Part of the 12 punctuation and capitalization questions",
+  "oneLine": "You are shown three sentences and must find the one whose commas, semicolons, apostrophes or end marks are wrong — or decide that all three are right.",
+  "practiceTopic": "Punctuation",
+  "blocks": [
+   {
+    "type": "p",
+    "text": "The format is the same as the capitalization items: three sentences labeled A, B and C, plus a fourth choice that reads <i>No mistakes.</i> One of the four is correct. You are looking for a mark that is missing, a mark that does not belong, or the wrong mark in the right place."
+   },
+   {
+    "type": "p",
+    "text": "Punctuation looks like a long list of rules, but a handful of them produce almost every tested error. Commas are the biggest source by far, and most comma questions come down to one idea — whether the piece of the sentence you are punctuating is essential to the meaning or extra. Learn that idea and the list gets short."
+   },
+   {
+    "type": "h",
+    "text": "How to work the item"
+   },
+   {
+    "type": "ol",
+    "items": [
+     "Read sentence A on its own. Do not compare it with B and C.",
+     "Check the commas. For each one, name its job. A comma with no job is an error, and so is a missing comma where a job exists.",
+     "Check the apostrophes. Every apostrophe is either a possessive or a contraction. If it is neither, it is wrong.",
+     "Check the marks in the middle — semicolon, colon, quotation marks — and the mark at the end.",
+     "Repeat for B and C. If nothing turns up, answer <i>No mistakes.</i>"
+    ]
+   },
+   {
+    "type": "note",
+    "text": "A note on the serial comma. Regis Jesuit High School style leaves out the comma before <i>and</i> in a simple list: <i>napkins, cups and a folding table</i>. Other style guides put one in. Both are accepted English, and because they are, an HSPT item will never turn on it. If the only thing you can find in a sentence is a missing or extra comma before the final <i>and</i> of a list, that sentence is not the answer. Keep looking."
+   },
+   {
+    "type": "h",
+    "text": "What commas actually do"
+   },
+   {
+    "type": "ul",
+    "items": [
+     "Separate items in a series: <i>Ms. Ferro brought napkins, cups and a folding table.</i>",
+     "Follow an introductory word, phrase or clause: <i>Because the field was wet, practice moved to the gym.</i>",
+     "Fence off a non-restrictive element on both sides: <i>My oldest cousin, who lives in Pueblo, is driving up for the game.</i>",
+     "Set off a name used in direct address: <i>Jonah, please hand me the stapler.</i> or <i>Please hand me the stapler, Jonah.</i>",
+     "Come before a coordinating conjunction — <i>and, but, or, nor, for, so, yet</i> — that joins two independent clauses: <i>The rain started early, so we moved the picnic indoors.</i>"
+    ]
+   },
+   {
+    "type": "p",
+    "text": "That last rule has a twin trap. The comma is required only when there are two complete sentences on either side of the conjunction. When the conjunction is joining two verbs that share one subject, no comma goes in. <i>She picked up the flyers and dropped them at the office</i> takes no comma, because <i>dropped them at the office</i> could not stand alone."
+   },
+   {
+    "type": "h",
+    "text": "Restrictive and non-restrictive: the idea behind half the commas"
+   },
+   {
+    "type": "p",
+    "text": "An element is restrictive if taking it out would change which thing you are talking about. Restrictive elements take no commas at all. An element is non-restrictive if it is extra information about something already identified. Non-restrictive elements take a comma at each end."
+   },
+   {
+    "type": "p",
+    "text": "<i>The students who forgot their permission slips stayed behind.</i> Remove the clause and you no longer know which students, so it is restrictive and gets no commas. <i>My oldest cousin, who lives in Pueblo, is driving up for the game.</i> You already know which cousin — she is the oldest — so the clause is extra and needs both commas."
+   },
+   {
+    "type": "p",
+    "text": "The most common error the test builds from this is one comma instead of two, which leaves a phrase fenced in on one side only. If you see a comma opening an interruption, your eye should immediately go looking for the one that closes it."
+   },
+   {
+    "type": "h",
+    "text": "Comma splices and run-ons"
+   },
+   {
+    "type": "p",
+    "text": "Two independent clauses cannot be joined by a comma alone. <i>The rain started early, we moved the picnic indoors.</i> is a comma splice. A run-on is the same mistake with no comma at all. Test any sentence that has a comma in the middle by covering the comma and asking whether both halves could stand as sentences on their own. If they could, a bare comma is not enough."
+   },
+   {
+    "type": "p",
+    "text": "There are four repairs, and the test may use any of them: a period, a semicolon, a comma plus a coordinating conjunction, or a subordinating word such as <i>because</i>, <i>although</i> or <i>when</i> that turns one clause into a dependent one. Words like <i>however</i>, <i>therefore</i> and <i>instead</i> are not coordinating conjunctions and cannot fix a splice with a comma; they need a semicolon or a period in front of them."
+   },
+   {
+    "type": "h",
+    "text": "Semicolons and colons"
+   },
+   {
+    "type": "p",
+    "text": "A semicolon joins two independent clauses that belong together closely enough to share a sentence: <i>The bus was late; we still made it to the first inning.</i> It also separates items in a list when the items themselves already contain commas: <i>The tour stops in Pueblo, Colorado; Santa Fe, New Mexico; and Flagstaff, Arizona.</i>"
+   },
+   {
+    "type": "p",
+    "text": "A colon introduces what follows — a list, an explanation or a quotation — and what comes before it must be a complete sentence. <i>Bring the following items: a sleeping bag, a flashlight and warm socks.</i> Putting a comma there instead of a colon is a favorite test error, and so is a colon dropped in after a verb or a preposition: <i>The items you need are: a sleeping bag</i> is wrong, because <i>The items you need are</i> is not a sentence."
+   },
+   {
+    "type": "h",
+    "text": "Apostrophes"
+   },
+   {
+    "type": "table",
+    "head": [
+     "Form",
+     "Rule",
+     "Example"
+    ],
+    "rows": [
+     [
+      "Singular possessive",
+      "Add an apostrophe and an s",
+      "the pilot's headset"
+     ],
+     [
+      "Plural ending in s",
+      "Add only an apostrophe",
+      "the pilots' headsets"
+     ],
+     [
+      "Plural not ending in s",
+      "Add an apostrophe and an s",
+      "the children's coats"
+     ],
+     [
+      "Plain plural",
+      "No apostrophe at all",
+      "three pilots, two radios"
+     ],
+     [
+      "its",
+      "Possessive; no apostrophe",
+      "The plane lost its signal."
+     ],
+     [
+      "it's",
+      "Contraction of <i>it is</i> or <i>it has</i>",
+      "It's the last flight tonight."
+     ]
+    ]
+   },
+   {
+    "type": "p",
+    "text": "The <i>its</i> and <i>it's</i> problem disappears if you read the apostrophe out loud as <i>it is</i>. If the sentence still works, the apostrophe belongs; if it does not, the word is <i>its</i>. The same test settles <i>your</i> and <i>you're</i>, <i>their</i> and <i>they're</i>, <i>whose</i> and <i>who's</i>. And remember that an apostrophe never makes a word plural. <i>The Nguyens live next door</i> takes no apostrophe."
+   },
+   {
+    "type": "h",
+    "text": "Quotation marks and end punctuation"
+   },
+   {
+    "type": "p",
+    "text": "In American usage a period or a comma goes inside the closing quotation mark, always: <i>She called it \"a waste of a good Saturday.\"</i> A question mark goes inside when the quoted words are the question and outside when the whole sentence is: <i>The coach asked, \"Who wants to run the first leg?\"</i> against <i>Did she really say \"maybe next week\"?</i>"
+   },
+   {
+    "type": "p",
+    "text": "End punctuation is tested rarely but it is cheap to get right. An indirect question takes a period, not a question mark: <i>He asked whether the pool was open.</i>"
+   },
+   {
+    "type": "h",
+    "text": "Worked examples"
+   },
+   {
+    "type": "example",
+    "stem": "Find the sentence that contains a punctuation error. If there is no error, choose <i>No mistakes.</i>",
+    "options": [
+     "The rain started early, we moved the picnic indoors.",
+     "Because the field was wet, practice was moved to the gym.",
+     "Ms. Ferro brought napkins, cups and a folding table.",
+     "No mistakes."
+    ],
+    "answer": 0,
+    "walkthrough": "Cover the comma in A and read each half: <i>The rain started early</i> and <i>we moved the picnic indoors</i> are both complete sentences, so a comma alone cannot join them. That is a comma splice. B has a comma after an introductory clause, which is exactly where one belongs. C is a plain series. The trap in this item is C, because a student who expects a comma before <i>and</i> may flag it — but that comma is optional in English and the test never hangs an item on it."
+   },
+   {
+    "type": "example",
+    "stem": "Find the sentence that contains a punctuation error. If there is no error, choose <i>No mistakes.</i>",
+    "options": [
+     "The dog wagged its tail as soon as we opened the gate.",
+     "Both of my sisters' bikes need new tires.",
+     "The team lost it's best runner to an ankle injury.",
+     "No mistakes."
+    ],
+    "answer": 2,
+    "walkthrough": "Read every apostrophe as the words it stands for. C says <i>The team lost it is best runner</i>, which is nonsense, so the word should be <i>its</i>. A uses the possessive <i>its</i> correctly, with no apostrophe. B is a plural possessive: more than one sister, each with a bike, so the apostrophe follows the s. The trap is that the correct form in A looks like a missing apostrophe and the wrong form in C looks like a normal contraction."
+   },
+   {
+    "type": "example",
+    "stem": "Find the sentence that contains a punctuation error. If there is no error, choose <i>No mistakes.</i>",
+    "options": [
+     "My oldest cousin, who lives in Pueblo, is driving up for the game.",
+     "The students who forgot their permission slips, stayed behind.",
+     "Jonah, please hand me the stapler.",
+     "No mistakes."
+    ],
+    "answer": 1,
+    "walkthrough": "B has a single comma sitting between the subject and its verb. The clause <i>who forgot their permission slips</i> tells you which students, so it is restrictive and should take no commas at all; and even if it were extra information, it would need a comma at both ends, not one. A shows the non-restrictive version done correctly, with both commas in place. C sets off a name in direct address. When you see one comma in the middle of a subject, check whether its partner is missing."
+   },
+   {
+    "type": "example",
+    "stem": "Find the sentence that contains a punctuation error. If there is no error, choose <i>No mistakes.</i>",
+    "options": [
+     "The bus was late; we still made it to the first inning.",
+     "Bring the following items, a sleeping bag, a flashlight and warm socks.",
+     "Did you remember to lock the shed?",
+     "No mistakes."
+    ],
+    "answer": 1,
+    "walkthrough": "B introduces a list, and an introduction takes a colon, not a comma. Check the colon test as you go: <i>Bring the following items</i> is a complete sentence, so a colon is allowed there. A joins two independent clauses with a semicolon, which is one of the four legal repairs for a splice. C is a direct question and ends with a question mark. The trap in B is that the sentence is full of correct commas, so the one wrong mark blends in."
+   },
+   {
+    "type": "example",
+    "stem": "Find the sentence that contains a punctuation error. If there is no error, choose <i>No mistakes.</i>",
+    "options": [
+     "Aunt Cecilia's recipe calls for four cups of flour, two eggs and a pinch of salt.",
+     "When the power went out, we lit candles and finished the puzzle by hand.",
+     "The coach asked, \"Who wants to run the first leg?\"",
+     "No mistakes."
+    ],
+    "answer": 3,
+    "walkthrough": "Go category by category. Apostrophes: <i>Cecilia's</i> is a singular possessive, correctly formed. Commas: A is a series; B has one after an introductory clause and none before <i>and</i>, which is right because <i>finished the puzzle by hand</i> shares the subject <i>we</i> and cannot stand alone. Quotation marks: C puts the question mark inside because the quoted words are the question, and the comma before the quotation is standard. Nothing is wrong. The temptation is to add a comma before <i>and</i> in B, but that comma would be an error, not a fix."
+   },
+   {
+    "type": "h",
+    "text": "The traps, named"
+   },
+   {
+    "type": "ul",
+    "items": [
+     "One comma where two are needed around a non-restrictive phrase or clause.",
+     "A comma joining two complete sentences with no conjunction — the comma splice.",
+     "A comma before <i>and</i> or <i>but</i> when the two sides do not both stand alone.",
+     "A comma separating a subject from its verb.",
+     "<i>However</i> or <i>therefore</i> used with a comma where a semicolon is required.",
+     "<i>Its</i> and <i>it's</i>, and apostrophes stuck into ordinary plurals.",
+     "A comma where a colon should introduce a list.",
+     "A colon after a verb or a preposition, where the words before it are not a sentence."
+    ]
+   },
+   {
+    "type": "h",
+    "text": "If you are stuck"
+   },
+   {
+    "type": "p",
+    "text": "Work from the marks that are actually there rather than trying to imagine every mark that might be missing. There are only so many commas on the page, and each one either has a job or does not. If you cannot break the tie, remember that the test punishes extra commas more often than sparse ones, so the sentence carrying an unexplained comma is the better guess. And there is no penalty for a wrong answer, so answer every item even when you are unsure."
+   },
+   {
+    "type": "h",
+    "text": "Worth memorizing"
+   },
+   {
+    "type": "p",
+    "text": "The four repairs for two independent clauses: period, semicolon, comma plus a coordinating conjunction, or a subordinating word. The five jobs a comma does. The apostrophe table above. And one line about quotations: periods and commas go inside the closing quotation mark; a question mark goes inside only when the quotation is itself the question."
+   }
+  ]
+ },
+ "Usage": {
+  "title": "Grammar & Usage",
+  "sectionLabel": "Language Skills",
+  "weight": "About 28 of the 60 Language Skills questions — the largest block",
+  "oneLine": "You are shown three sentences and must find the one containing a grammar or usage error — or decide that all three are correct.",
+  "practiceTopic": "Usage",
+  "blocks": [
+   {
+    "type": "p",
+    "text": "This is the largest block on the Language Skills section, and it uses the same format as capitalization and punctuation: three sentences labeled A, B and C, and a fourth choice reading <i>No mistakes.</i> One of the four is right. The error, when there is one, is a grammar error — a verb that does not match its subject, a pronoun in the wrong form, a modifier attached to the wrong word."
+   },
+   {
+    "type": "p",
+    "text": "Reading for a vague sense of wrongness does not work here, because the sentences are written to sound like speech. Plenty of things people say every day are errors on this test. What works is a fixed checklist you run on each sentence in the same order every time."
+   },
+   {
+    "type": "h",
+    "text": "How to work the item"
+   },
+   {
+    "type": "ol",
+    "items": [
+     "Read sentence A on its own. Judge it by itself; the three sentences have nothing to do with each other.",
+     "Find the main verb, then find its real subject and check that they agree.",
+     "Check every pronoun: right case, right number and one clear thing it refers to.",
+     "Check comparisons, negatives and the placement of any describing phrase.",
+     "Repeat on B and C. If all three survive, answer <i>No mistakes.</i>"
+    ]
+   },
+   {
+    "type": "note",
+    "text": "Checking one category at a time is faster than reading each sentence over and over hoping something jumps out. Under 25 minutes for 60 questions you get about 25 seconds an item, which is enough for one disciplined pass and not enough for three anxious ones. And <i>No mistakes.</i> is a genuine answer that comes up more often than students expect."
+   },
+   {
+    "type": "h",
+    "text": "Subject and verb agreement"
+   },
+   {
+    "type": "p",
+    "text": "Find the verb first, then work backward to the subject. The subject is never inside a prepositional phrase. <i>The box of old photographs was sitting in the attic.</i> The subject is <i>box</i>; <i>of old photographs</i> only describes it. Cross out every phrase beginning with <i>of</i>, <i>in</i>, <i>with</i>, <i>along with</i> or <i>as well as</i> and the agreement usually becomes obvious."
+   },
+   {
+    "type": "p",
+    "text": "Two subjects joined by <i>and</i> are plural: <i>My brother and his roommate share a car.</i> Subjects joined by <i>or</i> or <i>nor</i> agree with whichever part is closer to the verb: <i>Neither the coaches nor the trainer was told.</i> A collective noun such as <i>team</i>, <i>class</i>, <i>committee</i> or <i>family</i> is treated as singular when the group acts as one unit, which on this test is almost always: <i>The committee meets on Thursdays.</i>"
+   },
+   {
+    "type": "p",
+    "text": "Indefinite pronouns are where the most agreement points are lost, because several of them feel plural and are not."
+   },
+   {
+    "type": "table",
+    "head": [
+     "Pronoun",
+     "Takes"
+    ],
+    "rows": [
+     [
+      "each, either, neither, one, another",
+      "a singular verb"
+     ],
+     [
+      "everyone, everybody, everything",
+      "a singular verb"
+     ],
+     [
+      "someone, somebody, something",
+      "a singular verb"
+     ],
+     [
+      "anyone, anybody, anything",
+      "a singular verb"
+     ],
+     [
+      "no one, nobody, nothing",
+      "a singular verb"
+     ],
+     [
+      "both, few, many, several",
+      "a plural verb"
+     ],
+     [
+      "some, all, most, none, any",
+      "singular or plural, depending on the noun they stand for"
+     ]
+    ]
+   },
+   {
+    "type": "h",
+    "text": "Pronoun case"
+   },
+   {
+    "type": "p",
+    "text": "A pronoun takes the subject form when it does the verb — <i>I, he, she, we, they, who</i> — and the object form when it receives the action or follows a preposition — <i>me, him, her, us, them, whom</i>. Nearly every tested error is inside a compound. Drop the other person and listen. <i>Julia and me finished the poster</i> becomes <i>me finished the poster</i>, which no one would say, so it is <i>Julia and I</i>. <i>The tickets were given to Marisol and me</i> becomes <i>given to me</i>, which is right."
+   },
+   {
+    "type": "p",
+    "text": "<i>Who</i> and <i>whom</i> work the same way. Answer the clause with <i>he</i> or <i>him</i>: if <i>he</i> fits, use <i>who</i>; if <i>him</i> fits, use <i>whom</i>. <i>The counselor whom we met last week</i> — we met him — so <i>whom</i>. <i>The counselor who wrote the letter</i> — he wrote it — so <i>who</i>."
+   },
+   {
+    "type": "p",
+    "text": "After <i>than</i> in a comparison, finish the sentence silently. <i>He is taller than I</i> is short for <i>than I am</i>, so the subject form is correct. When the comparison is about the object, the object form is correct and means something different: <i>She trusts Diego more than me</i> says she trusts Diego more than she trusts me. The test usually leaves the verb in place so that only one reading is possible."
+   },
+   {
+    "type": "h",
+    "text": "Pronoun agreement and clear reference"
+   },
+   {
+    "type": "p",
+    "text": "A pronoun must match the noun it stands for in number. <i>Each of the runners brought his or her own water</i> — <i>each</i> is singular, so the pronoun is singular too. It must also have exactly one possible antecedent. <i>When Maya met Elena, she was already late</i> is vague, because <i>she</i> could be either of them. Vague reference is tested more often than students expect, and it is easy to miss because the sentence sounds fine. Watch particularly for <i>this</i>, <i>that</i> and <i>it</i> pointing back at a whole idea rather than at a noun."
+   },
+   {
+    "type": "h",
+    "text": "Verbs: tense and irregular forms"
+   },
+   {
+    "type": "p",
+    "text": "Keep the tense consistent within a sentence unless the meaning requires a shift. <i>She opened the door and looked inside</i>, not <i>She opened the door and looks inside</i>. After <i>have</i>, <i>has</i> or <i>had</i>, use the past participle, which is often a different word from the simple past: <i>had drunk</i>, not <i>had drank</i>; <i>had gone</i>, not <i>had went</i>; <i>had seen</i>, not <i>had saw</i>; <i>had written</i>, not <i>had wrote</i>."
+   },
+   {
+    "type": "p",
+    "text": "Three pairs of verbs are tested again and again. The question to ask each time is whether the verb has something to act on."
+   },
+   {
+    "type": "table",
+    "head": [
+     "Verb",
+     "Meaning",
+     "Past",
+     "With <i>have</i>"
+    ],
+    "rows": [
+     [
+      "lie",
+      "to recline; takes no object",
+      "lay",
+      "lain"
+     ],
+     [
+      "lay",
+      "to put something down; takes an object",
+      "laid",
+      "laid"
+     ],
+     [
+      "sit",
+      "to take a seat; takes no object",
+      "sat",
+      "sat"
+     ],
+     [
+      "set",
+      "to place something; takes an object",
+      "set",
+      "set"
+     ],
+     [
+      "rise",
+      "to go up; takes no object",
+      "rose",
+      "risen"
+     ],
+     [
+      "raise",
+      "to lift something; takes an object",
+      "raised",
+      "raised"
+     ]
+    ]
+   },
+   {
+    "type": "p",
+    "text": "You lay a book on the table; you lie down yourself. <i>Lie</i> causes so much trouble because its past tense is <i>lay</i>, which is the other verb's present. <i>Yesterday I lay down for twenty minutes</i> is correct. <i>Yesterday I laid down</i> is not, unless you say what you laid down."
+   },
+   {
+    "type": "h",
+    "text": "Adjectives and adverbs"
+   },
+   {
+    "type": "p",
+    "text": "An adjective describes a noun. An adverb describes a verb, an adjective or another adverb. <i>He drove carelessly through the parking lot</i> — the word tells you how he drove, so it needs the <i>-ly</i>. After a linking verb such as <i>is</i>, <i>seems</i>, <i>smells</i>, <i>tastes</i> or <i>sounds</i>, use the adjective, because the word is describing the subject rather than an action: <i>The soup smells good.</i>"
+   },
+   {
+    "type": "p",
+    "text": "<i>Good</i> is the adjective and <i>well</i> is its adverb: <i>she writes well</i>, not <i>she writes good</i>. <i>Well</i> is also an adjective when it means healthy, which is why <i>I feel well</i> is fine. <i>Bad</i> and <i>badly</i> divide the same way: <i>the team played badly</i>, but <i>the milk tastes bad</i>."
+   },
+   {
+    "type": "h",
+    "text": "Comparisons, negatives and modifiers"
+   },
+   {
+    "type": "p",
+    "text": "Use the comparative for two things and the superlative for three or more: <i>the shorter of the two routes</i>, <i>the shortest of the five routes</i>. Short words add <i>-er</i> and <i>-est</i>; longer words take <i>more</i> and <i>most</i>. Never use both at once. <i>More quicker</i> and <i>most fastest</i> are errors the test likes because they sound emphatic."
+   },
+   {
+    "type": "p",
+    "text": "One negative per idea. <i>We did not see anything</i>, not <i>we did not see nothing</i>. Remember that <i>hardly</i>, <i>scarcely</i> and <i>barely</i> are already negative, so <i>could not hardly hear</i> is a double negative even though it contains only one obvious <i>not</i>."
+   },
+   {
+    "type": "p",
+    "text": "A descriptive phrase at the front of a sentence attaches to whatever noun comes next. <i>Running for the bus, my folder slipped out of my backpack</i> says the folder was running. The repair is to make the person the subject: <i>Running for the bus, I let my folder slip out of my backpack.</i> Single words matter too. <i>Only</i> belongs directly in front of what it limits, and <i>I only ate one slice</i> does not mean the same thing as <i>I ate only one slice</i>."
+   },
+   {
+    "type": "p",
+    "text": "Items joined by <i>and</i>, <i>or</i> or <i>but</i>, or listed in a series, should share the same grammatical form. <i>The job requires patience, attention to detail and a steady hand</i> lines up three noun phrases. <i>The job requires patience, paying attention and to have a steady hand</i> breaks the pattern twice."
+   },
+   {
+    "type": "h",
+    "text": "Words people confuse"
+   },
+   {
+    "type": "table",
+    "head": [
+     "Pair",
+     "How to keep them apart"
+    ],
+    "rows": [
+     [
+      "their / there / they're",
+      "<i>their</i> shows possession; <i>there</i> is a place; <i>they're</i> is <i>they are</i>"
+     ],
+     [
+      "your / you're",
+      "<i>you're</i> is <i>you are</i>; if that does not fit, the word is <i>your</i>"
+     ],
+     [
+      "to / too / two",
+      "<i>too</i> means also or excessively; <i>two</i> is the number; <i>to</i> is everything else"
+     ],
+     [
+      "affect / effect",
+      "<i>affect</i> is the verb, <i>effect</i> the noun: rain affects the game, and the effect is a delay"
+     ],
+     [
+      "then / than",
+      "<i>then</i> is about time; <i>than</i> is about comparison"
+     ],
+     [
+      "fewer / less",
+      "<i>fewer</i> for things you count; <i>less</i> for amounts you measure"
+     ],
+     [
+      "among / between",
+      "<i>between</i> for two; <i>among</i> for three or more"
+     ],
+     [
+      "accept / except",
+      "<i>accept</i> means to receive; <i>except</i> means leaving out"
+     ],
+     [
+      "lose / loose",
+      "<i>lose</i> is a verb; <i>loose</i> is the opposite of tight"
+     ],
+     [
+      "passed / past",
+      "<i>passed</i> is a verb; <i>past</i> is a time or a direction"
+     ]
+    ]
+   },
+   {
+    "type": "p",
+    "text": "The HSPT tests traditional usage. Where careful writers genuinely disagree, the test stays off the disputed ground — it will not ask you to settle an argument about style. It will ask about rules that have one answer, which is why the checklist above is worth running exactly as written."
+   },
+   {
+    "type": "h",
+    "text": "Worked examples"
+   },
+   {
+    "type": "example",
+    "stem": "Find the sentence that contains a grammar or usage error. If there is no error, choose <i>No mistakes.</i>",
+    "options": [
+     "The box of old photographs were sitting in the attic.",
+     "Neither of the answers seems right to me.",
+     "My brother and his roommate share a car.",
+     "No mistakes."
+    ],
+    "answer": 0,
+    "walkthrough": "Find each verb and its real subject. In A the verb is <i>were sitting</i>; cross out the prepositional phrase <i>of old photographs</i> and the subject is <i>box</i>, which is singular, so the verb should be <i>was sitting</i>. In B the subject is <i>neither</i>, an indefinite pronoun that is always singular, so <i>seems</i> is correct even though <i>answers</i> sits right next to it. C joins two people with <i>and</i>, so the plural <i>share</i> is right. Both A and B are built on the same trap: the noun closest to the verb is not the subject."
+   },
+   {
+    "type": "example",
+    "stem": "Find the sentence that contains a grammar or usage error. If there is no error, choose <i>No mistakes.</i>",
+    "options": [
+     "The counselor whom we met last week sent an email.",
+     "Julia and me finished the poster before lunch.",
+     "Between you and me, the second draft was better.",
+     "No mistakes."
+    ],
+    "answer": 1,
+    "walkthrough": "Drop the other person out of the compound in B: <i>me finished the poster</i> is not English, so it should be <i>Julia and I</i>. In A, test <i>whom</i> by answering the clause — we met <i>him</i> — so the object form is correct. In C the pronoun follows the preposition <i>between</i>, so the object form <i>me</i> is right. The trap runs both ways: students taught to say <i>and I</i> often overcorrect and write <i>between you and I</i>, which is the error C is daring you to flag."
+   },
+   {
+    "type": "example",
+    "stem": "Find the sentence that contains a grammar or usage error. If there is no error, choose <i>No mistakes.</i>",
+    "options": [
+     "Devon plays the trumpet well enough to join the pit band.",
+     "The soup smells good, but it is far too salty.",
+     "He drove careless through the parking lot.",
+     "No mistakes."
+    ],
+    "answer": 2,
+    "walkthrough": "Ask what each describing word is describing. In C the word tells you how he drove, which is an action, so it must be the adverb <i>carelessly</i>. In A, <i>well</i> describes how Devon plays, and <i>well</i> is the adverb form. In B, <i>smells</i> is a linking verb here — the soup is not sniffing anything — so the adjective <i>good</i> correctly describes the soup. The trap is that <i>good</i> in B looks like the classic <i>good</i> and <i>well</i> error and is not one."
+   },
+   {
+    "type": "example",
+    "stem": "Find the sentence that contains a grammar or usage error. If there is no error, choose <i>No mistakes.</i>",
+    "options": [
+     "Yesterday I lay down for twenty minutes after practice.",
+     "She had drank all of the water before the second mile.",
+     "The keys are on the counter where you left them.",
+     "No mistakes."
+    ],
+    "answer": 1,
+    "walkthrough": "After <i>had</i> you need the past participle, and the participle of <i>drink</i> is <i>drunk</i>, so B should read <i>had drunk</i>. A looks wrong to most students and is not: <i>lay</i> is the past tense of <i>lie</i>, and no object follows it, so the sentence is correct. C has no verb problem at all. This item is typical of how the test uses <i>lie</i> and <i>lay</i> — the correct form is planted as a distractor next to a real error somewhere else."
+   },
+   {
+    "type": "example",
+    "stem": "Find the sentence that contains a grammar or usage error. If there is no error, choose <i>No mistakes.</i>",
+    "options": [
+     "Running for the bus, my folder slipped out of my backpack.",
+     "The job requires patience, attention to detail and a steady hand.",
+     "We have not seen the new gym yet.",
+     "No mistakes."
+    ],
+    "answer": 0,
+    "walkthrough": "An opening phrase attaches to the subject that follows it, and the subject of A is <i>my folder</i>, so the sentence says the folder was running for the bus. That is a dangling modifier. B lists three noun phrases in the same grammatical form, so it is parallel. C uses the participle <i>seen</i> after <i>have</i>, which is correct. Dangling modifiers are easy to miss because the meaning is obvious to a human reader — the test is asking what the sentence says, not what you know it means."
+   },
+   {
+    "type": "example",
+    "stem": "Find the sentence that contains a grammar or usage error. If there is no error, choose <i>No mistakes.</i>",
+    "options": [
+     "The effect of the new schedule was easy to see by October.",
+     "There are fewer cars in the lot than there were last year.",
+     "If you are not sure, ask whoever is at the front desk.",
+     "No mistakes."
+    ],
+    "answer": 3,
+    "walkthrough": "Each sentence sets a trap and then avoids it. A wants the noun, and <i>effect</i> is the noun. B counts cars, which are countable, so <i>fewer</i> is right and <i>than</i> is the comparison word. C looks like it needs <i>whomever</i> because it follows the verb <i>ask</i>, but the pronoun is the subject of <i>is</i> inside its own clause, so <i>whoever</i> is correct. Run the checklist, find nothing and answer <i>No mistakes.</i> without second-guessing yourself."
+   },
+   {
+    "type": "h",
+    "text": "The traps, named"
+   },
+   {
+    "type": "ul",
+    "items": [
+     "A plural noun sitting between a singular subject and its verb.",
+     "<i>Each</i>, <i>every</i>, <i>either</i>, <i>neither</i> and the <i>-one</i> and <i>-body</i> pronouns, all of which are singular.",
+     "<i>Between you and I</i> and other overcorrections into the subject form.",
+     "The correct form of <i>lie</i> or <i>lay</i> planted where it looks wrong.",
+     "The simple past used after <i>have</i>, <i>has</i> or <i>had</i>.",
+     "An adjective doing an adverb's job, and the reverse after a linking verb.",
+     "<i>More</i> or <i>most</i> stacked on top of an <i>-er</i> or <i>-est</i> ending.",
+     "<i>Hardly</i>, <i>scarcely</i> and <i>barely</i> paired with another negative.",
+     "An opening phrase attached to the wrong noun.",
+     "A pronoun with two possible antecedents."
+    ]
+   },
+   {
+    "type": "h",
+    "text": "If you are stuck"
+   },
+   {
+    "type": "p",
+    "text": "Go back to the verb. Most usage errors on this test are verb errors of one kind or another — agreement, tense or participle — so if one pass has turned up nothing, spend your last few seconds on the verbs alone before you answer. If two sentences both feel slightly off, choose the one where you can name the rule being broken. A sentence you dislike is not an error; a sentence you can explain is. There is no penalty for guessing wrong, so put down an answer either way and keep moving."
+   },
+   {
+    "type": "h",
+    "text": "Worth memorizing"
+   },
+   {
+    "type": "p",
+    "text": "The indefinite pronoun table and the six irregular verbs above are the two lists that repay memorizing outright. Everything else is a test you can run in the moment: cross out the prepositional phrases, drop the other person out of the compound, substitute <i>he</i> or <i>him</i> for <i>who</i> or <i>whom</i>, ask whether a describing word is describing a noun or an action, and check what the opening phrase is actually attached to."
+   }
+  ]
+ },
+ "Spelling": {
+  "title": "Spelling",
+  "sectionLabel": "Language Skills",
+  "weight": "About 10 of the 60 Language Skills questions",
+  "oneLine": "You are shown three sentences and must find the one that contains a misspelled word — or decide that all three are spelled correctly.",
+  "practiceTopic": "Spelling",
+  "blocks": [
+   {
+    "type": "p",
+    "text": "Spelling items use the same shape as the rest of Language Skills: three sentences labeled A, B and C, and a fourth choice reading <i>No mistakes.</i> Somewhere in one of the sentences a word is spelled wrong, or nothing is. The sentences themselves are ordinary; the punctuation and grammar in them are not what you are being asked about."
+   },
+   {
+    "type": "p",
+    "text": "You cannot study this by memorizing a dictionary, and you do not need to. The misspellings on the test are not random scrambles. They are the specific mistakes people actually make: a doubled letter that should be single, an <i>ie</i> flipped to <i>ei</i>, a silent <i>e</i> left in, a homophone chosen by sound. Learn the handful of patterns those mistakes come from and you will recognize a wrong word without having to remember the right one."
+   },
+   {
+    "type": "h",
+    "text": "How to work the item"
+   },
+   {
+    "type": "ol",
+    "items": [
+     "Read sentence A once for meaning, then go back and look at words only.",
+     "Ignore the short common words. The answer is almost never <i>the</i>, <i>went</i> or <i>make</i>. Look at words of three or more syllables and at any word that has a sound-alike twin.",
+     "Break a suspect word into syllables and say each one: <i>sep-a-rate</i>, <i>gov-ern-ment</i>, <i>Feb-ru-ar-y</i>. Most errors are a syllable that got swallowed in speech.",
+     "Check the unstressed vowel. In a long word the vowel you cannot hear clearly is where the error usually hides.",
+     "For homophones, check the meaning, not the sound. Ask what the word is doing in the sentence.",
+     "Repeat for B and C. If nothing is wrong, answer <i>No mistakes.</i>"
+    ]
+   },
+   {
+    "type": "note",
+    "text": "The unstressed vowel is the highest-yield check on this whole topic. Say <i>separate</i> out loud and the middle vowel sounds like almost nothing, which is why people write <i>seperate</i>. The same is true of <i>definite</i>, <i>independent</i>, <i>privilege</i> and <i>calendar</i>. When you meet a long word, find the syllable you cannot hear and look hard at it."
+   },
+   {
+    "type": "h",
+    "text": "i before e"
+   },
+   {
+    "type": "p",
+    "text": "The old rhyme still earns its keep: i before e, except after c, or when the letters sound like <i>ay</i> as in <i>neighbor</i> and <i>weigh</i>. So <i>believe</i>, <i>relief</i>, <i>piece</i> and <i>achieve</i>, but <i>receive</i>, <i>ceiling</i> and <i>deceive</i>, and <i>eight</i>, <i>freight</i> and <i>vein</i>."
+   },
+   {
+    "type": "p",
+    "text": "The real exceptions are worth knowing because the test uses them: <i>either</i>, <i>neither</i>, <i>seize</i>, <i>weird</i>, <i>foreign</i>, <i>height</i>, <i>leisure</i>, <i>protein</i>, <i>their</i> and <i>forfeit</i>. A second group breaks the <i>after c</i> half of the rule because the c sounds like <i>sh</i>: <i>science</i>, <i>ancient</i>, <i>efficient</i>, <i>conscience</i>, <i>sufficient</i>."
+   },
+   {
+    "type": "h",
+    "text": "Adding endings"
+   },
+   {
+    "type": "p",
+    "text": "<b>Doubling the final consonant.</b> A one-syllable word that ends consonant-vowel-consonant doubles that last letter before an ending that starts with a vowel: <i>stop</i> becomes <i>stopping</i>, <i>plan</i> becomes <i>planned</i>, <i>big</i> becomes <i>bigger</i>. A longer word doubles only when the stress falls on the last syllable: <i>begin</i> becomes <i>beginning</i> and <i>refer</i> becomes <i>referred</i>, but <i>open</i> becomes <i>opening</i> and <i>offer</i> becomes <i>offered</i>. This single rule explains why <i>occurred</i> has two r's and <i>benefited</i> has one t."
+   },
+   {
+    "type": "p",
+    "text": "<b>Dropping the silent e.</b> Drop it before an ending that starts with a vowel, keep it before an ending that starts with a consonant: <i>hope</i> gives <i>hoping</i> and <i>hopeful</i>; <i>use</i> gives <i>usable</i> and <i>useful</i>. The exception is a word ending in a soft <i>ce</i> or <i>ge</i>, where the e stays to keep the sound soft: <i>noticeable</i>, <i>manageable</i>, <i>courageous</i>."
+   },
+   {
+    "type": "p",
+    "text": "<b>Changing y to i.</b> If a consonant comes before the y, change it: <i>carry</i> gives <i>carried</i>, <i>happy</i> gives <i>happiest</i>, <i>study</i> gives <i>studies</i>. If a vowel comes before the y, leave it: <i>played</i>, <i>joys</i>, <i>obeyed</i>. The y always stays before <i>-ing</i>, which is why it is <i>carrying</i> and not <i>carriing</i>."
+   },
+   {
+    "type": "h",
+    "text": "Endings that sound alike"
+   },
+   {
+    "type": "p",
+    "text": "<b>-able and -ible.</b> If what is left after you remove the ending is a complete word, the ending is usually <i>-able</i>: <i>agreeable</i>, <i>dependable</i>, <i>comfortable</i>, <i>reasonable</i>. If what is left is not a word on its own, the ending is usually <i>-ible</i>: <i>visible</i>, <i>terrible</i>, <i>possible</i>, <i>edible</i>. This is a strong tendency rather than a law — <i>responsible</i> and <i>digestible</i> break it — but it will get you the right answer far more often than a guess."
+   },
+   {
+    "type": "p",
+    "text": "<b>-tion, -sion and -cian.</b> Use <i>-cian</i> for a person who does something: <i>musician</i>, <i>electrician</i>, <i>physician</i>. Use <i>-sion</i> when the base verb ends in <i>d</i>, <i>de</i> or <i>s</i>: <i>decide</i> gives <i>decision</i>, <i>extend</i> gives <i>extension</i>, <i>discuss</i> gives <i>discussion</i>. Otherwise the ending is <i>-tion</i>, which is the ordinary case: <i>attention</i>, <i>invention</i>, <i>population</i>."
+   },
+   {
+    "type": "h",
+    "text": "Homophones, which no spellcheck catches"
+   },
+   {
+    "type": "p",
+    "text": "A misspelling that is also a real word will never be flagged by a computer, and the test knows it. When you meet one of these, stop and ask what the word means in this sentence."
+   },
+   {
+    "type": "table",
+    "head": [
+     "Word",
+     "Means",
+     "Word",
+     "Means"
+    ],
+    "rows": [
+     [
+      "their",
+      "belonging to them",
+      "there / they're",
+      "a place / they are"
+     ],
+     [
+      "your",
+      "belonging to you",
+      "you're",
+      "you are"
+     ],
+     [
+      "its",
+      "belonging to it",
+      "it's",
+      "it is"
+     ],
+     [
+      "principal",
+      "main, or the head of a school",
+      "principle",
+      "a rule or belief"
+     ],
+     [
+      "past",
+      "a time already gone, or by",
+      "passed",
+      "went by (a verb)"
+     ],
+     [
+      "stationary",
+      "standing still",
+      "stationery",
+      "paper and envelopes"
+     ],
+     [
+      "weather",
+      "rain and sun",
+      "whether",
+      "if"
+     ],
+     [
+      "capital",
+      "a city or money",
+      "capitol",
+      "a building"
+     ],
+     [
+      "compliment",
+      "a kind remark",
+      "complement",
+      "something that completes"
+     ],
+     [
+      "council",
+      "a group that meets",
+      "counsel",
+      "advice, or to advise"
+     ]
+    ]
+   },
+   {
+    "type": "h",
+    "text": "Words worth learning outright"
+   },
+   {
+    "type": "p",
+    "text": "These come up constantly, in school writing and on this test. Learn the correct form beside the mistake, because seeing the wrong version is what makes it stick."
+   },
+   {
+    "type": "table",
+    "head": [
+     "Correct",
+     "The usual mistake"
+    ],
+    "rows": [
+     [
+      "separate",
+      "seperate"
+     ],
+     [
+      "definitely",
+      "definately"
+     ],
+     [
+      "occurred",
+      "occured"
+     ],
+     [
+      "necessary",
+      "neccessary"
+     ],
+     [
+      "receive",
+      "recieve"
+     ],
+     [
+      "believe",
+      "beleive"
+     ],
+     [
+      "argument",
+      "arguement"
+     ],
+     [
+      "beginning",
+      "begining"
+     ],
+     [
+      "committee",
+      "commitee"
+     ],
+     [
+      "embarrass",
+      "embarass"
+     ],
+     [
+      "environment",
+      "enviroment"
+     ],
+     [
+      "February",
+      "Febuary"
+     ],
+     [
+      "government",
+      "goverment"
+     ],
+     [
+      "grammar",
+      "grammer"
+     ],
+     [
+      "independent",
+      "independant"
+     ],
+     [
+      "library",
+      "libary"
+     ],
+     [
+      "noticeable",
+      "noticable"
+     ],
+     [
+      "occasion",
+      "ocassion"
+     ],
+     [
+      "privilege",
+      "priviledge"
+     ],
+     [
+      "recommend",
+      "reccommend"
+     ],
+     [
+      "restaurant",
+      "restarant"
+     ],
+     [
+      "rhythm",
+      "rythm"
+     ],
+     [
+      "schedule",
+      "schedual"
+     ],
+     [
+      "surprise",
+      "suprise"
+     ],
+     [
+      "tomorrow",
+      "tommorrow"
+     ],
+     [
+      "until",
+      "untill"
+     ]
+    ]
+   },
+   {
+    "type": "h",
+    "text": "Worked examples"
+   },
+   {
+    "type": "example",
+    "stem": "Find the sentence that contains a misspelled word. If there is no error, choose <i>No mistakes.</i>",
+    "options": [
+     "We recieved the schedule two days late.",
+     "The ceiling in the old gym leaks whenever it rains.",
+     "Their neighbor agreed to feed the cat.",
+     "No mistakes."
+    ],
+    "answer": 0,
+    "walkthrough": "Run the i before e rule. In A the letters follow a c, so the order must be <i>ei</i>: the word is <i>received</i>. B has <i>ceiling</i>, which follows the same rule correctly and is placed here to make you doubt yourself. C has two of the listed exceptions, <i>their</i> and <i>neighbor</i>, both spelled right — <i>neighbor</i> belongs to the <i>ay</i> sound branch of the rule. The trap is that all three sentences contain an <i>ie</i> or <i>ei</i> word, so you must apply the rule rather than react to the look of the letters."
+   },
+   {
+    "type": "example",
+    "stem": "Find the sentence that contains a misspelled word. If there is no error, choose <i>No mistakes.</i>",
+    "options": [
+     "The referee stopped the game after the second foul.",
+     "He was hopeing for a longer break between classes.",
+     "She is planning to run the mile in April.",
+     "No mistakes."
+    ],
+    "answer": 1,
+    "walkthrough": "All three sentences add <i>-ing</i> or <i>-ed</i> to a base word, so check the ending rules. B keeps a silent e before a vowel ending; the e must go, giving <i>hoping</i>. A doubles the p in <i>stopped</i>, which is right for a one-syllable word ending consonant-vowel-consonant. C leaves <i>planning</i> with two n's for the same reason. The item is built so that the two correct doubled consonants make the missing deletion in B harder to see."
+   },
+   {
+    "type": "example",
+    "stem": "Find the sentence that contains a misspelled word. If there is no error, choose <i>No mistakes.</i>",
+    "options": [
+     "The principal reason for the delay was a broken water main.",
+     "We walked past the old mill on our way to the river.",
+     "Your late again, and the doors close at eight.",
+     "No mistakes."
+    ],
+    "answer": 2,
+    "walkthrough": "Every word in C is a real word, which is exactly why this kind of item is worth slowing down for. Read the apostrophe test: the sentence means <i>you are late again</i>, so it needs <i>You're</i>. A uses <i>principal</i> in the sense of main, which is the correct spelling for that meaning. B uses <i>past</i> to mean by, which is also right; <i>passed</i> would be the verb. Homophone items are the ones a quick reading always gets wrong, because the sentence sounds perfectly normal read aloud."
+   },
+   {
+    "type": "example",
+    "stem": "Find the sentence that contains a misspelled word. If there is no error, choose <i>No mistakes.</i>",
+    "options": [
+     "The seperate entrance is around the corner.",
+     "Our definite answer will come on Friday.",
+     "The calendar in the hallway is out of date.",
+     "No mistakes."
+    ],
+    "answer": 0,
+    "walkthrough": "Say each long word by syllable and listen for the vowel you cannot hear. <i>Sep-a-rate</i> has an a in the middle, not an e, so A is wrong. <i>Def-i-nite</i> and <i>cal-en-dar</i> are the same kind of word and are both spelled correctly here. Three unstressed-vowel words in one item is a deliberate setup: two are right and one is not, and only the syllable check separates them."
+   },
+   {
+    "type": "example",
+    "stem": "Find the sentence that contains a misspelled word. If there is no error, choose <i>No mistakes.</i>",
+    "options": [
+     "The committee finally reached a decision about the uniforms.",
+     "His argument was hard to follow, but it was not wrong.",
+     "The restaurant on Ninth Avenue serves breakfast all day.",
+     "No mistakes."
+    ],
+    "answer": 3,
+    "walkthrough": "Every long word here is one people misspell, which is what makes the item feel wrong. <i>Committee</i> has a double m, a double t and a double e. <i>Decision</i> takes <i>-sion</i> because it comes from <i>decide</i>. <i>Argument</i> drops the e from <i>argue</i>. <i>Restaurant</i> keeps the <i>au</i> most people leave out. Check them, find them all correct and answer <i>No mistakes.</i> Do not talk yourself out of it because the words look difficult."
+   },
+   {
+    "type": "h",
+    "text": "The traps, named"
+   },
+   {
+    "type": "ul",
+    "items": [
+     "The unstressed vowel in a long word: <i>seperate</i>, <i>definate</i>, <i>independant</i>, <i>calender</i>.",
+     "A swallowed syllable: <i>Febuary</i>, <i>goverment</i>, <i>libary</i>, <i>probly</i>.",
+     "A doubled letter that should be single, or a single that should be doubled.",
+     "A silent e that should have been dropped before <i>-ing</i>, <i>-ed</i> or <i>-able</i>.",
+     "Homophones, which read perfectly aloud and are still wrong.",
+     "A correctly spelled hard word planted beside an easy error, to draw your eye away."
+    ]
+   },
+   {
+    "type": "h",
+    "text": "If you are stuck"
+   },
+   {
+    "type": "p",
+    "text": "Write the word in the margin of your test booklet the way you would spell it yourself, then compare. Seeing your own version next to the printed one often makes the difference visible when staring at the page does not. If you still cannot decide, count the syllables you hear against the syllables on the page — a missing one is the most common single error. And since a wrong answer costs nothing, never leave a spelling item blank; when you have no read at all, <i>No mistakes.</i> is a reasonable default, because a spelling item with no error is common."
+   },
+   {
+    "type": "h",
+    "text": "Worth memorizing"
+   },
+   {
+    "type": "p",
+    "text": "Memorize the exception lists for i before e, and the table of common misspellings above — those two together cover a large share of what appears. Everything else is a procedure: syllable by syllable, unstressed vowel first, homophones by meaning. Ten questions is a small block, but they are the fastest points in the section once the patterns are familiar."
+   }
+  ]
+ },
+ "Composition": {
+  "title": "Composition & Paragraphs",
+  "sectionLabel": "Language Skills",
+  "weight": "About 10 of the 60 Language Skills questions",
+  "oneLine": "You are asked to choose the sentence, the transition or the wording that makes a short paragraph work — the best of four options rather than the one that breaks a rule.",
+  "practiceTopic": "Composition",
+  "blocks": [
+   {
+    "type": "p",
+    "text": "Composition items are posed differently from the rest of Language Skills. There is usually no <i>No mistakes.</i> choice, and often nothing in the item is actually wrong. You are choosing the best of four workable options, which means the decision is about what the paragraph needs rather than about a rule being broken."
+   },
+   {
+    "type": "p",
+    "text": "The item types are fixed and there are only a few of them. Choose the best topic sentence for a paragraph. Choose the best concluding sentence. Identify the sentence that does not belong. Choose the best connecting word or transition. Choose the clearest or best-expressed version of a sentence. Decide where a given sentence best fits in a numbered paragraph. Some of these end with a choice reading <i>None of these</i>, which works the way <i>No mistakes.</i> works elsewhere — it is right when none of the three options actually does the job, and it is worth choosing when that is true."
+   },
+   {
+    "type": "h",
+    "text": "How to work the item"
+   },
+   {
+    "type": "ol",
+    "items": [
+     "Identify which of the six types you are looking at. That tells you what question to ask.",
+     "Read the paragraph and say its point to yourself in one short phrase before you read any options.",
+     "Test each option against that phrase, not against the other options.",
+     "Eliminate on specific grounds: too narrow, too broad, off the topic, changes the meaning, adds a new idea.",
+     "If two survive, take the shorter and plainer one, unless it loses information."
+    ]
+   },
+   {
+    "type": "note",
+    "text": "Decide what the paragraph is about before you look at the choices. If you read the options first, you will start comparing them with each other and pick whichever sounds most impressive. Every wrong answer in this topic is written to sound good on its own."
+   },
+   {
+    "type": "h",
+    "text": "Topic sentences"
+   },
+   {
+    "type": "p",
+    "text": "A topic sentence states what the whole paragraph is about. It has to be general enough to cover every other sentence and specific enough to say something. It is not the most interesting sentence, and it is not a fact lifted from the middle of the paragraph."
+   },
+   {
+    "type": "p",
+    "text": "Read the details first, ask what they have in common and then look for the option that names that. Two kinds of wrong answer appear every time. One is too narrow: it is true, but it covers only one of the details, so the rest of the paragraph would be hanging off it. The other is too broad: it would fit any paragraph on the general subject and tells you nothing about this one. A third kind shows up in harder items — an option that is on the subject and interesting but points the paragraph in a direction it never goes."
+   },
+   {
+    "type": "h",
+    "text": "Concluding sentences"
+   },
+   {
+    "type": "p",
+    "text": "A concluding sentence closes a paragraph. It can restate the point in different words, draw the consequence of what has been said, or answer the question the paragraph raised. What it must not do is introduce a new idea. If an option would need a paragraph of its own to explain it, it is wrong, however sensible it sounds."
+   },
+   {
+    "type": "p",
+    "text": "Be careful with options that are true, pleasant and unrelated. A sentence such as <i>Everyone should try it at least once</i> can be attached to almost any paragraph, which is the reason it is not the answer to any of them."
+   },
+   {
+    "type": "h",
+    "text": "The sentence that does not belong"
+   },
+   {
+    "type": "p",
+    "text": "Test each sentence against the topic sentence, not against the sentence next to it. Ask one question of each: does this help explain the paragraph's main point? A sentence that is true, on the same general subject and still not doing that job is the answer."
+   },
+   {
+    "type": "p",
+    "text": "The planted sentence is usually a fact about history, cost or personal preference dropped into a paragraph that is explaining how something works. It fits the topic loosely, which is what makes it hard to see. The giveaway is that you could take it out and lose nothing."
+   },
+   {
+    "type": "h",
+    "text": "Transitions"
+   },
+   {
+    "type": "p",
+    "text": "A transition names the relationship between two sentences. Work the relationship out in your own words first — this contradicts that, this causes that, this is an example of that, this comes after that — and only then read the options. Once you have named the relationship, usually only one choice signals it."
+   },
+   {
+    "type": "table",
+    "head": [
+     "Relationship",
+     "Words that signal it"
+    ],
+    "rows": [
+     [
+      "Adding",
+      "also, in addition, furthermore, moreover, besides"
+     ],
+     [
+      "Contrasting",
+      "but, however, on the other hand, even so, still, nevertheless, yet"
+     ],
+     [
+      "Giving an example",
+      "for example, for instance, in particular, such as"
+     ],
+     [
+      "Showing a cause or result",
+      "because, since, so, as a result, therefore, consequently"
+     ],
+     [
+      "Showing time or order",
+      "first, next, then, later, meanwhile, finally, afterward"
+     ],
+     [
+      "Comparing",
+      "likewise, similarly, in the same way"
+     ],
+     [
+      "Admitting a point",
+      "although, granted, admittedly, of course, it is true that"
+     ],
+     [
+      "Wrapping up",
+      "in short, overall, in the end, all in all"
+     ]
+    ]
+   },
+   {
+    "type": "p",
+    "text": "One mechanical detail is worth carrying into these items. <i>However</i>, <i>therefore</i>, <i>moreover</i> and <i>nevertheless</i> are not conjunctions. They cannot join two sentences with a comma; they need a period or a semicolon in front. <i>But</i>, <i>and</i>, <i>or</i>, <i>so</i> and <i>yet</i> can. If an option would create a comma splice, it is wrong on those grounds alone."
+   },
+   {
+    "type": "h",
+    "text": "The clearest version"
+   },
+   {
+    "type": "p",
+    "text": "When you are given four versions of the same sentence, prefer the one that says the same thing in the fewest words without losing meaning. Direct beats roundabout, and an active subject doing something beats a passive construction. Watch for padding: <i>due to the fact that</i> for <i>because</i>, <i>at this point in time</i> for <i>now</i>, <i>in order to</i> for <i>to</i>, <i>the reason is because</i> for <i>because</i>."
+   },
+   {
+    "type": "p",
+    "text": "Shortest is not automatically right. An option that drops information, changes what the sentence claims, or creates a new grammatical problem is wrong even if it is the tightest on the page. Check the short options for meaning before you take them."
+   },
+   {
+    "type": "h",
+    "text": "Where a sentence fits"
+   },
+   {
+    "type": "p",
+    "text": "When you are placing a sentence into a numbered paragraph, look at the sentence itself for a pointer word: <i>this</i>, <i>that</i>, <i>such</i>, <i>instead</i>, <i>another</i>, <i>the second</i>, or a pronoun standing for a person or thing. The pointer tells you what has to come immediately before it. Then read the sentence that would follow the slot and make sure it still makes sense. A placement that works going in but breaks what comes after is wrong."
+   },
+   {
+    "type": "h",
+    "text": "Worked examples"
+   },
+   {
+    "type": "example",
+    "stem": "Choose the best topic sentence for this paragraph. ______ The first floor holds the reference desk and the newspapers. Study rooms line the second floor. The third floor is quiet by rule, and nobody talks there at all.",
+    "options": [
+     "The town library is arranged by floor, and each floor is quieter than the one below it.",
+     "The town library opened in 1974 and has been remodeled twice.",
+     "Reading is a habit worth building early in life.",
+     "None of these."
+    ],
+    "answer": 0,
+    "walkthrough": "Say the paragraph's point first: three floors, each quieter going up. Option A names exactly that and covers all three details. B is a fact about the library that none of the details support, so the paragraph would not follow from it. C is true and far too broad — it would sit on top of any paragraph about libraries and tells you nothing about this one. Too narrow and too broad are the two standard wrong answers, and you will see one of each in most topic sentence items."
+   },
+   {
+    "type": "example",
+    "stem": "Which sentence does not belong in this paragraph? (1) Learning to read a bus schedule takes about ten minutes. (2) Find your stop in the left column and then read across to the time you need. (3) The city added two new routes last spring. (4) Once you can match a stop to a time, you can plan a whole trip across town.",
+    "options": [
+     "Sentence 1",
+     "Sentence 2",
+     "Sentence 3",
+     "Sentence 4"
+    ],
+    "answer": 2,
+    "walkthrough": "Sentence 1 is the topic sentence: this paragraph explains how to read a schedule. Test the others against it. Sentence 2 explains the method. Sentence 4 states what the method gets you. Sentence 3 is a true fact about the bus system that has nothing to do with reading a schedule, and removing it costs the paragraph nothing. That is the pattern to look for — a sentence on the same subject that is not doing the paragraph's job."
+   },
+   {
+    "type": "example",
+    "stem": "Choose the transition that best fits the blank. The team practiced every morning for a month. ______, they lost the first game of the season.",
+    "options": [
+     "For example",
+     "In addition",
+     "Even so",
+     "Because of this"
+    ],
+    "answer": 2,
+    "walkthrough": "Name the relationship before reading the choices: hard work, then a loss — the second sentence goes against what the first one leads you to expect, so this is contrast. <i>Even so</i> is the only contrast word offered. <i>Because of this</i> claims the practice caused the loss, which reverses the meaning. <i>In addition</i> treats the loss as more good news. <i>For example</i> would make the loss an instance of practicing. Each wrong option signals a real relationship, just not this one."
+   },
+   {
+    "type": "example",
+    "stem": "Choose the clearest and best-expressed version of the sentence.",
+    "options": [
+     "Due to the fact that it was raining, the game was postponed until a later date by the officials.",
+     "The officials postponed the game because of rain.",
+     "Being that it rained, a postponement of the game was made.",
+     "The game, which was rained on, it was postponed."
+    ],
+    "answer": 1,
+    "walkthrough": "All four try to say one thing: rain, so the game was postponed. B says it in seven words with the officials doing the postponing. A is grammatical but padded — <i>due to the fact that</i> for <i>because</i>, <i>until a later date</i> for nothing at all, and a passive that pushes the actors to the end. C uses the non-standard <i>being that</i> and turns a verb into the clumsy noun <i>a postponement</i>. D repeats the subject with <i>it</i> after the interrupting clause. Shorter wins here because nothing is lost, not because shorter always wins."
+   },
+   {
+    "type": "example",
+    "stem": "Choose the best concluding sentence for this paragraph. A study group works only if everyone comes prepared. Each member should read the chapter before the meeting and bring two questions about it. The group can then spend its hour on the parts that are genuinely hard instead of on catching one another up.",
+    "options": [
+     "Study groups have become popular at many schools.",
+     "Preparation is what turns a study group into real work.",
+     "Another good way to study is to make flash cards from your notes.",
+     "None of these."
+    ],
+    "answer": 1,
+    "walkthrough": "The paragraph makes one claim: a study group is only useful if the members prepare. B restates that claim in new words and closes the paragraph, which is what a concluding sentence does. A is a general observation the paragraph never supported. C opens a new topic that would need its own paragraph, and a conclusion that introduces something is not a conclusion. <i>None of these</i> is available and is wrong here, because B does the job — take that option only when nothing offered actually closes the paragraph."
+   },
+   {
+    "type": "h",
+    "text": "The traps, named"
+   },
+   {
+    "type": "ul",
+    "items": [
+     "A topic sentence that is really a detail from the middle of the paragraph.",
+     "A topic sentence so broad it would fit any paragraph on the subject.",
+     "A concluding sentence that introduces a new idea.",
+     "A true, agreeable sentence that has no connection to the paragraph's point.",
+     "A transition that signals the wrong relationship but sounds formal.",
+     "A transition that would create a comma splice.",
+     "The wordiest option, which often reads as the most careful.",
+     "The shortest option, when it has quietly dropped part of the meaning."
+    ]
+   },
+   {
+    "type": "h",
+    "text": "If you are stuck"
+   },
+   {
+    "type": "p",
+    "text": "Go back to the paragraph and finish this sentence out loud in your head: this paragraph is about ____. Then read the options again. Most ties break immediately once the point is stated in plain words. If a tie survives that, choose the option that stays closest to what the paragraph already says rather than the one that adds something new — composition items reward the choice that fits, not the choice that is most interesting. And answer every item, because a wrong answer costs nothing on the HSPT."
+   },
+   {
+    "type": "h",
+    "text": "Worth memorizing"
+   },
+   {
+    "type": "p",
+    "text": "Little here needs memorizing, but the transition table does. Knowing which words signal contrast, cause, example and sequence turns several question types into a one-second decision. Beyond that, carry three questions into every composition item: What is this paragraph about? Does this option cover all of it or only part? Does it add something the paragraph never earned?"
+   }
+  ]
+ }
+}

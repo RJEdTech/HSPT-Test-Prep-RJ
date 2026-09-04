@@ -1,0 +1,1088 @@
+{
+ "Patterns in Numbers": {
+  "title": "Number Series & Patterns",
+  "sectionLabel": "Quantitative Skills",
+  "weight": "About 18 to 22 of the 52 Quantitative Skills questions — the largest type",
+  "oneLine": "A short run of numbers, letters or both follows a hidden rule, and you supply the term that is missing.",
+  "practiceTopic": "Patterns in Numbers",
+  "blocks": [
+   {
+    "type": "p",
+    "text": "Series questions are the largest single block on the Quantitative Skills section. You are shown four to seven terms that follow a rule nobody tells you, and you supply a term that is missing. The terms may be whole numbers, fractions, decimals, letters, Roman numerals or a mix of these."
+   },
+   {
+    "type": "p",
+    "text": "The rules are not clever. Almost every series on this test is built from adding, subtracting, multiplying, dividing or stepping through the alphabet. What makes the questions hard is the clock. The section gives you 52 questions in 30 minutes, which is about 35 seconds each, and no calculator. Speed here comes from running the same procedure every time, not from being quick at arithmetic."
+   },
+   {
+    "type": "h",
+    "text": "The method"
+   },
+   {
+    "type": "ol",
+    "items": [
+     "Read the whole series before you write anything. Notice what kind of terms these are, and notice exactly where the blank sits.",
+     "Write the difference between each pair of neighbouring terms in the gap between them. Do this even when you think you already see the pattern.",
+     "If the differences are all the same, the rule is add that number. You are done.",
+     "If the differences are not the same, take the differences of the differences. If those are constant, the series is progressive and the next gap is predictable.",
+     "If the terms climb or fall steeply, look for a ratio instead. Divide each term by the one before it.",
+     "If none of that works, stop treating the series as one chain. Read every other term. Two simple series braided together look like one complicated series.",
+     "Apply your rule to get the term the item asks for, then test the rule against a pair you have not used yet. A rule that explains only the front of the series is the wrong rule."
+    ]
+   },
+   {
+    "type": "note",
+    "text": "Before you answer, count which position the blank occupies. Items that put the blank in the middle, or at the very start, are the ones students miss — not because the rule is hard but because they compute the term <i>after</i> the blank instead of the blank itself. Once you have a candidate, drop it back into the series and read the whole thing forward."
+   },
+   {
+    "type": "h",
+    "text": "Take the differences first"
+   },
+   {
+    "type": "p",
+    "text": "Take $7, 12, 17, 22, 27$. Under the gaps write $5, 5, 5, 5$. Constant, so add five and the next term is $32$. That is most series questions, and it takes about eight seconds."
+   },
+   {
+    "type": "p",
+    "text": "Now take $5, 6, 9, 14, 21, 30$. The differences are $1, 3, 5, 7, 9$, which are not constant — but the differences of <i>those</i> are $2, 2, 2, 2$. The gap grows by two every step, so the next gap is $11$ and the next term is $41$. A series whose gaps grow by a fixed amount is called progressive, and taking a second round of differences is the only thing you need to crack it."
+   },
+   {
+    "type": "p",
+    "text": "When a series climbs steeply the differences will never settle, so divide instead of subtracting. In $3, 12, 48, 192$ each term is four times the one before it, and the next term is $768$. Falling series work the same way. In $405, 135, 45, 15$ each term is one third of the last, so the next is $5$."
+   },
+   {
+    "type": "h",
+    "text": "The families you will meet"
+   },
+   {
+    "type": "p",
+    "text": "Every series on the test is one of these shapes. Read the table once, then work through the examples below — recognising the family is most of the battle, because once you name it the arithmetic is trivial."
+   },
+   {
+    "type": "table",
+    "head": [
+     "Family",
+     "A series of this kind",
+     "The rule",
+     "Next term"
+    ],
+    "rows": [
+     [
+      "Constant difference",
+      "$7, 12, 17, 22, 27$",
+      "add $5$",
+      "$32$"
+     ],
+     [
+      "Negative difference",
+      "$48, 41, 34, 27$",
+      "subtract $7$",
+      "$20$"
+     ],
+     [
+      "Fractional difference",
+      "$\\frac{1}{4}, \\frac{3}{4}, \\frac{5}{4}, \\frac{7}{4}$",
+      "add $\\frac{1}{2}$",
+      "$\\frac{9}{4}$"
+     ],
+     [
+      "Decimal difference",
+      "$2.3, 3.1, 3.9, 4.7$",
+      "add $0.8$",
+      "$5.5$"
+     ],
+     [
+      "Constant ratio",
+      "$3, 12, 48, 192$",
+      "multiply by $4$",
+      "$768$"
+     ],
+     [
+      "Two operations alternating",
+      "$6, 11, 22, 27, 54, 59$",
+      "add $5$, then double, repeating",
+      "$118$"
+     ],
+     [
+      "Repeating cycle",
+      "$4, 9, 2, 4, 9, 2, 4$",
+      "the block $4, 9, 2$ repeats",
+      "$9$"
+     ],
+     [
+      "Two interleaved series",
+      "$5, 40, 9, 35, 13, 30, 17$",
+      "odd places add $4$; even places subtract $5$",
+      "$25$"
+     ],
+     [
+      "Progressive difference",
+      "$5, 6, 9, 14, 21, 30$",
+      "the gap grows by $2$",
+      "$41$"
+     ],
+     [
+      "Letters forward",
+      "C, F, I, L",
+      "move ahead three letters",
+      "O"
+     ],
+     [
+      "Letters backward",
+      "V, T, R, P",
+      "move back two letters",
+      "N"
+     ],
+     [
+      "One letter up, one down",
+      "BZ, DY, FX, HW",
+      "first letter ahead two, second back one",
+      "JV"
+     ],
+     [
+      "Repetition carries the pattern",
+      "Q, RR, SSS, TTTT",
+      "next letter, one more copy",
+      "UUUUU"
+     ],
+     [
+      "Repeated letters, skipping",
+      "DD, GG, JJ, MM",
+      "move ahead three letters, keep the pair",
+      "PP"
+     ],
+     [
+      "Letters and numbers together",
+      "B4, D8, F12, H16",
+      "letter ahead two; number adds $4$",
+      "J20"
+     ],
+     [
+      "Roman and Arabic alternating",
+      "II, 4, VI, 8, X",
+      "count by two, alternating notation",
+      "12"
+     ],
+     [
+      "Fractions, parts move separately",
+      "$\\frac{2}{5}, \\frac{3}{7}, \\frac{4}{9}, \\frac{5}{11}$",
+      "top adds $1$; bottom adds $2$",
+      "$\\frac{6}{13}$"
+     ],
+     [
+      "Fractions, top adds and bottom doubles",
+      "$\\frac{1}{2}, \\frac{2}{4}, \\frac{3}{8}, \\frac{4}{16}$",
+      "top adds $1$; bottom doubles",
+      "$\\frac{5}{32}$"
+     ],
+     [
+      "Grouped into blocks",
+      "7 9 11 &nbsp; 12 14 16 &nbsp; 17 19 21",
+      "inside a block add $2$; each block starts $5$ higher",
+      "22 24 26"
+     ],
+     [
+      "Number then its square",
+      "$3, 9, 5, 25, 7, 49, 9$",
+      "each number is followed by its square",
+      "$81$"
+     ]
+    ]
+   },
+   {
+    "type": "h",
+    "text": "Letter series"
+   },
+   {
+    "type": "p",
+    "text": "Letters are numbers in disguise. A is 1 and Z is 26. Write the position numbers under the letters and a letter series becomes a number series, which you already know how to solve. You do not need to recite the whole alphabet with its numbers; you need six anchors. A is 1, F is 6, K is 11, P is 16, U is 21, Z is 26. From an anchor you can count forward two or three letters faster than you can count from the beginning."
+   },
+   {
+    "type": "p",
+    "text": "Two things to watch. First, a letter series can run past Z and wrap round to A, so treat the alphabet as a loop rather than a line. Second, when the terms are pairs or triples of letters, each position usually follows its own rule. Read all the first letters together, then all the second letters together, and do not try to see both at once."
+   },
+   {
+    "type": "table",
+    "head": [
+     "A",
+     "B",
+     "C",
+     "D",
+     "E",
+     "F",
+     "G",
+     "H",
+     "I",
+     "J",
+     "K",
+     "L",
+     "M"
+    ],
+    "rows": [
+     [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13"
+     ]
+    ]
+   },
+   {
+    "type": "table",
+    "head": [
+     "N",
+     "O",
+     "P",
+     "Q",
+     "R",
+     "S",
+     "T",
+     "U",
+     "V",
+     "W",
+     "X",
+     "Y",
+     "Z"
+    ],
+    "rows": [
+     [
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "20",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26"
+     ]
+    ]
+   },
+   {
+    "type": "h",
+    "text": "When the repetition is the pattern"
+   },
+   {
+    "type": "p",
+    "text": "Some letter series carry their rule in how many times a letter is written rather than in which letter it is. In Q, RR, SSS, TTTT the letter advances by one and the number of copies advances by one, so the next term is UUUUU. Count the copies before you look at anything else; if the counts are $1, 2, 3, 4$ you have found the rule and the letters will follow an easy pattern of their own."
+   },
+   {
+    "type": "p",
+    "text": "Mixed strings work the same way. In B4, D8, F12, H16 the letters and the numbers are two separate series that happen to be printed next to each other. Solve them separately — letters ahead two, numbers up four — and put the answers back together as J20. The same applies when Roman numerals are mixed with Arabic ones: convert every Roman numeral to a plain number first, and the series usually turns out to be something ordinary like counting by two."
+   },
+   {
+    "type": "h",
+    "text": "Where the blank sits"
+   },
+   {
+    "type": "p",
+    "text": "Four formats appear, and they are not equally easy. You may be asked for the next term, for the next two terms, for a blank in the middle of the series, or for the missing first term. The last two are where students lose points. With a medial blank, find the rule from the terms on <i>both</i> sides of the gap and then check that your answer works forwards and backwards. With an initial blank, you have to run the rule in reverse: if the series adds five going right, it subtracts five going left."
+   },
+   {
+    "type": "h",
+    "text": "Numbers worth having ready"
+   },
+   {
+    "type": "table",
+    "head": [
+     "$n$",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15"
+    ],
+    "rows": [
+     [
+      "$n^2$",
+      "1",
+      "4",
+      "9",
+      "16",
+      "25",
+      "36",
+      "49",
+      "64",
+      "81",
+      "100",
+      "121",
+      "144",
+      "169",
+      "196",
+      "225"
+     ]
+    ]
+   },
+   {
+    "type": "table",
+    "head": [
+     "$n$",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10"
+    ],
+    "rows": [
+     [
+      "$n^3$",
+      "1",
+      "8",
+      "27",
+      "64",
+      "125",
+      "216",
+      "343",
+      "512",
+      "729",
+      "1000"
+     ]
+    ]
+   },
+   {
+    "type": "example",
+    "stem": "Look at this series: 9, 16, 23, ___, 37, 44. What number should fill the blank?",
+    "options": [
+     "28",
+     "29",
+     "30",
+     "31"
+    ],
+    "answer": 2,
+    "walkthrough": "Take the differences you can see: $16-9=7$ and $23-16=7$, and at the other end $44-37=7$. The series adds seven. The blank is the fourth term, so it is $23+7=30$, and the check works both ways because $30+7=37$. The wrong choices are all near misses — they come from settling on a difference of five or six after glancing at only one pair, which is why you take at least two differences before committing."
+   },
+   {
+    "type": "example",
+    "stem": "Look at this series: 4, 30, 8, 26, 12, 22, 16, ___. What number comes next?",
+    "options": [
+     "12",
+     "18",
+     "20",
+     "24"
+    ],
+    "answer": 1,
+    "walkthrough": "The differences swing wildly — $+26$, $-22$, $+18$ — which is the signal to stop reading it as one chain. Read the odd positions: 4, 8, 12, 16, going up by four. Read the even positions: 30, 26, 22, going down by four. The blank is the eighth term, an even position, so it continues 30, 26, 22 and the answer is 18. The trap is 20, which is what you get by carrying the odd chain forward from 16 without noticing which position you are filling."
+   },
+   {
+    "type": "example",
+    "stem": "Look at this series: ___, PR, SU, VX, YA. What letter pair belongs in the blank at the beginning?",
+    "options": [
+     "LN",
+     "MO",
+     "NP",
+     "MP"
+    ],
+    "answer": 1,
+    "walkthrough": "Treat the two positions separately. The first letters are P, S, V, Y — that is 16, 19, 22, 25, going up by three — so the missing first letter is $16-3=13$, which is M. The second letters are R, U, X, A — 18, 21, 24, then a wrap round to 1 — also up by three, so the missing second letter is $18-3=15$, which is O. The answer is MO. LN steps back four instead of three; NP steps back only two; MP gets the first letter right and then reuses the wrong gap inside the pair."
+   },
+   {
+    "type": "example",
+    "stem": "Look at this series: 2, 8, 5, 20, 17, 68, ___. What number comes next?",
+    "options": [
+     "64",
+     "65",
+     "71",
+     "272"
+    ],
+    "answer": 1,
+    "walkthrough": "The terms rise, fall, rise, fall, so two operations are alternating. Check them in order: $2\\times4=8$, $8-3=5$, $5\\times4=20$, $20-3=17$, $17\\times4=68$. The pattern is multiply by four, subtract three, repeating, and the step after $\\times 4$ is $-3$, so the answer is $68-3=65$. The trap is 272, which applies the operation you just used instead of the one that comes next; 71 reverses the sign of the subtraction."
+   },
+   {
+    "type": "example",
+    "stem": "Look at this series: C3, F9, I27, L81, ___. What comes next?",
+    "options": [
+     "M243",
+     "O162",
+     "O243",
+     "P243"
+    ],
+    "answer": 2,
+    "walkthrough": "Split the letters from the numbers. C, F, I, L are 3, 6, 9, 12, so the next letter is 15, which is O. The numbers 3, 9, 27, 81 have no constant difference but a constant ratio of three, so the next is $81\\times3=243$. Put them back together for O243. M243 advances the letter by one, P243 advances it by four and O162 doubles the number instead of tripling it — each wrong choice gets one of the two series right and the other wrong, which is exactly how these distractors are built."
+   },
+   {
+    "type": "h",
+    "text": "The traps"
+   },
+   {
+    "type": "ul",
+    "items": [
+     "<b>A rule that fits only the front of the series.</b> Two terms will agree with almost any rule. Test yours on the last pair as well as the first.",
+     "<b>Answering with the term after the blank.</b> On medial-blank and initial-blank items this is the most common single error, and the test always offers that term as a choice.",
+     "<b>Reducing a fraction.</b> In $\\frac{1}{2}, \\frac{2}{4}, \\frac{3}{8}, \\frac{4}{16}$ the pattern lives in the unreduced numbers. Simplify $\\frac{2}{4}$ to $\\frac{1}{2}$ and the pattern vanishes.",
+     "<b>Reading an interleaved series as one chain.</b> If the differences alternate between large positive and large negative, you are looking at two series, not one.",
+     "<b>Miscounting the alphabet.</b> Under time pressure it is easy to slide one letter. Count from the nearest anchor, not from A.",
+     "<b>Choices one step short or one step long.</b> When a series is $+6$ each time, the choices will include the term before and the term after the one you want. Recount the position."
+    ]
+   },
+   {
+    "type": "h",
+    "text": "When you are stuck"
+   },
+   {
+    "type": "ol",
+    "items": [
+     "Give it 15 seconds of differences and ratios. If neither settles, check the odd and even positions. If that fails too, guess and move on — a series you cannot see in 30 seconds is not worth 90.",
+     "Work backward from the choices. Drop each option into the blank and read the series aloud in your head; the right one makes the whole line regular, and usually only one does.",
+     "Eliminate by size. If the series is climbing, any choice smaller than the term before the blank is out. If it is falling, any choice larger is out. That often leaves two.",
+     "Never leave a series blank. There is no penalty for a wrong answer on the HSPT, so an unanswered question is strictly worse than a guess."
+    ]
+   },
+   {
+    "type": "h",
+    "text": "Worth memorising"
+   },
+   {
+    "type": "ul",
+    "items": [
+     "The alphabet anchors: A is 1, F is 6, K is 11, P is 16, U is 21, Z is 26.",
+     "The squares up to $15^2=225$ and the cubes up to $10^3=1000$.",
+     "The powers of two: 2, 4, 8, 16, 32, 64, 128, 256.",
+     "The procedure itself. Differences, then differences of differences, then ratios, then odd and even positions. Running it in that order without thinking is what buys you the time."
+    ]
+   }
+  ]
+ },
+ "Mathematic Comparisons": {
+  "title": "Comparisons",
+  "sectionLabel": "Quantitative Skills",
+  "weight": "About 16 to 19 of the 52 questions, split between figure comparisons and expression comparisons",
+  "oneLine": "Three labelled quantities or figures are given, and you choose the statement that correctly orders them.",
+  "practiceTopic": "Mathematic Comparisons",
+  "blocks": [
+   {
+    "type": "p",
+    "text": "A comparison item hands you three things labelled A, B and C and asks for the best answer. The four choices are not numbers — they are statements about how the three compare, built from $=$, $\\lt$ and $\\gt$. Your job is to work out what A, B and C actually are and then find the statement that is true of them."
+   },
+   {
+    "type": "p",
+    "text": "Two different kinds of item share this format, and they need different work. In a <b>nongeometric comparison</b> the three quantities are arithmetic or algebraic expressions and you evaluate them. In a <b>geometric comparison</b> A, B and C are figures, or parts of one figure, and the choices compare lengths, angles, areas, shaded regions or counts of sides and corners. Both appear on every form of the test."
+   },
+   {
+    "type": "note",
+    "text": "Evaluate all three quantities <i>before</i> you read the choices, and write the three values down. Reading the choices first is the biggest time sink on this question type: you end up checking four statements against numbers you have not worked out yet, which means computing the same thing three or four times over. Three values first, then one pass through the choices."
+   },
+   {
+    "type": "h",
+    "text": "Type one: comparing expressions"
+   },
+   {
+    "type": "ol",
+    "items": [
+     "Work out A completely. Write the number down next to the letter.",
+     "Do the same for B, then for C. Do not skip one because it looks obviously biggest.",
+     "Put all three in the same form before you compare. All decimals, or all fractions over the same denominator — never a mixture.",
+     "Now read the choices, one at a time, and test each against your three numbers.",
+     "If a choice makes two claims joined by <i>and</i>, check both halves. The choice is wrong if either half is wrong."
+    ]
+   },
+   {
+    "type": "p",
+    "text": "Putting everything in one form is worth the two seconds it costs. $\\frac{3}{8}$, $0.4$ and $35\\%$ are hard to rank while they are wearing different clothes and trivial once they are $0.375$, $0.4$ and $0.35$. Decimals are usually the fastest common form, because you can compare them left to right one digit at a time."
+   },
+   {
+    "type": "table",
+    "head": [
+     "Fraction",
+     "Decimal",
+     "Percent"
+    ],
+    "rows": [
+     [
+      "$\\frac{1}{10}$",
+      "$0.1$",
+      "$10\\%$"
+     ],
+     [
+      "$\\frac{1}{8}$",
+      "$0.125$",
+      "$12.5\\%$"
+     ],
+     [
+      "$\\frac{1}{6}$",
+      "$0.1\\overline{6}$",
+      "$16\\frac{2}{3}\\%$"
+     ],
+     [
+      "$\\frac{1}{5}$",
+      "$0.2$",
+      "$20\\%$"
+     ],
+     [
+      "$\\frac{1}{4}$",
+      "$0.25$",
+      "$25\\%$"
+     ],
+     [
+      "$\\frac{1}{3}$",
+      "$0.\\overline{3}$",
+      "$33\\frac{1}{3}\\%$"
+     ],
+     [
+      "$\\frac{3}{8}$",
+      "$0.375$",
+      "$37.5\\%$"
+     ],
+     [
+      "$\\frac{2}{5}$",
+      "$0.4$",
+      "$40\\%$"
+     ],
+     [
+      "$\\frac{1}{2}$",
+      "$0.5$",
+      "$50\\%$"
+     ],
+     [
+      "$\\frac{3}{5}$",
+      "$0.6$",
+      "$60\\%$"
+     ],
+     [
+      "$\\frac{2}{3}$",
+      "$0.\\overline{6}$",
+      "$66\\frac{2}{3}\\%$"
+     ],
+     [
+      "$\\frac{3}{4}$",
+      "$0.75$",
+      "$75\\%$"
+     ]
+    ]
+   },
+   {
+    "type": "example",
+    "stem": "Examine A, B and C and choose the best answer. &nbsp; A. $25\\%$ of $88$ &nbsp; B. $\\frac{1}{3}$ of $63$ &nbsp; C. $0.4 \\times 55$",
+    "options": [
+     "$A \\gt B \\gt C$",
+     "$B = C$ and $A \\gt B$",
+     "$A = B = C$",
+     "$A = C$ and $A \\gt B$"
+    ],
+    "answer": 3,
+    "walkthrough": "Evaluate before you read anything else. A is a quarter of 88, which is $22$. B is a third of 63, which is $21$. C is $0.4 \\times 55$, which is $22$. Write down $22$, $21$, $22$ and only now look at the choices: A and C are equal and both beat B, so the last choice is the one. Notice the second choice — it is half right, because A really is greater than B, but $B = C$ is false, and a statement joined by <i>and</i> needs both halves to hold."
+   },
+   {
+    "type": "example",
+    "stem": "Examine A, B and C and choose the best answer. &nbsp; A. $3 + 4 \\times 5$ &nbsp; B. $(3 + 4) \\times 5$ &nbsp; C. $3 \\times 4 + 5$",
+    "options": [
+     "$A \\gt B \\gt C$",
+     "$B \\gt A \\gt C$",
+     "$C \\gt B \\gt A$",
+     "$A = B = C$"
+    ],
+    "answer": 1,
+    "walkthrough": "These are the same three numbers in three arrangements, so the item is really about order of operations. A multiplies first: $4 \\times 5 = 20$, then $3 + 20 = 23$. B has parentheses, so $3 + 4 = 7$ first, then $7 \\times 5 = 35$. C multiplies first again: $3 \\times 4 = 12$, then $12 + 5 = 17$. That gives $35 \\gt 23 \\gt 17$, which is B, A, C. The trap is working A from left to right, getting $35$, and concluding that A and B are equal."
+   },
+   {
+    "type": "example",
+    "stem": "Examine A, B and C and choose the best answer. &nbsp; A. $\\left(\\frac{3}{4}\\right)^2$ &nbsp; B. $\\sqrt{\\frac{9}{16}}$ &nbsp; C. $\\frac{3}{4} \\times \\frac{4}{3}$",
+    "options": [
+     "$A \\gt B \\gt C$",
+     "$C \\gt B \\gt A$",
+     "$A = B$ and $A \\lt C$",
+     "$B \\gt C \\gt A$"
+    ],
+    "answer": 1,
+    "walkthrough": "A is $\\frac{9}{16}$, or $0.5625$. B is the square root of $\\frac{9}{16}$, which is $\\frac{3}{4}$, or $0.75$. C is a number multiplied by its own reciprocal, which is always $1$. So C is largest, then B, then A. The point worth keeping is what happened to $\\frac{3}{4}$: squaring made it <i>smaller</i> and taking the root made it larger, because it sits between zero and one. Anyone who assumes squaring always grows a number picks the first choice."
+   },
+   {
+    "type": "h",
+    "text": "Type two: comparing figures"
+   },
+   {
+    "type": "note",
+    "text": "Figures on the HSPT are <b>not necessarily drawn to scale</b>. A line that looks longer may not be. An angle that looks square may be $80^\\circ$. Two shaded regions that look equal may not be. Reason only from what the figure states — labelled measurements, tick marks, right-angle boxes, the words <i>square</i> or <i>equilateral</i> — and never from what the picture looks like."
+   },
+   {
+    "type": "p",
+    "text": "That rule is the whole question type. The figures are drawn imprecisely on purpose, because the item is testing whether you know that a square's diagonal is longer than its side, not whether you can eyeball a drawing. If a statement cannot be settled from the stated properties, it is not the answer, however true it looks."
+   },
+   {
+    "type": "ol",
+    "items": [
+     "List what you are actually told. Side lengths, angle measures, the name of the shape, any marks showing that parts are equal.",
+     "Derive what follows. If two angles of a triangle are given, the third is $180^\\circ$ minus their sum. If a square's perimeter is given, its side is a quarter of it.",
+     "Write the derived numbers down. Do not carry them in your head while reading four statements.",
+     "Test each choice against those numbers, and reject any choice that depends on how the drawing looks.",
+     "If a figure is missing a measurement you would need, the honest answer may be that the two cannot be compared. Check whether a choice says so."
+    ]
+   },
+   {
+    "type": "p",
+    "text": "Because this page cannot show you a drawing, the two examples below describe the figures in words. That is useful practice in itself: the first thing to do with a figure on the test is translate it into a short list of stated facts, which is exactly what these stems already are."
+   },
+   {
+    "type": "example",
+    "stem": "In triangle $DEF$, angle $D$ measures $40^\\circ$ and angle $E$ measures $95^\\circ$. Choose the best answer.",
+    "options": [
+     "$\\angle F$ is the largest angle in the triangle.",
+     "$\\angle D + \\angle F$ is greater than $\\angle E$.",
+     "$\\angle F$ is greater than $\\angle D$.",
+     "$\\angle D$, $\\angle E$ and $\\angle F$ are all equal."
+    ],
+    "answer": 2,
+    "walkthrough": "Derive the missing angle first: the three angles of any triangle add to $180^\\circ$, so $\\angle F = 180 - 40 - 95 = 45^\\circ$. Now your three numbers are $40$, $95$ and $45$. The third choice is true, since $45 \\gt 40$. The first is false because $\\angle E$ is the largest. The second misses by ten degrees — $40 + 45 = 85$, which is less than $95$ — and it is the choice most students accept without computing, because two angles sounds like more than one."
+   },
+   {
+    "type": "example",
+    "stem": "Square $A$ has a perimeter of $24$ cm. Rectangle $B$ is $8$ cm long and $4$ cm wide. Circle $C$ has a radius of $4$ cm. Choose the best answer.",
+    "options": [
+     "The area of $A$ is less than the area of $B$.",
+     "$A$ and $B$ have equal perimeters, but $A$ has the greater area.",
+     "$C$ has a smaller area than $A$.",
+     "$A$, $B$ and $C$ all have the same area."
+    ],
+    "answer": 1,
+    "walkthrough": "Turn every figure into numbers before comparing anything. Square A has side $24 \\div 4 = 6$, so its area is $36$ and its perimeter is $24$. Rectangle B has area $8 \\times 4 = 32$ and perimeter $2(8) + 2(4) = 24$. Circle C has area $\\pi \\times 4^2 = 16\\pi$, which is about $50.3$. Both halves of the second choice hold: the perimeters match at $24$, and $36 \\gt 32$. The third choice is the trap for anyone weighing a radius of $4$ against a side of $6$ by eye — the circle is in fact the largest of the three in area."
+   },
+   {
+    "type": "h",
+    "text": "The facts these questions lean on"
+   },
+   {
+    "type": "table",
+    "head": [
+     "Situation",
+     "What is true"
+    ],
+    "rows": [
+     [
+      "A value between $0$ and $1$",
+      "$x^3 \\lt x^2 \\lt x \\lt \\sqrt{x}$. Squaring shrinks it; taking a root grows it."
+     ],
+     [
+      "A value greater than $1$",
+      "$\\sqrt{x} \\lt x \\lt x^2 \\lt x^3$."
+     ],
+     [
+      "Square, side $s$",
+      "Area $s^2$; perimeter $4s$; the diagonal is longer than a side."
+     ],
+     [
+      "Rectangle, $l$ by $w$",
+      "Area $lw$; perimeter $2l + 2w$."
+     ],
+     [
+      "Triangle",
+      "Area $\\frac{1}{2}bh$; the three angles add to $180^\\circ$; the longest side lies opposite the largest angle."
+     ],
+     [
+      "Circle, radius $r$",
+      "Area $\\pi r^2$; circumference $2\\pi r$; diameter $2r$; $\\pi \\approx 3.14$."
+     ],
+     [
+      "Cube",
+      "Six faces, 12 edges, eight vertices; volume $s^3$; surface area $6s^2$."
+     ],
+     [
+      "Equal perimeters",
+      "Do not mean equal areas. Of all rectangles with a given perimeter, the square encloses the most area."
+     ],
+     [
+      "Doubling a side",
+      "Doubles the perimeter but multiplies the area by four."
+     ]
+    ]
+   },
+   {
+    "type": "h",
+    "text": "The traps"
+   },
+   {
+    "type": "ul",
+    "items": [
+     "<b>A statement that is true but is not the best answer.</b> The instruction says <i>best</i> for a reason. When two choices both look right, one of them is usually true of only part of the figure, or true only if the drawing is accurate. Prefer the one that follows from the stated facts alone.",
+     "<b>A compound choice where only one half holds.</b> Anything joined by <i>and</i> contains two claims and both must be true. Check the half you are less sure of first.",
+     "<b>Judging shaded area by eye.</b> If a choice compares shaded regions, count the equal parts the figure is divided into. If nothing tells you the parts are equal, you cannot compare them.",
+     "<b>Forgetting what squaring does below one.</b> $\\left(\\frac{1}{2}\\right)^2 = \\frac{1}{4}$, which is smaller. This is the most reliable trap in the section, and it covers $0.3^2 = 0.09$ and $0.9^2 = 0.81$ as well.",
+     "<b>Comparing unlike measurements.</b> If one quantity is a perimeter and another is an area, ranking them means nothing. Read what each letter measures before you order them.",
+     "<b>Assuming a right angle.</b> Unless the little square is drawn or the problem says so, an angle that looks like $90^\\circ$ is just an angle."
+    ]
+   },
+   {
+    "type": "h",
+    "text": "When you are stuck"
+   },
+   {
+    "type": "ol",
+    "items": [
+     "Estimate. You rarely need exact values to rank three quantities. $\\frac{7}{15}$ is a shade under a half, and $48\\%$ of $610$ is close to $300$. Ranking is easier than computing.",
+     "Eliminate on one letter. If you are certain A is the largest, cross out every choice that puts anything above A. Two choices usually go at once.",
+     "Look for the equals sign. Test writers like items in which two of the three come out the same. If a quick look suggests two of your values match, check the choice containing $=$ first.",
+     "Guess and move on. There is no penalty for a wrong answer on the HSPT, so mark your best remaining choice and go. A comparison you have half-solved still gives you a one-in-two guess, which is a fine trade for 30 seconds."
+    ]
+   },
+   {
+    "type": "h",
+    "text": "Worth memorising"
+   },
+   {
+    "type": "ul",
+    "items": [
+     "The fraction, decimal and percent table above. Knowing $\\frac{3}{8} = 0.375$ on sight saves you the long division every time.",
+     "Area and perimeter for the square, rectangle, triangle and circle.",
+     "A cube has six faces, 12 edges and eight vertices.",
+     "Between zero and one, squaring makes a number smaller and a square root makes it bigger. Above one, the reverse.",
+     "Evaluate first, read the choices second. That is a habit rather than a fact, and it is worth more than any of the formulas."
+    ]
+   }
+  ]
+ },
+ "Skills Check 2: Quantitative Skills": {
+  "title": "Quantitative Reasoning",
+  "sectionLabel": "Quantitative Skills",
+  "weight": "About 12 to 17 of the 52 questions",
+  "oneLine": "A single arithmetic relationship is stated entirely in words, and you translate it into an equation and solve for the unknown.",
+  "practiceTopic": "Skills Check 2: Quantitative Skills",
+  "blocks": [
+   {
+    "type": "p",
+    "text": "These items give you one sentence. No diagram, no story about trains, no list of quantities to rank — just a relationship between numbers, written out in English, with one number left unnamed. <i>What number is four more than three times seven?</i> The arithmetic is easy. Turning the sentence into an equation is the whole test."
+   },
+   {
+    "type": "p",
+    "text": "That is worth saying plainly, because it changes how you practise. If you get one of these wrong, it is almost never because you cannot multiply. It is because you wrote $5 - n$ where the sentence said $n - 5$, or because you took the square of a sum when the sentence asked for the sum of the squares. Translation is a skill, and it can be drilled."
+   },
+   {
+    "type": "h",
+    "text": "The method"
+   },
+   {
+    "type": "ol",
+    "items": [
+     "Read the whole sentence to the end before you write anything. These sentences often reverse themselves halfway through.",
+     "Name the unknown. Write <i>let $n$ be the number</i> at the top of your scratch space, and be clear about which number $n$ is — the one the question asks for, not the one it mentions first.",
+     "Translate phrase by phrase, in the order the words arrive, using the table below. Write the equation on paper. Do not hold it in your head.",
+     "Stop and check operand order on every subtraction and every division. This is where the points are lost.",
+     "Solve. Undo the operations in reverse order: whatever was done last, undo first.",
+     "Reread the question and answer what it actually asked. If it asked for twice the number, do not stop at the number."
+    ]
+   },
+   {
+    "type": "note",
+    "text": "<b>Order matters on subtraction and division.</b> <i>Five less than a number</i> is $n - 5$. <i>Five less a number</i> is $5 - n$. The same flip runs through <i>six subtracted from a number</i>, which is $n - 6$, and <i>a number subtracted from six</i>, which is $6 - n$. Test writers place both the correct answer and the reversed answer among the choices every single time, so a reversal never looks like a mistake — it looks like an option."
+   },
+   {
+    "type": "h",
+    "text": "Translation table"
+   },
+   {
+    "type": "table",
+    "head": [
+     "What the words say",
+     "What you write"
+    ],
+    "rows": [
+     [
+      "what number, a certain number",
+      "$n$"
+     ],
+     [
+      "is, equals, gives, results in",
+      "$=$"
+     ],
+     [
+      "of (after a fraction or a percent)",
+      "$\\times$"
+     ],
+     [
+      "the sum of $a$ and $b$",
+      "$a + b$"
+     ],
+     [
+      "$b$ more than $a$; $a$ increased by $b$",
+      "$a + b$"
+     ],
+     [
+      "the difference between $a$ and $b$",
+      "$a - b$"
+     ],
+     [
+      "$b$ less than $a$; $b$ subtracted from $a$",
+      "$a - b$"
+     ],
+     [
+      "$a$ less $b$; $a$ decreased by $b$; $a$ minus $b$",
+      "$a - b$"
+     ],
+     [
+      "$a$ subtracted from $b$",
+      "$b - a$"
+     ],
+     [
+      "the product of $a$ and $b$",
+      "$a \\times b$"
+     ],
+     [
+      "twice $a$; double $a$",
+      "$2a$"
+     ],
+     [
+      "half of $a$; $a$ halved",
+      "$\\frac{a}{2}$"
+     ],
+     [
+      "one third of $a$",
+      "$\\frac{a}{3}$"
+     ],
+     [
+      "the quotient of $a$ and $b$; $a$ divided by $b$",
+      "$a \\div b$"
+     ],
+     [
+      "$a$ divided into $b$",
+      "$b \\div a$"
+     ],
+     [
+      "the square of $a$; $a$ squared",
+      "$a^2$"
+     ],
+     [
+      "the cube of $a$",
+      "$a^3$"
+     ],
+     [
+      "the square root of $a$",
+      "$\\sqrt{a}$"
+     ],
+     [
+      "$p$ percent of $a$",
+      "$\\frac{p}{100} \\times a$"
+     ],
+     [
+      "what percent of $a$ is $b$",
+      "$\\frac{p}{100} \\times a = b$"
+     ]
+    ]
+   },
+   {
+    "type": "p",
+    "text": "Two rows in that table deserve a second look. <i>Divided into</i> reverses the order you expect: <i>four divided into 20</i> is $20 \\div 4 = 5$, not $4 \\div 20$. And <i>the difference between</i> is written large number first, because a difference on this test is not meant to come out negative."
+   },
+   {
+    "type": "h",
+    "text": "Percents and fractions of a quantity"
+   },
+   {
+    "type": "p",
+    "text": "The word <i>of</i> after a fraction or a percent always means multiply. Two thirds of 51 is $51 \\div 3 \\times 2 = 34$. Thirty percent of 90 is $0.30 \\times 90 = 27$. With no calculator, the fast route is to break the percent into pieces you can do in your head rather than to multiply decimals."
+   },
+   {
+    "type": "table",
+    "head": [
+     "Percent",
+     "Fast way to get it"
+    ],
+    "rows": [
+     [
+      "$1\\%$",
+      "divide by 100"
+     ],
+     [
+      "$10\\%$",
+      "divide by 10"
+     ],
+     [
+      "$5\\%$",
+      "take $10\\%$, then halve it"
+     ],
+     [
+      "$15\\%$",
+      "take $10\\%$, then add half of that"
+     ],
+     [
+      "$20\\%$",
+      "divide by 5, or double $10\\%$"
+     ],
+     [
+      "$25\\%$",
+      "divide by 4, or halve it twice"
+     ],
+     [
+      "$33\\frac{1}{3}\\%$",
+      "divide by 3"
+     ],
+     [
+      "$50\\%$",
+      "halve it"
+     ],
+     [
+      "$75\\%$",
+      "halve it, then add half of that again"
+     ]
+    ]
+   },
+   {
+    "type": "p",
+    "text": "So $15\\%$ of 80 is $8 + 4 = 12$, and $75\\%$ of 48 is $24 + 12 = 36$. Both take about three seconds and neither needs a written multiplication."
+   },
+   {
+    "type": "h",
+    "text": "Squares, cubes and roots inside a sentence"
+   },
+   {
+    "type": "p",
+    "text": "When powers appear in words, translate them one phrase at a time and then combine. <i>The cube of three</i> is $27$ and <i>the square of four</i> is $16$, so the cube of three is $11$ more than the square of four. <i>The square root of 81 added to the square of five</i> is $9 + 25 = 34$."
+   },
+   {
+    "type": "p",
+    "text": "Watch the two phrasings that sound alike and are not. <i>The square of the sum of two and five</i> means add first: $(2 + 5)^2 = 49$. <i>The sum of the squares of two and five</i> means square first: $4 + 25 = 29$. Whichever operation is named last in the phrase is the one you perform last."
+   },
+   {
+    "type": "h",
+    "text": "Working backward"
+   },
+   {
+    "type": "p",
+    "text": "Working backward means two different useful things on this question type, and both are worth having."
+   },
+   {
+    "type": "p",
+    "text": "The first is undoing a chain of operations. <i>A number is multiplied by three, then seven is subtracted and the result is 26.</i> Rather than build an equation, run the sentence in reverse and invert each step: add seven to $26$ to get $33$, then divide by three to get $11$. Check it forward — $11 \\times 3 = 33$ and $33 - 7 = 26$ — and you are done in less time than writing $3n - 7 = 26$ would take."
+   },
+   {
+    "type": "p",
+    "text": "The second is testing the answer choices. When the translation is awkward, stop translating and start substituting. You have four candidates and a sentence you can check a candidate against, and checking is much faster than solving. Start with the second-smallest choice: if it comes out too small you know to go up, and you have often cut the work in half on the first try."
+   },
+   {
+    "type": "h",
+    "text": "Estimating to eliminate"
+   },
+   {
+    "type": "p",
+    "text": "With 35 seconds a question you do not always need the exact value. If a question asks for $48\\%$ of $610$, it is a shade under half of $600$, so anything far from $300$ is gone. If it asks for the square of a number between $7$ and $8$, the answer lies between $49$ and $64$. Rough size is often enough to leave one choice standing, and one choice standing is an answer."
+   },
+   {
+    "type": "example",
+    "stem": "What number is four more than three times seven?",
+    "options": [
+     "21",
+     "25",
+     "31",
+     "33"
+    ],
+    "answer": 1,
+    "walkthrough": "Translate in the order the words come. <i>Three times seven</i> is $3 \\times 7 = 21$, and <i>four more than</i> that is $21 + 4 = 25$. The choice 33 is what you get from $3 \\times (7 + 4)$, adding before multiplying; 31 comes from $7 \\times 4 + 3$, which uses the same three numbers in the wrong roles; 21 is the value you stop at if you forget the last three words. Finishing the sentence is half the work."
+   },
+   {
+    "type": "example",
+    "stem": "What number is one half of $\\frac{3}{5}$ of 60?",
+    "options": [
+     "12",
+     "18",
+     "20",
+     "36"
+    ],
+    "answer": 1,
+    "walkthrough": "Work from the inside out. $\\frac{3}{5}$ of 60 is $60 \\div 5 \\times 3 = 36$, and one half of $36$ is $18$. The trap is 36, which is where you land if you translate the first <i>of</i> and forget the second. You can also do it in one move: half of $\\frac{3}{5}$ is $\\frac{3}{10}$, and $\\frac{3}{10}$ of 60 is $18$, which is the faster route once you trust it."
+   },
+   {
+    "type": "example",
+    "stem": "Twenty percent of what number is six more than 10?",
+    "options": [
+     "32",
+     "48",
+     "80",
+     "320"
+    ],
+    "answer": 2,
+    "walkthrough": "Deal with the right-hand side first, because it is closed: <i>six more than 10</i> is $16$. Now the sentence reads <i>twenty percent of what number is 16</i>, so $0.20n = 16$ and $n = 16 \\div 0.20 = 80$. Check it: $20\\%$ of 80 is $16$. The trap is 320, from multiplying $16 \\times 20$ instead of dividing by $0.20$ — whenever a percent under 100 is taken <i>of</i> the unknown, the unknown must be larger than the result, so 32 and 48 are also too small to survive a size check."
+   },
+   {
+    "type": "example",
+    "stem": "The number nine is seven less than half of what number?",
+    "options": [
+     "4",
+     "16",
+     "23",
+     "32"
+    ],
+    "answer": 3,
+    "walkthrough": "<i>Seven less than half of a number</i> is $\\frac{n}{2} - 7$, not $7 - \\frac{n}{2}$, so the equation is $\\frac{n}{2} - 7 = 9$. Add seven to both sides for $\\frac{n}{2} = 16$, then double for $n = 32$. Read it back: half of 32 is 16, and seven less than 16 is nine. The choice 4 is the reversal, from $\\frac{n}{2} = 9 - 7$; 16 is stopping at the half instead of the whole; 23 comes from adding $7 \\times 2$ to nine."
+   },
+   {
+    "type": "example",
+    "stem": "The square of what number is eight more than seven times that number?",
+    "options": [
+     "4",
+     "6",
+     "8",
+     "9"
+    ],
+    "answer": 2,
+    "walkthrough": "The equation is $n^2 = 7n + 8$, which is not something you want to rearrange under time pressure — so test the choices instead. For 4: $16$ against $28 + 8 = 36$, too small. For 6: $36$ against $42 + 8 = 50$, still too small, but closer. For 8: $64$ against $56 + 8 = 64$, a match. For 9: $81$ against $63 + 8 = 71$, now too large, which confirms that 8 is the only crossing point. Notice that the squares are catching up as the numbers grow; once you see the gap closing, you know which direction to move."
+   },
+   {
+    "type": "h",
+    "text": "The traps"
+   },
+   {
+    "type": "ul",
+    "items": [
+     "<b>Reversed subtraction.</b> <i>Less than</i> and <i>subtracted from</i> both put the named number second. The reversed value is always among the choices.",
+     "<b>Reversed division.</b> <i>Divided into</i> is the opposite of <i>divided by</i>. Read it twice.",
+     "<b>Stopping one step early.</b> If the sentence asks for twice a number, or for the number's square, the number itself will be sitting there as a choice.",
+     "<b>Answering the wrong unknown.</b> Some sentences mention two quantities. Underline the one the question is asking for before you solve.",
+     "<b>Order of operations inside the words.</b> <i>Four more than three times seven</i> multiplies first. <i>Three times four more than seven</i> adds first. The word order tells you which.",
+     "<b>Percent of an unknown.</b> If a percent below 100 is taken of the unknown and equals a result, the unknown is larger than the result. A choice smaller than the result cannot be right.",
+     "<b>Sum of squares against square of a sum.</b> They are different numbers and both usually appear in the choices."
+    ]
+   },
+   {
+    "type": "h",
+    "text": "When you are stuck"
+   },
+   {
+    "type": "ol",
+    "items": [
+     "Substitute the choices. This is the reliable fallback on this question type, because verifying is always easier than solving. Work from the middle outward so that a miss tells you which way to go.",
+     "Estimate the size and eliminate. Decide whether the answer should be bigger or smaller than the number in the sentence, then cross out everything on the wrong side.",
+     "Break the sentence at the word <i>is</i>. Everything before it is one expression and everything after it is another. Translate the closed side first — it is usually a plain number.",
+     "Try small numbers if the sentence is abstract. Substituting $n = 2$ into a relationship you are unsure of will usually show you at once whether you have the order right.",
+     "Guess and move on. There is no penalty for a wrong answer on the HSPT, so every question deserves a mark, and a 30-second question is not worth two minutes."
+    ]
+   },
+   {
+    "type": "h",
+    "text": "Worth memorising"
+   },
+   {
+    "type": "ul",
+    "items": [
+     "The translation table above, especially the four rows about subtraction and the two about division.",
+     "The percent shortcuts: $10\\%$, $5\\%$, $25\\%$ and $50\\%$ can all be done by halving and shifting a decimal point.",
+     "The squares to $15^2 = 225$ and the cubes to $10^3 = 1000$. These turn up constantly in verbal statements and you should never be computing them.",
+     "Undo in reverse order. Whatever the sentence did last, you undo first."
+    ]
+   }
+  ]
+ }
+}
