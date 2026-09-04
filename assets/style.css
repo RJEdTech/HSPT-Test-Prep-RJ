@@ -73,6 +73,34 @@ header.site nav a {
 header.site nav a:hover { background: var(--bg-2); color: var(--ink); }
 header.site nav a[aria-current="page"] { color: var(--rj-red); font-weight: 600; }
 
+/* Return link to the Canva front door, which owns dates, logistics and the study plans.
+   Set apart from the site's own nav so it reads as leaving, not as another section. */
+header.site nav a.back {
+  margin-left: 6px; padding-left: 14px;
+  border-left: 1px solid var(--line);
+  color: var(--rj-red); font-weight: 600; border-radius: 0;
+}
+header.site nav a.back:hover { background: none; text-decoration: underline; color: var(--rj-red); }
+/* The menu button only exists on narrow screens. On a laptop or Chromebook the nav
+   is a plain row, which is where most students will actually be. */
+header.site .nav-toggle { display: none; }
+@media (max-width: 760px) {
+  header.site .inner { padding: 10px 16px; gap: 10px; }
+  header.site .nav-toggle {
+    display: block; margin-left: auto;
+    font: 600 15px/1 var(--sans, inherit); color: var(--rj-red);
+    background: none; border: 1px solid var(--line); border-radius: 8px;
+    padding: 9px 14px; cursor: pointer; min-height: 40px;
+  }
+  header.site nav { display: none; width: 100%; flex-direction: column; gap: 0; margin-left: 0; }
+  header.site.nav-open nav { display: flex; }
+  header.site nav a {
+    padding: 12px 4px; font-size: 16px;
+    border-bottom: 1px solid var(--line-soft);
+  }
+  header.site nav a.back { border-left: none; margin-left: 0; padding-left: 4px; border-bottom: none; }
+}
+
 main { padding: 40px 0 80px; }
 
 footer.site {
@@ -274,4 +302,185 @@ td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
 
 @media print {
   header.site, footer.site, .quiz-bar, .btn-row { display: none; }
+}
+
+/* ---------------------------------------------------------------------------
+   Landing page: the five-question taster and the "where you left off" block.
+   Both are the first things a student meets, so tap targets are generous and
+   nothing depends on hover — most of this audience is on a Chromebook trackpad
+   or a phone.
+   --------------------------------------------------------------------------- */
+
+.taster {
+  border: 1px solid var(--line);
+  border-top: 3px solid var(--rj-red);
+  border-radius: var(--radius);
+  padding: 24px 22px 26px;
+  margin: 28px 0 36px;
+  background: var(--bg);
+}
+.taster > h2 { margin-top: 0; }
+.taster > p { color: var(--ink-2); }
+
+.t-head {
+  display: flex; justify-content: space-between; align-items: baseline;
+  gap: 12px; flex-wrap: wrap;
+  margin: 20px 0 6px; padding-bottom: 8px;
+  border-bottom: 1px solid var(--line-soft);
+}
+.t-count { font-weight: 700; font-size: 14px; color: var(--ink-2); }
+.t-sec { font-size: 13px; letter-spacing: .06em; text-transform: uppercase; color: var(--ink-3); }
+
+.t-stem { font-size: 19px; margin: 16px 0 18px; }
+.t-opts { display: grid; gap: 10px; }
+
+.t-opt {
+  display: flex; align-items: center; gap: 12px; width: 100%;
+  text-align: left; font: inherit; color: var(--ink);
+  background: var(--bg); border: 1px solid var(--line);
+  border-radius: var(--radius); padding: 14px 16px; min-height: 52px;
+  cursor: pointer;
+}
+.t-opt:hover:not([disabled]) { border-color: var(--rj-red); background: var(--rj-red-tint); }
+.t-opt:focus-visible { outline: 3px solid var(--rj-red); outline-offset: 2px; }
+.t-letter {
+  flex: none; width: 26px; height: 26px; border-radius: 50%;
+  border: 1px solid var(--line); display: grid; place-items: center;
+  font-size: 13px; font-weight: 700; color: var(--ink-3);
+}
+.t-opt[disabled] { cursor: default; opacity: 1; }
+.t-opt.is-right { border-color: var(--ok); background: var(--ok-tint); }
+.t-opt.is-right .t-letter { border-color: var(--ok); background: var(--ok); color: #fff; }
+.t-opt.is-wrong { border-color: var(--no); background: var(--no-tint); }
+.t-opt.is-wrong .t-letter { border-color: var(--no); background: var(--no); color: #fff; }
+
+.t-feedback { margin-top: 16px; padding: 14px 16px; border-radius: var(--radius); }
+.t-feedback p { margin: 0; }
+.t-feedback.good { background: var(--ok-tint); border-left: 3px solid var(--ok); }
+.t-feedback.bad  { background: var(--no-tint); border-left: 3px solid var(--no); }
+.t-actions { margin-top: 16px; }
+
+.t-done { text-align: center; padding: 10px 0 4px; }
+.t-score { font-family: var(--serif); font-size: 44px; font-weight: 700; margin: 4px 0 6px; color: var(--rj-red); }
+.t-done .btn-row { justify-content: center; }
+
+.linkish {
+  background: none; border: none; padding: 0; font: inherit;
+  color: var(--ink-2); text-decoration: underline; cursor: pointer;
+}
+
+.resume {
+  background: var(--bg-2); border: 1px solid var(--line-soft);
+  border-radius: var(--radius); padding: 20px 22px; margin: 0 0 36px;
+}
+.resume h2 { margin-top: 0; font-size: 21px; }
+.resume .btn-row { margin: 16px 0 10px; }
+.btn-row.wrapy { flex-wrap: wrap; }
+
+.note.parents { background: var(--bg-2); border-left: 3px solid var(--slate); }
+.note.parents h2 { margin-top: 0; font-size: 20px; }
+
+@media (max-width: 700px) {
+  .taster { padding: 18px 16px 20px; border-radius: 8px; }
+  .t-stem { font-size: 18px; }
+  .t-opt { padding: 13px 14px; min-height: 56px; }
+  .resume { padding: 16px; }
+}
+
+/* ---------------------------------------------------------------------------
+   Skill lessons. Shown open by default above the questions: a student who has
+   arrived here from a diagnostic that told them they are weak at antonyms needs
+   teaching, not another set of questions to fail. Collapsible for the returning
+   student who already read it.
+   --------------------------------------------------------------------------- */
+
+.lesson {
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--rj-red);
+  border-radius: var(--radius);
+  background: var(--bg);
+  margin: 22px 0 26px;
+}
+.lesson > summary {
+  display: flex; align-items: center; justify-content: space-between; gap: 12px;
+  padding: 14px 18px; cursor: pointer; list-style: none;
+  font-family: var(--serif); font-weight: 700; font-size: 17px; color: var(--ink);
+}
+.lesson > summary::-webkit-details-marker { display: none; }
+.lesson > summary:hover { background: var(--bg-2); }
+.lesson-hint { font: 400 13px/1 var(--sans); color: var(--ink-3); text-transform: uppercase; letter-spacing: .06em; }
+.lesson:not([open]) .lesson-hint::after { content: 'show'; }
+.lesson:not([open]) .lesson-hint { font-size: 0; }
+.lesson:not([open]) .lesson-hint::after { font-size: 13px; }
+.lesson-body { padding: 0 18px 18px; }
+.lesson-what { margin-top: 0; color: var(--ink); }
+.lesson-h {
+  font-family: var(--serif); font-weight: 700; font-size: 15px;
+  text-transform: uppercase; letter-spacing: .05em; color: var(--ink-3);
+  margin: 18px 0 8px;
+}
+.lesson-steps { margin: 0; padding-left: 22px; }
+.lesson-steps li { margin-bottom: 7px; }
+
+.lesson-eg {
+  background: var(--bg-2); border-radius: 8px;
+  padding: 14px 16px; margin: 18px 0 0;
+}
+.eg-label {
+  font-family: var(--serif); font-weight: 700; font-size: 13px;
+  text-transform: uppercase; letter-spacing: .06em; color: var(--ink-3);
+  margin: 0 0 8px;
+}
+.eg-q { font-weight: 700; margin: 0 0 8px; }
+.eg-work { margin: 0 0 8px; color: var(--ink-2); }
+.eg-a { margin: 0; }
+.lesson-trap {
+  margin-top: 16px; padding: 12px 16px;
+  background: var(--rj-red-tint); border-radius: 8px;
+}
+.lesson-trap p { margin: 0; }
+
+@media (max-width: 700px) {
+  .lesson > summary { padding: 13px 14px; font-size: 16px; }
+  .lesson-body { padding: 0 14px 14px; }
+}
+
+/* --------------------------- vocabulary flashcards --------------------------- */
+
+.vocab-modes { margin: 26px 0 18px; }
+.chooser.small-chooser { margin-bottom: 18px; }
+
+.vcard {
+  border: 1px solid var(--line); border-top: 3px solid var(--rj-red);
+  border-radius: var(--radius); background: var(--bg);
+  padding: 30px 24px; text-align: center; min-height: 220px;
+}
+.vcard-count { font-size: 13px; color: var(--ink-3); margin: 0 0 14px;
+  text-transform: uppercase; letter-spacing: .06em; }
+.vcard-word { font-family: var(--serif); font-size: 40px; font-weight: 700;
+  margin: 0 0 4px; color: var(--ink); line-height: 1.1; }
+.vcard-part { font-size: 14px; color: var(--ink-3); font-style: italic; margin: 0 0 18px; }
+.vcard-prompt { color: var(--ink-3); margin: 26px 0 0; }
+
+.vcard-back { text-align: left; border-top: 1px solid var(--line-soft); padding-top: 18px; margin-top: 4px; }
+.vcard-meaning { font-size: 20px; font-weight: 700; margin: 0 0 10px; }
+.vcard-sentence { color: var(--ink-2); font-style: italic; margin: 0 0 14px; }
+.vcard-hook { background: var(--bg-2); border-radius: 8px; padding: 11px 14px; margin: 0 0 12px; }
+.vcard-rel p { margin: 4px 0; font-size: 15px; color: var(--ink-2); }
+
+.vrow { border-bottom: 1px solid var(--line-soft); padding: 15px 0; }
+.vrow-head { margin: 0 0 4px; font-size: 18px; }
+.vrow-part { font-size: 13px; color: var(--ink-3); font-style: italic; margin-left: 8px; }
+.vrow-tick {
+  font-size: 11px; text-transform: uppercase; letter-spacing: .06em;
+  color: var(--ok); border: 1px solid var(--ok); border-radius: 20px;
+  padding: 2px 8px; margin-left: 8px; vertical-align: middle;
+}
+.vrow-meaning { margin: 0 0 3px; }
+.vrow-sentence { margin: 0; color: var(--ink-2); font-style: italic; font-size: 15px; }
+.vrow.is-known .vrow-head b { color: var(--ink-3); }
+
+@media (max-width: 700px) {
+  .vcard { padding: 24px 16px; }
+  .vcard-word { font-size: 32px; }
 }

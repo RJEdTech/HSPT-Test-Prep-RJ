@@ -7,7 +7,7 @@ const HSPT = (() => {
   /* ---------------- data ---------------- */
 
   /* secsPerQ is the real HSPT allowance for that section, rounded to the second:
-     Verbal 16min/60Q, Quantitative 30/52, Reading 25/62, Maths 45/64, Language 25/60. */
+     Verbal 16min/60Q, Quantitative 30/52, Reading 25/62, Math 45/64, Language 25/60. */
   const SECTIONS = {
     verbal:   { label: 'Verbal Skills',       file: 'verbal',   secsPerQ: 16 },
     quant:    { label: 'Quantitative Skills', file: 'math',     secsPerQ: 35 },
@@ -94,9 +94,18 @@ const HSPT = (() => {
   const sample = (arr, n) => shuffle(arr).slice(0, n);
 
   /** Shuffle a question's options, keeping the answer pointed at the same text. */
+  /* Options that must stay in place no matter how the rest are shuffled. On the real
+     HSPT "No mistakes" is always the last choice, and the item only makes sense read
+     that way — three sentences, then the fallback. Shuffling it into position B turns
+     a coherent question into a nonsensical one, and 115 items in the bank carry it. */
+  const PINNED_LAST = ['no mistakes', 'no mistake', 'no errors', 'none of these',
+                       'all of the above', 'none of the above'];
+  const isPinned = o => PINNED_LAST.includes(String(o).toLowerCase().trim().replace(/[.\s]+$/, ''));
+
   function shuffleOptions(q) {
     const correct = q.options[q.answer];
-    const options = shuffle(q.options);
+    const pinned = q.options.filter(isPinned);
+    const options = shuffle(q.options.filter(o => !isPinned(o))).concat(pinned);
     return { ...q, options, answer: options.indexOf(correct) };
   }
 
@@ -135,7 +144,7 @@ const HSPT = (() => {
   function typeset(el) {
     if (window.renderMathInElement) {
       try {
-        // \( \) only — a bare $ in these questions is currency, not maths.
+        // \( \) only — a bare $ in these questions is currency, not math.
         window.renderMathInElement(el, {
           delimiters: [{ left: '\\(', right: '\\)', display: false }],
           throwOnError: false
@@ -143,7 +152,7 @@ const HSPT = (() => {
         return;
       } catch (e) { /* fall through to the text fallback */ }
     }
-    // KaTeX did not load — show readable maths rather than raw source.
+    // KaTeX did not load — show readable math rather than raw source.
     const walker = document.createTreeWalker(el, NodeFilter.SHOW_TEXT);
     const hits = [];
     while (walker.nextNode()) if (walker.currentNode.nodeValue.includes('\\(')) hits.push(walker.currentNode);
@@ -393,7 +402,7 @@ const HSPT = (() => {
         </div>
         <p>You got through ${reached} of ${res.total} questions before the clock stopped.
         ${missed} went unanswered — on the real test those score zero, and since there is no penalty for a
-        wrong answer, filling them in with a guess costs nothing and can only help. Practise this set
+        wrong answer, filling them in with a guess costs nothing and can only help. Practice this set
         again and try to reach the end, even if some of the later answers are rough.</p>`;
     }
 
@@ -444,13 +453,74 @@ const HSPT = (() => {
   const TRADEMARK = `Regis Jesuit®, the Crest and RJ logos are federally registered trademarks owned by
     Regis Jesuit High School. All rights reserved.`;
 
+  /* ---------------- lessons ---------------- */
+
+  /* A short lesson per skill, shown above the questions. Practising a skill you have never
+     been taught is just repeated failure, so the site teaches first and drills second.
+     Content lives in data/lessons.json and can be edited without touching this file. */
+  let lessonCache = null;
+  async function lessons() {
+    if (!lessonCache) {
+      try {
+        const res = await fetch('data/lessons.json');
+        lessonCache = res.ok ? (await res.json()).lessons : {};
+      } catch (e) { lessonCache = {}; }
+    }
+    return lessonCache;
+  }
+
+  /* Reading topics are passage slugs (bonsai, coral-reefs...), and one lesson covers them all. */
+  const READING_TOPIC = t => /^[a-z][a-z-]*$/.test(t);
+
+  async function lessonFor(topic) {
+    const all = await lessons();
+    return all[topic] || (READING_TOPIC(topic) ? all._reading : null) || null;
+  }
+
+  function lessonHTML(l, topicLabelText) {
+    if (!l) return '';
+    const steps = (l.how || []).map(h => `<li>${esc(h)}</li>`).join('');
+    const ex = l.example
+      ? `<div class="lesson-eg">
+           <p class="eg-label">Worked example</p>
+           <p class="eg-q">${esc(l.example.q)}</p>
+           <p class="eg-work">${esc(l.example.work)}</p>
+           <p class="eg-a"><b>Answer:</b> ${esc(l.example.a)}</p>
+         </div>` : '';
+    const trap = l.trap
+      ? `<div class="lesson-trap"><p><b>Where students lose points.</b> ${esc(l.trap)}</p></div>` : '';
+    return `<details class="lesson" open>
+        <summary><span class="lesson-tag">How ${esc(topicLabelText)} works</span><span class="lesson-hint">hide</span></summary>
+        <div class="lesson-body">
+          <p class="lesson-what">${esc(l.what)}</p>
+          ${steps ? `<p class="lesson-h">What to do</p><ol class="lesson-steps">${steps}</ol>` : ''}
+          ${ex}${trap}
+        </div>
+      </details>`;
+  }
+
+  /* The public front door lives on the Canva site, which Marketing owns. This site is the
+     practice engine behind it. These are the five Canva page anchors, so any page here can
+     send a student back to dates, logistics or the study plans without duplicating them. */
+  const FRONT = 'https://rjhs.my.canva.site/hspt';
+  const FRONT_PAGES = {
+    start:   FRONT,
+    plans:   FRONT + '#page-PBkjwvcLgGC0CC4k',
+    quizzes: FRONT + '#page-PBYRS8ZCxSlzgMbC',
+    test:    FRONT + '#page-PBYvLDYz1mDjNZYC',
+    tips:    FRONT + '#page-PBHyf32W8r4f6lwl'
+  };
+
   function chrome(current) {
+    /* Labels say what the page does, not what it is called. "Diagnostic" is a word a
+       13-year-old has to decode; "What should I study?" is the question they arrived with. */
     const nav = [
       ['index.html', 'Start here'],
-      ['guide.html', 'The test'],
-      ['diagnostic.html', 'Diagnostic'],
-      ['practice.html', 'Practice'],
-      ['mock.html', 'Practice test'],
+      ['diagnostic.html', 'What should I study?'],
+      ['practice.html', 'Practice a skill'],
+      ['vocab.html', 'Vocabulary'],
+      ['mock.html', 'Full practice test'],
+      ['guide.html', 'How the test works'],
       ['resources.html', 'More help']
     ];
     document.body.insertAdjacentHTML('afterbegin', `
@@ -459,17 +529,27 @@ const HSPT = (() => {
           <img src="images/rj-logo-horizontal.png" alt="Regis Jesuit High School">
           <span class="lockup-text">HSPT Practice</span>
         </a>
-        <nav>${nav.map(([h, t]) =>
-          `<a href="${h}"${h === current ? ' aria-current="page"' : ''}>${t}</a>`).join('')}</nav>
+        <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+        <nav id="site-nav">${nav.map(([h, t]) =>
+          `<a href="${h}"${h === current ? ' aria-current="page"' : ''}>${t}</a>`).join('')}
+          <a class="back" href="${FRONT_PAGES.start}">Test dates &amp; study plans &rarr;</a></nav>
       </div></header>`);
+    const tog = document.querySelector('.nav-toggle');
+    tog.addEventListener('click', () => {
+      const open = tog.getAttribute('aria-expanded') === 'true';
+      tog.setAttribute('aria-expanded', String(!open));
+      document.querySelector('header.site').classList.toggle('nav-open', !open);
+    });
     document.body.insertAdjacentHTML('beforeend', `
       <footer class="site"><div class="wrap-wide">
         <img class="crest" src="images/rj-crest.png" alt="Regis Jesuit High School crest">
         <p>Free HSPT practice from <a href="https://www.regisjesuit.com">Regis Jesuit High School</a>,
         Aurora, Colorado. Open to any student preparing for the High School Placement Test — you do not
         need to be applying to Regis Jesuit to use it.</p>
-        <p>Questions about test dates, registration or accommodations go to the Admissions Welcome Center
-        at <a href="tel:+13032698000">303.269.8000</a>.</p>
+        <p>Test dates, what to bring and the study plans are on the
+        <a href="${FRONT_PAGES.start}">main HSPT page</a>. Questions about registration, fee waivers or
+        accommodations go to the Admissions Welcome Center at <a href="tel:+13032698000">303.269.8000</a>
+        or <a href="mailto:admissions@regisjesuit.com">admissions@regisjesuit.com</a>.</p>
         <div class="policy">
           <p>${POLICY.replace(/\s+/g, ' ')}</p>
           <p>${TRADEMARK.replace(/\s+/g, ' ')}</p>
@@ -502,5 +582,6 @@ const HSPT = (() => {
   return { SECTIONS, QUANT_TOPICS, TOPIC_LABELS, TOPIC_BLURBS, topicLabel, practiceLink,
            section, passages, loadBank, shuffle, sample, skillIndex,
            shuffleOptions, esc, fmtTime, typeset, latexToText, run, bars, reviewList,
-           paceReport, saveResult, results, chrome };
+           paceReport, saveResult, results, chrome, FRONT, FRONT_PAGES,
+           lessons, lessonFor, lessonHTML };
 })();
