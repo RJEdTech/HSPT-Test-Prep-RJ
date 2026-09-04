@@ -80,6 +80,33 @@ const HSPT = (() => {
 
   async function passages() { return (await loadBank('reading')).passages; }
 
+  /* Reading topics are passage slugs (bonsai, coral-reefs...), and one lesson covers them all. */
+  const READING_TOPIC = t => /^[a-z][a-z-]*$/.test(t);
+
+  /* ---------------- full lessons ---------------- */
+
+  /* The long version of each primer: method, worked examples, traps and reference tables,
+     rendered as its own page by learn.html. Keyed by the same topic strings as the question
+     banks, so a lesson, its practice set and its bar on a score report all find each other
+     with nothing to keep in step. */
+  let fullCache = null;
+  async function lessons() {
+    if (!fullCache) {
+      const res = await fetch('data/lessons.json');
+      if (!res.ok) throw new Error('Could not load lessons.json');
+      fullCache = await res.json();
+    }
+    return fullCache;
+  }
+  /* Reading practice topics are passage slugs, and one lesson covers the lot — the same
+     mapping primerFor() makes for the short version. */
+  const lessonTopicFor = topic => (fullCache && fullCache.lessons[topic]) ? topic
+    : (READING_TOPIC(topic) && fullCache && fullCache.lessons['Reading Comprehension'])
+      ? 'Reading Comprehension' : null;
+  const lessonLink = topic => `learn.html?topic=${encodeURIComponent(topic)}`;
+  /** True once the bank has loaded and it holds a lesson for this topic. */
+  const hasLesson = topic => !!(fullCache && fullCache.lessons[topic]);
+
   /* ---------------- helpers ---------------- */
 
   const shuffle = (arr, rnd = Math.random) => {
@@ -120,8 +147,17 @@ const HSPT = (() => {
   /** Turn simple LaTeX into readable text, for when KaTeX is unavailable.
       Not a renderer — just enough that a question is still answerable. */
   const SUP = { '0':'⁰','1':'¹','2':'²','3':'³','4':'⁴','5':'⁵','6':'⁶','7':'⁷','8':'⁸','9':'⁹','n':'ⁿ' };
+  const SUB = { '0':'₀','1':'₁','2':'₂','3':'₃','4':'₄','5':'₅','6':'₆','7':'₇','8':'₈','9':'₉','n':'ₙ' };
   function latexToText(s) {
     return s
+      // Degrees before the generic superscript rule, or 180^\circ reads as 180^°. The braced
+      // form is matched separately: an optional trailing } would otherwise swallow the brace
+      // closing a \frac numerator, and the fraction bar would vanish with it.
+      .replace(/\^\{\s*\\circ\s*\}/g, '°')
+      .replace(/\^\s*\\circ/g, '°')
+      // A mixed number must keep its gap: 5\frac{1}{4} is 5 1/4, never 51/4. The digit has to
+      // be adjacent — a space before \frac belongs to the surrounding sentence.
+      .replace(/(\d)\\d?frac\{([^{}]*)\}\{([^{}]*)\}/g, (m, lead, a, b) => lead + ' ' + a + '/' + b)
       .replace(/\\frac\{([^{}]*)\}\{([^{}]*)\}/g, '$1/$2')
       .replace(/\\d?frac(\d)(\d)/g, '$1/$2')
       .replace(/\\sqrt\{([^{}]*)\}/g, '√($1)')
@@ -129,10 +165,15 @@ const HSPT = (() => {
       .replace(/\\left|\\right/g, '')
       .replace(/\^\{([^{}]*)\}/g, (m, g) => g.split('').every(c => SUP[c]) ? g.split('').map(c => SUP[c]).join('') : '^' + g)
       .replace(/\^(\w)/g, (m, g) => SUP[g] || '^' + g)
+      .replace(/_\{([^{}]*)\}/g, (m, g) => g.split('').every(c => SUB[c]) ? g.split('').map(c => SUB[c]).join('') : '_' + g)
+      .replace(/_(\w)/g, (m, g) => SUB[g] || '_' + g)
       .replace(/\\times/g, '×').replace(/\\div/g, '÷')
       .replace(/\\cdot/g, '·').replace(/\\circ/g, '°')
       .replace(/\\le(?![a-z])/g, '≤').replace(/\\ge(?![a-z])/g, '≥')
       .replace(/\\ne(?![a-z])/g, '≠').replace(/\\pi(?![a-z])/g, 'π')
+      .replace(/\\lt(?![a-z])/g, '<').replace(/\\gt(?![a-z])/g, '>')
+      .replace(/\\approx(?![a-z])/g, '≈').replace(/\\angle(?![a-z])/g, '∠')
+      .replace(/\\%/g, '%').replace(/\\\$/g, '$')
       .replace(/\\overline\{([^{}]*)\}/g, '$1')
       .replace(/\\[a-zA-Z]+/g, '')
       .replace(/[{}]/g, '')
@@ -370,8 +411,15 @@ const HSPT = (() => {
         const pct = Math.round((v.right / v.total) * 100);
         const cls = pct >= 80 ? 'good' : pct >= 60 ? '' : 'weak';
         const name = esc(labels[k] || topicLabel(k));
+        // Below 80% the fix is usually the method rather than more reps, so point at the
+        // lesson too. hasLesson() is false until the bank loads, so a report that renders
+        // first degrades to practice links rather than breaking.
+        // Reading bars are keyed by passage slug, so resolve through lessonTopicFor rather
+        // than assuming the bar's key is itself a lesson key.
+        const lk = linkTopics ? lessonTopicFor(k) : null;
         const head = linkTopics
-          ? `<a href="${practiceLink(k)}">${name}</a>`
+          ? `<a href="${practiceLink(k)}">${name}</a>` +
+            (pct < 80 && lk ? ` <a class="lesson-tip" href="${lessonLink(lk)}">lesson</a>` : '')
           : `<b>${name}</b>`;
         return `<div class="bar-row">
           <div class="bar-top"><b>${head}</b><span class="val">${v.right}/${v.total} · ${pct}%</span></div>
@@ -453,31 +501,30 @@ const HSPT = (() => {
   const TRADEMARK = `Regis Jesuit®, the Crest and RJ logos are federally registered trademarks owned by
     Regis Jesuit High School. All rights reserved.`;
 
-  /* ---------------- lessons ---------------- */
+  /* ---------------- primers ---------------- */
 
-  /* A short lesson per skill, shown above the questions. Practising a skill you have never
+  /* A short primer per skill, shown above the questions. Practising a skill you have never
      been taught is just repeated failure, so the site teaches first and drills second.
-     Content lives in data/lessons.json and can be edited without touching this file. */
-  let lessonCache = null;
-  async function lessons() {
-    if (!lessonCache) {
+     The primer is the thirty-second version; the full lesson behind it lives in
+     data/lessons.json and is rendered by learn.html. Content lives in data/primers.json
+     and can be edited without touching this file. */
+  let primerCache = null;
+  async function primers() {
+    if (!primerCache) {
       try {
-        const res = await fetch('data/lessons.json');
-        lessonCache = res.ok ? (await res.json()).lessons : {};
-      } catch (e) { lessonCache = {}; }
+        const res = await fetch('data/primers.json');
+        primerCache = res.ok ? (await res.json()).lessons : {};
+      } catch (e) { primerCache = {}; }
     }
-    return lessonCache;
+    return primerCache;
   }
 
-  /* Reading topics are passage slugs (bonsai, coral-reefs...), and one lesson covers them all. */
-  const READING_TOPIC = t => /^[a-z][a-z-]*$/.test(t);
-
-  async function lessonFor(topic) {
-    const all = await lessons();
+  async function primerFor(topic) {
+    const all = await primers();
     return all[topic] || (READING_TOPIC(topic) ? all._reading : null) || null;
   }
 
-  function lessonHTML(l, topicLabelText) {
+  function primerHTML(l, topicLabelText, lessonHref) {
     if (!l) return '';
     const steps = (l.how || []).map(h => `<li>${esc(h)}</li>`).join('');
     const ex = l.example
@@ -489,12 +536,15 @@ const HSPT = (() => {
          </div>` : '';
     const trap = l.trap
       ? `<div class="lesson-trap"><p><b>Where students lose points.</b> ${esc(l.trap)}</p></div>` : '';
+    const more = lessonHref
+      ? `<p class="lesson-more"><a href="${lessonHref}">Read the full ${esc(topicLabelText)} lesson</a>
+         &mdash; the method in detail, more worked examples and every trap this skill sets.</p>` : '';
     return `<details class="lesson" open>
         <summary><span class="lesson-tag">How ${esc(topicLabelText)} works</span><span class="lesson-hint">hide</span></summary>
         <div class="lesson-body">
           <p class="lesson-what">${esc(l.what)}</p>
           ${steps ? `<p class="lesson-h">What to do</p><ol class="lesson-steps">${steps}</ol>` : ''}
-          ${ex}${trap}
+          ${ex}${trap}${more}
         </div>
       </details>`;
   }
@@ -517,6 +567,7 @@ const HSPT = (() => {
     const nav = [
       ['index.html', 'Start here'],
       ['diagnostic.html', 'What should I study?'],
+      ['learn.html', 'Learn a skill'],
       ['practice.html', 'Practice a skill'],
       ['vocab.html', 'Vocabulary'],
       ['mock.html', 'Full practice test'],
@@ -583,5 +634,6 @@ const HSPT = (() => {
            section, passages, loadBank, shuffle, sample, skillIndex,
            shuffleOptions, esc, fmtTime, typeset, latexToText, run, bars, reviewList,
            paceReport, saveResult, results, chrome, FRONT, FRONT_PAGES,
-           lessons, lessonFor, lessonHTML };
+           primers, primerFor, primerHTML,
+           lessons, lessonLink, hasLesson, lessonTopicFor };
 })();
