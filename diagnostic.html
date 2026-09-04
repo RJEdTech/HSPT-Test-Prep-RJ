@@ -24,10 +24,10 @@
     <p>Work straight through without looking anything up — a diagnostic is only useful if it is honest.
     You will not see whether you got each one right until the end, which is also how the real test works.</p>
 
-    <h3>Pace</h3>
+    <h3>How do you want to take it?</h3>
     <div class="chooser" id="pace">
-      <button data-p="on" aria-pressed="true">At test pace</button>
-      <button data-p="off">Untimed</button>
+      <button data-p="on" aria-pressed="true">Time me like the real test</button>
+      <button data-p="off">No time limit</button>
     </div>
     <p class="small muted" id="pace-note"></p>
 
@@ -35,8 +35,7 @@
       <p>Do not worry about your score. The number is not the point; the breakdown is. A student who
       finds out in September that analogies are their weak spot has three months to fix it.</p>
       <p>Timing is where most students actually lose points, so the clock is on by default. If you would
-      rather find out what you know before worrying about speed, switch it off — just take it timed
-      at least once before test day.</p>
+      rather find out what you know first, switch it off — just take it timed at least once before test day.</p>
     </div>
 
     <div class="btn-row">
@@ -66,7 +65,7 @@
     <div id="advice"></div>
 
     <div class="btn-row">
-      <a class="btn" href="practice.html">Go practise</a>
+      <a class="btn" href="practice.html">Go practice</a>
       <button class="btn plain" id="again">Take it again</button>
     </div>
 
@@ -94,7 +93,7 @@ let timed = true;
 function paceNote() {
   $('#pace-note').textContent = timed
     ? `${TOTAL_Q} questions in ${HSPT.fmtTime(LIMIT)} — each one gets the time the real HSPT allows for that section.`
-    : `No limit. The clock still counts up, so you can see your pace afterwards.`;
+    : `No time limit — take as long as you want. Do this if you would rather find out what you know before worrying about speed.`;
 }
 $('#pace').querySelectorAll('button').forEach(b => b.addEventListener('click', () => {
   timed = b.dataset.p === 'on';

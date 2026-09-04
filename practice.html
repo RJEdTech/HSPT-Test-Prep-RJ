@@ -24,7 +24,8 @@
     and an explanation after each question, so this is for learning rather than for testing yourself
     under pressure.</p>
     <p class="muted">Not sure where to start? <a href="diagnostic.html">Take the diagnostic</a> and it
-    will tell you. Want more than this site has? <a href="resources.html">Other places to practise</a>.</p>
+    will tell you. Weak on the word-based skills? <a href="vocab.html">Build your vocabulary</a> first -
+    synonyms, antonyms and vocabulary in context all come down to knowing the word.</p>
     <div id="skills"></div>
   </div>
 
@@ -35,10 +36,12 @@
     <p class="lede" id="sk-blurb"></p>
     <p class="muted" id="sk-meta"></p>
 
-    <h3>Pace</h3>
+    <div id="lesson"></div>
+
+    <h3>How do you want to practice?</h3>
     <div class="chooser" id="pace">
-      <button data-p="off" aria-pressed="true">Untimed</button>
-      <button data-p="on">At test pace</button>
+      <button data-p="off" aria-pressed="true">Show me the answers as I go</button>
+      <button data-p="on">Time me like the real test</button>
     </div>
     <p class="small muted" id="pace-note"></p>
 
@@ -51,7 +54,7 @@
     </div>
 
     <div class="btn-row">
-      <button class="btn" id="start">Start practising</button>
+      <button class="btn" id="start">Start practicing</button>
     </div>
 
     <div id="history"></div>
@@ -65,7 +68,7 @@
       <div class="sub" id="sub"></div>
     </div>
     <div class="btn-row center" style="justify-content:center">
-      <button class="btn" id="again">Practise this again</button>
+      <button class="btn" id="again">Practice this again</button>
       <a class="btn plain" href="practice.html">Pick a different skill</a>
     </div>
     <div id="pace-report"></div>
@@ -131,6 +134,10 @@ async function showSkill(topic) {
   if (count > pool.length) { count = 0; pressCount(); }
   paceNote();
 
+  // Teach before drilling. Practising a skill nobody has explained is just repeated failure.
+  const lesson = await HSPT.lessonFor(skill.topic);
+  $('#lesson').innerHTML = HSPT.lessonHTML(lesson, skill.label);
+
   showHistory();
   $('#setup').classList.remove('hide');
 }
@@ -140,8 +147,8 @@ function paceNote() {
   const sp = HSPT.SECTIONS[skill.section].secsPerQ;
   const n = count === 0 ? pool.length : Math.min(count, pool.length);
   $('#pace-note').textContent = timed
-    ? `${sp} seconds a question — the real ${HSPT.SECTIONS[skill.section].label} allowance. ${n} questions in ${HSPT.fmtTime(sp * n)}.`
-    : `No limit. The clock still counts up, so you can see your own pace afterwards.`;
+    ? `${n} questions in ${HSPT.fmtTime(sp * n)} — ${sp} seconds each, the real ${HSPT.SECTIONS[skill.section].label} speed. You get the answers at the end.`
+    : `No time limit. After every question you find out if you were right and why. This is the one to use while you are still learning the skill.`;
 }
 $('#pace').querySelectorAll('button').forEach(b => b.addEventListener('click', () => {
   timed = b.dataset.p === 'on';

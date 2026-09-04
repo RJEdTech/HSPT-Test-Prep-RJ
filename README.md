@@ -62,17 +62,32 @@ If you add copy, apply the same rules.
 ## Layout
 
 ```
-index.html         landing page
-guide.html         section-by-section guide and study advice
+index.html         landing page — five-question taster, then the study path
+guide.html         section-by-section guide
 diagnostic.html    40 questions across all five sections, with a weak-area report
 practice.html      skill index, and one practice set per skill via ?topic=
+vocab.html         vocabulary flashcards, from data/vocab.json
 mock.html          five-section timed practice test
 resources.html     outside resources, with the not-vetted disclaimer
 images/            official logos — see Brand below
 assets/style.css   all styling
-assets/app.js      shared quiz engine used by all three quiz pages
+assets/app.js      shared quiz engine, site chrome and the lesson renderer
+assets/home.js     the landing-page taster and the "where you left off" block
 data/*.json        the question banks
+data/lessons.json  one short lesson per skill, shown above the practice questions
+data/vocab.json    the 74 words the banks actually test
+build/*.py         the repair scripts, each asserting on its target before changing it
 ```
+
+## This site and the Canva page
+
+The public front door is the Canva site at **https://rjhs.my.canva.site/hspt**, which owns the test
+dates, what to bring, the study plans and the test-taking tips. This site is the practice engine behind
+it and owns the questions, the diagnostic, the drills and the vocabulary.
+
+Keep that split. Anything about the test *day* belongs on Canva; anything a student *does* belongs here.
+Duplicating a fact across both is how they drift apart. The header link back to Canva and the five page
+anchors are in `FRONT_PAGES` at the bottom of `assets/app.js`.
 
 ## Editing questions
 
@@ -172,15 +187,52 @@ Seconds per question currently match the real HSPT for each section. If you add 
 you can raise `n` toward a full-length form. The diagnostic's mix is set the same way in
 `diagnostic.html`.
 
+## Lessons
+
+`data/lessons.json` holds one short lesson per skill — what the question type asks, the method in steps,
+a worked example and the mistake that costs students the most points. It is rendered above the questions
+on every practice page, open by default. Practising a skill nobody has explained is just repeated
+failure, so the site teaches first and drills second.
+
+Each entry is plain JSON and needs no code changes:
+
+```json
+"Antonyms": {
+  "what": "...",
+  "how": ["step one", "step two"],
+  "example": { "q": "...", "work": "...", "a": "..." },
+  "trap": "..."
+}
+```
+
+The seven reading passages share one lesson, stored under the key `_reading`.
+
 ## How the banks were built
 
 The questions were recovered from Canvas QTI exports and CSV question banks, normalised into JSON, then
-checked by an independent review pass and repaired. That pipeline is kept outside this repository; what
-matters here is that `data/` is the source of truth and edits to it are safe.
+checked by an independent review pass and repaired. `data/` is the source of truth and edits to it are safe.
 
-Two known items were left out on purpose because they are style questions rather than errors, and the
-bank answered them inconsistently: **singular "they"** and **the serial comma**. If the site adopts a
-convention for either, those questions can be reinstated.
+**Every question carries an explanation.** That was not true until recently — only the 67 maths items had
+one, while the front page told students that reading the explanations was the actual studying. The other
+457 were written and checked in a pass that also surfaced the defects listed below.
+
+Repairs live in `build/` and each asserts on its target before changing anything, so a patch fails loudly
+rather than silently mangling the wrong question if the data shifts.
+
+### Defects found and fixed
+
+- **143 Language items had no stem at all** — the student saw four sentences and no question. They were
+  two different types needing opposite instructions: 115 offer "No mistakes" and ask you to find the
+  sentence *with* an error, while 28 give four versions of one sentence and ask for the *correct* one.
+- **"No mistakes" was being shuffled into the middle.** The option is pinned last now
+  (`PINNED_LAST` in `assets/app.js`), which is where the real HSPT puts it and the only order the
+  item type makes sense in.
+- **Two classification items were keyed to the wrong outlier** — Mountain/River/Lake/Ocean was keyed
+  *Ocean*, and Knife/Fork/Bowl/Spoon was keyed *Spoon*.
+- **Ten items carried raw markdown asterisks** around book titles, which rendered literally.
+- **Fifteen items were dropped**: broken analogies, items with two equally defensible answers, exact
+  duplicates, and style disputes the bank answered inconsistently. One punctuation item keyed the
+  *absence* of the serial comma as an error, which contradicts the stylebook this site follows.
 
 ## Privacy
 
