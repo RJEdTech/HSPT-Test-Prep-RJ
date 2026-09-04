@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Your study plan — HSPT Prep</title>
+<meta name="description" content="A dated HSPT study plan built from your own diagnostic result: your weakest skills, laid out across the days you have left before the test.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto+Slab:wght@600;700&display=swap">
+<link rel="icon" href="images/rj-crest.png">
+<meta name="theme-color" content="#C41130">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<main><div class="wrap-wide">
+
+  <h1>Your study plan</h1>
+  <p class="lede" id="lede">Your own weakest skills, on your own days, counted back from test day.</p>
+
+  <div id="countdown"></div>
+  <div id="plan"></div>
+
+</div></main>
+
+<script src="assets/app.js"></script>
+<script>
+HSPT.chrome('plan.html');
+const $ = s => document.querySelector(s);
+
+/* ---------------------------------------------------------------------------
+   The three plans on the front door are shapes: six weeks, three weeks, one week.
+   They are the same for every student, which was the right thing to publish when
+   there was no data. There is data now — the diagnostic writes the weak skills to
+   this browser — so this page does the other half: it takes the shape and fills it
+   with the student's own skills, on real dates counted back from the test.
+
+   Time available is not a decision a student makes; the calendar already made it.
+   So there is nothing to choose on this page. It reads the date and the last
+   result and prints the answer.
+   --------------------------------------------------------------------------- */
+
+const MAX_WEEKS = 6;      // beyond this, a plan stops being a plan and becomes a threat
+const DAY_MODE  = 8;      // a week or less out, days are more useful than weeks
+
+const fmtDay  = d => d.toLocaleDateString(undefined, { weekday: 'long', month: 'long', day: 'numeric' });
+const fmtShort = d => d.toLocaleDateString(undefined, { month: 'long', day: 'numeric' });
+const addDays = (d, n) => new Date(d.getFullYear(), d.getMonth(), d.getDate() + n);
+/** The Monday on or before this date. */
+const mondayOf = d => addDays(d, -((d.getDay() + 6) % 7));
+
+/* ---------- what a student can be asked to do ---------- */
+
+/* Each stage is one lump of work. They are always in this order; the only thing that
+   changes with the calendar is how many of them share a week. */
+function buildStages(weak, practiced, lessonsLoaded) {
+  const stages = [];
+
+  weak.forEach((topic, i) => {
+    const label = HSPT.topicLabel(topic);
+    const blurb = HSPT.TOPIC_BLURBS[topic] || '';
+    const done  = practiced.has(topic);
+    const links = [];
+    if (lessonsLoaded && HSPT.hasLesson(topic)) links.push(['Read the lesson', HSPT.lessonLink(topic)]);
+    links.push(['Practice it', HSPT.practiceLink(topic)]);
+    /* A single-quoted string cannot span lines; keep the conditional sentence in its own
+       template literal rather than inlining it into the body. */
+    const again = done
+      ? ` <b>You have already practiced this once</b>, so this time read the explanation on every
+         question, including the ones you got right.`
+      : '';
+    stages.push({
+      tag: `Skill ${i + 1}`,
+      title: label,
+      body: `${blurb ? HSPT.esc(blurb) + ' ' : ''}Read the lesson first, then work the practice set.
+             Do the set twice if you have the time — the second run is where it sticks.${again}`,
+      links
+    });
+  });
+
+  if (weak.length > 1) stages.push({
+    tag: 'Consolidate',
+    title: 'Go back over all ' + (weak.length === 2 ? 'two' : 'three'),
+    body: `Redo the practice sets for ${listOf(weak.map(HSPT.topicLabel))}. You are looking for the
+           questions you still get wrong on the second pass — those are the real gaps, and there will
+           be fewer of them than you fear.`,
+    links: weak.map(t => [HSPT.topicLabel(t), HSPT.practiceLink(t)])
+  });
+
+  stages.push({
+    tag: 'Timing',
+    title: 'Sit the full practice test',
+    body: `All five sections, timed the way the real one is, about 70 minutes. Knowing an answer and
+           knowing it in sixteen seconds are different things, and this is the only place you find out
+           which one you have.`,
+    links: [['Take the practice test', 'mock.html']]
+  });
+
+  stages.push({
+    tag: 'Check',
+    title: 'Take the diagnostic again',
+    body: `See what moved. This is the part most students skip and it is the part that tells you
+           whether the work is paying. Come back to this page afterwards — it rebuilds itself from
+           whatever the new result says.`,
+    links: [['Find your starting point again', 'diagnostic.html']]
+  });
+
+  stages.push({
+    tag: 'Test week',
+    title: 'Read the tips, then stop',
+    body: `Go through the test-taking tips and the section guide. Do not learn anything new this week.
+           The night before, put it away — pack what you need, and sleep. Nobody has ever raised a
+           score at eleven o'clock the night before.`,
+    links: [['Test-taking tips', HSPT.FRONT_PAGES.tips], ['How each section works', 'guide.html']]
+  });
+
+  return stages;
+}
+
+/* Generic version, for a student who has not taken the diagnostic yet. Same shape,
+   no names in it — which is exactly the gap this page exists to close. */
+function genericStages() {
+  return [
+    { tag: 'Step 1', title: 'Find your starting point', body: `About 18 minutes. It scores every skill
+      and names the three worth your time. Everything below this is guesswork until you have done it.`,
+      links: [['Find your starting point', 'diagnostic.html']] },
+    { tag: 'Step 2', title: 'Work your weakest skill', body: `Read its lesson, then drill it. One skill
+      per sitting.`, links: [['All the lessons', 'learn.html'], ['Practice a skill', 'practice.html']] },
+    { tag: 'Step 3', title: 'Then the next two', body: `Same again for the second and third skills the
+      diagnostic named.`, links: [['Practice a skill', 'practice.html']] },
+    { tag: 'Timing', title: 'Sit the full practice test', body: `All five sections, timed. About 70
+      minutes.`, links: [['Take the practice test', 'mock.html']] },
+    { tag: 'Check', title: 'Take the diagnostic again', body: `See what moved.`,
+      links: [['Find your starting point again', 'diagnostic.html']] },
+    { tag: 'Test week', title: 'Read the tips, then stop', body: `No new material in the last week.
+      Sleep the night before.`, links: [['Test-taking tips', HSPT.FRONT_PAGES.tips]] }
+  ];
+}
+
+const listOf = a => a.length < 2 ? (a[0] || '')
+  : a.slice(0, -1).join(', ') + ' and ' + a[a.length - 1];
+
+/* ---------- fitting the work into the time ---------- */
+
+/* Split the stages across n slots, in order, weighting the early slots slightly heavier so
+   the last week stays light. A student in test week should not be carrying three stages. */
+function chunk(items, n) {
+  const out = Array.from({ length: n }, () => []);
+  const base = Math.floor(items.length / n);
+  let extra = items.length % n, i = 0;
+  for (let s = 0; s < n; s++) {
+    const take = base + (extra > 0 ? 1 : 0);
+    if (extra > 0) extra--;
+    out[s] = items.slice(i, i + take);
+    i += take;
+  }
+  return out;
+}
+
+function stageHTML(st) {
+  return `<div class="pw-stage">
+    <h3>${HSPT.esc(st.title)}</h3>
+    <p>${st.body.replace(/\s+/g, ' ')}</p>
+    <p class="pw-links no-print">${st.links.map(([t, h]) =>
+      `<a class="btn small plain" href="${h}">${HSPT.esc(t)}</a>`).join(' ')}</p>
+  </div>`;
+}
+
+function rowHTML(when, sub, stages, cls = '') {
+  return `<div class="planweek ${cls}">
+    <div class="pw-when"><b>${HSPT.esc(when)}</b>${sub ? `<span>${HSPT.esc(sub)}</span>` : ''}</div>
+    <div class="pw-body">${stages.length ? stages.map(stageHTML).join('')
+      : `<div class="pw-stage rest"><h3>Nothing</h3><p>Deliberately. Rest is part of the plan.</p></div>`}</div>
+  </div>`;
+}
+
+/* ---------- render ---------- */
+
+async function render() {
+  /* Once December 5 has gone, the make-up on the 12th is the date that still means
+     something. Once both have gone, there is no countdown worth printing. */
+  const test = HSPT.activeTest();
+  const days = test ? test.days : -1;
+  const past = !test;
+
+  const diag = HSPT.results('diagnostic');
+  const last = diag[0];
+  const weak = (last && last.weak) ? last.weak.slice(0, 3) : [];
+  const practiced = new Set(HSPT.results('practice').map(r => r.topic));
+
+  let lessonsLoaded = false;
+  try { await HSPT.lessons(); lessonsLoaded = true; } catch (e) { /* links degrade to practice only */ }
+
+  /* --- the strip at the top --- */
+  $('#countdown').innerHTML = past
+    ? `<div class="countdown past"><b>Both ${HSPT.TEST_DATE_LABEL} sittings have passed.</b>
+       <span>The plan below is the order to work in; add your own dates.</span></div>`
+    : `<div class="countdown"><b>${days === 0 ? 'The test is today' :
+         `${days} ${days === 1 ? 'day' : 'days'} until the test`}</b>
+       <span>${HSPT.esc(test.label)}${test.makeup ? ' — the make-up sitting' : ''}${
+         days > 60 ? ' — there is no hurry yet' : ''}</span></div>`;
+
+  const stages = weak.length ? buildStages(weak, practiced, lessonsLoaded) : genericStages();
+
+  /* --- the lead paragraph says whose plan this is --- */
+  let lead;
+  if (weak.length) {
+    const when = new Date(last.at).toLocaleDateString(undefined, { month: 'long', day: 'numeric' });
+    lead = `<p class="plan-lead">Your starting point on ${when} said to work on
+      <b>${listOf(weak.map(t => HSPT.esc(HSPT.topicLabel(t))))}</b>. Here is where those go.</p>`;
+  } else {
+    lead = `<div class="note">
+      <p><b>This plan is generic until you take the diagnostic.</b> It knows how many days you have,
+      but not what you are weak at — so the middle of it says "your weakest skill" rather than naming
+      one. Eighteen minutes fixes that, and this page rebuilds itself the moment it can.</p>
+      <div class="btn-row"><a class="btn" href="diagnostic.html">Find your starting point</a></div>
+    </div>`;
+  }
+
+  /* --- days or weeks --- */
+  let rows = '', preface = '', shapeNote = '';
+
+  if (past) {
+    /* No live date to count from. Print the arc in order and let them date it. */
+    rows = chunk(stages, stages.length).map((sts, i) =>
+      rowHTML(`Step ${i + 1}`, null, sts)).join('');
+    preface = `<p>In this order. Each step is one sitting or one week, depending on how much time you
+      give yourself.</p>`;
+  } else if (days <= DAY_MODE) {
+    /* A week or less: real dates, one lump a day, and the night before is empty on purpose.
+       Reserve that last day first, so the rest row never lands on a day that also has work. */
+    const workDays = Math.max(1, Math.min(days - 1, DAY_MODE - 1));
+    const work = chunk(stages, workDays);
+    const today = new Date();
+    rows = work.map((sts, i) => rowHTML(fmtDay(addDays(today, i)), null, sts)).join('');
+    if (days >= 2) rows += rowHTML(fmtDay(addDays(test.date, -1)), 'The night before', [], 'rest');
+    preface = `<p>Not much time, so this is day by day. Skip nothing in the first three days — that is
+      where the points are — and treat the last line as an instruction, not a suggestion.</p>`;
+  } else {
+    const weeksLeft = Math.ceil(days / 7);
+    const planWeeks = Math.min(weeksLeft, MAX_WEEKS);
+    const work = chunk(stages, planWeeks);
+    /* Count the weeks back from the test so the last row is always test week. */
+    const testMonday = mondayOf(test.date);
+    rows = work.map((sts, i) => {
+      const monday = addDays(testMonday, -7 * (planWeeks - 1 - i));
+      const isLast = i === work.length - 1;
+      return rowHTML(`Week of ${fmtShort(monday)}`,
+        isLast ? 'Test week' : `Week ${i + 1} of ${planWeeks}`, sts, isLast ? 'final' : '');
+    }).join('');
+
+    if (weeksLeft > MAX_WEEKS) {
+      const startMonday = addDays(testMonday, -7 * (planWeeks - 1));
+      shapeNote = `<div class="note">
+        <p><b>You have about ${weeksLeft} weeks, and this plan is ${planWeeks}.</b> That is on purpose.
+        Starting a six-week grind three months out does not work; you will be sick of it by October.
+        Begin the plan the week of <b>${fmtShort(startMonday)}</b>.</p>
+        <p>Between now and then, ten vocabulary words a day is genuinely enough — nearly half of
+        Verbal Skills is just whether you know the word.</p>
+        <div class="btn-row"><a class="btn plain" href="vocab.html">Ten words a day</a></div>
+      </div>`;
+    }
+    preface = `<p>One row per week. Everything in a row can be spread over that week however suits
+      you — short sittings beat one long one, by a wide margin.</p>`;
+  }
+
+  $('#plan').innerHTML = `
+    ${lead}
+    ${shapeNote}
+    <h2>The plan</h2>
+    ${preface}
+    <div class="planlist">${rows}</div>
+    <p class="daily no-print"><b>Every day, whatever row you are in:</b> ten vocabulary words.
+      <a href="vocab.html">The flashcards are here.</a> It is the cheapest points on the test.</p>
+    <div class="btn-row no-print">
+      <button class="btn" id="print">Print this plan</button>
+      <a class="btn plain" href="${HSPT.FRONT_PAGES.plans}">See the plans on the main page</a>
+    </div>
+    <div class="note no-print">
+      <p>This plan lives in this browser and nowhere else. It is built from your last diagnostic, so
+      taking the diagnostic again rebuilds it — that is the point of the "take it again" row.</p>
+    </div>`;
+
+  const btn = document.getElementById('print');
+  if (btn) btn.addEventListener('click', () => window.print());
+}
+
+render();
+</script>
+</body>
+</html>

@@ -673,6 +673,70 @@ td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
   .btn.big { font-size: 17px; padding: 12px 20px; width: 100%; text-align: center; }
 }
 
+/* ---------- the generated study plan ---------- */
+
+.countdown {
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 12px;
+  border-left: 5px solid var(--rj-red);
+  background: var(--rj-red-tint);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  padding: 14px 18px;
+  margin: 6px 0 26px;
+}
+.countdown b { font-family: var(--serif); font-size: 24px; }
+.countdown span { color: var(--ink-2); }
+.countdown.past { border-left-color: var(--ink-3); background: var(--bg-2); }
+
+.plan-lead { font-size: 19px; color: var(--ink-2); max-width: 62ch; }
+.plan-lead b { color: var(--ink); }
+
+/* The handoff from the score sheet to this page. */
+.plan-handoff { margin: 22px 0 8px; }
+.plan-handoff p { margin: 8px 0 0; }
+
+.planlist { margin: 18px 0 8px; border-top: 1px solid var(--line); }
+.planweek {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 20px;
+  padding: 20px 0;
+  border-bottom: 1px solid var(--line-soft);
+}
+.planweek.final { background: var(--bg-2); }
+.planweek.rest .pw-body { opacity: .8; }
+
+.pw-when { position: sticky; top: 12px; align-self: start; }
+.pw-when b { display: block; font-family: var(--serif); font-size: 19px; line-height: 1.25; }
+.pw-when span {
+  display: block; margin-top: 4px;
+  font-size: 12px; font-weight: 700; letter-spacing: .07em;
+  text-transform: uppercase; color: var(--ink-3);
+}
+.planweek.final .pw-when span { color: var(--rj-red); }
+
+.pw-stage { margin-bottom: 18px; }
+.pw-stage:last-child { margin-bottom: 0; }
+.pw-stage h3 { margin: 0 0 6px; font-size: 20px; }
+.pw-stage p { margin: 0 0 10px; color: var(--ink-2); max-width: 62ch; }
+.pw-stage.rest h3 { color: var(--ink-3); }
+.pw-links { display: flex; flex-wrap: wrap; gap: 8px; }
+
+.daily {
+  border: 1px dashed var(--line);
+  border-radius: var(--radius);
+  padding: 14px 18px;
+  margin: 22px 0;
+  color: var(--ink-2);
+}
+
+@media (max-width: 700px) {
+  .countdown b { font-size: 20px; }
+  .planweek { grid-template-columns: 1fr; gap: 10px; padding: 18px 0; }
+  .pw-when { position: static; }
+  .pw-when b { font-size: 17px; }
+  .pw-stage h3 { font-size: 18px; }
+}
+
 /* ---------- the diagnostic result: verdict, moves, chart ---------- */
 
 /* The old result opened with a big percentage. A percentage is a grade, and a grade is not
@@ -856,6 +920,12 @@ td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
   .sc-fill { background: #000 !important; }
   .sc-key { display: none; }
   .fullsheet { display: none !important; }
+  /* The plan is the most printable thing on the site — a fridge document. */
+  .countdown { border-left: 3pt solid #000; background: #fff; padding: 6pt 10pt; }
+  .planweek { page-break-inside: avoid; grid-template-columns: 130pt 1fr; padding: 10pt 0; }
+  .planweek.final { background: #fff; }
+  .pw-when { position: static; }
+  .daily, .plan-handoff { display: none !important; }
   .print-only { display: block !important; }
 }
 .print-only { display: none; }

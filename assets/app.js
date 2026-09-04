@@ -600,11 +600,26 @@ const HSPT = (() => {
   function resultsTop(res) {
     const all  = skillRows(res.answers);
     const weak = rankWeak(all);
-    return verdictHTML(res, all, weak) + movesHTML(weak) +
+    return verdictHTML(res, all, weak) + movesHTML(weak) + planHandoff(weak) +
       `<h2>Every skill, weakest first</h2>
        <p class="small muted">How much of each skill you got right. Grey means this test did not ask
        enough questions about it to judge you fairly.</p>
        ${skillChart(all)}`;
+  }
+
+  /* Naming three skills and stopping leaves the student's next question — "when?" —
+     unanswered. The plan page turns the three into dates. */
+  function planHandoff(weak) {
+    if (!weak.length) return '';
+    const d = daysToTest();
+    const when = d > 0
+      ? `Your ${weak.length === 1 ? 'skill' : weak.length === 2 ? 'two skills' : 'three skills'},
+         spread across the ${d} days until ${TEST_DATE_LABEL}.`
+      : `Your ${weak.length === 1 ? 'skill' : 'skills'}, laid out in the order to work through them.`;
+    return `<div class="plan-handoff no-print">
+      <a class="btn" href="plan.html">Put this on a calendar</a>
+      <p class="small muted">${when}</p>
+    </div>`;
   }
 
   /** The full sheet: every skill scored by section, plus weaknesses four and five. */
@@ -810,6 +825,32 @@ const HSPT = (() => {
   /* The public front door lives on the Canva site, which Marketing owns. This site is the
      practice engine behind it. These are the five Canva page anchors, so any page here can
      send a student back to dates, logistics or the study plans without duplicating them. */
+  /* ---------------- the test date ---------------- */
+
+  /* One place, because the results screen, the plan page and the front-door copy all count
+     from it. Update these three lines once per admissions cycle and everything follows. */
+  const TEST_DATE         = new Date(2026, 11, 5);        // Saturday 5 December 2026
+  const TEST_DATE_LABEL   = 'Saturday, December 5';
+  const TEST_MAKEUP_DATE  = new Date(2026, 11, 12);       // Saturday 12 December 2026
+  const TEST_MAKEUP       = 'Saturday, December 12';
+
+  const midnight = d => new Date(d.getFullYear(), d.getMonth(), d.getDate());
+  const daysBetween = (a, b) => Math.round((midnight(a) - midnight(b)) / 86400000);
+
+  /** Whole days from today to the main sitting. Negative once it has passed. */
+  function daysToTest(from = new Date()) { return daysBetween(TEST_DATE, from); }
+
+  /* Once the main sitting has passed, the make-up is the date that still means something
+     to a student reading a plan. Returns null once both are behind us, so pages can drop
+     the countdown rather than print a negative number. */
+  function activeTest(from = new Date()) {
+    if (daysBetween(TEST_DATE, from) >= 0)
+      return { date: TEST_DATE, label: TEST_DATE_LABEL, days: daysBetween(TEST_DATE, from), makeup: false };
+    if (daysBetween(TEST_MAKEUP_DATE, from) >= 0)
+      return { date: TEST_MAKEUP_DATE, label: TEST_MAKEUP, days: daysBetween(TEST_MAKEUP_DATE, from), makeup: true };
+    return null;
+  }
+
   const FRONT = 'https://rjhs.my.canva.site/hspt';
   const FRONT_PAGES = {
     start:   FRONT,
@@ -825,6 +866,7 @@ const HSPT = (() => {
     const nav = [
       ['index.html', 'Start here'],
       ['diagnostic.html', 'What should I study?'],
+      ['plan.html', 'Your study plan'],
       ['learn.html', 'Learn a skill'],
       ['practice.html', 'Practice a skill'],
       ['vocab.html', 'Vocabulary'],
@@ -893,5 +935,6 @@ const HSPT = (() => {
            shuffleOptions, esc, fmtTime, typeset, latexToText, run, bars, reviewList, scoreSheet, resultsTop, skillChart, skillRows, rankWeak,
            paceReport, saveResult, results, chrome, FRONT, FRONT_PAGES,
            primers, primerFor, primerHTML,
-           lessons, lessonLink, hasLesson, lessonTopicFor };
+           lessons, lessonLink, hasLesson, lessonTopicFor,
+           TEST_DATE, TEST_DATE_LABEL, TEST_MAKEUP_DATE, TEST_MAKEUP, daysToTest, activeTest, MIN_ITEMS_FOR_RANK: 3 };
 })();
