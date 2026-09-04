@@ -274,6 +274,27 @@ td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
 .review-item .ans { font-size: 15px; margin: 0 0 4px; }
 .review-item .ans .lbl { color: var(--ink-3); display: inline-block; min-width: 96px; }
 
+/* The review shows every choice, lettered, using the same colours as the live quiz.
+   These are static rows, not buttons, so the hover and pointer states come off. */
+.review-choices { margin: 0 0 12px; }
+.review-choices .choice { cursor: default; width: 100%; }
+.review-choices .choice:hover { border-color: var(--line-soft); background: var(--bg); }
+.review-choices .choice.right:hover { border-color: var(--ok); background: var(--ok-tint); }
+.review-choices .choice.wrong:hover { border-color: var(--no); background: var(--no-tint); }
+.rtag {
+  margin-left: auto; padding-left: 12px; flex: none;
+  font-size: 12px; font-weight: 700; letter-spacing: .04em; text-transform: uppercase;
+}
+.rtag.ok { color: var(--ok); }
+.rtag.no { color: var(--no); }
+@media (max-width: 560px) {
+  /* Long options (whole sentences, in the Language sets) push the tag onto its
+     own line rather than squeezing it against the text. */
+  .review-choices .choice { flex-wrap: wrap; }
+  .review-choices .txt { flex: 1 1 0; min-width: 0; }
+  .review-choices .rtag { flex: 1 0 100%; padding-left: 0; margin: 4px 0 0; text-align: right; }
+}
+
 /* ---------- misc ---------- */
 
 .pill {
@@ -556,3 +577,96 @@ td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
 .lesson-tip:hover { border-color: var(--rj-red); background: var(--rj-red-tint); text-decoration: none; }
 
 .lesson-more { margin: 14px 0 0; font-size: 15px; }
+
+/* ---------- score sheet ---------- */
+
+/* The table that replaces the old paper score sheet: every skill, its score, and where to
+   go about it. Built to survive a phone (it scrolls sideways inside its own box) and a
+   printer (see the print rules at the end of this file). */
+
+.scoresheet { margin: 8px 0 28px; }
+
+.ss-table { width: 100%; border-collapse: collapse; font-size: 15px; }
+.ss-caption {
+  caption-side: top; text-align: left; padding: 0 0 10px;
+  color: var(--ink-3); font-size: 14px;
+}
+.ss-table th, .ss-table td { padding: 9px 12px; text-align: left; vertical-align: top; }
+.ss-table thead th {
+  font-size: 12px; letter-spacing: .05em; text-transform: uppercase;
+  color: var(--ink-3); border-bottom: 1px solid var(--line); font-weight: 700;
+}
+.ss-table tbody tr { border-bottom: 1px solid var(--line-soft); }
+.ss-table .num { text-align: right; white-space: nowrap; }
+
+.ss-sec th, .ss-sec td {
+  background: var(--bg-2); font-weight: 700; font-family: 'Roboto Slab', Georgia, serif;
+  border-top: 1px solid var(--line);
+}
+
+.ss-skill { padding-left: 12px; }
+.ss-rank {
+  display: inline-grid; place-items: center; width: 21px; height: 21px; margin-right: 9px;
+  border-radius: 50%; background: var(--rj-red); color: #fff;
+  font-size: 12px; font-weight: 700; vertical-align: 1px;
+}
+
+.ss-tag {
+  display: inline-block; font-size: 12px; font-weight: 700;
+  letter-spacing: .04em; text-transform: uppercase; white-space: nowrap;
+}
+.ss-tag.good  { color: var(--ok); }
+.ss-tag.ok    { color: var(--ink-2); }
+.ss-tag.weak  { color: var(--no); }
+.ss-tag.thin  { color: var(--ink-3); font-weight: 400; text-transform: none; letter-spacing: 0; }
+
+.ss-do { white-space: nowrap; }
+.ss-sep { color: var(--ink-3); }
+
+.ss-plan { margin: 0 0 16px; padding-left: 22px; }
+.ss-plan li { margin: 0 0 10px; }
+
+@media (max-width: 640px) {
+  /* "What to study" is the column that does the work, and on a phone it was the one
+     scrolled off the right edge. Drop the status word instead - the score already says it. */
+  .ss-table { font-size: 14px; }
+  .ss-table th, .ss-table td { padding: 8px 6px; }
+  .ss-table th:nth-child(4), .ss-table td:nth-child(4) { display: none; }
+  .ss-skill { padding-left: 4px; }
+  .ss-rank { margin-right: 6px; }
+  .ss-do { white-space: normal; }
+}
+
+/* ---------- printing a result ---------- */
+
+/* A student should be able to put this on the fridge and a parent should be able to read it
+   without a screen. Everything that is only useful on a screen comes off. */
+@media print {
+  @page { margin: 15mm; }
+  body { background: #fff; color: #000; font-size: 11pt; }
+  nav, footer, .btn-row, .chooser, .no-print,
+  #quiz, #setup, #history, #review, #pacebox { display: none !important; }
+  main, .wrap, .wrap-wide { max-width: none; padding: 0; margin: 0; }
+  h1, h2 { page-break-after: avoid; }
+  a { color: #000; text-decoration: none; }
+  /* Links are useless on paper unless the address comes with them. */
+  .ss-do a::after, .ss-plan a::after { content: ""; }
+  /* The scroll box that keeps the table on a phone makes it one unsplittable block on
+     paper, which threw the whole table onto page two. Let it break, and repeat the header. */
+  .table-scroll { overflow: visible !important; }
+  .scoresheet, .ss-table, .ss-table tbody { page-break-inside: auto; }
+  .ss-table { font-size: 10pt; min-width: 0; }
+  .ss-table thead { display: table-header-group; }
+  .ss-table tbody tr, .ss-plan li { page-break-inside: avoid; }
+  /* The big percentage is for the screen; on paper it just eats the first page. */
+  .score-hero { margin: 0 0 10px; }
+  .score-hero .big { font-size: 22pt; }
+  #printhead { margin: 0 0 14px; font-weight: 700; }
+  .ss-rank { border: 1px solid #000; background: #fff; color: #000; }
+  /* On paper a link is just underlined text with nowhere to go, so the column comes off
+     and the numbered plan below carries the instruction instead. */
+  .ss-table th:last-child, .ss-table td:last-child { display: none; }
+  .ss-plan a { text-decoration: none; }
+  .print-only { display: block !important; }
+}
+.print-only { display: none; }

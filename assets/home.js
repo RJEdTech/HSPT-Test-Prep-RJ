@@ -163,11 +163,11 @@
     actions = `<div class="btn-row wrapy">${list.map(t =>
       `<a class="btn plain" href="${HSPT.practiceLink(t)}">${HSPT.esc(HSPT.topicLabel(t))}</a>`).join('')}
       <a class="btn" href="${todo.length ? HSPT.practiceLink(list[0]) : 'diagnostic.html'}">${
-        todo.length ? 'Start with ' + HSPT.esc(HSPT.topicLabel(list[0])) : 'Take the diagnostic again'}</a></div>`;
+        todo.length ? 'Start with ' + HSPT.esc(HSPT.topicLabel(list[0])) : 'Find your starting point again'}</a></div>`;
   } else if (prac.length) {
     const p = prac[0];
     lead = `You last practiced <b>${HSPT.esc(p.label || HSPT.topicLabel(p.topic))}</b> ${when(p.at)} and got
-            ${p.correct} of ${p.total}. If you have not taken the diagnostic yet, it will tell you what to do next.`;
+            ${p.correct} of ${p.total}. If you have not found your starting point yet, it will tell you what to do next.`;
     actions = `<div class="btn-row"><a class="btn" href="diagnostic.html">Find out what to study</a>
                <a class="btn plain" href="${HSPT.practiceLink(p.topic)}">Practice that again</a></div>`;
   } else {

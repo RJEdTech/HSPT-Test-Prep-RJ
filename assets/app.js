@@ -139,6 +139,10 @@ const HSPT = (() => {
   const esc = s => String(s).replace(/[&<>"']/g, c =>
     ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 
+  /* Explanations for the A/B/C comparison items are written one quantity per line,
+     so line breaks have to survive into the HTML. */
+  const explHTML = str => esc(str).replace(/\n/g, '<br>');
+
   const fmtTime = secs => {
     const m = Math.floor(Math.abs(secs) / 60), s = Math.abs(secs) % 60;
     return `${secs < 0 ? '−' : ''}${m}:${String(s).padStart(2, '0')}`;
@@ -360,7 +364,7 @@ const HSPT = (() => {
       after.innerHTML = `
         <p class="verdict ${ok ? 'right' : 'wrong'}">${ok ? 'Correct' : 'Not quite'}</p>
         ${q.explanation
-          ? `<div class="explain"><p>${esc(q.explanation)}</p></div>`
+          ? `<div class="explain"><p>${explHTML(q.explanation)}</p></div>`
           : (!ok ? `<div class="explain"><p>The answer is <b>${String.fromCharCode(65 + q.answer)}) ${esc(q.options[q.answer])}</b>.</p></div>` : '')}`;
       typeset(after);
       body.querySelector('.next').disabled = false;
@@ -431,6 +435,131 @@ const HSPT = (() => {
   /** Deep link to a single skill's practice set. */
   const practiceLink = topic => `practice.html?topic=${encodeURIComponent(topic)}`;
 
+  /* ---------------- score sheet ---------------- */
+
+  /* The paper score sheet this replaces did three jobs: score every skill, rank the weakest,
+     and name what to study for each one. Same three jobs here, in one table, with our own
+     lessons and drill sets standing in for chapter numbers.
+
+     A skill needs at least MIN_ITEMS questions behind it before it is allowed to be ranked.
+     One or two questions is noise, not a diagnosis, and telling a student to spend three
+     weeks on a skill because they missed the only question about it is worse than saying
+     nothing. Those rows still appear, marked honestly. */
+  const MIN_ITEMS = 3;
+  const WEAK_PCT  = 70;
+  const TOP_N     = 5;
+
+  /** One row per skill, reading's passage slugs collapsed into the single reading skill. */
+  function skillRows(answers) {
+    const rows = {};
+    answers.forEach(a => {
+      const t = a.q.topic;
+      if (!t) return;
+      const skill = READING_TOPIC(t) ? 'Reading Comprehension' : t;
+      const r = rows[skill] || (rows[skill] = { skill, section: a.q.section, right: 0, total: 0 });
+      r.total++;
+      if (a.correct) r.right++;
+    });
+    const all = Object.values(rows);
+    all.forEach(r => { r.pct = Math.round((r.right / r.total) * 100); });
+    return all;
+  }
+
+  /** The weakest skills that have enough questions behind them to mean something. */
+  function rankWeak(rows, n = TOP_N) {
+    const ranked = rows
+      .filter(r => r.total >= MIN_ITEMS && r.pct < WEAK_PCT)
+      .sort((a, b) => (a.pct - b.pct) || (b.total - a.total))
+      .slice(0, n);
+    ranked.forEach((r, i) => { r.priority = i + 1; });
+    return ranked;
+  }
+
+  function statusOf(r) {
+    if (r.total < MIN_ITEMS) return ['thin', 'Too few to tell'];
+    if (r.pct >= 85) return ['good', 'Strong'];
+    if (r.pct >= WEAK_PCT) return ['ok', 'Solid'];
+    if (r.pct >= 40) return ['weak', 'Shaky'];
+    return ['weak', 'Needs work'];
+  }
+
+  /** What to do about this skill: the lesson, then the drill set. */
+  function studyCell(r) {
+    const label = topicLabel(r.skill);
+    const links = [];
+    if (hasLesson(r.skill)) links.push(`<a href="${lessonLink(r.skill)}">Lesson</a>`);
+    if (r.section === 'reading') {
+      links.push(`<a href="practice.html">Pick a passage</a>`);
+    } else {
+      links.push(`<a href="${practiceLink(r.skill)}">Practice</a>`);
+    }
+    return links.join(' <span class="ss-sep">·</span> ');
+  }
+
+  /** The whole sheet: every skill scored, the weakest ranked, each one pointing somewhere. */
+  function scoreSheet(res) {
+    const all = skillRows(res.answers);
+    const weak = rankWeak(all);
+    const thin = all.filter(r => r.total < MIN_ITEMS);
+
+    const body = Object.keys(SECTIONS).map(key => {
+      const mine = all.filter(r => r.section === key);
+      if (!mine.length) return '';
+      mine.sort((a, b) => a.pct - b.pct
+        || (a.priority || 99) - (b.priority || 99)
+        || a.skill.localeCompare(b.skill));
+      const right = mine.reduce((n, r) => n + r.right, 0);
+      const total = mine.reduce((n, r) => n + r.total, 0);
+      return `<tr class="ss-sec">
+          <th scope="row">${esc(SECTIONS[key].label)}</th>
+          <td class="num">${right} of ${total}</td>
+          <td class="num">${Math.round((right / total) * 100)}%</td>
+          <td></td><td></td>
+        </tr>` +
+        mine.map(r => {
+          const [cls, word] = statusOf(r);
+          return `<tr>
+            <td class="ss-skill">${r.priority ? `<span class="ss-rank">${r.priority}</span>` : ''}${esc(topicLabel(r.skill))}</td>
+            <td class="num">${r.right} of ${r.total}</td>
+            <td class="num">${r.total < MIN_ITEMS ? '—' : r.pct + '%'}</td>
+            <td><span class="ss-tag ${cls}">${word}</span></td>
+            <td class="ss-do">${studyCell(r)}</td>
+          </tr>`;
+        }).join('');
+    }).join('');
+
+    const plan = weak.length
+      ? `<ol class="ss-plan">${weak.map(r => `<li>
+            <b>${esc(topicLabel(r.skill))}</b> — ${r.right} of ${r.total} right.
+            ${hasLesson(r.skill) ? `Read <a href="${lessonLink(r.skill)}">the lesson</a>, then ` : ''}
+            <a href="${r.section === 'reading' ? 'practice.html' : practiceLink(r.skill)}">drill it</a>.
+          </li>`).join('')}</ol>
+         <p>Work down that list in order. One skill per sitting beats skimming all five, and the
+         first two are where the points are.</p>`
+      : `<p>Nothing came out below ${WEAK_PCT}% with enough questions behind it to call a weakness.
+          Your next move is the <a href="mock.html">full practice test</a> — at this level pacing is
+          more likely to cost you points than content is.</p>`;
+
+    return `<div class="scoresheet">
+      <div class="table-scroll"><table class="ss-table">
+        <caption class="ss-caption">Every skill this test asked about, weakest first within each section.</caption>
+        <thead><tr>
+          <th>Skill</th><th class="num">Right</th><th class="num">Score</th>
+          <th>How it looks</th><th>What to study</th>
+        </tr></thead>
+        <tbody>${body}</tbody>
+      </table></div>
+      ${thin.length ? `<p class="small muted">${thin.length === 1 ? 'One skill' : `${thin.length} skills`}
+        had fewer than ${MIN_ITEMS} questions here, so ${thin.length === 1 ? 'it is' : 'they are'} marked
+        “too few to tell” rather than ranked. The <a href="diagnostic.html?full=1">full diagnostic</a>
+        gives every skill enough questions to score properly.</p>` : ''}
+      <p class="print-only small">Everything below is on the practice site: a lesson and a set
+        of questions for each skill. Open it and work down the list.</p>
+      <h2>What to study, in order</h2>
+      ${plan}
+    </div>`;
+  }
+
   /** How the student's pace compares with the real HSPT allowance. */
   function paceReport(res, secsPerQ, sectionLabel) {
     if (!secsPerQ) return '';
@@ -474,18 +603,42 @@ const HSPT = (() => {
       <p>${verdict}</p>`;
   }
 
+  /* The review after a diagnostic, practice set or mock test. It shows the whole
+     lettered choice set, not just two bare lines, so a student who remembers
+     "I put C" can find C, see why it was wrong and see which letter was right.
+     The colours and letter chips are the same ones used during the quiz. */
   function reviewList(answers, onlyWrong = true) {
     const items = answers.filter(a => !onlyWrong || !a.correct);
     if (!items.length) return '<p class="muted">Nothing missed — every answer was correct.</p>';
-    return items.map(a => `
-      <div class="review-item">
-        <p class="stem">${esc(a.q.stem)}</p>
-        <p class="ans"><span class="lbl">Correct answer</span> <b>${esc(a.q.options[a.q.answer])}</b></p>
-        ${a.pick === null
-          ? '<p class="ans muted"><span class="lbl">You</span> skipped this one</p>'
-          : `<p class="ans muted"><span class="lbl">You answered</span> ${esc(a.q.options[a.pick])}</p>`}
-        ${a.q.explanation ? `<div class="explain" style="margin-top:10px"><p>${esc(a.q.explanation)}</p></div>` : ''}
-      </div>`).join('');
+
+    return items.map(a => {
+      const q = a.q;
+      const rightLtr = String.fromCharCode(65 + q.answer);
+
+      const choices = q.options.map((o, n) => {
+        const isRight = n === q.answer;
+        const isMine  = n === a.pick;
+        const cls = isRight ? 'right' : (isMine ? 'wrong' : '');
+        const tag = isRight
+          ? '<span class="rtag ok">Correct answer</span>'
+          : (isMine ? '<span class="rtag no">You picked this</span>' : '');
+        return `<li><div class="choice ${cls}">
+            <span class="ltr">${String.fromCharCode(65 + n)}</span>
+            <span class="txt">${esc(o)}</span>${tag}
+          </div></li>`;
+      }).join('');
+
+      return `<div class="review-item">
+        ${q.topic ? `<div class="qnum">${esc(topicLabel(q.topic))}</div>` : ''}
+        <p class="stem">${esc(q.stem)}</p>
+        <ul class="choices review-choices">${choices}</ul>
+        ${a.pick === null ? '<p class="ans muted">You skipped this one.</p>' : ''}
+        ${q.explanation
+          ? `<div class="explain"><p><b>Why choice ${rightLtr} is the answer.</b> ${explHTML(q.explanation)}</p></div>`
+          : ''}
+        ${q.topic ? `<p class="small"><a href="${lessonLink(q.topic)}">Read the full lesson on ${esc(topicLabel(q.topic))}</a></p>` : ''}
+      </div>`;
+    }).join('');
   }
 
   /* ---------------- page furniture ---------------- */
@@ -632,7 +785,7 @@ const HSPT = (() => {
 
   return { SECTIONS, QUANT_TOPICS, TOPIC_LABELS, TOPIC_BLURBS, topicLabel, practiceLink,
            section, passages, loadBank, shuffle, sample, skillIndex,
-           shuffleOptions, esc, fmtTime, typeset, latexToText, run, bars, reviewList,
+           shuffleOptions, esc, fmtTime, typeset, latexToText, run, bars, reviewList, scoreSheet, skillRows, rankWeak,
            paceReport, saveResult, results, chrome, FRONT, FRONT_PAGES,
            primers, primerFor, primerHTML,
            lessons, lessonLink, hasLesson, lessonTopicFor };
