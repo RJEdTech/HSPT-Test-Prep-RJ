@@ -1,0 +1,268 @@
+{
+  "_comment": "One short lesson per skill, shown above the practice questions. Edit these freely - nothing else needs changing. 'how' is a list of steps. 'example' is one worked question. 'trap' is the mistake that costs students the most points on that skill.",
+  "lessons": {
+    "Synonyms": {
+      "what": "You are given a word and asked which of four words is closest in meaning. Closest, not identical - the HSPT rarely offers a perfect match.",
+      "how": [
+        "Say the word in a sentence you would actually use. If you can use it, you know it.",
+        "Decide whether the word is positive, negative or neutral. That alone often rules out two choices.",
+        "Pick the closest fit, not the perfect fit. One of them is always closer than the rest."
+      ],
+      "example": {
+        "q": "A robust tree is:",
+        "work": "Robust sounds like a strong word, and you have met it in phrases like a robust argument. It is positive and it means strong. Weak is the opposite. Tall and short are about size, not strength.",
+        "a": "strong"
+      },
+      "trap": "Not knowing the word at all. If that happens, do not stare at it - guess from whether it feels positive or negative, mark it and move on. Sixteen seconds a question means you cannot afford to stall."
+    },
+    "Antonyms": {
+      "what": "You are given a word and asked which of four words means the opposite.",
+      "how": [
+        "Work out what the word itself means first, before you look at the choices.",
+        "Say the opposite out loud in your own words.",
+        "Then find the choice closest to what you just said."
+      ],
+      "example": {
+        "q": "Frugal means the opposite of:",
+        "work": "Frugal means careful with money. The opposite of careful with money is free with money. Now look: thrifty, economical and careful all mean the same as frugal, not the opposite. Only wasteful is the reverse.",
+        "a": "wasteful"
+      },
+      "trap": "This is the most trapped question type on the test. The choices almost always include a synonym of the word, and if you read too fast you will pick it. Deciding on the opposite before you read the choices is the whole defense."
+    },
+    "Analogies": {
+      "what": "Two words are related in some way. You have to work out how, then find the pair that relates the same way.",
+      "how": [
+        "Say the relationship out loud as a full sentence: a puppy is a young dog.",
+        "Now put the third word into that same sentence: a kitten is a young ___.",
+        "If more than one choice fits, make your sentence more specific until only one survives."
+      ],
+      "example": {
+        "q": "Bird is to nest as bee is to:",
+        "work": "A bird lives in a nest, and it builds it itself. A bee lives in a hive and builds it too. Flower is where a bee feeds, not where it lives, which is why the sentence has to be specific.",
+        "a": "hive"
+      },
+      "trap": "Settling for a vague relationship like these two go together. Almost every wrong answer goes together with the word somehow. The sentence has to be tight enough that only one choice can complete it."
+    },
+    "Classification": {
+      "what": "Four words are given. Three share something. You pick the one that does not.",
+      "how": [
+        "Look for what any three have in common - a category, a use, a place they belong.",
+        "Name that category in a word or two.",
+        "The one left over is your answer."
+      ],
+      "example": {
+        "q": "Which word does not belong: Rose, Tulip, Oak, Daisy?",
+        "work": "Rose, tulip and daisy are flowers. Oak is a tree. The category is flowers, and oak is the one outside it.",
+        "a": "Oak"
+      },
+      "trap": "Finding a category that only fits two. If two different words could each be the odd one out, you have picked the wrong category - back up and look for the one that leaves exactly three together."
+    },
+    "Verbal Logic": {
+      "what": "Two statements are given and you assume both are true. A third statement follows, and you decide whether it is true, false or uncertain.",
+      "how": [
+        "Treat the first two statements as facts, even when they are silly. That is the whole game.",
+        "Ask: do those two facts force the third to be true? Then it is true.",
+        "Ask: do they make the third impossible? Then it is false.",
+        "If neither - if the third could go either way - it is uncertain."
+      ],
+      "example": {
+        "q": "All fish can swim. Whales can swim. Whales are fish. The third statement is:",
+        "work": "The first statement says every fish swims. It does not say that only fish swim. So a whale that swims might be a fish or might be something else that swims. Nothing here settles it.",
+        "a": "uncertain"
+      },
+      "trap": "Answering false when you happen to know the real-world answer. You know whales are not fish, but these two statements do not prove it, so the answer is uncertain. Uncertain is the most common answer and the most commonly missed."
+    },
+    "Vocabulary": {
+      "what": "A short phrase is given and you pick what the underlined word means in that phrase.",
+      "how": [
+        "Read the whole phrase, not just the word. The other words are the clue.",
+        "Try to say the phrase in your own words before you look at the choices.",
+        "If the word is new to you, look for parts you recognize - roots, prefixes, a word it resembles."
+      ],
+      "example": {
+        "q": "a mundane task",
+        "work": "A task is a job you have to do. Mundane goes with ordinary chores in most sentences you have heard. Exciting and dangerous pull the other way, and complex is about difficulty rather than ordinariness.",
+        "a": "ordinary"
+      },
+      "trap": "Picking a word that fits the topic instead of the meaning. Dangerous sounds like it belongs near task, but it is not what mundane means."
+    },
+    "Spelling": {
+      "what": "Three sentences and a fourth choice reading No mistakes. One sentence may contain a misspelled word - or none of them may.",
+      "how": [
+        "Read one sentence at a time. Do not compare them to each other.",
+        "Slow down on the long words. That is where the error almost always is.",
+        "Watch the usual suspects: doubled letters, ie versus ei, and endings like -ally, -ent and -ance.",
+        "If all three look clean, No mistakes is a real answer and it is right more often than students expect."
+      ],
+      "example": {
+        "q": "She was excited to finaly graduate.",
+        "work": "Finaly should be finally. The word is final plus ly, and both l's stay. Words like this are where the test hides its errors.",
+        "a": "the sentence with finaly"
+      },
+      "trap": "Rushing the short words and skimming the long ones, which is exactly backwards. Also, talking yourself into an error that is not there - No mistakes is a genuine answer."
+    },
+    "Capitalization": {
+      "what": "Three sentences and a No mistakes option. Find the capital letter that should not be there, or the one that is missing.",
+      "how": [
+        "Check every capital: is it a name, a place, a title or the start of a sentence? If not, it is wrong.",
+        "Check the lowercase words that should be capitals - names of people, places, months, days, holidays and titles of books and films.",
+        "Remember the ones students get backwards: seasons are lowercase, months and days are capitals."
+      ],
+      "example": {
+        "q": "We're going to the beach this Summer.",
+        "work": "Summer is a season, and seasons are not capitalized. Spring, summer, fall and winter stay lowercase - but January and Monday are capitals, because months and days are names.",
+        "a": "the sentence with Summer"
+      },
+      "trap": "School subjects. Math, history and science are lowercase, but a specific course title like World History and any language like Spanish are capitals."
+    },
+    "Punctuation": {
+      "what": "Three sentences and a No mistakes option. Find the comma, apostrophe, semicolon or quotation mark that is wrong.",
+      "how": [
+        "Check apostrophes first - they are the most common error. It's always means it is. Its shows possession.",
+        "Check commas: after an introductory phrase, between items in a list, before and joining two full sentences.",
+        "Check that a semicolon joins two complete sentences. If either side cannot stand alone, it should be a comma.",
+        "Check that end punctuation sits inside the quotation marks."
+      ],
+      "example": {
+        "q": "The dog wagged it's tail.",
+        "work": "Read it's as it is: the dog wagged it is tail. That is nonsense, so it needs the possessive its. This test works every single time.",
+        "a": "the sentence with it's"
+      },
+      "trap": "The serial comma - the one before and in a list. This site follows the Regis Jesuit stylebook, which leaves it out, so you will not be asked to call its absence an error."
+    },
+    "Usage": {
+      "what": "The biggest part of Language Skills. Some items give three sentences and ask which has a grammar mistake. Others give four versions of one sentence and ask which is correct. Read the question first - they are opposites.",
+      "how": [
+        "Find the subject and the verb, and check they agree. Each, every and either are singular however many nouns follow them.",
+        "For I or me, drop the other person: between you and I becomes between I, which is wrong, so it is between you and me.",
+        "Check the verb tense is consistent across the sentence.",
+        "For comparisons, use -er or more, never both. More quicker is always wrong."
+      ],
+      "example": {
+        "q": "Each of the students have finished.",
+        "work": "The subject is each, not students. Each is singular, so it takes has. Of the students is just a phrase in between, and phrases like that never change the verb.",
+        "a": "Each of the students has finished."
+      },
+      "trap": "Letting a phrase between the subject and the verb pull you to the wrong one. Cover up of the students and the right verb becomes obvious."
+    },
+    "Composition": {
+      "what": "Questions about how a paragraph is built: which sentence opens it best, which closes it, which one does not belong, or which wording is clearest.",
+      "how": [
+        "For a topic sentence, pick the one broad enough to cover every other sentence but not broader.",
+        "For a concluding sentence, pick the one that wraps up what was already said. A conclusion never introduces something new.",
+        "For does not belong, find the paragraph's single subject, then find the sentence about something else.",
+        "For clearest wording, prefer the short active sentence over the long roundabout one."
+      ],
+      "example": {
+        "q": "Which is the best topic sentence for a paragraph about how bees pollinate crops, make honey and support ecosystems?",
+        "work": "The paragraph covers three things bees do. A sentence about honey alone is too narrow. A sentence about all insects is too broad. Bees play a vital role in agriculture and nature covers exactly what follows.",
+        "a": "the broad sentence that covers all three"
+      },
+      "trap": "Choosing a sentence that is true and well written but only covers part of the paragraph. Check it against every other sentence, not just the first one."
+    },
+    "Patterns in Numbers": {
+      "what": "A series of numbers with one missing. Work out the rule and apply it.",
+      "how": [
+        "Write the gap between each pair of numbers underneath them.",
+        "If the gaps are all the same, add or subtract that amount.",
+        "If the gaps themselves grow, look at how they grow - that is the real rule.",
+        "If the numbers double or halve, the rule is multiply or divide rather than add."
+      ],
+      "example": {
+        "q": "2, 6, 12, 20, ___, 42",
+        "work": "The gaps are 4, 6, 8. Each gap grows by two, so the next gap is 10. Twenty plus ten is thirty. Check it: the gap after that is 12, and 30 plus 12 is 42, which matches.",
+        "a": "30"
+      },
+      "trap": "Assuming the gap is constant because the first two match. Always check three gaps before you commit."
+    },
+    "Mathematic Comparisons": {
+      "what": "You are shown two or three quantities and asked how they compare - which is bigger, or whether they are equal.",
+      "how": [
+        "Work out each quantity completely before you look at the answer choices.",
+        "Write the value next to each one so you are comparing numbers, not expressions.",
+        "Only then read the choices."
+      ],
+      "example": {
+        "q": "Compare (a) one half of 40, (b) 25 percent of 80, (c) 30 percent of 60",
+        "work": "Half of 40 is 20. Twenty-five percent of 80 is 20. Thirty percent of 60 is 18. So a and b are equal and both are larger than c.",
+        "a": "a equals b, and both are greater than c"
+      },
+      "trap": "Reading the answer choices first and trying to test them one by one. That takes longer than just working out the three values."
+    },
+    "Skills Check 2: Quantitative Skills": {
+      "what": "A mix of the Quantitative Skills question types - series, comparisons and short reasoning problems.",
+      "how": [
+        "Identify which type you are looking at before you start working.",
+        "For a series, find the gaps. For a comparison, work out each quantity. For a word problem, name what is being asked.",
+        "Estimate first when the choices are far apart - it is often enough."
+      ],
+      "example": {
+        "q": "What number is four more than one third of 27?",
+        "work": "Take it in the order it is written but work from the inside: one third of 27 is 9, and four more than 9 is 13.",
+        "a": "13"
+      },
+      "trap": "Doing the operations in the order the words appear rather than the order they apply. Four more than one third of 27 does not mean add four first."
+    },
+    "Math Principles": {
+      "what": "The number facts underneath everything else: place value, rounding, averages, factors, order of operations and estimation.",
+      "how": [
+        "For order of operations, do brackets, then exponents, then multiply and divide left to right, then add and subtract.",
+        "For an average, add the values and divide by how many there are.",
+        "For rounding, look at the digit to the right of where you are rounding.",
+        "Estimate before you calculate, so you notice if your answer is wildly off."
+      ],
+      "example": {
+        "q": "The average of -2, 0, 2 and 4 is",
+        "work": "Add them: negative two plus zero plus two plus four is four. There are four numbers, so divide four by four. The answer is one.",
+        "a": "1"
+      },
+      "trap": "Order of operations. In 12 minus 3 times 3 minus 1, the multiplication happens first, giving 12 minus 9 minus 1, which is 2 - not 26."
+    },
+    "Problem Solving": {
+      "what": "Word problems: rates, percents, ratios, money and time.",
+      "how": [
+        "Read it once for the story, then again for the numbers.",
+        "Write down what the question is actually asking for before you calculate anything.",
+        "Set up the arithmetic, then do it. Most lost points come from setting it up wrong, not from the arithmetic.",
+        "Check your answer against the story. Does it make sense?"
+      ],
+      "example": {
+        "q": "If N percent of 60 is 24, what is N?",
+        "work": "Percent means out of a hundred, so N over 100 times 60 equals 24. Divide 24 by 60 to get 0.4, which is 40 percent. Check it: 40 percent of 60 is 24.",
+        "a": "40"
+      },
+      "trap": "Answering the wrong question. If it asks how much change you get and you work out the total cost, you will find your number sitting there among the choices."
+    },
+    "Skills Check 4: Mathematic Skills": {
+      "what": "Computation and geometry: fractions, proportions, area, perimeter and straightforward calculation.",
+      "how": [
+        "For area of a rectangle multiply length by width. For perimeter add all the sides.",
+        "For fractions, get a common denominator before you add or subtract.",
+        "For proportions, cross multiply.",
+        "Keep your units - inches and feet in the same problem are a trap."
+      ],
+      "example": {
+        "q": "19 inches is closest to",
+        "work": "A foot is 12 inches, so 19 inches is a foot and 7 inches - a bit over one and a half feet. That is closer to two feet than to one.",
+        "a": "2 feet"
+      },
+      "trap": "Mixing units. Convert everything to the same unit first, before you do any arithmetic."
+    },
+    "_reading": {
+      "what": "You read a passage and answer questions about it. The passage holds every answer - nothing depends on what you already knew about the subject.",
+      "how": [
+        "Read the whole passage first, reasonably quickly. Do not take notes.",
+        "Read the question, then go back to the passage and find the words that answer it.",
+        "For a main idea question, ask what every paragraph has in common, not what the most interesting paragraph said.",
+        "For a vocabulary question, read the whole sentence the word sits in. The passage may be using an unusual meaning.",
+        "For an inference question, make sure the passage supports your answer. Merely sensible is not enough."
+      ],
+      "example": {
+        "q": "What is the main focus of a passage whose paragraphs cover the origins of bonsai, its styles and how the trees are cared for?",
+        "work": "One paragraph is about origins, one about styles, one about care. The thing all three share is bonsai itself. An answer about the difference between Chinese and Japanese traditions would only cover one paragraph, so it is too narrow.",
+        "a": "the art and practice of bonsai"
+      },
+      "trap": "Answering from what you already know instead of from the passage. If you cannot point at the words that prove it, it is not the answer - even when it is true in real life."
+    }
+  }
+}

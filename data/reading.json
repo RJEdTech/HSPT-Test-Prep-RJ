@@ -1,1060 +1,1130 @@
 {
- "section": "reading",
- "passages": {
-  "bonsai": {
-   "title": "The Art of Bonsai",
-   "paragraphs": [
-    "Bonsai is the art of growing miniature trees in shallow containers. The word itself means \"planted in a tray,\" but bonsai is far more than a method of container gardening. A well-made bonsai is a living sculpture \u2014 a tree shaped over years, sometimes over generations, to suggest the character of a full-sized tree standing alone in nature. Practitioners think of themselves less as gardeners than as artists whose medium happens to be alive and growing.",
-    "The practice began in China more than a thousand years ago, where it was known as penjing, or \"tray scenery.\" Chinese artists created miniature landscapes that included not only trees but rocks, water, and small figures. Buddhist monks carried the practice to Japan around the twelfth century, and Japanese artists gradually developed their own approach to the same practice. They stripped away much of the ornament, focusing attention on a single tree and the empty space around it.",
-    "This restraint reflects a particular aesthetic sensibility. A bonsai is not meant to be a perfect tree; it is meant to suggest age, endurance, and the passage of time. A trunk that twists sharply evokes decades of wind on an exposed hillside. A branch that has died and been bleached white recalls a tree that has survived hardship. The viewer is invited to imagine the full landscape that the tree implies, and the empty space in the container matters as much as the tree itself.",
-    "Over time, artists developed recognized styles. The formal upright style features a straight trunk tapering evenly toward the top. The informal upright curves gently. The cascade style sends the trunk downward past the lip of the pot, imitating a tree clinging to a cliff. The windswept style bends every branch in one direction, and the forest style groups several trees to suggest a grove. These styles are not rules so much as starting points, and skilled artists combine and adapt them freely.",
-    "Caring for a bonsai demands constant attention. Regular pruning of both branches and roots is what keeps the tree small; without it, the tree would simply grow to full size. Artists wrap branches in wire to guide their direction, water carefully, and fertilize on a schedule suited to the species. Certain species \u2014 junipers, maples, elms, and pines \u2014 are favored precisely because their small leaves or fine needles remain in proportion to a miniature tree. A serious bonsai may be tended for decades, and patience is not merely helpful but essential.",
-    "Today bonsai is practiced worldwide, and enthusiasts in North America, Europe, and Australia have begun working with native species their Japanese predecessors never saw. These experiments have produced genuine innovations in technique and style. Yet the core principles \u2014 restraint, proportion, and respect for the tree as a living thing \u2014 have carried across every border the art has crossed. That endurance is remarkable in its own right. Few art forms demand so much patience of the people who practice them, and the results reward every year of it."
-   ]
-  },
-  "timekeeping": {
-   "title": "Measuring Time",
-   "paragraphs": [
-    "For as long as people have organized their lives around planting, worship, and travel, they have needed to measure time. The history of timekeeping is a long record of devices, each solving problems the last one could not, and each opening possibilities its inventors never anticipated.",
-    "The earliest reliable timekeepers were sundials, which tracked the movement of a shadow across a marked surface as the sun crossed the sky. Sundials were simple, required no maintenance, and could be remarkably accurate. They had one obvious weakness: they were useless when the sky was overcast, and equally useless at night. To fill those gaps, ancient Egyptian and Greek engineers built water clocks, which measured time by the steady flow of water from one vessel into another. Water clocks worked in darkness and in poor weather, but their flow rate changed with temperature, and they demanded constant refilling.",
-    "Mechanical clocks appeared in European monasteries in the thirteenth century, built to summon monks to prayer at fixed hours. These early clocks had no hands or faces; they simply rang a bell. Their motion was regulated by a device called a verge escapement, which released the energy of a falling weight in small, even increments rather than all at once, keeping the mechanism turning at a steady rate. The principle was sound, but the accuracy was poor \u2014 a good mechanical clock of that era might drift by fifteen minutes in a single day.",
-    "The decisive improvement came in 1656, when the Dutch scientist Christiaan Huygens applied the pendulum to clockwork. Because a pendulum of a given length swings at a consistent rate, Huygens's design reduced daily error from minutes to seconds \u2014 an improvement of more than a hundredfold. Accuracy at sea proved harder to achieve, since a pendulum will not swing evenly on a rolling ship. That problem was solved in the eighteenth century by the marine chronometer, a spring-driven clock accurate enough that a navigator could compare local noon against the time at a known reference port and calculate his longitude \u2014 a measurement that had defeated sailors for centuries.",
-    "The twentieth century brought entirely new methods. Quartz clocks, introduced in the 1920s, keep time by the steady vibration of a quartz crystal under an electric current. They proved far more accurate than any mechanical clock and eventually became cheap enough for an ordinary wristwatch, an unusual combination of high precision and low cost. Atomic clocks, developed after 1950, went further still, counting the vibrations of cesium atoms to lose less than a second in millions of years. Global positioning satellites, telecommunications networks, and financial systems all depend on atomic clocks to keep the world's computers synchronized to a common standard.",
-    "Researchers are now building optical atomic clocks, which use light rather than microwaves and may prove a hundred times more accurate than the cesium standard. Such precision has no obvious everyday use today. But then, neither did the marine chronometer before someone needed to cross an ocean."
-   ]
-  },
-  "memory": {
-   "title": "How Memory Works",
-   "paragraphs": [
-    "Memory feels like a recording. We speak of storing a memory and playing it back, as though the brain kept a library of files waiting to be opened. Research over the past several decades has shown that the reality is stranger and more active than that. Memory is not one process but three \u2014 forming, storing, and retrieving \u2014 and each of them changes what is remembered.",
-    "Formation begins when the brain converts an experience into a lasting signal, a process called encoding. Attention matters enormously here: information we notice and think about is encoded far more strongly than information that merely passes before our eyes. The hippocampus, a curved structure deep in each temporal lobe, plays a central role at this stage, converting fragile short-term memories into stable long-term ones. Patients whose hippocampus has been damaged show a striking pattern. They can recall childhood events in detail and carry on a normal conversation, but they cannot form new lasting memories \u2014 an experience fades within minutes of its ending.",
-    "Once encoded, memories are strengthened through consolidation, much of which happens during sleep. During REM sleep in particular, the brain appears to replay patterns of activity from the day, reinforcing the connections between neurons that carry a given memory. This is one reason students who sleep after studying outperform those who stay awake through the night. Consolidated memories are not filed in any single location; a memory of a meal may be distributed across regions handling taste, smell, vision, and emotion, and recalling it means reassembling those pieces.",
-    "Retrieval, then, is reconstruction rather than playback, and this accounts for memory's malleability. Each time a memory is recalled it becomes briefly unstable and must be stored again, and details can shift in the process. The setting in which we try to remember shapes what surfaces, and so does our mood \u2014 people in a low mood recall more unhappy events. The implications reach well beyond the laboratory. Eyewitness testimony has long been treated as powerful evidence in criminal trials, yet studies have repeatedly shown that a witness's account can be altered by the phrasing of a question or by information encountered after the event, all without the witness having any sense that the memory has changed.",
-    "Understanding these mechanisms has changed how researchers think about practical problems. Study techniques that require retrieval \u2014 self-testing, spacing practice across days \u2014 produce far better retention than rereading, precisely because each act of recall strengthens the memory. Schools have begun redesigning instruction around these findings, and the same research is guiding efforts to slow memory loss in aging and in disease."
-   ]
-  },
-  "renewable-energy": {
-   "title": "The Case for Renewable Energy",
-   "paragraphs": [
-    "The world's energy system is in the middle of a substantial change. Solar, wind, hydroelectric, and geothermal power supplied a small fraction of global electricity a generation ago; today they supply a growing share, and the pace is accelerating. The shift brings real advantages, and it also brings difficulties that are not yet fully solved.",
-    "The clearest benefit is environmental. Burning coal, oil, and natural gas releases carbon dioxide and other greenhouse gases that trap heat in the atmosphere and drive climate change. Renewable sources generate electricity with dramatically lower emissions \u2014 a wind turbine or a solar panel produces none at all while operating. Renewable energy also strengthens energy security. A country that generates its own power from sunlight and wind depends far less on imported fossil fuels, and is therefore less exposed to supply disruptions abroad.",
-    "There is an economic argument as well. Fossil fuel prices are notoriously volatile, swinging sharply in response to conflicts, cartel decisions, and shifts in global demand, which makes long-term planning difficult for utilities and manufacturers alike. Sunlight and wind, by contrast, are free once the equipment is built. The obstacle is that building the equipment is expensive: solar farms, wind installations, and the transmission lines to connect them require enormous investment before they generate a single kilowatt. That upfront cost remains the single largest barrier to adoption. It is falling steadily, however \u2014 the price of solar panels has dropped by roughly ninety percent since 2010 \u2014 and analysts expect renewable energy to keep getting cheaper as manufacturing scales and technology improves.",
-    "A second challenge is less about money than about timing. Solar panels produce nothing at night and little under heavy cloud; wind turbines stand idle when the air is still. Because these sources depend on weather conditions, their output is intermittent, while demand for electricity continues around the clock. The most promising answer is storage. Researchers are developing batteries that hold far more energy at lower cost, along with alternatives such as pumped hydroelectric storage, which uses surplus power to move water uphill and recovers it later by letting the water fall. Better storage would allow energy captured on a bright, windy afternoon to be delivered on a still, dark evening.",
-    "None of this happens automatically. Governments shape the transition through research funding, tax policy, and grid regulation; businesses decide where to invest and how quickly to retire aging plants; individuals influence the market through the vehicles they drive and the power they choose to buy. Each has the capacity to accelerate the transition, and the speed of the change will depend on how vigorously all three act."
-   ]
-  },
-  "coral-reefs": {
-   "title": "Coral Reefs Under Pressure",
-   "paragraphs": [
-    "Coral reefs cover less than one percent of the ocean floor, yet they support roughly a quarter of all marine species. This extraordinary concentration of life has earned them a nickname: the rainforests of the sea. Like rainforests, they are among the most productive ecosystems on the planet, and like rainforests, they are disappearing faster than almost anyone anticipated.",
-    "A reef is built by coral polyps, tiny animals that extract calcium carbonate from seawater to construct hard skeletons. Generation after generation builds on the remains of the last, and over thousands of years the accumulated structure becomes a reef. These structures are vital to the regions around them in several distinct ways. They provide shelter and breeding grounds for fish that feed hundreds of millions of people. They draw tourism that sustains coastal economies. And they act as natural breakwaters: by absorbing the energy of incoming waves before it reaches land, reefs reduce erosion and protect shorelines from storm damage that would otherwise be far more severe.",
-    "The greatest threat to reefs today is rising ocean temperature. Corals live in partnership with microscopic algae that inhabit their tissues, providing most of the coral's food and nearly all of its color. When water grows too warm, the coral expels these algae \u2014 an event called bleaching that leaves the coral white and starving. A reef can recover from a brief bleaching, but repeated or prolonged events kill it. Warming is compounded by ocean acidification, as seawater absorbs carbon dioxide and grows more acidic, making it harder for polyps to build their skeletons at all. Overfishing, coastal pollution, and runoff from farmland add further strain. Scientists estimate that up to fifty percent of the world's coral reefs have already been lost or severely damaged.",
-    "Efforts to reverse the decline are underway. Marine Protected Areas set aside stretches of ocean where fishing, anchoring, and development are restricted, giving damaged reefs a chance to recover without additional human pressure; reefs inside well-enforced MPAs consistently show better health than those outside them. Coral farming takes a more direct approach. Scientists break healthy coral into fragments, grow them in underwater nurseries until they are large enough to survive on their own, and then transplant them onto degraded reefs. Some projects are also selecting and breeding coral varieties that tolerate warmer water.",
-    "Whether these measures will be enough is an open question, and it depends heavily on how quickly the world limits carbon emissions. Reefs have survived dramatic changes before, over spans of time far longer than human history. With sustained protection and restoration, there is reason to believe they can survive this one as well."
-   ]
-  },
-  "dark-matter": {
-   "title": "The Search for Dark Matter",
-   "paragraphs": [
-    "Everything astronomers can see \u2014 every star, planet, and glowing cloud of gas \u2014 accounts for only a small portion of the material in the universe. The rest is something else entirely: a substance that has never been directly observed but whose presence is written across the sky. Physicists call it dark matter, and understanding it is one of the central unsolved problems in modern science.",
-    "The first strong evidence came from the rotation of galaxies. In the 1970s, the astronomer Vera Rubin measured how fast stars orbit the centers of spiral galaxies and found something that should have been impossible. Stars at the outer edges were moving so quickly that the galaxy's visible mass could not possibly hold them; they should have flung off into space long ago. Something invisible was supplying the additional gravity. Later observations reinforced the conclusion. Massive galaxy clusters bend the light of more distant objects behind them, an effect called gravitational lensing, and the amount of bending consistently reveals far more mass than the visible matter can explain. Dark matter is inferred entirely in this way \u2014 not seen, but detected through its gravitational effects on the matter we can see. The measurements converge on a striking figure: roughly eighty-five percent of the matter in the universe appears to be dark matter.",
-    "Dark matter also seems to explain how the universe came to look the way it does. In the earliest moments after the Big Bang, matter was distributed almost perfectly evenly. Ordinary matter alone could not have clumped together quickly enough to form the galaxies we observe. Dark matter, unimpeded by the pressure of radiation, collapsed first into a vast web of filaments and halos, and this structure acted as a scaffolding, pulling ordinary matter into the places where galaxies would eventually form.",
-    "Why the substance has proven so elusive comes down to how little it interacts with anything. Dark matter neither emits nor absorbs light, which makes it fundamentally invisible to telescopes of every kind \u2014 optical, radio, infrared, or X-ray. Beyond gravity, it appears to interact with ordinary matter only very weakly, which is why detectors buried deep underground and shielded from cosmic rays have run for decades without a confirmed signal. The leading candidates are hypothetical particles that no experiment has yet produced: WIMPs, or weakly interacting massive particles, and lighter particles called axions.",
-    "That absence of results has not discouraged the field so much as redirected it. Detectors are growing more sensitive, particle accelerators are searching new energy ranges, and some theorists are questioning whether the standard model of particle physics is complete. A discovery in one of these areas may finally reveal what dark matter is \u2014 and in doing so, reshape our understanding of the universe's basic composition."
-   ]
-  },
-  "printing-press": {
-   "title": "The Printing Press",
-   "paragraphs": [
-    "Before the middle of the fifteenth century, every book in Europe was written by hand. A scribe working in a monastery might spend a year copying a single volume, and the result was so costly that only churches, universities, and the wealthy could own one. Because books were scarce, ideas moved slowly, and knowledge was disseminated only as fast as human hands could reproduce it. Johannes Gutenberg's printing press, developed in the German city of Mainz around 1440, broke that limit permanently.",
-    "Gutenberg's central innovation was movable type: individual metal letters that could be arranged into a page, inked, pressed onto paper, then taken apart and reused for the next page. Combined with an oil-based ink of his own formulation and a press adapted from the sort used to crush grapes, the system could produce hundreds of identical copies in the time a scribe needed for one. Among the first major works to come off his press was the Gutenberg Bible, printed around 1455, whose quality startled contemporaries who assumed it must have been made by hand. Within fifty years, printing presses were operating in more than two hundred European cities, and the price of a book had fallen far enough that a prosperous merchant could own a shelf of them.",
-    "The consequences arrived quickly. In 1517, when Martin Luther published his objections to church practice, printers reproduced his writings and carried them across Germany within weeks. Earlier reformers had raised similar objections and been silenced before their arguments spread; Luther could not be silenced, because the press allowed reformers to circulate their ideas faster than any authority could suppress them. The Protestant Reformation is difficult to imagine without it.",
-    "The scientific revolution followed a parallel path. Hand-copied manuscripts accumulated errors with every copy, and a scholar in Italy might wait years to learn what a colleague in England had discovered. Printing produced identical copies, so a diagram or a table of measurements arrived exactly as its author drew it, and researchers across the continent could build directly on one another's work rather than repeating it.",
-    "Printing reshaped language itself. Printers had to choose one spelling and one grammatical form over the alternatives, and the versions they chose spread with their books, helping standardize languages that had previously varied from town to town. Rising literacy followed the falling price of books, giving ordinary people access to information and ideas that had once been confined to a narrow elite \u2014 and with that access came the capacity to evaluate claims for themselves rather than accept them on authority.",
-    "Every technology that has expanded access to information since \u2014 the newspaper, the broadcast, the internet \u2014 has built on the foundation Gutenberg laid. The specific machinery has been replaced many times over. The principle that knowledge should circulate freely and widely has not."
-   ]
-  }
- },
- "questions": [
-  {
-   "id": "36cc77df96",
-   "stem": "What is the main focus of this passage?",
-   "options": [
-    "The history of Japanese gardening techniques",
-    "The art and practice of bonsai",
-    "The differences between Chinese penjing and Japanese bonsai",
-    "The challenges of growing miniature trees"
-   ],
-   "answer": 1,
-   "topic": "bonsai",
-   "source": "bonsai_questions",
-   "passage": "bonsai"
-  },
-  {
-   "id": "5e2254b482",
-   "stem": "According to the passage, where did the art of bonsai originate?",
-   "options": [
-    "Japan",
-    "China",
-    "Korea",
-    "India"
-   ],
-   "answer": 1,
-   "topic": "bonsai",
-   "source": "bonsai_questions",
-   "passage": "bonsai"
-  },
-  {
-   "id": "a887258289",
-   "stem": "The word 'evokes' in paragraph 3 most nearly means:",
-   "options": [
-    "Contradicts",
-    "Eliminates",
-    "Brings to mind",
-    "Exaggerates"
-   ],
-   "answer": 2,
-   "topic": "bonsai",
-   "source": "bonsai_questions",
-   "passage": "bonsai"
-  },
-  {
-   "id": "124297f414",
-   "stem": "Why does the author mention different bonsai styles in paragraph 4?",
-   "options": [
-    "To argue that some styles are superior to others",
-    "To illustrate the variety and creativity within the art form",
-    "To provide a complete list of all possible bonsai styles",
-    "To explain how bonsai trees are pruned and shaped"
-   ],
-   "answer": 1,
-   "topic": "bonsai",
-   "source": "bonsai_questions",
-   "passage": "bonsai"
-  },
-  {
-   "id": "8ea7feebcc",
-   "stem": "Based on the information in the passage, which of the following statements about caring for bonsai trees is true?",
-   "options": [
-    "Bonsai trees require less water than full-sized trees",
-    "Fertilization should be avoided to prevent excessive growth",
-    "Pruning is necessary to maintain the tree's miniature size",
-    "Bonsai trees can thrive with minimal attention and care"
-   ],
-   "answer": 2,
-   "topic": "bonsai",
-   "source": "bonsai_questions",
-   "passage": "bonsai"
-  },
-  {
-   "id": "f8a33a2bce",
-   "stem": "According to the passage, what is one reason certain tree species are commonly used for bonsai?",
-   "options": [
-    "They grow more quickly than other species",
-    "They have large leaves that are easy to shape",
-    "They have small leaves or needles",
-    "They require less sunlight than other species"
-   ],
-   "answer": 2,
-   "topic": "bonsai",
-   "source": "bonsai_questions",
-   "passage": "bonsai"
-  },
-  {
-   "id": "e8bdd5aef5",
-   "stem": "The passage suggests that practicing bonsai:",
-   "options": [
-    "Is a quick way to achieve gardening success",
-    "Requires a long-term commitment and patience",
-    "Is only possible with certain types of trees",
-    "Is easier than growing full-sized trees"
-   ],
-   "answer": 1,
-   "topic": "bonsai",
-   "source": "bonsai_questions",
-   "passage": "bonsai"
-  },
-  {
-   "id": "c76165ddf5",
-   "stem": "Based on the information provided, we can infer that the global spread of bonsai has resulted in:",
-   "options": [
-    "A decline in the traditional Japanese techniques",
-    "The extinction of certain tree species",
-    "New innovations while maintaining core principles",
-    "A decrease in the overall popularity of the art form"
-   ],
-   "answer": 2,
-   "topic": "bonsai",
-   "source": "bonsai_questions",
-   "passage": "bonsai"
-  },
-  {
-   "id": "5c792963a0",
-   "stem": "The author's attitude towards bonsai can best be described as:",
-   "options": [
-    "Critical and dismissive",
-    "Neutral and objective",
-    "Admiring and respectful",
-    "Confused and uncertain"
-   ],
-   "answer": 2,
-   "topic": "bonsai",
-   "source": "bonsai_questions",
-   "passage": "bonsai"
-  },
-  {
-   "id": "fc38115c53",
-   "stem": "The main purpose of the final paragraph is to:",
-   "options": [
-    "Argue that bonsai is no longer relevant in modern times",
-    "Criticize the westernization of traditional Japanese art forms",
-    "Highlight the global appeal and evolution of bonsai",
-    "Predict the future trends in bonsai cultivation"
-   ],
-   "answer": 2,
-   "topic": "bonsai",
-   "source": "bonsai_questions",
-   "passage": "bonsai"
-  },
-  {
-   "id": "dfe8e47735",
-   "stem": "What is the main theme of this passage?",
-   "options": [
-    "The importance of timekeeping in navigation",
-    "The evolution of timekeeping devices throughout history",
-    "The superiority of atomic clocks over other timekeeping methods",
-    "The role of timekeeping in religious practices"
-   ],
-   "answer": 1,
-   "topic": "timekeeping",
-   "source": "timekeeping_questions",
-   "passage": "timekeeping"
-  },
-  {
-   "id": "af79d4d503",
-   "stem": "According to the passage, what was one limitation of sundials?",
-   "options": [
-    "They were too expensive to produce",
-    "They couldn't function during cloudy weather",
-    "They were too large to be practical",
-    "They could only measure minutes, not hours"
-   ],
-   "answer": 1,
-   "topic": "timekeeping",
-   "source": "timekeeping_questions",
-   "passage": "timekeeping"
-  },
-  {
-   "id": "bcda02cdf5",
-   "stem": "The word 'regulated' in paragraph 3 most nearly means:",
-   "options": [
-    "Controlled",
-    "Accelerated",
-    "Restricted",
-    "Randomized"
-   ],
-   "answer": 0,
-   "topic": "timekeeping",
-   "source": "timekeeping_questions",
-   "passage": "timekeeping"
-  },
-  {
-   "id": "613f0ecad0",
-   "stem": "Why does the author mention Christiaan Huygens in paragraph 4?",
-   "options": [
-    "To introduce the concept of mechanical clocks",
-    "To highlight his role in improving clock accuracy with the pendulum clock",
-    "To discuss the origins of timekeeping in medieval monasteries",
-    "To explain the workings of water clocks"
-   ],
-   "answer": 1,
-   "topic": "timekeeping",
-   "source": "timekeeping_questions",
-   "passage": "timekeeping"
-  },
-  {
-   "id": "019a9aef26",
-   "stem": "Based on the information in the passage, which of the following statements about marine chronometers is true?",
-   "options": [
-    "They were invented before mechanical clocks",
-    "They were crucial for determining latitude at sea",
-    "They helped sailors accurately determine longitude",
-    "They were less accurate than sundials"
-   ],
-   "answer": 2,
-   "topic": "timekeeping",
-   "source": "timekeeping_questions",
-   "passage": "timekeeping"
-  },
-  {
-   "id": "f5e6c7070a",
-   "stem": "According to the passage, what is one advantage of quartz clocks?",
-   "options": [
-    "They are more accurate than atomic clocks",
-    "They can function without electricity",
-    "They offer high accuracy at a relatively low cost",
-    "They were the first clocks to use electronic technology"
-   ],
-   "answer": 2,
-   "topic": "timekeeping",
-   "source": "timekeeping_questions",
-   "passage": "timekeeping"
-  },
-  {
-   "id": "d27d542f9d",
-   "stem": "The passage suggests that atomic clocks:",
-   "options": [
-    "Are less accurate than quartz clocks",
-    "Are primarily used for religious purposes",
-    "Form the basis for global time synchronization",
-    "Were invented before quartz clocks"
-   ],
-   "answer": 2,
-   "topic": "timekeeping",
-   "source": "timekeeping_questions",
-   "passage": "timekeeping"
-  },
-  {
-   "id": "63ac496702",
-   "stem": "Based on the information provided, we can infer that improvements in timekeeping technology have been driven by:",
-   "options": [
-    "A desire for more leisure time",
-    "Competition between clock makers",
-    "The needs of various fields such as navigation and communication",
-    "A cultural obsession with punctuality"
-   ],
-   "answer": 2,
-   "topic": "timekeeping",
-   "source": "timekeeping_questions",
-   "passage": "timekeeping"
-  },
-  {
-   "id": "660926ef68",
-   "stem": "The author's attitude towards the advancements in timekeeping can best be described as:",
-   "options": [
-    "Skeptical and cautious",
-    "Enthusiastic and appreciative",
-    "Indifferent and detached",
-    "Critical and disapproving"
-   ],
-   "answer": 1,
-   "topic": "timekeeping",
-   "source": "timekeeping_questions",
-   "passage": "timekeeping"
-  },
-  {
-   "id": "e174c9e8dd",
-   "stem": "The main purpose of the final paragraph is to:",
-   "options": [
-    "Summarize the key points of the passage",
-    "Criticize current timekeeping technologies",
-    "Highlight potential future developments in timekeeping",
-    "Argue for the superiority of optical atomic clocks"
-   ],
-   "answer": 2,
-   "topic": "timekeeping",
-   "source": "timekeeping_questions",
-   "passage": "timekeeping"
-  },
-  {
-   "id": "c0989a1b94",
-   "stem": "What is the main focus of this passage?",
-   "options": [
-    "The importance of the hippocampus in memory formation",
-    "The role of sleep in memory consolidation",
-    "The process of memory formation and retrieval in the brain",
-    "The potential treatments for memory-related disorders"
-   ],
-   "answer": 2,
-   "topic": "memory",
-   "source": "memory_questions",
-   "passage": "memory"
-  },
-  {
-   "id": "25ac90c9a0",
-   "stem": "According to the passage, what is one of the primary functions of the hippocampus?",
-   "options": [
-    "Organizing and retrieving memories",
-    "Converting short-term memories into long-term ones",
-    "Planning for the future",
-    "Influencing our emotional state during recall"
-   ],
-   "answer": 1,
-   "topic": "memory",
-   "source": "memory_questions",
-   "passage": "memory"
-  },
-  {
-   "id": "78e87140f5",
-   "stem": "The term 'malleability' as used in paragraph 4 most nearly means:",
-   "options": [
-    "Strength",
-    "Flexibility",
-    "Permanence",
-    "Accuracy"
-   ],
-   "answer": 1,
-   "topic": "memory",
-   "source": "memory_questions",
-   "passage": "memory"
-  },
-  {
-   "id": "a85bca7a4d",
-   "stem": "Why does the author mention eyewitness testimony in paragraph 4?",
-   "options": [
-    "To provide an example of how memory's malleability can have real-world implications",
-    "To argue that eyewitness testimony is always unreliable",
-    "To suggest that the legal system should rely more on memory-based evidence",
-    "To introduce a new topic unrelated to the main focus of the passage"
-   ],
-   "answer": 0,
-   "topic": "memory",
-   "source": "memory_questions",
-   "passage": "memory"
-  },
-  {
-   "id": "322524bbf0",
-   "stem": "According to the passage, during which stage of sleep does memory consolidation primarily occur?",
-   "options": [
-    "Deep sleep",
-    "Light sleep",
-    "REM sleep",
-    "NREM sleep"
-   ],
-   "answer": 2,
-   "topic": "memory",
-   "source": "memory_questions",
-   "passage": "memory"
-  },
-  {
-   "id": "986e421f1c",
-   "stem": "Based on the information in the passage, which of the following statements about memories is true?",
-   "options": [
-    "Memories are stored in fixed locations within the brain",
-    "Memories are not influenced by our current emotional state",
-    "Memories can be affected by the context in which we try to recall them",
-    "Memories are always accurate representations of past events"
-   ],
-   "answer": 2,
-   "topic": "memory",
-   "source": "memory_questions",
-   "passage": "memory"
-  },
-  {
-   "id": "c6566fdea5",
-   "stem": "The passage suggests that damage to the hippocampus would most likely result in:",
-   "options": [
-    "Difficulty forming new memories",
-    "Loss of all memories, both old and new",
-    "Improved memory formation and recall",
-    "Inability to plan for the future"
-   ],
-   "answer": 0,
-   "topic": "memory",
-   "source": "memory_questions",
-   "passage": "memory"
-  },
-  {
-   "id": "856b20eb6b",
-   "stem": "Which of the following best describes the author's tone in this passage?",
-   "options": [
-    "Critical and skeptical",
-    "Informative and objective",
-    "Enthusiastic and biased",
-    "Confused and uncertain"
-   ],
-   "answer": 1,
-   "topic": "memory",
-   "source": "memory_questions",
-   "passage": "memory"
-  },
-  {
-   "id": "ab4b7c354f",
-   "stem": "Based on the information provided in the passage, we can infer that research into memory processes might be particularly beneficial for:",
-   "options": [
-    "Developing new computer storage technologies",
-    "Improving athletic performance",
-    "Creating more effective educational methods",
-    "Enhancing artistic creativity"
-   ],
-   "answer": 2,
-   "topic": "memory",
-   "source": "memory_questions",
-   "passage": "memory"
-  },
-  {
-   "id": "5a90f1b97b",
-   "stem": "The main purpose of the final paragraph is to:",
-   "options": [
-    "Summarize the key points of the passage",
-    "Introduce a new topic for discussion",
-    "Highlight the practical applications of memory research",
-    "Criticize current approaches to studying memory"
-   ],
-   "answer": 2,
-   "topic": "memory",
-   "source": "memory_questions",
-   "passage": "memory"
-  },
-  {
-   "id": "2de06d3b3e",
-   "stem": "What is the primary focus of this passage?",
-   "options": [
-    "The history of fossil fuels",
-    "The benefits and challenges of renewable energy",
-    "The role of natural gas in the energy market",
-    "The economics of oil production"
-   ],
-   "answer": 1,
-   "topic": "renewable-energy",
-   "source": "renewable_energy_questions",
-   "passage": "renewable-energy"
-  },
-  {
-   "id": "4c4d73acfc",
-   "stem": "According to the passage, what is one of the main environmental benefits of renewable energy?",
-   "options": [
-    "It produces more greenhouse gases than fossil fuels",
-    "It reduces greenhouse gas emissions",
-    "It requires more water than traditional energy sources",
-    "It is less efficient than coal"
-   ],
-   "answer": 1,
-   "topic": "renewable-energy",
-   "source": "renewable_energy_questions",
-   "passage": "renewable-energy"
-  },
-  {
-   "id": "be5b7b8a8d",
-   "stem": "The word 'volatile' in paragraph 3 most nearly means:",
-   "options": [
-    "Stable",
-    "Inconsistent",
-    "Affordable",
-    "Expensive"
-   ],
-   "answer": 1,
-   "topic": "renewable-energy",
-   "source": "renewable_energy_questions",
-   "passage": "renewable-energy"
-  },
-  {
-   "id": "ce5df5202c",
-   "stem": "What is one of the challenges to adopting renewable energy mentioned in the passage?",
-   "options": [
-    "Renewable energy sources are unlimited",
-    "The cost of developing renewable energy systems",
-    "Fossil fuels are cleaner than renewable sources",
-    "Solar energy is always available"
-   ],
-   "answer": 1,
-   "topic": "renewable-energy",
-   "source": "renewable_energy_questions",
-   "passage": "renewable-energy"
-  },
-  {
-   "id": "a0816ddf6d",
-   "stem": "Why do some renewable energy sources have intermittent production?",
-   "options": [
-    "They require more manpower to operate",
-    "They depend on weather conditions",
-    "They are more expensive than fossil fuels",
-    "They can only be used at night"
-   ],
-   "answer": 1,
-   "topic": "renewable-energy",
-   "source": "renewable_energy_questions",
-   "passage": "renewable-energy"
-  },
-  {
-   "id": "409b72b888",
-   "stem": "How are researchers addressing the problem of intermittent renewable energy production?",
-   "options": [
-    "By building more power plants",
-    "By improving energy storage systems",
-    "By using more fossil fuels",
-    "By reducing energy demand"
-   ],
-   "answer": 1,
-   "topic": "renewable-energy",
-   "source": "renewable_energy_questions",
-   "passage": "renewable-energy"
-  },
-  {
-   "id": "45bbacd866",
-   "stem": "What does the passage suggest about the future of renewable energy costs?",
-   "options": [
-    "Costs will continue to rise as renewable energy becomes more popular",
-    "Renewable energy costs are expected to decrease over time",
-    "Fossil fuel prices will drop below renewable energy costs",
-    "Renewable energy will remain too expensive to adopt widely"
-   ],
-   "answer": 1,
-   "topic": "renewable-energy",
-   "source": "renewable_energy_questions",
-   "passage": "renewable-energy"
-  },
-  {
-   "id": "8db13c8cfc",
-   "stem": "According to the passage, how can renewable energy improve energy security?",
-   "options": [
-    "By reducing reliance on imported fossil fuels",
-    "By making fossil fuels more affordable",
-    "By increasing greenhouse gas emissions",
-    "By decreasing the use of solar energy"
-   ],
-   "answer": 0,
-   "topic": "renewable-energy",
-   "source": "renewable_energy_questions",
-   "passage": "renewable-energy"
-  },
-  {
-   "id": "5951b2c08c",
-   "stem": "Which of the following is an example of a renewable energy source mentioned in the passage?",
-   "options": [
-    "Nuclear energy",
-    "Solar energy",
-    "Natural gas",
-    "Oil"
-   ],
-   "answer": 1,
-   "topic": "renewable-energy",
-   "source": "renewable_energy_questions",
-   "passage": "renewable-energy"
-  },
-  {
-   "id": "e5ce8207dd",
-   "stem": "What role do governments, businesses, and individuals have in the transition to renewable energy according to the passage?",
-   "options": [
-    "To oppose renewable energy adoption",
-    "To accelerate the transition to renewable energy",
-    "To develop new fossil fuel resources",
-    "To increase greenhouse gas emissions"
-   ],
-   "answer": 1,
-   "topic": "renewable-energy",
-   "source": "renewable_energy_questions",
-   "passage": "renewable-energy"
-  },
-  {
-   "id": "9dfe604dad",
-   "stem": "What is the primary purpose of this passage?",
-   "options": [
-    "To explain how coral reefs protect shorelines",
-    "To describe the importance and threats facing coral reefs",
-    "To discuss the benefits of coral reefs for tourism",
-    "To introduce different species that live in coral reefs"
-   ],
-   "answer": 1,
-   "topic": "coral-reefs",
-   "source": "coral_reef_questions",
-   "passage": "coral-reefs"
-  },
-  {
-   "id": "6bdfa0e089",
-   "stem": "According to the passage, coral reefs are often referred to as:",
-   "options": [
-    "The lungs of the ocean",
-    "The rainforests of the sea",
-    "The deserts of the deep",
-    "The foundations of the coast"
-   ],
-   "answer": 1,
-   "topic": "coral-reefs",
-   "source": "coral_reef_questions",
-   "passage": "coral-reefs"
-  },
-  {
-   "id": "7155f39bb2",
-   "stem": "How do coral reefs help protect coastal areas?",
-   "options": [
-    "By absorbing the energy of incoming waves",
-    "By reducing water temperatures",
-    "By filtering pollution out of the water",
-    "By preventing fish from reaching the shore"
-   ],
-   "answer": 0,
-   "topic": "coral-reefs",
-   "source": "coral_reef_questions",
-   "passage": "coral-reefs"
-  },
-  {
-   "id": "454785d2f3",
-   "stem": "The word 'vital' in paragraph 2 most nearly means:",
-   "options": [
-    "Essential",
-    "Rare",
-    "Unnecessary",
-    "Marginal"
-   ],
-   "answer": 0,
-   "topic": "coral-reefs",
-   "source": "coral_reef_questions",
-   "passage": "coral-reefs"
-  },
-  {
-   "id": "e6e3e75769",
-   "stem": "What is coral bleaching?",
-   "options": [
-    "A type of fishing that damages reefs",
-    "The process of transplanting healthy coral to damaged reefs",
-    "When corals expel algae due to rising ocean temperatures",
-    "A natural way that corals grow"
-   ],
-   "answer": 2,
-   "topic": "coral-reefs",
-   "source": "coral_reef_questions",
-   "passage": "coral-reefs"
-  },
-  {
-   "id": "5d78870731",
-   "stem": "Which of the following is a major threat to coral reefs according to the passage?",
-   "options": [
-    "Increased tourism",
-    "Cold ocean currents",
-    "Rising ocean temperatures",
-    "Overpopulation of coral polyps"
-   ],
-   "answer": 2,
-   "topic": "coral-reefs",
-   "source": "coral_reef_questions",
-   "passage": "coral-reefs"
-  },
-  {
-   "id": "3322ff91c8",
-   "stem": "What is the purpose of Marine Protected Areas (MPAs)?",
-   "options": [
-    "To restrict human activity and allow coral reefs to recover",
-    "To promote fishing in coral reef areas",
-    "To protect shorelines from storm damage",
-    "To prevent fish migration"
-   ],
-   "answer": 0,
-   "topic": "coral-reefs",
-   "source": "coral_reef_questions",
-   "passage": "coral-reefs"
-  },
-  {
-   "id": "6650d785ce",
-   "stem": "What is coral farming?",
-   "options": [
-    "The practice of collecting coral for trade",
-    "Growing coral fragments in nurseries to restore damaged reefs",
-    "A method of protecting coral reefs from overfishing",
-    "Using coral reefs to farm fish species"
-   ],
-   "answer": 1,
-   "topic": "coral-reefs",
-   "source": "coral_reef_questions",
-   "passage": "coral-reefs"
-  },
-  {
-   "id": "0cde3a4ea2",
-   "stem": "According to the passage, what percentage of coral reefs have been lost or severely damaged?",
-   "options": [
-    "25%",
-    "10%",
-    "Up to 50%",
-    "75%"
-   ],
-   "answer": 2,
-   "topic": "coral-reefs",
-   "source": "coral_reef_questions",
-   "passage": "coral-reefs"
-  },
-  {
-   "id": "f4697371de",
-   "stem": "What can be inferred about the future of coral reefs from the passage?",
-   "options": [
-    "Coral reefs will not face any further threats",
-    "Efforts to protect and restore reefs may help ensure their survival",
-    "Reefs will only survive in Marine Protected Areas",
-    "Climate change will completely destroy all coral reefs"
-   ],
-   "answer": 1,
-   "topic": "coral-reefs",
-   "source": "coral_reef_questions",
-   "passage": "coral-reefs"
-  },
-  {
-   "id": "d7994de089",
-   "stem": "What is the main focus of this passage?",
-   "options": [
-    "The formation of stars in galaxies",
-    "The properties and role of dark matter in the universe",
-    "The discovery of dark energy",
-    "The gravitational effects of planets"
-   ],
-   "answer": 1,
-   "topic": "dark-matter",
-   "source": "dark_matter_questions",
-   "passage": "dark-matter"
-  },
-  {
-   "id": "86c20f3a6c",
-   "stem": "According to the passage, how is the presence of dark matter inferred?",
-   "options": [
-    "By observing it directly with telescopes",
-    "Through its gravitational effects on visible matter",
-    "By detecting its interactions with ordinary atoms",
-    "Through the radiation it emits"
-   ],
-   "answer": 1,
-   "topic": "dark-matter",
-   "source": "dark_matter_questions",
-   "passage": "dark-matter"
-  },
-  {
-   "id": "d2a4e89972",
-   "stem": "The word 'elusive' in paragraph 4 most nearly means:",
-   "options": [
-    "Abundant",
-    "Mysterious",
-    "Nonexistent",
-    "Easily found"
-   ],
-   "answer": 1,
-   "topic": "dark-matter",
-   "source": "dark_matter_questions",
-   "passage": "dark-matter"
-  },
-  {
-   "id": "d824bde022",
-   "stem": "What is one of the main challenges in detecting dark matter?",
-   "options": [
-    "It does not interact with gravity",
-    "It cannot be seen through telescopes",
-    "It emits too much radiation",
-    "It can only be found near black holes"
-   ],
-   "answer": 1,
-   "topic": "dark-matter",
-   "source": "dark_matter_questions",
-   "passage": "dark-matter"
-  },
-  {
-   "id": "4537d3dae8",
-   "stem": "Which of the following particles are considered possible candidates for dark matter?",
-   "options": [
-    "Protons",
-    "WIMPs",
-    "Photons",
-    "Neutrons"
-   ],
-   "answer": 1,
-   "topic": "dark-matter",
-   "source": "dark_matter_questions",
-   "passage": "dark-matter"
-  },
-  {
-   "id": "9a7e555e3c",
-   "stem": "Why do scientists believe dark matter played a role in the formation of cosmic structures?",
-   "options": [
-    "It produced the first stars in the universe",
-    "It acted as a scaffolding, pulling ordinary matter together",
-    "It emitted light that helped form galaxies",
-    "It interacted strongly with ordinary matter"
-   ],
-   "answer": 1,
-   "topic": "dark-matter",
-   "source": "dark_matter_questions",
-   "passage": "dark-matter"
-  },
-  {
-   "id": "9c8149a0e8",
-   "stem": "Which of the following best describes the tone of the passage?",
-   "options": [
-    "Skeptical and critical",
-    "Informative and objective",
-    "Casual and humorous",
-    "Emotional and dramatic"
-   ],
-   "answer": 1,
-   "topic": "dark-matter",
-   "source": "dark_matter_questions",
-   "passage": "dark-matter"
-  },
-  {
-   "id": "1b74fd4ccd",
-   "stem": "What is one reason dark matter has remained undetected despite decades of research?",
-   "options": [
-    "It is located in a distant part of the universe",
-    "It only interacts weakly with ordinary matter",
-    "It is too small to be measured",
-    "It is made of ordinary particles like protons and neutrons"
-   ],
-   "answer": 1,
-   "topic": "dark-matter",
-   "source": "dark_matter_questions",
-   "passage": "dark-matter"
-  },
-  {
-   "id": "fcb67f5734",
-   "stem": "According to the passage, how much of the universe\u2019s matter is believed to be dark matter?",
-   "options": [
-    "50%",
-    "75%",
-    "85%",
-    "95%"
-   ],
-   "answer": 2,
-   "topic": "dark-matter",
-   "source": "dark_matter_questions",
-   "passage": "dark-matter"
-  },
-  {
-   "id": "bfd0f73b51",
-   "stem": "What does the passage suggest about the future of dark matter research?",
-   "options": [
-    "Dark matter will eventually be replaced by dark energy",
-    "Future discoveries in physics may help scientists understand dark matter",
-    "Dark matter will no longer be important to astrophysics",
-    "Scientists will abandon the search for dark matter"
-   ],
-   "answer": 1,
-   "topic": "dark-matter",
-   "source": "dark_matter_questions",
-   "passage": "dark-matter"
-  },
-  {
-   "id": "52be788975",
-   "stem": "What is the main purpose of this passage?",
-   "options": [
-    "To describe the history of the Gutenberg Bible",
-    "To explain the invention and impact of the printing press",
-    "To compare different methods of book production",
-    "To discuss the role of books in ancient societies"
-   ],
-   "answer": 1,
-   "topic": "printing-press",
-   "source": "printing_press_questions",
-   "passage": "printing-press"
-  },
-  {
-   "id": "60f0ef5330",
-   "stem": "According to the passage, how were books produced before the invention of the printing press?",
-   "options": [
-    "They were printed using movable type",
-    "They were written by hand",
-    "They were produced on typewriters",
-    "They were copied using early printing machines"
-   ],
-   "answer": 1,
-   "topic": "printing-press",
-   "source": "printing_press_questions",
-   "passage": "printing-press"
-  },
-  {
-   "id": "5c2185136a",
-   "stem": "The word 'disseminated' in paragraph 1 most nearly means:",
-   "options": [
-    "Destroyed",
-    "Written",
-    "Spread",
-    "Hidden"
-   ],
-   "answer": 2,
-   "topic": "printing-press",
-   "source": "printing_press_questions",
-   "passage": "printing-press"
-  },
-  {
-   "id": "a179ded10d",
-   "stem": "What was one of the first major works produced by Gutenberg\u2019s press?",
-   "options": [
-    "A German dictionary",
-    "A collection of Greek texts",
-    "The Gutenberg Bible",
-    "Martin Luther's pamphlets"
-   ],
-   "answer": 2,
-   "topic": "printing-press",
-   "source": "printing_press_questions",
-   "passage": "printing-press"
-  },
-  {
-   "id": "708cfed6e7",
-   "stem": "How did the printing press contribute to the Protestant Reformation?",
-   "options": [
-    "By making books too expensive for ordinary people",
-    "By allowing reformers to spread their ideas quickly",
-    "By preventing the spread of religious texts",
-    "By printing only religious books"
-   ],
-   "answer": 1,
-   "topic": "printing-press",
-   "source": "printing_press_questions",
-   "passage": "printing-press"
-  },
-  {
-   "id": "6e181848f4",
-   "stem": "What impact did the printing press have on language?",
-   "options": [
-    "It helped standardize languages and grammar",
-    "It caused more dialects to develop",
-    "It made spelling less consistent",
-    "It prevented national languages from forming"
-   ],
-   "answer": 0,
-   "topic": "printing-press",
-   "source": "printing_press_questions",
-   "passage": "printing-press"
-  },
-  {
-   "id": "2ecb821bc2",
-   "stem": "Why does the author mention the scientific revolution in the passage?",
-   "options": [
-    "To highlight another major event influenced by the printing press",
-    "To argue that science was more important than religion",
-    "To show that the printing press slowed scientific progress",
-    "To explain how scientists used hand-copied books"
-   ],
-   "answer": 0,
-   "topic": "printing-press",
-   "source": "printing_press_questions",
-   "passage": "printing-press"
-  },
-  {
-   "id": "a84e1db985",
-   "stem": "Which of the following is a direct result of the printing press according to the passage?",
-   "options": [
-    "Lower literacy rates",
-    "Less critical thinking",
-    "Increased access to knowledge",
-    "A decrease in book production"
-   ],
-   "answer": 2,
-   "topic": "printing-press",
-   "source": "printing_press_questions",
-   "passage": "printing-press"
-  },
-  {
-   "id": "2ac92a9c4a",
-   "stem": "How did the printing press help empower individuals?",
-   "options": [
-    "By making them learn how to write",
-    "By allowing them to produce their own books",
-    "By giving them access to more information and ideas",
-    "By limiting the spread of new ideas"
-   ],
-   "answer": 2,
-   "topic": "printing-press",
-   "source": "printing_press_questions",
-   "passage": "printing-press"
-  },
-  {
-   "id": "06ff223043",
-   "stem": "What can be inferred about the importance of the printing press in modern society?",
-   "options": [
-    "It is no longer relevant due to digital media",
-    "It laid the foundation for the spread of information",
-    "It only affected scientific advancements",
-    "It had no impact on modern technology"
-   ],
-   "answer": 1,
-   "topic": "printing-press",
-   "source": "printing_press_questions",
-   "passage": "printing-press"
-  }
- ]
+  "section": "reading",
+  "passages": {
+    "bonsai": {
+      "title": "The Art of Bonsai",
+      "paragraphs": [
+        "Bonsai is the art of growing miniature trees in shallow containers. The word itself means \"planted in a tray,\" but bonsai is far more than a method of container gardening. A well-made bonsai is a living sculpture — a tree shaped over years, sometimes over generations, to suggest the character of a full-sized tree standing alone in nature. Practitioners think of themselves less as gardeners than as artists whose medium happens to be alive and growing.",
+        "The practice began in China more than a thousand years ago, where it was known as penjing, or \"tray scenery.\" Chinese artists created miniature landscapes that included not only trees but rocks, water, and small figures. Buddhist monks carried the practice to Japan around the twelfth century, and Japanese artists gradually developed their own approach to the same practice. They stripped away much of the ornament, focusing attention on a single tree and the empty space around it.",
+        "This restraint reflects a particular aesthetic sensibility. A bonsai is not meant to be a perfect tree; it is meant to suggest age, endurance, and the passage of time. A trunk that twists sharply evokes decades of wind on an exposed hillside. A branch that has died and been bleached white recalls a tree that has survived hardship. The viewer is invited to imagine the full landscape that the tree implies, and the empty space in the container matters as much as the tree itself.",
+        "Over time, artists developed recognized styles. The formal upright style features a straight trunk tapering evenly toward the top. The informal upright curves gently. The cascade style sends the trunk downward past the lip of the pot, imitating a tree clinging to a cliff. The windswept style bends every branch in one direction, and the forest style groups several trees to suggest a grove. These styles are not rules so much as starting points, and skilled artists combine and adapt them freely.",
+        "Caring for a bonsai demands constant attention. Regular pruning of both branches and roots is what keeps the tree small; without it, the tree would simply grow to full size. Artists wrap branches in wire to guide their direction, water carefully, and fertilize on a schedule suited to the species. Certain species — junipers, maples, elms, and pines — are favored precisely because their small leaves or fine needles remain in proportion to a miniature tree. A serious bonsai may be tended for decades, and patience is not merely helpful but essential.",
+        "Today bonsai is practiced worldwide, and enthusiasts in North America, Europe, and Australia have begun working with native species their Japanese predecessors never saw. These experiments have produced genuine innovations in technique and style. Yet the core principles — restraint, proportion, and respect for the tree as a living thing — have carried across every border the art has crossed. That endurance is remarkable in its own right. Few art forms demand so much patience of the people who practice them, and the results reward every year of it."
+      ]
+    },
+    "timekeeping": {
+      "title": "Measuring Time",
+      "paragraphs": [
+        "For as long as people have organized their lives around planting, worship, and travel, they have needed to measure time. The history of timekeeping is a long record of devices, each solving problems the last one could not, and each opening possibilities its inventors never anticipated.",
+        "The earliest reliable timekeepers were sundials, which tracked the movement of a shadow across a marked surface as the sun crossed the sky. Sundials were simple, required no maintenance, and could be remarkably accurate. They had one obvious weakness: they were useless when the sky was overcast, and equally useless at night. To fill those gaps, ancient Egyptian and Greek engineers built water clocks, which measured time by the steady flow of water from one vessel into another. Water clocks worked in darkness and in poor weather, but their flow rate changed with temperature, and they demanded constant refilling.",
+        "Mechanical clocks appeared in European monasteries in the thirteenth century, built to summon monks to prayer at fixed hours. These early clocks had no hands or faces; they simply rang a bell. Their motion was regulated by a device called a verge escapement, which released the energy of a falling weight in small, even increments rather than all at once, keeping the mechanism turning at a steady rate. The principle was sound, but the accuracy was poor — a good mechanical clock of that era might drift by fifteen minutes in a single day.",
+        "The decisive improvement came in 1656, when the Dutch scientist Christiaan Huygens applied the pendulum to clockwork. Because a pendulum of a given length swings at a consistent rate, Huygens's design reduced daily error from minutes to seconds — an improvement of more than a hundredfold. Accuracy at sea proved harder to achieve, since a pendulum will not swing evenly on a rolling ship. That problem was solved in the eighteenth century by the marine chronometer, a spring-driven clock accurate enough that a navigator could compare local noon against the time at a known reference port and calculate his longitude — a measurement that had defeated sailors for centuries.",
+        "The twentieth century brought entirely new methods. Quartz clocks, introduced in the 1920s, keep time by the steady vibration of a quartz crystal under an electric current. They proved far more accurate than any mechanical clock and eventually became cheap enough for an ordinary wristwatch, an unusual combination of high precision and low cost. Atomic clocks, developed after 1950, went further still, counting the vibrations of cesium atoms to lose less than a second in millions of years. Global positioning satellites, telecommunications networks, and financial systems all depend on atomic clocks to keep the world's computers synchronized to a common standard.",
+        "Researchers are now building optical atomic clocks, which use light rather than microwaves and may prove a hundred times more accurate than the cesium standard. Such precision has no obvious everyday use today. But then, neither did the marine chronometer before someone needed to cross an ocean."
+      ]
+    },
+    "memory": {
+      "title": "How Memory Works",
+      "paragraphs": [
+        "Memory feels like a recording. We speak of storing a memory and playing it back, as though the brain kept a library of files waiting to be opened. Research over the past several decades has shown that the reality is stranger and more active than that. Memory is not one process but three — forming, storing, and retrieving — and each of them changes what is remembered.",
+        "Formation begins when the brain converts an experience into a lasting signal, a process called encoding. Attention matters enormously here: information we notice and think about is encoded far more strongly than information that merely passes before our eyes. The hippocampus, a curved structure deep in each temporal lobe, plays a central role at this stage, converting fragile short-term memories into stable long-term ones. Patients whose hippocampus has been damaged show a striking pattern. They can recall childhood events in detail and carry on a normal conversation, but they cannot form new lasting memories — an experience fades within minutes of its ending.",
+        "Once encoded, memories are strengthened through consolidation, much of which happens during sleep. During REM sleep in particular, the brain appears to replay patterns of activity from the day, reinforcing the connections between neurons that carry a given memory. This is one reason students who sleep after studying outperform those who stay awake through the night. Consolidated memories are not filed in any single location; a memory of a meal may be distributed across regions handling taste, smell, vision, and emotion, and recalling it means reassembling those pieces.",
+        "Retrieval, then, is reconstruction rather than playback, and this accounts for memory's malleability. Each time a memory is recalled it becomes briefly unstable and must be stored again, and details can shift in the process. The setting in which we try to remember shapes what surfaces, and so does our mood — people in a low mood recall more unhappy events. The implications reach well beyond the laboratory. Eyewitness testimony has long been treated as powerful evidence in criminal trials, yet studies have repeatedly shown that a witness's account can be altered by the phrasing of a question or by information encountered after the event, all without the witness having any sense that the memory has changed.",
+        "Understanding these mechanisms has changed how researchers think about practical problems. Study techniques that require retrieval — self-testing, spacing practice across days — produce far better retention than rereading, precisely because each act of recall strengthens the memory. Schools have begun redesigning instruction around these findings, and the same research is guiding efforts to slow memory loss in aging and in disease."
+      ]
+    },
+    "renewable-energy": {
+      "title": "The Case for Renewable Energy",
+      "paragraphs": [
+        "The world's energy system is in the middle of a substantial change. Solar, wind, hydroelectric, and geothermal power supplied a small fraction of global electricity a generation ago; today they supply a growing share, and the pace is accelerating. The shift brings real advantages, and it also brings difficulties that are not yet fully solved.",
+        "The clearest benefit is environmental. Burning coal, oil, and natural gas releases carbon dioxide and other greenhouse gases that trap heat in the atmosphere and drive climate change. Renewable sources generate electricity with dramatically lower emissions — a wind turbine or a solar panel produces none at all while operating. Renewable energy also strengthens energy security. A country that generates its own power from sunlight and wind depends far less on imported fossil fuels, and is therefore less exposed to supply disruptions abroad.",
+        "There is an economic argument as well. Fossil fuel prices are notoriously volatile, swinging sharply in response to conflicts, cartel decisions, and shifts in global demand, which makes long-term planning difficult for utilities and manufacturers alike. Sunlight and wind, by contrast, are free once the equipment is built. The obstacle is that building the equipment is expensive: solar farms, wind installations, and the transmission lines to connect them require enormous investment before they generate a single kilowatt. That upfront cost remains the single largest barrier to adoption. It is falling steadily, however — the price of solar panels has dropped by roughly ninety percent since 2010 — and analysts expect renewable energy to keep getting cheaper as manufacturing scales and technology improves.",
+        "A second challenge is less about money than about timing. Solar panels produce nothing at night and little under heavy cloud; wind turbines stand idle when the air is still. Because these sources depend on weather conditions, their output is intermittent, while demand for electricity continues around the clock. The most promising answer is storage. Researchers are developing batteries that hold far more energy at lower cost, along with alternatives such as pumped hydroelectric storage, which uses surplus power to move water uphill and recovers it later by letting the water fall. Better storage would allow energy captured on a bright, windy afternoon to be delivered on a still, dark evening.",
+        "None of this happens automatically. Governments shape the transition through research funding, tax policy, and grid regulation; businesses decide where to invest and how quickly to retire aging plants; individuals influence the market through the vehicles they drive and the power they choose to buy. Each has the capacity to accelerate the transition, and the speed of the change will depend on how vigorously all three act."
+      ]
+    },
+    "coral-reefs": {
+      "title": "Coral Reefs Under Pressure",
+      "paragraphs": [
+        "Coral reefs cover less than one percent of the ocean floor, yet they support roughly a quarter of all marine species. This extraordinary concentration of life has earned them a nickname: the rainforests of the sea. Like rainforests, they are among the most productive ecosystems on the planet, and like rainforests, they are disappearing faster than almost anyone anticipated.",
+        "A reef is built by coral polyps, tiny animals that extract calcium carbonate from seawater to construct hard skeletons. Generation after generation builds on the remains of the last, and over thousands of years the accumulated structure becomes a reef. These structures are vital to the regions around them in several distinct ways. They provide shelter and breeding grounds for fish that feed hundreds of millions of people. They draw tourism that sustains coastal economies. And they act as natural breakwaters: by absorbing the energy of incoming waves before it reaches land, reefs reduce erosion and protect shorelines from storm damage that would otherwise be far more severe.",
+        "The greatest threat to reefs today is rising ocean temperature. Corals live in partnership with microscopic algae that inhabit their tissues, providing most of the coral's food and nearly all of its color. When water grows too warm, the coral expels these algae — an event called bleaching that leaves the coral white and starving. A reef can recover from a brief bleaching, but repeated or prolonged events kill it. Warming is compounded by ocean acidification, as seawater absorbs carbon dioxide and grows more acidic, making it harder for polyps to build their skeletons at all. Overfishing, coastal pollution, and runoff from farmland add further strain. Scientists estimate that up to fifty percent of the world's coral reefs have already been lost or severely damaged.",
+        "Efforts to reverse the decline are underway. Marine Protected Areas set aside stretches of ocean where fishing, anchoring, and development are restricted, giving damaged reefs a chance to recover without additional human pressure; reefs inside well-enforced MPAs consistently show better health than those outside them. Coral farming takes a more direct approach. Scientists break healthy coral into fragments, grow them in underwater nurseries until they are large enough to survive on their own, and then transplant them onto degraded reefs. Some projects are also selecting and breeding coral varieties that tolerate warmer water.",
+        "Whether these measures will be enough is an open question, and it depends heavily on how quickly the world limits carbon emissions. Reefs have survived dramatic changes before, over spans of time far longer than human history. With sustained protection and restoration, there is reason to believe they can survive this one as well."
+      ]
+    },
+    "dark-matter": {
+      "title": "The Search for Dark Matter",
+      "paragraphs": [
+        "Everything astronomers can see — every star, planet, and glowing cloud of gas — accounts for only a small portion of the material in the universe. The rest is something else entirely: a substance that has never been directly observed but whose presence is written across the sky. Physicists call it dark matter, and understanding it is one of the central unsolved problems in modern science.",
+        "The first strong evidence came from the rotation of galaxies. In the 1970s, the astronomer Vera Rubin measured how fast stars orbit the centers of spiral galaxies and found something that should have been impossible. Stars at the outer edges were moving so quickly that the galaxy's visible mass could not possibly hold them; they should have flung off into space long ago. Something invisible was supplying the additional gravity. Later observations reinforced the conclusion. Massive galaxy clusters bend the light of more distant objects behind them, an effect called gravitational lensing, and the amount of bending consistently reveals far more mass than the visible matter can explain. Dark matter is inferred entirely in this way — not seen, but detected through its gravitational effects on the matter we can see. The measurements converge on a striking figure: roughly eighty-five percent of the matter in the universe appears to be dark matter.",
+        "Dark matter also seems to explain how the universe came to look the way it does. In the earliest moments after the Big Bang, matter was distributed almost perfectly evenly. Ordinary matter alone could not have clumped together quickly enough to form the galaxies we observe. Dark matter, unimpeded by the pressure of radiation, collapsed first into a vast web of filaments and halos, and this structure acted as a scaffolding, pulling ordinary matter into the places where galaxies would eventually form.",
+        "Why the substance has proven so elusive comes down to how little it interacts with anything. Dark matter neither emits nor absorbs light, which makes it fundamentally invisible to telescopes of every kind — optical, radio, infrared, or X-ray. Beyond gravity, it appears to interact with ordinary matter only very weakly, which is why detectors buried deep underground and shielded from cosmic rays have run for decades without a confirmed signal. The leading candidates are hypothetical particles that no experiment has yet produced: WIMPs, or weakly interacting massive particles, and lighter particles called axions.",
+        "That absence of results has not discouraged the field so much as redirected it. Detectors are growing more sensitive, particle accelerators are searching new energy ranges, and some theorists are questioning whether the standard model of particle physics is complete. A discovery in one of these areas may finally reveal what dark matter is — and in doing so, reshape our understanding of the universe's basic composition."
+      ]
+    },
+    "printing-press": {
+      "title": "The Printing Press",
+      "paragraphs": [
+        "Before the middle of the fifteenth century, every book in Europe was written by hand. A scribe working in a monastery might spend a year copying a single volume, and the result was so costly that only churches, universities, and the wealthy could own one. Because books were scarce, ideas moved slowly, and knowledge was disseminated only as fast as human hands could reproduce it. Johannes Gutenberg's printing press, developed in the German city of Mainz around 1440, broke that limit permanently.",
+        "Gutenberg's central innovation was movable type: individual metal letters that could be arranged into a page, inked, pressed onto paper, then taken apart and reused for the next page. Combined with an oil-based ink of his own formulation and a press adapted from the sort used to crush grapes, the system could produce hundreds of identical copies in the time a scribe needed for one. Among the first major works to come off his press was the Gutenberg Bible, printed around 1455, whose quality startled contemporaries who assumed it must have been made by hand. Within fifty years, printing presses were operating in more than two hundred European cities, and the price of a book had fallen far enough that a prosperous merchant could own a shelf of them.",
+        "The consequences arrived quickly. In 1517, when Martin Luther published his objections to church practice, printers reproduced his writings and carried them across Germany within weeks. Earlier reformers had raised similar objections and been silenced before their arguments spread; Luther could not be silenced, because the press allowed reformers to circulate their ideas faster than any authority could suppress them. The Protestant Reformation is difficult to imagine without it.",
+        "The scientific revolution followed a parallel path. Hand-copied manuscripts accumulated errors with every copy, and a scholar in Italy might wait years to learn what a colleague in England had discovered. Printing produced identical copies, so a diagram or a table of measurements arrived exactly as its author drew it, and researchers across the continent could build directly on one another's work rather than repeating it.",
+        "Printing reshaped language itself. Printers had to choose one spelling and one grammatical form over the alternatives, and the versions they chose spread with their books, helping standardize languages that had previously varied from town to town. Rising literacy followed the falling price of books, giving ordinary people access to information and ideas that had once been confined to a narrow elite — and with that access came the capacity to evaluate claims for themselves rather than accept them on authority.",
+        "Every technology that has expanded access to information since — the newspaper, the broadcast, the internet — has built on the foundation Gutenberg laid. The specific machinery has been replaced many times over. The principle that knowledge should circulate freely and widely has not."
+      ]
+    }
+  },
+  "questions": [
+    {
+      "id": "36cc77df96",
+      "stem": "What is the main focus of this passage?",
+      "options": [
+        "The history of Japanese gardening techniques",
+        "The art and practice of bonsai",
+        "The differences between Chinese penjing and Japanese bonsai",
+        "The challenges of growing miniature trees"
+      ],
+      "answer": 1,
+      "topic": "bonsai",
+      "source": "bonsai_questions",
+      "passage": "bonsai",
+      "explanation": "Every paragraph is about bonsai itself, from its origins to its styles and its care. The differences between Chinese penjing and Japanese bonsai covers only the second paragraph, so it is too narrow."
+    },
+    {
+      "id": "5e2254b482",
+      "stem": "According to the passage, where did the art of bonsai originate?",
+      "options": [
+        "Japan",
+        "China",
+        "Korea",
+        "India"
+      ],
+      "answer": 1,
+      "topic": "bonsai",
+      "source": "bonsai_questions",
+      "passage": "bonsai",
+      "explanation": "The second paragraph says the practice began in China more than a thousand years ago, where it was known as penjing. Japan comes later, when monks carried the practice there."
+    },
+    {
+      "id": "a887258289",
+      "stem": "The word 'evokes' in paragraph 3 most nearly means:",
+      "options": [
+        "Contradicts",
+        "Eliminates",
+        "Brings to mind",
+        "Exaggerates"
+      ],
+      "answer": 2,
+      "topic": "bonsai",
+      "source": "bonsai_questions",
+      "passage": "bonsai",
+      "explanation": "In paragraph three, a trunk that twists sharply evokes decades of wind, meaning it makes you picture that wind. So evokes means brings to mind here."
+    },
+    {
+      "id": "124297f414",
+      "stem": "Why does the author mention different bonsai styles in paragraph 4?",
+      "options": [
+        "To argue that some styles are superior to others",
+        "To illustrate the variety and creativity within the art form",
+        "To provide a complete list of all possible bonsai styles",
+        "To explain how bonsai trees are pruned and shaped"
+      ],
+      "answer": 1,
+      "topic": "bonsai",
+      "source": "bonsai_questions",
+      "passage": "bonsai",
+      "explanation": "Paragraph four lists the formal upright, cascade, windswept and forest styles, then says these styles are starting points that skilled artists combine and adapt freely. That shows variety and creativity, not a complete list."
+    },
+    {
+      "id": "8ea7feebcc",
+      "stem": "Based on the information in the passage, which of the following statements about caring for bonsai trees is true?",
+      "options": [
+        "Bonsai trees require less water than full-sized trees",
+        "Fertilization should be avoided to prevent excessive growth",
+        "Pruning is necessary to maintain the tree's miniature size",
+        "Bonsai trees can thrive with minimal attention and care"
+      ],
+      "answer": 2,
+      "topic": "bonsai",
+      "source": "bonsai_questions",
+      "passage": "bonsai",
+      "explanation": "Paragraph five says regular pruning of both branches and roots is what keeps the tree small, and that without it the tree would simply grow to full size."
+    },
+    {
+      "id": "f8a33a2bce",
+      "stem": "According to the passage, what is one reason certain tree species are commonly used for bonsai?",
+      "options": [
+        "They grow more quickly than other species",
+        "They have large leaves that are easy to shape",
+        "They have small leaves or needles",
+        "They require less sunlight than other species"
+      ],
+      "answer": 2,
+      "topic": "bonsai",
+      "source": "bonsai_questions",
+      "passage": "bonsai",
+      "explanation": "Paragraph five says junipers, maples, elms and pines are favored because their small leaves or fine needles remain in proportion to a miniature tree."
+    },
+    {
+      "id": "e8bdd5aef5",
+      "stem": "The passage suggests that practicing bonsai:",
+      "options": [
+        "Is a quick way to achieve gardening success",
+        "Requires a long-term commitment and patience",
+        "Is only possible with certain types of trees",
+        "Is easier than growing full-sized trees"
+      ],
+      "answer": 1,
+      "topic": "bonsai",
+      "source": "bonsai_questions",
+      "passage": "bonsai",
+      "explanation": "The last care paragraph says a serious bonsai may be tended for decades and that patience is not merely helpful but essential. That points to a long-term commitment."
+    },
+    {
+      "id": "c76165ddf5",
+      "stem": "Based on the information provided, we can infer that the global spread of bonsai has resulted in:",
+      "options": [
+        "A decline in the traditional Japanese techniques",
+        "The extinction of certain tree species",
+        "New innovations while maintaining core principles",
+        "A decrease in the overall popularity of the art form"
+      ],
+      "answer": 2,
+      "topic": "bonsai",
+      "source": "bonsai_questions",
+      "passage": "bonsai",
+      "explanation": "The final paragraph states two things: experiments with native species have produced genuine innovations, and the core principles of restraint and proportion have carried across every border. Both halves are in the text, so this inference is supported."
+    },
+    {
+      "id": "5c792963a0",
+      "stem": "The author's attitude toward bonsai can best be described as:",
+      "options": [
+        "Critical and dismissive",
+        "Neutral and objective",
+        "Admiring and respectful",
+        "Confused and uncertain"
+      ],
+      "answer": 2,
+      "topic": "bonsai",
+      "source": "bonsai_questions",
+      "passage": "bonsai",
+      "explanation": "The author calls a bonsai a living sculpture, says its endurance is remarkable in its own right and adds that the results reward every year of it. That praise is admiring and respectful, not neutral."
+    },
+    {
+      "id": "fc38115c53",
+      "stem": "The main purpose of the final paragraph is to:",
+      "options": [
+        "Argue that bonsai is no longer relevant in modern times",
+        "Criticize the westernization of traditional Japanese art forms",
+        "Highlight the global appeal and evolution of bonsai",
+        "Predict the future trends in bonsai cultivation"
+      ],
+      "answer": 2,
+      "topic": "bonsai",
+      "source": "bonsai_questions",
+      "passage": "bonsai",
+      "explanation": "The final paragraph says bonsai is practiced worldwide and that enthusiasts are working with new native species while the core principles carry across every border. That is global appeal and evolution, not criticism."
+    },
+    {
+      "id": "dfe8e47735",
+      "stem": "What is the main theme of this passage?",
+      "options": [
+        "The importance of timekeeping in navigation",
+        "The evolution of timekeeping devices throughout history",
+        "The superiority of atomic clocks over other timekeeping methods",
+        "The role of timekeeping in religious practices"
+      ],
+      "answer": 1,
+      "topic": "timekeeping",
+      "source": "timekeeping_questions",
+      "passage": "timekeeping",
+      "explanation": "The passage moves in order from sundials and water clocks to mechanical clocks, pendulums, quartz and atomic clocks. Navigation fills only part of one paragraph, so the evolution of timekeeping devices is the real theme."
+    },
+    {
+      "id": "af79d4d503",
+      "stem": "According to the passage, what was one limitation of sundials?",
+      "options": [
+        "They were too expensive to produce",
+        "They couldn't function during cloudy weather",
+        "They were too large to be practical",
+        "They could only measure minutes, not hours"
+      ],
+      "answer": 1,
+      "topic": "timekeeping",
+      "source": "timekeeping_questions",
+      "passage": "timekeeping",
+      "explanation": "The second paragraph says sundials were useless when the sky was overcast, and equally useless at night. Cloudy weather is the weakness named right there in the text."
+    },
+    {
+      "id": "bcda02cdf5",
+      "stem": "The word 'regulated' in paragraph 3 most nearly means:",
+      "options": [
+        "Controlled",
+        "Accelerated",
+        "Restricted",
+        "Randomized"
+      ],
+      "answer": 0,
+      "topic": "timekeeping",
+      "source": "timekeeping_questions",
+      "passage": "timekeeping",
+      "explanation": "Paragraph three says the verge escapement released the weight's energy in small, even increments, keeping the mechanism turning at a steady rate. Regulated means controlled here, not restricted."
+    },
+    {
+      "id": "613f0ecad0",
+      "stem": "Why does the author mention Christiaan Huygens in paragraph 4?",
+      "options": [
+        "To introduce the concept of mechanical clocks",
+        "To highlight his role in improving clock accuracy with the pendulum clock",
+        "To discuss the origins of timekeeping in medieval monasteries",
+        "To explain the workings of water clocks"
+      ],
+      "answer": 1,
+      "topic": "timekeeping",
+      "source": "timekeeping_questions",
+      "passage": "timekeeping",
+      "explanation": "Paragraph four says Huygens applied the pendulum to clockwork in 1656 and cut daily error from minutes to seconds. He is mentioned for that leap in accuracy."
+    },
+    {
+      "id": "019a9aef26",
+      "stem": "Based on the information in the passage, which of the following statements about marine chronometers is true?",
+      "options": [
+        "They were invented before mechanical clocks",
+        "They were crucial for determining latitude at sea",
+        "They helped sailors accurately determine longitude",
+        "They were less accurate than sundials"
+      ],
+      "answer": 2,
+      "topic": "timekeeping",
+      "source": "timekeeping_questions",
+      "passage": "timekeeping",
+      "explanation": "Paragraph four says the marine chronometer let a navigator compare local noon against the time at a known port and calculate his longitude. The passage says longitude, not latitude."
+    },
+    {
+      "id": "f5e6c7070a",
+      "stem": "According to the passage, what is one advantage of quartz clocks?",
+      "options": [
+        "They are more accurate than atomic clocks",
+        "They can function without electricity",
+        "They offer high accuracy at a relatively low cost",
+        "They were the first clocks to use electronic technology"
+      ],
+      "answer": 2,
+      "topic": "timekeeping",
+      "source": "timekeeping_questions",
+      "passage": "timekeeping",
+      "explanation": "Paragraph five calls quartz clocks far more accurate than any mechanical clock and cheap enough for an ordinary wristwatch, an unusual combination of high precision and low cost."
+    },
+    {
+      "id": "d27d542f9d",
+      "stem": "The passage suggests that atomic clocks:",
+      "options": [
+        "Are less accurate than quartz clocks",
+        "Are primarily used for religious purposes",
+        "Form the basis for global time synchronization",
+        "Were invented before quartz clocks"
+      ],
+      "answer": 2,
+      "topic": "timekeeping",
+      "source": "timekeeping_questions",
+      "passage": "timekeeping",
+      "explanation": "Paragraph five says positioning satellites, telecommunications networks and financial systems all depend on atomic clocks to keep the world's computers synchronized to a common standard."
+    },
+    {
+      "id": "63ac496702",
+      "stem": "Based on the information provided, we can infer that improvements in timekeeping technology have been driven by:",
+      "options": [
+        "A desire for more leisure time",
+        "Competition between clock makers",
+        "The needs of various fields such as navigation and communication",
+        "A cultural obsession with punctuality"
+      ],
+      "answer": 2,
+      "topic": "timekeeping",
+      "source": "timekeeping_questions",
+      "passage": "timekeeping",
+      "explanation": "The passage ties each advance to a need. Monks needed prayer times, sailors needed longitude and modern networks need synchronized computers. Those stated needs support the conclusion, while competition between clock makers is never mentioned."
+    },
+    {
+      "id": "660926ef68",
+      "stem": "The author's attitude toward the advancements in timekeeping can best be described as:",
+      "options": [
+        "Skeptical and cautious",
+        "Enthusiastic and appreciative",
+        "Indifferent and detached",
+        "Critical and disapproving"
+      ],
+      "answer": 1,
+      "topic": "timekeeping",
+      "source": "timekeeping_questions",
+      "passage": "timekeeping",
+      "explanation": "The author calls the pendulum an improvement of more than a hundredfold and ends by suggesting today's optical clocks will matter someday too. That admiration reads as enthusiastic and appreciative."
+    },
+    {
+      "id": "e174c9e8dd",
+      "stem": "The main purpose of the final paragraph is to:",
+      "options": [
+        "Summarize the key points of the passage",
+        "Criticize current timekeeping technologies",
+        "Highlight potential future developments in timekeeping",
+        "Argue for the superiority of optical atomic clocks"
+      ],
+      "answer": 2,
+      "topic": "timekeeping",
+      "source": "timekeeping_questions",
+      "passage": "timekeeping",
+      "explanation": "The final paragraph introduces optical atomic clocks that may prove a hundred times more accurate, then admits such precision has no obvious everyday use today. It looks forward rather than summarizing."
+    },
+    {
+      "id": "c0989a1b94",
+      "stem": "What is the main focus of this passage?",
+      "options": [
+        "The importance of the hippocampus in memory formation",
+        "The role of sleep in memory consolidation",
+        "The process of memory formation and retrieval in the brain",
+        "The potential treatments for memory-related disorders"
+      ],
+      "answer": 2,
+      "topic": "memory",
+      "source": "memory_questions",
+      "passage": "memory",
+      "explanation": "The first paragraph says memory is not one process but three - forming, storing and retrieving - and the rest of the passage takes them in turn. The hippocampus and sleep each cover only one part."
+    },
+    {
+      "id": "25ac90c9a0",
+      "stem": "According to the passage, what is one of the primary functions of the hippocampus?",
+      "options": [
+        "Organizing and retrieving memories",
+        "Converting short-term memories into long-term ones",
+        "Planning for the future",
+        "Influencing our emotional state during recall"
+      ],
+      "answer": 1,
+      "topic": "memory",
+      "source": "memory_questions",
+      "passage": "memory",
+      "explanation": "Paragraph two says the hippocampus plays a central role in converting fragile short-term memories into stable long-term ones. Patients whose hippocampus is damaged cannot form new lasting memories."
+    },
+    {
+      "id": "78e87140f5",
+      "stem": "The term 'malleability' as used in paragraph 4 most nearly means:",
+      "options": [
+        "Strength",
+        "Flexibility",
+        "Permanence",
+        "Accuracy"
+      ],
+      "answer": 1,
+      "topic": "memory",
+      "source": "memory_questions",
+      "passage": "memory",
+      "explanation": "Paragraph four says a recalled memory becomes briefly unstable and that details can shift. Malleability names that ability to be changed, so here it means flexibility, not strength."
+    },
+    {
+      "id": "a85bca7a4d",
+      "stem": "Why does the author mention eyewitness testimony in paragraph 4?",
+      "options": [
+        "To provide an example of how memory's malleability can have real-world implications",
+        "To argue that eyewitness testimony is always unreliable",
+        "To suggest that the legal system should rely more on memory-based evidence",
+        "To introduce a new topic unrelated to the main focus of the passage"
+      ],
+      "answer": 0,
+      "topic": "memory",
+      "source": "memory_questions",
+      "passage": "memory",
+      "explanation": "Paragraph four says a witness's account can be altered by the phrasing of a question. It is a real-world example of the malleability just described, not a claim that testimony is always wrong."
+    },
+    {
+      "id": "322524bbf0",
+      "stem": "According to the passage, during which stage of sleep does memory consolidation primarily occur?",
+      "options": [
+        "Deep sleep",
+        "Light sleep",
+        "REM sleep",
+        "NREM sleep"
+      ],
+      "answer": 2,
+      "topic": "memory",
+      "source": "memory_questions",
+      "passage": "memory",
+      "explanation": "Paragraph three says that during REM sleep in particular the brain replays patterns of activity from the day, reinforcing the connections between neurons that carry a memory."
+    },
+    {
+      "id": "986e421f1c",
+      "stem": "Based on the information in the passage, which of the following statements about memories is true?",
+      "options": [
+        "Memories are stored in fixed locations within the brain",
+        "Memories are not influenced by our current emotional state",
+        "Memories can be affected by the context in which we try to recall them",
+        "Memories are always accurate representations of past events"
+      ],
+      "answer": 2,
+      "topic": "memory",
+      "source": "memory_questions",
+      "passage": "memory",
+      "explanation": "Paragraph four says the setting in which we try to remember shapes what surfaces, and that people in a low mood recall more unhappy events."
+    },
+    {
+      "id": "c6566fdea5",
+      "stem": "The passage suggests that damage to the hippocampus would most likely result in:",
+      "options": [
+        "Difficulty forming new memories",
+        "Loss of all memories, both old and new",
+        "Improved memory formation and recall",
+        "Inability to plan for the future"
+      ],
+      "answer": 0,
+      "topic": "memory",
+      "source": "memory_questions",
+      "passage": "memory",
+      "explanation": "Paragraph two says patients with a damaged hippocampus can recall childhood events in detail but cannot form new lasting memories. The text supports trouble making new memories, not losing old ones."
+    },
+    {
+      "id": "856b20eb6b",
+      "stem": "Which of the following best describes the author's tone in this passage?",
+      "options": [
+        "Critical and skeptical",
+        "Informative and objective",
+        "Enthusiastic and biased",
+        "Confused and uncertain"
+      ],
+      "answer": 1,
+      "topic": "memory",
+      "source": "memory_questions",
+      "passage": "memory",
+      "explanation": "The author reports research findings and explains how they work, using calm factual language and taking no side. That is what informative and objective means."
+    },
+    {
+      "id": "ab4b7c354f",
+      "stem": "Based on the information provided in the passage, we can infer that research into memory processes might be particularly beneficial for:",
+      "options": [
+        "Developing new computer storage technologies",
+        "Improving athletic performance",
+        "Creating more effective educational methods",
+        "Enhancing artistic creativity"
+      ],
+      "answer": 2,
+      "topic": "memory",
+      "source": "memory_questions",
+      "passage": "memory",
+      "explanation": "Paragraph five says self-testing and spacing practice beat rereading, and that schools have begun redesigning instruction around these findings. The passage states that link, so the education inference is supported."
+    },
+    {
+      "id": "5a90f1b97b",
+      "stem": "The main purpose of the final paragraph is to:",
+      "options": [
+        "Summarize the key points of the passage",
+        "Introduce a new topic for discussion",
+        "Highlight the practical applications of memory research",
+        "Criticize current approaches to studying memory"
+      ],
+      "answer": 2,
+      "topic": "memory",
+      "source": "memory_questions",
+      "passage": "memory",
+      "explanation": "The final paragraph turns from how memory works to what the research is good for: better study techniques, redesigned schools and efforts to slow memory loss in aging and disease."
+    },
+    {
+      "id": "2de06d3b3e",
+      "stem": "What is the primary focus of this passage?",
+      "options": [
+        "The history of fossil fuels",
+        "The benefits and challenges of renewable energy",
+        "The role of natural gas in the energy market",
+        "The economics of oil production"
+      ],
+      "answer": 1,
+      "topic": "renewable-energy",
+      "source": "renewable_energy_questions",
+      "passage": "renewable-energy",
+      "explanation": "The passage gives benefits such as lower emissions and energy security, then challenges such as upfront cost and intermittent output, so the benefits and challenges of renewable energy covers the whole thing."
+    },
+    {
+      "id": "4c4d73acfc",
+      "stem": "According to the passage, what is one of the main environmental benefits of renewable energy?",
+      "options": [
+        "It produces more greenhouse gases than fossil fuels",
+        "It reduces greenhouse gas emissions",
+        "It requires more water than traditional energy sources",
+        "It is less efficient than coal"
+      ],
+      "answer": 1,
+      "topic": "renewable-energy",
+      "source": "renewable_energy_questions",
+      "passage": "renewable-energy",
+      "explanation": "Paragraph two says burning coal, oil and natural gas releases carbon dioxide and other greenhouse gases, while a wind turbine or solar panel produces none at all while operating."
+    },
+    {
+      "id": "be5b7b8a8d",
+      "stem": "The word 'volatile' in paragraph 3 most nearly means:",
+      "options": [
+        "Stable",
+        "Inconsistent",
+        "Affordable",
+        "Expensive"
+      ],
+      "answer": 1,
+      "topic": "renewable-energy",
+      "source": "renewable_energy_questions",
+      "passage": "renewable-energy",
+      "explanation": "Paragraph three says fossil fuel prices swing sharply in response to conflicts, cartel decisions and shifts in demand. Volatile means inconsistent here, the opposite of stable."
+    },
+    {
+      "id": "ce5df5202c",
+      "stem": "What is one of the challenges to adopting renewable energy mentioned in the passage?",
+      "options": [
+        "Renewable energy sources are unlimited",
+        "The cost of developing renewable energy systems",
+        "Fossil fuels are cleaner than renewable sources",
+        "Solar energy is always available"
+      ],
+      "answer": 1,
+      "topic": "renewable-energy",
+      "source": "renewable_energy_questions",
+      "passage": "renewable-energy",
+      "explanation": "Paragraph three says building the equipment is expensive and calls that upfront cost the single largest barrier to adoption, since solar farms and transmission lines need investment first."
+    },
+    {
+      "id": "a0816ddf6d",
+      "stem": "Why do some renewable energy sources have intermittent production?",
+      "options": [
+        "They require more manpower to operate",
+        "They depend on weather conditions",
+        "They are more expensive than fossil fuels",
+        "They can only be used at night"
+      ],
+      "answer": 1,
+      "topic": "renewable-energy",
+      "source": "renewable_energy_questions",
+      "passage": "renewable-energy",
+      "explanation": "Paragraph four says solar panels produce nothing at night and wind turbines stand idle when the air is still, because these sources depend on weather conditions."
+    },
+    {
+      "id": "409b72b888",
+      "stem": "How are researchers addressing the problem of intermittent renewable energy production?",
+      "options": [
+        "By building more power plants",
+        "By improving energy storage systems",
+        "By using more fossil fuels",
+        "By reducing energy demand"
+      ],
+      "answer": 1,
+      "topic": "renewable-energy",
+      "source": "renewable_energy_questions",
+      "passage": "renewable-energy",
+      "explanation": "Paragraph four says the most promising answer is storage, then describes cheaper batteries and pumped hydroelectric storage, which moves water uphill and recovers the energy later."
+    },
+    {
+      "id": "45bbacd866",
+      "stem": "What does the passage suggest about the future of renewable energy costs?",
+      "options": [
+        "Costs will continue to rise as renewable energy becomes more popular",
+        "Renewable energy costs are expected to decrease over time",
+        "Fossil fuel prices will drop below renewable energy costs",
+        "Renewable energy will remain too expensive to adopt widely"
+      ],
+      "answer": 1,
+      "topic": "renewable-energy",
+      "source": "renewable_energy_questions",
+      "passage": "renewable-energy",
+      "explanation": "Paragraph three says the price of solar panels has dropped by roughly ninety percent since 2010 and that analysts expect renewable energy to keep getting cheaper."
+    },
+    {
+      "id": "8db13c8cfc",
+      "stem": "According to the passage, how can renewable energy improve energy security?",
+      "options": [
+        "By reducing reliance on imported fossil fuels",
+        "By making fossil fuels more affordable",
+        "By increasing greenhouse gas emissions",
+        "By decreasing the use of solar energy"
+      ],
+      "answer": 0,
+      "topic": "renewable-energy",
+      "source": "renewable_energy_questions",
+      "passage": "renewable-energy",
+      "explanation": "Paragraph two says a country that generates its own power from sunlight and wind depends far less on imported fossil fuels and is less exposed to supply disruptions abroad."
+    },
+    {
+      "id": "5951b2c08c",
+      "stem": "Which of the following is an example of a renewable energy source mentioned in the passage?",
+      "options": [
+        "Nuclear energy",
+        "Solar energy",
+        "Natural gas",
+        "Oil"
+      ],
+      "answer": 1,
+      "topic": "renewable-energy",
+      "source": "renewable_energy_questions",
+      "passage": "renewable-energy",
+      "explanation": "The first paragraph names solar, wind, hydroelectric and geothermal power as the renewable sources. Oil and natural gas are the fossil fuels in this passage and nuclear is never mentioned."
+    },
+    {
+      "id": "e5ce8207dd",
+      "stem": "What role do governments, businesses, and individuals have in the transition to renewable energy according to the passage?",
+      "options": [
+        "To oppose renewable energy adoption",
+        "To accelerate the transition to renewable energy",
+        "To develop new fossil fuel resources",
+        "To increase greenhouse gas emissions"
+      ],
+      "answer": 1,
+      "topic": "renewable-energy",
+      "source": "renewable_energy_questions",
+      "passage": "renewable-energy",
+      "explanation": "The final paragraph says governments set policy, businesses decide where to invest and individuals influence the market, and that each has the capacity to accelerate the transition."
+    },
+    {
+      "id": "9dfe604dad",
+      "stem": "What is the primary purpose of this passage?",
+      "options": [
+        "To explain how coral reefs protect shorelines",
+        "To describe the importance and threats facing coral reefs",
+        "To discuss the benefits of coral reefs for tourism",
+        "To introduce different species that live in coral reefs"
+      ],
+      "answer": 1,
+      "topic": "coral-reefs",
+      "source": "coral_reef_questions",
+      "passage": "coral-reefs",
+      "explanation": "The passage explains why reefs matter, the threats that are killing them and the efforts to save them. Shoreline protection and tourism are single details inside paragraph two, so they are too narrow."
+    },
+    {
+      "id": "6bdfa0e089",
+      "stem": "According to the passage, coral reefs are often referred to as:",
+      "options": [
+        "The lungs of the ocean",
+        "The rainforests of the sea",
+        "The deserts of the deep",
+        "The foundations of the coast"
+      ],
+      "answer": 1,
+      "topic": "coral-reefs",
+      "source": "coral_reef_questions",
+      "passage": "coral-reefs",
+      "explanation": "The first paragraph says this extraordinary concentration of life has earned reefs a nickname: the rainforests of the sea, because they are so productive."
+    },
+    {
+      "id": "7155f39bb2",
+      "stem": "How do coral reefs help protect coastal areas?",
+      "options": [
+        "By absorbing the energy of incoming waves",
+        "By reducing water temperatures",
+        "By filtering pollution out of the water",
+        "By preventing fish from reaching the shore"
+      ],
+      "answer": 0,
+      "topic": "coral-reefs",
+      "source": "coral_reef_questions",
+      "passage": "coral-reefs",
+      "explanation": "Paragraph two says reefs act as natural breakwaters by absorbing the energy of incoming waves before it reaches land, which reduces erosion and storm damage."
+    },
+    {
+      "id": "454785d2f3",
+      "stem": "The word 'vital' in paragraph 2 most nearly means:",
+      "options": [
+        "Essential",
+        "Rare",
+        "Unnecessary",
+        "Marginal"
+      ],
+      "answer": 0,
+      "topic": "coral-reefs",
+      "source": "coral_reef_questions",
+      "passage": "coral-reefs",
+      "explanation": "Paragraph two calls reefs vital to the regions around them, then lists food, tourism and storm protection. Vital means essential here, not rare."
+    },
+    {
+      "id": "e6e3e75769",
+      "stem": "What is coral bleaching?",
+      "options": [
+        "A type of fishing that damages reefs",
+        "The process of transplanting healthy coral to damaged reefs",
+        "When corals expel algae due to rising ocean temperatures",
+        "A natural way that corals grow"
+      ],
+      "answer": 2,
+      "topic": "coral-reefs",
+      "source": "coral_reef_questions",
+      "passage": "coral-reefs",
+      "explanation": "Paragraph three says that when water grows too warm the coral expels the algae living in its tissues, an event called bleaching that leaves the coral white and starving."
+    },
+    {
+      "id": "5d78870731",
+      "stem": "Which of the following is a major threat to coral reefs according to the passage?",
+      "options": [
+        "Increased tourism",
+        "Cold ocean currents",
+        "Rising ocean temperatures",
+        "Overpopulation of coral polyps"
+      ],
+      "answer": 2,
+      "topic": "coral-reefs",
+      "source": "coral_reef_questions",
+      "passage": "coral-reefs",
+      "explanation": "Paragraph three says directly that the greatest threat to reefs today is rising ocean temperature, with acidification, overfishing and pollution adding further strain."
+    },
+    {
+      "id": "3322ff91c8",
+      "stem": "What is the purpose of Marine Protected Areas (MPAs)?",
+      "options": [
+        "To restrict human activity and allow coral reefs to recover",
+        "To promote fishing in coral reef areas",
+        "To protect shorelines from storm damage",
+        "To prevent fish migration"
+      ],
+      "answer": 0,
+      "topic": "coral-reefs",
+      "source": "coral_reef_questions",
+      "passage": "coral-reefs",
+      "explanation": "Paragraph four says Marine Protected Areas restrict fishing, anchoring and development, giving damaged reefs a chance to recover without additional human pressure."
+    },
+    {
+      "id": "6650d785ce",
+      "stem": "What is coral farming?",
+      "options": [
+        "The practice of collecting coral for trade",
+        "Growing coral fragments in nurseries to restore damaged reefs",
+        "A method of protecting coral reefs from overfishing",
+        "Using coral reefs to farm fish species"
+      ],
+      "answer": 1,
+      "topic": "coral-reefs",
+      "source": "coral_reef_questions",
+      "passage": "coral-reefs",
+      "explanation": "Paragraph four says scientists break healthy coral into fragments, grow them in underwater nurseries until they can survive on their own and then transplant them onto damaged reefs."
+    },
+    {
+      "id": "0cde3a4ea2",
+      "stem": "According to the passage, what percentage of coral reefs have been lost or severely damaged?",
+      "options": [
+        "25%",
+        "10%",
+        "Up to 50%",
+        "75%"
+      ],
+      "answer": 2,
+      "topic": "coral-reefs",
+      "source": "coral_reef_questions",
+      "passage": "coral-reefs",
+      "explanation": "The end of paragraph three says scientists estimate that up to fifty percent of the world's coral reefs have already been lost or severely damaged. The one quarter figure earlier counts marine species, not reefs."
+    },
+    {
+      "id": "f4697371de",
+      "stem": "What can be inferred about the future of coral reefs from the passage?",
+      "options": [
+        "Coral reefs will not face any further threats",
+        "Efforts to protect and restore reefs may help ensure their survival",
+        "Reefs will only survive in Marine Protected Areas",
+        "Climate change will completely destroy all coral reefs"
+      ],
+      "answer": 1,
+      "topic": "coral-reefs",
+      "source": "coral_reef_questions",
+      "passage": "coral-reefs",
+      "explanation": "The final paragraph says reefs have survived dramatic changes before and that with sustained protection and restoration there is reason to believe they can survive this one. The text supports hope, not a guarantee."
+    },
+    {
+      "id": "d7994de089",
+      "stem": "What is the main focus of this passage?",
+      "options": [
+        "The formation of stars in galaxies",
+        "The properties and role of dark matter in the universe",
+        "The discovery of dark energy",
+        "The gravitational effects of planets"
+      ],
+      "answer": 1,
+      "topic": "dark-matter",
+      "source": "dark_matter_questions",
+      "passage": "dark-matter",
+      "explanation": "The passage covers what dark matter is, the evidence for it, its role in forming galaxies and the hunt for it. Dark energy and planets are never the subject here."
+    },
+    {
+      "id": "86c20f3a6c",
+      "stem": "According to the passage, how is the presence of dark matter inferred?",
+      "options": [
+        "By observing it directly with telescopes",
+        "Through its gravitational effects on visible matter",
+        "By detecting its interactions with ordinary atoms",
+        "Through the radiation it emits"
+      ],
+      "answer": 1,
+      "topic": "dark-matter",
+      "source": "dark_matter_questions",
+      "passage": "dark-matter",
+      "explanation": "Paragraph two says dark matter is inferred entirely this way - not seen, but detected through its gravitational effects on the matter we can see, like fast orbiting stars and bent light."
+    },
+    {
+      "id": "d2a4e89972",
+      "stem": "The word 'elusive' in paragraph 4 most nearly means:",
+      "options": [
+        "Abundant",
+        "Mysterious",
+        "Nonexistent",
+        "Easily found"
+      ],
+      "answer": 1,
+      "topic": "dark-matter",
+      "source": "dark_matter_questions",
+      "passage": "dark-matter",
+      "explanation": "Paragraph four asks why the substance has proven so elusive and answers that it barely interacts with anything, so decades of detectors have found no signal. Elusive here means hard to find or pin down."
+    },
+    {
+      "id": "d824bde022",
+      "stem": "What is one of the main challenges in detecting dark matter?",
+      "options": [
+        "It does not interact with gravity",
+        "It cannot be seen through telescopes",
+        "It emits too much radiation",
+        "It can only be found near black holes"
+      ],
+      "answer": 1,
+      "topic": "dark-matter",
+      "source": "dark_matter_questions",
+      "passage": "dark-matter",
+      "explanation": "Paragraph four says dark matter neither emits nor absorbs light, which makes it fundamentally invisible to telescopes of every kind, whether optical, radio, infrared or X-ray."
+    },
+    {
+      "id": "4537d3dae8",
+      "stem": "Which of the following particles are considered possible candidates for dark matter?",
+      "options": [
+        "Protons",
+        "WIMPs",
+        "Photons",
+        "Neutrons"
+      ],
+      "answer": 1,
+      "topic": "dark-matter",
+      "source": "dark_matter_questions",
+      "passage": "dark-matter",
+      "explanation": "Paragraph four names the leading candidates as WIMPs, or weakly interacting massive particles, and lighter particles called axions. Protons and neutrons are ordinary matter."
+    },
+    {
+      "id": "9a7e555e3c",
+      "stem": "Why do scientists believe dark matter played a role in the formation of cosmic structures?",
+      "options": [
+        "It produced the first stars in the universe",
+        "It acted as a scaffolding, pulling ordinary matter together",
+        "It emitted light that helped form galaxies",
+        "It interacted strongly with ordinary matter"
+      ],
+      "answer": 1,
+      "topic": "dark-matter",
+      "source": "dark_matter_questions",
+      "passage": "dark-matter",
+      "explanation": "Paragraph three says dark matter collapsed first into a vast web of filaments and halos, and that this structure acted as a scaffolding, pulling ordinary matter into the places where galaxies formed."
+    },
+    {
+      "id": "9c8149a0e8",
+      "stem": "Which of the following best describes the tone of the passage?",
+      "options": [
+        "Skeptical and critical",
+        "Informative and objective",
+        "Casual and humorous",
+        "Emotional and dramatic"
+      ],
+      "answer": 1,
+      "topic": "dark-matter",
+      "source": "dark_matter_questions",
+      "passage": "dark-matter",
+      "explanation": "The author lays out the evidence and the open questions in plain factual language, without jokes, drama or arguing against the scientists. That is informative and objective."
+    },
+    {
+      "id": "1b74fd4ccd",
+      "stem": "What is one reason dark matter has remained undetected despite decades of research?",
+      "options": [
+        "It is located in a distant part of the universe",
+        "It only interacts weakly with ordinary matter",
+        "It is too small to be measured",
+        "It is made of ordinary particles like protons and neutrons"
+      ],
+      "answer": 1,
+      "topic": "dark-matter",
+      "source": "dark_matter_questions",
+      "passage": "dark-matter",
+      "explanation": "Paragraph four says that beyond gravity dark matter appears to interact with ordinary matter only very weakly, which is why shielded underground detectors have run for decades without a confirmed signal."
+    },
+    {
+      "id": "fcb67f5734",
+      "stem": "According to the passage, how much of the universe’s matter is believed to be dark matter?",
+      "options": [
+        "50%",
+        "75%",
+        "85%",
+        "95%"
+      ],
+      "answer": 2,
+      "topic": "dark-matter",
+      "source": "dark_matter_questions",
+      "passage": "dark-matter",
+      "explanation": "Paragraph two ends with the striking figure: roughly eighty-five percent of the matter in the universe appears to be dark matter."
+    },
+    {
+      "id": "bfd0f73b51",
+      "stem": "What does the passage suggest about the future of dark matter research?",
+      "options": [
+        "Dark matter will eventually be replaced by dark energy",
+        "Future discoveries in physics may help scientists understand dark matter",
+        "Dark matter will no longer be important to astrophysics",
+        "Scientists will abandon the search for dark matter"
+      ],
+      "answer": 1,
+      "topic": "dark-matter",
+      "source": "dark_matter_questions",
+      "passage": "dark-matter",
+      "explanation": "The final paragraph says detectors are growing more sensitive and accelerators are searching new energy ranges, and that a discovery in one of these areas may finally reveal what dark matter is."
+    },
+    {
+      "id": "52be788975",
+      "stem": "What is the main purpose of this passage?",
+      "options": [
+        "To describe the history of the Gutenberg Bible",
+        "To explain the invention and impact of the printing press",
+        "To compare different methods of book production",
+        "To discuss the role of books in ancient societies"
+      ],
+      "answer": 1,
+      "topic": "printing-press",
+      "source": "printing_press_questions",
+      "passage": "printing-press",
+      "explanation": "The passage explains Gutenberg's movable type and then traces its effects on religion, science, language and literacy. The Gutenberg Bible is one detail in paragraph two, so it is too narrow."
+    },
+    {
+      "id": "60f0ef5330",
+      "stem": "According to the passage, how were books produced before the invention of the printing press?",
+      "options": [
+        "They were printed using movable type",
+        "They were written by hand",
+        "They were produced on typewriters",
+        "They were copied using early printing machines"
+      ],
+      "answer": 1,
+      "topic": "printing-press",
+      "source": "printing_press_questions",
+      "passage": "printing-press",
+      "explanation": "The first paragraph says that before the middle of the fifteenth century every book in Europe was written by hand, and a scribe might spend a year on one volume."
+    },
+    {
+      "id": "5c2185136a",
+      "stem": "The word 'disseminated' in paragraph 1 most nearly means:",
+      "options": [
+        "Destroyed",
+        "Written",
+        "Spread",
+        "Hidden"
+      ],
+      "answer": 2,
+      "topic": "printing-press",
+      "source": "printing_press_questions",
+      "passage": "printing-press",
+      "explanation": "Paragraph one says knowledge was disseminated only as fast as human hands could reproduce it, so the word describes ideas moving outward to people. Disseminated means spread here."
+    },
+    {
+      "id": "a179ded10d",
+      "stem": "What was one of the first major works produced by Gutenberg’s press?",
+      "options": [
+        "A German dictionary",
+        "A collection of Greek texts",
+        "The Gutenberg Bible",
+        "Martin Luther's pamphlets"
+      ],
+      "answer": 2,
+      "topic": "printing-press",
+      "source": "printing_press_questions",
+      "passage": "printing-press",
+      "explanation": "Paragraph two says that among the first major works to come off his press was the Gutenberg Bible, printed around 1455. Luther's writings come later, in 1517."
+    },
+    {
+      "id": "708cfed6e7",
+      "stem": "How did the printing press contribute to the Protestant Reformation?",
+      "options": [
+        "By making books too expensive for ordinary people",
+        "By allowing reformers to spread their ideas quickly",
+        "By preventing the spread of religious texts",
+        "By printing only religious books"
+      ],
+      "answer": 1,
+      "topic": "printing-press",
+      "source": "printing_press_questions",
+      "passage": "printing-press",
+      "explanation": "Paragraph three says printers carried Luther's writings across Germany within weeks, and that he could not be silenced because the press spread ideas faster than any authority could suppress them."
+    },
+    {
+      "id": "6e181848f4",
+      "stem": "What impact did the printing press have on language?",
+      "options": [
+        "It helped standardize languages and grammar",
+        "It caused more dialects to develop",
+        "It made spelling less consistent",
+        "It prevented national languages from forming"
+      ],
+      "answer": 0,
+      "topic": "printing-press",
+      "source": "printing_press_questions",
+      "passage": "printing-press",
+      "explanation": "Paragraph five says printers had to choose one spelling and one grammatical form, and the versions they chose spread with their books, helping standardize languages that had varied from town to town."
+    },
+    {
+      "id": "2ecb821bc2",
+      "stem": "Why does the author mention the scientific revolution in the passage?",
+      "options": [
+        "To highlight another major event influenced by the printing press",
+        "To argue that science was more important than religion",
+        "To show that the printing press slowed scientific progress",
+        "To explain how scientists used hand-copied books"
+      ],
+      "answer": 0,
+      "topic": "printing-press",
+      "source": "printing_press_questions",
+      "passage": "printing-press",
+      "explanation": "Paragraph four shows a second area the press changed. Identical printed copies let researchers across the continent build directly on one another's work instead of waiting years or repeating it."
+    },
+    {
+      "id": "a84e1db985",
+      "stem": "Which of the following is a direct result of the printing press according to the passage?",
+      "options": [
+        "Lower literacy rates",
+        "Less critical thinking",
+        "Increased access to knowledge",
+        "A decrease in book production"
+      ],
+      "answer": 2,
+      "topic": "printing-press",
+      "source": "printing_press_questions",
+      "passage": "printing-press",
+      "explanation": "Paragraph five says rising literacy followed the falling price of books, giving ordinary people access to information and ideas that had once been confined to a narrow elite."
+    },
+    {
+      "id": "2ac92a9c4a",
+      "stem": "How did the printing press help empower individuals?",
+      "options": [
+        "By making them learn how to write",
+        "By allowing them to produce their own books",
+        "By giving them access to more information and ideas",
+        "By limiting the spread of new ideas"
+      ],
+      "answer": 2,
+      "topic": "printing-press",
+      "source": "printing_press_questions",
+      "passage": "printing-press",
+      "explanation": "Paragraph five says that with access came the capacity to evaluate claims for themselves rather than accept them on authority. The power came from reaching information, not from printing their own books."
+    },
+    {
+      "id": "06ff223043",
+      "stem": "What can be inferred about the importance of the printing press in modern society?",
+      "options": [
+        "It is no longer relevant due to digital media",
+        "It laid the foundation for the spread of information",
+        "It only affected scientific advancements",
+        "It had no impact on modern technology"
+      ],
+      "answer": 1,
+      "topic": "printing-press",
+      "source": "printing_press_questions",
+      "passage": "printing-press",
+      "explanation": "The final paragraph says the newspaper, the broadcast and the internet have all built on the foundation Gutenberg laid. That stated link supports the idea that the press laid the groundwork for spreading information."
+    }
+  ]
 }

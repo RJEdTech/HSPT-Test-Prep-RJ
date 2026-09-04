@@ -1,2682 +1,2821 @@
 {
- "section": "verbal",
- "questions": [
-  {
-   "id": "2eba715e04",
-   "stem": "Red is to stop as green is to:",
-   "options": [
-    "go",
-    "slow",
-    "turn",
-    "pause"
-   ],
-   "answer": 0,
-   "topic": "Analogies",
-   "source": "verbal_analogy_diagnostic_test"
-  },
-  {
-   "id": "5e462bf5d0",
-   "stem": "Knife is to cut as pencil is to:",
-   "options": [
-    "erase",
-    "sharpen",
-    "write",
-    "snap"
-   ],
-   "answer": 2,
-   "topic": "Analogies",
-   "source": "verbal_analogy_diagnostic_test"
-  },
-  {
-   "id": "7a7f6eb0b5",
-   "stem": "First is to last as top is to:",
-   "options": [
-    "bottom",
-    "middle",
-    "high",
-    "peak"
-   ],
-   "answer": 0,
-   "topic": "Analogies",
-   "source": "verbal_analogy_diagnostic_test"
-  },
-  {
-   "id": "7a67b6d2c3",
-   "stem": "Chair is to sit as bed is to:",
-   "options": [
-    "sleep",
-    "eat",
-    "jump",
-    "fold"
-   ],
-   "answer": 0,
-   "topic": "Analogies",
-   "source": "verbal_analogy_diagnostic_test"
-  },
-  {
-   "id": "63bd9698b1",
-   "stem": "Hot is to cold as dry is to:",
-   "options": [
-    "wet",
-    "rough",
-    "smooth",
-    "slippery"
-   ],
-   "answer": 0,
-   "topic": "Analogies",
-   "source": "verbal_analogy_diagnostic_test"
-  },
-  {
-   "id": "9340f406cd",
-   "stem": "Pen is to write as eraser is to:",
-   "options": [
-    "sharpen",
-    "smudge",
-    "erase",
-    "ink"
-   ],
-   "answer": 2,
-   "topic": "Analogies",
-   "source": "verbal_analogy_diagnostic_test"
-  },
-  {
-   "id": "b1a1327858",
-   "stem": "Car is to garage as boat is to:",
-   "options": [
-    "lake",
-    "ocean",
-    "dock",
-    "road"
-   ],
-   "answer": 2,
-   "topic": "Analogies",
-   "source": "verbal_analogy_diagnostic_test"
-  },
-  {
-   "id": "c1cc8514c4",
-   "stem": "Doctor is to hospital as teacher is to:",
-   "options": [
-    "class",
-    "school",
-    "desk",
-    "book"
-   ],
-   "answer": 1,
-   "topic": "Analogies",
-   "source": "verbal_analogy_diagnostic_test"
-  },
-  {
-   "id": "ae88da8551",
-   "stem": "Bird is to fly as fish is to:",
-   "options": [
-    "jump",
-    "swim",
-    "walk",
-    "dive"
-   ],
-   "answer": 1,
-   "topic": "Analogies",
-   "source": "verbal_analogy_diagnostic_test"
-  },
-  {
-   "id": "0cf91c6aad",
-   "stem": "Book is to library as flower is to:",
-   "options": [
-    "petal",
-    "garden",
-    "tree",
-    "plant"
-   ],
-   "answer": 1,
-   "topic": "Analogies",
-   "source": "verbal_analogy_diagnostic_test"
-  },
-  {
-   "id": "192eb99c9c",
-   "stem": "Soft is to pillow as hard is to:",
-   "options": [
-    "brick",
-    "blanket",
-    "sheet",
-    "fabric"
-   ],
-   "answer": 0,
-   "topic": "Analogies",
-   "source": "verbal_analogy_diagnostic_test"
-  },
-  {
-   "id": "4d08e41c67",
-   "stem": "Eye is to see as ear is to:",
-   "options": [
-    "hear",
-    "smell",
-    "speak",
-    "taste"
-   ],
-   "answer": 0,
-   "topic": "Analogies",
-   "source": "verbal_analogy_diagnostic_test"
-  },
-  {
-   "id": "89718ddb3d",
-   "stem": "Leg is to walk as hand is to:",
-   "options": [
-    "carry",
-    "run",
-    "skip",
-    "jump"
-   ],
-   "answer": 0,
-   "topic": "Analogies",
-   "source": "verbal_analogy_diagnostic_test"
-  },
-  {
-   "id": "00908ac5e9",
-   "stem": "Artist is to paint as writer is to:",
-   "options": [
-    "sculpt",
-    "draw",
-    "write",
-    "read"
-   ],
-   "answer": 2,
-   "topic": "Analogies",
-   "source": "verbal_analogy_diagnostic_test"
-  },
-  {
-   "id": "820dbe970c",
-   "stem": "Clock is to time as ruler is to:",
-   "options": [
-    "measure",
-    "length",
-    "size",
-    "speed"
-   ],
-   "answer": 1,
-   "topic": "Analogies",
-   "source": "verbal_analogy_diagnostic_test"
-  },
-  {
-   "id": "552e7cfd1e",
-   "stem": "Key is to lock as button is to:",
-   "options": [
-    "press",
-    "shirt",
-    "close",
-    "open"
-   ],
-   "answer": 1,
-   "topic": "Analogies",
-   "source": "verbal_analogy_diagnostic_test"
-  },
-  {
-   "id": "a4491832c8",
-   "stem": "Cat is to kitten as dog is to:",
-   "options": [
-    "pup",
-    "bark",
-    "tail",
-    "bite"
-   ],
-   "answer": 0,
-   "topic": "Analogies",
-   "source": "verbal_analogy_diagnostic_test"
-  },
-  {
-   "id": "fb889ca770",
-   "stem": "Phone is to ring as doorbell is to:",
-   "options": [
-    "alarm",
-    "click",
-    "chime",
-    "knock"
-   ],
-   "answer": 2,
-   "topic": "Analogies",
-   "source": "verbal_analogy_diagnostic_test"
-  },
-  {
-   "id": "3447caed1c",
-   "stem": "Cow is to milk as chicken is to:",
-   "options": [
-    "egg",
-    "peck",
-    "nest",
-    "feather"
-   ],
-   "answer": 0,
-   "topic": "Analogies",
-   "source": "verbal_analogy_diagnostic_test"
-  },
-  {
-   "id": "9a0628dd54",
-   "stem": "Sun is to day as moon is to:",
-   "options": [
-    "night",
-    "evening",
-    "dawn",
-    "dusk"
-   ],
-   "answer": 0,
-   "topic": "Analogies",
-   "source": "verbal_analogy_diagnostic_test"
-  },
-  {
-   "id": "62c0c013be",
-   "stem": "Fish is to swim as bird is to:",
-   "options": [
-    "fly",
-    "run",
-    "jump",
-    "crawl"
-   ],
-   "answer": 0,
-   "topic": "Analogies",
-   "source": "verbal_analogy_diagnostic_test"
-  },
-  {
-   "id": "2e13fcb00e",
-   "stem": "Large is to small as tall is to:",
-   "options": [
-    "short",
-    "wide",
-    "tall",
-    "deep"
-   ],
-   "answer": 0,
-   "topic": "Analogies",
-   "source": "verbal_analogy_diagnostic_test"
-  },
-  {
-   "id": "ed4fbbc205",
-   "stem": "Fire is to hot as ice is to:",
-   "options": [
-    "cold",
-    "warm",
-    "soft",
-    "rough"
-   ],
-   "answer": 0,
-   "topic": "Analogies",
-   "source": "verbal_analogy_diagnostic_test"
-  },
-  {
-   "id": "796fc34b6b",
-   "stem": "Dog is to bark as cow is to:",
-   "options": [
-    "moo",
-    "neigh",
-    "cluck",
-    "oink"
-   ],
-   "answer": 0,
-   "topic": "Analogies",
-   "source": "verbal_analogy_diagnostic_test"
-  },
-  {
-   "id": "5019ce2d15",
-   "stem": "Book is to read as movie is to:",
-   "options": [
-    "write",
-    "watch",
-    "listen",
-    "talk"
-   ],
-   "answer": 1,
-   "topic": "Analogies",
-   "source": "verbal_analogy_diagnostic_test"
-  },
-  {
-   "id": "f4e216dc7d",
-   "stem": "Teacher is to instruct as chef is to:",
-   "options": [
-    "eat",
-    "cook",
-    "serve",
-    "teach"
-   ],
-   "answer": 1,
-   "topic": "Analogies",
-   "source": "verbal_analogy_diagnostic_test"
-  },
-  {
-   "id": "2e42222715",
-   "stem": "Ear is to hear as nose is to:",
-   "options": [
-    "see",
-    "smell",
-    "hear",
-    "taste"
-   ],
-   "answer": 1,
-   "topic": "Analogies",
-   "source": "verbal_analogy_diagnostic_test"
-  },
-  {
-   "id": "e7cc347209",
-   "stem": "Car is to drive as bicycle is to:",
-   "options": [
-    "pedal",
-    "walk",
-    "turn",
-    "push"
-   ],
-   "answer": 0,
-   "topic": "Analogies",
-   "source": "verbal_analogy_diagnostic_test"
-  },
-  {
-   "id": "b6ad9df2d7",
-   "stem": "Clock is to time as thermometer is to:",
-   "options": [
-    "temperature",
-    "height",
-    "weather",
-    "speed"
-   ],
-   "answer": 0,
-   "topic": "Analogies",
-   "source": "verbal_analogy_diagnostic_test"
-  },
-  {
-   "id": "ffe4252c3b",
-   "stem": "Heart is to beat as lungs are to:",
-   "options": [
-    "breathe",
-    "sleep",
-    "digest",
-    "pump"
-   ],
-   "answer": 0,
-   "topic": "Analogies",
-   "source": "verbal_analogy_diagnostic_test"
-  },
-  {
-   "id": "1189450d2e",
-   "stem": "Lion is to roar as snake is to:",
-   "options": [
-    "hiss",
-    "growl",
-    "roar",
-    "buzz"
-   ],
-   "answer": 0,
-   "topic": "Analogies",
-   "source": "verbal_analogy_diagnostic_test"
-  },
-  {
-   "id": "cd634217e7",
-   "stem": "Spoon is to stir as knife is to:",
-   "options": [
-    "cut",
-    "stack",
-    "spread",
-    "pour"
-   ],
-   "answer": 0,
-   "topic": "Analogies",
-   "source": "verbal_analogy_diagnostic_test"
-  },
-  {
-   "id": "cd70c8c99b",
-   "stem": "Piano is to play as brush is to:",
-   "options": [
-    "paint",
-    "draw",
-    "create",
-    "design"
-   ],
-   "answer": 0,
-   "topic": "Analogies",
-   "source": "verbal_analogy_diagnostic_test"
-  },
-  {
-   "id": "4f7a830fe2",
-   "stem": "Toe is to foot as finger is to:",
-   "options": [
-    "hand",
-    "toe",
-    "wrist",
-    "arm"
-   ],
-   "answer": 0,
-   "topic": "Analogies",
-   "source": "verbal_analogy_diagnostic_test"
-  },
-  {
-   "id": "c3daf5cba1",
-   "stem": "Tree is to forest as star is to:",
-   "options": [
-    "sky",
-    "space",
-    "mountain",
-    "constellation"
-   ],
-   "answer": 3,
-   "topic": "Analogies",
-   "source": "verbal_analogy_diagnostic_test"
-  },
-  {
-   "id": "a734f7becd",
-   "stem": "Bee is to hive as bird is to:",
-   "options": [
-    "nest",
-    "tree",
-    "beak",
-    "branch"
-   ],
-   "answer": 0,
-   "topic": "Analogies",
-   "source": "verbal_analogy_diagnostic_test"
-  },
-  {
-   "id": "8e70994c5c",
-   "stem": "Doctor is to patient as lawyer is to:",
-   "options": [
-    "defendant",
-    "jury",
-    "client",
-    "judge"
-   ],
-   "answer": 2,
-   "topic": "Analogies",
-   "source": "verbal_analogy_diagnostic_test"
-  },
-  {
-   "id": "b1ea133687",
-   "stem": "Spring is to flowers as fall is to:",
-   "options": [
-    "leaves",
-    "wind",
-    "snow",
-    "clouds"
-   ],
-   "answer": 0,
-   "topic": "Analogies",
-   "source": "verbal_analogy_diagnostic_test"
-  },
-  {
-   "id": "53ea66cbe8",
-   "stem": "A swift runner is:",
-   "options": [
-    "slow",
-    "fast",
-    "clumsy",
-    "tired"
-   ],
-   "answer": 1,
-   "topic": "Synonyms",
-   "source": "synonym_diagnostic_test"
-  },
-  {
-   "id": "a982d39f9a",
-   "stem": "A cheerful person is:",
-   "options": [
-    "happy",
-    "sad",
-    "angry",
-    "sleepy"
-   ],
-   "answer": 0,
-   "topic": "Synonyms",
-   "source": "synonym_diagnostic_test"
-  },
-  {
-   "id": "24dc8452e5",
-   "stem": "A vast ocean is:",
-   "options": [
-    "small",
-    "deep",
-    "narrow",
-    "huge"
-   ],
-   "answer": 3,
-   "topic": "Synonyms",
-   "source": "synonym_diagnostic_test"
-  },
-  {
-   "id": "d97186a3d2",
-   "stem": "A timid animal is:",
-   "options": [
-    "brave",
-    "shy",
-    "loud",
-    "fast"
-   ],
-   "answer": 1,
-   "topic": "Synonyms",
-   "source": "synonym_diagnostic_test"
-  },
-  {
-   "id": "4c7da86eaa",
-   "stem": "A brilliant idea is:",
-   "options": [
-    "dim",
-    "clear",
-    "foolish",
-    "clever"
-   ],
-   "answer": 3,
-   "topic": "Synonyms",
-   "source": "synonym_diagnostic_test"
-  },
-  {
-   "id": "c2322d5572",
-   "stem": "A frigid day is:",
-   "options": [
-    "warm",
-    "cold",
-    "hot",
-    "humid"
-   ],
-   "answer": 1,
-   "topic": "Synonyms",
-   "source": "synonym_diagnostic_test"
-  },
-  {
-   "id": "fc4e220367",
-   "stem": "A flawless performance is:",
-   "options": [
-    "perfect",
-    "flawed",
-    "good",
-    "clumsy"
-   ],
-   "answer": 0,
-   "topic": "Synonyms",
-   "source": "synonym_diagnostic_test"
-  },
-  {
-   "id": "9a1273b9f9",
-   "stem": "A robust tree is:",
-   "options": [
-    "weak",
-    "tall",
-    "strong",
-    "short"
-   ],
-   "answer": 2,
-   "topic": "Synonyms",
-   "source": "synonym_diagnostic_test"
-  },
-  {
-   "id": "bb080f04e0",
-   "stem": "A vibrant color is:",
-   "options": [
-    "dull",
-    "bright",
-    "faded",
-    "dim"
-   ],
-   "answer": 1,
-   "topic": "Synonyms",
-   "source": "synonym_diagnostic_test"
-  },
-  {
-   "id": "8d72282a9b",
-   "stem": "A colossal building is:",
-   "options": [
-    "tiny",
-    "huge",
-    "fragile",
-    "short"
-   ],
-   "answer": 1,
-   "topic": "Synonyms",
-   "source": "synonym_diagnostic_test"
-  },
-  {
-   "id": "9bdbac5d95",
-   "stem": "A courageous soldier is:",
-   "options": [
-    "timid",
-    "afraid",
-    "brave",
-    "careless"
-   ],
-   "answer": 2,
-   "topic": "Synonyms",
-   "source": "synonym_diagnostic_test"
-  },
-  {
-   "id": "22604d2220",
-   "stem": "A dense forest is:",
-   "options": [
-    "sparse",
-    "thin",
-    "thick",
-    "tall"
-   ],
-   "answer": 2,
-   "topic": "Synonyms",
-   "source": "synonym_diagnostic_test"
-  },
-  {
-   "id": "5b9df681df",
-   "stem": "An obsolete machine is:",
-   "options": [
-    "new",
-    "outdated",
-    "shiny",
-    "advanced"
-   ],
-   "answer": 1,
-   "topic": "Synonyms",
-   "source": "synonym_diagnostic_test"
-  },
-  {
-   "id": "7ced317729",
-   "stem": "A serene lake is:",
-   "options": [
-    "noisy",
-    "calm",
-    "stormy",
-    "restless"
-   ],
-   "answer": 1,
-   "topic": "Synonyms",
-   "source": "synonym_diagnostic_test"
-  },
-  {
-   "id": "4611921671",
-   "stem": "A tedious task is:",
-   "options": [
-    "exciting",
-    "boring",
-    "fun",
-    "brief"
-   ],
-   "answer": 1,
-   "topic": "Synonyms",
-   "source": "synonym_diagnostic_test"
-  },
-  {
-   "id": "2883becfb1",
-   "stem": "A hostile environment is:",
-   "options": [
-    "friendly",
-    "welcoming",
-    "dangerous",
-    "peaceful"
-   ],
-   "answer": 2,
-   "topic": "Synonyms",
-   "source": "synonym_diagnostic_test"
-  },
-  {
-   "id": "5ea6defe9c",
-   "stem": "A reluctant participant is:",
-   "options": [
-    "eager",
-    "willing",
-    "hesitant",
-    "quick"
-   ],
-   "answer": 2,
-   "topic": "Synonyms",
-   "source": "synonym_diagnostic_test"
-  },
-  {
-   "id": "b24e4f381f",
-   "stem": "A transparent window is:",
-   "options": [
-    "clear",
-    "dark",
-    "tinted",
-    "opaque"
-   ],
-   "answer": 0,
-   "topic": "Synonyms",
-   "source": "synonym_diagnostic_test"
-  },
-  {
-   "id": "2cdbad1e56",
-   "stem": "An agile athlete is:",
-   "options": [
-    "slow",
-    "clumsy",
-    "graceful",
-    "uncoordinated"
-   ],
-   "answer": 2,
-   "topic": "Synonyms",
-   "source": "synonym_diagnostic_test"
-  },
-  {
-   "id": "7a4744d949",
-   "stem": "A prosperous business is:",
-   "options": [
-    "failing",
-    "successful",
-    "struggling",
-    "small"
-   ],
-   "answer": 1,
-   "topic": "Synonyms",
-   "source": "synonym_diagnostic_test"
-  },
-  {
-   "id": "2ba9735abb",
-   "stem": "A cautious driver is:",
-   "options": [
-    "reckless",
-    "careless",
-    "careful",
-    "fast"
-   ],
-   "answer": 2,
-   "topic": "Synonyms",
-   "source": "synonym_diagnostic_test"
-  },
-  {
-   "id": "2af997e433",
-   "stem": "A barren desert is:",
-   "options": [
-    "fertile",
-    "sandy",
-    "empty",
-    "wet"
-   ],
-   "answer": 2,
-   "topic": "Synonyms",
-   "source": "synonym_diagnostic_test"
-  },
-  {
-   "id": "24eeb22a8b",
-   "stem": "A radiant smile is:",
-   "options": [
-    "dull",
-    "bright",
-    "crooked",
-    "dark"
-   ],
-   "answer": 1,
-   "topic": "Synonyms",
-   "source": "synonym_diagnostic_test"
-  },
-  {
-   "id": "65f3137257",
-   "stem": "A perilous journey is:",
-   "options": [
-    "safe",
-    "dangerous",
-    "boring",
-    "pleasant"
-   ],
-   "answer": 1,
-   "topic": "Synonyms",
-   "source": "synonym_diagnostic_test"
-  },
-  {
-   "id": "abf41f393f",
-   "stem": "A trivial detail is:",
-   "options": [
-    "important",
-    "insignificant",
-    "tiny",
-    "massive"
-   ],
-   "answer": 1,
-   "topic": "Synonyms",
-   "source": "synonym_diagnostic_test"
-  },
-  {
-   "id": "75e3fe0628",
-   "stem": "A profound thought is:",
-   "options": [
-    "shallow",
-    "deep",
-    "simple",
-    "confusing"
-   ],
-   "answer": 1,
-   "topic": "Synonyms",
-   "source": "synonym_diagnostic_test"
-  },
-  {
-   "id": "67203c9336",
-   "stem": "An intricate design is:",
-   "options": [
-    "simple",
-    "complex",
-    "messy",
-    "broken"
-   ],
-   "answer": 1,
-   "topic": "Synonyms",
-   "source": "synonym_diagnostic_test"
-  },
-  {
-   "id": "846b048e08",
-   "stem": "A relentless storm is:",
-   "options": [
-    "calm",
-    "weak",
-    "raging",
-    "gentle"
-   ],
-   "answer": 2,
-   "topic": "Synonyms",
-   "source": "synonym_diagnostic_test"
-  },
-  {
-   "id": "6b8e898c6d",
-   "stem": "A malicious rumor is:",
-   "options": [
-    "kind",
-    "evil",
-    "silly",
-    "funny"
-   ],
-   "answer": 1,
-   "topic": "Synonyms",
-   "source": "synonym_diagnostic_test"
-  },
-  {
-   "id": "02bd5d5c98",
-   "stem": "A weary traveler is:",
-   "options": [
-    "energetic",
-    "tired",
-    "lost",
-    "healthy"
-   ],
-   "answer": 1,
-   "topic": "Synonyms",
-   "source": "synonym_diagnostic_test"
-  },
-  {
-   "id": "afcb5ce138",
-   "stem": "A jubilant crowd is:",
-   "options": [
-    "sad",
-    "cheerful",
-    "angry",
-    "quiet"
-   ],
-   "answer": 1,
-   "topic": "Synonyms",
-   "source": "synonym_diagnostic_test"
-  },
-  {
-   "id": "971e28de57",
-   "stem": "A sturdy bridge is:",
-   "options": [
-    "weak",
-    "strong",
-    "fragile",
-    "short"
-   ],
-   "answer": 1,
-   "topic": "Synonyms",
-   "source": "synonym_diagnostic_test"
-  },
-  {
-   "id": "7421730472",
-   "stem": "A meager meal is:",
-   "options": [
-    "large",
-    "small",
-    "plentiful",
-    "expensive"
-   ],
-   "answer": 1,
-   "topic": "Synonyms",
-   "source": "synonym_diagnostic_test"
-  },
-  {
-   "id": "23c6b3a642",
-   "stem": "A tranquil evening is:",
-   "options": [
-    "chaotic",
-    "peaceful",
-    "noisy",
-    "stormy"
-   ],
-   "answer": 1,
-   "topic": "Synonyms",
-   "source": "synonym_diagnostic_test"
-  },
-  {
-   "id": "811855739f",
-   "stem": "A fleeting moment is:",
-   "options": [
-    "enduring",
-    "brief",
-    "lasting",
-    "long"
-   ],
-   "answer": 1,
-   "topic": "Synonyms",
-   "source": "synonym_diagnostic_test"
-  },
-  {
-   "id": "2cb748b935",
-   "stem": "A notorious criminal is:",
-   "options": [
-    "unknown",
-    "famous",
-    "happy",
-    "friendly"
-   ],
-   "answer": 1,
-   "topic": "Synonyms",
-   "source": "synonym_diagnostic_test"
-  },
-  {
-   "id": "f25b1dd2ae",
-   "stem": "A vibrant personality is:",
-   "options": [
-    "boring",
-    "stiff",
-    "colorful",
-    "quiet"
-   ],
-   "answer": 2,
-   "topic": "Synonyms",
-   "source": "synonym_diagnostic_test"
-  },
-  {
-   "id": "a64bccd355",
-   "stem": "All birds can fly. Penguins are birds. Penguins cannot fly. If the first two statements are true, the third is:",
-   "options": [
-    "TRUE",
-    "FALSE",
-    "uncertain"
-   ],
-   "answer": 1,
-   "topic": "Verbal Logic",
-   "source": "verbal_logic_diagnostic_test"
-  },
-  {
-   "id": "ec767b5f84",
-   "stem": "All apples are fruits. All fruits are sweet. Some apples are not sweet. If the first two statements are true, the third is:",
-   "options": [
-    "TRUE",
-    "FALSE",
-    "uncertain"
-   ],
-   "answer": 1,
-   "topic": "Verbal Logic",
-   "source": "verbal_logic_diagnostic_test"
-  },
-  {
-   "id": "237092e0c5",
-   "stem": "Cats are smaller than dogs. Rabbits are smaller than cats. Rabbits are smaller than dogs. If the first two statements are true, the third is:",
-   "options": [
-    "TRUE",
-    "FALSE",
-    "uncertain"
-   ],
-   "answer": 0,
-   "topic": "Verbal Logic",
-   "source": "verbal_logic_diagnostic_test"
-  },
-  {
-   "id": "7b38f55cbf",
-   "stem": "The sun is larger than the Earth. The moon is smaller than the Earth. The moon is smaller than the sun. If the first two statements are true, the third is:",
-   "options": [
-    "TRUE",
-    "FALSE",
-    "uncertain"
-   ],
-   "answer": 0,
-   "topic": "Verbal Logic",
-   "source": "verbal_logic_diagnostic_test"
-  },
-  {
-   "id": "caf75c4fb0",
-   "stem": "All cars have wheels. Bicycles have wheels. Bicycles are cars. If the first two statements are true, the third is:",
-   "options": [
-    "TRUE",
-    "FALSE",
-    "uncertain"
-   ],
-   "answer": 2,
-   "topic": "Verbal Logic",
-   "source": "verbal_logic_diagnostic_test"
-  },
-  {
-   "id": "3f2dfd477d",
-   "stem": "All mammals have lungs. Fish do not have lungs. Fish are mammals. If the first two statements are true, the third is:",
-   "options": [
-    "TRUE",
-    "FALSE",
-    "uncertain"
-   ],
-   "answer": 1,
-   "topic": "Verbal Logic",
-   "source": "verbal_logic_diagnostic_test"
-  },
-  {
-   "id": "5a351f2fd1",
-   "stem": "All roses are red. Some flowers are roses. All flowers are red. If the first two statements are true, the third is:",
-   "options": [
-    "TRUE",
-    "FALSE",
-    "uncertain"
-   ],
-   "answer": 2,
-   "topic": "Verbal Logic",
-   "source": "verbal_logic_diagnostic_test"
-  },
-  {
-   "id": "175cb21531",
-   "stem": "Tom is taller than Jane. Jane is taller than Sarah. Tom is taller than Sarah. If the first two statements are true, the third is:",
-   "options": [
-    "TRUE",
-    "FALSE",
-    "uncertain"
-   ],
-   "answer": 0,
-   "topic": "Verbal Logic",
-   "source": "verbal_logic_diagnostic_test"
-  },
-  {
-   "id": "75cc1df274",
-   "stem": "A chair is heavier than a book. A table is heavier than a chair. A table is heavier than a book. If the first two statements are true, the third is:",
-   "options": [
-    "TRUE",
-    "FALSE",
-    "uncertain"
-   ],
-   "answer": 0,
-   "topic": "Verbal Logic",
-   "source": "verbal_logic_diagnostic_test"
-  },
-  {
-   "id": "6f1aa5db03",
-   "stem": "All fish can swim. Whales can swim. Whales are fish. If the first two statements are true, the third is:",
-   "options": [
-    "TRUE",
-    "FALSE",
-    "uncertain"
-   ],
-   "answer": 2,
-   "topic": "Verbal Logic",
-   "source": "verbal_logic_diagnostic_test"
-  },
-  {
-   "id": "427c13568b",
-   "stem": "All birds have feathers. Some animals have feathers. All animals are birds. If the first two statements are true, the third is:",
-   "options": [
-    "TRUE",
-    "FALSE",
-    "uncertain"
-   ],
-   "answer": 2,
-   "topic": "Verbal Logic",
-   "source": "verbal_logic_diagnostic_test"
-  },
-  {
-   "id": "5e4ba20987",
-   "stem": "Tigers are faster than lions. Lions are faster than humans. Tigers are faster than humans. If the first two statements are true, the third is:",
-   "options": [
-    "TRUE",
-    "FALSE",
-    "uncertain"
-   ],
-   "answer": 0,
-   "topic": "Verbal Logic",
-   "source": "verbal_logic_diagnostic_test"
-  },
-  {
-   "id": "ed9bddcc94",
-   "stem": "All spiders have eight legs. Some animals have eight legs. All spiders are animals. If the first two statements are true, the third is:",
-   "options": [
-    "TRUE",
-    "FALSE",
-    "uncertain"
-   ],
-   "answer": 2,
-   "topic": "Verbal Logic",
-   "source": "verbal_logic_diagnostic_test"
-  },
-  {
-   "id": "8ce7e99040",
-   "stem": "Chocolate is sweeter than vanilla. Ice cream is sweeter than cake. Ice cream is sweeter than chocolate. If the first two statements are true, the third is:",
-   "options": [
-    "TRUE",
-    "FALSE",
-    "uncertain"
-   ],
-   "answer": 2,
-   "topic": "Verbal Logic",
-   "source": "verbal_logic_diagnostic_test"
-  },
-  {
-   "id": "33057c665b",
-   "stem": "All squares are rectangles. Some rectangles are blue. Some squares are blue. If the first two statements are true, the third is:",
-   "options": [
-    "TRUE",
-    "FALSE",
-    "uncertain"
-   ],
-   "answer": 2,
-   "topic": "Verbal Logic",
-   "source": "verbal_logic_diagnostic_test"
-  },
-  {
-   "id": "8c0f889281",
-   "stem": "Water is heavier than air. Air is invisible. Water is invisible. If the first two statements are true, the third is:",
-   "options": [
-    "TRUE",
-    "FALSE",
-    "uncertain"
-   ],
-   "answer": 2,
-   "topic": "Verbal Logic",
-   "source": "verbal_logic_diagnostic_test"
-  },
-  {
-   "id": "e1e1cdbdf8",
-   "stem": "A pen is longer than a pencil. A pencil is longer than a ruler. A pen is longer than a ruler. If the first two statements are true, the third is:",
-   "options": [
-    "TRUE",
-    "FALSE",
-    "uncertain"
-   ],
-   "answer": 0,
-   "topic": "Verbal Logic",
-   "source": "verbal_logic_diagnostic_test"
-  },
-  {
-   "id": "a901534758",
-   "stem": "Gold is more valuable than silver. Silver is more valuable than bronze. Gold is more valuable than bronze. If the first two statements are true, the third is:",
-   "options": [
-    "TRUE",
-    "FALSE",
-    "uncertain"
-   ],
-   "answer": 0,
-   "topic": "Verbal Logic",
-   "source": "verbal_logic_diagnostic_test"
-  },
-  {
-   "id": "834d2d47a6",
-   "stem": "Some dogs are black. All poodles are dogs. Some poodles are black. If the first two statements are true, the third is:",
-   "options": [
-    "TRUE",
-    "FALSE",
-    "uncertain"
-   ],
-   "answer": 2,
-   "topic": "Verbal Logic",
-   "source": "verbal_logic_diagnostic_test"
-  },
-  {
-   "id": "710e7083a5",
-   "stem": "All flowers bloom in spring. Tulips are flowers. Tulips bloom in spring. If the first two statements are true, the third is:",
-   "options": [
-    "TRUE",
-    "FALSE",
-    "uncertain"
-   ],
-   "answer": 0,
-   "topic": "Verbal Logic",
-   "source": "verbal_logic_diagnostic_test"
-  },
-  {
-   "id": "8d6656f42e",
-   "stem": "All trains have engines. Some cars have engines. All cars are trains. If the first two statements are true, the third is:",
-   "options": [
-    "TRUE",
-    "FALSE",
-    "uncertain"
-   ],
-   "answer": 2,
-   "topic": "Verbal Logic",
-   "source": "verbal_logic_diagnostic_test"
-  },
-  {
-   "id": "c19bd5e75d",
-   "stem": "All squares have four sides. Some shapes have four sides. Some shapes are squares. If the first two statements are true, the third is:",
-   "options": [
-    "TRUE",
-    "FALSE",
-    "uncertain"
-   ],
-   "answer": 2,
-   "topic": "Verbal Logic",
-   "source": "verbal_logic_diagnostic_test"
-  },
-  {
-   "id": "351a8fc384",
-   "stem": "Tomatoes are red. Apples are red. Tomatoes are apples. If the first two statements are true, the third is:",
-   "options": [
-    "TRUE",
-    "FALSE",
-    "uncertain"
-   ],
-   "answer": 2,
-   "topic": "Verbal Logic",
-   "source": "verbal_logic_diagnostic_test"
-  },
-  {
-   "id": "bdfc0511b5",
-   "stem": "A bicycle has two wheels. A unicycle has one wheel. A tricycle has three wheels. If the first two statements are true, the third is:",
-   "options": [
-    "TRUE",
-    "FALSE",
-    "uncertain"
-   ],
-   "answer": 2,
-   "topic": "Verbal Logic",
-   "source": "verbal_logic_diagnostic_test"
-  },
-  {
-   "id": "b2f8462625",
-   "stem": "Birds can fly. Airplanes can fly. Airplanes are birds. If the first two statements are true, the third is:",
-   "options": [
-    "TRUE",
-    "FALSE",
-    "uncertain"
-   ],
-   "answer": 2,
-   "topic": "Verbal Logic",
-   "source": "verbal_logic_diagnostic_test"
-  },
-  {
-   "id": "c3c64ace80",
-   "stem": "Cars are faster than bicycles. Trains are faster than cars. Trains are faster than bicycles. If the first two statements are true, the third is:",
-   "options": [
-    "TRUE",
-    "FALSE",
-    "uncertain"
-   ],
-   "answer": 0,
-   "topic": "Verbal Logic",
-   "source": "verbal_logic_diagnostic_test"
-  },
-  {
-   "id": "196e790a05",
-   "stem": "Some birds can swim. Penguins are birds. Penguins can swim. If the first two statements are true, the third is:",
-   "options": [
-    "TRUE",
-    "FALSE",
-    "uncertain"
-   ],
-   "answer": 2,
-   "topic": "Verbal Logic",
-   "source": "verbal_logic_diagnostic_test"
-  },
-  {
-   "id": "e0ae237457",
-   "stem": "All books have pages. Magazines are books. Magazines have pages. If the first two statements are true, the third is:",
-   "options": [
-    "TRUE",
-    "FALSE",
-    "uncertain"
-   ],
-   "answer": 0,
-   "topic": "Verbal Logic",
-   "source": "verbal_logic_diagnostic_test"
-  },
-  {
-   "id": "f9ee232b19",
-   "stem": "All fruits have seeds. Apples have seeds. Apples are fruits. If the first two statements are true, the third is:",
-   "options": [
-    "TRUE",
-    "FALSE",
-    "uncertain"
-   ],
-   "answer": 2,
-   "topic": "Verbal Logic",
-   "source": "verbal_logic_diagnostic_test"
-  },
-  {
-   "id": "b1a6177865",
-   "stem": "All humans breathe air. Fish breathe water. Fish are not humans. If the first two statements are true, the third is:",
-   "options": [
-    "TRUE",
-    "FALSE",
-    "uncertain"
-   ],
-   "answer": 2,
-   "topic": "Verbal Logic",
-   "source": "verbal_logic_diagnostic_test"
-  },
-  {
-   "id": "4398090811",
-   "stem": "All computers need electricity. Laptops are computers. Laptops need electricity. If the first two statements are true, the third is:",
-   "options": [
-    "TRUE",
-    "FALSE",
-    "uncertain"
-   ],
-   "answer": 0,
-   "topic": "Verbal Logic",
-   "source": "verbal_logic_diagnostic_test"
-  },
-  {
-   "id": "a9f9eb6ebc",
-   "stem": "Some trees have leaves. All oaks are trees. Some oaks have leaves. If the first two statements are true, the third is:",
-   "options": [
-    "TRUE",
-    "FALSE",
-    "uncertain"
-   ],
-   "answer": 2,
-   "topic": "Verbal Logic",
-   "source": "verbal_logic_diagnostic_test"
-  },
-  {
-   "id": "fac0ba0f3c",
-   "stem": "All shoes have laces. Sandals do not have laces. Sandals are not shoes. If the first two statements are true, the third is:",
-   "options": [
-    "TRUE",
-    "FALSE",
-    "uncertain"
-   ],
-   "answer": 0,
-   "topic": "Verbal Logic",
-   "source": "verbal_logic_diagnostic_test"
-  },
-  {
-   "id": "68ed773dd9",
-   "stem": "Some animals eat plants. Cows are animals. Cows eat plants. If the first two statements are true, the third is:",
-   "options": [
-    "TRUE",
-    "FALSE",
-    "uncertain"
-   ],
-   "answer": 2,
-   "topic": "Verbal Logic",
-   "source": "verbal_logic_diagnostic_test"
-  },
-  {
-   "id": "d3e0439b8e",
-   "stem": "All keys unlock doors. Some keys are small. Some small things unlock doors. If the first two statements are true, the third is:",
-   "options": [
-    "TRUE",
-    "FALSE",
-    "uncertain"
-   ],
-   "answer": 0,
-   "topic": "Verbal Logic",
-   "source": "verbal_logic_diagnostic_test"
-  },
-  {
-   "id": "1c280ab3f7",
-   "stem": "All triangles have three sides. Some shapes have three sides. Some shapes are triangles. If the first two statements are true, the third is:",
-   "options": [
-    "TRUE",
-    "FALSE",
-    "uncertain"
-   ],
-   "answer": 2,
-   "topic": "Verbal Logic",
-   "source": "verbal_logic_diagnostic_test"
-  },
-  {
-   "id": "2471aa4108",
-   "stem": "All liquids can flow. Some oils are liquids. Some oils can flow. If the first two statements are true, the third is:",
-   "options": [
-    "TRUE",
-    "FALSE",
-    "uncertain"
-   ],
-   "answer": 0,
-   "topic": "Verbal Logic",
-   "source": "verbal_logic_diagnostic_test"
-  },
-  {
-   "id": "acf4e981d0",
-   "stem": "All clouds are white. Some white things are soft. Some clouds are soft. If the first two statements are true, the third is:",
-   "options": [
-    "TRUE",
-    "FALSE",
-    "uncertain"
-   ],
-   "answer": 2,
-   "topic": "Verbal Logic",
-   "source": "verbal_logic_diagnostic_test"
-  },
-  {
-   "id": "f3a62d0903",
-   "stem": "Some pencils are red. All pencils have erasers. Some red pencils have erasers. If the first two statements are true, the third is:",
-   "options": [
-    "TRUE",
-    "FALSE",
-    "uncertain"
-   ],
-   "answer": 0,
-   "topic": "Verbal Logic",
-   "source": "verbal_logic_diagnostic_test"
-  },
-  {
-   "id": "e934ff37b4",
-   "stem": "All circles are round. Some round things are balls. Some circles are balls. If the first two statements are true, the third is:",
-   "options": [
-    "TRUE",
-    "FALSE",
-    "uncertain"
-   ],
-   "answer": 2,
-   "topic": "Verbal Logic",
-   "source": "verbal_logic_diagnostic_test"
-  },
-  {
-   "id": "2f63743b23",
-   "stem": "Which word does not belong with the others?",
-   "options": [
-    "Apple",
-    "Orange",
-    "Banana",
-    "Carrot"
-   ],
-   "answer": 3,
-   "topic": "Classification",
-   "source": "verbal_classification_diagnostic_test_remake"
-  },
-  {
-   "id": "d90ed01e14",
-   "stem": "Which word does not belong with the others?",
-   "options": [
-    "Knife",
-    "Fork",
-    "Spoon",
-    "Plate"
-   ],
-   "answer": 3,
-   "topic": "Classification",
-   "source": "verbal_classification_diagnostic_test_remake"
-  },
-  {
-   "id": "4bcdb1d886",
-   "stem": "Which word does not belong with the others?",
-   "options": [
-    "Guitar",
-    "Piano",
-    "Drum",
-    "Book"
-   ],
-   "answer": 3,
-   "topic": "Classification",
-   "source": "verbal_classification_diagnostic_test_remake"
-  },
-  {
-   "id": "2e06061e55",
-   "stem": "Which word does not belong with the others?",
-   "options": [
-    "Summer",
-    "Fall",
-    "January",
-    "Winter"
-   ],
-   "answer": 2,
-   "topic": "Classification",
-   "source": "verbal_classification_diagnostic_test_remake"
-  },
-  {
-   "id": "2d75c73872",
-   "stem": "Which word does not belong with the others?",
-   "options": [
-    "Milk",
-    "Cheese",
-    "Butter",
-    "Bread"
-   ],
-   "answer": 3,
-   "topic": "Classification",
-   "source": "verbal_classification_diagnostic_test_remake"
-  },
-  {
-   "id": "ec319dd660",
-   "stem": "Which word does not belong with the others?",
-   "options": [
-    "Boat",
-    "Car",
-    "Bicycle",
-    "Train"
-   ],
-   "answer": 0,
-   "topic": "Classification",
-   "source": "verbal_classification_diagnostic_test_remake"
-  },
-  {
-   "id": "1005384227",
-   "stem": "Which word does not belong with the others?",
-   "options": [
-    "Rose",
-    "Tulip",
-    "Daisy",
-    "Tree"
-   ],
-   "answer": 3,
-   "topic": "Classification",
-   "source": "verbal_classification_diagnostic_test_remake"
-  },
-  {
-   "id": "212a7b8ba1",
-   "stem": "Which word does not belong with the others?",
-   "options": [
-    "Lion",
-    "Tiger",
-    "Leopard",
-    "Shark"
-   ],
-   "answer": 3,
-   "topic": "Classification",
-   "source": "verbal_classification_diagnostic_test_remake"
-  },
-  {
-   "id": "9d5514194f",
-   "stem": "Which word does not belong with the others?",
-   "options": [
-    "Chair",
-    "Table",
-    "Desk",
-    "Lamp"
-   ],
-   "answer": 3,
-   "topic": "Classification",
-   "source": "verbal_classification_diagnostic_test_remake"
-  },
-  {
-   "id": "6754d9b2b4",
-   "stem": "Which word does not belong with the others?",
-   "options": [
-    "Mountain",
-    "River",
-    "Lake",
-    "Ocean"
-   ],
-   "answer": 3,
-   "topic": "Classification",
-   "source": "verbal_classification_diagnostic_test_remake"
-  },
-  {
-   "id": "d0316c9abf",
-   "stem": "Which word does not belong with the others?",
-   "options": [
-    "Couch",
-    "Bed",
-    "Dresser",
-    "Window"
-   ],
-   "answer": 3,
-   "topic": "Classification",
-   "source": "verbal_classification_diagnostic_test_remake"
-  },
-  {
-   "id": "be80a4c56e",
-   "stem": "Which word does not belong with the others?",
-   "options": [
-    "Soccer",
-    "Basketball",
-    "Tennis",
-    "Painting"
-   ],
-   "answer": 3,
-   "topic": "Classification",
-   "source": "verbal_classification_diagnostic_test_remake"
-  },
-  {
-   "id": "6ca5f9aa6d",
-   "stem": "Which word does not belong with the others?",
-   "options": [
-    "Red",
-    "Blue",
-    "Yellow",
-    "Sky"
-   ],
-   "answer": 3,
-   "topic": "Classification",
-   "source": "verbal_classification_diagnostic_test_remake"
-  },
-  {
-   "id": "a2ff3403a0",
-   "stem": "Which word does not belong with the others?",
-   "options": [
-    "Pen",
-    "Pencil",
-    "Marker",
-    "Chalkboard"
-   ],
-   "answer": 3,
-   "topic": "Classification",
-   "source": "verbal_classification_diagnostic_test_remake"
-  },
-  {
-   "id": "d44b8b4ad0",
-   "stem": "Which word does not belong with the others?",
-   "options": [
-    "Breakfast",
-    "Lunch",
-    "Dinner",
-    "Nap"
-   ],
-   "answer": 3,
-   "topic": "Classification",
-   "source": "verbal_classification_diagnostic_test_remake"
-  },
-  {
-   "id": "e6c7936989",
-   "stem": "Which word does not belong with the others?",
-   "options": [
-    "Doctor",
-    "Teacher",
-    "Lawyer",
-    "Parent"
-   ],
-   "answer": 3,
-   "topic": "Classification",
-   "source": "verbal_classification_diagnostic_test_remake"
-  },
-  {
-   "id": "526c919d8e",
-   "stem": "Which word does not belong with the others?",
-   "options": [
-    "Apple",
-    "Pear",
-    "Grape",
-    "Carrot"
-   ],
-   "answer": 3,
-   "topic": "Classification",
-   "source": "verbal_classification_diagnostic_test_remake"
-  },
-  {
-   "id": "bb5197e4f8",
-   "stem": "Which word does not belong with the others?",
-   "options": [
-    "Dog",
-    "Cat",
-    "Rabbit",
-    "Fish"
-   ],
-   "answer": 3,
-   "topic": "Classification",
-   "source": "verbal_classification_diagnostic_test_remake"
-  },
-  {
-   "id": "ab6c332fb6",
-   "stem": "Which word does not belong with the others?",
-   "options": [
-    "Sun",
-    "Moon",
-    "Planet",
-    "Cloud"
-   ],
-   "answer": 3,
-   "topic": "Classification",
-   "source": "verbal_classification_diagnostic_test_remake"
-  },
-  {
-   "id": "7d206faa29",
-   "stem": "Which word does not belong with the others?",
-   "options": [
-    "Teacher",
-    "Student",
-    "Principal",
-    "Parent"
-   ],
-   "answer": 3,
-   "topic": "Classification",
-   "source": "verbal_classification_diagnostic_test_remake"
-  },
-  {
-   "id": "2d99e90c9d",
-   "stem": "Which word does not belong with the others?",
-   "options": [
-    "Shirt",
-    "Pants",
-    "Socks",
-    "Belt"
-   ],
-   "answer": 3,
-   "topic": "Classification",
-   "source": "verbal_classification_diagnostic_test_remake"
-  },
-  {
-   "id": "8323ef7de6",
-   "stem": "Which word does not belong with the others?",
-   "options": [
-    "Apple",
-    "Orange",
-    "Banana",
-    "Lettuce"
-   ],
-   "answer": 3,
-   "topic": "Classification",
-   "source": "verbal_classification_diagnostic_test_remake"
-  },
-  {
-   "id": "b61326fa92",
-   "stem": "Which word does not belong with the others?",
-   "options": [
-    "Knife",
-    "Fork",
-    "Bowl",
-    "Spoon"
-   ],
-   "answer": 3,
-   "topic": "Classification",
-   "source": "verbal_classification_diagnostic_test_remake"
-  },
-  {
-   "id": "8cc7b73863",
-   "stem": "Which word does not belong with the others?",
-   "options": [
-    "Tree",
-    "Grass",
-    "Flower",
-    "Rock"
-   ],
-   "answer": 3,
-   "topic": "Classification",
-   "source": "verbal_classification_diagnostic_test_remake"
-  },
-  {
-   "id": "7a2647a163",
-   "stem": "Which word does not belong with the others?",
-   "options": [
-    "Piano",
-    "Violin",
-    "Trumpet",
-    "Painting"
-   ],
-   "answer": 3,
-   "topic": "Classification",
-   "source": "verbal_classification_diagnostic_test_remake"
-  },
-  {
-   "id": "2d8605e533",
-   "stem": "Which word does not belong with the others?",
-   "options": [
-    "Couch",
-    "Chair",
-    "Table",
-    "Television"
-   ],
-   "answer": 3,
-   "topic": "Classification",
-   "source": "verbal_classification_diagnostic_test_remake"
-  },
-  {
-   "id": "aac135d0bb",
-   "stem": "Which word does not belong with the others?",
-   "options": [
-    "Carrot",
-    "Potato",
-    "Onion",
-    "Milk"
-   ],
-   "answer": 3,
-   "topic": "Classification",
-   "source": "verbal_classification_diagnostic_test_remake"
-  },
-  {
-   "id": "cc711c3a4e",
-   "stem": "Which word does not belong with the others?",
-   "options": [
-    "Rain",
-    "Snow",
-    "Hail",
-    "Sun"
-   ],
-   "answer": 3,
-   "topic": "Classification",
-   "source": "verbal_classification_diagnostic_test_remake"
-  },
-  {
-   "id": "20e6fef232",
-   "stem": "Which word does not belong with the others?",
-   "options": [
-    "Shirt",
-    "Hat",
-    "Scarf",
-    "Shoe"
-   ],
-   "answer": 3,
-   "topic": "Classification",
-   "source": "verbal_classification_diagnostic_test_remake"
-  },
-  {
-   "id": "bb4563e8aa",
-   "stem": "Which word does not belong with the others?",
-   "options": [
-    "Chocolate",
-    "Cake",
-    "Ice Cream",
-    "Water"
-   ],
-   "answer": 3,
-   "topic": "Classification",
-   "source": "verbal_classification_diagnostic_test_remake"
-  },
-  {
-   "id": "be6cf93302",
-   "stem": "Which word does not belong with the others?",
-   "options": [
-    "Dog",
-    "Cat",
-    "Hamster",
-    "Eagle"
-   ],
-   "answer": 3,
-   "topic": "Classification",
-   "source": "verbal_classification_diagnostic_test_remake"
-  },
-  {
-   "id": "17afaf3067",
-   "stem": "Which word does not belong with the others?",
-   "options": [
-    "Knife",
-    "Fork",
-    "Spoon",
-    "Table"
-   ],
-   "answer": 3,
-   "topic": "Classification",
-   "source": "verbal_classification_diagnostic_test_remake"
-  },
-  {
-   "id": "a15f8ef834",
-   "stem": "Which word does not belong with the others?",
-   "options": [
-    "Hand",
-    "Foot",
-    "Arm",
-    "Head"
-   ],
-   "answer": 3,
-   "topic": "Classification",
-   "source": "verbal_classification_diagnostic_test_remake"
-  },
-  {
-   "id": "684aed2943",
-   "stem": "Which word does not belong with the others?",
-   "options": [
-    "Apple",
-    "Banana",
-    "Orange",
-    "Tomato"
-   ],
-   "answer": 3,
-   "topic": "Classification",
-   "source": "verbal_classification_diagnostic_test_remake"
-  },
-  {
-   "id": "49cb9b864b",
-   "stem": "Which word does not belong with the others?",
-   "options": [
-    "Plane",
-    "Train",
-    "Boat",
-    "Bicycle"
-   ],
-   "answer": 3,
-   "topic": "Classification",
-   "source": "verbal_classification_diagnostic_test_remake"
-  },
-  {
-   "id": "8a5569fb18",
-   "stem": "Frugal means the opposite of:",
-   "options": [
-    "wasteful",
-    "stingy",
-    "economical",
-    "thrifty"
-   ],
-   "answer": 0,
-   "topic": "Antonyms",
-   "source": "antonym_diagnostic_test_remake"
-  },
-  {
-   "id": "1df7a757a0",
-   "stem": "Omit means the opposite of:",
-   "options": [
-    "delete",
-    "include",
-    "avoid",
-    "ignore"
-   ],
-   "answer": 1,
-   "topic": "Antonyms",
-   "source": "antonym_diagnostic_test_remake"
-  },
-  {
-   "id": "cd55a0a52f",
-   "stem": "Condemn means the opposite of:",
-   "options": [
-    "criticize",
-    "praise",
-    "reject",
-    "convict"
-   ],
-   "answer": 1,
-   "topic": "Antonyms",
-   "source": "antonym_diagnostic_test_remake"
-  },
-  {
-   "id": "f79f43a1d3",
-   "stem": "Vague means the opposite of:",
-   "options": [
-    "uncertain",
-    "precise",
-    "ambiguous",
-    "unclear"
-   ],
-   "answer": 1,
-   "topic": "Antonyms",
-   "source": "antonym_diagnostic_test_remake"
-  },
-  {
-   "id": "e93f94361b",
-   "stem": "Recede means the opposite of:",
-   "options": [
-    "advance",
-    "withdraw",
-    "retreat",
-    "diminish"
-   ],
-   "answer": 0,
-   "topic": "Antonyms",
-   "source": "antonym_diagnostic_test_remake"
-  },
-  {
-   "id": "824a70a258",
-   "stem": "Blunt means the opposite of:",
-   "options": [
-    "sharp",
-    "dull",
-    "honest",
-    "direct"
-   ],
-   "answer": 0,
-   "topic": "Antonyms",
-   "source": "antonym_diagnostic_test_remake"
-  },
-  {
-   "id": "7b9814e105",
-   "stem": "Indifference means the opposite of:",
-   "options": [
-    "apathy",
-    "concern",
-    "neutrality",
-    "disinterest"
-   ],
-   "answer": 1,
-   "topic": "Antonyms",
-   "source": "antonym_diagnostic_test_remake"
-  },
-  {
-   "id": "e6916cf345",
-   "stem": "Prohibit means the opposite of:",
-   "options": [
-    "permit",
-    "forbid",
-    "ban",
-    "restrict"
-   ],
-   "answer": 0,
-   "topic": "Antonyms",
-   "source": "antonym_diagnostic_test_remake"
-  },
-  {
-   "id": "dd7e73e9a5",
-   "stem": "Audible means the opposite of:",
-   "options": [
-    "loud",
-    "silent",
-    "heard",
-    "visible"
-   ],
-   "answer": 1,
-   "topic": "Antonyms",
-   "source": "antonym_diagnostic_test_remake"
-  },
-  {
-   "id": "f8e9a0b99c",
-   "stem": "Fragile means the opposite of:",
-   "options": [
-    "brittle",
-    "weak",
-    "sturdy",
-    "soft"
-   ],
-   "answer": 2,
-   "topic": "Antonyms",
-   "source": "antonym_diagnostic_test_remake"
-  },
-  {
-   "id": "fb16e50781",
-   "stem": "Relinquish means the opposite of:",
-   "options": [
-    "claim",
-    "abandon",
-    "surrender",
-    "release"
-   ],
-   "answer": 0,
-   "topic": "Antonyms",
-   "source": "antonym_diagnostic_test_remake"
-  },
-  {
-   "id": "68e1d81734",
-   "stem": "Eloquent means the opposite of:",
-   "options": [
-    "inarticulate",
-    "fluent",
-    "expressive",
-    "persuasive"
-   ],
-   "answer": 0,
-   "topic": "Antonyms",
-   "source": "antonym_diagnostic_test_remake"
-  },
-  {
-   "id": "099f286e52",
-   "stem": "Audacity means the opposite of:",
-   "options": [
-    "courage",
-    "timidity",
-    "boldness",
-    "nerve"
-   ],
-   "answer": 1,
-   "topic": "Antonyms",
-   "source": "antonym_diagnostic_test_remake"
-  },
-  {
-   "id": "86a87865f7",
-   "stem": "Emulate means the opposite of:",
-   "options": [
-    "follow",
-    "imitate",
-    "innovate",
-    "copy"
-   ],
-   "answer": 2,
-   "topic": "Antonyms",
-   "source": "antonym_diagnostic_test_remake"
-  },
-  {
-   "id": "cc842c8c99",
-   "stem": "Imminent means the opposite of:",
-   "options": [
-    "immediate",
-    "distant",
-    "impending",
-    "approaching"
-   ],
-   "answer": 1,
-   "topic": "Antonyms",
-   "source": "antonym_diagnostic_test_remake"
-  },
-  {
-   "id": "fe3100a310",
-   "stem": "Compliant means the opposite of:",
-   "options": [
-    "defiant",
-    "cooperative",
-    "obedient",
-    "submissive"
-   ],
-   "answer": 0,
-   "topic": "Antonyms",
-   "source": "antonym_diagnostic_test_remake"
-  },
-  {
-   "id": "4324d913c6",
-   "stem": "Sparse means the opposite of:",
-   "options": [
-    "abundant",
-    "scarce",
-    "thin",
-    "inadequate"
-   ],
-   "answer": 0,
-   "topic": "Antonyms",
-   "source": "antonym_diagnostic_test_remake"
-  },
-  {
-   "id": "548ee3d03d",
-   "stem": "Inferior means the opposite of:",
-   "options": [
-    "mediocre",
-    "worse",
-    "superior",
-    "low"
-   ],
-   "answer": 2,
-   "topic": "Antonyms",
-   "source": "antonym_diagnostic_test_remake"
-  },
-  {
-   "id": "c478cd715a",
-   "stem": "Succinct means the opposite of:",
-   "options": [
-    "concise",
-    "verbose",
-    "brief",
-    "short"
-   ],
-   "answer": 1,
-   "topic": "Antonyms",
-   "source": "antonym_diagnostic_test_remake"
-  },
-  {
-   "id": "693843cfd7",
-   "stem": "Dismal means the opposite of:",
-   "options": [
-    "bright",
-    "gloomy",
-    "dreary",
-    "dull"
-   ],
-   "answer": 0,
-   "topic": "Antonyms",
-   "source": "antonym_diagnostic_test_remake"
-  },
-  {
-   "id": "2f388da9b0",
-   "stem": "Obscure means the opposite of:",
-   "options": [
-    "clear",
-    "hidden",
-    "unknown",
-    "vague"
-   ],
-   "answer": 0,
-   "topic": "Antonyms",
-   "source": "antonym_diagnostic_test_remake"
-  },
-  {
-   "id": "a35f4bc0d5",
-   "stem": "Insolent means the opposite of:",
-   "options": [
-    "respectful",
-    "rude",
-    "impolite",
-    "discourteous"
-   ],
-   "answer": 0,
-   "topic": "Antonyms",
-   "source": "antonym_diagnostic_test_remake"
-  },
-  {
-   "id": "2a92dc52da",
-   "stem": "Reticent means the opposite of:",
-   "options": [
-    "talkative",
-    "shy",
-    "reserved",
-    "introverted"
-   ],
-   "answer": 0,
-   "topic": "Antonyms",
-   "source": "antonym_diagnostic_test_remake"
-  },
-  {
-   "id": "f8e1864dd9",
-   "stem": "Tedious means the opposite of:",
-   "options": [
-    "interesting",
-    "boring",
-    "repetitive",
-    "monotonous"
-   ],
-   "answer": 0,
-   "topic": "Antonyms",
-   "source": "antonym_diagnostic_test_remake"
-  },
-  {
-   "id": "5886ff0ac3",
-   "stem": "Inept means the opposite of:",
-   "options": [
-    "competent",
-    "clumsy",
-    "awkward",
-    "bumbling"
-   ],
-   "answer": 0,
-   "topic": "Antonyms",
-   "source": "antonym_diagnostic_test_remake"
-  },
-  {
-   "id": "619a3ae8e2",
-   "stem": "Futile means the opposite of:",
-   "options": [
-    "useful",
-    "pointless",
-    "unproductive",
-    "ineffective"
-   ],
-   "answer": 0,
-   "topic": "Antonyms",
-   "source": "antonym_diagnostic_test_remake"
-  },
-  {
-   "id": "262da02650",
-   "stem": "Revoke means the opposite of:",
-   "options": [
-    "grant",
-    "cancel",
-    "void",
-    "repeal"
-   ],
-   "answer": 0,
-   "topic": "Antonyms",
-   "source": "antonym_diagnostic_test_remake"
-  },
-  {
-   "id": "5d9d51c7d8",
-   "stem": "Gregarious means the opposite of:",
-   "options": [
-    "reserved",
-    "sociable",
-    "outgoing",
-    "friendly"
-   ],
-   "answer": 0,
-   "topic": "Antonyms",
-   "source": "antonym_diagnostic_test_remake"
-  },
-  {
-   "id": "9139a95942",
-   "stem": "Rigid means the opposite of:",
-   "options": [
-    "firm",
-    "inflexible",
-    "adaptable",
-    "solid"
-   ],
-   "answer": 2,
-   "topic": "Antonyms",
-   "source": "antonym_diagnostic_test_remake"
-  },
-  {
-   "id": "46bcebd386",
-   "stem": "Candid means the opposite of:",
-   "options": [
-    "honest",
-    "evasive",
-    "frank",
-    "open"
-   ],
-   "answer": 1,
-   "topic": "Antonyms",
-   "source": "antonym_diagnostic_test_remake"
-  },
-  {
-   "id": "7037abb4f2",
-   "stem": "Coherent means the opposite of:",
-   "options": [
-    "logical",
-    "confused",
-    "consistent",
-    "organized"
-   ],
-   "answer": 1,
-   "topic": "Antonyms",
-   "source": "antonym_diagnostic_test_remake"
-  },
-  {
-   "id": "79fd892529",
-   "stem": "Plausible means the opposite of:",
-   "options": [
-    "believable",
-    "unlikely",
-    "convincing",
-    "possible"
-   ],
-   "answer": 1,
-   "topic": "Antonyms",
-   "source": "antonym_diagnostic_test_remake"
-  },
-  {
-   "id": "c1248ba15d",
-   "stem": "Sluggish means the opposite of:",
-   "options": [
-    "lethargic",
-    "energetic",
-    "slow",
-    "inactive"
-   ],
-   "answer": 1,
-   "topic": "Antonyms",
-   "source": "antonym_diagnostic_test_remake"
-  },
-  {
-   "id": "758e9128bb",
-   "stem": "Tangible means the opposite of:",
-   "options": [
-    "concrete",
-    "abstract",
-    "visible",
-    "solid"
-   ],
-   "answer": 1,
-   "topic": "Antonyms",
-   "source": "antonym_diagnostic_test_remake"
-  },
-  {
-   "id": "c2869aaa8d",
-   "stem": "Palpable means the opposite of:",
-   "options": [
-    "detectable",
-    "invisible",
-    "evident",
-    "noticeable"
-   ],
-   "answer": 1,
-   "topic": "Antonyms",
-   "source": "antonym_diagnostic_test_remake"
-  },
-  {
-   "id": "277efab83b",
-   "stem": "Superficial means the opposite of:",
-   "options": [
-    "deep",
-    "shallow",
-    "surface",
-    "exterior"
-   ],
-   "answer": 0,
-   "topic": "Antonyms",
-   "source": "antonym_diagnostic_test_remake"
-  },
-  {
-   "id": "60306378ac",
-   "stem": "Archaic means the opposite of:",
-   "options": [
-    "modern",
-    "ancient",
-    "outdated",
-    "old-fashioned"
-   ],
-   "answer": 0,
-   "topic": "Antonyms",
-   "source": "antonym_diagnostic_test_remake"
-  },
-  {
-   "id": "efbc62a169",
-   "stem": "Benevolent means the opposite of:",
-   "options": [
-    "kind",
-    "selfish",
-    "malevolent",
-    "gentle"
-   ],
-   "answer": 2,
-   "topic": "Antonyms",
-   "source": "antonym_diagnostic_test_remake"
-  },
-  {
-   "id": "c6b5f9bbc5",
-   "stem": "Resilient means the opposite of:",
-   "options": [
-    "flexible",
-    "fragile",
-    "tough",
-    "strong"
-   ],
-   "answer": 1,
-   "topic": "Antonyms",
-   "source": "antonym_diagnostic_test_remake"
-  },
-  {
-   "id": "1d722c7d26",
-   "stem": "an ambiguous answer",
-   "options": [
-    "clear",
-    "vague",
-    "enthusiastic",
-    "confident"
-   ],
-   "answer": 1,
-   "topic": "Vocabulary",
-   "source": "new_vocabulary_questions_1"
-  },
-  {
-   "id": "0cb07ec12e",
-   "stem": "to suppress a rebellion",
-   "options": [
-    "encourage",
-    "ignore",
-    "quell",
-    "lead"
-   ],
-   "answer": 2,
-   "topic": "Vocabulary",
-   "source": "new_vocabulary_questions_1"
-  },
-  {
-   "id": "34d396467c",
-   "stem": "a perilous journey",
-   "options": [
-    "safe",
-    "adventurous",
-    "risky",
-    "boring"
-   ],
-   "answer": 2,
-   "topic": "Vocabulary",
-   "source": "new_vocabulary_questions_1"
-  },
-  {
-   "id": "a1ceb69752",
-   "stem": "to foster creativity",
-   "options": [
-    "hinder",
-    "promote",
-    "ignore",
-    "forget"
-   ],
-   "answer": 1,
-   "topic": "Vocabulary",
-   "source": "new_vocabulary_questions_1"
-  },
-  {
-   "id": "b025913ba6",
-   "stem": "a mundane task",
-   "options": [
-    "exciting",
-    "ordinary",
-    "dangerous",
-    "complex"
-   ],
-   "answer": 1,
-   "topic": "Vocabulary",
-   "source": "new_vocabulary_questions_1"
-  },
-  {
-   "id": "6789da5110",
-   "stem": "an audacious plan",
-   "options": [
-    "timid",
-    "bold",
-    "cautious",
-    "traditional"
-   ],
-   "answer": 1,
-   "topic": "Vocabulary",
-   "source": "new_vocabulary_questions_1"
-  },
-  {
-   "id": "cc56994743",
-   "stem": "a fleeting moment",
-   "options": [
-    "brief",
-    "eternal",
-    "important",
-    "significant"
-   ],
-   "answer": 0,
-   "topic": "Vocabulary",
-   "source": "new_vocabulary_questions_1"
-  },
-  {
-   "id": "4c37844a95",
-   "stem": "to refute an argument",
-   "options": [
-    "support",
-    "weaken",
-    "dismiss",
-    "disprove"
-   ],
-   "answer": 3,
-   "topic": "Vocabulary",
-   "source": "new_vocabulary_questions_1"
-  },
-  {
-   "id": "a1228aeed7",
-   "stem": "a formidable challenge",
-   "options": [
-    "insignificant",
-    "easy",
-    "overwhelming",
-    "minor"
-   ],
-   "answer": 2,
-   "topic": "Vocabulary",
-   "source": "new_vocabulary_questions_1"
-  },
-  {
-   "id": "c735c585e3",
-   "stem": "to exacerbate tensions",
-   "options": [
-    "reduce",
-    "ease",
-    "worsen",
-    "settle"
-   ],
-   "answer": 2,
-   "topic": "Vocabulary",
-   "source": "new_vocabulary_questions_1"
-  },
-  {
-   "id": "7902670585",
-   "stem": "a futile attempt",
-   "options": [
-    "successful",
-    "pointless",
-    "heroic",
-    "misguided"
-   ],
-   "answer": 1,
-   "topic": "Vocabulary",
-   "source": "new_vocabulary_questions_1"
-  },
-  {
-   "id": "fab0cfaf20",
-   "stem": "a profound discovery",
-   "options": [
-    "shallow",
-    "deep",
-    "surprising",
-    "insignificant"
-   ],
-   "answer": 1,
-   "topic": "Vocabulary",
-   "source": "new_vocabulary_questions_1"
-  },
-  {
-   "id": "2e7eca4d90",
-   "stem": "a hostile reaction",
-   "options": [
-    "friendly",
-    "aggressive",
-    "neutral",
-    "passive"
-   ],
-   "answer": 1,
-   "topic": "Vocabulary",
-   "source": "new_vocabulary_questions_1"
-  },
-  {
-   "id": "8d9bf851d8",
-   "stem": "an impartial judge",
-   "options": [
-    "biased",
-    "strict",
-    "fair",
-    "lenient"
-   ],
-   "answer": 2,
-   "topic": "Vocabulary",
-   "source": "new_vocabulary_questions_1"
-  },
-  {
-   "id": "ff1a85e64e",
-   "stem": "a sporadic event",
-   "options": [
-    "regular",
-    "occasional",
-    "frequent",
-    "predictable"
-   ],
-   "answer": 1,
-   "topic": "Vocabulary",
-   "source": "new_vocabulary_questions_1"
-  },
-  {
-   "id": "dd7cb247f4",
-   "stem": "to vacillate on a decision",
-   "options": [
-    "decide",
-    "hesitate",
-    "affirm",
-    "act"
-   ],
-   "answer": 1,
-   "topic": "Vocabulary",
-   "source": "new_vocabulary_questions_1"
-  },
-  {
-   "id": "00592c2354",
-   "stem": "a trivial concern",
-   "options": [
-    "important",
-    "minor",
-    "urgent",
-    "crucial"
-   ],
-   "answer": 1,
-   "topic": "Vocabulary",
-   "source": "new_vocabulary_questions_1"
-  },
-  {
-   "id": "e9a9a09cfd",
-   "stem": "to instigate a conflict",
-   "options": [
-    "resolve",
-    "prevent",
-    "initiate",
-    "finish"
-   ],
-   "answer": 2,
-   "topic": "Vocabulary",
-   "source": "new_vocabulary_questions_1"
-  },
-  {
-   "id": "24d7a442f5",
-   "stem": "an inevitable outcome",
-   "options": [
-    "avoidable",
-    "certain",
-    "sudden",
-    "unlikely"
-   ],
-   "answer": 1,
-   "topic": "Vocabulary",
-   "source": "new_vocabulary_questions_1"
-  },
-  {
-   "id": "cbfe4443fd",
-   "stem": "a conspicuous error",
-   "options": [
-    "hidden",
-    "obvious",
-    "deliberate",
-    "subtle"
-   ],
-   "answer": 1,
-   "topic": "Vocabulary",
-   "source": "new_vocabulary_questions_1"
-  }
- ]
+  "section": "verbal",
+  "questions": [
+    {
+      "id": "2eba715e04",
+      "stem": "Red is to stop as green is to:",
+      "options": [
+        "go",
+        "slow",
+        "turn",
+        "pause"
+      ],
+      "answer": 0,
+      "topic": "Analogies",
+      "source": "verbal_analogy_diagnostic_test",
+      "explanation": "This matches a traffic light color to the order it gives drivers. Red means stop, so green means go."
+    },
+    {
+      "id": "5e462bf5d0",
+      "stem": "Knife is to cut as pencil is to:",
+      "options": [
+        "erase",
+        "sharpen",
+        "write",
+        "snap"
+      ],
+      "answer": 2,
+      "topic": "Analogies",
+      "source": "verbal_analogy_diagnostic_test",
+      "explanation": "This is a tool and the job it does. A knife is used to cut, so a pencil is used to write."
+    },
+    {
+      "id": "7a7f6eb0b5",
+      "stem": "First is to last as top is to:",
+      "options": [
+        "bottom",
+        "middle",
+        "high",
+        "peak"
+      ],
+      "answer": 0,
+      "topic": "Analogies",
+      "source": "verbal_analogy_diagnostic_test",
+      "explanation": "These pairs are opposites. First and last are the two ends of a line, so the opposite of top is bottom."
+    },
+    {
+      "id": "7a67b6d2c3",
+      "stem": "Chair is to sit as bed is to:",
+      "options": [
+        "sleep",
+        "eat",
+        "jump",
+        "fold"
+      ],
+      "answer": 0,
+      "topic": "Analogies",
+      "source": "verbal_analogy_diagnostic_test",
+      "explanation": "This links a piece of furniture to what you do on it. You sit on a chair, so you sleep on a bed."
+    },
+    {
+      "id": "63bd9698b1",
+      "stem": "Hot is to cold as dry is to:",
+      "options": [
+        "wet",
+        "rough",
+        "smooth",
+        "slippery"
+      ],
+      "answer": 0,
+      "topic": "Analogies",
+      "source": "verbal_analogy_diagnostic_test",
+      "explanation": "These pairs are opposites. Hot is the opposite of cold, so dry is the opposite of wet."
+    },
+    {
+      "id": "9340f406cd",
+      "stem": "Pen is to write as eraser is to:",
+      "options": [
+        "sharpen",
+        "smudge",
+        "erase",
+        "ink"
+      ],
+      "answer": 2,
+      "topic": "Analogies",
+      "source": "verbal_analogy_diagnostic_test",
+      "explanation": "This is a tool and the job it does. A pen is made to write, so an eraser is made to erase."
+    },
+    {
+      "id": "b1a1327858",
+      "stem": "Car is to garage as boat is to:",
+      "options": [
+        "lake",
+        "ocean",
+        "dock",
+        "road"
+      ],
+      "answer": 2,
+      "topic": "Analogies",
+      "source": "verbal_analogy_diagnostic_test",
+      "explanation": "This links a vehicle to the place where it is kept. A car is parked in a garage, so a boat is tied up at a dock."
+    },
+    {
+      "id": "c1cc8514c4",
+      "stem": "Doctor is to hospital as teacher is to:",
+      "options": [
+        "class",
+        "school",
+        "desk",
+        "book"
+      ],
+      "answer": 1,
+      "topic": "Analogies",
+      "source": "verbal_analogy_diagnostic_test",
+      "explanation": "This links a worker to the place where that worker does the job. A doctor works in a hospital, so a teacher works in a school."
+    },
+    {
+      "id": "ae88da8551",
+      "stem": "Bird is to fly as fish is to:",
+      "options": [
+        "jump",
+        "swim",
+        "walk",
+        "dive"
+      ],
+      "answer": 1,
+      "topic": "Analogies",
+      "source": "verbal_analogy_diagnostic_test",
+      "explanation": "This links an animal to the way it moves. A bird moves by flying, so a fish moves by swimming."
+    },
+    {
+      "id": "0cf91c6aad",
+      "stem": "Book is to library as flower is to:",
+      "options": [
+        "petal",
+        "garden",
+        "tree",
+        "plant"
+      ],
+      "answer": 1,
+      "topic": "Analogies",
+      "source": "verbal_analogy_diagnostic_test",
+      "explanation": "This links one thing to the place where many of them are gathered. Books fill a library, so flowers fill a garden."
+    },
+    {
+      "id": "192eb99c9c",
+      "stem": "Soft is to pillow as hard is to:",
+      "options": [
+        "brick",
+        "blanket",
+        "sheet",
+        "fabric"
+      ],
+      "answer": 0,
+      "topic": "Analogies",
+      "source": "verbal_analogy_diagnostic_test",
+      "explanation": "This matches a quality to an object that has it. A pillow is soft, so something known for being hard is a brick."
+    },
+    {
+      "id": "4d08e41c67",
+      "stem": "Eye is to see as ear is to:",
+      "options": [
+        "hear",
+        "smell",
+        "speak",
+        "taste"
+      ],
+      "answer": 0,
+      "topic": "Analogies",
+      "source": "verbal_analogy_diagnostic_test",
+      "explanation": "This links a body part to the sense it gives you. You see with your eyes, so you hear with your ears."
+    },
+    {
+      "id": "89718ddb3d",
+      "stem": "Leg is to walk as hand is to:",
+      "options": [
+        "carry",
+        "run",
+        "skip",
+        "jump"
+      ],
+      "answer": 0,
+      "topic": "Analogies",
+      "source": "verbal_analogy_diagnostic_test",
+      "explanation": "This links a body part to what it does for you. You walk with your legs, so you carry things with your hands."
+    },
+    {
+      "id": "00908ac5e9",
+      "stem": "Artist is to paint as writer is to:",
+      "options": [
+        "sculpt",
+        "draw",
+        "write",
+        "read"
+      ],
+      "answer": 2,
+      "topic": "Analogies",
+      "source": "verbal_analogy_diagnostic_test",
+      "explanation": "This links a worker to the work that worker makes. An artist paints pictures, so a writer writes stories and books."
+    },
+    {
+      "id": "820dbe970c",
+      "stem": "Clock is to time as ruler is to:",
+      "options": [
+        "measure",
+        "length",
+        "size",
+        "speed"
+      ],
+      "answer": 1,
+      "topic": "Analogies",
+      "source": "verbal_analogy_diagnostic_test",
+      "explanation": "This links a measuring tool to what it measures. A clock measures time, so a ruler measures length."
+    },
+    {
+      "id": "a4491832c8",
+      "stem": "Cat is to kitten as dog is to:",
+      "options": [
+        "pup",
+        "bark",
+        "tail",
+        "bite"
+      ],
+      "answer": 0,
+      "topic": "Analogies",
+      "source": "verbal_analogy_diagnostic_test",
+      "explanation": "This links a grown animal to its baby. A baby cat is a kitten, so a baby dog is a pup."
+    },
+    {
+      "id": "fb889ca770",
+      "stem": "Phone is to ring as doorbell is to:",
+      "options": [
+        "alarm",
+        "click",
+        "chime",
+        "knock"
+      ],
+      "answer": 2,
+      "topic": "Analogies",
+      "source": "verbal_analogy_diagnostic_test",
+      "explanation": "This links a device to the sound it makes. A phone rings when someone calls, so a doorbell chimes when someone presses it."
+    },
+    {
+      "id": "3447caed1c",
+      "stem": "Cow is to milk as chicken is to:",
+      "options": [
+        "egg",
+        "peck",
+        "nest",
+        "feather"
+      ],
+      "answer": 0,
+      "topic": "Analogies",
+      "source": "verbal_analogy_diagnostic_test",
+      "explanation": "This links a farm animal to the food it gives us. A cow gives milk, so a chicken gives eggs."
+    },
+    {
+      "id": "9a0628dd54",
+      "stem": "Sun is to day as moon is to:",
+      "options": [
+        "night",
+        "evening",
+        "dawn",
+        "dusk"
+      ],
+      "answer": 0,
+      "topic": "Analogies",
+      "source": "verbal_analogy_diagnostic_test",
+      "explanation": "This links a light in the sky to the time when we see it. The sun shines during the day, so the moon shines at night."
+    },
+    {
+      "id": "62c0c013be",
+      "stem": "Fish is to swim as bird is to:",
+      "options": [
+        "fly",
+        "run",
+        "jump",
+        "crawl"
+      ],
+      "answer": 0,
+      "topic": "Analogies",
+      "source": "verbal_analogy_diagnostic_test",
+      "explanation": "This links an animal to the way it moves. A fish moves by swimming, so a bird moves by flying."
+    },
+    {
+      "id": "ed4fbbc205",
+      "stem": "Fire is to hot as ice is to:",
+      "options": [
+        "cold",
+        "warm",
+        "soft",
+        "rough"
+      ],
+      "answer": 0,
+      "topic": "Analogies",
+      "source": "verbal_analogy_diagnostic_test",
+      "explanation": "This matches a thing to the way it feels when you touch it. Fire is hot, so ice is cold."
+    },
+    {
+      "id": "796fc34b6b",
+      "stem": "Dog is to bark as cow is to:",
+      "options": [
+        "moo",
+        "neigh",
+        "cluck",
+        "oink"
+      ],
+      "answer": 0,
+      "topic": "Analogies",
+      "source": "verbal_analogy_diagnostic_test",
+      "explanation": "This links an animal to the sound it makes. A dog barks, so a cow moos."
+    },
+    {
+      "id": "5019ce2d15",
+      "stem": "Book is to read as movie is to:",
+      "options": [
+        "write",
+        "watch",
+        "listen",
+        "talk"
+      ],
+      "answer": 1,
+      "topic": "Analogies",
+      "source": "verbal_analogy_diagnostic_test",
+      "explanation": "This links something you enjoy to the way you take it in. You read a book, so you watch a movie."
+    },
+    {
+      "id": "f4e216dc7d",
+      "stem": "Teacher is to instruct as chef is to:",
+      "options": [
+        "eat",
+        "cook",
+        "serve",
+        "teach"
+      ],
+      "answer": 1,
+      "topic": "Analogies",
+      "source": "verbal_analogy_diagnostic_test",
+      "explanation": "This links a worker to the main job that worker does. A teacher instructs students, so a chef cooks food."
+    },
+    {
+      "id": "2e42222715",
+      "stem": "Ear is to hear as nose is to:",
+      "options": [
+        "see",
+        "smell",
+        "hear",
+        "taste"
+      ],
+      "answer": 1,
+      "topic": "Analogies",
+      "source": "verbal_analogy_diagnostic_test",
+      "explanation": "This links a body part to the sense it gives you. You hear with your ears, so you smell with your nose."
+    },
+    {
+      "id": "e7cc347209",
+      "stem": "Car is to drive as bicycle is to:",
+      "options": [
+        "pedal",
+        "walk",
+        "turn",
+        "push"
+      ],
+      "answer": 0,
+      "topic": "Analogies",
+      "source": "verbal_analogy_diagnostic_test",
+      "explanation": "This links a vehicle to what you do to make it go. You drive a car, so you pedal a bicycle."
+    },
+    {
+      "id": "b6ad9df2d7",
+      "stem": "Clock is to time as thermometer is to:",
+      "options": [
+        "temperature",
+        "height",
+        "weather",
+        "speed"
+      ],
+      "answer": 0,
+      "topic": "Analogies",
+      "source": "verbal_analogy_diagnostic_test",
+      "explanation": "This links a measuring tool to what it measures. A clock measures time, so a thermometer measures temperature."
+    },
+    {
+      "id": "ffe4252c3b",
+      "stem": "Heart is to beat as lungs are to:",
+      "options": [
+        "breathe",
+        "sleep",
+        "digest",
+        "pump"
+      ],
+      "answer": 0,
+      "topic": "Analogies",
+      "source": "verbal_analogy_diagnostic_test",
+      "explanation": "This links an organ to the job it does inside your body. Your heart beats, so your lungs breathe."
+    },
+    {
+      "id": "1189450d2e",
+      "stem": "Lion is to roar as snake is to:",
+      "options": [
+        "hiss",
+        "growl",
+        "roar",
+        "buzz"
+      ],
+      "answer": 0,
+      "topic": "Analogies",
+      "source": "verbal_analogy_diagnostic_test",
+      "explanation": "This links an animal to the sound it makes. A lion roars, so a snake hisses."
+    },
+    {
+      "id": "cd634217e7",
+      "stem": "Spoon is to stir as knife is to:",
+      "options": [
+        "cut",
+        "stack",
+        "spread",
+        "pour"
+      ],
+      "answer": 0,
+      "topic": "Analogies",
+      "source": "verbal_analogy_diagnostic_test",
+      "explanation": "This is a kitchen tool and what you do with it. You stir with a spoon, so you cut with a knife."
+    },
+    {
+      "id": "cd70c8c99b",
+      "stem": "Piano is to play as brush is to:",
+      "options": [
+        "paint",
+        "draw",
+        "create",
+        "design"
+      ],
+      "answer": 0,
+      "topic": "Analogies",
+      "source": "verbal_analogy_diagnostic_test",
+      "explanation": "This links a tool to the way an artist uses it. You play a piano to make music, so you paint with a brush to make a picture."
+    },
+    {
+      "id": "4f7a830fe2",
+      "stem": "Toe is to foot as finger is to:",
+      "options": [
+        "hand",
+        "toe",
+        "wrist",
+        "arm"
+      ],
+      "answer": 0,
+      "topic": "Analogies",
+      "source": "verbal_analogy_diagnostic_test",
+      "explanation": "This is a part to whole pair. A toe is one part of a foot, so a finger is one part of a hand."
+    },
+    {
+      "id": "c3daf5cba1",
+      "stem": "Tree is to forest as star is to:",
+      "options": [
+        "sky",
+        "space",
+        "mountain",
+        "constellation"
+      ],
+      "answer": 3,
+      "topic": "Analogies",
+      "source": "verbal_analogy_diagnostic_test",
+      "explanation": "This links one member to the larger group it belongs to. Many trees together make a forest, so a group of stars makes a constellation."
+    },
+    {
+      "id": "a734f7becd",
+      "stem": "Bee is to hive as bird is to:",
+      "options": [
+        "nest",
+        "tree",
+        "beak",
+        "branch"
+      ],
+      "answer": 0,
+      "topic": "Analogies",
+      "source": "verbal_analogy_diagnostic_test",
+      "explanation": "This links an animal to the home it builds. A bee lives in a hive, so a bird lives in a nest."
+    },
+    {
+      "id": "8e70994c5c",
+      "stem": "Doctor is to patient as lawyer is to:",
+      "options": [
+        "defendant",
+        "jury",
+        "client",
+        "judge"
+      ],
+      "answer": 2,
+      "topic": "Analogies",
+      "source": "verbal_analogy_diagnostic_test",
+      "explanation": "This links a professional to the person that professional helps. A doctor treats a patient, so a lawyer represents a client."
+    },
+    {
+      "id": "b1ea133687",
+      "stem": "Spring is to flowers as fall is to:",
+      "options": [
+        "leaves",
+        "wind",
+        "snow",
+        "clouds"
+      ],
+      "answer": 0,
+      "topic": "Analogies",
+      "source": "verbal_analogy_diagnostic_test",
+      "explanation": "This links a season to what that season is known for. Spring brings new flowers, so fall brings colorful leaves dropping from the trees."
+    },
+    {
+      "id": "53ea66cbe8",
+      "stem": "A swift runner is:",
+      "options": [
+        "slow",
+        "fast",
+        "clumsy",
+        "tired"
+      ],
+      "answer": 1,
+      "topic": "Synonyms",
+      "source": "synonym_diagnostic_test",
+      "explanation": "Swift means quick or speedy, so a swift runner moves fast. Think of the bird called a swift, which zips through the air."
+    },
+    {
+      "id": "a982d39f9a",
+      "stem": "A cheerful person is:",
+      "options": [
+        "happy",
+        "sad",
+        "angry",
+        "sleepy"
+      ],
+      "answer": 0,
+      "topic": "Synonyms",
+      "source": "synonym_diagnostic_test",
+      "explanation": "Cheerful means being in a good mood and full of cheer, so a cheerful person is happy. You can hear the word cheer inside it."
+    },
+    {
+      "id": "24dc8452e5",
+      "stem": "A vast ocean is:",
+      "options": [
+        "small",
+        "deep",
+        "narrow",
+        "huge"
+      ],
+      "answer": 3,
+      "topic": "Synonyms",
+      "source": "synonym_diagnostic_test",
+      "explanation": "Vast means very large in size or amount, so a vast ocean is huge. Deep is a trap because vast is about size, not depth."
+    },
+    {
+      "id": "d97186a3d2",
+      "stem": "A timid animal is:",
+      "options": [
+        "brave",
+        "shy",
+        "loud",
+        "fast"
+      ],
+      "answer": 1,
+      "topic": "Synonyms",
+      "source": "synonym_diagnostic_test",
+      "explanation": "Timid means easily frightened and not bold, so a timid animal is shy. Brave is its opposite, not its match."
+    },
+    {
+      "id": "4c7da86eaa",
+      "stem": "A brilliant idea is:",
+      "options": [
+        "dim",
+        "clear",
+        "foolish",
+        "clever"
+      ],
+      "answer": 3,
+      "topic": "Synonyms",
+      "source": "synonym_diagnostic_test",
+      "explanation": "Brilliant can mean shining, but for an idea it means very smart, so clever fits. Dim is the opposite of both meanings."
+    },
+    {
+      "id": "c2322d5572",
+      "stem": "A frigid day is:",
+      "options": [
+        "warm",
+        "cold",
+        "hot",
+        "humid"
+      ],
+      "answer": 1,
+      "topic": "Synonyms",
+      "source": "synonym_diagnostic_test",
+      "explanation": "Frigid means very cold - think of a refrigerator, which keeps food frigid. So a frigid day is a cold one."
+    },
+    {
+      "id": "fc4e220367",
+      "stem": "A flawless performance is:",
+      "options": [
+        "perfect",
+        "flawed",
+        "good",
+        "clumsy"
+      ],
+      "answer": 0,
+      "topic": "Synonyms",
+      "source": "synonym_diagnostic_test",
+      "explanation": "A flaw is a mistake or a crack. The ending -less means without, so flawless means having no mistakes at all, which is perfect."
+    },
+    {
+      "id": "9a1273b9f9",
+      "stem": "A robust tree is:",
+      "options": [
+        "weak",
+        "tall",
+        "strong",
+        "short"
+      ],
+      "answer": 2,
+      "topic": "Synonyms",
+      "source": "synonym_diagnostic_test",
+      "explanation": "Robust means strong and healthy, built to last. A robust tree is strong, not just tall - height and strength are different things."
+    },
+    {
+      "id": "bb080f04e0",
+      "stem": "A vibrant color is:",
+      "options": [
+        "dull",
+        "bright",
+        "faded",
+        "dim"
+      ],
+      "answer": 1,
+      "topic": "Synonyms",
+      "source": "synonym_diagnostic_test",
+      "explanation": "Vibrant means full of life and energy, so a vibrant color looks bright and bold. Dull and faded are its opposites."
+    },
+    {
+      "id": "8d72282a9b",
+      "stem": "A colossal building is:",
+      "options": [
+        "tiny",
+        "huge",
+        "fragile",
+        "short"
+      ],
+      "answer": 1,
+      "topic": "Synonyms",
+      "source": "synonym_diagnostic_test",
+      "explanation": "Colossal means enormous. It comes from the Colossus, a giant statue in the ancient world, so a colossal building is huge."
+    },
+    {
+      "id": "9bdbac5d95",
+      "stem": "A courageous soldier is:",
+      "options": [
+        "timid",
+        "afraid",
+        "brave",
+        "careless"
+      ],
+      "answer": 2,
+      "topic": "Synonyms",
+      "source": "synonym_diagnostic_test",
+      "explanation": "Courageous comes from courage, so it means willing to face danger, which is exactly what brave means. Timid and afraid mean the opposite."
+    },
+    {
+      "id": "22604d2220",
+      "stem": "A dense forest is:",
+      "options": [
+        "sparse",
+        "thin",
+        "thick",
+        "tall"
+      ],
+      "answer": 2,
+      "topic": "Synonyms",
+      "source": "synonym_diagnostic_test",
+      "explanation": "Dense means packed tightly together with little space between, so a dense forest is thick with trees. Sparse means the opposite."
+    },
+    {
+      "id": "5b9df681df",
+      "stem": "An obsolete machine is:",
+      "options": [
+        "new",
+        "outdated",
+        "shiny",
+        "advanced"
+      ],
+      "answer": 1,
+      "topic": "Synonyms",
+      "source": "synonym_diagnostic_test",
+      "explanation": "Obsolete means no longer used because something newer replaced it, so an obsolete machine is outdated, like a flip phone or a VCR."
+    },
+    {
+      "id": "7ced317729",
+      "stem": "A serene lake is:",
+      "options": [
+        "noisy",
+        "calm",
+        "stormy",
+        "restless"
+      ],
+      "answer": 1,
+      "topic": "Synonyms",
+      "source": "synonym_diagnostic_test",
+      "explanation": "Serene means peaceful and still, with nothing stirring. A serene lake is calm, the opposite of stormy or restless."
+    },
+    {
+      "id": "4611921671",
+      "stem": "A tedious task is:",
+      "options": [
+        "exciting",
+        "boring",
+        "fun",
+        "brief"
+      ],
+      "answer": 1,
+      "topic": "Synonyms",
+      "source": "synonym_diagnostic_test",
+      "explanation": "Tedious means long, slow and dull, the kind of task that drags on, so it is boring. Brief is a trap since tedious things feel endless."
+    },
+    {
+      "id": "2883becfb1",
+      "stem": "A hostile environment is:",
+      "options": [
+        "friendly",
+        "welcoming",
+        "dangerous",
+        "peaceful"
+      ],
+      "answer": 2,
+      "topic": "Synonyms",
+      "source": "synonym_diagnostic_test",
+      "explanation": "Hostile means unfriendly and threatening, like an enemy. A hostile environment is dangerous to be in, not friendly or peaceful."
+    },
+    {
+      "id": "5ea6defe9c",
+      "stem": "A reluctant participant is:",
+      "options": [
+        "eager",
+        "willing",
+        "hesitant",
+        "quick"
+      ],
+      "answer": 2,
+      "topic": "Synonyms",
+      "source": "synonym_diagnostic_test",
+      "explanation": "Reluctant means unwilling and holding back, so a reluctant participant is hesitant. Eager and willing mean the opposite."
+    },
+    {
+      "id": "b24e4f381f",
+      "stem": "A transparent window is:",
+      "options": [
+        "clear",
+        "dark",
+        "tinted",
+        "opaque"
+      ],
+      "answer": 0,
+      "topic": "Synonyms",
+      "source": "synonym_diagnostic_test",
+      "explanation": "Transparent means light passes through so you can see the other side, so a transparent window is clear. Opaque, its opposite, blocks light."
+    },
+    {
+      "id": "2cdbad1e56",
+      "stem": "An agile athlete is:",
+      "options": [
+        "slow",
+        "clumsy",
+        "graceful",
+        "uncoordinated"
+      ],
+      "answer": 2,
+      "topic": "Synonyms",
+      "source": "synonym_diagnostic_test",
+      "explanation": "Agile means able to move quickly and easily, so an agile athlete moves in a smooth, graceful way. Clumsy is the opposite."
+    },
+    {
+      "id": "7a4744d949",
+      "stem": "A prosperous business is:",
+      "options": [
+        "failing",
+        "successful",
+        "struggling",
+        "small"
+      ],
+      "answer": 1,
+      "topic": "Synonyms",
+      "source": "synonym_diagnostic_test",
+      "explanation": "Prosperous means doing well and making money, so a prosperous business is successful. It comes from prosper, which means to thrive."
+    },
+    {
+      "id": "2ba9735abb",
+      "stem": "A cautious driver is:",
+      "options": [
+        "reckless",
+        "careless",
+        "careful",
+        "fast"
+      ],
+      "answer": 2,
+      "topic": "Synonyms",
+      "source": "synonym_diagnostic_test",
+      "explanation": "Cautious comes from caution, so it means taking care to avoid danger. A cautious driver is careful, never reckless."
+    },
+    {
+      "id": "2af997e433",
+      "stem": "A barren desert is:",
+      "options": [
+        "fertile",
+        "sandy",
+        "empty",
+        "wet"
+      ],
+      "answer": 2,
+      "topic": "Synonyms",
+      "source": "synonym_diagnostic_test",
+      "explanation": "Barren means nothing grows there, so a barren desert is empty of plants and life. Sandy describes deserts but is not what barren means."
+    },
+    {
+      "id": "24eeb22a8b",
+      "stem": "A radiant smile is:",
+      "options": [
+        "dull",
+        "bright",
+        "crooked",
+        "dark"
+      ],
+      "answer": 1,
+      "topic": "Synonyms",
+      "source": "synonym_diagnostic_test",
+      "explanation": "Radiant means shining or glowing, like rays of light spreading out from a source. A radiant smile is bright."
+    },
+    {
+      "id": "65f3137257",
+      "stem": "A perilous journey is:",
+      "options": [
+        "safe",
+        "dangerous",
+        "boring",
+        "pleasant"
+      ],
+      "answer": 1,
+      "topic": "Synonyms",
+      "source": "synonym_diagnostic_test",
+      "explanation": "Peril means danger, so perilous means full of danger. A perilous journey is dangerous, the opposite of safe."
+    },
+    {
+      "id": "abf41f393f",
+      "stem": "A trivial detail is:",
+      "options": [
+        "important",
+        "insignificant",
+        "tiny",
+        "massive"
+      ],
+      "answer": 1,
+      "topic": "Synonyms",
+      "source": "synonym_diagnostic_test",
+      "explanation": "Trivial means so small that it does not matter, so a trivial detail is insignificant. Tiny is a trap because trivial is about importance, not size."
+    },
+    {
+      "id": "75e3fe0628",
+      "stem": "A profound thought is:",
+      "options": [
+        "shallow",
+        "deep",
+        "simple",
+        "confusing"
+      ],
+      "answer": 1,
+      "topic": "Synonyms",
+      "source": "synonym_diagnostic_test",
+      "explanation": "Profound means very deep, whether in water or in meaning. A profound thought is a deep one, not a shallow or simple one."
+    },
+    {
+      "id": "67203c9336",
+      "stem": "An intricate design is:",
+      "options": [
+        "simple",
+        "complex",
+        "messy",
+        "broken"
+      ],
+      "answer": 1,
+      "topic": "Synonyms",
+      "source": "synonym_diagnostic_test",
+      "explanation": "Intricate means made of many small parts woven together, like lace or a spider web. An intricate design is complex, not simple."
+    },
+    {
+      "id": "846b048e08",
+      "stem": "A relentless storm is:",
+      "options": [
+        "calm",
+        "weak",
+        "raging",
+        "gentle"
+      ],
+      "answer": 2,
+      "topic": "Synonyms",
+      "source": "synonym_diagnostic_test",
+      "explanation": "Relentless means never letting up or stopping. A relentless storm keeps raging instead of calming down or growing gentle."
+    },
+    {
+      "id": "6b8e898c6d",
+      "stem": "A malicious rumor is:",
+      "options": [
+        "kind",
+        "evil",
+        "silly",
+        "funny"
+      ],
+      "answer": 1,
+      "topic": "Synonyms",
+      "source": "synonym_diagnostic_test",
+      "explanation": "Malicious means meant to hurt someone on purpose. The root mal- means bad, as in malfunction, so a malicious rumor is evil."
+    },
+    {
+      "id": "02bd5d5c98",
+      "stem": "A weary traveler is:",
+      "options": [
+        "energetic",
+        "tired",
+        "lost",
+        "healthy"
+      ],
+      "answer": 1,
+      "topic": "Synonyms",
+      "source": "synonym_diagnostic_test",
+      "explanation": "Weary means worn out from effort, so a weary traveler is tired. Energetic is the opposite."
+    },
+    {
+      "id": "afcb5ce138",
+      "stem": "A jubilant crowd is:",
+      "options": [
+        "sad",
+        "cheerful",
+        "angry",
+        "quiet"
+      ],
+      "answer": 1,
+      "topic": "Synonyms",
+      "source": "synonym_diagnostic_test",
+      "explanation": "Jubilant means wildly joyful, the way fans celebrate a win. Think of a jubilee, a big celebration, so a jubilant crowd is cheerful."
+    },
+    {
+      "id": "971e28de57",
+      "stem": "A sturdy bridge is:",
+      "options": [
+        "weak",
+        "strong",
+        "fragile",
+        "short"
+      ],
+      "answer": 1,
+      "topic": "Synonyms",
+      "source": "synonym_diagnostic_test",
+      "explanation": "Sturdy means solidly built and able to hold weight, so a sturdy bridge is strong. Fragile and weak are the opposites."
+    },
+    {
+      "id": "7421730472",
+      "stem": "A meager meal is:",
+      "options": [
+        "large",
+        "small",
+        "plentiful",
+        "expensive"
+      ],
+      "answer": 1,
+      "topic": "Synonyms",
+      "source": "synonym_diagnostic_test",
+      "explanation": "Meager means far less than you need, so a meager meal is small. Plentiful means the opposite, more than enough."
+    },
+    {
+      "id": "23c6b3a642",
+      "stem": "A tranquil evening is:",
+      "options": [
+        "chaotic",
+        "peaceful",
+        "noisy",
+        "stormy"
+      ],
+      "answer": 1,
+      "topic": "Synonyms",
+      "source": "synonym_diagnostic_test",
+      "explanation": "Tranquil means quiet and undisturbed, so a tranquil evening is peaceful. Think of a tranquilizer, which calms someone down."
+    },
+    {
+      "id": "811855739f",
+      "stem": "A fleeting moment is:",
+      "options": [
+        "enduring",
+        "brief",
+        "lasting",
+        "long"
+      ],
+      "answer": 1,
+      "topic": "Synonyms",
+      "source": "synonym_diagnostic_test",
+      "explanation": "Fleeting means gone almost as soon as it starts, since it flees away fast. A fleeting moment is brief, not lasting."
+    },
+    {
+      "id": "2cb748b935",
+      "stem": "A notorious criminal is:",
+      "options": [
+        "unknown",
+        "famous",
+        "happy",
+        "friendly"
+      ],
+      "answer": 1,
+      "topic": "Synonyms",
+      "source": "synonym_diagnostic_test",
+      "explanation": "Notorious means widely known, but almost always for something bad. A notorious criminal is famous, just famous for the wrong reasons."
+    },
+    {
+      "id": "f25b1dd2ae",
+      "stem": "A vibrant personality is:",
+      "options": [
+        "boring",
+        "stiff",
+        "colorful",
+        "quiet"
+      ],
+      "answer": 2,
+      "topic": "Synonyms",
+      "source": "synonym_diagnostic_test",
+      "explanation": "Vibrant means lively and full of energy, so a vibrant personality is colorful and exciting. Boring and stiff are the opposites."
+    },
+    {
+      "id": "a64bccd355",
+      "stem": "All birds can fly. Penguins are birds. Penguins cannot fly. If the first two statements are true, the third is:",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "uncertain"
+      ],
+      "answer": 1,
+      "topic": "Verbal Logic",
+      "source": "verbal_logic_diagnostic_test",
+      "explanation": "The first two statements say every bird can fly and that penguins are birds, so penguins would have to fly. The third statement says the opposite, so the premises contradict it and it is false."
+    },
+    {
+      "id": "ec767b5f84",
+      "stem": "All apples are fruits. All fruits are sweet. Some apples are not sweet. If the first two statements are true, the third is:",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "uncertain"
+      ],
+      "answer": 1,
+      "topic": "Verbal Logic",
+      "source": "verbal_logic_diagnostic_test",
+      "explanation": "If every apple is a fruit and every fruit is sweet, then every apple has to be sweet. Saying some apples are not sweet goes against what the premises force, so it is false."
+    },
+    {
+      "id": "237092e0c5",
+      "stem": "Cats are smaller than dogs. Rabbits are smaller than cats. Rabbits are smaller than dogs. If the first two statements are true, the third is:",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "uncertain"
+      ],
+      "answer": 0,
+      "topic": "Verbal Logic",
+      "source": "verbal_logic_diagnostic_test",
+      "explanation": "Rabbits are smaller than cats and cats are smaller than dogs, so rabbits have to be smaller than dogs too. The premises force that order, so the third statement is true."
+    },
+    {
+      "id": "7b38f55cbf",
+      "stem": "The sun is larger than the Earth. The moon is smaller than the Earth. The moon is smaller than the sun. If the first two statements are true, the third is:",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "uncertain"
+      ],
+      "answer": 0,
+      "topic": "Verbal Logic",
+      "source": "verbal_logic_diagnostic_test",
+      "explanation": "The moon is smaller than the Earth and the Earth is smaller than the sun. Lining those up forces the moon to be smaller than the sun, so the third statement is true."
+    },
+    {
+      "id": "caf75c4fb0",
+      "stem": "All cars have wheels. Bicycles have wheels. Bicycles are cars. If the first two statements are true, the third is:",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "uncertain"
+      ],
+      "answer": 2,
+      "topic": "Verbal Logic",
+      "source": "verbal_logic_diagnostic_test",
+      "explanation": "Cars have wheels and bicycles have wheels, but sharing a trait does not prove two things are the same kind of thing. Nothing here forces a bicycle to be a car, so the answer is uncertain."
+    },
+    {
+      "id": "3f2dfd477d",
+      "stem": "All mammals have lungs. Fish do not have lungs. Fish are mammals. If the first two statements are true, the third is:",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "uncertain"
+      ],
+      "answer": 1,
+      "topic": "Verbal Logic",
+      "source": "verbal_logic_diagnostic_test",
+      "explanation": "Every mammal has lungs, and fish do not have lungs. If fish were mammals they would need lungs, so the premises contradict the third statement and it is false."
+    },
+    {
+      "id": "5a351f2fd1",
+      "stem": "All roses are red. Some flowers are roses. All flowers are red. If the first two statements are true, the third is:",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "uncertain"
+      ],
+      "answer": 2,
+      "topic": "Verbal Logic",
+      "source": "verbal_logic_diagnostic_test",
+      "explanation": "You know every rose is red and that some flowers are roses. That tells you nothing about the flowers that are not roses, so whether all flowers are red stays uncertain."
+    },
+    {
+      "id": "175cb21531",
+      "stem": "Tom is taller than Jane. Jane is taller than Sarah. Tom is taller than Sarah. If the first two statements are true, the third is:",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "uncertain"
+      ],
+      "answer": 0,
+      "topic": "Verbal Logic",
+      "source": "verbal_logic_diagnostic_test",
+      "explanation": "Tom is taller than Jane and Jane is taller than Sarah, so Tom has to be taller than Sarah. The premises force that order, so the third statement is true."
+    },
+    {
+      "id": "75cc1df274",
+      "stem": "A chair is heavier than a book. A table is heavier than a chair. A table is heavier than a book. If the first two statements are true, the third is:",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "uncertain"
+      ],
+      "answer": 0,
+      "topic": "Verbal Logic",
+      "source": "verbal_logic_diagnostic_test",
+      "explanation": "A table is heavier than a chair and the chair is heavier than a book, so the table must be heavier than the book. That is forced, so the third statement is true."
+    },
+    {
+      "id": "6f1aa5db03",
+      "stem": "All fish can swim. Whales can swim. Whales are fish. If the first two statements are true, the third is:",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "uncertain"
+      ],
+      "answer": 2,
+      "topic": "Verbal Logic",
+      "source": "verbal_logic_diagnostic_test",
+      "explanation": "All fish swim and whales swim, but sharing a trait does not prove two things are the same kind. Nothing forces whales to be fish, so the answer is uncertain rather than false."
+    },
+    {
+      "id": "427c13568b",
+      "stem": "All birds have feathers. Some animals have feathers. All animals are birds. If the first two statements are true, the third is:",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "uncertain"
+      ],
+      "answer": 2,
+      "topic": "Verbal Logic",
+      "source": "verbal_logic_diagnostic_test",
+      "explanation": "Birds have feathers and some animals have feathers, but sharing a trait does not prove they are the same kind of thing. The premises never settle whether every animal is a bird, so it is uncertain."
+    },
+    {
+      "id": "5e4ba20987",
+      "stem": "Tigers are faster than lions. Lions are faster than humans. Tigers are faster than humans. If the first two statements are true, the third is:",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "uncertain"
+      ],
+      "answer": 0,
+      "topic": "Verbal Logic",
+      "source": "verbal_logic_diagnostic_test",
+      "explanation": "Tigers are faster than lions and lions are faster than humans, so tigers must be faster than humans. The premises force that order, so the third statement is true."
+    },
+    {
+      "id": "ed9bddcc94",
+      "stem": "All spiders have eight legs. Some animals have eight legs. All spiders are animals. If the first two statements are true, the third is:",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "uncertain"
+      ],
+      "answer": 2,
+      "topic": "Verbal Logic",
+      "source": "verbal_logic_diagnostic_test",
+      "explanation": "Spiders have eight legs and some animals have eight legs, but sharing a trait does not prove they are the same kind. The premises never state that spiders are animals, so it is uncertain."
+    },
+    {
+      "id": "8ce7e99040",
+      "stem": "Chocolate is sweeter than vanilla. Ice cream is sweeter than cake. Ice cream is sweeter than chocolate. If the first two statements are true, the third is:",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "uncertain"
+      ],
+      "answer": 2,
+      "topic": "Verbal Logic",
+      "source": "verbal_logic_diagnostic_test",
+      "explanation": "One premise compares chocolate with vanilla and the other compares ice cream with cake. Nothing links ice cream to chocolate, so the premises do not settle it and the answer is uncertain."
+    },
+    {
+      "id": "33057c665b",
+      "stem": "All squares are rectangles. Some rectangles are blue. Some squares are blue. If the first two statements are true, the third is:",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "uncertain"
+      ],
+      "answer": 2,
+      "topic": "Verbal Logic",
+      "source": "verbal_logic_diagnostic_test",
+      "explanation": "Every square is a rectangle, and some rectangles are blue. The blue ones could all be rectangles that are not squares, so the premises do not settle it and the answer is uncertain."
+    },
+    {
+      "id": "8c0f889281",
+      "stem": "Water is heavier than air. Air is invisible. Water is invisible. If the first two statements are true, the third is:",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "uncertain"
+      ],
+      "answer": 2,
+      "topic": "Verbal Logic",
+      "source": "verbal_logic_diagnostic_test",
+      "explanation": "The premises tell you that water is heavier than air and that air cannot be seen. Neither one says anything about how water looks, so the third statement is uncertain."
+    },
+    {
+      "id": "e1e1cdbdf8",
+      "stem": "A pen is longer than a pencil. A pencil is longer than a ruler. A pen is longer than a ruler. If the first two statements are true, the third is:",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "uncertain"
+      ],
+      "answer": 0,
+      "topic": "Verbal Logic",
+      "source": "verbal_logic_diagnostic_test",
+      "explanation": "A pen is longer than a pencil and the pencil is longer than a ruler, so the pen must be longer than the ruler. The premises force it, so the third statement is true."
+    },
+    {
+      "id": "a901534758",
+      "stem": "Gold is more valuable than silver. Silver is more valuable than bronze. Gold is more valuable than bronze. If the first two statements are true, the third is:",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "uncertain"
+      ],
+      "answer": 0,
+      "topic": "Verbal Logic",
+      "source": "verbal_logic_diagnostic_test",
+      "explanation": "Gold is worth more than silver and silver is worth more than bronze, so gold has to be worth more than bronze. The premises force that order, so the third statement is true."
+    },
+    {
+      "id": "834d2d47a6",
+      "stem": "Some dogs are black. All poodles are dogs. Some poodles are black. If the first two statements are true, the third is:",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "uncertain"
+      ],
+      "answer": 2,
+      "topic": "Verbal Logic",
+      "source": "verbal_logic_diagnostic_test",
+      "explanation": "Some dogs are black and every poodle is a dog. The black dogs could all be other breeds, so the premises never settle whether any poodle is black. That makes it uncertain."
+    },
+    {
+      "id": "710e7083a5",
+      "stem": "All flowers bloom in spring. Tulips are flowers. Tulips bloom in spring. If the first two statements are true, the third is:",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "uncertain"
+      ],
+      "answer": 0,
+      "topic": "Verbal Logic",
+      "source": "verbal_logic_diagnostic_test",
+      "explanation": "Every flower blooms in spring and tulips are flowers, so tulips have to bloom in spring. The premises force the conclusion, so the third statement is true."
+    },
+    {
+      "id": "8d6656f42e",
+      "stem": "All trains have engines. Some cars have engines. All cars are trains. If the first two statements are true, the third is:",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "uncertain"
+      ],
+      "answer": 2,
+      "topic": "Verbal Logic",
+      "source": "verbal_logic_diagnostic_test",
+      "explanation": "Trains have engines and some cars have engines, but sharing a trait does not prove they are the same kind of thing. Nothing forces cars to be trains, so the answer is uncertain."
+    },
+    {
+      "id": "c19bd5e75d",
+      "stem": "All squares have four sides. Some shapes have four sides. Some shapes are squares. If the first two statements are true, the third is:",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "uncertain"
+      ],
+      "answer": 2,
+      "topic": "Verbal Logic",
+      "source": "verbal_logic_diagnostic_test",
+      "explanation": "Squares have four sides and some shapes have four sides, but sharing a trait does not prove they are the same kind. The premises never say squares are shapes, so it is uncertain."
+    },
+    {
+      "id": "351a8fc384",
+      "stem": "Tomatoes are red. Apples are red. Tomatoes are apples. If the first two statements are true, the third is:",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "uncertain"
+      ],
+      "answer": 2,
+      "topic": "Verbal Logic",
+      "source": "verbal_logic_diagnostic_test",
+      "explanation": "Tomatoes are red and apples are red, but sharing a color does not prove they are the same kind of thing. The premises do not force tomatoes to be apples, so the answer is uncertain."
+    },
+    {
+      "id": "bdfc0511b5",
+      "stem": "A bicycle has two wheels. A unicycle has one wheel. A tricycle has three wheels. If the first two statements are true, the third is:",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "uncertain"
+      ],
+      "answer": 2,
+      "topic": "Verbal Logic",
+      "source": "verbal_logic_diagnostic_test",
+      "explanation": "The premises only tell you how many wheels a bicycle has and how many a unicycle has. They say nothing at all about tricycles, so the third statement is uncertain."
+    },
+    {
+      "id": "b2f8462625",
+      "stem": "Birds can fly. Airplanes can fly. Airplanes are birds. If the first two statements are true, the third is:",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "uncertain"
+      ],
+      "answer": 2,
+      "topic": "Verbal Logic",
+      "source": "verbal_logic_diagnostic_test",
+      "explanation": "Birds fly and airplanes fly, but sharing a trait does not prove two things are the same kind. Nothing in the premises forces airplanes to be birds, so the answer is uncertain."
+    },
+    {
+      "id": "c3c64ace80",
+      "stem": "Cars are faster than bicycles. Trains are faster than cars. Trains are faster than bicycles. If the first two statements are true, the third is:",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "uncertain"
+      ],
+      "answer": 0,
+      "topic": "Verbal Logic",
+      "source": "verbal_logic_diagnostic_test",
+      "explanation": "Trains are faster than cars and cars are faster than bicycles, so trains must be faster than bicycles. The premises force that order, so the third statement is true."
+    },
+    {
+      "id": "196e790a05",
+      "stem": "Some birds can swim. Penguins are birds. Penguins can swim. If the first two statements are true, the third is:",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "uncertain"
+      ],
+      "answer": 2,
+      "topic": "Verbal Logic",
+      "source": "verbal_logic_diagnostic_test",
+      "explanation": "Only some birds swim, and penguins are birds. Penguins might be in the swimming group or they might not, because the premises never say which birds swim. That leaves it uncertain."
+    },
+    {
+      "id": "e0ae237457",
+      "stem": "All books have pages. Magazines are books. Magazines have pages. If the first two statements are true, the third is:",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "uncertain"
+      ],
+      "answer": 0,
+      "topic": "Verbal Logic",
+      "source": "verbal_logic_diagnostic_test",
+      "explanation": "You are asked to accept that all books have pages and that magazines are books. Together those force magazines to have pages, so the third statement is true."
+    },
+    {
+      "id": "f9ee232b19",
+      "stem": "All fruits have seeds. Apples have seeds. Apples are fruits. If the first two statements are true, the third is:",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "uncertain"
+      ],
+      "answer": 2,
+      "topic": "Verbal Logic",
+      "source": "verbal_logic_diagnostic_test",
+      "explanation": "All fruits have seeds and apples have seeds, but sharing a trait does not prove two things are the same kind. Other things have seeds too, so the answer is uncertain rather than true."
+    },
+    {
+      "id": "b1a6177865",
+      "stem": "All humans breathe air. Fish breathe water. Fish are not humans. If the first two statements are true, the third is:",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "uncertain"
+      ],
+      "answer": 2,
+      "topic": "Verbal Logic",
+      "source": "verbal_logic_diagnostic_test",
+      "explanation": "You know humans breathe air and fish breathe water, but the premises never say a creature cannot do both. Nothing forces fish to be outside the human group, so it is uncertain."
+    },
+    {
+      "id": "4398090811",
+      "stem": "All computers need electricity. Laptops are computers. Laptops need electricity. If the first two statements are true, the third is:",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "uncertain"
+      ],
+      "answer": 0,
+      "topic": "Verbal Logic",
+      "source": "verbal_logic_diagnostic_test",
+      "explanation": "Every computer needs electricity and laptops are computers, so laptops must need electricity. The premises force the conclusion, so the third statement is true."
+    },
+    {
+      "id": "a9f9eb6ebc",
+      "stem": "Some trees have leaves. All oaks are trees. Some oaks have leaves. If the first two statements are true, the third is:",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "uncertain"
+      ],
+      "answer": 2,
+      "topic": "Verbal Logic",
+      "source": "verbal_logic_diagnostic_test",
+      "explanation": "Only some trees have leaves, and every oak is a tree. The leafy trees could all be other kinds, so the premises never settle whether any oak has leaves. It is uncertain."
+    },
+    {
+      "id": "fac0ba0f3c",
+      "stem": "All shoes have laces. Sandals do not have laces. Sandals are not shoes. If the first two statements are true, the third is:",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "uncertain"
+      ],
+      "answer": 0,
+      "topic": "Verbal Logic",
+      "source": "verbal_logic_diagnostic_test",
+      "explanation": "Every shoe has laces, and sandals have no laces. Anything without laces cannot be a shoe, so the premises force the third statement and it is true."
+    },
+    {
+      "id": "68ed773dd9",
+      "stem": "Some animals eat plants. Cows are animals. Cows eat plants. If the first two statements are true, the third is:",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "uncertain"
+      ],
+      "answer": 2,
+      "topic": "Verbal Logic",
+      "source": "verbal_logic_diagnostic_test",
+      "explanation": "Only some animals eat plants, and cows are animals. Cows might be in that group or they might not, because the premises never say which animals eat plants. That makes it uncertain."
+    },
+    {
+      "id": "d3e0439b8e",
+      "stem": "All keys unlock doors. Some keys are small. Some small things unlock doors. If the first two statements are true, the third is:",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "uncertain"
+      ],
+      "answer": 0,
+      "topic": "Verbal Logic",
+      "source": "verbal_logic_diagnostic_test",
+      "explanation": "Some keys are small, and every key unlocks doors. So at least one small thing, that small key, does unlock doors. The premises force it, so the third statement is true."
+    },
+    {
+      "id": "1c280ab3f7",
+      "stem": "All triangles have three sides. Some shapes have three sides. Some shapes are triangles. If the first two statements are true, the third is:",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "uncertain"
+      ],
+      "answer": 2,
+      "topic": "Verbal Logic",
+      "source": "verbal_logic_diagnostic_test",
+      "explanation": "Triangles have three sides and some shapes have three sides, but sharing a trait does not prove they are the same kind. The premises never say triangles are shapes, so it is uncertain."
+    },
+    {
+      "id": "2471aa4108",
+      "stem": "All liquids can flow. Some oils are liquids. Some oils can flow. If the first two statements are true, the third is:",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "uncertain"
+      ],
+      "answer": 0,
+      "topic": "Verbal Logic",
+      "source": "verbal_logic_diagnostic_test",
+      "explanation": "Some oils are liquids, and every liquid can flow. Those oils that are liquids must be able to flow, so the premises force the third statement and it is true."
+    },
+    {
+      "id": "acf4e981d0",
+      "stem": "All clouds are white. Some white things are soft. Some clouds are soft. If the first two statements are true, the third is:",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "uncertain"
+      ],
+      "answer": 2,
+      "topic": "Verbal Logic",
+      "source": "verbal_logic_diagnostic_test",
+      "explanation": "All clouds are white, and some white things are soft. The soft white things could be pillows or snow instead of clouds, so the premises do not settle it and it is uncertain."
+    },
+    {
+      "id": "f3a62d0903",
+      "stem": "Some pencils are red. All pencils have erasers. Some red pencils have erasers. If the first two statements are true, the third is:",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "uncertain"
+      ],
+      "answer": 0,
+      "topic": "Verbal Logic",
+      "source": "verbal_logic_diagnostic_test",
+      "explanation": "Some pencils are red, and every pencil has an eraser. Those red pencils are still pencils, so they have erasers too. The premises force it, so the third statement is true."
+    },
+    {
+      "id": "e934ff37b4",
+      "stem": "All circles are round. Some round things are balls. Some circles are balls. If the first two statements are true, the third is:",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "uncertain"
+      ],
+      "answer": 2,
+      "topic": "Verbal Logic",
+      "source": "verbal_logic_diagnostic_test",
+      "explanation": "All circles are round, and some round things are balls. The round things that are balls might not be circles at all, so the premises do not settle it and it is uncertain."
+    },
+    {
+      "id": "2f63743b23",
+      "stem": "Which word does not belong with the others?",
+      "options": [
+        "Apple",
+        "Orange",
+        "Banana",
+        "Carrot"
+      ],
+      "answer": 3,
+      "topic": "Classification",
+      "source": "verbal_classification_diagnostic_test_remake",
+      "explanation": "Apple, orange and banana are all fruits that grow on trees or plants. A carrot is a vegetable that grows underground as a root."
+    },
+    {
+      "id": "d90ed01e14",
+      "stem": "Which word does not belong with the others?",
+      "options": [
+        "Knife",
+        "Fork",
+        "Spoon",
+        "Plate"
+      ],
+      "answer": 3,
+      "topic": "Classification",
+      "source": "verbal_classification_diagnostic_test_remake",
+      "explanation": "Knife, fork and spoon are utensils you pick up and eat with. A plate is a dish that holds your food."
+    },
+    {
+      "id": "4bcdb1d886",
+      "stem": "Which word does not belong with the others?",
+      "options": [
+        "Guitar",
+        "Piano",
+        "Drum",
+        "Book"
+      ],
+      "answer": 3,
+      "topic": "Classification",
+      "source": "verbal_classification_diagnostic_test_remake",
+      "explanation": "Guitar, piano and drum are all musical instruments you play to make sound. A book is something you read."
+    },
+    {
+      "id": "2e06061e55",
+      "stem": "Which word does not belong with the others?",
+      "options": [
+        "Summer",
+        "Fall",
+        "January",
+        "Winter"
+      ],
+      "answer": 2,
+      "topic": "Classification",
+      "source": "verbal_classification_diagnostic_test_remake",
+      "explanation": "Summer, fall and winter are all seasons of the year. January is a month, which is a shorter piece of time."
+    },
+    {
+      "id": "2d75c73872",
+      "stem": "Which word does not belong with the others?",
+      "options": [
+        "Milk",
+        "Cheese",
+        "Butter",
+        "Bread"
+      ],
+      "answer": 3,
+      "topic": "Classification",
+      "source": "verbal_classification_diagnostic_test_remake",
+      "explanation": "Milk, cheese and butter are all dairy foods that come from milk. Bread is baked from flour, so it is a grain food."
+    },
+    {
+      "id": "1005384227",
+      "stem": "Which word does not belong with the others?",
+      "options": [
+        "Rose",
+        "Tulip",
+        "Daisy",
+        "Tree"
+      ],
+      "answer": 3,
+      "topic": "Classification",
+      "source": "verbal_classification_diagnostic_test_remake",
+      "explanation": "Rose, tulip and daisy are all flowers. A tree is a much larger plant with a woody trunk and branches."
+    },
+    {
+      "id": "212a7b8ba1",
+      "stem": "Which word does not belong with the others?",
+      "options": [
+        "Lion",
+        "Tiger",
+        "Leopard",
+        "Shark"
+      ],
+      "answer": 3,
+      "topic": "Classification",
+      "source": "verbal_classification_diagnostic_test_remake",
+      "explanation": "Lion, tiger and leopard are all big cats that live on land. A shark is a fish that lives in the ocean."
+    },
+    {
+      "id": "9d5514194f",
+      "stem": "Which word does not belong with the others?",
+      "options": [
+        "Chair",
+        "Table",
+        "Desk",
+        "Lamp"
+      ],
+      "answer": 3,
+      "topic": "Classification",
+      "source": "verbal_classification_diagnostic_test_remake",
+      "explanation": "Chair, table and desk are pieces of furniture with legs and a flat top. A lamp is a light you set on top of furniture."
+    },
+    {
+      "id": "6754d9b2b4",
+      "stem": "Which word does not belong with the others?",
+      "options": [
+        "Mountain",
+        "River",
+        "Lake",
+        "Ocean"
+      ],
+      "answer": 0,
+      "topic": "Classification",
+      "source": "verbal_classification_diagnostic_test_remake",
+      "explanation": "River, lake and ocean are all bodies of water. A mountain is a landform, made of rock and soil rising high above the ground."
+    },
+    {
+      "id": "d0316c9abf",
+      "stem": "Which word does not belong with the others?",
+      "options": [
+        "Couch",
+        "Bed",
+        "Dresser",
+        "Window"
+      ],
+      "answer": 3,
+      "topic": "Classification",
+      "source": "verbal_classification_diagnostic_test_remake",
+      "explanation": "Couch, bed and dresser are pieces of furniture you can move into a room. A window is a built-in part of the house itself."
+    },
+    {
+      "id": "be80a4c56e",
+      "stem": "Which word does not belong with the others?",
+      "options": [
+        "Soccer",
+        "Basketball",
+        "Tennis",
+        "Painting"
+      ],
+      "answer": 3,
+      "topic": "Classification",
+      "source": "verbal_classification_diagnostic_test_remake",
+      "explanation": "Soccer, basketball and tennis are all sports you play. Painting is an art activity, not a game with rules and scoring."
+    },
+    {
+      "id": "6ca5f9aa6d",
+      "stem": "Which word does not belong with the others?",
+      "options": [
+        "Red",
+        "Blue",
+        "Yellow",
+        "Sky"
+      ],
+      "answer": 3,
+      "topic": "Classification",
+      "source": "verbal_classification_diagnostic_test_remake",
+      "explanation": "Red, blue and yellow are all colors. The sky is a thing that has color, not a color itself."
+    },
+    {
+      "id": "a2ff3403a0",
+      "stem": "Which word does not belong with the others?",
+      "options": [
+        "Pen",
+        "Pencil",
+        "Marker",
+        "Chalkboard"
+      ],
+      "answer": 3,
+      "topic": "Classification",
+      "source": "verbal_classification_diagnostic_test_remake",
+      "explanation": "Pen, pencil and marker are all tools you hold in your hand to write. A chalkboard is the surface you write on."
+    },
+    {
+      "id": "d44b8b4ad0",
+      "stem": "Which word does not belong with the others?",
+      "options": [
+        "Breakfast",
+        "Lunch",
+        "Dinner",
+        "Nap"
+      ],
+      "answer": 3,
+      "topic": "Classification",
+      "source": "verbal_classification_diagnostic_test_remake",
+      "explanation": "Breakfast, lunch and dinner are all meals you eat during the day. A nap is a short sleep, not a meal."
+    },
+    {
+      "id": "e6c7936989",
+      "stem": "Which word does not belong with the others?",
+      "options": [
+        "Doctor",
+        "Teacher",
+        "Lawyer",
+        "Parent"
+      ],
+      "answer": 3,
+      "topic": "Classification",
+      "source": "verbal_classification_diagnostic_test_remake",
+      "explanation": "Doctor, teacher and lawyer are all jobs people train for and get paid to do. A parent is a role in a family."
+    },
+    {
+      "id": "526c919d8e",
+      "stem": "Which word does not belong with the others?",
+      "options": [
+        "Apple",
+        "Pear",
+        "Grape",
+        "Carrot"
+      ],
+      "answer": 3,
+      "topic": "Classification",
+      "source": "verbal_classification_diagnostic_test_remake",
+      "explanation": "Apple, pear and grape are all sweet fruits that grow above the ground. A carrot is a vegetable that grows underground as a root."
+    },
+    {
+      "id": "bb5197e4f8",
+      "stem": "Which word does not belong with the others?",
+      "options": [
+        "Dog",
+        "Cat",
+        "Rabbit",
+        "Fish"
+      ],
+      "answer": 3,
+      "topic": "Classification",
+      "source": "verbal_classification_diagnostic_test_remake",
+      "explanation": "Dog, cat and rabbit are all furry mammals that live on land. A fish lives in water and has scales instead of fur."
+    },
+    {
+      "id": "ab6c332fb6",
+      "stem": "Which word does not belong with the others?",
+      "options": [
+        "Sun",
+        "Moon",
+        "Planet",
+        "Cloud"
+      ],
+      "answer": 3,
+      "topic": "Classification",
+      "source": "verbal_classification_diagnostic_test_remake",
+      "explanation": "Sun, moon and planet are all objects out in space. A cloud is made of water and floats in the air above Earth."
+    },
+    {
+      "id": "7d206faa29",
+      "stem": "Which word does not belong with the others?",
+      "options": [
+        "Teacher",
+        "Student",
+        "Principal",
+        "Parent"
+      ],
+      "answer": 3,
+      "topic": "Classification",
+      "source": "verbal_classification_diagnostic_test_remake",
+      "explanation": "Teacher, student and principal are all people who spend their day at school. A parent is a role in a family."
+    },
+    {
+      "id": "2d99e90c9d",
+      "stem": "Which word does not belong with the others?",
+      "options": [
+        "Shirt",
+        "Pants",
+        "Socks",
+        "Belt"
+      ],
+      "answer": 3,
+      "topic": "Classification",
+      "source": "verbal_classification_diagnostic_test_remake",
+      "explanation": "Shirt, pants and socks are clothes that cover part of your body. A belt is an accessory that holds your pants up."
+    },
+    {
+      "id": "8323ef7de6",
+      "stem": "Which word does not belong with the others?",
+      "options": [
+        "Apple",
+        "Orange",
+        "Banana",
+        "Lettuce"
+      ],
+      "answer": 3,
+      "topic": "Classification",
+      "source": "verbal_classification_diagnostic_test_remake",
+      "explanation": "Apple, orange and banana are all sweet fruits that grow on trees or plants. Lettuce is a leafy green vegetable that people eat in salads."
+    },
+    {
+      "id": "b61326fa92",
+      "stem": "Which word does not belong with the others?",
+      "options": [
+        "Knife",
+        "Fork",
+        "Bowl",
+        "Spoon"
+      ],
+      "answer": 2,
+      "topic": "Classification",
+      "source": "verbal_classification_diagnostic_test_remake",
+      "explanation": "Knife, fork and spoon are utensils you pick up and eat with. A bowl is a dish that holds the food."
+    },
+    {
+      "id": "8cc7b73863",
+      "stem": "Which word does not belong with the others?",
+      "options": [
+        "Tree",
+        "Grass",
+        "Flower",
+        "Rock"
+      ],
+      "answer": 3,
+      "topic": "Classification",
+      "source": "verbal_classification_diagnostic_test_remake",
+      "explanation": "Tree, grass and flower are all living plants that grow from the soil. A rock is not alive and does not grow."
+    },
+    {
+      "id": "7a2647a163",
+      "stem": "Which word does not belong with the others?",
+      "options": [
+        "Piano",
+        "Violin",
+        "Trumpet",
+        "Painting"
+      ],
+      "answer": 3,
+      "topic": "Classification",
+      "source": "verbal_classification_diagnostic_test_remake",
+      "explanation": "Piano, violin and trumpet are all musical instruments you play. Painting is a kind of art you make with a brush."
+    },
+    {
+      "id": "2d8605e533",
+      "stem": "Which word does not belong with the others?",
+      "options": [
+        "Couch",
+        "Chair",
+        "Table",
+        "Television"
+      ],
+      "answer": 3,
+      "topic": "Classification",
+      "source": "verbal_classification_diagnostic_test_remake",
+      "explanation": "Couch, chair and table are all pieces of furniture. A television is an electronic device that needs power to work."
+    },
+    {
+      "id": "aac135d0bb",
+      "stem": "Which word does not belong with the others?",
+      "options": [
+        "Carrot",
+        "Potato",
+        "Onion",
+        "Milk"
+      ],
+      "answer": 3,
+      "topic": "Classification",
+      "source": "verbal_classification_diagnostic_test_remake",
+      "explanation": "Carrot, potato and onion are all vegetables that grow in the ground. Milk is a drink that comes from cows."
+    },
+    {
+      "id": "cc711c3a4e",
+      "stem": "Which word does not belong with the others?",
+      "options": [
+        "Rain",
+        "Snow",
+        "Hail",
+        "Sun"
+      ],
+      "answer": 3,
+      "topic": "Classification",
+      "source": "verbal_classification_diagnostic_test_remake",
+      "explanation": "Rain, snow and hail all fall from clouds during a storm. The sun is the star that gives us light and heat."
+    },
+    {
+      "id": "20e6fef232",
+      "stem": "Which word does not belong with the others?",
+      "options": [
+        "Shirt",
+        "Hat",
+        "Scarf",
+        "Shoe"
+      ],
+      "answer": 3,
+      "topic": "Classification",
+      "source": "verbal_classification_diagnostic_test_remake",
+      "explanation": "Shirt, hat and scarf are all worn on the upper half of your body. A shoe goes on your foot."
+    },
+    {
+      "id": "bb4563e8aa",
+      "stem": "Which word does not belong with the others?",
+      "options": [
+        "Chocolate",
+        "Cake",
+        "Ice Cream",
+        "Water"
+      ],
+      "answer": 3,
+      "topic": "Classification",
+      "source": "verbal_classification_diagnostic_test_remake",
+      "explanation": "Chocolate, cake and ice cream are all sweet desserts. Water is a plain drink with no sugar in it."
+    },
+    {
+      "id": "be6cf93302",
+      "stem": "Which word does not belong with the others?",
+      "options": [
+        "Dog",
+        "Cat",
+        "Hamster",
+        "Eagle"
+      ],
+      "answer": 3,
+      "topic": "Classification",
+      "source": "verbal_classification_diagnostic_test_remake",
+      "explanation": "Dog, cat and hamster are all mammals that people keep as pets. An eagle is a wild bird that lives outdoors."
+    },
+    {
+      "id": "17afaf3067",
+      "stem": "Which word does not belong with the others?",
+      "options": [
+        "Knife",
+        "Fork",
+        "Spoon",
+        "Table"
+      ],
+      "answer": 3,
+      "topic": "Classification",
+      "source": "verbal_classification_diagnostic_test_remake",
+      "explanation": "Knife, fork and spoon are utensils you pick up and eat with. A table is a piece of furniture you set them on."
+    },
+    {
+      "id": "a15f8ef834",
+      "stem": "Which word does not belong with the others?",
+      "options": [
+        "Hand",
+        "Foot",
+        "Arm",
+        "Head"
+      ],
+      "answer": 3,
+      "topic": "Classification",
+      "source": "verbal_classification_diagnostic_test_remake",
+      "explanation": "Hand, foot and arm are body parts that come in pairs, so you have two of each. You have only one head."
+    },
+    {
+      "id": "684aed2943",
+      "stem": "Which word does not belong with the others?",
+      "options": [
+        "Apple",
+        "Banana",
+        "Orange",
+        "Tomato"
+      ],
+      "answer": 3,
+      "topic": "Classification",
+      "source": "verbal_classification_diagnostic_test_remake",
+      "explanation": "Apple, banana and orange are sweet fruits we eat as fruit. A tomato is grown and eaten as a vegetable in salads and sauces."
+    },
+    {
+      "id": "49cb9b864b",
+      "stem": "Which word does not belong with the others?",
+      "options": [
+        "Plane",
+        "Train",
+        "Boat",
+        "Bicycle"
+      ],
+      "answer": 3,
+      "topic": "Classification",
+      "source": "verbal_classification_diagnostic_test_remake",
+      "explanation": "Plane, train and boat all carry people using an engine. A bicycle moves only when a person pedals it."
+    },
+    {
+      "id": "8a5569fb18",
+      "stem": "Frugal means the opposite of:",
+      "options": [
+        "wasteful",
+        "stingy",
+        "economical",
+        "thrifty"
+      ],
+      "answer": 0,
+      "topic": "Antonyms",
+      "source": "antonym_diagnostic_test_remake",
+      "explanation": "Frugal means careful with money and not spending much, so its opposite is wasteful. Watch out: stingy, economical and thrifty all mean the same as frugal."
+    },
+    {
+      "id": "1df7a757a0",
+      "stem": "Omit means the opposite of:",
+      "options": [
+        "delete",
+        "include",
+        "avoid",
+        "ignore"
+      ],
+      "answer": 1,
+      "topic": "Antonyms",
+      "source": "antonym_diagnostic_test_remake",
+      "explanation": "To omit something is to leave it out, so the opposite is to include it. Delete is a trap because it also means taking something out."
+    },
+    {
+      "id": "cd55a0a52f",
+      "stem": "Condemn means the opposite of:",
+      "options": [
+        "criticize",
+        "praise",
+        "reject",
+        "convict"
+      ],
+      "answer": 1,
+      "topic": "Antonyms",
+      "source": "antonym_diagnostic_test_remake",
+      "explanation": "To condemn is to say something is very wrong or evil, so its opposite is to praise. Criticize is a trap that means nearly the same as condemn."
+    },
+    {
+      "id": "f79f43a1d3",
+      "stem": "Vague means the opposite of:",
+      "options": [
+        "uncertain",
+        "precise",
+        "ambiguous",
+        "unclear"
+      ],
+      "answer": 1,
+      "topic": "Antonyms",
+      "source": "antonym_diagnostic_test_remake",
+      "explanation": "Vague means unclear and fuzzy, not exact, so its opposite is precise. Uncertain, ambiguous and unclear are all synonyms of vague, not opposites."
+    },
+    {
+      "id": "e93f94361b",
+      "stem": "Recede means the opposite of:",
+      "options": [
+        "advance",
+        "withdraw",
+        "retreat",
+        "diminish"
+      ],
+      "answer": 0,
+      "topic": "Antonyms",
+      "source": "antonym_diagnostic_test_remake",
+      "explanation": "To recede is to move back or shrink away, like a receding hairline, so the opposite is to advance. Withdraw, retreat and diminish match recede."
+    },
+    {
+      "id": "824a70a258",
+      "stem": "Blunt means the opposite of:",
+      "options": [
+        "sharp",
+        "dull",
+        "honest",
+        "direct"
+      ],
+      "answer": 0,
+      "topic": "Antonyms",
+      "source": "antonym_diagnostic_test_remake",
+      "explanation": "Blunt means not sharp, like a dull knife, so its opposite is sharp. Dull, honest and direct are all meanings of blunt, not opposites."
+    },
+    {
+      "id": "7b9814e105",
+      "stem": "Indifference means the opposite of:",
+      "options": [
+        "apathy",
+        "concern",
+        "neutrality",
+        "disinterest"
+      ],
+      "answer": 1,
+      "topic": "Antonyms",
+      "source": "antonym_diagnostic_test_remake",
+      "explanation": "Indifference means not caring at all, so its opposite is concern, which means caring. Apathy, neutrality and disinterest all match indifference."
+    },
+    {
+      "id": "e6916cf345",
+      "stem": "Prohibit means the opposite of:",
+      "options": [
+        "permit",
+        "forbid",
+        "ban",
+        "restrict"
+      ],
+      "answer": 0,
+      "topic": "Antonyms",
+      "source": "antonym_diagnostic_test_remake",
+      "explanation": "To prohibit is to forbid or not allow, so the opposite is to permit, meaning to allow. Forbid, ban and restrict all match prohibit instead."
+    },
+    {
+      "id": "dd7e73e9a5",
+      "stem": "Audible means the opposite of:",
+      "options": [
+        "loud",
+        "silent",
+        "heard",
+        "visible"
+      ],
+      "answer": 1,
+      "topic": "Antonyms",
+      "source": "antonym_diagnostic_test_remake",
+      "explanation": "Audible means able to be heard, as in audio, so its opposite is silent. Loud and heard are traps because they go with audible."
+    },
+    {
+      "id": "f8e9a0b99c",
+      "stem": "Fragile means the opposite of:",
+      "options": [
+        "brittle",
+        "weak",
+        "sturdy",
+        "soft"
+      ],
+      "answer": 2,
+      "topic": "Antonyms",
+      "source": "antonym_diagnostic_test_remake",
+      "explanation": "Fragile means easily broken, so its opposite is sturdy, meaning strong and solid. Brittle, weak and soft are traps that match fragile."
+    },
+    {
+      "id": "fb16e50781",
+      "stem": "Relinquish means the opposite of:",
+      "options": [
+        "claim",
+        "abandon",
+        "surrender",
+        "release"
+      ],
+      "answer": 0,
+      "topic": "Antonyms",
+      "source": "antonym_diagnostic_test_remake",
+      "explanation": "To relinquish is to give something up, so the opposite is to claim it. Surrender, abandon and release all mean the same as relinquish."
+    },
+    {
+      "id": "68e1d81734",
+      "stem": "Eloquent means the opposite of:",
+      "options": [
+        "inarticulate",
+        "fluent",
+        "expressive",
+        "persuasive"
+      ],
+      "answer": 0,
+      "topic": "Antonyms",
+      "source": "antonym_diagnostic_test_remake",
+      "explanation": "Eloquent means speaking clearly and beautifully, so its opposite is inarticulate, meaning unable to get words out well. Fluent, expressive and persuasive match eloquent."
+    },
+    {
+      "id": "099f286e52",
+      "stem": "Audacity means the opposite of:",
+      "options": [
+        "courage",
+        "timidity",
+        "boldness",
+        "nerve"
+      ],
+      "answer": 1,
+      "topic": "Antonyms",
+      "source": "antonym_diagnostic_test_remake",
+      "explanation": "Audacity means bold daring, so its opposite is timidity, meaning shyness and fear. Courage, boldness and nerve all mean the same as audacity."
+    },
+    {
+      "id": "86a87865f7",
+      "stem": "Emulate means the opposite of:",
+      "options": [
+        "follow",
+        "imitate",
+        "innovate",
+        "copy"
+      ],
+      "answer": 2,
+      "topic": "Antonyms",
+      "source": "antonym_diagnostic_test_remake",
+      "explanation": "To emulate someone is to copy them or try to match them, so the opposite is to innovate, meaning to make something new. Follow, imitate and copy match emulate."
+    },
+    {
+      "id": "cc842c8c99",
+      "stem": "Imminent means the opposite of:",
+      "options": [
+        "immediate",
+        "distant",
+        "impending",
+        "approaching"
+      ],
+      "answer": 1,
+      "topic": "Antonyms",
+      "source": "antonym_diagnostic_test_remake",
+      "explanation": "Imminent means about to happen very soon, so its opposite is distant, meaning far off in time. Immediate, impending and approaching all match imminent."
+    },
+    {
+      "id": "fe3100a310",
+      "stem": "Compliant means the opposite of:",
+      "options": [
+        "defiant",
+        "cooperative",
+        "obedient",
+        "submissive"
+      ],
+      "answer": 0,
+      "topic": "Antonyms",
+      "source": "antonym_diagnostic_test_remake",
+      "explanation": "Compliant means going along with rules or doing as told, so its opposite is defiant, meaning refusing to obey. Cooperative, obedient and submissive match compliant."
+    },
+    {
+      "id": "4324d913c6",
+      "stem": "Sparse means the opposite of:",
+      "options": [
+        "abundant",
+        "scarce",
+        "thin",
+        "inadequate"
+      ],
+      "answer": 0,
+      "topic": "Antonyms",
+      "source": "antonym_diagnostic_test_remake",
+      "explanation": "Sparse means thinly spread with very little there, so its opposite is abundant, meaning plenty. Scarce, thin and inadequate all mean the same as sparse."
+    },
+    {
+      "id": "548ee3d03d",
+      "stem": "Inferior means the opposite of:",
+      "options": [
+        "mediocre",
+        "worse",
+        "superior",
+        "low"
+      ],
+      "answer": 2,
+      "topic": "Antonyms",
+      "source": "antonym_diagnostic_test_remake",
+      "explanation": "Inferior means lower in quality or rank, so its opposite is superior, meaning higher or better. Worse, low and mediocre all lean the same way as inferior."
+    },
+    {
+      "id": "c478cd715a",
+      "stem": "Succinct means the opposite of:",
+      "options": [
+        "concise",
+        "verbose",
+        "brief",
+        "short"
+      ],
+      "answer": 1,
+      "topic": "Antonyms",
+      "source": "antonym_diagnostic_test_remake",
+      "explanation": "Succinct means said in few words, so its opposite is verbose, meaning wordy. Concise, brief and short are traps because they all match succinct."
+    },
+    {
+      "id": "693843cfd7",
+      "stem": "Dismal means the opposite of:",
+      "options": [
+        "bright",
+        "gloomy",
+        "dreary",
+        "dull"
+      ],
+      "answer": 0,
+      "topic": "Antonyms",
+      "source": "antonym_diagnostic_test_remake",
+      "explanation": "Dismal means gloomy and depressing, so its opposite is bright and cheerful. Gloomy, dreary and dull are synonyms of dismal, not opposites."
+    },
+    {
+      "id": "2f388da9b0",
+      "stem": "Obscure means the opposite of:",
+      "options": [
+        "clear",
+        "hidden",
+        "unknown",
+        "vague"
+      ],
+      "answer": 0,
+      "topic": "Antonyms",
+      "source": "antonym_diagnostic_test_remake",
+      "explanation": "Obscure means hard to see or hard to understand, so its opposite is clear. Hidden, unknown and vague all mean the same as obscure."
+    },
+    {
+      "id": "a35f4bc0d5",
+      "stem": "Insolent means the opposite of:",
+      "options": [
+        "respectful",
+        "rude",
+        "impolite",
+        "discourteous"
+      ],
+      "answer": 0,
+      "topic": "Antonyms",
+      "source": "antonym_diagnostic_test_remake",
+      "explanation": "Insolent means rude and disrespectful on purpose, so its opposite is respectful. Rude, impolite and discourteous are traps that match insolent."
+    },
+    {
+      "id": "2a92dc52da",
+      "stem": "Reticent means the opposite of:",
+      "options": [
+        "talkative",
+        "shy",
+        "reserved",
+        "introverted"
+      ],
+      "answer": 0,
+      "topic": "Antonyms",
+      "source": "antonym_diagnostic_test_remake",
+      "explanation": "Reticent means quiet and holding back from speaking, so its opposite is talkative. Shy, reserved and introverted all mean the same as reticent."
+    },
+    {
+      "id": "f8e1864dd9",
+      "stem": "Tedious means the opposite of:",
+      "options": [
+        "interesting",
+        "boring",
+        "repetitive",
+        "monotonous"
+      ],
+      "answer": 0,
+      "topic": "Antonyms",
+      "source": "antonym_diagnostic_test_remake",
+      "explanation": "Tedious means long and dull, the kind of work that drags on, so its opposite is interesting. Boring, repetitive and monotonous all match tedious."
+    },
+    {
+      "id": "5886ff0ac3",
+      "stem": "Inept means the opposite of:",
+      "options": [
+        "competent",
+        "clumsy",
+        "awkward",
+        "bumbling"
+      ],
+      "answer": 0,
+      "topic": "Antonyms",
+      "source": "antonym_diagnostic_test_remake",
+      "explanation": "Inept means having no skill at something, so its opposite is competent, meaning skilled and able. Clumsy, awkward and bumbling all match inept."
+    },
+    {
+      "id": "619a3ae8e2",
+      "stem": "Futile means the opposite of:",
+      "options": [
+        "useful",
+        "pointless",
+        "unproductive",
+        "ineffective"
+      ],
+      "answer": 0,
+      "topic": "Antonyms",
+      "source": "antonym_diagnostic_test_remake",
+      "explanation": "Futile means having no chance of working, a waste of effort, so its opposite is useful. Pointless, unproductive and ineffective all mean the same as futile."
+    },
+    {
+      "id": "262da02650",
+      "stem": "Revoke means the opposite of:",
+      "options": [
+        "grant",
+        "cancel",
+        "void",
+        "repeal"
+      ],
+      "answer": 0,
+      "topic": "Antonyms",
+      "source": "antonym_diagnostic_test_remake",
+      "explanation": "To revoke is to take back something you gave, like revoking a license, so the opposite is to grant it. Cancel, void and repeal match revoke."
+    },
+    {
+      "id": "5d9d51c7d8",
+      "stem": "Gregarious means the opposite of:",
+      "options": [
+        "reserved",
+        "sociable",
+        "outgoing",
+        "friendly"
+      ],
+      "answer": 0,
+      "topic": "Antonyms",
+      "source": "antonym_diagnostic_test_remake",
+      "explanation": "Gregarious means loving to be around people, so its opposite is reserved, meaning quiet and keeping to yourself. Sociable, outgoing and friendly match gregarious."
+    },
+    {
+      "id": "9139a95942",
+      "stem": "Rigid means the opposite of:",
+      "options": [
+        "firm",
+        "inflexible",
+        "adaptable",
+        "solid"
+      ],
+      "answer": 2,
+      "topic": "Antonyms",
+      "source": "antonym_diagnostic_test_remake",
+      "explanation": "Rigid means stiff and unable to bend or change, so its opposite is adaptable. Firm, inflexible and solid all mean the same as rigid."
+    },
+    {
+      "id": "46bcebd386",
+      "stem": "Candid means the opposite of:",
+      "options": [
+        "honest",
+        "evasive",
+        "frank",
+        "open"
+      ],
+      "answer": 1,
+      "topic": "Antonyms",
+      "source": "antonym_diagnostic_test_remake",
+      "explanation": "Candid means open and honest, saying just what you think, so its opposite is evasive, meaning dodging the truth. Honest, frank and open match candid."
+    },
+    {
+      "id": "7037abb4f2",
+      "stem": "Coherent means the opposite of:",
+      "options": [
+        "logical",
+        "confused",
+        "consistent",
+        "organized"
+      ],
+      "answer": 1,
+      "topic": "Antonyms",
+      "source": "antonym_diagnostic_test_remake",
+      "explanation": "Coherent means clear and logical, with ideas that stick together, so its opposite is confused. Logical, consistent and organized all mean the same as coherent."
+    },
+    {
+      "id": "79fd892529",
+      "stem": "Plausible means the opposite of:",
+      "options": [
+        "believable",
+        "unlikely",
+        "convincing",
+        "possible"
+      ],
+      "answer": 1,
+      "topic": "Antonyms",
+      "source": "antonym_diagnostic_test_remake",
+      "explanation": "Plausible means believable or reasonable, so its opposite is unlikely. Believable, convincing and possible are traps because they all match plausible."
+    },
+    {
+      "id": "c1248ba15d",
+      "stem": "Sluggish means the opposite of:",
+      "options": [
+        "lethargic",
+        "energetic",
+        "slow",
+        "inactive"
+      ],
+      "answer": 1,
+      "topic": "Antonyms",
+      "source": "antonym_diagnostic_test_remake",
+      "explanation": "Sluggish means slow and lacking energy, moving like a slug, so its opposite is energetic. Lethargic, slow and inactive all mean the same as sluggish."
+    },
+    {
+      "id": "758e9128bb",
+      "stem": "Tangible means the opposite of:",
+      "options": [
+        "concrete",
+        "abstract",
+        "visible",
+        "solid"
+      ],
+      "answer": 1,
+      "topic": "Antonyms",
+      "source": "antonym_diagnostic_test_remake",
+      "explanation": "Tangible means able to be touched, something real you can hold, so its opposite is abstract, an idea you cannot touch. Concrete, visible and solid match tangible."
+    },
+    {
+      "id": "c2869aaa8d",
+      "stem": "Palpable means the opposite of:",
+      "options": [
+        "detectable",
+        "invisible",
+        "evident",
+        "noticeable"
+      ],
+      "answer": 1,
+      "topic": "Antonyms",
+      "source": "antonym_diagnostic_test_remake",
+      "explanation": "Palpable means so obvious you can almost feel it, so its opposite is invisible, meaning noticed by nobody. Detectable, evident and noticeable all match palpable."
+    },
+    {
+      "id": "277efab83b",
+      "stem": "Superficial means the opposite of:",
+      "options": [
+        "deep",
+        "shallow",
+        "surface",
+        "exterior"
+      ],
+      "answer": 0,
+      "topic": "Antonyms",
+      "source": "antonym_diagnostic_test_remake",
+      "explanation": "Superficial means only on the surface and not going far in, so its opposite is deep. Shallow, surface and exterior all mean the same as superficial."
+    },
+    {
+      "id": "60306378ac",
+      "stem": "Archaic means the opposite of:",
+      "options": [
+        "modern",
+        "ancient",
+        "outdated",
+        "old-fashioned"
+      ],
+      "answer": 0,
+      "topic": "Antonyms",
+      "source": "antonym_diagnostic_test_remake",
+      "explanation": "Archaic means very old and no longer used, sharing the arch- in archaeology, so its opposite is modern. Ancient, outdated and old-fashioned all match archaic."
+    },
+    {
+      "id": "efbc62a169",
+      "stem": "Benevolent means the opposite of:",
+      "options": [
+        "kind",
+        "selfish",
+        "malevolent",
+        "gentle"
+      ],
+      "answer": 2,
+      "topic": "Antonyms",
+      "source": "antonym_diagnostic_test_remake",
+      "explanation": "Benevolent means kind and wishing others well, since bene- means good, so its opposite is malevolent, where mal- means bad. Kind and gentle just repeat benevolent."
+    },
+    {
+      "id": "c6b5f9bbc5",
+      "stem": "Resilient means the opposite of:",
+      "options": [
+        "flexible",
+        "fragile",
+        "tough",
+        "strong"
+      ],
+      "answer": 1,
+      "topic": "Antonyms",
+      "source": "antonym_diagnostic_test_remake",
+      "explanation": "Resilient means able to bounce back from trouble or damage, so its opposite is fragile, meaning easily broken. Flexible, tough and strong all match resilient."
+    },
+    {
+      "id": "1d722c7d26",
+      "stem": "an ambiguous answer",
+      "options": [
+        "clear",
+        "vague",
+        "enthusiastic",
+        "confident"
+      ],
+      "answer": 1,
+      "topic": "Vocabulary",
+      "source": "new_vocabulary_questions_1",
+      "explanation": "Ambiguous means it could be taken more than one way, so an ambiguous answer is vague. Clear is its opposite, not its meaning."
+    },
+    {
+      "id": "0cb07ec12e",
+      "stem": "to suppress a rebellion",
+      "options": [
+        "encourage",
+        "ignore",
+        "quell",
+        "lead"
+      ],
+      "answer": 2,
+      "topic": "Vocabulary",
+      "source": "new_vocabulary_questions_1",
+      "explanation": "To suppress is to put something down by force or hold it back, so suppressing a rebellion means to quell it, or crush it."
+    },
+    {
+      "id": "a1ceb69752",
+      "stem": "to foster creativity",
+      "options": [
+        "hinder",
+        "promote",
+        "ignore",
+        "forget"
+      ],
+      "answer": 1,
+      "topic": "Vocabulary",
+      "source": "new_vocabulary_questions_1",
+      "explanation": "To foster something is to help it grow, the way a foster family cares for a child. Fostering creativity means you promote it."
+    },
+    {
+      "id": "b025913ba6",
+      "stem": "a mundane task",
+      "options": [
+        "exciting",
+        "ordinary",
+        "dangerous",
+        "complex"
+      ],
+      "answer": 1,
+      "topic": "Vocabulary",
+      "source": "new_vocabulary_questions_1",
+      "explanation": "Mundane means everyday and plain, nothing special. A mundane task is ordinary, like folding laundry or taking out the trash."
+    },
+    {
+      "id": "6789da5110",
+      "stem": "an audacious plan",
+      "options": [
+        "timid",
+        "bold",
+        "cautious",
+        "traditional"
+      ],
+      "answer": 1,
+      "topic": "Vocabulary",
+      "source": "new_vocabulary_questions_1",
+      "explanation": "Audacious means daring and willing to take a big risk, so an audacious plan is bold. Timid and cautious are its opposites."
+    },
+    {
+      "id": "4c37844a95",
+      "stem": "to refute an argument",
+      "options": [
+        "support",
+        "weaken",
+        "dismiss",
+        "disprove"
+      ],
+      "answer": 3,
+      "topic": "Vocabulary",
+      "source": "new_vocabulary_questions_1",
+      "explanation": "To refute an argument is to prove it wrong with evidence, so it means disprove. Weaken is close but too soft - refuting knocks the argument all the way down."
+    },
+    {
+      "id": "a1228aeed7",
+      "stem": "a formidable challenge",
+      "options": [
+        "insignificant",
+        "easy",
+        "overwhelming",
+        "minor"
+      ],
+      "answer": 2,
+      "topic": "Vocabulary",
+      "source": "new_vocabulary_questions_1",
+      "explanation": "Formidable means so big or powerful that it makes you nervous, so a formidable challenge feels overwhelming. Easy and minor are the opposites."
+    },
+    {
+      "id": "c735c585e3",
+      "stem": "to exacerbate tensions",
+      "options": [
+        "reduce",
+        "ease",
+        "worsen",
+        "settle"
+      ],
+      "answer": 2,
+      "topic": "Vocabulary",
+      "source": "new_vocabulary_questions_1",
+      "explanation": "To exacerbate is to make a bad situation worse. If you exacerbate tensions, you worsen them instead of easing or settling them."
+    },
+    {
+      "id": "7902670585",
+      "stem": "a futile attempt",
+      "options": [
+        "successful",
+        "pointless",
+        "heroic",
+        "misguided"
+      ],
+      "answer": 1,
+      "topic": "Vocabulary",
+      "source": "new_vocabulary_questions_1",
+      "explanation": "Futile means doomed to fail no matter what you do, so a futile attempt is pointless. It has no chance of working."
+    },
+    {
+      "id": "fab0cfaf20",
+      "stem": "a profound discovery",
+      "options": [
+        "shallow",
+        "deep",
+        "surprising",
+        "insignificant"
+      ],
+      "answer": 1,
+      "topic": "Vocabulary",
+      "source": "new_vocabulary_questions_1",
+      "explanation": "Profound means very deep in meaning, going far below the surface. A profound discovery is deep, not shallow or unimportant."
+    },
+    {
+      "id": "2e7eca4d90",
+      "stem": "a hostile reaction",
+      "options": [
+        "friendly",
+        "aggressive",
+        "neutral",
+        "passive"
+      ],
+      "answer": 1,
+      "topic": "Vocabulary",
+      "source": "new_vocabulary_questions_1",
+      "explanation": "Hostile means unfriendly and acting like an enemy. A hostile reaction is aggressive, the opposite of a friendly or neutral one."
+    },
+    {
+      "id": "8d9bf851d8",
+      "stem": "an impartial judge",
+      "options": [
+        "biased",
+        "strict",
+        "fair",
+        "lenient"
+      ],
+      "answer": 2,
+      "topic": "Vocabulary",
+      "source": "new_vocabulary_questions_1",
+      "explanation": "Impartial means not taking sides. The prefix im- means not, so an impartial judge is fair instead of biased toward one person."
+    },
+    {
+      "id": "ff1a85e64e",
+      "stem": "a sporadic event",
+      "options": [
+        "regular",
+        "occasional",
+        "frequent",
+        "predictable"
+      ],
+      "answer": 1,
+      "topic": "Vocabulary",
+      "source": "new_vocabulary_questions_1",
+      "explanation": "Sporadic means happening now and then at odd times with no pattern, so a sporadic event is occasional, not regular or frequent."
+    },
+    {
+      "id": "dd7cb247f4",
+      "stem": "to vacillate on a decision",
+      "options": [
+        "decide",
+        "hesitate",
+        "affirm",
+        "act"
+      ],
+      "answer": 1,
+      "topic": "Vocabulary",
+      "source": "new_vocabulary_questions_1",
+      "explanation": "To vacillate is to swing back and forth without settling. If you vacillate on a decision, you hesitate instead of choosing."
+    },
+    {
+      "id": "00592c2354",
+      "stem": "a trivial concern",
+      "options": [
+        "important",
+        "minor",
+        "urgent",
+        "crucial"
+      ],
+      "answer": 1,
+      "topic": "Vocabulary",
+      "source": "new_vocabulary_questions_1",
+      "explanation": "Trivial means too small to matter much, so a trivial concern is minor. Urgent and crucial mean the opposite."
+    },
+    {
+      "id": "e9a9a09cfd",
+      "stem": "to instigate a conflict",
+      "options": [
+        "resolve",
+        "prevent",
+        "initiate",
+        "finish"
+      ],
+      "answer": 2,
+      "topic": "Vocabulary",
+      "source": "new_vocabulary_questions_1",
+      "explanation": "To instigate is to stir something up and get it going, so instigating a conflict means you initiate it, not resolve or prevent it."
+    },
+    {
+      "id": "24d7a442f5",
+      "stem": "an inevitable outcome",
+      "options": [
+        "avoidable",
+        "certain",
+        "sudden",
+        "unlikely"
+      ],
+      "answer": 1,
+      "topic": "Vocabulary",
+      "source": "new_vocabulary_questions_1",
+      "explanation": "Inevitable means it cannot be avoided no matter what, so an inevitable outcome is certain. Avoidable is its exact opposite."
+    },
+    {
+      "id": "cbfe4443fd",
+      "stem": "a conspicuous error",
+      "options": [
+        "hidden",
+        "obvious",
+        "deliberate",
+        "subtle"
+      ],
+      "answer": 1,
+      "topic": "Vocabulary",
+      "source": "new_vocabulary_questions_1",
+      "explanation": "Conspicuous means standing out and easy to notice, so a conspicuous error is obvious. Hidden and subtle mean the opposite."
+    }
+  ]
 }
