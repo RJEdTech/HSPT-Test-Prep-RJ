@@ -467,9 +467,12 @@ const HSPT = (() => {
 
   /** The weakest skills that have enough questions behind them to mean something. */
   function rankWeak(rows, n = TOP_N) {
+    /* Ties are common — four skills at 1 of 3 is an ordinary result. Break them the same
+       way the chart does (more questions first, then by name) so the numbered list and the
+       bars never disagree about which skill is third. */
     const ranked = rows
       .filter(r => r.total >= MIN_ITEMS && r.pct < WEAK_PCT)
-      .sort((a, b) => (a.pct - b.pct) || (b.total - a.total))
+      .sort((a, b) => (a.pct - b.pct) || (b.total - a.total) || a.skill.localeCompare(b.skill))
       .slice(0, n);
     ranked.forEach((r, i) => { r.priority = i + 1; });
     return ranked;
@@ -496,7 +499,115 @@ const HSPT = (() => {
     return links.join(' <span class="ss-sep">·</span> ');
   }
 
-  /** The whole sheet: every skill scored, the weakest ranked, each one pointing somewhere. */
+  /* Five bands, so the chart can say the same thing the table says. statusOf() keeps the
+     three CSS classes the table already styles; bandOf() splits "weak" into shaky and
+     needs-work, because a student at 55% and a student at 20% need different amounts of
+     convincing. */
+  function bandOf(r) {
+    if (r.total < MIN_ITEMS) return { cls: 'thin',   word: 'Too few to tell' };
+    if (r.pct >= 85)         return { cls: 'strong', word: 'Strong' };
+    if (r.pct >= WEAK_PCT)   return { cls: 'solid',  word: 'Solid' };
+    if (r.pct >= 40)         return { cls: 'shaky',  word: 'Shaky' };
+    return { cls: 'need', word: 'Needs work' };
+  }
+
+  /* The headline commits to three. Five is a list a student skims; three is a list they
+     work through. Weaknesses four and five still appear, lower down, under "if you have
+     time" — visible, but not competing with the thing they should do on Monday. */
+  const HEADLINE_N = 3;
+
+  /** One sentence naming the first move, because that is the question a student came with. */
+  function verdictHTML(res, all, weak) {
+    const pct    = Math.round((res.correct / res.total) * 100);
+    const scored = all.filter(r => r.total >= MIN_ITEMS).length;
+    const score  = `<p class="verdict-score">Overall: ${res.correct} of ${res.total} answered correctly
+      &middot; ${pct}%. <span class="muted">The number is not the point &mdash; what is above it is.</span></p>`;
+
+    if (!weak.length) {
+      return `<div class="verdict clear">
+        <p class="verdict-line">Nothing came out as a weak spot.</p>
+        <p class="verdict-sub">Every skill with enough questions behind it scored ${WEAK_PCT}% or better.
+          Your next move is <a href="mock.html">the full timed practice test</a> &mdash; at this level the
+          clock is likelier to cost you points than the content is.</p>
+        ${score}
+      </div>`;
+    }
+
+    const first = weak[0];
+    const extra = Math.min(weak.length - 1, HEADLINE_N - 1);
+    return `<div class="verdict">
+      <p class="verdict-eyebrow">Your starting point</p>
+      <p class="verdict-line">Start with <b>${esc(topicLabel(first.skill))}</b>.</p>
+      <p class="verdict-sub">You got ${first.right} of ${first.total} right there &mdash; the weakest of the
+        ${scored} skills this test could score.${extra ? ` ${extra === 1
+          ? 'One more skill is worth your time after it.'
+          : 'Two more are worth your time after it.'}` : ''}</p>
+      ${score}
+    </div>`;
+  }
+
+  /** The three moves, each with what the skill asks and where to go. */
+  function movesHTML(weak) {
+    const head = weak.slice(0, HEADLINE_N);
+    if (!head.length) return '';
+    const word = head.length === 1 ? 'move' : `${head.length === 2 ? 'two' : 'three'} moves`;
+    return `<h2 class="moves-h">Your first ${word}, in this order</h2>
+      <ol class="moves">${head.map((r, i) => {
+        const drill = r.section === 'reading' ? 'practice.html' : practiceLink(r.skill);
+        const blurb = TOPIC_BLURBS[r.skill];
+        return `<li class="move ${bandOf(r).cls}">
+          <div class="move-n">${i + 1}</div>
+          <div class="move-body">
+            <h3>${esc(topicLabel(r.skill))}</h3>
+            <p class="move-score"><b>${r.right} of ${r.total} right</b> &middot; ${r.pct}%
+              &middot; <span class="move-word">${bandOf(r).word}</span></p>
+            ${blurb ? `<p class="move-blurb">${esc(blurb)}</p>` : ''}
+            <p class="move-do no-print">${
+              hasLesson(r.skill) ? `<a class="btn small" href="${lessonLink(r.skill)}">Read the lesson</a> ` : ''
+            }<a class="btn small plain" href="${drill}">Practice it</a></p>
+            <p class="move-do print-only small">Lesson and practice for this skill are on the site.</p>
+          </div>
+        </li>`;
+      }).join('')}</ol>
+      <p class="moves-note">Work down that list in order. One skill per sitting beats skimming all
+        ${head.length === 1 ? 'of it' : 'three'} &mdash; number one is where the points are.</p>`;
+  }
+
+  /** Every scored skill as one bar, worst first, so the shape of the problem reads at a glance. */
+  function skillChart(all) {
+    const rows = all.slice().sort((a, b) => {
+      const aThin = a.total < MIN_ITEMS, bThin = b.total < MIN_ITEMS;
+      if (aThin !== bThin) return aThin ? 1 : -1;   // unscorable rows sink to the bottom
+      return a.pct - b.pct || (b.total - a.total) || a.skill.localeCompare(b.skill);
+    });
+    return `<div class="skillchart">${rows.map(r => {
+      const b = bandOf(r), thin = r.total < MIN_ITEMS;
+      return `<div class="sc-row">
+        <div class="sc-name">${esc(topicLabel(r.skill))}</div>
+        <div class="sc-track"><span class="sc-fill ${b.cls}" style="width:${thin ? 0 : r.pct}%"></span></div>
+        <div class="sc-val">${thin ? '&mdash;' : r.pct + '%'}</div>
+        <div class="sc-word ${b.cls}">${b.word}</div>
+      </div>`;
+    }).join('')}</div>
+    <p class="sc-key small muted"><span class="sc-chip need"></span>Needs work
+      <span class="sc-chip shaky"></span>Shaky
+      <span class="sc-chip solid"></span>Solid
+      <span class="sc-chip strong"></span>Strong
+      <span class="sc-chip thin"></span>Too few questions to judge</p>`;
+  }
+
+  /** Verdict, the three moves, and the chart — everything a student needs before scrolling. */
+  function resultsTop(res) {
+    const all  = skillRows(res.answers);
+    const weak = rankWeak(all);
+    return verdictHTML(res, all, weak) + movesHTML(weak) +
+      `<h2>Every skill, weakest first</h2>
+       <p class="small muted">How much of each skill you got right. Grey means this test did not ask
+       enough questions about it to judge you fairly.</p>
+       ${skillChart(all)}`;
+  }
+
+  /** The full sheet: every skill scored by section, plus weaknesses four and five. */
   function scoreSheet(res) {
     const all = skillRows(res.answers);
     const weak = rankWeak(all);
@@ -521,24 +632,21 @@ const HSPT = (() => {
           return `<tr>
             <td class="ss-skill">${r.priority ? `<span class="ss-rank">${r.priority}</span>` : ''}${esc(topicLabel(r.skill))}</td>
             <td class="num">${r.right} of ${r.total}</td>
-            <td class="num">${r.total < MIN_ITEMS ? '—' : r.pct + '%'}</td>
+            <td class="num">${r.total < MIN_ITEMS ? '&mdash;' : r.pct + '%'}</td>
             <td><span class="ss-tag ${cls}">${word}</span></td>
             <td class="ss-do">${studyCell(r)}</td>
           </tr>`;
         }).join('');
     }).join('');
 
-    const plan = weak.length
-      ? `<ol class="ss-plan">${weak.map(r => `<li>
-            <b>${esc(topicLabel(r.skill))}</b> — ${r.right} of ${r.total} right.
-            ${hasLesson(r.skill) ? `Read <a href="${lessonLink(r.skill)}">the lesson</a>, then ` : ''}
-            <a href="${r.section === 'reading' ? 'practice.html' : practiceLink(r.skill)}">drill it</a>.
-          </li>`).join('')}</ol>
-         <p>Work down that list in order. One skill per sitting beats skimming all five, and the
-         first two are where the points are.</p>`
-      : `<p>Nothing came out below ${WEAK_PCT}% with enough questions behind it to call a weakness.
-          Your next move is the <a href="mock.html">full practice test</a> — at this level pacing is
-          more likely to cost you points than content is.</p>`;
+    /* Weaknesses beyond the headline three. Named, but kept out of the way of the first three. */
+    const rest = weak.slice(HEADLINE_N);
+    const restHTML = rest.length ? `<h3>After those, if you have time</h3>
+      <ol class="ss-plan" start="${HEADLINE_N + 1}">${rest.map(r => `<li>
+          <b>${esc(topicLabel(r.skill))}</b> &mdash; ${r.right} of ${r.total} right.
+          ${hasLesson(r.skill) ? `Read <a href="${lessonLink(r.skill)}">the lesson</a>, then ` : ''}
+          <a href="${r.section === 'reading' ? 'practice.html' : practiceLink(r.skill)}">drill it</a>.
+        </li>`).join('')}</ol>` : '';
 
     return `<div class="scoresheet">
       <div class="table-scroll"><table class="ss-table">
@@ -551,12 +659,9 @@ const HSPT = (() => {
       </table></div>
       ${thin.length ? `<p class="small muted">${thin.length === 1 ? 'One skill' : `${thin.length} skills`}
         had fewer than ${MIN_ITEMS} questions here, so ${thin.length === 1 ? 'it is' : 'they are'} marked
-        “too few to tell” rather than ranked. The <a href="diagnostic.html?full=1">full diagnostic</a>
+        &ldquo;too few to tell&rdquo; rather than ranked. The <a href="diagnostic.html?full=1">full diagnostic</a>
         gives every skill enough questions to score properly.</p>` : ''}
-      <p class="print-only small">Everything below is on the practice site: a lesson and a set
-        of questions for each skill. Open it and work down the list.</p>
-      <h2>What to study, in order</h2>
-      ${plan}
+      ${restHTML}
     </div>`;
   }
 
@@ -785,7 +890,7 @@ const HSPT = (() => {
 
   return { SECTIONS, QUANT_TOPICS, TOPIC_LABELS, TOPIC_BLURBS, topicLabel, practiceLink,
            section, passages, loadBank, shuffle, sample, skillIndex,
-           shuffleOptions, esc, fmtTime, typeset, latexToText, run, bars, reviewList, scoreSheet, skillRows, rankWeak,
+           shuffleOptions, esc, fmtTime, typeset, latexToText, run, bars, reviewList, scoreSheet, resultsTop, skillChart, skillRows, rankWeak,
            paceReport, saveResult, results, chrome, FRONT, FRONT_PAGES,
            primers, primerFor, primerHTML,
            lessons, lessonLink, hasLesson, lessonTopicFor };

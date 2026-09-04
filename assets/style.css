@@ -637,6 +637,180 @@ td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
   .ss-do { white-space: normal; }
 }
 
+/* ---------- the one thing to do first ---------- */
+
+/* This used to be the first of six equal cards, which meant a student choosing between
+   "find out what to study" and "learn the words" had no reason to prefer the one that
+   makes the other five worth doing. It is a panel now, and the five are below it. */
+.startblock {
+  border: 1px solid var(--line);
+  border-top: 4px solid var(--rj-red);
+  border-radius: var(--radius);
+  background: var(--rj-red-tint);
+  padding: 26px 28px 24px;
+  margin: 30px 0 40px;
+}
+.sb-eyebrow {
+  margin: 0 0 8px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: .09em;
+  text-transform: uppercase;
+  color: var(--rj-red);
+}
+.startblock h2 { margin: 0 0 12px; font-size: 34px; }
+.sb-lede { font-size: 19px; color: var(--ink-2); margin: 0 0 16px; max-width: 62ch; }
+.sb-points { margin: 0 0 4px; padding-left: 20px; color: var(--ink-2); max-width: 62ch; }
+.sb-points li { margin-bottom: 5px; }
+.startblock .btn-row { margin: 18px 0 14px; }
+.sb-why { margin: 0; font-size: 15px; color: var(--ink-2); max-width: 62ch; }
+.btn.big { font-size: 18px; padding: 13px 26px; }
+
+@media (max-width: 620px) {
+  .startblock { padding: 20px 18px; }
+  .startblock h2 { font-size: 27px; }
+  .sb-lede { font-size: 17px; }
+  .btn.big { font-size: 17px; padding: 12px 20px; width: 100%; text-align: center; }
+}
+
+/* ---------- the diagnostic result: verdict, moves, chart ---------- */
+
+/* The old result opened with a big percentage. A percentage is a grade, and a grade is not
+   an instruction — a student read it, felt something about it, and never reached the part
+   that said what to do. So the verdict goes first and the number goes under it. */
+
+.verdict {
+  border-left: 5px solid var(--rj-red);
+  padding: 4px 0 4px 20px;
+  margin: 8px 0 30px;
+}
+.verdict.clear { border-left-color: var(--ok); }
+
+.verdict-eyebrow {
+  margin: 0 0 6px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: .09em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+}
+.verdict-line {
+  font-family: var(--serif);
+  font-size: 40px;
+  line-height: 1.15;
+  font-weight: 600;
+  margin: 0 0 10px;
+  color: var(--ink);
+}
+.verdict-line b { color: var(--rj-red); font-weight: 700; }
+.verdict-sub { font-size: 19px; color: var(--ink-2); margin: 0 0 12px; max-width: 60ch; }
+.verdict-score { font-size: 15px; color: var(--ink-2); margin: 0; }
+
+/* The three moves. Numbered, because the order is the advice. */
+.moves-h { margin-top: 34px; }
+.moves { list-style: none; margin: 0 0 14px; padding: 0; }
+.move {
+  display: grid;
+  grid-template-columns: 44px 1fr;
+  gap: 16px;
+  align-items: start;
+  padding: 18px 18px 18px 16px;
+  margin-bottom: 12px;
+  border: 1px solid var(--line-soft);
+  border-left: 5px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--bg);
+}
+.move.need  { border-left-color: var(--rj-red); }
+.move.shaky { border-left-color: #d9822b; }
+.move.solid { border-left-color: var(--slate); }
+
+.move-n {
+  width: 40px; height: 40px;
+  display: flex; align-items: center; justify-content: center;
+  border-radius: 50%;
+  background: var(--rj-red);
+  color: #fff;
+  font-family: var(--serif);
+  font-size: 20px;
+  font-weight: 700;
+}
+.move-body h3 { margin: 4px 0 4px; font-size: 22px; }
+.move-score { margin: 0 0 6px; font-size: 15px; color: var(--ink-2); font-variant-numeric: tabular-nums; }
+.move-word { text-transform: uppercase; letter-spacing: .06em; font-size: 12px; font-weight: 700; }
+.move.need  .move-word { color: var(--rj-red); }
+.move.shaky .move-word { color: #a4620f; }
+.move.solid .move-word { color: var(--ink-2); }
+/* What the skill actually asks of you — the thing a student cannot infer from its name. */
+.move-blurb { margin: 0 0 12px; color: var(--ink-2); }
+.move-do { margin: 0; }
+.moves-note { color: var(--ink-2); margin: 0 0 8px; }
+
+.btn.small { padding: 7px 14px; font-size: 15px; }
+
+/* One bar per skill, worst first. The point is the shape, not the numbers. */
+.skillchart { margin: 14px 0 10px; }
+.sc-row {
+  display: grid;
+  grid-template-columns: minmax(140px, 210px) 1fr 46px 108px;
+  align-items: center;
+  gap: 12px;
+  padding: 7px 0;
+  border-bottom: 1px solid var(--line-soft);
+}
+.sc-name { font-weight: 600; font-size: 15px; }
+.sc-track { height: 10px; background: var(--bg-2); border-radius: 5px; overflow: hidden; }
+.sc-fill { display: block; height: 100%; border-radius: 5px; background: var(--line); }
+.sc-fill.need   { background: var(--rj-red); }
+.sc-fill.shaky  { background: #d9822b; }
+.sc-fill.solid  { background: var(--slate); }
+.sc-fill.strong { background: var(--ok); }
+.sc-val { text-align: right; font-size: 14px; color: var(--ink-2); font-variant-numeric: tabular-nums; }
+.sc-word { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; }
+.sc-word.need   { color: var(--rj-red); }
+.sc-word.shaky  { color: #a4620f; }
+.sc-word.solid  { color: var(--ink-2); }
+.sc-word.strong { color: var(--ok); }
+.sc-word.thin   { color: var(--ink-3); font-weight: 400; text-transform: none; letter-spacing: 0; }
+
+.sc-key { margin-top: 12px; display: flex; flex-wrap: wrap; align-items: center; gap: 6px 14px; }
+.sc-chip { width: 11px; height: 11px; border-radius: 3px; display: inline-block; margin-right: 2px; }
+.sc-chip.need { background: var(--rj-red); }
+.sc-chip.shaky { background: #d9822b; }
+.sc-chip.solid { background: var(--slate); }
+.sc-chip.strong { background: var(--ok); }
+.sc-chip.thin { background: var(--line); }
+
+/* The full table is still there for anyone who wants it — just not in front of the answer. */
+.fullsheet { margin: 30px 0; border-top: 1px solid var(--line-soft); padding-top: 14px; }
+.fullsheet > summary {
+  cursor: pointer;
+  font-weight: 700;
+  color: var(--rj-red);
+  list-style: none;
+  padding: 4px 0;
+}
+.fullsheet > summary::-webkit-details-marker { display: none; }
+.fullsheet > summary::before { content: "\25B8"; margin-right: 8px; display: inline-block; }
+.fullsheet[open] > summary::before { transform: rotate(90deg); }
+.fullsheet .fs-shut { display: none; }
+.fullsheet[open] .fs-open { display: none; }
+.fullsheet[open] .fs-shut { display: inline; }
+
+@media (max-width: 620px) {
+  .verdict-line { font-size: 30px; }
+  .verdict-sub { font-size: 17px; }
+  .move { grid-template-columns: 34px 1fr; gap: 12px; padding: 14px; }
+  .move-n { width: 32px; height: 32px; font-size: 17px; }
+  .move-body h3 { font-size: 19px; }
+  /* Four columns do not fit a phone. Name over bar, status dropped — the colour says it. */
+  .sc-row { grid-template-columns: 1fr 46px; gap: 4px 10px; }
+  .sc-name { grid-column: 1; }
+  .sc-val  { grid-column: 2; grid-row: 1; }
+  .sc-track { grid-column: 1 / -1; }
+  .sc-word { display: none; }
+}
+
 /* ---------- printing a result ---------- */
 
 /* A student should be able to put this on the fridge and a parent should be able to read it
@@ -667,6 +841,21 @@ td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
      and the numbered plan below carries the instruction instead. */
   .ss-table th:last-child, .ss-table td:last-child { display: none; }
   .ss-plan a { text-decoration: none; }
+  /* On paper the verdict IS the document: the sentence, the three moves, the chart. */
+  .verdict { border-left: 3pt solid #000; padding-left: 10pt; margin: 0 0 14pt; }
+  .verdict-line { font-size: 20pt; }
+  .verdict-sub { font-size: 11pt; }
+  .move {
+    border: 1pt solid #999; border-left: 3pt solid #000;
+    padding: 8pt; margin-bottom: 8pt; page-break-inside: avoid;
+    grid-template-columns: 26pt 1fr;
+  }
+  .move-n { width: 24pt; height: 24pt; background: #fff; color: #000; border: 1pt solid #000; font-size: 13pt; }
+  .sc-row { page-break-inside: avoid; grid-template-columns: 150pt 1fr 34pt 80pt; }
+  .sc-track { border: 0.5pt solid #999; }
+  .sc-fill { background: #000 !important; }
+  .sc-key { display: none; }
+  .fullsheet { display: none !important; }
   .print-only { display: block !important; }
 }
 .print-only { display: none; }

@@ -156,7 +156,9 @@
 
   if (last && last.weak && last.weak.length) {
     const todo = last.weak.filter(t => !done.has(t));
-    const list = (todo.length ? todo : last.weak);
+    /* Three, to match what the score sheet told them: "your first three moves". Five chips
+       here and three there reads like two different pieces of advice. */
+    const list = (todo.length ? todo : last.weak).slice(0, 3);
     lead = todo.length
       ? `Your diagnostic ${when(last.at)} said these are worth your time next:`
       : `You have practiced everything your diagnostic flagged. Nice. Worth taking it again to see what moved:`;
