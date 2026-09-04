@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Diagnostic — HSPT Prep</title>
+<meta name="description" content="Forty HSPT questions across all five sections, then a report showing which skills to work on first.">
+<link rel="stylesheet" href="assets/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.css">
+</head>
+<body>
+
+<main>
+  <div class="wrap" id="setup">
+    <h1>Where do you actually stand?</h1>
+    <p class="lede">Forty questions, drawn from all five sections. At the end you get a breakdown by skill
+    and a short list of what to work on first.</p>
+
+    <p>Work straight through without looking anything up — a diagnostic is only useful if it is honest.
+    You will not see whether you got each one right until the end, which is also how the real test works.
+    Expect about 25 minutes.</p>
+
+    <div class="note">
+      <p>Do not worry about your score. The number is not the point; the breakdown is. A student who
+      finds out in September that analogies are their weak spot has three months to fix it.</p>
+    </div>
+
+    <div class="btn-row">
+      <button class="btn" id="start">Start the diagnostic</button>
+      <a class="btn plain" href="guide.html">Read the guide first</a>
+    </div>
+
+    <div id="history"></div>
+  </div>
+
+  <div id="quiz" class="hide"></div>
+
+  <div class="wrap hide" id="done">
+    <div class="score-hero">
+      <div class="big" id="pct"></div>
+      <div class="sub" id="sub"></div>
+    </div>
+
+    <h2>By section</h2>
+    <div id="secbars"></div>
+
+    <h2>By skill</h2>
+    <div id="topicbars"></div>
+
+    <div id="advice"></div>
+
+    <div class="btn-row">
+      <a class="btn" href="practice.html">Go practise</a>
+      <button class="btn plain" id="again">Take it again</button>
+    </div>
+
+    <h2>What you missed</h2>
+    <div id="review"></div>
+  </div>
+</main>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/contrib/auto-render.min.js"></script>
+<script src="assets/app.js"></script>
+<script>
+HSPT.chrome('diagnostic.html');
+const $ = s => document.querySelector(s);
+
+// Roughly proportional to the real test, but short enough to finish in one sitting.
+const PLAN = { verbal: 10, quant: 7, reading: 10, math: 7, language: 6 };
+
+async function build() {
+  const out = [];
+  for (const [key, n] of Object.entries(PLAN)) {
+    const qs = await HSPT.section(key);
+    if (key === 'reading') {
+      // One whole passage, so the questions have something to sit on.
+      const bySlug = {};
+      qs.forEach(q => (bySlug[q.passage] = bySlug[q.passage] || []).push(q));
+      const slug = HSPT.shuffle(Object.keys(bySlug))[0];
+      out.push(...bySlug[slug].slice(0, n));
+    } else {
+      // Spread across the skills in the section rather than clustering.
+      const byTopic = {};
+      qs.forEach(q => (byTopic[q.topic] = byTopic[q.topic] || []).push(q));
+      const topics = Object.keys(byTopic);
+      const per = Math.ceil(n / topics.length);
+      let picked = [];
+      HSPT.shuffle(topics).forEach(t => { picked = picked.concat(HSPT.sample(byTopic[t], per)); });
+      out.push(...HSPT.shuffle(picked).slice(0, n));
+    }
+  }
+  return out.map(HSPT.shuffleOptions);
+}
+
+async function start() {
+  const questions = await build();
+  const passages = await HSPT.passages();
+  $('#setup').classList.add('hide');
+  $('#done').classList.add('hide');
+  $('#quiz').classList.remove('hide');
+  window.scrollTo(0, 0);
+
+  HSPT.run({
+    mount: $('#quiz'),
+    questions,
+    mode: 'test',
+    passages,
+    label: 'Diagnostic',
+    onDone: showResults
+  });
+}
+
+function showResults(res) {
+  $('#quiz').classList.add('hide');
+  $('#done').classList.remove('hide');
+  window.scrollTo(0, 0);
+
+  const pct = Math.round((res.correct / res.total) * 100);
+  $('#pct').textContent = pct + '%';
+  $('#sub').textContent = `${res.correct} of ${res.total} correct`;
+
+  const secLabels = {};
+  Object.keys(HSPT.SECTIONS).forEach(k => secLabels[k] = HSPT.SECTIONS[k].label);
+  $('#secbars').innerHTML = HSPT.bars(res.bySection, secLabels);
+  $('#topicbars').innerHTML = HSPT.bars(res.byTopic, {}, true);
+
+  // Weakest skills with enough questions behind them to mean something.
+  const weak = Object.entries(res.byTopic)
+    .filter(([, v]) => v.total >= 2 && (v.right / v.total) < 0.7)
+    .sort((a, b) => (a[1].right / a[1].total) - (b[1].right / b[1].total))
+    .slice(0, 3).map(([k]) => k);
+
+  $('#advice').innerHTML = weak.length
+    ? `<div class="note">
+         <p><b>Start here.</b> Based on this diagnostic, the skills worth your time first are
+         ${weak.map(t => `<a href="${HSPT.practiceLink(t)}"><b>${HSPT.esc(HSPT.topicLabel(t))}</b></a>`).join(', ')}.</p>
+         <p>Each of those links goes straight to a practice set for that one skill. Work a set of twenty,
+         then come back and take this again in a week or two.</p>
+       </div>`
+    : `<div class="note"><p><b>Nothing stands out as weak.</b> Your next move is the
+         <a href="mock.html">timed practice test</a> — at this level, pacing is more likely to cost you
+         points than content is.</p></div>`;
+
+  $('#review').innerHTML = HSPT.reviewList(res.answers, true);
+  HSPT.typeset($('#review'));
+
+  HSPT.saveResult('diagnostic', { correct: res.correct, total: res.total, weak });
+}
+
+$('#start').addEventListener('click', start);
+$('#again').addEventListener('click', start);
+
+const past = HSPT.results('diagnostic');
+if (past.length) {
+  $('#history').innerHTML = `<h2>Your previous attempts</h2>
+    <div class="table-scroll"><table>
+      <thead><tr><th>When</th><th class="num">Score</th><th>Flagged</th></tr></thead>
+      <tbody>${past.slice(0, 6).map(r => `<tr>
+        <td>${new Date(r.at).toLocaleDateString()}</td>
+        <td class="num">${r.correct}/${r.total}</td>
+        <td class="muted">${HSPT.esc((r.weak || []).map(HSPT.topicLabel).join(', ') || '—')}</td>
+      </tr>`).join('')}</tbody></table></div>
+    <p class="small muted">Saved in this browser only.</p>`;
+}
+</script>
+</body>
+</html>

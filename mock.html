@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Timed practice test — HSPT Prep</title>
+<meta name="description" content="A five-section HSPT practice test under real time pressure, with a full score report at the end.">
+<link rel="stylesheet" href="assets/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.css">
+</head>
+<body>
+
+<main>
+  <div class="wrap" id="setup">
+    <h1>Timed practice test</h1>
+    <p class="lede">Five sections, in the real order, at the real pace. This is the closest thing on
+    the site to the actual morning.</p>
+
+    <div class="table-scroll">
+    <table>
+      <thead><tr><th>Section</th><th class="num">Questions</th><th class="num">Time</th></tr></thead>
+      <tbody id="plan"></tbody>
+    </table>
+    </div>
+
+    <p><b>This is a half-length form.</b> The real HSPT is 298 questions in 2 hours 21 minutes.
+    This one runs about 70 minutes at the same seconds-per-question, so the time pressure is honest
+    even though the test is shorter.</p>
+
+    <h3>Before you start</h3>
+    <ul>
+      <li>Find 70 uninterrupted minutes. Stopping halfway defeats the point.</li>
+      <li>Phone away. Paper and pencil next to you for the maths.</li>
+      <li>Each section is timed on its own. When time runs out, it moves on — the same as the real test.</li>
+      <li>No feedback until the end. You will see everything you missed once you finish.</li>
+      <li>No penalty for wrong answers here either. Guess rather than leave a blank.</li>
+    </ul>
+
+    <div class="btn-row">
+      <button class="btn" id="start">Begin the test</button>
+      <a class="btn plain" href="diagnostic.html">Take the shorter diagnostic instead</a>
+    </div>
+
+    <div id="history"></div>
+  </div>
+
+  <div class="wrap hide" id="between">
+    <h1 id="btitle"></h1>
+    <p class="lede" id="bsub"></p>
+    <div id="bprev"></div>
+    <div class="btn-row">
+      <button class="btn" id="bnext"></button>
+    </div>
+    <p class="small muted">The timer for the next section starts when you press the button.</p>
+  </div>
+
+  <div id="quiz" class="hide"></div>
+
+  <div class="wrap hide" id="done">
+    <div class="score-hero">
+      <div class="big" id="pct"></div>
+      <div class="sub" id="sub"></div>
+    </div>
+    <h2>By section</h2>
+    <div id="secbars"></div>
+    <h2>By skill</h2>
+    <div id="topicbars"></div>
+    <div id="advice"></div>
+    <div class="btn-row">
+      <a class="btn" href="practice.html">Practise a skill</a>
+      <button class="btn plain" id="again">Take another test</button>
+    </div>
+    <h2>What you missed</h2>
+    <div id="review"></div>
+  </div>
+</main>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/contrib/auto-render.min.js"></script>
+<script src="assets/app.js"></script>
+<script>
+HSPT.chrome('mock.html');
+const $ = s => document.querySelector(s);
+
+/* Half-length form. Seconds-per-question matches the real HSPT for each section. */
+const PLAN = [
+  { key: 'verbal',   n: 30, mins:  8 },
+  { key: 'quant',    n: 25, mins: 14 },
+  { key: 'reading',  n: 30, mins: 12 },
+  { key: 'math',     n: 30, mins: 21 },
+  { key: 'language', n: 30, mins: 13 }
+];
+
+$('#plan').innerHTML = PLAN.map(p =>
+  `<tr><td>${HSPT.SECTIONS[p.key].label}</td><td class="num">${p.n}</td><td class="num">${p.mins} min</td></tr>`
+).join('') + `<tr><td><b>Total</b></td><td class="num"><b>${PLAN.reduce((a, p) => a + p.n, 0)}</b></td>
+  <td class="num"><b>${PLAN.reduce((a, p) => a + p.mins, 0)} min</b></td></tr>`;
+
+let built = [], idx = 0, all = [], passages = null;
+
+async function buildSection(spec) {
+  const qs = await HSPT.section(spec.key);
+  if (spec.key === 'reading') {
+    const bySlug = {};
+    qs.forEach(q => (bySlug[q.passage] = bySlug[q.passage] || []).push(q));
+    let picked = [];
+    for (const slug of HSPT.shuffle(Object.keys(bySlug))) {
+      if (picked.length >= spec.n) break;
+      picked = picked.concat(bySlug[slug]);
+    }
+    return picked.slice(0, spec.n).map(HSPT.shuffleOptions);
+  }
+  const byTopic = {};
+  qs.forEach(q => (byTopic[q.topic] = byTopic[q.topic] || []).push(q));
+  const topics = Object.keys(byTopic);
+  const per = Math.ceil(spec.n / topics.length);
+  let picked = [];
+  HSPT.shuffle(topics).forEach(t => { picked = picked.concat(HSPT.sample(byTopic[t], per)); });
+  return HSPT.shuffle(picked).slice(0, spec.n).map(HSPT.shuffleOptions);
+}
+
+async function start() {
+  passages = await HSPT.passages();
+  built = [];
+  for (const spec of PLAN) built.push(await buildSection(spec));
+  idx = 0; all = [];
+  $('#history').innerHTML = '';
+  showBreak(true);
+}
+
+function showBreak(first) {
+  $('#setup').classList.add('hide');
+  $('#quiz').classList.add('hide');
+  $('#done').classList.add('hide');
+  $('#between').classList.remove('hide');
+  window.scrollTo(0, 0);
+
+  const spec = PLAN[idx];
+  $('#btitle').textContent = `Section ${idx + 1} — ${HSPT.SECTIONS[spec.key].label}`;
+  $('#bsub').textContent = `${spec.n} questions · ${spec.mins} minutes`;
+  $('#bnext').textContent = first ? 'Start section 1' : `Start section ${idx + 1}`;
+
+  if (!first) {
+    const doneN = all.length;
+    $('#bprev').innerHTML = `<p>Section ${idx} finished. ${doneN} questions answered so far.
+      Take a breath — no scores until the end.</p>`;
+  } else {
+    $('#bprev').innerHTML = '';
+  }
+}
+
+$('#bnext').addEventListener('click', () => {
+  const spec = PLAN[idx];
+  $('#between').classList.add('hide');
+  $('#quiz').classList.remove('hide');
+  window.scrollTo(0, 0);
+
+  HSPT.run({
+    mount: $('#quiz'),
+    questions: built[idx],
+    mode: 'test',
+    passages: spec.key === 'reading' ? passages : null,
+    seconds: spec.mins * 60,
+    label: HSPT.SECTIONS[spec.key].label,
+    onDone: res => {
+      all = all.concat(res.answers);
+      idx++;
+      if (idx < PLAN.length) showBreak(false);
+      else finishAll();
+    }
+  });
+});
+
+function finishAll() {
+  $('#quiz').classList.add('hide');
+  $('#between').classList.add('hide');
+  $('#done').classList.remove('hide');
+  window.scrollTo(0, 0);
+
+  const correct = all.filter(a => a.correct).length;
+  const pct = Math.round((correct / all.length) * 100);
+  $('#pct').textContent = pct + '%';
+  $('#sub').textContent = `${correct} of ${all.length} correct`;
+
+  const bySection = {}, byTopic = {};
+  all.forEach(a => {
+    for (const [map, key] of [[bySection, a.q.section], [byTopic, a.q.topic]]) {
+      if (!key) continue;
+      map[key] = map[key] || { right: 0, total: 0 };
+      map[key].total++;
+      if (a.correct) map[key].right++;
+    }
+  });
+
+  const secLabels = {};
+  Object.keys(HSPT.SECTIONS).forEach(k => secLabels[k] = HSPT.SECTIONS[k].label);
+  $('#secbars').innerHTML = HSPT.bars(bySection, secLabels);
+  $('#topicbars').innerHTML = HSPT.bars(byTopic, {}, true);
+
+  const skipped = all.filter(a => a.pick === null).length;
+  const weak = Object.entries(byTopic)
+    .filter(([, v]) => v.total >= 3 && (v.right / v.total) < 0.7)
+    .sort((a, b) => (a[1].right / a[1].total) - (b[1].right / b[1].total))
+    .slice(0, 3).map(([k]) => k);
+
+  let advice = '';
+  if (skipped > 5) {
+    advice += `<div class="note"><p><b>You left ${skipped} questions blank.</b> On the real HSPT there is
+      no penalty for a wrong answer, so a blank is a wasted question. Even a pure guess is worth taking —
+      that habit alone is worth several points.</p></div>`;
+  }
+  if (weak.length) {
+    advice += `<div class="note"><p><b>Work on these next:</b>
+      ${weak.map(t => `<a href="${HSPT.practiceLink(t)}"><b>${HSPT.esc(HSPT.topicLabel(t))}</b></a>`).join(', ')}.
+      Each link goes straight to a practice set for that skill.</p></div>`;
+  }
+  $('#advice').innerHTML = advice;
+
+  $('#review').innerHTML = HSPT.reviewList(all, true);
+  HSPT.typeset($('#review'));
+
+  HSPT.saveResult('mock', { correct, total: all.length, weak, skipped });
+}
+
+$('#start').addEventListener('click', () => start().catch(showError));
+$('#again').addEventListener('click', () => start().catch(showError));
+
+function showError(e) {
+  $('#setup').classList.remove('hide');
+  $('#setup').insertAdjacentHTML('beforeend',
+    `<div class="note"><p>Could not load the questions: ${HSPT.esc(e.message)}</p></div>`);
+}
+
+const past = HSPT.results('mock');
+if (past.length) {
+  $('#history').innerHTML = `<h2>Your previous tests</h2>
+    <div class="table-scroll"><table>
+      <thead><tr><th>When</th><th class="num">Score</th><th class="num">Left blank</th><th>Flagged</th></tr></thead>
+      <tbody>${past.slice(0, 6).map(r => `<tr>
+        <td>${new Date(r.at).toLocaleDateString()}</td>
+        <td class="num">${r.correct}/${r.total}</td>
+        <td class="num">${r.skipped ?? 0}</td>
+        <td class="muted">${HSPT.esc((r.weak || []).map(HSPT.topicLabel).join(', ') || '—')}</td>
+      </tr>`).join('')}</tbody></table></div>
+    <p class="small muted">Saved in this browser only.</p>`;
+}
+</script>
+</body>
+</html>
