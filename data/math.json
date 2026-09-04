@@ -27,7 +27,7 @@
       "answer": 2,
       "topic": "Mathematic Comparisons",
       "source": "Math_Comparisons_Bank",
-      "explanation": "A) 25% of 80 = 20 B) 40% of 50 = 20 C) 30% of 60 = 18"
+      "explanation": "The three quantities in the question work out like this:\nA) 25% of 80 = 20\nB) 40% of 50 = 20\nC) 30% of 60 = 18\nA and B both come to 20, so A = B. C is the odd one out at 18."
     },
     {
       "id": "0a51003f3f",
@@ -55,7 +55,7 @@
       "answer": 3,
       "topic": "Mathematic Comparisons",
       "source": "Math_Comparisons_Bank",
-      "explanation": "A) \\(\\sqrt{64}+\\sqrt{36}=8+6=14\\) B) \\(\\sqrt{144}=12\\) C) \\(2\\sqrt{49}=2\\left(7\\right)=14\\)"
+      "explanation": "The three quantities in the question work out like this:\nA) \\(\\sqrt{64}+\\sqrt{36}=8+6=14\\)\nB) \\(\\sqrt{144}=12\\)\nC) \\(2\\sqrt{49}=2\\left(7\\right)=14\\)\nA and C are both 14 and B is 12, so A = C and A is greater than B. Take the square roots one at a time in A: \\(\\sqrt{64}+\\sqrt{36}\\) is 14, not \\(\\sqrt{100}\\)."
     },
     {
       "id": "d2679b4c50",
@@ -83,7 +83,7 @@
       "answer": 3,
       "topic": "Mathematic Comparisons",
       "source": "Math_Comparisons_Bank",
-      "explanation": "A. \\(3^4=81\\) B. \\(4^3=64\\) C. \\(3\\times4=12\\)"
+      "explanation": "The three quantities in the question work out like this:\nA. \\(3^4=81\\)\nB. \\(4^3=64\\)\nC. \\(3\\times4=12\\)\n81 is bigger than 64, which is bigger than 12, so C is less than B and B is less than A. The trap is reading \\(3^4\\) and \\(4^3\\) as the same thing — they are not."
     },
     {
       "id": "d93f3aa195",
@@ -111,7 +111,7 @@
       "answer": 1,
       "topic": "Mathematic Comparisons",
       "source": "Math_Comparisons_Bank",
-      "explanation": "A. \\(6\\left(4+2\\right)=36\\) B. \\(\\left(4+2\\right)^2=36\\) C. \\(\\left(6\\times4\\right)+2=26\\)"
+      "explanation": "The three quantities in the question work out like this:\nA. \\(6\\left(4+2\\right)=6\\times6=36\\)\nB. \\(\\left(4+2\\right)^2=6^2=36\\)\nC. \\(\\left(6\\times4\\right)+2=24+2=26\\)\nA and B are both 36 and C is 26, so C is less than A and B. Work inside the parentheses first in every one."
     },
     {
       "id": "24be35e43f",
@@ -125,7 +125,7 @@
       "answer": 0,
       "topic": "Mathematic Comparisons",
       "source": "Math_Comparisons_Bank",
-      "explanation": "A. \\(0.03\\times10^3=30\\) B. \\(0.003\\times10^4=30\\) C. \\(0.3\\times10^2=30\\)"
+      "explanation": "The three quantities in the question work out like this:\nA. \\(0.03\\times10^3=30\\)\nB. \\(0.003\\times10^4=30\\)\nC. \\(0.3\\times10^2=30\\)\nAll three come to 30, so A = B = C. Each time the decimal moves right by the power of ten."
     },
     {
       "id": "e689d572ee",
@@ -139,7 +139,7 @@
       "answer": 3,
       "topic": "Mathematic Comparisons",
       "source": "Math_Comparisons_Bank",
-      "explanation": "A. \\(2\\div\\frac{1}{10}\\div5=4\\) B. \\(2\\div\\left(\\frac{1}{10}\\div5\\right)=100\\) C. \\(\\left(2\\div\\frac{1}{10}\\right)\\div5=4\\)"
+      "explanation": "The three quantities in the question work out like this:\nA. \\(2\\div\\frac{1}{10}\\div5=20\\div5=4\\)\nB. \\(2\\div\\left(\\frac{1}{10}\\div5\\right)=2\\div\\frac{1}{50}=100\\)\nC. \\(\\left(2\\div\\frac{1}{10}\\right)\\div5=20\\div5=4\\)\nA and C are both 4 and B is 100, so A = C and both are less than B. The parentheses in B change which division happens first, and that changes everything."
     },
     {
       "id": "91e5b8dc53",
@@ -223,7 +223,7 @@
       "answer": 2,
       "topic": "Math Principles",
       "source": "Math_Principles_Bank",
-      "explanation": "Answer choice C shows the correct use of the distributive property."
+      "explanation": "The distributive property says the multiplier outside the parentheses has to reach every term inside: \\(a\\left(x+b\\right)=a\\left(x\\right)+ab\\). Only one of the four does that. \\(a\\left(x+b\\right)=ax+b\\) drops the \\(a\\) off the second term, and division does not distribute over addition at all."
     },
     {
       "id": "287caf4bb6",
@@ -853,7 +853,7 @@
       "answer": 2,
       "topic": "Skills Check 2: Quantitative Skills",
       "source": "Skills_Check_Quantitative_Bank",
-      "explanation": "A. \\(\\left(7-3\\right)^2=16\\) B. \\(7^2-3^2=40\\) C. \\(\\left(3-7\\right)^2=16\\)"
+      "explanation": "The three quantities in the question work out like this:\nA. \\(\\left(7-3\\right)^2=4^2=16\\)\nB. \\(7^2-3^2=49-9=40\\)\nC. \\(\\left(3-7\\right)^2=\\left(-4\\right)^2=16\\)\nA and C are both 16 and B is 40, so A = C and both are less than B. Squaring a negative gives a positive, which is why C matches A."
     },
     {
       "id": "fb81e2d700",
@@ -881,7 +881,7 @@
       "answer": 0,
       "topic": "Skills Check 2: Quantitative Skills",
       "source": "Skills_Check_Quantitative_Bank",
-      "explanation": "A. \\(6\\times10^2=600\\) B. \\(\\frac{6}{10}=0.60\\) C. \\(0.60\\)"
+      "explanation": "The three quantities in the question work out like this:\nA. \\(6\\times10^2=600\\)\nB. \\(\\frac{6}{10}=0.60\\)\nC. \\(0.60\\)\nB and C are both 0.60, so B is equal to C. A is 600, nowhere near either."
     },
     {
       "id": "2c30cc9b0b",
@@ -895,7 +895,7 @@
       "answer": 1,
       "topic": "Skills Check 2: Quantitative Skills",
       "source": "Skills_Check_Quantitative_Bank",
-      "explanation": "A. \\(4\\cdot4^2=64\\) (For times the square of 4) B. \\(\\frac{1}{2}\\left(4^3\\right)=\\frac{1}{2}\\left(64\\right)=32\\) (Half the cube of 4) C. \\(2\\cdot3^3=2\\cdot27=54\\) (Twice the cube of 3)"
+      "explanation": "The three quantities in the question work out like this:\nA. Four times the square of 4: \\(4\\cdot4^2=4\\times16=64\\)\nB. Half the cube of 4: \\(\\frac{1}{2}\\left(4^3\\right)=\\frac{1}{2}\\left(64\\right)=32\\)\nC. Twice the cube of 3: \\(2\\cdot3^3=2\\times27=54\\)\n64 is bigger than 54, which is bigger than 32, so A is greater than C and C is greater than B."
     },
     {
       "id": "938ed99e0d",
