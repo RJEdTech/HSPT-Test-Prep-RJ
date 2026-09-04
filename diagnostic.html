@@ -18,9 +18,9 @@
 <main>
   <div class="wrap" id="setup">
     <h1>Find your starting point</h1>
-    <p class="lede">Answer questions from all five sections, and you get back a score sheet: every skill
-    you were asked about, how you did on each, and the five worth your time first — each one with a
-    lesson and a practice set behind it.</p>
+    <p class="lede">Answer questions from all five sections and you get back a plain answer: the one
+    skill to start with, the two after it, and a lesson and a practice set behind each. Every skill you
+    were asked about is scored, so you can see the whole picture too.</p>
 
     <p>Work straight through without looking anything up. A result is only useful if it is honest,
     and nobody sees this but you. You will not find out whether you got each one right until the end,
@@ -58,22 +58,29 @@
   <div id="quiz" class="hide"></div>
 
   <div class="wrap-wide hide" id="done">
-    <div class="score-hero">
-      <div class="big" id="pct"></div>
-      <div class="sub" id="sub"></div>
-    </div>
-
     <p class="print-only" id="printhead"></p>
 
-    <div id="pacebox"></div>
-
-    <h2>Your score sheet</h2>
-    <div id="sheet"></div>
+    <!-- The verdict, the three moves and the chart. A student who reads only this far has
+         still got what they came for; everything below is detail. -->
+    <div id="top"></div>
 
     <div class="btn-row no-print">
       <button class="btn" id="print">Print this</button>
-      <a class="btn plain" href="learn.html">Browse the lessons</a>
+      <a class="btn plain" href="learn.html">Browse all lessons</a>
       <button class="btn plain" id="again">Take it again</button>
+    </div>
+
+    <div id="pacebox"></div>
+
+    <details class="fullsheet no-print">
+      <summary><span class="fs-open">Show the full score sheet</span><span class="fs-shut">Hide the full score sheet</span></summary>
+      <p class="small muted">Every skill grouped by section, with weaknesses four and five. Useful if
+      you want the whole picture rather than the next thing to do.</p>
+      <div id="sheet"></div>
+    </details>
+    <div class="print-only">
+      <h2>The full score sheet</h2>
+      <div id="sheet-print"></div>
     </div>
 
     <div class="no-print">
@@ -219,21 +226,24 @@ async function showResults(res) {
   $('#done').classList.remove('hide');
   window.scrollTo(0, 0);
 
-  const pct = Math.round((res.correct / res.total) * 100);
-  $('#pct').textContent = pct + '%';
-  $('#sub').textContent = `${res.correct} of ${res.total} correct`;
   $('#printhead').textContent =
     `HSPT score sheet — ${PLANS[which].label}, ${new Date().toLocaleDateString()}`;
+
+  /* Load the lesson bank BEFORE rendering: hasLesson() decides whether each of the three
+     moves gets a "Read the lesson" button, and it is false until the bank arrives. */
+  try { await HSPT.lessons(); } catch (e) { /* the report still works without them */ }
+
+  $('#top').innerHTML = HSPT.resultsTop(res);
+
+  const sheet = HSPT.scoreSheet(res);
+  $('#sheet').innerHTML = sheet;
+  $('#sheet-print').innerHTML = sheet;
 
   const totalQ = Object.values(lastCounts).reduce((a, b) => a + b, 0);
   $('#pacebox').innerHTML = timed
     ? HSPT.paceReport({ ...res, perQuestion: res.seconds / res.total },
         limitFor(lastCounts) / totalQ, 'this mix of sections')
     : '';
-
-  // The sheet links every weak skill to its lesson, so the lesson bank has to be loaded first.
-  try { await HSPT.lessons(); } catch (e) { /* the sheet still works without them */ }
-  $('#sheet').innerHTML = HSPT.scoreSheet(res);
 
   $('#review').innerHTML = HSPT.reviewList(res.answers, true);
   HSPT.typeset($('#review'));
