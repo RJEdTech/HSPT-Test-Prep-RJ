@@ -1725,7 +1725,7 @@
    "answer": 0,
    "topic": "Computation",
    "source": "rj_original_2026",
-   "explanation": "Inside the brackets \\(8-5=3\\), squaring gives 9 and \\(3\\times9=27\\), so the value is 29. The choice 11 multiplies by 3 without squaring, 45 adds the 2 before multiplying and computes \\((2+3)\\times9\\), and 83 squares after multiplying, using \\((3\\times3)^2=81\\)."
+   "explanation": "Inside the parentheses \\(8-5=3\\), squaring gives 9 and \\(3\\times9=27\\), so the value is 29. The choice 11 multiplies by 3 without squaring, 45 adds the 2 before multiplying and computes \\((2+3)\\times9\\), and 83 squares after multiplying, using \\((3\\times3)^2=81\\)."
   },
   {
    "id": "66975412a0",
