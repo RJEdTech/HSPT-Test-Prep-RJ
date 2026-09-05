@@ -64,21 +64,25 @@ If you add copy, apply the same rules.
 ```
 index.html         landing page — five-question taster, then the study path
 guide.html         section-by-section guide
-diagnostic.html    40 questions across all five sections, with a weak-area report
+diagnostic.html    50 questions across all five sections, with a weak-area report
 learn.html         lesson index, and one full lesson per skill via ?topic=
 practice.html      skill index, and one practice set per skill via ?topic=
 vocab.html         vocabulary flashcards, from data/vocab.json
-mock.html          five-section timed practice test
+mock.html          full-length, 298-question timed practice test
 resources.html     outside resources, with the not-vetted disclaimer
 images/            official logos — see Brand below
 assets/style.css   all styling
 assets/app.js      shared quiz engine, site chrome, the primer renderer and the lesson bank
 assets/home.js     the landing-page taster and the "where you left off" block
-data/*.json        the question banks
+data/verbal.json       Verbal Skills — 154 questions
+data/quantitative.json Quantitative Skills — 128 questions
+data/reading.json      Reading — 141 questions, and the nine passages
+data/math.json         Mathematics — 128 questions
+data/language.json     Language Skills — 168 questions
 data/primers.json  one short primer per skill, shown above the practice questions
-data/lessons.json  the 18 full lessons behind those primers, rendered by learn.html
-data/vocab.json    the 74 words the banks actually test
-build/*.py         the repair scripts, each asserting on its target before changing it
+data/lessons.json  the 25 full lessons behind those primers, rendered by learn.html
+data/vocab.json    the 131 words the banks test, plus a few more at the same level
+build/*.py         the repair scripts, plus verify_math.py — see Checking the maths below
 ```
 
 ## This site and the Canva page
@@ -93,7 +97,9 @@ anchors are in `FRONT_PAGES` at the bottom of `assets/app.js`.
 
 ## Editing questions
 
-Everything students see comes from the four files in `data/`. You never need to touch JavaScript
+Everything students see comes from the five question files in `data/`, one per section of the
+real test. Quantitative Skills and Mathematics used to share `math.json` and be split by topic at
+runtime; they are separate files now, because they are separate sections that test different things. You never need to touch JavaScript
 to change a question. Each one looks like this:
 
 ```json
@@ -110,12 +116,23 @@ to change a question. Each one looks like this:
 
 - `answer` is a **zero-based index** into `options` — `0` is the first option, `3` the fourth.
   This is the field to check twice.
-- `explanation` is optional. When present it is shown after the student answers in practice mode
-  and in the review list at the end of a test.
+- `explanation` is **required**. It is shown after the student answers in practice mode and in the
+  review list at the end of a test, and the front page tells students that reading them is the
+  actual studying. A question without one is a question a student cannot learn from.
 - `topic` groups questions in the practice picker and in every score report, so keep the spelling
   consistent with what is already there.
 - `id` only needs to be unique. Any short string works for a hand-added question.
-- Maths may use LaTeX between dollar signs — `$\frac{3}{4}$` — which KaTeX renders in the browser.
+- Maths uses LaTeX between `\(` and `\)` — `\(\frac{3}{4}\)`. **Not dollar signs.** A bare `$` is
+  currency and is left alone, so `$12` is safe to type; a `$` *inside* a maths span must be escaped
+  as `\$`. If KaTeX fails to load, `latexToText` in `app.js` renders the maths as readable text
+  (`3/4`, `√141`, `x²`) rather than raw source, so a question stays answerable either way.
+- A question may carry a `figure` field holding inline SVG, used by the Quantitative Skills
+  geometric-comparison questions. It is injected as markup, so it is trusted — only ever put your
+  own SVG there. Draw with `stroke="currentColor"` and no width or height on the `<svg>` so it
+  scales and works on any background, and give it an `aria-label` describing the figure and its
+  dimensions in words, so the question is answerable with a screen reader.
+- In the Language section the fallback option is the literal string `"No mistakes"`, always last.
+  `PINNED_LAST` in `app.js` keeps it there when the other choices shuffle.
 
 `data/reading.json` also carries the passages:
 
@@ -181,14 +198,19 @@ The section sizes and timings live at the top of the `<script>` block in `mock.h
 
 ```js
 const PLAN = [
-  { key: 'verbal',   n: 30, mins:  8 },
+  { key: 'verbal',   n: 60, mins: 16 },
   …
 ];
 ```
 
-Seconds per question currently match the real HSPT for each section. If you add questions to a bank
-you can raise `n` toward a full-length form. The diagnostic's mix is set the same way in
-`diagnostic.html`.
+This is a genuine full-length form — 298 questions in 2 hours 21 minutes, at the real section sizes
+and the real per-section timing. Each sitting draws fresh questions from banks about twice that size,
+so a second attempt is a different test. The diagnostic's mix is set the same way in `diagnostic.html`.
+
+Reading is built differently from the other four, by `buildReading` in `app.js`: the real section is
+62 questions made of 40 comprehension items across four passages plus 22 standalone vocabulary items,
+and that 40:22 ratio is held at whatever size a page asks for. Passages are taken whole, so a student
+never meets a question whose passage was not shown.
 
 ## Teaching content — two layers
 
@@ -286,6 +308,70 @@ one, while the front page told students that reading the explanations was the ac
 Repairs live in `build/` and each asserts on its target before changing anything, so a patch fails loudly
 rather than silently mangling the wrong question if the data shifts.
 
+### The leveling rebuild
+
+A second audit checked every question for **level** — whether it discriminates the way a real HSPT
+question does — against the school's licensed Peterson's diagnostic, and rebuilt most of the bank.
+The full findings are in `claude/leveling-audit.md` in the project. In short:
+
+- **306 of the 509 questions were retired** as under-levelled, off-format, ambiguous or duplicated,
+  and **561 new ones were written.** The bank is 719 questions now and supports a genuine
+  full-length form with roughly two questions for every one a sitting uses.
+- **Verbal logic was the wrong item type.** Thirty-one of 40 items were categorical syllogisms
+  ("All clouds are white…"); Peterson's uses only ordering and comparison relations in that section.
+  Rebuilt, and `guide.html` was corrected — it taught the syllogism form too.
+- **A third of the Reading section did not exist.** Reading is 62 questions: 40 comprehension plus
+  22 standalone vocabulary. The bank had 70 comprehension and no vocabulary at all. Fifty-one
+  vocabulary items were added, and two new passages, including one written in the older, denser
+  register the real test uses for its hardest passage.
+- **The maths banks are now original throughout.** Ten questions were found to be verbatim
+  transcriptions of the licensed Peterson's diagnostic; a later provenance scan found six more among
+  the questions inherited from the Canvas export. Since `claude/source-material-inventory.md` records
+  that those Canvas questions "appear to be transcribed from the same sources", **every inherited
+  maths question was retired** rather than guessing which were safe, and 82 original ones written to
+  replace them. `data/math.json` and `data/quantitative.json` now contain nothing but questions
+  written for this site — a claim `build/check_provenance.py` can verify, and one a free public page
+  needs to be able to make.
+- **Quantitative Skills got its missing item types**: geometric comparison (new to the site, which
+  needed the `figure` field), letter series, and number manipulation — the signature HSPT type, of
+  which the old bank had four, two of them copied.
+- Analogy and classification distractors were rebuilt around real traps rather than throwaways, and
+  stored answer keys were evened out so no option is right more than about a third of the time.
+
+## The level this site aims at
+
+`build/hspt-baseline.md` records what the real test actually contains, section by section and item
+type by item type, derived from the school's licensed Peterson's diagnostic: the mix of question
+types in each section, the vocabulary tier, the maths content ceiling, and the passage lengths and
+question types Reading uses. **Read it before writing a question.** It is the reference the whole
+bank was levelled against, and it is the difference between a question that is correct and one that
+belongs on this test.
+
+It is a description of the exam's shape, in our own words. No question, passage or exercise from
+those books appears in it or anywhere else in this repository.
+
+## Checking the maths
+
+A wrong key on a maths question is the one defect a reader cannot catch by eye, so it is checked by
+machine as well as by people:
+
+```
+python3 build/verify_math.py        # both maths banks
+python3 build/verify_math.py -v     # also list what it could not check
+```
+
+It re-derives the answer from the question itself and complains when the key does not follow. Series
+questions are solved by filling the blank with each option and keeping the ones that leave a
+consistent rule; comparison questions by evaluating all three quantities and testing each compound
+option clause by clause; geometric comparisons by reading the dimensions out of the figure's
+`aria-label` and computing the areas, perimeters or angles. It also checks every question for
+duplicate options, out-of-range keys, unbalanced LaTeX and two options that are the same number.
+
+It currently solves 52 of the 256 maths questions independently and structurally checks all of them.
+The rest are word problems and concept questions that need a reader — those were solved from scratch
+twice, by two separate passes working without the keys, both agreeing with the bank. **Run this after
+any edit to `data/math.json` or `data/quantitative.json`.**
+
 ### Defects found and fixed
 
 - **143 Language items had no stem at all** — the student saw four sentences and no question. They were
@@ -300,6 +386,40 @@ rather than silently mangling the wrong question if the data shifts.
 - **Fifteen items were dropped**: broken analogies, items with two equally defensible answers, exact
   duplicates, and style disputes the bank answered inconsistently. One punctuation item keyed the
   *absence* of the serial comma as an error, which contradicts the stylebook this site follows.
+
+## What this site claims, and what it does not
+
+Every question here was written for this site. It is practice material built to resemble the HSPT in
+format, timing and level of difficulty. **It is not the exam, not a copy of any past exam, and not
+drawn from one.** The real test may prove harder or easier than what a student meets here, and a score
+on this site does not predict a score on the HSPT — what it gives a student is a reading on which
+skills to work on.
+
+HSPT is a registered trademark of Scholastic Testing Service, Inc., which neither endorses nor is
+affiliated with this site. That paragraph is rendered by `chrome()` in `assets/app.js` and appears in
+the footer of every page; the practice test carries a fuller version above the start button. **Keep
+both.** They are the difference between offering practice and appearing to reproduce someone else's
+exam.
+
+## "Found a mistake?" — the error report link
+
+The last block in `assets/app.js` is a self-contained IIFE that appends a report link to the footer
+of every page, pointing at a Microsoft Form. It pre-fills the form's "Which page were you on?"
+question with the page name and, on a practice run, the skill — so *Practice a skill — Analogies
+(practice.html)* arrives with the report and nobody has to describe where they were.
+
+- The form is owned by jbeyer@regisjesuit.com and takes anonymous responses; applicants are not in
+  the RJ tenant, so requiring a sign-in would have blocked almost every reporter.
+- `PAGE_FIELD` is the pre-fill key for that question. **If question 2 is ever deleted and re-created
+  the key changes** and the pre-fill silently stops working: regenerate it in Forms via
+  *… → Get Pre-filled URL*, type a placeholder into question 2, click *Get Prefilled Link*, and copy
+  the new `r…` parameter into `PAGE_FIELD`.
+- `PAGE_NAMES` maps each file to the name a student would recognise. **Add a row when you add a
+  page**, or reports from it arrive labelled with the bare filename.
+- The block depends on two selectors that `chrome()` emits — `footer.site .wrap-wide` and `.policy`.
+  Rename either and the link stops appearing, with no error.
+
+`claude/error-report-form.md` in the project has the form's questions and how to read responses.
 
 ## Privacy
 

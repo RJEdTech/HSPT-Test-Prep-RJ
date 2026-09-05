@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Timed practice test — HSPT Prep</title>
-<meta name="description" content="A five-section HSPT practice test under real time pressure, with a full score report at the end.">
+<meta name="description" content="A full-length, 298-question HSPT-style practice test under real time pressure, with a full score report at the end.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto+Slab:wght@600;700&display=swap">
@@ -28,13 +28,18 @@
     </table>
     </div>
 
-    <p><b>This is a half-length form.</b> The real HSPT is 298 questions in 2 hours 21 minutes.
-    This one runs about 70 minutes at the same seconds-per-question, so the time pressure is honest
-    even though the test is shorter.</p>
+    <p><b>This is a full-length form.</b> Five sections, 298 questions, 2 hours 21 minutes — the
+    real test's length, section sizes and per-section timing. Questions are drawn fresh from the bank
+    each time, so a second sitting is a different test.</p>
+
+    <p class="small muted"><b>It is practice, not the exam.</b> Every question here was written for
+    this site to resemble the HSPT in format and difficulty. It is not a copy of any real exam and no
+    real exam questions were used. The test you sit in December may prove harder or easier than this,
+    and a score here does not predict a score there. What it does tell you is which skills to work on.</p>
 
     <h3>Before you start</h3>
     <ul>
-      <li>Find 70 uninterrupted minutes. Stopping halfway defeats the point.</li>
+      <li>Find two and a half uninterrupted hours. Stopping halfway defeats the point.</li>
       <li>Phone away. Paper and pencil next to you for the math.</li>
       <li>Each section is timed on its own. When time runs out, it moves on — the same as the real test.</li>
       <li>No feedback until the end. You will see everything you missed once you finish.</li>
@@ -88,12 +93,13 @@ HSPT.chrome('mock.html');
 const $ = s => document.querySelector(s);
 
 /* Half-length form. Seconds-per-question matches the real HSPT for each section. */
+/* The real HSPT, section for section: 298 questions in 2 hours 21 minutes. */
 const PLAN = [
-  { key: 'verbal',   n: 30, mins:  8 },
-  { key: 'quant',    n: 25, mins: 14 },
-  { key: 'reading',  n: 30, mins: 12 },
-  { key: 'math',     n: 30, mins: 21 },
-  { key: 'language', n: 30, mins: 13 }
+  { key: 'verbal',   n: 60, mins: 16 },
+  { key: 'quant',    n: 52, mins: 30 },
+  { key: 'reading',  n: 62, mins: 25 },
+  { key: 'math',     n: 64, mins: 45 },
+  { key: 'language', n: 60, mins: 25 }
 ];
 
 $('#plan').innerHTML = PLAN.map(p =>
@@ -105,23 +111,8 @@ let built = [], idx = 0, all = [], passages = null;
 
 async function buildSection(spec) {
   const qs = await HSPT.section(spec.key);
-  if (spec.key === 'reading') {
-    const bySlug = {};
-    qs.forEach(q => (bySlug[q.passage] = bySlug[q.passage] || []).push(q));
-    let picked = [];
-    for (const slug of HSPT.shuffle(Object.keys(bySlug))) {
-      if (picked.length >= spec.n) break;
-      picked = picked.concat(bySlug[slug]);
-    }
-    return picked.slice(0, spec.n).map(HSPT.shuffleOptions);
-  }
-  const byTopic = {};
-  qs.forEach(q => (byTopic[q.topic] = byTopic[q.topic] || []).push(q));
-  const topics = Object.keys(byTopic);
-  const per = Math.ceil(spec.n / topics.length);
-  let picked = [];
-  HSPT.shuffle(topics).forEach(t => { picked = picked.concat(HSPT.sample(byTopic[t], per)); });
-  return HSPT.shuffle(picked).slice(0, spec.n).map(HSPT.shuffleOptions);
+  if (spec.key === 'reading') return HSPT.buildReading(qs, spec.n).map(HSPT.shuffleOptions);
+  return HSPT.buildTopicSpread(qs, spec.n).map(HSPT.shuffleOptions);
 }
 
 async function start() {

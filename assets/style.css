@@ -929,3 +929,12 @@ td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
   .print-only { display: block !important; }
 }
 .print-only { display: none; }
+
+/* Figures for the Quantitative Skills geometric-comparison questions. The SVG inherits
+   currentColor, so it reads correctly on any background. */
+.figure {
+  margin: 14px 0 18px;
+  max-width: 460px;
+  color: var(--ink);
+}
+.figure svg { width: 100%; height: auto; display: block; }

@@ -109,7 +109,7 @@ const $ = s => document.querySelector(s);
    mix is proportional to the real test where it can be; reading is one whole passage,
    since reading questions need something to sit on. */
 const PLANS = {
-  quick: { label: 'A quick check', bySection: { verbal: 10, quant: 7, reading: 10, math: 7, language: 6 }, perSkill: null },
+  quick: { label: 'A quick check', bySection: { verbal: 10, quant: 9, reading: 10, math: 11, language: 10 }, perSkill: null },
   full:  { label: 'The full one',  bySection: null, perSkill: 3 }
 };
 
@@ -173,11 +173,8 @@ async function build(counts) {
   for (const [key, n] of Object.entries(counts)) {
     const qs = await HSPT.section(key);
     if (key === 'reading') {
-      // One whole passage, so the questions have something to sit on.
-      const bySlug = {};
-      qs.forEach(q => (bySlug[q.passage] = bySlug[q.passage] || []).push(q));
-      const slug = HSPT.shuffle(Object.keys(bySlug))[0];
-      out.push(...bySlug[slug].slice(0, n));
+      // Whole passages plus vocabulary, in the real section's 40:22 proportion.
+      out.push(...HSPT.buildReading(qs, n));
     } else {
       /* Fill each skill to its quota before topping up, so no skill is left with one
          question - that is the whole point of the full version. */

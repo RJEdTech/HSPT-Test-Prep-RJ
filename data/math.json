@@ -1,943 +1,1797 @@
 {
-  "section": "math",
-  "questions": [
-    {
-      "id": "602f2ecacb",
-      "stem": "Which is greater? A) The area of a square with side length 5 cm B) The area of a rectangle with length 6 cm and width 4 cm",
-      "options": [
-        "A > B",
-        "B > A",
-        "A = B",
-        "Not enough information"
-      ],
-      "answer": 0,
-      "topic": "Mathematic Comparisons",
-      "source": "Math_Comparisons_Bank",
-      "explanation": "Square area = 5² = 25 cm². Rectangle area = 6 × 4 = 24 cm². 25 > 24, so A is greater."
-    },
-    {
-      "id": "60d212d097",
-      "stem": "Examine A, B, and C. Find the best answer. A) 25% of 80 B) 40% of 50 C) 30% of 60",
-      "options": [
-        "A > B",
-        "A < B",
-        "A = B",
-        "A < C"
-      ],
-      "answer": 2,
-      "topic": "Mathematic Comparisons",
-      "source": "Math_Comparisons_Bank",
-      "explanation": "The three quantities in the question work out like this:\nA) 25% of 80 = 20\nB) 40% of 50 = 20\nC) 30% of 60 = 18\nA and B both come to 20, so A = B. C is the odd one out at 18."
-    },
-    {
-      "id": "0a51003f3f",
-      "stem": "Compare the perimeter of a rectangle with length 8 cm and width 3 cm to a square with side length 6 cm.",
-      "options": [
-        "Rectangle's perimeter is greater",
-        "Square's perimeter is greater",
-        "They have equal perimeters",
-        "Rectangle's perimeter is twice the square's"
-      ],
-      "answer": 1,
-      "topic": "Mathematic Comparisons",
-      "source": "Math_Comparisons_Bank",
-      "explanation": "Square's perimeter is greater Rectangle perimeter = 2(8 + 3) = 22 cm. Square perimeter = 4 × 6 = 24 cm."
-    },
-    {
-      "id": "893bb5b80a",
-      "stem": "Examine A, B, and C. Then choose the best answer. A) \\(\\sqrt{64}+\\sqrt{36}\\) B) \\(\\sqrt{144}\\) C) \\(2\\sqrt{49}\\)",
-      "options": [
-        "A < B < C",
-        "A > C",
-        "A = B = C",
-        "A = C and A > B"
-      ],
-      "answer": 3,
-      "topic": "Mathematic Comparisons",
-      "source": "Math_Comparisons_Bank",
-      "explanation": "The three quantities in the question work out like this:\nA) \\(\\sqrt{64}+\\sqrt{36}=8+6=14\\)\nB) \\(\\sqrt{144}=12\\)\nC) \\(2\\sqrt{49}=2\\left(7\\right)=14\\)\nA and C are both 14 and B is 12, so A = C and A is greater than B. Take the square roots one at a time in A: \\(\\sqrt{64}+\\sqrt{36}\\) is 14, not \\(\\sqrt{100}\\)."
-    },
-    {
-      "id": "d2679b4c50",
-      "stem": "What is the sum of four squared and three cubed?",
-      "options": [
-        "16",
-        "17",
-        "27",
-        "43"
-      ],
-      "answer": 3,
-      "topic": "Mathematic Comparisons",
-      "source": "Math_Comparisons_Bank",
-      "explanation": "\\(4^2+3^3=16+27=43\\)"
-    },
-    {
-      "id": "e6e5739deb",
-      "stem": "Examine A, B, and C. Choose the best answer. A. \\(3^4\\) B. \\(4^3\\) C. \\(3\\times4\\)",
-      "options": [
-        "A = C and B < A",
-        "A = B = C",
-        "C < B and B = A",
-        "C < B and B < A"
-      ],
-      "answer": 3,
-      "topic": "Mathematic Comparisons",
-      "source": "Math_Comparisons_Bank",
-      "explanation": "The three quantities in the question work out like this:\nA. \\(3^4=81\\)\nB. \\(4^3=64\\)\nC. \\(3\\times4=12\\)\n81 is bigger than 64, which is bigger than 12, so C is less than B and B is less than A. The trap is reading \\(3^4\\) and \\(4^3\\) as the same thing — they are not."
-    },
-    {
-      "id": "d93f3aa195",
-      "stem": "Look at the series: D2, G10, J50, ... What term should come next?",
-      "options": [
-        "K500",
-        "L60",
-        "M250",
-        "M100"
-      ],
-      "answer": 2,
-      "topic": "Mathematic Comparisons",
-      "source": "Math_Comparisons_Bank",
-      "explanation": "The pattern is to skip two letters from the previous term and multiply the number of the previous term by 5."
-    },
-    {
-      "id": "e3b6e7b307",
-      "stem": "Examine A, B, and C. Choose the best answer. A. \\(6\\left(4+2\\right)\\) B. \\(\\left(4+2\\right)^2\\) C. \\(\\left(6\\times4\\right)+2\\)",
-      "options": [
-        "C is greater than B.",
-        "C is less than A and B.",
-        "A is less than B.",
-        "A, B, and C are all equal."
-      ],
-      "answer": 1,
-      "topic": "Mathematic Comparisons",
-      "source": "Math_Comparisons_Bank",
-      "explanation": "The three quantities in the question work out like this:\nA. \\(6\\left(4+2\\right)=6\\times6=36\\)\nB. \\(\\left(4+2\\right)^2=6^2=36\\)\nC. \\(\\left(6\\times4\\right)+2=24+2=26\\)\nA and B are both 36 and C is 26, so C is less than A and B. Work inside the parentheses first in every one."
-    },
-    {
-      "id": "24be35e43f",
-      "stem": "Examine A, B, and C. Choose the best answer. A. \\(0.03\\times10^3\\) B. \\(0.003\\times10^4\\) C. \\(0.3\\times10^2\\)",
-      "options": [
-        "A = B = C",
-        "A < B < C",
-        "A = B and C > B",
-        "B > C and A > B"
-      ],
-      "answer": 0,
-      "topic": "Mathematic Comparisons",
-      "source": "Math_Comparisons_Bank",
-      "explanation": "The three quantities in the question work out like this:\nA. \\(0.03\\times10^3=30\\)\nB. \\(0.003\\times10^4=30\\)\nC. \\(0.3\\times10^2=30\\)\nAll three come to 30, so A = B = C. Each time the decimal moves right by the power of ten."
-    },
-    {
-      "id": "e689d572ee",
-      "stem": "Examine A, B, and C. Choose the best answer. A. \\(2\\div\\frac{1}{10}\\div5\\) B. \\(2\\div\\left(\\frac{1}{10}\\div5\\right)\\) C. \\(\\left(2\\div\\frac{1}{10}\\right)\\div5\\)",
-      "options": [
-        "A = B = C",
-        "A < B and B < C",
-        "A < C and C < B",
-        "A = C and A < B"
-      ],
-      "answer": 3,
-      "topic": "Mathematic Comparisons",
-      "source": "Math_Comparisons_Bank",
-      "explanation": "The three quantities in the question work out like this:\nA. \\(2\\div\\frac{1}{10}\\div5=20\\div5=4\\)\nB. \\(2\\div\\left(\\frac{1}{10}\\div5\\right)=2\\div\\frac{1}{50}=100\\)\nC. \\(\\left(2\\div\\frac{1}{10}\\right)\\div5=20\\div5=4\\)\nA and C are both 4 and B is 100, so A = C and both are less than B. The parentheses in B change which division happens first, and that changes everything."
-    },
-    {
-      "id": "91e5b8dc53",
-      "stem": "19 inches is closest to",
-      "options": [
-        "1 foot",
-        "2 feet",
-        "3 feet",
-        "4 feet"
-      ],
-      "answer": 1,
-      "topic": "Math Principles",
-      "source": "Math_Principles_Bank",
-      "explanation": "12 inches = 1 foot 24 inches = 2 feet 19 inches is closer to 2 feet."
-    },
-    {
-      "id": "3ade558895",
-      "stem": "If x and y are two different numbers, then their average will always be",
-      "options": [
-        "greater than both x and y",
-        "smaller than both x and y",
-        "between x and y",
-        "equal to either x or y"
-      ],
-      "answer": 2,
-      "topic": "Math Principles",
-      "source": "Math_Principles_Bank",
-      "explanation": "The average of two different numbers is the number that falls exactly halfway between the two on a number line."
-    },
-    {
-      "id": "c3a852c63a",
-      "stem": "If there are 16 cups in 1 gallon, which expression shows the number of cups in \\(x\\) gallons",
-      "options": [
-        "\\(\\frac{x}{16}\\)",
-        "\\(x+16\\)",
-        "\\(x\\times16\\)",
-        "\\(x-16\\)"
-      ],
-      "answer": 2,
-      "topic": "Math Principles",
-      "source": "Math_Principles_Bank",
-      "explanation": "1 gallon contains 16 cups, so the number of gallons needs to be multiplied by 16 in order to determine the number of cups."
-    },
-    {
-      "id": "b96c98ab5d",
-      "stem": "How many integers are between \\(\\frac{33}{7}\\) and \\(8.001\\) ?",
-      "options": [
-        "3",
-        "4",
-        "5",
-        "6"
-      ],
-      "answer": 1,
-      "topic": "Math Principles",
-      "source": "Math_Principles_Bank",
-      "explanation": "\\(\\frac{33}{7}\\) is \\(4\\frac{5}{7}\\) ; so 5, 6, 7, and 8 are between \\(\\frac{33}{7}\\) and \\(8.001\\) ."
-    },
-    {
-      "id": "fb85295e23",
-      "stem": "As a fraction, \\(0.24\\) is",
-      "options": [
-        "\\(\\frac{24}{1,000}\\)",
-        "\\(\\frac{6}{25}\\)",
-        "\\(\\frac{1}{4}\\)",
-        "\\(\\frac{100}{24}\\)"
-      ],
-      "answer": 1,
-      "topic": "Math Principles",
-      "source": "Math_Principles_Bank",
-      "explanation": "The digits 2 and 4 end in the hundredths place, so \\(0.24=\\frac{24}{100}\\) . When simplified, \\(\\frac{24}{100}=\\frac{6}{25}\\) ."
-    },
-    {
-      "id": "86aef55eeb",
-      "stem": "Which of the following is true?",
-      "options": [
-        "\\(a\\div\\left(b+c\\right)=\\frac{a}{b}+\\frac{a}{c}\\)",
-        "\\(a\\left(x+b\\right)=ax+b\\)",
-        "\\(a\\left(x+b\\right)=a\\left(x\\right)+ab\\)",
-        "\\(a\\div b=b\\left(\\frac{1}{a}\\right)\\)"
-      ],
-      "answer": 2,
-      "topic": "Math Principles",
-      "source": "Math_Principles_Bank",
-      "explanation": "The distributive property says the multiplier outside the parentheses has to reach every term inside: \\(a\\left(x+b\\right)=a\\left(x\\right)+ab\\). Only one of the four does that. \\(a\\left(x+b\\right)=ax+b\\) drops the \\(a\\) off the second term, and division does not distribute over addition at all."
-    },
-    {
-      "id": "287caf4bb6",
-      "stem": "Find the median of the following list: 1, 2, 3, 9, 10",
-      "options": [
-        "3",
-        "4",
-        "5",
-        "6"
-      ],
-      "answer": 0,
-      "topic": "Math Principles",
-      "source": "Math_Principles_Bank",
-      "explanation": "If a sorted list contains an odd number of values, the median is the value that is exactly in the middle."
-    },
-    {
-      "id": "0630a2f1f7",
-      "stem": "A boy M years old has a brother six years older and a sister four years younger. The combined age of all three is",
-      "options": [
-        "M + 10",
-        "3M + 2",
-        "3M - 2",
-        "2M - 6"
-      ],
-      "answer": 1,
-      "topic": "Math Principles",
-      "source": "Math_Principles_Bank",
-      "explanation": "Boy: M Brother: M + 6 Sister: M - 4 Combined age: M + (M + 6) + (M - 4) = 3M + 2"
-    },
-    {
-      "id": "cc38ad0b72",
-      "stem": "Simplify: \\(3\\left(-2\\right)^3\\)",
-      "options": [
-        "-216",
-        "-24",
-        "-18",
-        "1"
-      ],
-      "answer": 1,
-      "topic": "Math Principles",
-      "source": "Math_Principles_Bank",
-      "explanation": "\\(3\\left(-2\\right)^3=3\\left(-8\\right)=-24\\)"
-    },
-    {
-      "id": "9241e3703d",
-      "stem": "The average of \\(-2,0,2\\) and \\(4\\) is",
-      "options": [
-        "0",
-        "1",
-        "2",
-        "4"
-      ],
-      "answer": 1,
-      "topic": "Math Principles",
-      "source": "Math_Principles_Bank",
-      "explanation": "The average of a list of numbers is the sum of the numbers divided by how many there are. \\(-2+0+2+4=4\\) \\(4\\div4=1\\)"
-    },
-    {
-      "id": "f5e8545dd6",
-      "stem": "The square root of 198 is between",
-      "options": [
-        "98 and 100",
-        "90 and 100",
-        "19 and 20",
-        "14 and 15"
-      ],
-      "answer": 3,
-      "topic": "Math Principles",
-      "source": "Math_Principles_Bank",
-      "explanation": "\\(14^2=196\\) and \\(15^2=225\\) Since \\(14^2"
-    },
-    {
-      "id": "1581b4aca2",
-      "stem": "If there is 20% chance of rain on a certain day, what is the percent chance that it will NOT rain that day?",
-      "options": [
-        "20%",
-        "40%",
-        "80%",
-        "90%"
-      ],
-      "answer": 2,
-      "topic": "Math Principles",
-      "source": "Math_Principles_Bank",
-      "explanation": "Percent is always out of 100, so \\(100\\%-20\\%=80\\%\\) ."
-    },
-    {
-      "id": "d7f065d573",
-      "stem": "To the nearest tenth, 63.594 is written",
-      "options": [
-        "63.5",
-        "63.6",
-        "63.59",
-        "64"
-      ],
-      "answer": 1,
-      "topic": "Math Principles",
-      "source": "Math_Principles_Bank",
-      "explanation": "Rounding to the nearest tenth is rounding to one decimal."
-    },
-    {
-      "id": "0dcaa52cee",
-      "stem": "Which of the following is a pair of reciprocals?",
-      "options": [
-        "\\(\\left(3,-3\\right)\\)",
-        "\\(\\left(2^3,3^2\\right)\\)",
-        "\\(\\left(3\\frac{1}{3},\\frac{3}{10}\\right)\\)",
-        "\\(\\left(0,1\\right)\\)"
-      ],
-      "answer": 2,
-      "topic": "Math Principles",
-      "source": "Math_Principles_Bank",
-      "explanation": "The reciprocal of a fraction is the fraction \"reversed\" or \"flipped.\" \\(3\\frac{1}{3}=\\frac{10}{3}\\) So \\(\\frac{10}{3}\\) and \\(\\frac{3}{10}\\) are reciprocals."
-    },
-    {
-      "id": "aa91723b67",
-      "stem": "What comes next in the sequence: 3, 6, 11, 18, 27, ___?",
-      "options": [
-        "36",
-        "38",
-        "40",
-        "42"
-      ],
-      "answer": 1,
-      "topic": "Patterns in Numbers",
-      "source": "Patterns_in_Numbers_Bank",
-      "explanation": "The pattern is +3, +5, +7, +9, so the next number is 27 + 11 = 38."
-    },
-    {
-      "id": "ec008066f4",
-      "stem": "In the pattern 1, 4, 9, 16, 25, what is the next number?",
-      "options": [
-        "30",
-        "36",
-        "49",
-        "64"
-      ],
-      "answer": 1,
-      "topic": "Patterns in Numbers",
-      "source": "Patterns_in_Numbers_Bank",
-      "explanation": "These are square numbers. 1² = 1, 2² = 4, 3² = 9, etc. The next is 6² = 36."
-    },
-    {
-      "id": "3065be21a8",
-      "stem": "What's the missing number: 2, 6, 12, 20, ___, 42?",
-      "options": [
-        "30",
-        "32",
-        "34",
-        "36"
-      ],
-      "answer": 0,
-      "topic": "Patterns in Numbers",
-      "source": "Patterns_in_Numbers_Bank",
-      "explanation": "The difference between each term increases by 2. 4, 6, 8, 10, 12. So 20 + 10 = 30."
-    },
-    {
-      "id": "daf147d2d5",
-      "stem": "Which number comes next: 1, 3, 6, 10, 15, ___?",
-      "options": [
-        "18",
-        "21",
-        "24",
-        "28"
-      ],
-      "answer": 1,
-      "topic": "Patterns in Numbers",
-      "source": "Patterns_in_Numbers_Bank",
-      "explanation": "The pattern adds consecutive integers: +2, +3, +4, +5, so next is +6. 15 + 6 = 21."
-    },
-    {
-      "id": "d07ee7a381",
-      "stem": "In the sequence 64, 32, 16, 8, what comes next?",
-      "options": [
-        "2",
-        "3",
-        "4",
-        "6"
-      ],
-      "answer": 2,
-      "topic": "Patterns in Numbers",
-      "source": "Patterns_in_Numbers_Bank",
-      "explanation": "Each number is half of the previous one. So 8 ÷ 2 = 4."
-    },
-    {
-      "id": "15255b8b54",
-      "stem": "What's the next number: 2, 3, 5, 8, 12, ___?",
-      "options": [
-        "15",
-        "17",
-        "19",
-        "21"
-      ],
-      "answer": 1,
-      "topic": "Patterns in Numbers",
-      "source": "Patterns_in_Numbers_Bank",
-      "explanation": "The differences are increasing by 1 each time: +1, +2, +3, +4, so next is +5. 12 + 5 = 17."
-    },
-    {
-      "id": "52c5fed16e",
-      "stem": "Find the missing term: 1, 2, 4, 8, 16, ___, 64",
-      "options": [
-        "24",
-        "28",
-        "32",
-        "36"
-      ],
-      "answer": 2,
-      "topic": "Patterns in Numbers",
-      "source": "Patterns_in_Numbers_Bank",
-      "explanation": "Each number is doubling. 16 × 2 = 32."
-    },
-    {
-      "id": "942ad2b817",
-      "stem": "What number continues the pattern: 5, 10, 20, 35, ___?",
-      "options": [
-        "45",
-        "50",
-        "55",
-        "60"
-      ],
-      "answer": 2,
-      "topic": "Patterns in Numbers",
-      "source": "Patterns_in_Numbers_Bank",
-      "explanation": "The pattern is +5, +10, +15, so the next step is +20. 35 + 20 = 55."
-    },
-    {
-      "id": "b09fbec010",
-      "stem": "In the sequence 1, 4, 13, 40, what comes next?",
-      "options": [
-        "81",
-        "105",
-        "121",
-        "145"
-      ],
-      "answer": 2,
-      "topic": "Patterns in Numbers",
-      "source": "Patterns_in_Numbers_Bank",
-      "explanation": "Multiply by 3 and add 1. (40 × 3) + 1 = 121."
-    },
-    {
-      "id": "61a25138f3",
-      "stem": "What is the next number in the sequence: 2, 5, 11, 23, 47, ___?",
-      "options": [
-        "85",
-        "91",
-        "95",
-        "97"
-      ],
-      "answer": 2,
-      "topic": "Patterns in Numbers",
-      "source": "Patterns_in_Numbers_Bank",
-      "explanation": "Each term is found by doubling the previous term and adding 1. 2 × 2 + 1 = 5 5 × 2 + 1 = 11 11 × 2 + 1 = 23 23 × 2 + 1 = 47 47 × 2 + 1 = 95"
-    },
-    {
-      "id": "8235fc651f",
-      "stem": "Mr. Allen paid $542.40 for his telephone bills last year. How much did he pay, on average, per month?",
-      "options": [
-        "$45.20",
-        "$46.20",
-        "$54.20",
-        "$55.20"
-      ],
-      "answer": 0,
-      "topic": "Problem Solving",
-      "source": "Problem_Solving_Bank",
-      "explanation": "\\(542.40\\div12=45.20\\)"
-    },
-    {
-      "id": "7af85731b9",
-      "stem": "If \\(-5+4x=21\\) , \\(x=\\)",
-      "options": [
-        "4",
-        "5.75",
-        "6.5",
-        "8.5"
-      ],
-      "answer": 2,
-      "topic": "Problem Solving",
-      "source": "Problem_Solving_Bank",
-      "explanation": "\\(-5+4x=21\\) \\(4x=21+5\\) \\(4x=26\\) \\(x=\\frac{26}{4}\\) \\(x=6.5\\)"
-    },
-    {
-      "id": "21b64be6ef",
-      "stem": "If N% of 60 is 24, N =",
-      "options": [
-        "40",
-        "84",
-        "125",
-        "150"
-      ],
-      "answer": 0,
-      "topic": "Problem Solving",
-      "source": "Problem_Solving_Bank",
-      "explanation": "\\(N\\%\\times60=24\\) \\(N\\%=\\frac{24}{60}\\) \\(N\\%=\\frac{2}{5}\\) \\(N\\%=0.4\\) \\(N\\%=40\\)"
-    },
-    {
-      "id": "ff78944f88",
-      "stem": "Solve: If \\(\\sqrt{x+36}=10\\) , then \\(x=\\)",
-      "options": [
-        "64",
-        "56",
-        "-16",
-        "-4"
-      ],
-      "answer": 0,
-      "topic": "Problem Solving",
-      "source": "Problem_Solving_Bank",
-      "explanation": "\\(\\sqrt{x+36}=10\\) \\((\\sqrt{x+36})^2=10^2\\) \\(x+36=100\\) \\(x=100-36\\) \\(x=64\\)"
-    },
-    {
-      "id": "02ce4ba9bf",
-      "stem": "A basket contains 2 red balls and 3 green balls. If a person reaches in without looking and randomly chooses one of the balls, what is the probability that the ball chosen is red?",
-      "options": [
-        "\\(\\frac{1}{5}\\)",
-        "\\(\\frac{1}{4}\\)",
-        "\\(\\frac{2}{5}\\)",
-        "\\(\\frac{3}{4}\\)"
-      ],
-      "answer": 2,
-      "topic": "Problem Solving",
-      "source": "Problem_Solving_Bank",
-      "explanation": "The probability that a red ball is chosen is equal to the number of red balls divided the total number of balls."
-    },
-    {
-      "id": "050f940383",
-      "stem": "If Katie is half of her brother's age, and her brother is 10 years old, in how many years will Katie be 12 years old?",
-      "options": [
-        "5",
-        "7",
-        "10",
-        "12"
-      ],
-      "answer": 1,
-      "topic": "Problem Solving",
-      "source": "Problem_Solving_Bank",
-      "explanation": "Since her brother is 10 years old, Katie is 5 years old. She will be 12 years old in 7 years ( \\(5+7=12\\) )."
-    },
-    {
-      "id": "055651ee99",
-      "stem": "A movie ticket normally costs $12, but there is a 25% discount on Wednesday afternoons. How much do 3 movie tickets cost on Wednesday afternoon?",
-      "options": [
-        "$12",
-        "$27",
-        "$31",
-        "$48"
-      ],
-      "answer": 1,
-      "topic": "Problem Solving",
-      "source": "Problem_Solving_Bank",
-      "explanation": "25% of $12 is $3, so the discounted price of each ticket is $9 ($12 - $3). $9 x 3 = $27"
-    },
-    {
-      "id": "05dd20949f",
-      "stem": "The average of 10 and what other number is equal to 18?",
-      "options": [
-        "10",
-        "18",
-        "20",
-        "26"
-      ],
-      "answer": 3,
-      "topic": "Problem Solving",
-      "source": "Problem_Solving_Bank",
-      "explanation": "The average of two number is half of their sum. If the average of two numbers is 18, their sum must be 36. If one number is 10, then the other must be 26."
-    },
-    {
-      "id": "8a9b373079",
-      "stem": "If Bennett can mow a lawn in \\(x\\) hours, what part of the lawn can he mow in 2 hours?",
-      "options": [
-        "\\(\\frac{2}{x}\\)",
-        "\\(\\frac{x}{2}\\)",
-        "\\(\\frac{1}{2}\\)",
-        "\\(\\frac{1}{x}\\)"
-      ],
-      "answer": 0,
-      "topic": "Problem Solving",
-      "source": "Problem_Solving_Bank",
-      "explanation": "This question can be solved using proportional reasoning. The relationship between part of the lawn and the whole lawn is the same as the relationship between the time it takes to mow part of the lawn and the time it takes to mow the whole lawn."
-    },
-    {
-      "id": "4600734e17",
-      "stem": "Casey has $10 less than four times the amount Sam has. If Casey has $88, how much does Sam have?",
-      "options": [
-        "$48",
-        "$24.50",
-        "$22",
-        "$16"
-      ],
-      "answer": 1,
-      "topic": "Problem Solving",
-      "source": "Problem_Solving_Bank",
-      "explanation": "Step 1: Add $10 to the amount Casey has, so $88 + $10 = $98 Step 2: Divide by 4, $98 \\(\\div\\) 4 = $24.50."
-    },
-    {
-      "id": "d43a2067de",
-      "stem": "The formula \\(F=\\frac{9}{5}C+32\\) converts temperature from Centigrade to Fahrenheit. What is the Fahrenheit temperature for \\(85^{\\circ}\\) Centigrade?",
-      "options": [
-        "\\(192^{\\circ}\\)",
-        "\\(185^{\\circ}\\)",
-        "\\(175^{\\circ}\\)",
-        "\\(130^{\\circ}\\)"
-      ],
-      "answer": 1,
-      "topic": "Problem Solving",
-      "source": "Problem_Solving_Bank",
-      "explanation": "\\(F=\\frac{9}{5}\\left(85\\right)+32=9\\left(17\\right)+32=153+32=185\\)"
-    },
-    {
-      "id": "4fc1319593",
-      "stem": "If the 5% sales tax on a snowmobile was $42, what was the price of the snowmobile not including the tax?",
-      "options": [
-        "$640",
-        "$680",
-        "$820",
-        "$840"
-      ],
-      "answer": 3,
-      "topic": "Problem Solving",
-      "source": "Problem_Solving_Bank",
-      "explanation": "Let \\(p=\\) price of the snowmobile before tax \\(0.05p=42\\) \\(p=42\\div0.05\\) \\(p=840\\)"
-    },
-    {
-      "id": "5c725a8eb4",
-      "stem": "If a flagpole has a shadow 56 feet long when a 6-foot man's shadow is 14 feet long, what is the height of the flagpole?",
-      "options": [
-        "20 feet",
-        "24 feet",
-        "28 feet",
-        "32 feet"
-      ],
-      "answer": 1,
-      "topic": "Problem Solving",
-      "source": "Problem_Solving_Bank",
-      "explanation": "The problem is solved using ratios. \\(\\frac{6}{14}=\\frac{x}{56}\\) \\(6\\left(56\\right)=14\\left(x\\right)\\) \\(336=14x\\) \\(x=\\frac{336}{14}\\) \\(x=24\\)"
-    },
-    {
-      "id": "5816536eb4",
-      "stem": "If the perimeter of a rectangular region is 50 units, and the length of one side is 7 units, what is the area of the rectangular region?",
-      "options": [
-        "124 square units",
-        "126 square units",
-        "252 square units",
-        "291 square units"
-      ],
-      "answer": 1,
-      "topic": "Problem Solving",
-      "source": "Problem_Solving_Bank",
-      "explanation": "First solve for the width of the rectangular region using the given information. Perimeter = \\(2\\left(length\\right)+2\\left(width\\right)\\) \\(50=2\\left(7\\right)+2\\left(width\\right)\\) \\(50=14+2\\left(width\\right)\\) \\(36=2\\left(width\\right)\\) \\(width=18\\) Now, find the area of the rectangular region. Area = \\(length\\times width\\) Area = \\(7\\times18=126\\)"
-    },
-    {
-      "id": "fd913c1768",
-      "stem": "If 18 is added to an integer, and the result is \\(\\frac{5}{4}\\) of the integer, what is the integer?",
-      "options": [
-        "-18",
-        "24",
-        "36",
-        "72"
-      ],
-      "answer": 3,
-      "topic": "Problem Solving",
-      "source": "Problem_Solving_Bank",
-      "explanation": "Let \\(x\\) be the unknown integer, and solve the following: \\(18+x=\\frac{5}{4}x\\) \\(18=\\frac{5}{4}x-x\\) \\(18=\\frac{5}{4}x-\\frac{4}{4}x\\) \\(18=\\frac{1}{4}x\\) \\(4\\cdot18=4\\cdot\\frac{1}{4}x\\) \\(x=72\\)"
-    },
-    {
-      "id": "7ce8eb83f9",
-      "stem": "Complete the proportion: \\(\\frac{5}{20}=\\frac{\\left(\\frac{1}{3}\\right)}{x}\\)",
-      "options": [
-        "\\(\\frac{1}{4}\\)",
-        "\\(\\frac{3}{4}\\)",
-        "\\(\\frac{4}{3}\\)",
-        "\\(4\\)"
-      ],
-      "answer": 2,
-      "topic": "Skills Check 4: Mathematic Skills",
-      "source": "Skills_Check_Mathematics_Bank",
-      "explanation": "\\(\\frac{5}{20}=\\frac{\\left(\\frac{1}{3}\\right)}{x}\\) \\(\\frac{1}{4}=\\frac{\\left(\\frac{1}{3}\\right)}{x}\\) \\(\\frac{1}{4}x=\\frac{1}{3}\\) \\(4\\cdot\\frac{1}{4}x=\\frac{1}{3}\\cdot4\\) \\(x=\\frac{4}{3}\\)"
-    },
-    {
-      "id": "2a65813ef5",
-      "stem": "The ratio of bathrooms to bedrooms in a mansion is \\(2:3\\) . If there are 18 bedrooms, how many bathrooms are there?",
-      "options": [
-        "9",
-        "12",
-        "15",
-        "21"
-      ],
-      "answer": 1,
-      "topic": "Skills Check 4: Mathematic Skills",
-      "source": "Skills_Check_Mathematics_Bank",
-      "explanation": "Set up a proportion to solve for the number of bathrooms. \\(\\frac{2}{3}=\\frac{x}{18}\\) Cross-multiply to solve. \\(18\\cdot2=3\\cdot x\\) \\(36=3x\\) Solve for \\(x\\) . \\(x=12\\)"
-    },
-    {
-      "id": "f9467de33b",
-      "stem": "In the following expression, what is \"3\" called? \\(\\left(3x+1\\right)\\left(x+2\\right)\\)",
-      "options": [
-        "Coefficient",
-        "Variable",
-        "Expression",
-        "Factor"
-      ],
-      "answer": 0,
-      "topic": "Skills Check 4: Mathematic Skills",
-      "source": "Skills_Check_Mathematics_Bank",
-      "explanation": "A number in front of a variable is called a coefficient."
-    },
-    {
-      "id": "acedd1d085",
-      "stem": "A dog's toy box contains 4 tennis balls, five stuffed animals, three chew bones, and one rope. What is the probability that a dog chooses a tennis ball from the toy box?",
-      "options": [
-        "\\(\\frac{1}{13}\\)",
-        "\\(\\frac{9}{13}\\)",
-        "\\(\\frac{4}{13}\\)",
-        "\\(\\frac{5}{13}\\)"
-      ],
-      "answer": 2,
-      "topic": "Skills Check 4: Mathematic Skills",
-      "source": "Skills_Check_Mathematics_Bank",
-      "explanation": "There are 13 toys total, and 4 of them are tennis balls. The probability of a dog selecting a tennis ball is \\(\\frac{4}{13}\\) ."
-    },
-    {
-      "id": "4c851be245",
-      "stem": "Which of these statements is false",
-      "options": [
-        "\\(\\frac{10+4}{2}=\\frac{10}{2}+4\\)",
-        "\\(\\left(4+6\\right)-2=4+\\left(6-2\\right)\\)",
-        "\\(\\frac{3\\times7}{4\\times5}=\\frac{3}{4}\\times\\frac{7}{5}\\)",
-        "\\(5\\left(8-2\\right)=5\\left(8\\right)-5\\left(2\\right)\\)"
-      ],
-      "answer": 0,
-      "topic": "Skills Check 4: Mathematic Skills",
-      "source": "Skills_Check_Mathematics_Bank",
-      "explanation": "You must divide both numbers in the numerator by 2 when splitting into two fractions."
-    },
-    {
-      "id": "7ff1e0b85b",
-      "stem": "What is the median of this data set? \\(5,0,0,10,20\\)",
-      "options": [
-        "0",
-        "5",
-        "7",
-        "20"
-      ],
-      "answer": 1,
-      "topic": "Skills Check 4: Mathematic Skills",
-      "source": "Skills_Check_Mathematics_Bank",
-      "explanation": "First the data in increasing order: \\(0,0,5,10,20\\) The median is the value in the middle, \\(5\\) ."
-    },
-    {
-      "id": "92f99f5115",
-      "stem": "Simplify: \\(12-3\\times3-1\\)",
-      "options": [
-        "2",
-        "3",
-        "18",
-        "26"
-      ],
-      "answer": 0,
-      "topic": "Skills Check 4: Mathematic Skills",
-      "source": "Skills_Check_Mathematics_Bank",
-      "explanation": "To simplify, use the order of operations: \\(12-3\\times3-1=12-9-1=3-1=2\\)"
-    },
-    {
-      "id": "7f32e99217",
-      "stem": "If \\(a=-1,b=-\\frac{1}{2},\\) and \\(c=-2\\) , what is the value of \\(c\\left(a-b\\right)^2?\\)",
-      "options": [
-        "\\(-1\\)",
-        "\\(-\\frac{1}{2}\\)",
-        "\\(\\frac{1}{2}\\)",
-        "\\(1\\)"
-      ],
-      "answer": 1,
-      "topic": "Skills Check 4: Mathematic Skills",
-      "source": "Skills_Check_Mathematics_Bank",
-      "explanation": "\\(-2(-1-\\left(-\\frac{1}{2}\\right))^2=-2\\left(-\\frac{1}{2}\\right)^2=-2\\left(\\frac{1}{4}\\right)=-\\frac{1}{2}\\)"
-    },
-    {
-      "id": "17c09b9283",
-      "stem": "The square root of 141 is between",
-      "options": [
-        "11 and 12.",
-        "20 and 22.",
-        "41 and 100.",
-        "70 and 71."
-      ],
-      "answer": 0,
-      "topic": "Skills Check 4: Mathematic Skills",
-      "source": "Skills_Check_Mathematics_Bank",
-      "explanation": "Since \\(121"
-    },
-    {
-      "id": "1c29078868",
-      "stem": "Look at this series: QXR SXT UXV ___ YXZ. What letter group should fill the blank in the middle of the series?",
-      "options": [
-        "WXV",
-        "WXZ",
-        "WXX",
-        "WXY"
-      ],
-      "answer": 2,
-      "topic": "Skills Check 2: Quantitative Skills",
-      "source": "Skills_Check_Quantitative_Bank",
-      "explanation": "Beginning with the letter Q, this series contains the letters of the alphabet in alphabetical order. The letter X appears in the middle of each set of three letters."
-    },
-    {
-      "id": "a90e3bb78b",
-      "stem": "What number is twice \\(\\frac{2}{3}\\) of 24?",
-      "options": [
-        "8",
-        "16",
-        "18",
-        "32"
-      ],
-      "answer": 3,
-      "topic": "Skills Check 2: Quantitative Skills",
-      "source": "Skills_Check_Quantitative_Bank",
-      "explanation": "Look for key terms such as twice or double that indicate you will need to multiply a quantity by 2. \\(2\\left(\\frac{2}{3}\\cdot24\\right)=2\\cdot\\left(16\\right)=32\\)"
-    },
-    {
-      "id": "a5a165994d",
-      "stem": "Examine A, B, and C. Choose the best answer. A. \\(\\left(7-3\\right)^2\\) B. \\(7^2-3^2\\) C. \\(\\left(3-7\\right)^2\\)",
-      "options": [
-        "A = B and C < A",
-        "A = B = C",
-        "A = C and A < B",
-        "C < A < B"
-      ],
-      "answer": 2,
-      "topic": "Skills Check 2: Quantitative Skills",
-      "source": "Skills_Check_Quantitative_Bank",
-      "explanation": "The three quantities in the question work out like this:\nA. \\(\\left(7-3\\right)^2=4^2=16\\)\nB. \\(7^2-3^2=49-9=40\\)\nC. \\(\\left(3-7\\right)^2=\\left(-4\\right)^2=16\\)\nA and C are both 16 and B is 40, so A = C and both are less than B. Squaring a negative gives a positive, which is why C matches A."
-    },
-    {
-      "id": "fb81e2d700",
-      "stem": "Square MNOP has its vertices labelled in order, so that $\\overline{MO}$ is a diagonal. Choose the best answer.",
-      "options": [
-        "\\(\\overline{MN}\\) is equal to \\(\\overline{MO}\\) .",
-        "\\(\\overline{MO}\\) minus \\(\\overline{MN}\\) is equal to \\(\\overline{ON}\\) .",
-        "\\(\\angle OMP\\) is greater than \\(\\angle ONM\\) .",
-        "\\(\\overline{MO}\\) is greater than \\(\\overline{MP}\\) ."
-      ],
-      "answer": 3,
-      "topic": "Skills Check 2: Quantitative Skills",
-      "source": "Skills_Check_Quantitative_Bank",
-      "explanation": "\\(\\overline{MO}\\) creates two right triangles. The hypotenuse is always the longest side of a right triangle."
-    },
-    {
-      "id": "f0cd50c3e2",
-      "stem": "Examine A, B, and C. Choose the best answer. A. \\(6\\times10^2\\) B. \\(\\frac{6}{10}\\) C. \\(0.60\\)",
-      "options": [
-        "B is equal to C",
-        "A is less than B",
-        "C is greater than A and B",
-        "B is greater than A"
-      ],
-      "answer": 0,
-      "topic": "Skills Check 2: Quantitative Skills",
-      "source": "Skills_Check_Quantitative_Bank",
-      "explanation": "The three quantities in the question work out like this:\nA. \\(6\\times10^2=600\\)\nB. \\(\\frac{6}{10}=0.60\\)\nC. \\(0.60\\)\nB and C are both 0.60, so B is equal to C. A is 600, nowhere near either."
-    },
-    {
-      "id": "2c30cc9b0b",
-      "stem": "Examine A, B, and C. Choose the best answer. A. Four times the square of 4 B. Half the cube of 4 C. Twice the cube of 3",
-      "options": [
-        "A = B and B < C",
-        "A > C and C > B",
-        "C > B and B > A",
-        "A = B = C"
-      ],
-      "answer": 1,
-      "topic": "Skills Check 2: Quantitative Skills",
-      "source": "Skills_Check_Quantitative_Bank",
-      "explanation": "The three quantities in the question work out like this:\nA. Four times the square of 4: \\(4\\cdot4^2=4\\times16=64\\)\nB. Half the cube of 4: \\(\\frac{1}{2}\\left(4^3\\right)=\\frac{1}{2}\\left(64\\right)=32\\)\nC. Twice the cube of 3: \\(2\\cdot3^3=2\\times27=54\\)\n64 is bigger than 54, which is bigger than 32, so A is greater than C and C is greater than B."
-    },
-    {
-      "id": "938ed99e0d",
-      "stem": "Twice the sum of 4 and what number is the same as 4 times that number?",
-      "options": [
-        "2",
-        "4",
-        "6",
-        "8"
-      ],
-      "answer": 1,
-      "topic": "Skills Check 2: Quantitative Skills",
-      "source": "Skills_Check_Quantitative_Bank",
-      "explanation": "Let \\(n\\) be the number. \\(N\\) must satisfy the following equation: \\(2\\left(4+n\\right)=4n\\) Solve for \\(n\\) . \\(2\\left(4+n\\right)=4n\\) \\(8+2n=4n\\) \\(8=2n\\) \\(n=4\\)"
-    },
-    {
-      "id": "b09243a28d",
-      "stem": "Look at this series: 2, 4, 7, 14, 17, 34, ... What number should come next?",
-      "options": [
-        "35",
-        "36",
-        "37",
-        "39"
-      ],
-      "answer": 2,
-      "topic": "Skills Check 2: Quantitative Skills",
-      "source": "Skills_Check_Quantitative_Bank",
-      "explanation": "The pattern in this series is \\(\\times2,+3,\\times2,+3,\\ldots\\)"
-    },
-    {
-      "id": "b846d8b538",
-      "stem": "Look at this series: \\(\\frac{2}{27},\\frac{3}{4},\\frac{2}{9},\\frac{4}{5},\\frac{2}{3},\\frac{5}{6},\\ldots\\) What term should come next?",
-      "options": [
-        "\\(\\frac{6}{7}\\)",
-        "\\(\\frac{7}{8}\\)",
-        "\\(2\\)",
-        "6"
-      ],
-      "answer": 2,
-      "topic": "Skills Check 2: Quantitative Skills",
-      "source": "Skills_Check_Quantitative_Bank",
-      "explanation": "The 3rd and 5th terms are obtained by multiplying the previous term by 3. The 2nd, 4th, and 6th terms are obtained by adding 1 in the numerator and denominator of the previous term. The series asks for the 7th term, so you multiply \\(\\frac{2}{3}\\) by \\(3\\) to get \\(2.\\)"
-    }
-  ]
+ "section": "math",
+ "questions": [
+  {
+   "id": "1adcdcbc95",
+   "stem": "In the number \\(47.3856\\), which digit is in the thousandths place?",
+   "options": [
+    "3",
+    "6",
+    "5",
+    "8"
+   ],
+   "answer": 2,
+   "topic": "Number Sense",
+   "source": "rj_original_2026",
+   "explanation": "Reading right of the point: 3 is tenths, 8 is hundredths, 5 is thousandths and 6 is ten-thousandths. Choosing 3 comes from matching the big-sounding word to the first decimal place, 8 stops one place short and 6 runs one place too far."
+  },
+  {
+   "id": "0929f27215",
+   "stem": "Which numeral is six thousand forty and nine hundredths?",
+   "options": [
+    "6,040.9",
+    "6,040.09",
+    "6,400.09",
+    "6,040.009"
+   ],
+   "answer": 1,
+   "topic": "Number Sense",
+   "source": "rj_original_2026",
+   "explanation": "Hundredths is the second place after the point, so the digits are 6,040.09. The choice 6,040.9 puts nine in the tenths place, 6,400.09 reads forty as four hundred and 6,040.009 places nine in the thousandths."
+  },
+  {
+   "id": "68cbac5757",
+   "stem": "Which of these is \\(3{,}608\\) written in expanded form with exponents?",
+   "options": [
+    "\\(3\\times10^3+6\\times10^2+8\\times10^1\\)",
+    "\\(3\\times10^3+6\\times10^2+8\\times10^0\\)",
+    "\\(3\\times10^4+6\\times10^3+8\\times10^1\\)",
+    "\\(3\\times10^2+6\\times10^1+8\\times10^0\\)"
+   ],
+   "answer": 1,
+   "topic": "Number Sense",
+   "source": "rj_original_2026",
+   "explanation": "The 8 sits in the ones place, and the ones place is \\(10^0\\). The first choice skips the zero and slides the 8 into the tens place, the third counts places starting at one instead of zero and the last drops the zero entirely and expands 368."
+  },
+  {
+   "id": "d886e63d66",
+   "stem": "Rounded to the nearest hundredth, \\(8.0463\\) is",
+   "options": [
+    "8.046",
+    "8.05",
+    "8.1",
+    "8.04"
+   ],
+   "answer": 1,
+   "topic": "Number Sense",
+   "source": "rj_original_2026",
+   "explanation": "The thousandths digit is 6, so the hundredths digit rounds up from 4 to 5. The choice 8.04 chops the extra digits off instead of rounding, 8.046 rounds to the thousandth and 8.1 rounds to the tenth."
+  },
+  {
+   "id": "715dca6c31",
+   "stem": "Which list is in order from least to greatest?",
+   "options": [
+    "\\(0.37,\\ \\frac{2}{5},\\ 0.5,\\ \\frac{5}{8}\\)",
+    "\\(\\frac{2}{5},\\ 0.37,\\ 0.5,\\ \\frac{5}{8}\\)",
+    "\\(\\frac{2}{5},\\ \\frac{5}{8},\\ 0.37,\\ 0.5\\)",
+    "\\(0.37,\\ 0.5,\\ \\frac{2}{5},\\ \\frac{5}{8}\\)"
+   ],
+   "answer": 0,
+   "topic": "Number Sense",
+   "source": "rj_original_2026",
+   "explanation": "Written as decimals the values are 0.37, 0.4, 0.5 and 0.625. The second list treats a small numerator as a small value and puts \\(\\frac{2}{5}\\) first, the third lists the decimals first and the fractions after, and the last groups all the fractions ahead of the decimals."
+  },
+  {
+   "id": "db2596076b",
+   "stem": "What is the least common multiple of 12 and 18?",
+   "options": [
+    "36",
+    "72",
+    "6",
+    "216"
+   ],
+   "answer": 0,
+   "topic": "Number Sense",
+   "source": "rj_original_2026",
+   "explanation": "\\(12=2^2\\times3\\) and \\(18=2\\times3^2\\), so the least common multiple is \\(2^2\\times3^2=36\\). The choice 6 is the greatest common factor instead, 216 is the plain product \\(12\\times18\\) and 72 is a common multiple but not the least one."
+  },
+  {
+   "id": "aa6065c53c",
+   "stem": "What is the greatest common factor of 42 and 70?",
+   "options": [
+    "7",
+    "2",
+    "14",
+    "210"
+   ],
+   "answer": 2,
+   "topic": "Number Sense",
+   "source": "rj_original_2026",
+   "explanation": "\\(42=2\\times3\\times7\\) and \\(70=2\\times5\\times7\\), so the shared factors multiply to \\(2\\times7=14\\). Answering 2 or 7 uses only one of the shared primes, and 210 is the least common multiple rather than the greatest common factor."
+  },
+  {
+   "id": "64204733b9",
+   "stem": "Which of these numbers is a factor of 84 but NOT a factor of 96?",
+   "options": [
+    "8",
+    "6",
+    "7",
+    "16"
+   ],
+   "answer": 2,
+   "topic": "Number Sense",
+   "source": "rj_original_2026",
+   "explanation": "\\(84=2^2\\times3\\times7\\) and \\(96=2^5\\times3\\), so 7 divides 84 only. The choice 6 divides both, and 8 and 16 answer the reversed question because they divide 96 but not 84."
+  },
+  {
+   "id": "83e58164e5",
+   "stem": "What is the reciprocal of \\(2\\frac{1}{4}\\)?",
+   "options": [
+    "\\(\\frac{9}{4}\\)",
+    "\\(\\frac{4}{9}\\)",
+    "6",
+    "\\(-2\\frac{1}{4}\\)"
+   ],
+   "answer": 1,
+   "topic": "Number Sense",
+   "source": "rj_original_2026",
+   "explanation": "Write \\(2\\frac{1}{4}\\) as \\(\\frac{9}{4}\\) and invert it to get \\(\\frac{4}{9}\\). The choice \\(\\frac{9}{4}\\) converts but forgets to invert, \\(-2\\frac{1}{4}\\) confuses the reciprocal with the opposite, and 6 inverts only the fraction part and keeps the whole number, giving \\(2+4\\)."
+  },
+  {
+   "id": "439b0a5c17",
+   "stem": "\\(\\sqrt{60}\\) is between which two whole numbers?",
+   "options": [
+    "6 and 7",
+    "8 and 9",
+    "30 and 31",
+    "7 and 8"
+   ],
+   "answer": 3,
+   "topic": "Number Sense",
+   "source": "rj_original_2026",
+   "explanation": "\\(7^2=49\\) and \\(8^2=64\\), and 60 falls between them. The choice 6 and 7 comes from thinking of \\(6\\times10\\) rather than a number times itself, 30 and 31 halves 60 instead of taking a root, and 8 and 9 uses 64 and 81, which are both above 60."
+  },
+  {
+   "id": "debf948a72",
+   "stem": "\\(\\frac{3}{8}\\) written as a percent is",
+   "options": [
+    "266%",
+    "0.375%",
+    "37.5%",
+    "3.75%"
+   ],
+   "answer": 2,
+   "topic": "Fractions, Decimals and Percents",
+   "source": "rj_original_2026",
+   "explanation": "\\(3\\div8=0.375\\), and \\(0.375\\times100=37.5\\). The choice 0.375% attaches a percent sign without multiplying by 100, 3.75% shifts the decimal one place instead of two, and 266% divides 8 by 3 instead of 3 by 8."
+  },
+  {
+   "id": "f58433600a",
+   "stem": "What is 8% of 250?",
+   "options": [
+    "200",
+    "2",
+    "20",
+    "31.25"
+   ],
+   "answer": 2,
+   "topic": "Fractions, Decimals and Percents",
+   "source": "rj_original_2026",
+   "explanation": "\\(0.08\\times250=20\\). The choice 200 divides by 10 instead of 100, 2 divides by 1,000, and 31.25 divides 250 by 8 instead of multiplying by 0.08."
+  },
+  {
+   "id": "3faae67cb0",
+   "stem": "18 is what percent of 45?",
+   "options": [
+    "250%",
+    "27%",
+    "40%",
+    "60%"
+   ],
+   "answer": 2,
+   "topic": "Fractions, Decimals and Percents",
+   "source": "rj_original_2026",
+   "explanation": "\\(18\\div45=0.4\\). The choice 250% divides the wrong way round, \\(45\\div18\\); 27% reports the difference \\(45-18\\) as a percent; and 60% is the leftover part \\(27\\div45\\), which answers a different question."
+  },
+  {
+   "id": "4d3ccd2c55",
+   "stem": "A bus route that used to take 40 minutes now takes 50 minutes. What is the percent increase?",
+   "options": [
+    "25%",
+    "10%",
+    "20%",
+    "125%"
+   ],
+   "answer": 0,
+   "topic": "Fractions, Decimals and Percents",
+   "source": "rj_original_2026",
+   "explanation": "The increase is 10 minutes compared with the original 40, so \\(10\\div40=25\\%\\). The choice 20% uses the new time 50 as the base, 125% gives the new time as a percent of the old rather than the increase, and 10% reports the raw difference as if it were a percent."
+  },
+  {
+   "id": "c4a77f7f26",
+   "stem": "A lamp that sold for $45 is marked down to $36. What is the percent decrease?",
+   "options": [
+    "9%",
+    "25%",
+    "80%",
+    "20%"
+   ],
+   "answer": 3,
+   "topic": "Fractions, Decimals and Percents",
+   "source": "rj_original_2026",
+   "explanation": "The drop is 9 compared with the original 45, so \\(9\\div45=20\\%\\). The choice 25% divides by the new price 36 instead of the original, 80% is the percent of the old price you still pay, and 9% treats the dollar difference as a percent."
+  },
+  {
+   "id": "45d54b4169",
+   "stem": "A coat is marked 30% off. At the register another 10% is taken off the sale price. The final price is what percent of the original price?",
+   "options": [
+    "60%",
+    "70%",
+    "37%",
+    "63%"
+   ],
+   "answer": 3,
+   "topic": "Fractions, Decimals and Percents",
+   "source": "rj_original_2026",
+   "explanation": "The shopper pays 70% of the price and then 90% of that, so \\(0.70\\times0.90=0.63\\). The choice 60% adds the discounts into a single 40% off, 70% applies only the first discount, and 37% gives the total discount instead of the final price."
+  },
+  {
+   "id": "9498425d33",
+   "stem": "\\(3\\frac{1}{4}-1\\frac{2}{3}=\\)",
+   "options": [
+    "\\(2\\frac{7}{12}\\)",
+    "\\(1\\frac{5}{12}\\)",
+    "\\(2\\frac{5}{12}\\)",
+    "\\(1\\frac{7}{12}\\)"
+   ],
+   "answer": 3,
+   "topic": "Fractions, Decimals and Percents",
+   "source": "rj_original_2026",
+   "explanation": "\\(\\frac{13}{4}-\\frac{5}{3}=\\frac{39}{12}-\\frac{20}{12}=\\frac{19}{12}\\). The choice \\(2\\frac{5}{12}\\) subtracts the smaller fraction from the larger to dodge the borrowing, \\(1\\frac{5}{12}\\) borrows but still reverses the fraction subtraction, and \\(2\\frac{7}{12}\\) gets the fraction right but forgets that borrowing drops the 3 to a 2."
+  },
+  {
+   "id": "e3458b5db5",
+   "stem": "\\(0.05\\times0.4=\\)",
+   "options": [
+    "0.2",
+    "0.02",
+    "0.002",
+    "2"
+   ],
+   "answer": 1,
+   "topic": "Fractions, Decimals and Percents",
+   "source": "rj_original_2026",
+   "explanation": "\\(5\\times4=20\\) and the factors hold three decimal places altogether, so the product is 0.02. The choice 0.2 counts only one decimal place, 0.002 counts four, and 2 ignores the decimal points entirely."
+  },
+  {
+   "id": "2af22cddd6",
+   "stem": "A scoop holds \\(0.25\\) pounds of birdseed. How many full scoops can be filled from \\(3.5\\) pounds?",
+   "options": [
+    "0.875",
+    "14",
+    "1.4",
+    "140"
+   ],
+   "answer": 1,
+   "topic": "Fractions, Decimals and Percents",
+   "source": "rj_original_2026",
+   "explanation": "\\(3.5\\div0.25=350\\div25=14\\). The choice 0.875 multiplies instead of dividing, 1.4 moves the decimal in the dividend but not in the divisor \\((35\\div25)\\), and 140 moves the dividend three places while moving the divisor only two."
+  },
+  {
+   "id": "ff4898fac4",
+   "stem": "How many sixths are in \\(4\\frac{1}{2}\\)?",
+   "options": [
+    "\\(\\frac{3}{4}\\)",
+    "54",
+    "24",
+    "27"
+   ],
+   "answer": 3,
+   "topic": "Fractions, Decimals and Percents",
+   "source": "rj_original_2026",
+   "explanation": "\\(\\frac{9}{2}\\div\\frac{1}{6}=\\frac{9}{2}\\times6=27\\). The choice \\(\\frac{3}{4}\\) divides by 6 instead of by one-sixth, 24 uses only the 4 and drops the half, and 54 multiplies by 12 and so counts twelfths."
+  },
+  {
+   "id": "95d6e61821",
+   "stem": "Complete the proportion: \\(\\frac{3}{7}=\\frac{x}{56}\\)",
+   "options": [
+    "168",
+    "24",
+    "8",
+    "21"
+   ],
+   "answer": 1,
+   "topic": "Ratios and Proportions",
+   "source": "rj_original_2026",
+   "explanation": "\\(56\\div7=8\\), so \\(x=3\\times8=24\\). The choice 8 stops at the scale factor, 21 multiplies \\(3\\times7\\), and 168 multiplies \\(3\\times56\\) without dividing by 7."
+  },
+  {
+   "id": "a6b13f6da1",
+   "stem": "Which ratio is \\(18:24\\) written in lowest terms?",
+   "options": [
+    "\\(4:3\\)",
+    "\\(9:12\\)",
+    "\\(6:8\\)",
+    "\\(3:4\\)"
+   ],
+   "answer": 3,
+   "topic": "Ratios and Proportions",
+   "source": "rj_original_2026",
+   "explanation": "Both terms divide by 6. The choice \\(9:12\\) divides by 2 only and \\(6:8\\) divides by 3 only, so neither is in lowest terms, and \\(4:3\\) reverses the order of the two quantities."
+  },
+  {
+   "id": "9ed107b5d8",
+   "stem": "A punch is mixed from cranberry juice and soda in a ratio of 3 to 5. A batch holds 32 cups. How many cups of soda are in the batch?",
+   "options": [
+    "20",
+    "4",
+    "12",
+    "5"
+   ],
+   "answer": 0,
+   "topic": "Ratios and Proportions",
+   "source": "rj_original_2026",
+   "explanation": "There are eight parts and \\(32\\div8=4\\) cups per part, so the soda is \\(5\\times4=20\\) cups. The choice 4 stops at the size of one part, 12 gives the cranberry juice instead, and 5 repeats the ratio number rather than an amount."
+  },
+  {
+   "id": "4eb0df657c",
+   "stem": "In a choir the ratio of altos to sopranos is \\(4:7\\). There are 28 altos. How many singers are in the choir altogether?",
+   "options": [
+    "49",
+    "11",
+    "16",
+    "77"
+   ],
+   "answer": 3,
+   "topic": "Ratios and Proportions",
+   "source": "rj_original_2026",
+   "explanation": "Each part is \\(28\\div4=7\\) singers, so there are 49 sopranos and \\(28+49=77\\) singers in all. The choice 49 answers with the sopranos only, 11 just adds the two ratio numbers, and 16 sets the proportion upside down as \\(28\\times4\\div7\\)."
+  },
+  {
+   "id": "9f6883f56f",
+   "stem": "On a map, 1 inch represents 12 miles. Two towns are \\(3\\frac{1}{2}\\) inches apart on the map. How far apart are the towns?",
+   "options": [
+    "48 miles",
+    "36 miles",
+    "42 miles",
+    "15.5 miles"
+   ],
+   "answer": 2,
+   "topic": "Ratios and Proportions",
+   "source": "rj_original_2026",
+   "explanation": "\\(12\\times3.5=42\\). The choice 36 drops the half inch, 48 rounds \\(3\\frac{1}{2}\\) up to 4 before multiplying, and 15.5 adds 12 and 3.5 instead of multiplying."
+  },
+  {
+   "id": "155e8830d1",
+   "stem": "A tree casts a shadow 24 feet long at the same moment a 5-foot fence post casts a shadow 4 feet long. How tall is the tree?",
+   "options": [
+    "19.2 feet",
+    "30 feet",
+    "25 feet",
+    "6 feet"
+   ],
+   "answer": 1,
+   "topic": "Ratios and Proportions",
+   "source": "rj_original_2026",
+   "explanation": "Height and shadow stay in the ratio \\(5:4\\), so the tree is \\(24\\times\\frac{5}{4}=30\\) feet. The choice 19.2 sets the proportion upside down as \\(24\\times\\frac{4}{5}\\), 6 stops at the scale factor \\(24\\div4\\), and 25 adds and subtracts the numbers instead of using a proportion."
+  },
+  {
+   "id": "528742d4ff",
+   "stem": "A printer produces 96 pages in 3 minutes. At that rate, how many pages does it produce in 7 minutes?",
+   "options": [
+    "224",
+    "288",
+    "672",
+    "32"
+   ],
+   "answer": 0,
+   "topic": "Ratios and Proportions",
+   "source": "rj_original_2026",
+   "explanation": "The unit rate is \\(96\\div3=32\\) pages per minute, and \\(32\\times7=224\\). The choice 32 stops at the unit rate, 672 multiplies \\(96\\times7\\) without dividing by 3, and 288 multiplies by the 3 minutes instead."
+  },
+  {
+   "id": "3b49e5ab63",
+   "stem": "What is the ratio of 45 seconds to 1 hour, in lowest terms?",
+   "options": [
+    "\\(1:80\\)",
+    "\\(3:4\\)",
+    "\\(1:8\\)",
+    "\\(45:1\\)"
+   ],
+   "answer": 0,
+   "topic": "Ratios and Proportions",
+   "source": "rj_original_2026",
+   "explanation": "One hour is 3,600 seconds and \\(45:3{,}600\\) reduces to \\(1:80\\). The choice \\(1:8\\) uses 360 seconds, \\(3:4\\) compares 45 seconds with 60 minutes as though the units matched, and \\(45:1\\) never converts the hour at all."
+  },
+  {
+   "id": "9a195eb33d",
+   "stem": "Simplify: \\(-6+2(5-8)\\)",
+   "options": [
+    "\\(-4\\)",
+    "0",
+    "\\(-12\\)",
+    "12"
+   ],
+   "answer": 2,
+   "topic": "Computation",
+   "source": "rj_original_2026",
+   "explanation": "Parentheses first: \\(5-8=-3\\), then \\(2(-3)=-6\\), so the value is \\(-6+(-6)=-12\\). The choice 12 works strictly left to right, adding \\(-6+2\\) before multiplying; 0 drops the negative sign on \\(5-8\\); and \\(-4\\) multiplies only the 5 by 2 and then subtracts the 8."
+  },
+  {
+   "id": "290211d0b0",
+   "stem": "Simplify: \\(30-12\\div2\\times3\\)",
+   "options": [
+    "12",
+    "28",
+    "27",
+    "72"
+   ],
+   "answer": 0,
+   "topic": "Computation",
+   "source": "rj_original_2026",
+   "explanation": "Divide and multiply left to right before subtracting: \\(12\\div2=6\\), \\(6\\times3=18\\) and \\(30-18=12\\). The choice 27 works straight left to right, 28 multiplies \\(2\\times3\\) before dividing, and 72 subtracts first and multiplies the result by 3."
+  },
+  {
+   "id": "a029d9aae5",
+   "stem": "If \\(a=-3\\) and \\(b=4\\), what is the value of \\(2a^2-b\\)?",
+   "options": [
+    "32",
+    "22",
+    "14",
+    "\\(-22\\)"
+   ],
+   "answer": 2,
+   "topic": "Computation",
+   "source": "rj_original_2026",
+   "explanation": "\\((-3)^2=9\\), so \\(2(9)-4=14\\). The choice \\(-22\\) treats \\(a^2\\) as \\(-9\\), 32 squares \\(2a\\) instead of \\(a\\) alone, and 22 adds \\(b\\) rather than subtracting it."
+  },
+  {
+   "id": "adc009730f",
+   "stem": "If \\(x=\\frac{1}{2}\\) and \\(y=6\\), what is the value of \\(\\frac{y}{x}+3\\)?",
+   "options": [
+    "6",
+    "12",
+    "18",
+    "15"
+   ],
+   "answer": 3,
+   "topic": "Computation",
+   "source": "rj_original_2026",
+   "explanation": "Dividing by \\(\\frac{1}{2}\\) doubles, so \\(6\\div\\frac{1}{2}=12\\) and \\(12+3=15\\). The choice 6 divides by 2 instead of by one-half, 12 stops at the division and never adds 3, and 18 adds first and divides afterwards."
+  },
+  {
+   "id": "22e645c87f",
+   "stem": "Subtract: 4 hours 12 minutes 30 seconds \\(-\\) 1 hour 45 minutes 50 seconds",
+   "options": [
+    "3 hours 26 minutes 40 seconds",
+    "3 hours 33 minutes 20 seconds",
+    "2 hours 26 minutes 40 seconds",
+    "2 hours 27 minutes 40 seconds"
+   ],
+   "answer": 2,
+   "topic": "Computation",
+   "source": "rj_original_2026",
+   "explanation": "Borrow 60 seconds and then 60 minutes: 90 seconds \\(-\\) 50 gives 40, 71 minutes \\(-\\) 45 gives 26 and 3 hours \\(-\\) 1 gives 2. The first choice flips every column to take the smaller number from the larger, the second borrows for the seconds without reducing the minutes, and the third borrows for the minutes without reducing the hours."
+  },
+  {
+   "id": "e421a9b2c7",
+   "stem": "Add: 5 feet 9 inches \\(+\\) 3 feet 7 inches",
+   "options": [
+    "9 feet 6 inches",
+    "9 feet 4 inches",
+    "8 feet 4 inches",
+    "9 feet 16 inches"
+   ],
+   "answer": 1,
+   "topic": "Computation",
+   "source": "rj_original_2026",
+   "explanation": "The inches total 16, which regroups as 1 foot 4 inches, giving 9 feet 4 inches. The choice 9 feet 16 inches carries the extra foot but leaves the 16 inches unreduced, 8 feet 4 inches reduces the inches but never carries the foot, and 9 feet 6 inches regroups as though a foot were ten inches."
+  },
+  {
+   "id": "cf8bc8f414",
+   "stem": "Which of the following statements is FALSE?",
+   "options": [
+    "\\(3(x-2)=3x-6\\)",
+    "\\(20\\div(4\\div2)=(20\\div4)\\div2\\)",
+    "\\(8\\times(4\\times3)=(8\\times4)\\times3\\)",
+    "\\(5+(6\\times2)=(6\\times2)+5\\)"
+   ],
+   "answer": 1,
+   "topic": "Computation",
+   "source": "rj_original_2026",
+   "explanation": "The left side is \\(20\\div2=10\\) and the right side is \\(5\\div2=2.5\\); grouping may be shifted freely for multiplication but not for division. The other three are the associative, distributive and commutative properties applied correctly, and students pick them when they assume any operation regroups the way multiplication does."
+  },
+  {
+   "id": "abbeafebd4",
+   "stem": "Which of the following statements is FALSE?",
+   "options": [
+    "\\(8-(3+2)=8-3+2\\)",
+    "\\(6\\times(5\\times2)=(6\\times5)\\times2\\)",
+    "\\(-2(6-3)=-12+6\\)",
+    "\\(4(x+7)=4x+28\\)"
+   ],
+   "answer": 0,
+   "topic": "Computation",
+   "source": "rj_original_2026",
+   "explanation": "\\(8-(3+2)=8-5=3\\), but \\(8-3+2=7\\); subtracting a sum subtracts both terms. Option B looks wrong to students who expect two negatives, yet \\(-2\\) distributed over \\(6-3\\) really does give \\(-12+6\\), and the other two are the distributive and associative properties used correctly."
+  },
+  {
+   "id": "4e91a0c73b",
+   "stem": "Solve for \\(x\\): \\(0.4x - 3 = 5\\)",
+   "options": [
+    "3.2",
+    "20",
+    "5",
+    "2"
+   ],
+   "answer": 1,
+   "topic": "Algebra",
+   "source": "rj_original_2026",
+   "explanation": "Add 3 to both sides to get \\(0.4x = 8\\), then divide by 0.4 to get 20. Choosing 3.2 multiplies 8 by 0.4 instead of dividing; 5 comes from subtracting 3 instead of adding it; 2 comes from misplacing the decimal in \\(8\\div0.4\\)."
+  },
+  {
+   "id": "8d2f61b0ae",
+   "stem": "Solve for \\(y\\): \\(\\frac{y}{3} + 7 = 12\\)",
+   "options": [
+    "5",
+    "57",
+    "29",
+    "15"
+   ],
+   "answer": 3,
+   "topic": "Algebra",
+   "source": "rj_original_2026",
+   "explanation": "Subtract 7 to get \\(\\frac{y}{3} = 5\\), then multiply by 3 to get 15. Choosing 5 stops at the intermediate step; 29 multiplies by 3 before subtracting the 7; 57 adds 7 instead of subtracting before multiplying."
+  },
+  {
+   "id": "c07a3d51f8",
+   "stem": "If \\((n+3)(n-7) = 0\\), what are the two values of \\(n\\)?",
+   "options": [
+    "\\(n = -3\\) and \\(n = -7\\)",
+    "\\(n = -3\\) and \\(n = 7\\)",
+    "\\(n = 3\\) and \\(n = 7\\)",
+    "\\(n = 3\\) and \\(n = -7\\)"
+   ],
+   "answer": 1,
+   "topic": "Algebra",
+   "source": "rj_original_2026",
+   "explanation": "Each factor can equal zero, so \\(n+3=0\\) gives \\(-3\\) and \\(n-7=0\\) gives 7. The other three choices come from copying the sign that appears inside a factor instead of reversing it, on one factor or on both."
+  },
+  {
+   "id": "12b8e4a9d0",
+   "stem": "If \\(a = 4\\) and \\(3a - 2b = 2\\), what is the value of \\(b\\)?",
+   "options": [
+    "10",
+    "-5",
+    "5",
+    "7"
+   ],
+   "answer": 2,
+   "topic": "Algebra",
+   "source": "rj_original_2026",
+   "explanation": "Substituting gives \\(12 - 2b = 2\\), so \\(2b = 10\\) and \\(b = 5\\). Choosing 10 answers the intermediate step \\(2b\\); 7 comes from adding the 2 to 12 instead of subtracting; \\(-5\\) drops a negative sign when isolating \\(b\\)."
+  },
+  {
+   "id": "9f3c07be21",
+   "stem": "Which expression means five less than three times a number \\(n\\)?",
+   "options": [
+    "\\(5 - 3n\\)",
+    "\\(3(n - 5)\\)",
+    "\\(3n - 5\\)",
+    "\\(5n - 3\\)"
+   ],
+   "answer": 2,
+   "topic": "Algebra",
+   "source": "rj_original_2026",
+   "explanation": "Three times the number is \\(3n\\) and five less means subtracting 5 from it. \\(5 - 3n\\) reverses the subtraction; \\(3(n-5)\\) subtracts before multiplying; \\(5n - 3\\) swaps the two numbers."
+  },
+  {
+   "id": "5a6d18f3c4",
+   "stem": "If \\(0 < x < 1\\), which statement must be true?",
+   "options": [
+    "\\(\\sqrt{x} < x\\)",
+    "\\(x^2 > x\\)",
+    "\\(\\frac{1}{x} < x\\)",
+    "\\(x^2 < x\\)"
+   ],
+   "answer": 3,
+   "topic": "Algebra",
+   "source": "rj_original_2026",
+   "explanation": "Test a value such as \\(\\frac{1}{2}\\): squaring it gives \\(\\frac{1}{4}\\), which is smaller. \\(x^2 > x\\) assumes squaring always makes a number bigger; \\(\\sqrt{x} < x\\) assumes a square root always makes it smaller, but here \\(\\sqrt{x}\\) is larger; \\(\\frac{1}{x} < x\\) forgets that the reciprocal of a number below 1 is greater than 1."
+  },
+  {
+   "id": "e28b40d915",
+   "stem": "Solve the inequality \\(-3x < 12\\).",
+   "options": [
+    "\\(x > -4\\)",
+    "\\(x < -4\\)",
+    "\\(x < 4\\)",
+    "\\(x > 4\\)"
+   ],
+   "answer": 0,
+   "topic": "Algebra",
+   "source": "rj_original_2026",
+   "explanation": "Dividing both sides by \\(-3\\) reverses the inequality sign, giving \\(x > -4\\). Choosing \\(x < -4\\) divides correctly but forgets to reverse the sign; the two answers with positive 4 lose the negative sign in the division."
+  },
+  {
+   "id": "3c7f9a1e06",
+   "stem": "In the expression \\(6p + 11\\), which statement is correct?",
+   "options": [
+    "6 is the coefficient of \\(p\\) and 11 is a constant",
+    "11 is the coefficient of \\(p\\) and 6 is a constant",
+    "6 and 11 are both coefficients",
+    "\\(6p\\) and 11 are the two factors of the expression"
+   ],
+   "answer": 0,
+   "topic": "Algebra",
+   "source": "rj_original_2026",
+   "explanation": "A coefficient multiplies a variable, so 6 is the coefficient and 11 stands alone as a constant. The first choice swaps the two roles; the second calls a lone number a coefficient; the last confuses terms, which are added, with factors, which are multiplied."
+  },
+  {
+   "id": "b641d2087f",
+   "stem": "Simplify: \\(4(2k - 1) - 3k\\)",
+   "options": [
+    "\\(5k - 1\\)",
+    "\\(11k - 4\\)",
+    "\\(5k - 4\\)",
+    "\\(5k + 4\\)"
+   ],
+   "answer": 2,
+   "topic": "Algebra",
+   "source": "rj_original_2026",
+   "explanation": "Distributing gives \\(8k - 4\\), and \\(8k - 3k = 5k\\), so the result is \\(5k - 4\\). Choosing \\(5k - 1\\) forgets to multiply the \\(-1\\) by 4; \\(11k - 4\\) adds \\(3k\\) instead of subtracting it; \\(5k + 4\\) mishandles the sign of the \\(-1\\)."
+  },
+  {
+   "id": "7d0e35c9ab",
+   "stem": "The area of a square patio is 64 square feet. What is its perimeter?",
+   "options": [
+    "8 feet",
+    "16 feet",
+    "256 feet",
+    "32 feet"
+   ],
+   "answer": 3,
+   "topic": "Geometry and Measurement",
+   "source": "rj_original_2026",
+   "explanation": "A side is \\(\\sqrt{64} = 8\\) feet, and four sides give 32 feet. Choosing 8 answers the intermediate step, the side length; 16 doubles the side instead of taking all four; 256 multiplies the area by 4 rather than the side."
+  },
+  {
+   "id": "a94b6f210d",
+   "stem": "A triangle has a base of 14 inches and a height of 9 inches. What is its area?",
+   "options": [
+    "46 square inches",
+    "23 square inches",
+    "63 square inches",
+    "126 square inches"
+   ],
+   "answer": 2,
+   "topic": "Geometry and Measurement",
+   "source": "rj_original_2026",
+   "explanation": "Area is \\(\\frac{1}{2}\\times14\\times9 = 63\\). Choosing 126 forgets to halve the product; 23 adds the base and height instead of multiplying; 46 computes \\(2(14+9)\\), a perimeter formula rather than an area formula."
+  },
+  {
+   "id": "06f2c8b37e",
+   "stem": "A parallelogram has a base of 12 meters, a slanted side of 7 meters and a height of 5 meters. What is its area?",
+   "options": [
+    "38 square meters",
+    "30 square meters",
+    "60 square meters",
+    "84 square meters"
+   ],
+   "answer": 2,
+   "topic": "Geometry and Measurement",
+   "source": "rj_original_2026",
+   "explanation": "Area is base times height, \\(12\\times5 = 60\\). Choosing 84 uses the 7-meter slanted side in place of the height; 30 halves the product as if the figure were a triangle; 38 is the perimeter \\(2(12+7)\\)."
+  },
+  {
+   "id": "db85310e4c",
+   "stem": "An L-shaped room is made by cutting a 3-foot by 4-foot corner out of a rectangle that measures 10 feet by 8 feet. What is the area of the room?",
+   "options": [
+    "80 square feet",
+    "92 square feet",
+    "68 square feet",
+    "56 square feet"
+   ],
+   "answer": 2,
+   "topic": "Geometry and Measurement",
+   "source": "rj_original_2026",
+   "explanation": "The whole rectangle is 80 square feet and the cut-out corner is 12 square feet, leaving 68. Choosing 80 forgets to remove the corner; 92 adds the corner instead of subtracting it; 56 removes a 3-foot by 8-foot strip by using the wrong second dimension."
+  },
+  {
+   "id": "2f4a97c60b",
+   "stem": "A circle has a diameter of 18 centimeters. What is its circumference, left in terms of \\(\\pi\\)?",
+   "options": [
+    "\\(9\\pi\\) centimeters",
+    "\\(18\\pi\\) centimeters",
+    "\\(81\\pi\\) centimeters",
+    "\\(36\\pi\\) centimeters"
+   ],
+   "answer": 1,
+   "topic": "Geometry and Measurement",
+   "source": "rj_original_2026",
+   "explanation": "Circumference is \\(\\pi d\\), so it is \\(18\\pi\\). Choosing \\(36\\pi\\) treats the 18 as the radius in \\(2\\pi r\\); \\(9\\pi\\) puts the radius into \\(\\pi d\\); \\(81\\pi\\) is the area, \\(\\pi r^2\\) with \\(r = 9\\)."
+  },
+  {
+   "id": "8b03e5da19",
+   "stem": "A semicircle has a diameter of 12 inches. What is its area, left in terms of \\(\\pi\\)?",
+   "options": [
+    "\\(12\\pi\\) square inches",
+    "\\(18\\pi\\) square inches",
+    "\\(72\\pi\\) square inches",
+    "\\(36\\pi\\) square inches"
+   ],
+   "answer": 1,
+   "topic": "Geometry and Measurement",
+   "source": "rj_original_2026",
+   "explanation": "The radius is 6, so the full circle is \\(36\\pi\\) and half of it is \\(18\\pi\\). Choosing \\(36\\pi\\) forgets to halve; \\(72\\pi\\) uses the diameter as the radius before halving; \\(12\\pi\\) is the circumference of the full circle, not an area."
+  },
+  {
+   "id": "5e7c1b40f2",
+   "stem": "Two angles of a triangle measure \\(47^{\\circ}\\) and \\(68^{\\circ}\\). What is the measure of the third angle?",
+   "options": [
+    "\\(115^{\\circ}\\)",
+    "\\(65^{\\circ}\\)",
+    "\\(245^{\\circ}\\)",
+    "\\(133^{\\circ}\\)"
+   ],
+   "answer": 1,
+   "topic": "Geometry and Measurement",
+   "source": "rj_original_2026",
+   "explanation": "The three angles add to \\(180^{\\circ}\\), and \\(180 - 115 = 65\\). Choosing \\(115^{\\circ}\\) answers the intermediate step, the sum of the two given angles; \\(133^{\\circ}\\) subtracts only the \\(47^{\\circ}\\); \\(245^{\\circ}\\) subtracts from \\(360^{\\circ}\\), the sum for a quadrilateral."
+  },
+  {
+   "id": "c1a806d3be",
+   "stem": "Three angles of a quadrilateral measure \\(100^{\\circ}\\), \\(85^{\\circ}\\) and \\(95^{\\circ}\\). What is the measure of the fourth angle?",
+   "options": [
+    "\\(80^{\\circ}\\)",
+    "\\(280^{\\circ}\\)",
+    "\\(260^{\\circ}\\)",
+    "\\(90^{\\circ}\\)"
+   ],
+   "answer": 0,
+   "topic": "Geometry and Measurement",
+   "source": "rj_original_2026",
+   "explanation": "The angles of a quadrilateral add to \\(360^{\\circ}\\), and \\(360 - 280 = 80\\). Choosing \\(280^{\\circ}\\) answers the intermediate sum; \\(260^{\\circ}\\) subtracts from \\(540^{\\circ}\\), the total for a pentagon; \\(90^{\\circ}\\) assumes the leftover angle in a four-sided figure must be a right angle."
+  },
+  {
+   "id": "39fb2e70ad",
+   "stem": "Which figure must contain at least one right angle?",
+   "options": [
+    "A trapezoid",
+    "A parallelogram",
+    "A rhombus",
+    "A rectangle"
+   ],
+   "answer": 3,
+   "topic": "Geometry and Measurement",
+   "source": "rj_original_2026",
+   "explanation": "Every rectangle has four right angles by definition. A rhombus and a parallelogram have equal or parallel sides but their angles can be slanted, and a trapezoid only needs one pair of parallel sides, so none of those three is guaranteed a right angle."
+  },
+  {
+   "id": "e750c14b82",
+   "stem": "How many milliliters are in 2.4 liters?",
+   "options": [
+    "24,000",
+    "24",
+    "2,400",
+    "240"
+   ],
+   "answer": 2,
+   "topic": "Geometry and Measurement",
+   "source": "rj_original_2026",
+   "explanation": "One liter is 1,000 milliliters, so multiply by 1,000 and move the decimal three places. Choosing 24 moves it one place, 240 moves it two, and 24,000 moves it four."
+  },
+  {
+   "id": "0d63af8951",
+   "stem": "There are three teaspoons in one tablespoon and 16 tablespoons in one cup. How many teaspoons are in \\(\\frac{1}{2}\\) cup?",
+   "options": [
+    "16",
+    "8",
+    "24",
+    "48"
+   ],
+   "answer": 2,
+   "topic": "Geometry and Measurement",
+   "source": "rj_original_2026",
+   "explanation": "Half a cup is 8 tablespoons, and \\(8\\times3 = 24\\) teaspoons. Choosing 8 stops at tablespoons; 48 converts a whole cup instead of half; 16 uses the tablespoons in a full cup without halving or converting."
+  },
+  {
+   "id": "b8e402c7fd",
+   "stem": "Which of these lengths is the longest?",
+   "options": [
+    "61 centimeters",
+    "0.62 meter",
+    "0.0006 kilometer",
+    "590 millimeters"
+   ],
+   "answer": 1,
+   "topic": "Geometry and Measurement",
+   "source": "rj_original_2026",
+   "explanation": "In millimeters the four lengths are 620, 590, 610 and 600, so 0.62 meter is longest. Choosing 590 millimeters picks the largest-looking numeral, and the other two are close enough that a student who converts only some of them can be fooled."
+  },
+  {
+   "id": "46a1d90e3c",
+   "stem": "A school play began at 6:45 p.m. and ended at 9:20 p.m. How long did it last?",
+   "options": [
+    "3 hours 15 minutes",
+    "3 hours 25 minutes",
+    "2 hours 45 minutes",
+    "2 hours 35 minutes"
+   ],
+   "answer": 3,
+   "topic": "Geometry and Measurement",
+   "source": "rj_original_2026",
+   "explanation": "From 6:45 to 8:45 is two hours, and 8:45 to 9:20 is 35 more minutes. Choosing 3 hours 25 minutes subtracts \\(9-6\\) and \\(45-20\\) without borrowing; 3 hours 15 minutes borrows using 100 minutes in an hour instead of 60; 2 hours 45 minutes rounds the end time to 9:30."
+  },
+  {
+   "id": "f20b573ac8",
+   "stem": "What is the median of 14, 9, 21, 6, 11 and 18?",
+   "options": [
+    "11",
+    "13.5",
+    "14",
+    "12.5"
+   ],
+   "answer": 3,
+   "topic": "Data and Probability",
+   "source": "rj_original_2026",
+   "explanation": "In order the values are 6, 9, 11, 14, 18, 21, so the median is the average of 11 and 14, which is 12.5. Choosing 11 or 14 takes one middle value instead of averaging the two; 13.5 averages the two middle numbers of the unsorted list, 21 and 6."
+  },
+  {
+   "id": "91c6e0247b",
+   "stem": "What is the mean of 6, 9, 10, 13 and 27?",
+   "options": [
+    "16.25",
+    "10",
+    "13",
+    "21"
+   ],
+   "answer": 2,
+   "topic": "Data and Probability",
+   "source": "rj_original_2026",
+   "explanation": "The sum is 65 and there are five values, so the mean is 13. Choosing 10 gives the median instead of the mean; 16.25 divides the sum by 4 after miscounting the values; 21 is the range, \\(27-6\\)."
+  },
+  {
+   "id": "2ad4f81b60",
+   "stem": "In the list 3, 5, 5, 7, 20 the value 20 is replaced by 40. Which measure of the list changes?",
+   "options": [
+    "The mean and the median",
+    "The mean only",
+    "The median only",
+    "The mode only"
+   ],
+   "answer": 1,
+   "topic": "Data and Probability",
+   "source": "rj_original_2026",
+   "explanation": "The mean rises from 8 to 12, but the middle value is still 5 and 5 is still the most frequent value, so only the mean changes. The other choices come from assuming that changing the largest number must shift the middle of the list as well."
+  },
+  {
+   "id": "7c58309efa",
+   "stem": "Nadia has quiz scores of 76, 82, 90 and 88. What must she score on her fifth quiz for her mean score to be 86?",
+   "options": [
+    "86",
+    "84",
+    "94",
+    "88"
+   ],
+   "answer": 2,
+   "topic": "Data and Probability",
+   "source": "rj_original_2026",
+   "explanation": "Five quizzes averaging 86 need a total of 430, and her first four total 336, so she needs 94. Choosing 84 gives her current mean, an intermediate result; 86 assumes she only needs to score the target itself; 88 makes up the two-point shortfall once rather than for all four earlier quizzes."
+  },
+  {
+   "id": "d3016bf5a2",
+   "stem": "The six letters of the word GARDEN are written on separate cards and one card is drawn without looking. What is the probability that the letter drawn is a vowel?",
+   "options": [
+    "\\(\\frac{2}{3}\\)",
+    "\\(\\frac{1}{2}\\)",
+    "\\(\\frac{1}{6}\\)",
+    "\\(\\frac{1}{3}\\)"
+   ],
+   "answer": 3,
+   "topic": "Data and Probability",
+   "source": "rj_original_2026",
+   "explanation": "The vowels A and E are 2 of the 6 cards, so the probability is \\(\\frac{2}{6} = \\frac{1}{3}\\). Choosing \\(\\frac{1}{6}\\) counts only one vowel; \\(\\frac{2}{3}\\) gives the probability of a consonant; \\(\\frac{1}{2}\\) assumes half the letters are vowels without counting."
+  },
+  {
+   "id": "5b9e2c04d7",
+   "stem": "A bag holds five blue, four yellow and three white marbles. If one marble is drawn without looking, what is the probability that it is NOT yellow?",
+   "options": [
+    "\\(\\frac{2}{3}\\)",
+    "\\(\\frac{1}{3}\\)",
+    "\\(\\frac{1}{2}\\)",
+    "\\(\\frac{3}{4}\\)"
+   ],
+   "answer": 0,
+   "topic": "Data and Probability",
+   "source": "rj_original_2026",
+   "explanation": "There are 12 marbles and 8 are not yellow, so the probability is \\(\\frac{8}{12} = \\frac{2}{3}\\). Choosing \\(\\frac{1}{3}\\) gives the probability that the marble IS yellow; \\(\\frac{1}{2}\\) compares 4 yellow to 8 others, a part-to-part ratio; \\(\\frac{3}{4}\\) removes the three white marbles instead of the four yellow ones."
+  },
+  {
+   "id": "08f7ab1d3e",
+   "stem": "A sandwich shop offers four kinds of bread, three meats and two cheeses. How many different sandwiches can be made using one bread, one meat and one cheese?",
+   "options": [
+    "24",
+    "12",
+    "9",
+    "14"
+   ],
+   "answer": 0,
+   "topic": "Data and Probability",
+   "source": "rj_original_2026",
+   "explanation": "By the counting principle the choices multiply: \\(4\\times3\\times2 = 24\\). Choosing 9 adds the three numbers; 12 multiplies only the bread and meat and forgets the cheese; 14 multiplies two of them and then adds the third."
+  },
+  {
+   "id": "a2c50e97b4",
+   "stem": "Tomás buys two notebooks that cost $3.45 each and a pen that costs $1.60. He pays with a $20 bill. How much change should he receive?",
+   "options": [
+    "$14.95",
+    "$11.50",
+    "$8.50",
+    "$13.10"
+   ],
+   "answer": 1,
+   "topic": "Word Problems",
+   "source": "rj_original_2026",
+   "explanation": "The notebooks cost $6.90, so the total is $8.50 and the change is $11.50. Choosing $8.50 answers with the total rather than the change; $13.10 forgets the pen; $14.95 pays for only one notebook."
+  },
+  {
+   "id": "6e34d1082f",
+   "stem": "Which package of rice costs the least per pound?",
+   "options": [
+    "2 pounds for $2.90",
+    "8 pounds for $12.00",
+    "5 pounds for $7.00",
+    "3 pounds for $4.50"
+   ],
+   "answer": 2,
+   "topic": "Word Problems",
+   "source": "rj_original_2026",
+   "explanation": "The unit prices are $1.50, $1.50, $1.40 and $1.45 a pound, so the 5-pound package is cheapest. The 8-pound package tempts a student who assumes the biggest package is always the better buy, and the 2-pound package tempts one who compares total prices instead of unit prices."
+  },
+  {
+   "id": "c9b70a5e13",
+   "stem": "A boat travels 12 miles per hour in still water. Going upstream against a 3-mile-per-hour current, how long does it take the boat to travel 27 miles?",
+   "options": [
+    "1.8 hours",
+    "3 hours",
+    "9 hours",
+    "2.25 hours"
+   ],
+   "answer": 1,
+   "topic": "Word Problems",
+   "source": "rj_original_2026",
+   "explanation": "Upstream the boat moves at \\(12 - 3 = 9\\) miles per hour, and \\(27\\div9 = 3\\) hours. Choosing 1.8 adds the current instead of subtracting it and divides by 15; 2.25 ignores the current entirely; 9 answers with the intermediate step, the speed."
+  },
+  {
+   "id": "41d8f26c0b",
+   "stem": "A cyclist rides 8 miles in 32 minutes. Riding at the same rate, how far can she ride in two hours?",
+   "options": [
+    "24 miles",
+    "15 miles",
+    "30 miles",
+    "32 miles"
+   ],
+   "answer": 2,
+   "topic": "Word Problems",
+   "source": "rj_original_2026",
+   "explanation": "She rides 15 miles an hour, so in two hours she covers 30 miles. Choosing 15 answers with the intermediate step, the speed; 24 counts only three whole 32-minute stretches and ignores the last 24 minutes; 32 treats 32 minutes as half an hour."
+  },
+  {
+   "id": "fa03e7524d",
+   "stem": "Devon can wash all the windows of one house in \\(w\\) hours. Working at the same rate, how many hours does he need to wash the windows of five identical houses?",
+   "options": [
+    "\\(5w\\)",
+    "\\(\\frac{w}{5}\\)",
+    "\\(\\frac{5}{w}\\)",
+    "\\(w + 5\\)"
+   ],
+   "answer": 0,
+   "topic": "Word Problems",
+   "source": "rj_original_2026",
+   "explanation": "Five times as much work at the same rate takes five times as long, so \\(5w\\). Choosing \\(\\frac{w}{5}\\) divides when the job got bigger; \\(\\frac{5}{w}\\) inverts the relationship and gives a rate rather than a time; \\(w + 5\\) adds five hours instead of scaling."
+  },
+  {
+   "id": "17c9b3e806",
+   "stem": "Priya puts $600 into an account that pays 4% simple interest a year. How much money is in the account at the end of one year?",
+   "options": [
+    "$604",
+    "$24",
+    "$624",
+    "$840"
+   ],
+   "answer": 2,
+   "topic": "Word Problems",
+   "source": "rj_original_2026",
+   "explanation": "The interest is \\(0.04\\times600 = 24\\), so the account holds $624. Choosing $24 gives the interest alone instead of the balance; $604 treats 4% as four dollars; $840 uses 0.4 instead of 0.04 and adds $240."
+  },
+  {
+   "id": "8e51042fdb",
+   "stem": "A phone plan charges $25 a month plus $0.12 for every text message over 200. Marcus sent 250 text messages in September. What is his bill for the month?",
+   "options": [
+    "$55.00",
+    "$30.00",
+    "$6.00",
+    "$31.00"
+   ],
+   "answer": 3,
+   "topic": "Word Problems",
+   "source": "rj_original_2026",
+   "explanation": "He is 50 messages over, and \\(50\\times0.12 = 6\\), so the bill is \\(25 + 6 = 31\\) dollars. Choosing $6.00 gives the extra charge alone and forgets the monthly fee; $30.00 charges all 250 messages and drops the fee; $55.00 charges all 250 messages and then adds the fee."
+  },
+  {
+   "id": "82af371964",
+   "stem": "\\(2\\frac{1}{2}\\times1\\frac{3}{5}=\\)",
+   "options": [
+    "\\(4\\frac{1}{10}\\)",
+    "\\(2\\frac{3}{10}\\)",
+    "\\(3\\frac{3}{10}\\)",
+    "4"
+   ],
+   "answer": 3,
+   "topic": "Fractions, Decimals and Percents",
+   "source": "rj_original_2026",
+   "explanation": "Written as improper fractions the factors are \\(\\frac{5}{2}\\) and \\(\\frac{8}{5}\\), and \\(\\frac{40}{10}=4\\). The choice \\(4\\frac{1}{10}\\) adds the two mixed numbers instead of multiplying, \\(3\\frac{3}{10}\\) multiplies the fractions but adds the whole numbers, and \\(2\\frac{3}{10}\\) multiplies the whole numbers in one column and the fractions in another."
+  },
+  {
+   "id": "1710656a13",
+   "stem": "A jacket is on sale for $51 after a 15% discount. What was its price before the discount?",
+   "options": [
+    "$58.65",
+    "$60",
+    "$66",
+    "$43.35"
+   ],
+   "answer": 1,
+   "topic": "Fractions, Decimals and Percents",
+   "source": "rj_original_2026",
+   "explanation": "The sale price is 85% of the original, so the original is \\(51\\div0.85=60\\) dollars. The choice $58.65 adds 15% back onto the sale price instead of dividing, $66 adds 15 dollars rather than 15 percent, and $43.35 takes another 15% off the sale price."
+  },
+  {
+   "id": "c193d011c3",
+   "stem": "What is \\(12\\frac{1}{2}\\%\\) of 64?",
+   "options": [
+    "8",
+    "16",
+    "80",
+    "5.12"
+   ],
+   "answer": 0,
+   "topic": "Fractions, Decimals and Percents",
+   "source": "rj_original_2026",
+   "explanation": "\\(12\\frac{1}{2}\\%\\) is \\(\\frac{1}{8}\\), and one-eighth of 64 is 8. The choice 16 uses one quarter because 12.5 is half of 25, 80 multiplies by 1.25 instead of 0.125, and 5.12 divides 64 by 12.5 instead of multiplying."
+  },
+  {
+   "id": "15628d6217",
+   "stem": "What is \\(\\frac{3}{4}\\) of \\(\\frac{2}{5}\\) of 60?",
+   "options": [
+    "24",
+    "18",
+    "32",
+    "45"
+   ],
+   "answer": 1,
+   "topic": "Fractions, Decimals and Percents",
+   "source": "rj_original_2026",
+   "explanation": "Two-fifths of 60 is 24, and three-fourths of 24 is 18. The choice 24 stops after the first step, 45 takes three-fourths of 60 and ignores the two-fifths, and 32 divides 24 by \\(\\frac{3}{4}\\) instead of multiplying by it."
+  },
+  {
+   "id": "caac153868",
+   "stem": "A bicycle helmet costs $34 and the sales tax is 8%. What is the total cost?",
+   "options": [
+    "$36.72",
+    "$42.00",
+    "$2.72",
+    "$31.28"
+   ],
+   "answer": 0,
+   "topic": "Fractions, Decimals and Percents",
+   "source": "rj_original_2026",
+   "explanation": "The tax is \\(0.08\\times34=2.72\\) dollars, so the total is $36.72. The choice $2.72 gives the tax by itself, $42.00 adds eight dollars instead of eight percent, and $31.28 subtracts the tax instead of adding it."
+  },
+  {
+   "id": "f5fefcc020",
+   "stem": "\\(\\frac{5}{6}+\\frac{3}{4}=\\)",
+   "options": [
+    "\\(1\\frac{7}{12}\\)",
+    "\\(\\frac{4}{5}\\)",
+    "\\(\\frac{2}{3}\\)",
+    "\\(\\frac{19}{24}\\)"
+   ],
+   "answer": 0,
+   "topic": "Fractions, Decimals and Percents",
+   "source": "rj_original_2026",
+   "explanation": "The least common denominator is 12, so \\(\\frac{10}{12}+\\frac{9}{12}=\\frac{19}{12}=1\\frac{7}{12}\\). The choice \\(\\frac{2}{3}\\) changes both denominators to 12 without scaling the numerators, \\(\\frac{4}{5}\\) adds numerator to numerator and denominator to denominator, and \\(\\frac{19}{24}\\) finds the 19 correctly but writes the product of the denominators underneath it."
+  },
+  {
+   "id": "cc2ce9d69d",
+   "stem": "Which decimal is equal to \\(\\frac{7}{9}\\)?",
+   "options": [
+    "\\(0.\\overline{7}\\)",
+    "\\(0.\\overline{2}\\)",
+    "0.79",
+    "0.7"
+   ],
+   "answer": 0,
+   "topic": "Fractions, Decimals and Percents",
+   "source": "rj_original_2026",
+   "explanation": "Dividing 7 by 9 gives 0.777…, written \\(0.\\overline{7}\\). The choice 0.7 stops the division after one digit instead of showing that it repeats, 0.79 writes the two numerals side by side, and \\(0.\\overline{2}\\) uses the difference \\(9-7\\) as the repeating digit."
+  },
+  {
+   "id": "1476231120",
+   "stem": "What is 125% of 48?",
+   "options": [
+    "12",
+    "38.4",
+    "6",
+    "60"
+   ],
+   "answer": 3,
+   "topic": "Fractions, Decimals and Percents",
+   "source": "rj_original_2026",
+   "explanation": "125% is 1.25, and \\(1.25\\times48=60\\). The choice 6 uses 0.125 instead of 1.25, 12 finds only the extra 25% and leaves out the original amount, and 38.4 divides 48 by 1.25 instead of multiplying."
+  },
+  {
+   "id": "9339a3829c",
+   "stem": "Mr. Okafor graded \\(\\frac{3}{5}\\) of the essays on Monday and \\(\\frac{1}{4}\\) of them on Tuesday. What fraction of the essays is still ungraded?",
+   "options": [
+    "\\(\\frac{3}{10}\\)",
+    "\\(\\frac{3}{20}\\)",
+    "\\(\\frac{5}{9}\\)",
+    "\\(\\frac{17}{20}\\)"
+   ],
+   "answer": 1,
+   "topic": "Fractions, Decimals and Percents",
+   "source": "rj_original_2026",
+   "explanation": "He graded \\(\\frac{12}{20}+\\frac{5}{20}=\\frac{17}{20}\\), which leaves \\(\\frac{3}{20}\\). The choice \\(\\frac{17}{20}\\) answers with the part already graded, \\(\\frac{5}{9}\\) adds the two fractions across the top and bottom to get \\(\\frac{4}{9}\\) before subtracting, and \\(\\frac{3}{10}\\) reads Tuesday's quarter as a quarter of what was left rather than a quarter of the whole."
+  },
+  {
+   "id": "d4829a7375",
+   "stem": "Which of these is another way to write 0.6%?",
+   "options": [
+    "0.6",
+    "0.006",
+    "60",
+    "0.06"
+   ],
+   "answer": 1,
+   "topic": "Fractions, Decimals and Percents",
+   "source": "rj_original_2026",
+   "explanation": "A percent is a number divided by 100, so \\(0.6\\%=0.6\\div100=0.006\\). The choice 0.06 moves the decimal point one place instead of two, 0.6 simply drops the percent sign, and 60 multiplies by 100 instead of dividing."
+  },
+  {
+   "id": "0ce315b24c",
+   "stem": "Written as a fraction in lowest terms, 0.24 is",
+   "options": [
+    "\\(\\frac{1}{4}\\)",
+    "\\(\\frac{12}{50}\\)",
+    "\\(\\frac{6}{25}\\)",
+    "\\(\\frac{24}{100}\\)"
+   ],
+   "answer": 2,
+   "topic": "Fractions, Decimals and Percents",
+   "source": "rj_original_2026",
+   "explanation": "\\(0.24=\\frac{24}{100}\\), and dividing both parts by 4 gives \\(\\frac{6}{25}\\). The choice \\(\\frac{24}{100}\\) never reduces, \\(\\frac{12}{50}\\) divides by 2 and stops, and \\(\\frac{1}{4}\\) rounds 0.24 up to 0.25 before converting."
+  },
+  {
+   "id": "f60307dfc3",
+   "stem": "Jordan attempted 25 free throws and made 20 of them. What percent of his attempts did he miss?",
+   "options": [
+    "25%",
+    "5%",
+    "20%",
+    "80%"
+   ],
+   "answer": 2,
+   "topic": "Fractions, Decimals and Percents",
+   "source": "rj_original_2026",
+   "explanation": "He missed five of the 25 attempts, and \\(5\\div25=0.20\\). The choice 80% gives the percent he made, 5% reports the raw number of misses as a percent, and 25% compares the five misses with the 20 makes instead of with all 25 attempts."
+  },
+  {
+   "id": "ba837c484f",
+   "stem": "A rectangle has a perimeter of 46 centimeters and a length of 14 centimeters. What is its area in square centimeters?",
+   "options": [
+    "126",
+    "322",
+    "252",
+    "448"
+   ],
+   "answer": 0,
+   "topic": "Geometry and Measurement",
+   "source": "rj_original_2026",
+   "explanation": "Half the perimeter is 23, so the width is \\(23-14=9\\) and the area is \\(14\\times9=126\\). The choice 252 uses 18 as the width, forgetting that the perimeter counts each width twice; 322 multiplies the length by the half-perimeter 23; and 448 uses \\(46-14=32\\) as the width."
+  },
+  {
+   "id": "dd0c7047c5",
+   "stem": "A shipping box measures 8 inches by 5 inches by 3 inches. What is its volume in cubic inches?",
+   "options": [
+    "120",
+    "158",
+    "16",
+    "40"
+   ],
+   "answer": 0,
+   "topic": "Geometry and Measurement",
+   "source": "rj_original_2026",
+   "explanation": "Volume is \\(8\\times5\\times3=120\\). The choice 158 is the surface area, \\(2(40+24+15)\\); 40 multiplies only two of the three dimensions; and 16 adds the dimensions instead of multiplying them."
+  },
+  {
+   "id": "49f2c1aefe",
+   "stem": "The circumference of a circle is \\(14\\pi\\) inches. What is its area?",
+   "options": [
+    "\\(49\\pi\\) square inches",
+    "\\(196\\pi\\) square inches",
+    "\\(7\\pi\\) square inches",
+    "\\(28\\pi\\) square inches"
+   ],
+   "answer": 0,
+   "topic": "Geometry and Measurement",
+   "source": "rj_original_2026",
+   "explanation": "Since \\(C=2\\pi r\\), the radius is 7 and the area is \\(\\pi(7)^2=49\\pi\\). The choice \\(196\\pi\\) squares 14 as though 14 were the radius, \\(28\\pi\\) doubles the circumference instead of halving it to reach the radius, and \\(7\\pi\\) finds the radius but multiplies by \\(\\pi\\) rather than squaring it."
+  },
+  {
+   "id": "2323801f5b",
+   "stem": "The vertex angle of an isosceles triangle measures \\(40^{\\circ}\\). What is the measure of each base angle?",
+   "options": [
+    "\\(140^{\\circ}\\)",
+    "\\(70^{\\circ}\\)",
+    "\\(20^{\\circ}\\)",
+    "\\(50^{\\circ}\\)"
+   ],
+   "answer": 1,
+   "topic": "Geometry and Measurement",
+   "source": "rj_original_2026",
+   "explanation": "The two equal base angles share the remaining \\(180-40=140\\) degrees, so each is \\(70^{\\circ}\\). The choice \\(140^{\\circ}\\) gives the two base angles together rather than one of them, \\(50^{\\circ}\\) subtracts from \\(90^{\\circ}\\), and \\(20^{\\circ}\\) halves the vertex angle instead of the remainder."
+  },
+  {
+   "id": "49a902aece",
+   "stem": "A semicircle has a diameter of 10 centimeters. What is the distance all the way around the figure, in terms of \\(\\pi\\)?",
+   "options": [
+    "\\(10\\pi\\) centimeters",
+    "\\(5\\pi\\) centimeters",
+    "\\(5\\pi+5\\) centimeters",
+    "\\(5\\pi+10\\) centimeters"
+   ],
+   "answer": 3,
+   "topic": "Geometry and Measurement",
+   "source": "rj_original_2026",
+   "explanation": "The curved edge is half of \\(10\\pi\\), or \\(5\\pi\\), and the straight edge adds 10 more centimeters. The choice \\(10\\pi\\) gives the circumference of the whole circle, \\(5\\pi\\) leaves the straight edge out, and \\(5\\pi+5\\) adds the radius instead of the diameter."
+  },
+  {
+   "id": "b10e4aa41b",
+   "stem": "A rectangular patio measures 12 feet by 9 feet. What is its area in square yards?",
+   "options": [
+    "36",
+    "108",
+    "12",
+    "324"
+   ],
+   "answer": 2,
+   "topic": "Geometry and Measurement",
+   "source": "rj_original_2026",
+   "explanation": "Each side is \\(12\\div3=4\\) yards and \\(9\\div3=3\\) yards, so the area is 12 square yards. The choice 108 gives the area in square feet, 36 divides those 108 square feet by 3 instead of by 9, and 324 multiplies by 3 rather than dividing."
+  },
+  {
+   "id": "2cb9c35bd3",
+   "stem": "The three angles of a triangle are in the ratio \\(2:3:4\\). What is the measure of the largest angle?",
+   "options": [
+    "\\(40^{\\circ}\\)",
+    "\\(80^{\\circ}\\)",
+    "\\(90^{\\circ}\\)",
+    "\\(160^{\\circ}\\)"
+   ],
+   "answer": 1,
+   "topic": "Geometry and Measurement",
+   "source": "rj_original_2026",
+   "explanation": "The nine parts share \\(180^{\\circ}\\), so one part is \\(20^{\\circ}\\) and the largest angle is \\(4\\times20=80\\) degrees. The choice \\(90^{\\circ}\\) assumes the largest angle of a triangle must be a right angle, \\(40^{\\circ}\\) gives the smallest angle, and \\(160^{\\circ}\\) shares \\(360^{\\circ}\\) among the nine parts."
+  },
+  {
+   "id": "2918e87ced",
+   "stem": "A cube has edges 4 inches long. What is its total surface area in square inches?",
+   "options": [
+    "64",
+    "24",
+    "16",
+    "96"
+   ],
+   "answer": 3,
+   "topic": "Geometry and Measurement",
+   "source": "rj_original_2026",
+   "explanation": "Each of the six faces has an area of 16 square inches, and \\(6\\times16=96\\). The choice 64 is the volume \\(4^3\\), 16 is the area of one face only, and 24 multiplies the six faces by the edge length instead of by the area of a face."
+  },
+  {
+   "id": "46de6d7cdf",
+   "stem": "Which of these is the greatest weight?",
+   "options": [
+    "3 pounds",
+    "45 ounces",
+    "2 pounds 14 ounces",
+    "50 ounces"
+   ],
+   "answer": 3,
+   "topic": "Geometry and Measurement",
+   "source": "rj_original_2026",
+   "explanation": "Converted to ounces the four weights are 50, 48, 46 and 45. The choice 3 pounds names the largest unit rather than the largest amount, 2 pounds 14 ounces attracts a student who reads 14 as the biggest ounce figure on the page, and 45 ounces is close enough to 50 that skipping the conversion of the pounds hides the order."
+  },
+  {
+   "id": "d70b2b535d",
+   "stem": "A triangle has an area of 54 square inches and a base of 12 inches. What is its height?",
+   "options": [
+    "9 inches",
+    "108 inches",
+    "42 inches",
+    "4.5 inches"
+   ],
+   "answer": 0,
+   "topic": "Geometry and Measurement",
+   "source": "rj_original_2026",
+   "explanation": "From \\(54=\\frac{1}{2}\\times12\\times h\\) the height is \\(108\\div12=9\\) inches. The choice 4.5 divides the area by the base without doubling it first, 108 doubles the area but never divides by the base, and 42 subtracts the base from the area."
+  },
+  {
+   "id": "3657123b55",
+   "stem": "The area of a circle is \\(36\\pi\\) square meters. What is its diameter?",
+   "options": [
+    "12 meters",
+    "36 meters",
+    "6 meters",
+    "18 meters"
+   ],
+   "answer": 0,
+   "topic": "Geometry and Measurement",
+   "source": "rj_original_2026",
+   "explanation": "From \\(\\pi r^2=36\\pi\\) the radius is 6, so the diameter is 12 meters. The choice 6 stops at the radius, 18 halves 36 as though the area were twice the radius, and 36 never takes the square root at all."
+  },
+  {
+   "id": "ce757abe9b",
+   "stem": "In the number 5,392,847, which digit is in the ten thousands place?",
+   "options": [
+    "3",
+    "4",
+    "9",
+    "2"
+   ],
+   "answer": 2,
+   "topic": "Number Sense",
+   "source": "rj_original_2026",
+   "explanation": "Counting from the right, 7 is ones, 4 is tens, 8 is hundreds, 2 is thousands and 9 is ten thousands. The choice 2 stops one place short at the thousands, 3 runs one place too far to the hundred thousands, and 4 comes from hearing the word ten and reading the tens place."
+  },
+  {
+   "id": "e0baa9d3e6",
+   "stem": "Which numeral is four hundred five thousand, sixty?",
+   "options": [
+    "405,060",
+    "450,060",
+    "405,600",
+    "400,560"
+   ],
+   "answer": 0,
+   "topic": "Number Sense",
+   "source": "rj_original_2026",
+   "explanation": "Four hundred five thousand is 405,000 and the sixty fills the tens place. The choice 450,060 writes four hundred fifty thousand, 405,600 puts the sixty in the hundreds place, and 400,560 breaks the number into four hundred thousand and five hundred sixty."
+  },
+  {
+   "id": "0834d73f23",
+   "stem": "\\(7\\times10^4+5\\times10^2+3\\times10^0\\) is equal to which number?",
+   "options": [
+    "70,530",
+    "70,503",
+    "7,503",
+    "75,003"
+   ],
+   "answer": 1,
+   "topic": "Number Sense",
+   "source": "rj_original_2026",
+   "explanation": "The three terms are 70,000, 500 and 3, so the sum is 70,503. The choice 7,503 treats \\(10^4\\) as 1,000, 70,530 puts the 3 in the tens place because \\(10^0\\) is misread as ten, and 75,003 writes the 5 beside the 7 instead of in the hundreds place."
+  },
+  {
+   "id": "a42077a0e4",
+   "stem": "Two lighthouses flash at steady intervals, one every 12 seconds and the other every 15 seconds. They flash together now. How many seconds pass before they flash together again?",
+   "options": [
+    "27",
+    "3",
+    "180",
+    "60"
+   ],
+   "answer": 3,
+   "topic": "Number Sense",
+   "source": "rj_original_2026",
+   "explanation": "The next shared flash comes at the least common multiple of 12 and 15, which is 60. The choice 180 multiplies the two intervals, which is a common multiple but not the least one; 3 gives the greatest common factor; and 27 adds the intervals."
+  },
+  {
+   "id": "fe5564405b",
+   "stem": "Ms. Delgado has 36 pencils and 48 erasers. She wants to build identical packs using every pencil and every eraser. What is the greatest number of packs she can build?",
+   "options": [
+    "144",
+    "6",
+    "84",
+    "12"
+   ],
+   "answer": 3,
+   "topic": "Number Sense",
+   "source": "rj_original_2026",
+   "explanation": "The number of packs must divide both amounts, and the greatest common factor of 36 and 48 is 12. The choice 6 is a common factor but not the greatest one, 144 is the least common multiple, and 84 adds the two amounts."
+  },
+  {
+   "id": "45886b22fb",
+   "stem": "Which of these numbers is prime?",
+   "options": [
+    "57",
+    "51",
+    "61",
+    "87"
+   ],
+   "answer": 2,
+   "topic": "Number Sense",
+   "source": "rj_original_2026",
+   "explanation": "61 has no factor besides 1 and itself. The other three all look prime but each is divisible by 3: \\(51=3\\times17\\), \\(57=3\\times19\\) and \\(87=3\\times29\\), which the digit-sum test catches at once."
+  },
+  {
+   "id": "1bdfe0a965",
+   "stem": "Which of these numbers is the least?",
+   "options": [
+    "\\(-0.5\\)",
+    "\\(-\\frac{2}{3}\\)",
+    "\\(-\\frac{3}{5}\\)",
+    "\\(-0.7\\)"
+   ],
+   "answer": 3,
+   "topic": "Number Sense",
+   "source": "rj_original_2026",
+   "explanation": "As decimals the four values are \\(-0.7\\), \\(-0.667\\), \\(-0.5\\) and \\(-0.6\\), and the one furthest to the left on the number line is \\(-0.7\\). The choice \\(-\\frac{2}{3}\\) is the least of the fractions but not of the whole list, \\(-0.5\\) treats the smallest numeral as the smallest number even though the negative sign reverses the order, and \\(-\\frac{3}{5}\\) equals \\(-0.6\\), which sits between the two decimals."
+  },
+  {
+   "id": "315de5bdc1",
+   "stem": "Rounded to the nearest thousand, 47,650 is",
+   "options": [
+    "48,000",
+    "47,700",
+    "50,000",
+    "47,000"
+   ],
+   "answer": 0,
+   "topic": "Number Sense",
+   "source": "rj_original_2026",
+   "explanation": "The hundreds digit is 6, so the thousands digit rounds up from 7 to 8. The choice 47,000 drops the smaller digits instead of rounding, 47,700 rounds to the nearest hundred, and 50,000 rounds to the nearest ten thousand."
+  },
+  {
+   "id": "1543c863e1",
+   "stem": "\\(\\sqrt{0.49}=\\)",
+   "options": [
+    "0.245",
+    "0.07",
+    "7",
+    "0.7"
+   ],
+   "answer": 3,
+   "topic": "Number Sense",
+   "source": "rj_original_2026",
+   "explanation": "\\(0.7\\times0.7=0.49\\). The choice 0.07 squares to 0.0049 rather than 0.49, 7 ignores the decimal point entirely, and 0.245 halves 0.49 instead of taking a square root."
+  },
+  {
+   "id": "35f35e8efb",
+   "stem": "\\(0.0045\\times10^3=\\)",
+   "options": [
+    "4.5",
+    "45",
+    "0.45",
+    "0.0000045"
+   ],
+   "answer": 0,
+   "topic": "Number Sense",
+   "source": "rj_original_2026",
+   "explanation": "Multiplying by \\(10^3\\) moves the decimal point three places to the right. The choice 45 moves it four places, 0.45 moves it two, and 0.0000045 moves it three places in the wrong direction."
+  },
+  {
+   "id": "51c81e5d9a",
+   "stem": "A train leaves the station at 9:00 a.m., travels at a steady 54 miles per hour and arrives at 12:30 p.m. How far did it travel?",
+   "options": [
+    "192 miles",
+    "189 miles",
+    "216 miles",
+    "162 miles"
+   ],
+   "answer": 1,
+   "topic": "Word Problems",
+   "source": "rj_original_2026",
+   "explanation": "The trip lasts three and a half hours, and \\(54\\times3.5=189\\). The choice 162 counts only three whole hours, 216 rounds the time up to four hours, and 192 adds the extra 30 minutes as 30 miles instead of as half an hour of travel."
+  },
+  {
+   "id": "0e84737030",
+   "stem": "Ana drove 120 miles in 3 hours and then 100 miles in 2 hours. What was her average speed for the whole trip?",
+   "options": [
+    "55 miles per hour",
+    "50 miles per hour",
+    "45 miles per hour",
+    "44 miles per hour"
+   ],
+   "answer": 3,
+   "topic": "Word Problems",
+   "source": "rj_original_2026",
+   "explanation": "Average speed is total distance divided by total time, \\(220\\div5=44\\). The choice 45 averages the leg speeds of 40 and 50 as though the two legs took the same time, 55 divides 220 by four hours, and 50 reports the speed of the faster leg."
+  },
+  {
+   "id": "4a531762ae",
+   "stem": "Kwame deposits $800 in an account that pays 5% simple interest a year. How much interest does the account earn in three years?",
+   "options": [
+    "$126.10",
+    "$40",
+    "$120",
+    "$920"
+   ],
+   "answer": 2,
+   "topic": "Word Problems",
+   "source": "rj_original_2026",
+   "explanation": "Simple interest is \\(800\\times0.05\\times3=120\\) dollars. The choice $40 gives one year's interest, $920 gives the balance rather than the interest, and $126.10 compounds the interest each year instead of leaving it simple."
+  },
+  {
+   "id": "3aad33ae4c",
+   "stem": "How much simple interest does $1,200 earn in six months at an annual rate of 6%?",
+   "options": [
+    "$36",
+    "$432",
+    "$18",
+    "$72"
+   ],
+   "answer": 0,
+   "topic": "Word Problems",
+   "source": "rj_original_2026",
+   "explanation": "A full year would earn \\(1200\\times0.06=72\\) dollars, and six months earns half of that. The choice $72 charges a whole year, $18 halves the rate and the time both, and $432 treats the six months as six years."
+  },
+  {
+   "id": "8742fdb804",
+   "stem": "Renee earns $14 an hour for the first 40 hours of a week and one and a half times that rate for each hour beyond 40. She worked 46 hours last week. What was her pay?",
+   "options": [
+    "$686",
+    "$966",
+    "$644",
+    "$602"
+   ],
+   "answer": 0,
+   "topic": "Word Problems",
+   "source": "rj_original_2026",
+   "explanation": "The first 40 hours pay $560 and the six extra hours pay \\(6\\times21=126\\) dollars. The choice $644 pays all 46 hours at the plain rate, $602 adds only the extra half-rate for the overtime hours and forgets their base pay, and $966 pays every hour at the overtime rate."
+  },
+  {
+   "id": "f294ea0a44",
+   "stem": "Two hikers start 18 miles apart on the same trail and walk toward each other, one at 4 miles per hour and the other at 5. How long until they meet?",
+   "options": [
+    "3.6 hours",
+    "2 hours",
+    "4.5 hours",
+    "18 hours"
+   ],
+   "answer": 1,
+   "topic": "Word Problems",
+   "source": "rj_original_2026",
+   "explanation": "The gap closes at \\(4+5=9\\) miles per hour, so \\(18\\div9=2\\) hours. The choice 4.5 uses only the slower hiker's speed, 3.6 uses only the faster hiker's, and 18 subtracts the speeds, which would apply only if the hikers were walking the same way."
+  },
+  {
+   "id": "2164adaec4",
+   "stem": "Sound travels about 1,100 feet per second. About how far does sound travel in half a minute?",
+   "options": [
+    "550 feet",
+    "3,300 feet",
+    "66,000 feet",
+    "33,000 feet"
+   ],
+   "answer": 3,
+   "topic": "Word Problems",
+   "source": "rj_original_2026",
+   "explanation": "Half a minute is 30 seconds, and \\(1100\\times30=33{,}000\\). The choice 66,000 uses a full minute, 550 halves the speed instead of multiplying by 30 seconds, and 3,300 multiplies by 3 and loses the zero from the 30."
+  },
+  {
+   "id": "04cb08e5fa",
+   "stem": "Four friends share a restaurant bill of $76 and add a $12 tip. If they split the total evenly, how much does each friend pay?",
+   "options": [
+    "$22",
+    "$88",
+    "$31",
+    "$19"
+   ],
+   "answer": 0,
+   "topic": "Word Problems",
+   "source": "rj_original_2026",
+   "explanation": "The bill with the tip is $88, and \\(88\\div4=22\\) dollars each. The choice $19 splits the bill before the tip is added, $31 gives each friend the whole $12 tip instead of a quarter of it, and $88 is the total for the table rather than one share."
+  },
+  {
+   "id": "bbedf5e55a",
+   "stem": "Concrete is mixed from cement, sand and gravel in a ratio of \\(1:2:4\\). A batch weighs 84 pounds. How many pounds of gravel does it hold?",
+   "options": [
+    "12",
+    "21",
+    "48",
+    "24"
+   ],
+   "answer": 2,
+   "topic": "Ratios and Proportions",
+   "source": "rj_original_2026",
+   "explanation": "The seven parts weigh \\(84\\div7=12\\) pounds each, so the gravel is \\(4\\times12=48\\) pounds. The choice 24 gives the sand, 12 gives the cement, and 21 divides 84 by 4 as though gravel were one part in four."
+  },
+  {
+   "id": "8fc2223ddc",
+   "stem": "On a blueprint, \\(\\frac{1}{4}\\) inch represents 2 feet. How long is an 18-foot wall on the blueprint?",
+   "options": [
+    "\\(4\\frac{1}{2}\\) inches",
+    "\\(2\\frac{1}{4}\\) inches",
+    "9 inches",
+    "36 inches"
+   ],
+   "answer": 1,
+   "topic": "Ratios and Proportions",
+   "source": "rj_original_2026",
+   "explanation": "The wall covers \\(18\\div2=9\\) segments and each segment is a quarter inch, so it is \\(9\\times\\frac{1}{4}=2\\frac{1}{4}\\) inches long on paper. The choice 9 inches stops at the number of segments, \\(4\\frac{1}{2}\\) inches uses half an inch for every 2 feet, and 36 inches multiplies by 2 instead of dividing."
+  },
+  {
+   "id": "3b03555d4e",
+   "stem": "Six workers can paint a fence in 4 hours. Working at the same rate, how long would eight workers take?",
+   "options": [
+    "3 hours",
+    "2 hours",
+    "6 hours",
+    "\\(5\\frac{1}{3}\\) hours"
+   ],
+   "answer": 0,
+   "topic": "Ratios and Proportions",
+   "source": "rj_original_2026",
+   "explanation": "The job is \\(6\\times4=24\\) worker-hours, so eight workers need \\(24\\div8=3\\) hours. The choice \\(5\\frac{1}{3}\\) sets up a direct proportion, which would mean a bigger crew takes longer; 2 hours halves the time without checking that the crew grew by only a third; and 6 hours repeats the size of the first crew."
+  },
+  {
+   "id": "8a2b30d15d",
+   "stem": "A jar holds red and blue counters in a ratio of \\(2:3\\), and there are 30 counters in all. How many red counters must be added so that the two colors are equal in number?",
+   "options": [
+    "12",
+    "15",
+    "18",
+    "6"
+   ],
+   "answer": 3,
+   "topic": "Ratios and Proportions",
+   "source": "rj_original_2026",
+   "explanation": "The five parts hold six counters each, so 12 are red and 18 are blue, and six more red counters even them up. The choice 12 gives the red counters already in the jar, 18 gives the blue ones, and 15 is half the original total, which would be right only if counters could be moved rather than added."
+  },
+  {
+   "id": "f931b10d91",
+   "stem": "A recipe for six servings calls for \\(\\frac{3}{4}\\) cup of milk. How much milk is needed for 10 servings?",
+   "options": [
+    "\\(4\\frac{1}{2}\\) cups",
+    "\\(1\\frac{1}{4}\\) cups",
+    "\\(\\frac{9}{20}\\) cup",
+    "\\(7\\frac{1}{2}\\) cups"
+   ],
+   "answer": 1,
+   "topic": "Ratios and Proportions",
+   "source": "rj_original_2026",
+   "explanation": "One serving needs \\(\\frac{3}{4}\\div6=\\frac{1}{8}\\) cup, so 10 servings need \\(\\frac{10}{8}=1\\frac{1}{4}\\) cups. The choice \\(7\\frac{1}{2}\\) multiplies by 10 without dividing by six, \\(\\frac{9}{20}\\) sets the proportion upside down as \\(\\frac{3}{4}\\times\\frac{6}{10}\\), and \\(4\\frac{1}{2}\\) multiplies by the six servings in the recipe."
+  },
+  {
+   "id": "358196827d",
+   "stem": "In a club the ratio of members who bike to school to members who walk is \\(5:3\\). What fraction of the members bike to school?",
+   "options": [
+    "\\(\\frac{3}{5}\\)",
+    "\\(\\frac{3}{8}\\)",
+    "\\(\\frac{5}{8}\\)",
+    "\\(\\frac{5}{3}\\)"
+   ],
+   "answer": 2,
+   "topic": "Ratios and Proportions",
+   "source": "rj_original_2026",
+   "explanation": "The five bikers are part of eight members altogether. The choice \\(\\frac{3}{8}\\) gives the fraction who walk, \\(\\frac{5}{3}\\) is the ratio itself rather than a part of the whole, and \\(\\frac{3}{5}\\) turns the ratio upside down."
+  },
+  {
+   "id": "ba1c4b31fa",
+   "stem": "Simplify: \\((-4)^2+(-3)(-2)\\)",
+   "options": [
+    "22",
+    "10",
+    "\\(-22\\)",
+    "\\(-10\\)"
+   ],
+   "answer": 0,
+   "topic": "Computation",
+   "source": "rj_original_2026",
+   "explanation": "\\((-4)^2=16\\) because a negative times a negative is positive, and \\((-3)(-2)=6\\), so the value is 22. The choice \\(-10\\) reads \\((-4)^2\\) as \\(-16\\), 10 keeps the 16 but makes the product of the two negatives negative, and \\(-22\\) makes both sign errors at once."
+  },
+  {
+   "id": "4db1db73eb",
+   "stem": "Simplify: \\(-20\\div(-4)+3(-2)\\)",
+   "options": [
+    "1",
+    "\\(-11\\)",
+    "11",
+    "\\(-1\\)"
+   ],
+   "answer": 3,
+   "topic": "Computation",
+   "source": "rj_original_2026",
+   "explanation": "\\(-20\\div(-4)=5\\) and \\(3(-2)=-6\\), so the value is \\(-1\\). The choice 11 adds the 6 instead of subtracting it, \\(-11\\) makes the quotient negative and then subtracts, and 1 makes both sign errors, giving \\(-5+6\\)."
+  },
+  {
+   "id": "3f25d07fa7",
+   "stem": "Simplify: \\(2+3[8-(4+1)]^2\\)",
+   "options": [
+    "29",
+    "11",
+    "45",
+    "83"
+   ],
+   "answer": 0,
+   "topic": "Computation",
+   "source": "rj_original_2026",
+   "explanation": "Inside the brackets \\(8-5=3\\), squaring gives 9 and \\(3\\times9=27\\), so the value is 29. The choice 11 multiplies by 3 without squaring, 45 adds the 2 before multiplying and computes \\((2+3)\\times9\\), and 83 squares after multiplying, using \\((3\\times3)^2=81\\)."
+  },
+  {
+   "id": "66975412a0",
+   "stem": "A song lasts 3 minutes 45 seconds. How long do four songs of that length take altogether?",
+   "options": [
+    "13 minutes 20 seconds",
+    "15 minutes",
+    "12 minutes 45 seconds",
+    "14 minutes 20 seconds"
+   ],
+   "answer": 1,
+   "topic": "Computation",
+   "source": "rj_original_2026",
+   "explanation": "Four songs of 3 minutes 45 seconds are \\(4\\times225\\) seconds, or 900 seconds, which is 15 minutes. The choice 12 minutes 45 seconds multiplies only the minutes and leaves the seconds alone, 13 minutes 20 seconds carries wrongly from the seconds column, and 14 minutes 20 seconds borrows 60 instead of adding it."
+  },
+  {
+   "id": "1698e04f52",
+   "stem": "Subtract: 6 pounds 3 ounces \\(-\\) 2 pounds 11 ounces. (16 ounces \\(=\\) 1 pound)",
+   "options": [
+    "4 pounds 2 ounces",
+    "3 pounds 2 ounces",
+    "4 pounds 8 ounces",
+    "3 pounds 8 ounces"
+   ],
+   "answer": 3,
+   "topic": "Computation",
+   "source": "rj_original_2026",
+   "explanation": "Borrow one pound as 16 ounces: \\(19-11=8\\) ounces and \\(5-2=3\\) pounds. The choice 4 pounds 8 ounces takes the smaller ounce figure from the larger to avoid borrowing and leaves the pounds untouched, 3 pounds 2 ounces borrows only 10 ounces instead of 16, and 4 pounds 2 ounces borrows 10 ounces and also forgets to reduce the pounds."
+  },
+  {
+   "id": "7dedbf561a",
+   "stem": "Solve for \\(x\\): \\(5x-3=3x+9\\)",
+   "options": [
+    "12",
+    "3",
+    "1.5",
+    "6"
+   ],
+   "answer": 3,
+   "topic": "Algebra",
+   "source": "rj_original_2026",
+   "explanation": "Subtracting \\(3x\\) from both sides gives \\(2x-3=9\\), then \\(2x=12\\) and \\(x=6\\). The choice 3 subtracts the 3 from the 9 instead of adding it, giving \\(2x=6\\); 1.5 adds \\(3x\\) to the left side instead of subtracting it, giving \\(8x=12\\); and 12 answers with \\(2x\\) rather than with \\(x\\)."
+  },
+  {
+   "id": "5c6ffc1de3",
+   "stem": "What is the smallest integer value of \\(n\\) for which \\(2n+5>17\\)?",
+   "options": [
+    "6",
+    "22",
+    "12",
+    "7"
+   ],
+   "answer": 3,
+   "topic": "Algebra",
+   "source": "rj_original_2026",
+   "explanation": "Subtracting 5 gives \\(2n>12\\) and dividing gives \\(n>6\\), so the smallest integer that works is 7. The choice 6 treats the inequality as though it allowed equality, 12 stops at \\(2n>12\\) and reports 12, and 22 adds the 5 instead of subtracting it and never divides."
+  },
+  {
+   "id": "3ca51cd3f6",
+   "stem": "If \\(n\\) is an odd number, which expression is always even?",
+   "options": [
+    "\\(n+2\\)",
+    "\\(n+1\\)",
+    "\\(3n\\)",
+    "\\(2n+1\\)"
+   ],
+   "answer": 1,
+   "topic": "Algebra",
+   "source": "rj_original_2026",
+   "explanation": "Adding 1 to an odd number lands on the next even number. The choice \\(n+2\\) skips to the next odd number, \\(2n+1\\) doubles to an even number and is then pushed back to odd by the \\(+1\\), and \\(3n\\) is a product of two odd numbers, which is always odd."
+  },
+  {
+   "id": "6bb526de1e",
+   "stem": "One-half of a number, increased by six, is 14. What is the number?",
+   "options": [
+    "16",
+    "22",
+    "4",
+    "28"
+   ],
+   "answer": 0,
+   "topic": "Algebra",
+   "source": "rj_original_2026",
+   "explanation": "Subtracting six gives \\(\\frac{n}{2}=8\\), and doubling gives \\(n=16\\). The choice 4 halves the 8 instead of doubling it, 22 reads the sentence as one-half of the quantity \\(n+6\\), and 28 doubles the 14 without subtracting the six first."
+  }
+ ]
 }

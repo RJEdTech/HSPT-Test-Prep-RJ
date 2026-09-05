@@ -5,14 +5,21 @@
   "Analogies",
   "Classification",
   "Verbal Logic",
-  "Patterns in Numbers",
-  "Mathematic Comparisons",
-  "Skills Check 2: Quantitative Skills",
+  "Number Series",
+  "Letter Series",
+  "Comparisons",
+  "Geometric Comparison",
+  "Number Manipulation",
   "Reading Comprehension",
-  "Vocabulary",
-  "Math Principles",
-  "Skills Check 4: Mathematic Skills",
-  "Problem Solving",
+  "Vocabulary in Context",
+  "Number Sense",
+  "Fractions, Decimals and Percents",
+  "Ratios and Proportions",
+  "Computation",
+  "Algebra",
+  "Geometry and Measurement",
+  "Data and Probability",
+  "Word Problems",
   "Capitalization",
   "Punctuation",
   "Usage",
@@ -525,7 +532,7 @@
       [
        "mis-",
        "wrongly",
-       "lead / mislead"
+       "trust / mistrust"
       ],
       [
        "mal-",
@@ -654,17 +661,17 @@
   "Analogies": {
    "title": "Verbal Analogies",
    "sectionLabel": "Verbal Skills",
-   "weight": "About ten of the 60 Verbal Skills questions",
+   "weight": "About 10 of the 60 Verbal Skills questions",
    "oneLine": "You are given a pair of words and you pick the word that gives a second pair the same relationship.",
    "practiceTopic": "Analogies",
    "blocks": [
     {
      "type": "p",
-     "text": "An analogy reads <i>A is to B as C is to ___</i>, with four choices for the blank. About ten of the 60 Verbal Skills questions are analogies."
+     "text": "An analogy reads <i>A is to B as C is to ___</i>, with four choices for the blank. About 10 of the 60 Verbal Skills questions are analogies."
     },
     {
      "type": "p",
-     "text": "The words are usually easy. The question is not testing whether you know them; it is testing whether you can see how two of them are connected and then find the same connection somewhere else. That is why an analogy can be missed by a student with an excellent vocabulary and answered instantly by one who has learned the method."
+     "text": "The words are usually easy. The question is not testing whether you know them, it is testing whether you can see how two of them are connected and then find the same connection somewhere else. That is why an analogy can be missed by a student with an excellent vocabulary and answered instantly by one who has learned the method."
     },
     {
      "type": "h",
@@ -695,73 +702,73 @@
     },
     {
      "type": "p",
-     "text": "Almost every analogy on the test is built on one of a dozen or so ways two words can be related. Learning to recognize the kind of relationship is worth doing, because it tells you the shape of the answer before you have read a single choice."
+     "text": "The people who write this test work from a list of relationship types, and the answer keys name them. Learning the list is worth doing, because recognizing the category tells you the shape of the answer before you have read a single choice."
     },
     {
      "type": "table",
      "head": [
-      "The relationship",
+      "Category",
       "Example pair",
       "The sentence you would say"
      ],
      "rows": [
       [
-       "A thing and what it is like",
+       "Object to characteristic",
        "sponge : porous",
        "A sponge is porous."
       ],
       [
-       "A tool and the job it does",
+       "Object to purpose",
        "broom : sweep",
        "A broom is used to sweep."
       ],
       [
-       "A part and the whole it belongs to",
+       "Part to whole",
        "rung : ladder",
        "A rung is part of a ladder."
       ],
       [
-       "One stage and the stage after it",
+       "Sequence",
        "dusk : night",
        "Dusk comes just before night."
       ],
       [
-       "A word and its opposite",
+       "Antonym or opposite",
        "ascend : descend",
        "To ascend is the opposite of to descend."
       ],
       [
-       "Two things used together",
+       "Association",
        "needle : thread",
        "A needle is used together with thread."
       ],
       [
-       "An animal and where it lives",
+       "Creature to habitat",
        "otter : river",
        "An otter lives in a river."
       ],
       [
-       "A material and what it comes from",
+       "Product to source",
        "wool : sheep",
        "Wool comes from a sheep."
       ],
       [
-       "A particular kind and its general class",
+       "Example to object",
        "sonnet : poem",
        "A sonnet is a kind of poem."
       ],
       [
-       "A unit and what it measures",
+       "Measurement to range",
        "quart : volume",
        "A quart measures volume."
       ],
       [
-       "Two things of the same kind",
+       "Common characteristic",
        "granite : marble",
        "Granite and marble are both stone."
       ],
       [
-       "A symbol and what it stands for",
+       "Symbol",
        "dove : peace",
        "A dove stands for peace."
       ]
@@ -959,13 +966,13 @@
      "type": "example",
      "stem": "Which word does not belong with the others?",
      "options": [
-      "copper",
-      "granite",
-      "silver",
-      "iron"
+      "violin",
+      "trumpet",
+      "cello",
+      "harp"
      ],
      "answer": 1,
-     "walkthrough": "All four are materials, so that category is too big to be the split — it leaves nobody out. Go one level finer: copper, silver and iron are metals, and granite is stone. Three metals, one rock. Whenever all four words share an obvious category, the split you want is one level below the label you thought of first."
+     "walkthrough": "All four are musical instruments, so that category is too big to be the split — it leaves nobody out. Go one level finer: the violin, the cello and the harp all make their sound from strings, and the trumpet is blown. Three strings, one horn. Whenever all four words share an obvious category, the split you want is one level below the label you thought of first."
     },
     {
      "type": "example",
@@ -983,13 +990,13 @@
      "type": "example",
      "stem": "Which word does not belong with the others?",
      "options": [
-      "sprint",
-      "stroll",
-      "jog",
-      "swim"
+      "whisper",
+      "listen",
+      "shout",
+      "murmur"
      ],
-     "answer": 3,
-     "walkthrough": "The tempting split is speed: sprinting is fast and strolling is slow, so one of those two looks like the outlier. That is a split by degree and it is a decoy — degree gives you a scale, not an odd one out. Sprinting, strolling and jogging are all ways of moving on foot, while swimming needs water. A split by kind, and the one that holds."
+     "answer": 1,
+     "walkthrough": "The tempting split is volume: shouting is loud and the other two are quiet, so <i>shout</i> looks like the outlier. That is a split by degree and it is a decoy. Whispering, shouting and murmuring are all ways of using your voice, while listening is something you do with your ears — a split by kind, and the one that holds."
     },
     {
      "type": "example",
@@ -1056,13 +1063,13 @@
   "Verbal Logic": {
    "title": "Verbal Logic",
    "sectionLabel": "Verbal Skills",
-   "weight": "About ten to 12 of the 60 Verbal Skills questions",
+   "weight": "About 10 to 12 of the 60 Verbal Skills questions",
    "oneLine": "You are given three statements and you decide whether the third one is true, false or uncertain if the first two are true.",
    "practiceTopic": "Verbal Logic",
    "blocks": [
     {
      "type": "p",
-     "text": "Three short statements. You are told to assume the first two are true, and you decide whether the third is true, false or uncertain. About ten to 12 of the 60 Verbal Skills questions are built this way."
+     "text": "Three short statements. You are told to assume the first two are true, and you decide whether the third is true, false or uncertain. About 10 to 12 of the 60 Verbal Skills questions are built this way."
     },
     {
      "type": "p",
@@ -1320,7 +1327,7 @@
       "Uncertain"
      ],
      "answer": 1,
-     "walkthrough": "The second statement puts Elena inside the group, and the first statement forbids everyone in that group from riding the bus. So the third statement is not just unsupported; it is impossible: false. Note the contrast with the trumpet item. There, the second statement only said that Nadia shared a trait with the group. Here it says Elena is in it."
+     "walkthrough": "The second statement puts Elena inside the group, and the first statement forbids everyone in that group from riding the bus. So the third statement is not just unsupported, it is impossible: false. Note the contrast with the trumpet item. There, the second statement only said that Nadia shared a trait with the group. Here it says Elena is in it."
     },
     {
      "type": "h",
@@ -1380,7 +1387,7 @@
     },
     {
      "type": "p",
-     "text": "Then the answer is uncertain, and that is not a guess; it is the definition. If you have read the first two statements with care and you can neither show that the third must be true nor show that it is impossible, uncertain is the correct answer, not the consolation prize. The mistake is the opposite one: sitting on an item hunting for a proof that is not there."
+     "text": "Then the answer is uncertain, and that is not a guess, it is the definition. If you have read the first two statements with care and you can neither show that the third must be true nor show that it is impossible, uncertain is the correct answer, not the consolation prize. The mistake is the opposite one: sitting on an item hunting for a proof that is not there."
     },
     {
      "type": "p",
@@ -1404,12 +1411,12 @@
    ],
    "section": "verbal"
   },
-  "Patterns in Numbers": {
-   "title": "Number Series & Patterns",
+  "Number Series": {
+   "title": "Number Series",
    "sectionLabel": "Quantitative Skills",
    "weight": "About 18 to 22 of the 52 Quantitative Skills questions — the largest type",
    "oneLine": "A short run of numbers, letters or both follows a hidden rule, and you supply the term that is missing.",
-   "practiceTopic": "Patterns in Numbers",
+   "practiceTopic": "Number Series",
    "blocks": [
     {
      "type": "p",
@@ -1876,16 +1883,361 @@
    ],
    "section": "quant"
   },
-  "Mathematic Comparisons": {
+  "Letter Series": {
+   "title": "Letter Series",
+   "sectionLabel": "Quantitative Skills",
+   "weight": "About four of the 52 Quantitative Skills questions",
+   "oneLine": "A run of letters, or of letters and numbers together, follows a rule you have to name before you can supply the missing term.",
+   "practiceTopic": "Letter Series",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Four or five of the series items on a form are built from letters rather than numbers. The terms may be single letters, pairs like GT and HS, triples like MCF, groups that repeat a letter several times, or a letter tied to a number as in B5 and D9. The task never changes: name the rule, then supply the term the item asks for."
+    },
+    {
+     "type": "p",
+     "text": "These questions are worth practicing separately from number series because the arithmetic is trivial and the bookkeeping is not. Almost nobody misses one of these because they cannot add two. They miss it because they counted the alphabet wrong, or moved one letter of a pair and forgot the other, or wrote the right two letters in the wrong order."
+    },
+    {
+     "type": "h",
+     "text": "The method"
+    },
+    {
+     "type": "ol",
+     "items": [
+      "Before the section starts, write the alphabet down the margin of your scratch paper with the position number beside every letter. You write it once and use it on every letter item on the form.",
+      "Read the whole series and count how many characters each term holds. One letter, two, three, a letter and a number — that count tells you how many rules you are looking for.",
+      "Look for a character that never changes. A letter appearing in the same position in every term is scenery; copy it straight into your answer and stop thinking about it.",
+      "Take each remaining position on its own. Write the position numbers under all the first letters, then under all the second letters, and find the step for each column separately.",
+      "Write your answer out character by character, in order, from those separate rules.",
+      "Check it against the term on the other side of the blank. If the item gives a term after the gap, your answer has to lead into it as well as follow from the term before it."
+     ]
+    },
+    {
+     "type": "note",
+     "text": "Two rules running at once is the normal case, not the hard case. In GT, HS, IR the first letter climbs and the second falls, and the only reliable way to see that is to handle the two columns one after the other. Trying to watch both at the same time is what produces answers like KQ, where one column is right and the other never moved."
+    },
+    {
+     "type": "h",
+     "text": "Count positions, do not recite"
+    },
+    {
+     "type": "p",
+     "text": "Reciting the alphabet under time pressure is how you slide one letter, and one letter is always among the choices. Count instead. Six anchors are enough to place any letter quickly: A is 1, F is 6, K is 11, P is 16, U is 21 and Z is 26. To find the letter five past R, start from P at 16, so R is 18, and 18 plus 5 is 23, which is W. That is faster and steadier than singing through the alphabet from the beginning."
+    },
+    {
+     "type": "table",
+     "head": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "I",
+      "J",
+      "K",
+      "L",
+      "M"
+     ],
+     "rows": [
+      [
+       "1",
+       "2",
+       "3",
+       "4",
+       "5",
+       "6",
+       "7",
+       "8",
+       "9",
+       "10",
+       "11",
+       "12",
+       "13"
+      ]
+     ]
+    },
+    {
+     "type": "table",
+     "head": [
+      "N",
+      "O",
+      "P",
+      "Q",
+      "R",
+      "S",
+      "T",
+      "U",
+      "V",
+      "W",
+      "X",
+      "Y",
+      "Z"
+     ],
+     "rows": [
+      [
+       "14",
+       "15",
+       "16",
+       "17",
+       "18",
+       "19",
+       "20",
+       "21",
+       "22",
+       "23",
+       "24",
+       "25",
+       "26"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": "The alphabet is a loop on this test, not a line. A series that steps forward three from X does not stop at Z; it wraps round, so X, then A, then D. When a column of letters runs into the end of the alphabet, subtract 26 and keep going: 24 plus 3 is 27, and 27 minus 26 is 1, which is A."
+    },
+    {
+     "type": "h",
+     "text": "The shapes you will meet"
+    },
+    {
+     "type": "p",
+     "text": "Every letter item on the test is one of the shapes below. Read the table once and then work the examples, because naming the shape is most of the work. Once you know that one letter is fixed and the others advance two, the answer takes about five seconds."
+    },
+    {
+     "type": "table",
+     "head": [
+      "Shape",
+      "A series of this kind",
+      "The rule",
+      "Next term"
+     ],
+     "rows": [
+      [
+       "One letter held in the middle",
+       "MCF, MEF, MGF",
+       "first and last fixed; the middle moves ahead two",
+       "MIF"
+      ],
+      [
+       "A letter held at the front",
+       "PDQ, PGT, PJW",
+       "P stays; the other two each move ahead three",
+       "PMZ"
+      ],
+      [
+       "Both letters advancing together",
+       "AE, DH, GK",
+       "each letter moves ahead three",
+       "JN"
+      ],
+      [
+       "Letters moving in opposite directions",
+       "GT, HS, IR",
+       "the first moves ahead one, the second back one",
+       "JQ"
+      ],
+      [
+       "A wide jump in both positions",
+       "EI, IM, MQ",
+       "each letter jumps ahead four",
+       "QU"
+      ],
+      [
+       "Repetition alternating",
+       "R, QQ, P, OO",
+       "the letters step back one; every second term is doubled",
+       "N"
+      ],
+      [
+       "Repetition growing",
+       "K, L, K, LL, K, LLL, K",
+       "one K between groups of L that gain a letter each time",
+       "LLLL"
+      ],
+      [
+       "A letter and a number, both adding",
+       "B5, D9, F13",
+       "letter ahead two; number adds four",
+       "H17"
+      ],
+      [
+       "A letter and a number, the number multiplying",
+       "C3, F12, I48",
+       "letter ahead three; number times four",
+       "L192"
+      ],
+      [
+       "The number and the letter swapping places",
+       "5J, K9, 5L, M9",
+       "letters run in order; the numbers alternate 5 and 9, and the 5 comes first",
+       "5N"
+      ]
+     ]
+    },
+    {
+     "type": "h",
+     "text": "A letter that stands still"
+    },
+    {
+     "type": "p",
+     "text": "In three-letter terms one position is often frozen. MCF, MEF, MGF holds the M and the F and moves only the middle letter. PDQ, PGT, PJW holds the P at the front and moves the other two. Find the frozen letter first, write it into the answer straight away and you have turned a three-letter problem into a one-letter or two-letter problem. The choices will include a term that moves the frozen letter as well, which is why it is worth naming it out loud before you go on."
+    },
+    {
+     "type": "example",
+     "stem": "Look at this series: TBW, TDW, TFW, ___, TJW. What term is missing?",
+     "options": [
+      "THX",
+      "THW",
+      "TIW",
+      "WHT"
+     ],
+     "answer": 1,
+     "walkthrough": "The first letter is T in every term and the last is W in every term, so both are scenery. That leaves the middle column: B, D, F, blank, J. In position numbers that reads \\(2\\), \\(4\\), \\(6\\), blank, \\(10\\), climbing by two, so the missing letter is \\(8\\), which is H. The answer is THW, and it checks forward because H to J is another step of two. TIW moves the middle letter only one; THX moves the last letter, which never moves; WHT is the right three letters written backward, and a reversed term is offered on nearly every item of this kind."
+    },
+    {
+     "type": "h",
+     "text": "Two letters walking in opposite directions"
+    },
+    {
+     "type": "p",
+     "text": "The most common two-letter shape sends one letter up the alphabet and the other down. GT, HS, IR looks complicated until you split it: G, H, I is plus one, and T, S, R is minus one. Handle the columns in order, write the two answers down, then join them. The danger is that both columns are moving by one, so a term with the columns swapped still looks plausible at a glance."
+    },
+    {
+     "type": "example",
+     "stem": "Look at this series: FU, GT, HS, IR, ___. What term comes next?",
+     "options": [
+      "JR",
+      "JQ",
+      "KQ",
+      "QJ"
+     ],
+     "answer": 1,
+     "walkthrough": "First column: F, G, H, I are \\(6, 7, 8, 9\\), so the next is \\(10\\), which is J. Second column: U, T, S, R are \\(21, 20, 19, 18\\), so the next is \\(17\\), which is Q. Join them for JQ. JR repeats the second letter instead of stepping it back, KQ pushes the first letter two, and QJ is your own answer written backward — the choice that catches students who solve the columns in the order they find them rather than the order they are printed."
+    },
+    {
+     "type": "h",
+     "text": "When the repetition is the rule"
+    },
+    {
+     "type": "p",
+     "text": "Some series carry their pattern in how many times a letter is written. In R, QQ, P, OO, N the letters simply walk backward one at a time, and on top of that every second term is doubled. In K, L, K, LL, K, LLL, K a single K sits between groups of L that gain one letter each time, and the K is doing nothing at all except separating the groups. Count the copies before you look at the letters. If the counts run 1, 2, 3, 4 or alternate 1, 2, 1, 2, you have found half the rule already."
+    },
+    {
+     "type": "example",
+     "stem": "Look at this series: S, RR, Q, PP, O, ___. What term comes next?",
+     "options": [
+      "N",
+      "NN",
+      "NNN",
+      "MM"
+     ],
+     "answer": 1,
+     "walkthrough": "Read the letters alone: S, R, Q, P, O, which is \\(19, 18, 17, 16, 15\\), stepping back one, so the sixth letter is \\(14\\), which is N. Now read the counts alone: one, two, one, two, one, so the sixth term is doubled. Put the two rules together and the answer is NN. The choice N drops the doubling, NNN invents a count that never appears in the series, and MM skips a letter by counting the doubled terms as two steps instead of one."
+    },
+    {
+     "type": "h",
+     "text": "A letter and a number at the same time"
+    },
+    {
+     "type": "p",
+     "text": "Mixed terms such as B5, D9, F13 or C3, F12, I48 are two separate series printed side by side. Cover the numbers with a finger and solve the letters; cover the letters and solve the numbers. The two rules do not have to be the same kind: in C3, F12, I48 the letters add three each time while the numbers multiply by four. Every wrong choice on an item like this gets one half right and the other half wrong, so both halves have to be checked."
+    },
+    {
+     "type": "p",
+     "text": "Watch the order of the characters as well as their values. In 5J, K9, 5L, M9 the letters run J, K, L, M, N straight through and the numbers alternate 5 and 9, but the terms holding a 5 put the number first and the terms holding a 9 put it last. Getting the two characters right and printing them the wrong way round is a wrong answer, and it is always one of the four choices."
+    },
+    {
+     "type": "example",
+     "stem": "Look at this series: D2, G6, J18, ___. What term comes next?",
+     "options": [
+      "M24",
+      "L54",
+      "M54",
+      "N54"
+     ],
+     "answer": 2,
+     "walkthrough": "Split the terms. The letters D, G, J are \\(4, 7, 10\\), climbing by three, so the next letter is \\(13\\), which is M. The numbers 2, 6, 18 have no constant difference, but each is three times the one before it, so the next is \\(18 \\times 3 = 54\\). The answer is M54. M24 adds six to the number instead of tripling it, L54 advances the letter only two, and N54 advances it four — three choices, each of which solves exactly one of the two strands."
+    },
+    {
+     "type": "h",
+     "text": "When the blank comes first"
+    },
+    {
+     "type": "p",
+     "text": "An item that asks what term should come first is the same problem run backward. Find the rule from the terms you can see, then invert it: a column that adds four going right subtracts four going left, and a column that steps back one going right steps forward one going left. Students lose these by finding the rule correctly and then applying it in the direction they read, which lands them one term past the front of the series instead of one term before it."
+    },
+    {
+     "type": "example",
+     "stem": "Look at this series: ___, HL, LP, PT, TX. What term should come first?",
+     "options": [
+      "CG",
+      "DH",
+      "DL",
+      "HD"
+     ],
+     "answer": 1,
+     "walkthrough": "Both columns move the same way here. First letters H, L, P, T are \\(8, 12, 16, 20\\), jumping four, so the term before H is \\(8 - 4 = 4\\), which is D. Second letters L, P, T, X are \\(12, 16, 20, 24\\), also jumping four, so the letter before L is \\(12 - 4 = 8\\), which is H. The answer is DH. CG steps both letters back five, DL gets the first letter right and leaves the second where it was, and HD is DH reversed."
+    },
+    {
+     "type": "h",
+     "text": "The traps"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "<b>Reciting instead of counting.</b> Slide one letter early in the alphabet and every letter after it is wrong. Count from the nearest anchor, and write the alphabet in the margin so you never have to recite at all.",
+      "<b>The reversed term.</b> XM for MX, PK for KP, FIM for MIF. Your own answer written backward is offered on nearly every letter item on the test. Read your letters left to right once more before you mark.",
+      "<b>Moving one column and forgetting the other.</b> Two letters means two rules. A choice that gets the first letter right and leaves the second unchanged is the single most common distractor here.",
+      "<b>Missing a letter that never moves.</b> If the same letter sits in the same position in every term, it belongs in your answer untouched. Choices that shift it look almost right.",
+      "<b>Reading a mixed term as one rule.</b> In C3, F12, I48 the letters add and the numbers multiply. Solve the strands separately or you will force one rule onto both.",
+      "<b>Following the wrong strand.</b> In K, L, K, LL, K, LLL the K is a separator, not part of the pattern. Continuing it gives K or KKKK, and both are offered.",
+      "<b>Stopping at Z.</b> The alphabet wraps. If a column runs past 26, subtract 26 and carry on from A."
+     ]
+    },
+    {
+     "type": "h",
+     "text": "When you are stuck"
+    },
+    {
+     "type": "ol",
+     "items": [
+      "Number the letters. Write the position of every letter under it and the series usually turns into something like \\(4, 7, 10\\), which you can read at a glance.",
+      "Test the choices. Drop each one into the blank and read the whole series through. On letter items only one choice normally survives a reading in both directions.",
+      "Eliminate on direction. If a column is climbing, any choice that moves that letter backward is gone, and that often leaves two.",
+      "Guess and move on. There is no penalty for a wrong answer on the HSPT, so mark your best remaining choice. Four letter items are not worth four minutes."
+     ]
+    },
+    {
+     "type": "h",
+     "text": "Worth memorizing"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "The alphabet anchors: A is 1, F is 6, K is 11, P is 16, U is 21, Z is 26.",
+      "Z wraps round to A. Past 26, subtract 26.",
+      "Each position in a multi-character term has its own rule, and the rules can be of different kinds.",
+      "A frozen letter is scenery. Copy it and move on.",
+      "The habit that pays for itself: write the alphabet with its numbers in the margin before you answer the first question of the section."
+     ]
+    }
+   ],
+   "section": "quant"
+  },
+  "Comparisons": {
    "title": "Comparisons",
    "sectionLabel": "Quantitative Skills",
    "weight": "About 16 to 19 of the 52 questions, split between figure comparisons and expression comparisons",
    "oneLine": "Three labelled quantities or figures are given, and you choose the statement that correctly orders them.",
-   "practiceTopic": "Mathematic Comparisons",
+   "practiceTopic": "Comparisons",
    "blocks": [
     {
      "type": "p",
-     "text": "A comparison item hands you two or three things, usually labelled A, B and C, and asks for the best answer. The four choices are not numbers — they are statements about how the three compare, built from \\(=\\), \\(\\lt\\) and \\(\\gt\\). Your job is to work out what each of them actually is and then find the statement that is true of them."
+     "text": "A comparison item hands you three things labelled A, B and C and asks for the best answer. The four choices are not numbers — they are statements about how the three compare, built from \\(=\\), \\(\\lt\\) and \\(\\gt\\). Your job is to work out what A, B and C actually are and then find the statement that is true of them."
     },
     {
      "type": "p",
@@ -1894,10 +2246,6 @@
     {
      "type": "note",
      "text": "Evaluate all three quantities <i>before</i> you read the choices, and write the three values down. Reading the choices first is the biggest time sink on this question type: you end up checking four statements against numbers you have not worked out yet, which means computing the same thing three or four times over. Three values first, then one pass through the choices."
-    },
-    {
-     "type": "p",
-     "text": "One honest limitation of this page. Several comparison items on the real test are built on a drawing rather than on numbers: three overlapping figures where you count how many triangles or rectangles each contains, identical circles with different portions shaded where you rank the fractions, and a single figure with three labelled parts to put in order. This site cannot show you those, so practise them in a book that can. The reasoning below is the same reasoning they need — count the equal parts rather than judging by eye, and use what the figure states rather than how it looks."
     },
     {
      "type": "h",
@@ -2042,7 +2390,7 @@
       "Derive what follows. If two angles of a triangle are given, the third is \\(180^\\circ\\) minus their sum. If a square's perimeter is given, its side is a quarter of it.",
       "Write the derived numbers down. Do not carry them in your head while reading four statements.",
       "Test each choice against those numbers, and reject any choice that depends on how the drawing looks.",
-      "If a figure seems to be missing a measurement you need, you have missed something you were given, because every quantity in a comparison item can be worked out. Read the figure again rather than looking for a way out."
+      "If a figure is missing a measurement you would need, the honest answer may be that the two cannot be compared. Check whether a choice says so."
      ]
     },
     {
@@ -2117,8 +2465,8 @@
        "Do not mean equal areas. Of all rectangles with a given perimeter, the square encloses the most area."
       ],
       [
-       "Doubling every dimension",
-       "Doubles the perimeter but multiplies the area by four. Doubling only one side of a rectangle doubles the area and does not double the perimeter."
+       "Doubling a side",
+       "Doubles the perimeter but multiplies the area by four."
       ]
      ]
     },
@@ -2167,16 +2515,309 @@
    ],
    "section": "quant"
   },
-  "Skills Check 2: Quantitative Skills": {
-   "title": "Quantitative Reasoning",
+  "Geometric Comparison": {
+   "title": "Geometric Comparison",
    "sectionLabel": "Quantitative Skills",
-   "weight": "About 12 to 17 of the 52 questions",
-   "oneLine": "A single arithmetic relationship is stated entirely in words, and you translate it into an equation and solve for the unknown.",
-   "practiceTopic": "Skills Check 2: Quantitative Skills",
+   "weight": "About six of the 52 Quantitative Skills questions",
+   "oneLine": "Three labeled figures are compared on area, perimeter, angle measure or length, and you pick the compound statement that is true of all three.",
+   "practiceTopic": "Geometric Comparison",
    "blocks": [
     {
      "type": "p",
-     "text": "This topic mixes the three Quantitative Skills shapes, and its biggest share is the one taught here: an item that gives you a single sentence. No diagram, no story about trains — just a relationship between numbers, written out in English, with one number left unnamed. <i>What number is four more than three times seven?</i> The arithmetic is easy. Turning the sentence into an equation is the whole test. The other two shapes have lessons of their own: number series and letter series are in <b>Number Series &amp; Patterns</b>, and items that ask you to rank A, B and C are in <b>Comparisons</b>."
+     "text": "A geometric comparison shows you three small drawings labeled \\(A\\), \\(B\\) and \\(C\\) with their measurements printed on them. The four choices are not numbers. Each one is a compound statement such as <i>The area of \\(A\\) equals the area of \\(C\\), and the area of \\(B\\) is greater than the area of \\(A\\)</i>, and exactly one of them is true of all three figures."
+    },
+    {
+     "type": "p",
+     "text": "Four things get compared, and the stem always says which: area, perimeter or distance around, the measure of an angle marked \\(x\\), or the length of a labeled segment. Read that word first. A student who computes three areas for a question that asked about perimeters has done all the work and still cannot answer, and the choices are written so that the area ordering is a different ordering from the perimeter ordering."
+    },
+    {
+     "type": "h",
+     "text": "The method"
+    },
+    {
+     "type": "ol",
+     "items": [
+      "Read the stem and name the measure. Area, perimeter, angle or length. Write that word at the top of your scratch space.",
+      "Copy the labeled numbers off each figure. Side lengths, the two given angles, the radius — whatever is actually printed.",
+      "Compute all three values before you look at a single choice. Write \\(A\\), \\(B\\) and \\(C\\) down the page with a number beside each.",
+      "Rank your three numbers and say the ordering to yourself: they are all equal, or two match and one is bigger, or they run \\(A\\), \\(C\\), \\(B\\).",
+      "Now read the choices once. Each has two clauses joined by <i>and</i>. Test the clauses separately and reject the choice the moment either clause fails.",
+      "If two choices survive, you have made an arithmetic slip somewhere. Recompute the value that appears in both."
+     ]
+    },
+    {
+     "type": "note",
+     "text": "Compute all three <i>before</i> the choices, every time. If you read the choices first you end up computing the area of \\(A\\) once for each choice that mentions it, which is four times the work in a section that gives you 35 seconds a question. Three numbers, then one pass down the list."
+    },
+    {
+     "type": "h",
+     "text": "Read the labels, not the picture"
+    },
+    {
+     "type": "p",
+     "text": "The drawings are not to scale and are frequently drawn to mislead. In one item on this site figure \\(B\\) is a rectangle 10 cm by 2 cm, easily the widest of the three on the page, and it has the smallest area of the three. In another, figure \\(C\\) is a square 5 cm on a side that looks smaller across than a rectangle 8 cm by 3 cm, and it is the largest. Width is not area. Height is not perimeter. Nothing you can see with your eye is evidence."
+    },
+    {
+     "type": "p",
+     "text": "The same goes the other way. If a figure is called a square, every side is equal even when the drawing looks oblong. If a triangle is called equilateral, all three sides match the one number printed on it. If a right-angle box is drawn, the angle is \\(90^\\circ\\); if no box is drawn, an angle that looks square is just an angle. Work from the words and the numbers only."
+    },
+    {
+     "type": "h",
+     "text": "The formulas you need"
+    },
+    {
+     "type": "p",
+     "text": "The whole question type runs on six formulas and four angle totals. There is nothing else to learn, so learn these to the point where you are not deriving them under time pressure."
+    },
+    {
+     "type": "table",
+     "head": [
+      "Figure",
+      "Area",
+      "Distance around"
+     ],
+     "rows": [
+      [
+       "Square, side \\(s\\)",
+       "\\(s^2\\)",
+       "\\(4s\\)"
+      ],
+      [
+       "Rectangle, \\(l\\) by \\(w\\)",
+       "\\(lw\\)",
+       "\\(2l + 2w\\)"
+      ],
+      [
+       "Triangle, base \\(b\\), height \\(h\\)",
+       "\\(\\frac{1}{2}bh\\)",
+       "add the three sides"
+      ],
+      [
+       "Right triangle, legs \\(a\\) and \\(b\\)",
+       "\\(\\frac{1}{2}ab\\)",
+       "\\(a + b\\) plus the hypotenuse"
+      ],
+      [
+       "Parallelogram, base \\(b\\), height \\(h\\)",
+       "\\(bh\\)",
+       "add all four sides"
+      ],
+      [
+       "Circle, radius \\(r\\)",
+       "\\(\\pi r^2\\)",
+       "\\(2\\pi r\\), with \\(\\pi \\approx 3.14\\)"
+      ],
+      [
+       "L shape or other composite",
+       "split it into rectangles and add",
+       "add only the outside edges"
+      ]
+     ]
+    },
+    {
+     "type": "example",
+     "stem": "Figure \\(A\\) is a rectangle 6 cm by 4 cm, figure \\(B\\) is a rectangle 8 cm by 3 cm and figure \\(C\\) is a square 5 cm on each side. Compare the areas and choose the best answer.",
+     "options": [
+      "The area of \\(A\\) equals the area of \\(B\\), and the area of \\(C\\) equals the area of \\(A\\).",
+      "The area of \\(A\\) equals the area of \\(B\\), and the area of \\(C\\) is greater than the area of \\(A\\).",
+      "The area of \\(A\\) is greater than the area of \\(B\\), and the area of \\(B\\) is greater than the area of \\(C\\).",
+      "The area of \\(A\\) equals the area of \\(B\\), and the area of \\(C\\) is less than the area of \\(A\\)."
+     ],
+     "answer": 1,
+     "walkthrough": "Three numbers first. \\(A\\) is \\(6 \\times 4 = 24\\), \\(B\\) is \\(8 \\times 3 = 24\\) and \\(C\\) is \\(5 \\times 5 = 25\\), all in square centimeters. So \\(A\\) and \\(B\\) match and \\(C\\) beats both by one. Now down the choices: the second is the only one whose two clauses both hold. The last choice is the trap, and it is a trap about the drawing rather than the arithmetic — \\(C\\) is the shortest figure across the page, so it looks like the small one, and it is the biggest by a single square centimeter."
+    },
+    {
+     "type": "h",
+     "text": "Triangles and composite figures"
+    },
+    {
+     "type": "p",
+     "text": "Two figures cause almost all the arithmetic errors in this question type. The first is the triangle: its area is <i>half</i> the base times the height, and forgetting the half turns a triangle of area 36 into one of area 72, which is enough to reverse the whole ordering. The second is the composite figure, usually an L shape. Cut it into two rectangles, find each area and add them. Treating an L shape as the full rectangle it sits inside inflates the area by the piece that was cut out, and the choices are built to reward exactly that mistake."
+    },
+    {
+     "type": "example",
+     "stem": "Figure \\(A\\) is a square 6 cm on each side, figure \\(B\\) is a rectangle 9 cm by 4 cm and figure \\(C\\) is a right triangle with legs of 12 cm and 6 cm. Compare the areas and choose the best answer.",
+     "options": [
+      "The area of \\(A\\) is greater than the area of \\(B\\), and the area of \\(B\\) is greater than the area of \\(C\\).",
+      "The area of \\(A\\) equals the area of \\(B\\), and the area of \\(B\\) equals the area of \\(C\\).",
+      "The area of \\(A\\) equals the area of \\(B\\), and the area of \\(C\\) is greater than the area of \\(B\\).",
+      "The area of \\(A\\) equals the area of \\(B\\), and the area of \\(C\\) is less than the area of \\(B\\)."
+     ],
+     "answer": 1,
+     "walkthrough": "\\(A\\) is \\(6 \\times 6 = 36\\). \\(B\\) is \\(9 \\times 4 = 36\\). \\(C\\) is \\(\\frac{1}{2} \\times 12 \\times 6 = 36\\). All three are 36 square centimeters, so the second choice is right and the item is testing one thing only. Skip the half on the triangle and you get 72, which makes \\(C\\) the largest and sends you to the third choice — the choice that is there for precisely that slip. When a figure is a triangle, halve before you compare."
+    },
+    {
+     "type": "h",
+     "text": "Area and perimeter are independent"
+    },
+    {
+     "type": "p",
+     "text": "This is the fact the question type is built on, and it is worth stating flatly: a figure with a larger area can have a smaller perimeter. A square 6 cm on a side has area 36 and perimeter 24. A rectangle 12 cm by 2 cm has area 24 and perimeter 28. The square has the bigger area and the shorter distance around, and if you rank one measure by looking at the other you will be wrong."
+    },
+    {
+     "type": "p",
+     "text": "Two more consequences follow. Equal perimeters do not mean equal areas: rectangles 7 cm by 3 cm, 5 cm by 5 cm and 8 cm by 2 cm all have a perimeter of 20 cm and areas of 21, 25 and 16 square centimeters. And equal areas do not mean equal perimeters: a square 6 cm on a side and a rectangle 9 cm by 4 cm both cover 36 square centimeters, but the perimeters are 24 cm and 26 cm. Of all rectangles holding a given area, the square has the shortest perimeter, and the more stretched the rectangle the more edge it needs."
+    },
+    {
+     "type": "example",
+     "stem": "Figure \\(A\\) is a square 6 cm on each side, figure \\(B\\) is a rectangle 12 cm by 2 cm and figure \\(C\\) is a rectangle 9 cm by 4 cm. Compare the perimeters and choose the best answer.",
+     "options": [
+      "The perimeter of \\(B\\) is less than the perimeter of \\(C\\), and the perimeter of \\(C\\) is less than the perimeter of \\(A\\).",
+      "The perimeter of \\(A\\) is less than the perimeter of \\(C\\), and the perimeter of \\(C\\) is less than the perimeter of \\(B\\).",
+      "The perimeter of \\(A\\) equals the perimeter of \\(C\\), and the perimeter of \\(B\\) is greater than the perimeter of \\(A\\).",
+      "The perimeter of \\(A\\) is greater than the perimeter of \\(C\\), and the perimeter of \\(C\\) is greater than the perimeter of \\(B\\)."
+     ],
+     "answer": 1,
+     "walkthrough": "The stem says perimeters, so add the sides and leave the areas alone. \\(A\\) is \\(4 \\times 6 = 24\\) cm, \\(B\\) is \\(2(12) + 2(2) = 28\\) cm and \\(C\\) is \\(2(9) + 2(4) = 26\\) cm, giving \\(A\\) less than \\(C\\) less than \\(B\\). Notice what the areas would have told you: 36, 24 and 36 square centimeters. \\(A\\) and \\(C\\) cover the same ground and need different amounts of fence, and \\(B\\) has the smallest area with the longest perimeter. Anyone who ranks this item by area gets a tie at the top and no matching choice."
+    },
+    {
+     "type": "h",
+     "text": "Angles"
+    },
+    {
+     "type": "p",
+     "text": "Angle items give you two of the angles in each figure and mark the third with an \\(x\\). The only question is what the angles in that figure add to, and there are three answers: a triangle totals \\(180^\\circ\\), angles filling a straight line total \\(180^\\circ\\), and angles filling the space around a point total \\(360^\\circ\\). Subtract the two given angles from the right total and you have \\(x\\). Using \\(180^\\circ\\) where the figure needs \\(360^\\circ\\) produces negative angles, which is your signal that you picked the wrong total rather than that the item is broken."
+    },
+    {
+     "type": "table",
+     "head": [
+      "Where the angles sit",
+      "What they add to"
+     ],
+     "rows": [
+      [
+       "The three angles of a triangle",
+       "\\(180^\\circ\\)"
+      ],
+      [
+       "Angles filling a straight line",
+       "\\(180^\\circ\\)"
+      ],
+      [
+       "Angles filling the space around a point",
+       "\\(360^\\circ\\)"
+      ],
+      [
+       "The four angles of a quadrilateral",
+       "\\(360^\\circ\\)"
+      ],
+      [
+       "A right angle, marked with a small box",
+       "\\(90^\\circ\\)"
+      ],
+      [
+       "Each angle of an equilateral triangle",
+       "\\(60^\\circ\\)"
+      ]
+     ]
+    },
+    {
+     "type": "example",
+     "stem": "In each of three figures, three rays meet at a point, so the angles around that point add to \\(360^\\circ\\). In \\(A\\) the two given angles are \\(130^\\circ\\) and \\(140^\\circ\\); in \\(B\\) they are \\(110^\\circ\\) and \\(155^\\circ\\); in \\(C\\) they are \\(145^\\circ\\) and \\(110^\\circ\\). The third angle in each figure is marked \\(x\\). Choose the best answer.",
+     "options": [
+      "The angle \\(x\\) in \\(A\\) is less than the angle \\(x\\) in \\(B\\), and the angle \\(x\\) in \\(B\\) is less than the angle \\(x\\) in \\(C\\).",
+      "The angle \\(x\\) in \\(C\\) is less than the angle \\(x\\) in \\(B\\), and the angle \\(x\\) in \\(B\\) is less than the angle \\(x\\) in \\(A\\).",
+      "The angle \\(x\\) in \\(A\\) equals the angle \\(x\\) in \\(C\\), and the angle \\(x\\) in \\(B\\) is less than the angle \\(x\\) in \\(A\\).",
+      "The angle \\(x\\) in \\(A\\) equals the angle \\(x\\) in \\(B\\), and the angle \\(x\\) in \\(C\\) is greater than the angle \\(x\\) in \\(B\\)."
+     ],
+     "answer": 0,
+     "walkthrough": "Add the two given angles in each figure and subtract from \\(360\\). In \\(A\\), \\(130 + 140 = 270\\) and \\(360 - 270 = 90\\). In \\(B\\), \\(110 + 155 = 265\\) and \\(360 - 265 = 95\\). In \\(C\\), \\(145 + 110 = 255\\) and \\(360 - 255 = 105\\). So \\(x\\) runs \\(90\\), \\(95\\), \\(105\\) and the first choice is right. Subtracting from \\(180\\) instead gives \\(-90\\), \\(-85\\) and \\(-75\\), and because the more negative value belongs to the figure with the largest true angle, that error reverses the ordering and lands you on the second choice."
+    },
+    {
+     "type": "h",
+     "text": "Comparing lengths"
+    },
+    {
+     "type": "p",
+     "text": "Length items compare labeled segments inside one figure rather than three separate drawings. Three facts carry almost all of them. A square's diagonal is longer than its side, and the two diagonals of a square are equal to each other. In a circle the diameter is the longest chord, so any chord that misses the center is shorter than the diameter, and a chord may be longer or shorter than the radius depending on where it sits. And when a segment is divided at two points, overlapping pieces cancel: comparing \\(WY\\) with \\(XZ\\) on a segment cut at \\(X\\) and \\(Y\\) really comes down to comparing \\(WX\\) with \\(YZ\\), because both totals contain \\(XY\\)."
+    },
+    {
+     "type": "example",
+     "stem": "Square \\(MNOP\\) has sides of 5 cm, and both diagonals, \\(MO\\) and \\(NP\\), have been drawn. Choose the best answer.",
+     "options": [
+      "\\(MN\\) is greater than \\(MO\\), and \\(MO\\) equals \\(NP\\).",
+      "\\(MO\\) is greater than \\(MN\\), and \\(MO\\) equals \\(NP\\).",
+      "\\(MO\\) is greater than \\(MN\\), and \\(MO\\) is greater than \\(NP\\).",
+      "\\(MO\\) equals \\(MN\\), and \\(MO\\) equals \\(NP\\)."
+     ],
+     "answer": 1,
+     "walkthrough": "\\(MN\\) is a side, so it is 5 cm. \\(MO\\) and \\(NP\\) are the two diagonals of the same square, so they are equal to each other, and a diagonal is always longer than a side — here about 7 cm. Both clauses of the second choice hold. The third choice is the one to watch: its first clause is true, and a student who checks only the clause they were already sure of will take it. In a square the diagonals are always equal, so a choice that makes one longer than the other cannot be right whatever the drawing looks like."
+    },
+    {
+     "type": "h",
+     "text": "Testing a compound choice"
+    },
+    {
+     "type": "p",
+     "text": "Every choice makes two claims joined by <i>and</i>, and a choice is wrong if either claim is wrong. That is good news, because it means you can often kill a choice by checking one clause. It is also where the points go, since three of the four choices normally contain one true clause and one false one, and a half-true statement reads as correct if you stop after the comma."
+    },
+    {
+     "type": "ol",
+     "items": [
+      "Cover the second clause and test the first against your three numbers.",
+      "If the first clause fails, cross the whole choice out and move on. Do not read the rest of it.",
+      "If the first clause holds, uncover the second and test it just as carefully.",
+      "Check the clause you are least sure of first when one clause involves a value you computed quickly."
+     ]
+    },
+    {
+     "type": "h",
+     "text": "The traps"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "<b>Comparing the wrong measure.</b> The stem names area, perimeter, angle or length. The three figures are built so that the area ordering and the perimeter ordering disagree.",
+      "<b>Forgetting to halve a triangle.</b> Area is \\(\\frac{1}{2}bh\\). This single slip is the most common wrong answer on area items involving a triangle.",
+      "<b>Judging by the drawing.</b> The widest figure is regularly the smallest in area and the tallest triangle regularly has the shortest perimeter. Figures are not drawn to scale.",
+      "<b>Assuming equal areas mean equal perimeters, or the reverse.</b> They are independent, and a larger area can come with a smaller perimeter.",
+      "<b>Swapping the circle formulas.</b> Area is \\(\\pi r^2\\) and the distance around is \\(2\\pi r\\). Putting a radius into \\(\\pi d\\) halves the circumference and puts the circle last in the ranking.",
+      "<b>Treating a composite figure as the rectangle around it.</b> Split an L shape into two rectangles and add. The uncut rectangle is always an available wrong answer.",
+      "<b>Using the wrong angle total.</b> Angles around a point make \\(360^\\circ\\), not \\(180^\\circ\\). If your angle comes out negative, you used the wrong total.",
+      "<b>Accepting a half-true choice.</b> Both clauses have to hold. Test them one at a time."
+     ]
+    },
+    {
+     "type": "h",
+     "text": "When you are stuck"
+    },
+    {
+     "type": "ol",
+     "items": [
+      "Compute the value you are surest of and eliminate on it alone. If you know \\(A\\) is 24, every choice that makes \\(A\\) the largest is gone, and that usually removes two.",
+      "Look for the equals sign. These items are written so that two of the three figures very often come out the same, so check the choices containing \\(=\\) first.",
+      "Rank instead of calculating exactly. A circle of radius 3 cm has area a bit over 28 square centimeters, which is enough to place it between 27 and 36 without touching \\(\\pi\\) again.",
+      "Guess and move on. There is no penalty for a wrong answer on the HSPT, and one geometry item is not worth the three series questions it would cost you."
+     ]
+    },
+    {
+     "type": "h",
+     "text": "Worth memorizing"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "The six area formulas in the table above, and that a triangle takes the half.",
+      "Circle: area \\(\\pi r^2\\), distance around \\(2\\pi r\\), diameter \\(2r\\), \\(\\pi \\approx 3.14\\).",
+      "The angle totals: \\(180^\\circ\\) for a triangle and for a straight line, \\(360^\\circ\\) around a point and for a quadrilateral.",
+      "A square's diagonal is longer than its side, and the two diagonals of a square are equal.",
+      "The diameter is the longest chord in a circle.",
+      "Area and perimeter are independent. The bigger figure is not automatically the one with more edge."
+     ]
+    }
+   ],
+   "section": "quant"
+  },
+  "Number Manipulation": {
+   "title": "Number Manipulation",
+   "sectionLabel": "Quantitative Skills",
+   "weight": "About 12 to 17 of the 52 questions",
+   "oneLine": "A single arithmetic relationship is stated entirely in words, and you translate it into an equation and solve for the unknown.",
+   "practiceTopic": "Number Manipulation",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "These items give you one sentence. No diagram, no story about trains, no list of quantities to rank — just a relationship between numbers, written out in English, with one number left unnamed. <i>What number is four more than three times seven?</i> The arithmetic is easy. Turning the sentence into an equation is the whole test."
     },
     {
      "type": "p",
@@ -2296,7 +2937,7 @@
     },
     {
      "type": "p",
-     "text": "Two rows in that table deserve a second look. <i>Divided into</i> reverses the order you expect: <i>four divided into 20</i> is \\(20 \\div 4 = 5\\), not \\(4 \\div 20\\). And <i>the difference between</i> takes the two numbers in the order the sentence names them. On this test the first one named is almost always the larger, which is why a difference here comes out positive — but follow the sentence, not the expectation."
+     "text": "Two rows in that table deserve a second look. <i>Divided into</i> reverses the order you expect: <i>four divided into 20</i> is \\(20 \\div 4 = 5\\), not \\(4 \\div 20\\). And <i>the difference between</i> is written large number first, because a difference on this test is not meant to come out negative."
     },
     {
      "type": "h",
@@ -2381,7 +3022,7 @@
     },
     {
      "type": "p",
-     "text": "The second is testing the answer choices. When the translation is awkward, stop translating and start substituting. You have four candidates and a sentence you can check a candidate against, and checking is much faster than solving. Start with the middle choice: if it comes out too small you know to go up, and you have often cut the work in half on the first try."
+     "text": "The second is testing the answer choices. When the translation is awkward, stop translating and start substituting. You have four candidates and a sentence you can check a candidate against, and checking is much faster than solving. Start with the second-smallest choice: if it comes out too small you know to go up, and you have often cut the work in half on the first try."
     },
     {
      "type": "h",
@@ -2425,7 +3066,7 @@
       "320"
      ],
      "answer": 2,
-     "walkthrough": "Deal with the right-hand side first, because it is closed: <i>six more than 10</i> is \\(16\\). Now the sentence reads <i>twenty percent of what number is 16</i>, so \\(0.20n = 16\\) and \\(n = 16 \\div 0.20 = 80\\). Check it: \\(20\\%\\) of 80 is \\(16\\). The trap is 320, from multiplying \\(16 \\times 20\\) instead of dividing by \\(0.20\\) — whenever a percent under 100 is taken <i>of</i> the unknown, the unknown must be several times the result. Here it is five times it, which is why 32 and 48 are far too small."
+     "walkthrough": "Deal with the right-hand side first, because it is closed: <i>six more than 10</i> is \\(16\\). Now the sentence reads <i>twenty percent of what number is 16</i>, so \\(0.20n = 16\\) and \\(n = 16 \\div 0.20 = 80\\). Check it: \\(20\\%\\) of 80 is \\(16\\). The trap is 320, from multiplying \\(16 \\times 20\\) instead of dividing by \\(0.20\\) — whenever a percent under 100 is taken <i>of</i> the unknown, the unknown must be larger than the result, so 32 and 48 are also too small to survive a size check."
     },
     {
      "type": "example",
@@ -2462,7 +3103,7 @@
       "<b>Reversed division.</b> <i>Divided into</i> is the opposite of <i>divided by</i>. Read it twice.",
       "<b>Stopping one step early.</b> If the sentence asks for twice a number, or for the number's square, the number itself will be sitting there as a choice.",
       "<b>Answering the wrong unknown.</b> Some sentences mention two quantities. Underline the one the question is asking for before you solve.",
-      "<b>Order of operations inside the words.</b> <i>Four more than three times seven</i> multiplies first. <i>Three times the sum of four and seven</i> adds first. Look for the words that group two numbers together — <i>the sum of</i>, <i>the product of</i>, <i>the difference between</i> — and do that group first.",
+      "<b>Order of operations inside the words.</b> <i>Four more than three times seven</i> multiplies first. <i>Three times four more than seven</i> adds first. The word order tells you which.",
       "<b>Percent of an unknown.</b> If a percent below 100 is taken of the unknown and equals a result, the unknown is larger than the result. A choice smaller than the result cannot be right.",
       "<b>Sum of squares against square of a sum.</b> They are different numbers and both usually appear in the choices."
      ]
@@ -2634,7 +3275,7 @@
     },
     {
      "type": "p",
-     "text": "For most of history, a coastline at night told a sailor almost nothing. Rocks, sandbars and the mouth of a safe harbor all looked identical from the deck of a ship, and a crew that guessed wrong seldom got a second chance. A lighthouse solved that problem in the simplest way available: it put a fixed, recognizable light at or near the danger. The light did not tell a captain where to steer. It told him where he was, and the steering was still his own decision."
+     "text": "For most of history, a coastline at night told a sailor almost nothing. Rocks, sandbars and the mouth of a safe harbor all looked identical from the deck of a ship, and a crew that guessed wrong seldom got a second chance. A lighthouse solved that problem in the simplest way available: it put a fixed, recognizable light exactly where the danger was. The light did not tell a captain where to steer. It told him where he was, and the steering was still his own decision."
     },
     {
      "type": "p",
@@ -2658,7 +3299,7 @@
       "the difficulty of building towers on dangerous stretches of coastline"
      ],
      "answer": 1,
-     "walkthrough": "Run each choice past all four paragraphs. The lens is paragraph three only, and satellite navigation is paragraph four only — both are true, both are narrow, and both are the standard trap. The difficulty of building the towers is never discussed at all, so that choice is out for the opposite reason. Only the second choice describes paragraph one, paragraph two, paragraph three and paragraph four."
+     "walkthrough": "Run each choice past all four paragraphs. The lens is paragraph three only, and satellite navigation is paragraph four only — both are true, both are narrow, and both are the standard trap. Building towers is never discussed at all, so that choice is out for the opposite reason. Only the second choice describes paragraph one, paragraph two, paragraph three and paragraph four."
     },
     {
      "type": "example",
@@ -2772,7 +3413,7 @@
       "will not leave the hive unless the flowers are close by"
      ],
      "answer": 1,
-     "walkthrough": "Collect the lines. The dance happens “in the dark”, the followers use “their antennae” and the audience “cannot see her”. Three separate statements force touch, so this is an inference of exactly one step. The first choice is contradicted outright, because the recruits fly to flowers “they have never seen”, and the third is contradicted by the same lines that give you the answer: it is dark and the followers “cannot see her”. and the fourth is the classic plausible-but-unforced answer: distance is mentioned, a refusal to fly is not."
+     "walkthrough": "Collect the lines. The dance happens “in the dark”, the followers use “their antennae” and the audience “cannot see her”. Three separate statements force touch, so this is an inference of exactly one step. The first and third choices are contradicted outright — the recruits fly to flowers “they have never seen” — and the fourth is the classic plausible-but-unforced answer: distance is mentioned, a refusal to fly is not."
     },
     {
      "type": "example",
@@ -2796,7 +3437,7 @@
       "impatient with the scientists who disagreed"
      ],
      "answer": 1,
-     "walkthrough": "Point at the words. “Decades of patient observation”, “settled… by better experiments” and “no longer in doubt” are approving but measured, which is what respectful means here — appreciative of the work, and careful about the evidence. The first choice belongs to the doubters the author is describing, not to the author. The third overshoots into excitement the text never shows, and the fourth invents an irritation with the doubters — the passage treats their doubt as a reasonable response to noisy data."
+     "walkthrough": "Point at the words. “Decades of patient observation”, “settled… by better experiments” and “no longer in doubt” are approving but measured, which is exactly what respectful means. The first choice belongs to the doubters the author is describing, not to the author. The third overshoots into excitement the text never shows, and the fourth invents an irritation with the doubters — the passage treats their doubt as a reasonable response to noisy data."
     },
     {
      "type": "h",
@@ -2804,7 +3445,7 @@
     },
     {
      "type": "p",
-     "text": "Until the middle of the twentieth century, cargo crossed the ocean loose. Boxes, sacks, barrels and crates went aboard one at a time and were stacked into the hold by hand, and the same work was done again in reverse at the far end. A ship could spend longer tied to a pier than it spent at sea. Loading was slow, theft was ordinary, and the cost of moving goods was governed not by the voyage but by what happened at each end of it."
+     "text": "Before the 1960s, cargo crossed the ocean loose. Boxes, sacks, barrels and crates went aboard one at a time and were stacked into the hold by hand, and the same work was done again in reverse at the far end. A ship could spend longer tied to a pier than it spent at sea. Loading was slow, theft was ordinary, and the cost of moving goods was governed not by the voyage but by what happened at each end of it."
     },
     {
      "type": "p",
@@ -2840,7 +3481,7 @@
       "the author’s own opinion of present-day shipping companies"
      ],
      "answer": 0,
-     "walkthrough": "These questions ask what the paragraph asserts without showing. The last paragraph says three groups resisted the change and never says what any one of them stood to lose, so an example is the missing piece. A crane belongs to paragraph two and would do nothing for this one, a list of ports would answer a question nobody asked, and an opinion would not make an argument clearer — it would replace it."
+     "walkthrough": "These questions ask what the paragraph asserts without showing. The last paragraph says three groups resisted the change and never says what any of them feared, so an example is the missing piece. The crane is already explained in paragraph two, a list of ports would answer a question nobody asked, and an opinion would not make an argument clearer — it would replace it."
     },
     {
      "type": "h",
@@ -2893,16 +3534,16 @@
    ],
    "section": "reading"
   },
-  "Vocabulary": {
+  "Vocabulary in Context": {
    "title": "Vocabulary in Context",
    "sectionLabel": "Reading",
    "weight": "22 of the 62 Reading questions",
    "oneLine": "A short phrase with one word set apart, and four choices — you pick the meaning that word carries in that phrase.",
-   "practiceTopic": "Vocabulary",
+   "practiceTopic": "Vocabulary in Context",
    "blocks": [
     {
      "type": "p",
-     "text": "The last 22 questions of the Reading section are vocabulary. On this site they sit with the other word questions, because that is how you will want to practise them. Each one is a short phrase with a single word set apart in it, followed by four choices. There is no passage attached and the phrases have nothing to do with one another — each question is a separate three-second world. Your job is to say what that word means <i>in that phrase</i>."
+     "text": "The last 22 questions of the Reading section are vocabulary. Each one is a short phrase with a single word set apart in it, followed by four choices. There is no passage attached and the phrases have nothing to do with one another — each question is a separate three-second world. Your job is to say what that word means <i>in that phrase</i>."
     },
     {
      "type": "p",
@@ -3096,8 +3737,8 @@
      "rows": [
       [
        "-ous, -ful, -ive, -al",
-       "adjective (describes something), though -al also ends some nouns",
-       "perilous, decisive; but arrival, refusal"
+       "adjective (describes something)",
+       "perilous, decisive"
       ],
       [
        "-less",
@@ -3126,8 +3767,8 @@
       ],
       [
        "-ly",
-       "usually an adverb; sometimes an adjective",
-       "quietly, but also friendly"
+       "adverb (how something is done)",
+       "quietly"
       ]
      ]
     },
@@ -3145,7 +3786,7 @@
       "unyielding"
      ],
      "answer": 3,
-     "walkthrough": "Take it apart: <i>in-</i> is the negative prefix, and the middle of the word is the same root that gives <i>transact</i> and <i>transaction</i> — something to do with making a deal. So an intransigent negotiator is one who will not deal: unyielding. Do not read the negative prefix as a sign the word is unflattering — <i>invaluable</i> and <i>independent</i> both start the same way. It is the root that rules out “skilled”, “dishonest” and “inexperienced”: none of them is about refusing to move."
+     "walkthrough": "Take it apart: <i>in-</i> is the negative prefix, and the middle of the word is the same root that gives <i>transact</i> and <i>transaction</i> — something to do with making a deal. So an intransigent negotiator is one who will not deal: unyielding. Even without the root, the negative prefix tells you the word is unflattering, which removes “skilled” immediately, and dishonest and inexperienced are unflattering in ways the prefix does not point at."
     },
     {
      "type": "h",
@@ -3216,12 +3857,12 @@
    ],
    "section": "reading"
   },
-  "Math Principles": {
+  "Number Sense": {
    "title": "Number Sense",
    "sectionLabel": "Mathematics",
    "weight": "Part of the 24 Mathematics–Concepts questions",
    "oneLine": "These questions test how well you know what numbers are made of — place value, factors, fractions, percents, exponents and roots — without a story attached.",
-   "practiceTopic": "Math Principles",
+   "practiceTopic": "Number Sense",
    "blocks": [
     {
      "type": "p",
@@ -3284,7 +3925,7 @@
     },
     {
      "type": "p",
-     "text": "The <b>greatest common factor</b> is the product of every prime that appears in both, each taken at its lowest power. The <b>least common multiple</b> is the product of every prime that appears in either, each taken at its highest power. With \\(12 = 2^2 \\times 3\\) and \\(18 = 2 \\times 3^2\\), the GCF is \\(2 \\times 3 = 6\\) and the LCM is \\(2^2 \\times 3^2 = 36\\). The LCM of two denominators is the least common denominator, which is how you add \\(\\frac{5}{12} + \\frac{7}{18}\\): rewrite both over 36 and get \\(\\frac{15}{36} + \\frac{14}{36} = \\frac{29}{36}\\)."
+     "text": "The <b>greatest common factor</b> is the product of the primes the two numbers share. The <b>least common multiple</b> is the product of every prime that appears in either, each taken at its highest power. With \\(12 = 2^2 \\times 3\\) and \\(18 = 2 \\times 3^2\\), the GCF is \\(2 \\times 3 = 6\\) and the LCM is \\(2^2 \\times 3^2 = 36\\). The LCM of two denominators is the least common denominator, which is how you add \\(\\frac{5}{12} + \\frac{7}{18}\\): rewrite both over 36 and get \\(\\frac{15}{36} + \\frac{14}{36} = \\frac{29}{36}\\)."
     },
     {
      "type": "h",
@@ -3492,22 +4133,22 @@
       [
        "7",
        "49",
-       "343"
+       "—"
       ],
       [
        "8",
        "64",
-       "512"
+       "—"
       ],
       [
        "9",
        "81",
-       "729"
+       "—"
       ],
       [
        "10",
        "100",
-       "1000"
+       "—"
       ],
       [
        "11",
@@ -3602,7 +4243,7 @@
       "64 and 66"
      ],
      "answer": 1,
-     "walkthrough": "Find the perfect squares on either side. \\(11^2 = 121\\) and \\(12^2 = 144\\), and 130 sits between them, so the root sits between 11 and 12. The last choice, 64 and 66, is the trap for students who halve 130 instead of rooting it. If you do not have the squares memorized, count upward from 10: \\(10^2 = 100\\), \\(11^2 = 121\\) and \\(12^2 = 144\\)."
+     "walkthrough": "Find the perfect squares on either side. \\(11^2 = 121\\) and \\(12^2 = 144\\), and 130 sits between them, so the root sits between 11 and 12. Choice 4 is the trap for students who halve 130 instead of rooting it. If you do not have the squares memorized, count upward from 10: \\(10^2 = 100\\), \\(11^2 = 121\\) and \\(12^2 = 144\\)."
     },
     {
      "type": "example",
@@ -3653,7 +4294,7 @@
      "type": "ul",
      "items": [
       "The fraction, decimal and percent table above.",
-      "The squares to \\(15^2 = 225\\) and the cubes to \\(10^3 = 1{,}000\\).",
+      "The squares to \\(15^2 = 225\\) and the cubes to \\(6^3 = 216\\).",
       "The primes below 30 and the divisibility rules for 2, 3, 4, 5, 6, 9 and 10.",
       "The powers of ten, in both directions: \\(10^3 = 1{,}000\\) and \\(10^{-3} = 0.001\\).",
       "The order of operations, including that the two pairs run left to right.",
@@ -3663,12 +4304,751 @@
    ],
    "section": "math"
   },
-  "Skills Check 4: Mathematic Skills": {
-   "title": "Computation & Geometry",
+  "Fractions, Decimals and Percents": {
+   "title": "Fractions, Decimals and Percents",
+   "sectionLabel": "Mathematics",
+   "weight": "About eight of the 64 Mathematics questions",
+   "oneLine": "These questions ask you to move a number between fraction, decimal and percent form and to compute with it accurately once it is there.",
+   "practiceTopic": "Fractions, Decimals and Percents",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Every question in this group is one number wearing three different outfits. \\(\\frac{3}{8}\\), \\(0.375\\) and \\(37.5\\%\\) are the same quantity, and the test moves between them constantly: a fraction written as a percent, a percent taken of a quantity, a price that has fallen by some percent, a decimal multiplication with the point in a particular place. About eight of the 64 Mathematics questions come from this group, and a good many word problems lean on it as well."
+    },
+    {
+     "type": "p",
+     "text": "None of the arithmetic here is difficult. What makes these questions difficult is precision about three things — which form the answer has to be in, which number the percent is being taken <i>of</i> and where the decimal point lands. Nearly every wrong choice on the page was built by a student who was careless about exactly one of those."
+    },
+    {
+     "type": "h",
+     "text": "The three forms"
+    },
+    {
+     "type": "p",
+     "text": "To go from a <b>fraction to a decimal</b>, divide the top by the bottom. To go from a <b>decimal to a percent</b>, move the point two places right and write the percent sign. To go from a <b>percent to a decimal</b>, move the point two places left and drop the sign. To go from a <b>percent to a fraction</b>, write it over 100 and reduce. Every conversion on the test is one of those four moves or two of them in a row."
+    },
+    {
+     "type": "table",
+     "head": [
+      "Going from",
+      "To",
+      "Do this",
+      "Example"
+     ],
+     "rows": [
+      [
+       "Fraction",
+       "Decimal",
+       "divide the top by the bottom",
+       "\\(\\frac{5}{8} = 5 \\div 8 = 0.625\\)"
+      ],
+      [
+       "Decimal",
+       "Percent",
+       "move the point two places right",
+       "\\(0.625 \\to 62.5\\%\\)"
+      ],
+      [
+       "Fraction",
+       "Percent",
+       "divide, then move two places right",
+       "\\(\\frac{3}{8} \\to 0.375 \\to 37.5\\%\\)"
+      ],
+      [
+       "Percent",
+       "Decimal",
+       "move the point two places left",
+       "\\(8\\% \\to 0.08\\)"
+      ],
+      [
+       "Percent",
+       "Fraction",
+       "write it over 100 and reduce",
+       "\\(40\\% = \\frac{40}{100} = \\frac{2}{5}\\)"
+      ],
+      [
+       "Decimal",
+       "Fraction",
+       "read the last place, then reduce",
+       "\\(0.35 = \\frac{35}{100} = \\frac{7}{20}\\)"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": "Two places, not one, and not none. A fraction that divides to \\(0.375\\) is \\(37.5\\%\\), not \\(3.75\\%\\) and not \\(0.375\\%\\). Both of those appear as choices on this test more often than any other error in the group, because both come from a student who did the division correctly and then stopped thinking."
+    },
+    {
+     "type": "table",
+     "head": [
+      "Fraction",
+      "Decimal",
+      "Percent"
+     ],
+     "rows": [
+      [
+       "\\(\\frac{1}{100}\\)",
+       "0.01",
+       "1%"
+      ],
+      [
+       "\\(\\frac{1}{20}\\)",
+       "0.05",
+       "5%"
+      ],
+      [
+       "\\(\\frac{1}{10}\\)",
+       "0.1",
+       "10%"
+      ],
+      [
+       "\\(\\frac{1}{8}\\)",
+       "0.125",
+       "12.5%"
+      ],
+      [
+       "\\(\\frac{1}{6}\\)",
+       "\\(0.16\\overline{6}\\)",
+       "\\(16\\frac{2}{3}\\%\\)"
+      ],
+      [
+       "\\(\\frac{1}{5}\\)",
+       "0.2",
+       "20%"
+      ],
+      [
+       "\\(\\frac{1}{4}\\)",
+       "0.25",
+       "25%"
+      ],
+      [
+       "\\(\\frac{1}{3}\\)",
+       "\\(0.3\\overline{3}\\)",
+       "\\(33\\frac{1}{3}\\%\\)"
+      ],
+      [
+       "\\(\\frac{3}{8}\\)",
+       "0.375",
+       "37.5%"
+      ],
+      [
+       "\\(\\frac{2}{5}\\)",
+       "0.4",
+       "40%"
+      ],
+      [
+       "\\(\\frac{1}{2}\\)",
+       "0.5",
+       "50%"
+      ],
+      [
+       "\\(\\frac{3}{5}\\)",
+       "0.6",
+       "60%"
+      ],
+      [
+       "\\(\\frac{5}{8}\\)",
+       "0.625",
+       "62.5%"
+      ],
+      [
+       "\\(\\frac{2}{3}\\)",
+       "\\(0.6\\overline{6}\\)",
+       "\\(66\\frac{2}{3}\\%\\)"
+      ],
+      [
+       "\\(\\frac{3}{4}\\)",
+       "0.75",
+       "75%"
+      ],
+      [
+       "\\(\\frac{4}{5}\\)",
+       "0.8",
+       "80%"
+      ],
+      [
+       "\\(\\frac{7}{8}\\)",
+       "0.875",
+       "87.5%"
+      ]
+     ]
+    },
+    {
+     "type": "note",
+     "text": "Learn that table until it is recall rather than calculation. Recognizing that \\(\\frac{5}{8}\\) is \\(62.5\\%\\) takes about a second; rebuilding it by long division takes 20, and you have 42 seconds a question with no calculator. This is the highest-value memorization on the Mathematics section and it pays again in Quantitative Skills."
+    },
+    {
+     "type": "h",
+     "text": "The method"
+    },
+    {
+     "type": "ol",
+     "items": [
+      "<b>Read what form the answer must be in.</b> A fraction, a decimal, a percent or a plain quantity. Write it at the top of your work, because the same number in the wrong form is always one of the four choices.",
+      "<b>Put every number into one form.</b> Decimals are usually easiest. If the numbers are eighths, thirds or sixths, fractions are faster and exact.",
+      "<b>If a percent is involved, name the base</b> — the number the percent is taken <i>of</i>. In a change question the base is the <i>original</i> amount, always.",
+      "<b>Do the arithmetic on paper,</b> counting decimal places as you write rather than afterwards.",
+      "<b>Convert back and check the size.</b> Round everything and ask whether your answer is roughly right. A misplaced point is off by a factor of ten and a rough estimate catches it every time."
+     ]
+    },
+    {
+     "type": "h",
+     "text": "The three percent sentences"
+    },
+    {
+     "type": "p",
+     "text": "Every percent question on this test is one of three sentences, and which one you are in is decided by which of the three numbers is missing."
+    },
+    {
+     "type": "table",
+     "head": [
+      "The sentence",
+      "What is missing",
+      "What you do",
+      "Example"
+     ],
+     "rows": [
+      [
+       "What is 8% of 250?",
+       "the part",
+       "multiply: percent \\(\\times\\) whole",
+       "\\(0.08 \\times 250 = 20\\)"
+      ],
+      [
+       "18 is what percent of 45?",
+       "the percent",
+       "divide: part \\(\\div\\) whole",
+       "\\(18 \\div 45 = 0.4 = 40\\%\\)"
+      ],
+      [
+       "12 is 30% of what number?",
+       "the whole",
+       "divide: part \\(\\div\\) percent",
+       "\\(12 \\div 0.30 = 40\\)"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": "The second and third sentences both divide, and they divide in opposite directions, which is where the points go. The safe habit is to write the equation before you divide anything: <i>18 is what percent of 45</i> becomes \\(45p = 18\\), and the equation then tells you which number goes underneath. Guessing from the shape of the numbers gives you \\(45 \\div 18 = 2.5\\), and \\(250\\%\\) will be sitting there as a choice."
+    },
+    {
+     "type": "p",
+     "text": "A size check settles the same question in two seconds. A percent below 100 taken <i>of</i> a number must give something smaller than that number, and a percent above 100 must give something larger. If a question asks what percent 18 is of 45, and 18 is smaller than 45, the answer has to be below 100%."
+    },
+    {
+     "type": "h",
+     "text": "Percent increase and decrease"
+    },
+    {
+     "type": "p",
+     "text": "The formula is \\(\\text{percent change} = \\frac{\\text{amount of change}}{\\text{original amount}} \\times 100\\), and the whole difficulty is the denominator. It is the amount you started with, never the amount you ended with. A bus route that used to take 40 minutes and now takes 50 has changed by 10 minutes, and \\(\\frac{10}{40} = 25\\%\\). Dividing by 50 instead gives 20%, which is a perfectly reasonable-looking number and is wrong."
+    },
+    {
+     "type": "p",
+     "text": "Keep the change and the percent separate in your head. A lamp falling from \\(\\$45\\) to \\(\\$36\\) has dropped by nine dollars, but nine is not the answer to a question about percent — \\(\\frac{9}{45} = 20\\%\\) is. The raw difference with a percent sign stuck on it appears as a choice on nearly every one of these."
+    },
+    {
+     "type": "p",
+     "text": "Also decide whether the question wants the change or the result. After a 20% decrease you still pay 80%, and both 20% and 80% will be offered. After a 25% increase you pay 125%. The phrase to watch for is “what percent of the original,” which is asking for the result rather than the change."
+    },
+    {
+     "type": "h",
+     "text": "Two percents in a row"
+    },
+    {
+     "type": "p",
+     "text": "When a second discount is taken off a sale price, the two percents do not add. A coat marked 30% off and then a further 10% off at the register costs \\(0.70 \\times 0.90 = 0.63\\), or 63% of the original — not 60%, which is what adding the discounts to 40% off would give. The second percent is taken of the already-reduced price, so it is worth less than it looks."
+    },
+    {
+     "type": "note",
+     "text": "Work in what you <i>pay</i> rather than in what you save, and successive discounts become a single multiplication. Off 30% means pay 0.70. Off another 10% means pay 0.90 of that. \\(0.70 \\times 0.90 = 0.63\\). The same move handles a discount followed by sales tax: \\(0.75 \\times 1.08\\)."
+    },
+    {
+     "type": "h",
+     "text": "Fractions by hand"
+    },
+    {
+     "type": "p",
+     "text": "Adding and subtracting needs a common denominator; multiplying and dividing does not. Turn mixed numbers into improper fractions before you multiply or divide. For subtraction, the borrow is the trap: in \\(3\\frac{1}{4} - 1\\frac{2}{3}\\), rewrite over 12 to get \\(3\\frac{3}{12} - 1\\frac{8}{12}\\), and since \\(\\frac{3}{12}\\) is too small, borrow one whole from the 3 as \\(\\frac{12}{12}\\). That gives \\(2\\frac{15}{12} - 1\\frac{8}{12} = 1\\frac{7}{12}\\)."
+    },
+    {
+     "type": "p",
+     "text": "Two wrong answers grow out of that one problem and both are always printed. Subtracting the smaller fraction from the larger to dodge the borrow gives \\(2\\frac{5}{12}\\). Borrowing the fraction but forgetting that borrowing drops the 3 to a 2 gives \\(2\\frac{7}{12}\\). If your fractional part came out larger than the one you started with, or if your whole number did not go down, you skipped the borrow."
+    },
+    {
+     "type": "h",
+     "text": "Decimals by hand"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "<b>Multiplying:</b> ignore the points, multiply the digits, then count the total number of decimal places in the two factors and give the answer that many. \\(0.05 \\times 0.4\\): \\(5 \\times 4 = 20\\), and \\(2 + 1 = 3\\) places, so the answer is \\(0.020\\), which is \\(0.02\\).",
+      "<b>Dividing:</b> move the point in the divisor until it is a whole number and move the point in the dividend <i>the same number of places</i>. \\(3.5 \\div 0.25\\) becomes \\(350 \\div 25 = 14\\). Moving one and not the other is the standard error here.",
+      "<b>Adding and subtracting:</b> line the points up, pad the shorter number with zeros and bring the point straight down.",
+      "<b>Size check:</b> multiplying by a number below 1 makes the result smaller and dividing by a number below 1 makes it larger. Dividing 3.5 by 0.25 must give something much bigger than 3.5, which rules out three of the four choices before you divide."
+     ]
+    },
+    {
+     "type": "h",
+     "text": "How many of these fit into that"
+    },
+    {
+     "type": "p",
+     "text": "A question phrased “how many sixths are in \\(4\\frac{1}{2}\\)” or “how many quarter-pound scoops from 3 pounds” is a division, and the thing being counted goes underneath. So \\(4\\frac{1}{2} \\div \\frac{1}{6} = \\frac{9}{2} \\times 6 = 27\\). Dividing <i>by</i> 6 instead of by one-sixth gives \\(\\frac{3}{4}\\), an answer smaller than what you started with, which is impossible when you are counting small pieces out of a larger amount. The answer to this kind of question is always bigger than the amount you began with."
+    },
+    {
+     "type": "h",
+     "text": "Worked examples"
+    },
+    {
+     "type": "example",
+     "stem": "\\(\\frac{5}{8}\\) written as a percent is",
+     "options": [
+      "62.5%",
+      "6.25%",
+      "0.625%",
+      "160%"
+     ],
+     "answer": 0,
+     "walkthrough": "Divide first: \\(5 \\div 8 = 0.625\\). Then move the point two places right for \\(62.5\\%\\). Choice 6.25% moves it one place, choice 0.625% attaches the sign without moving it at all and choice 160% divides the wrong way round, \\(8 \\div 5 = 1.6\\). A size check kills all three: \\(\\frac{5}{8}\\) is more than a half and less than a whole, so the percent must be between 50 and 100."
+    },
+    {
+     "type": "example",
+     "stem": "36 is what percent of 90?",
+     "options": [
+      "40%",
+      "250%",
+      "54%",
+      "60%"
+     ],
+     "answer": 0,
+     "walkthrough": "Write the equation before dividing: \\(90p = 36\\), so \\(p = 36 \\div 90 = 0.4\\), which is 40%. Choice 250% divides the wrong way, \\(90 \\div 36\\), and fails the size check because 36 is smaller than 90. Choice 54% reports the raw difference \\(90 - 36\\) as though it were a percent. Choice 60% is the leftover part, \\(\\frac{54}{90}\\), which answers a question about what is <i>not</i> being counted."
+    },
+    {
+     "type": "example",
+     "stem": "A jacket priced at \\(\\$80\\) is marked down to \\(\\$68\\). What is the percent decrease?",
+     "options": [
+      "15%",
+      "12%",
+      "17.6%",
+      "85%"
+     ],
+     "answer": 0,
+     "walkthrough": "The amount of change is \\(80 - 68 = 12\\), and the base is the original 80: \\(\\frac{12}{80} = 0.15\\), a 15% decrease. Choice 12% is the dollar difference with a percent sign on it. Choice 17.6% divides by the new price 68 instead of the original. Choice 85% is the percent of the old price you still pay, which is a real number about this jacket but not the one asked for."
+    },
+    {
+     "type": "example",
+     "stem": "A price is cut by 20%, and then a further 25% is taken off the sale price. The final price is what percent of the original price?",
+     "options": [
+      "60%",
+      "55%",
+      "80%",
+      "40%"
+     ],
+     "answer": 0,
+     "walkthrough": "Work in what you pay. After 20% off you pay \\(0.80\\); after another 25% off you pay \\(0.75\\) of that, and \\(0.80 \\times 0.75 = 0.60\\). Choice 55% adds the two discounts into a single 45% off, which is the mistake this question exists to catch. Choice 80% applies only the first discount. Choice 40% is the total discount rather than the final price, and it is the one to watch for if you read the question quickly."
+    },
+    {
+     "type": "example",
+     "stem": "\\(4\\frac{1}{5} - 1\\frac{3}{4} =\\)",
+     "options": [
+      "\\(2\\frac{9}{20}\\)",
+      "\\(3\\frac{11}{20}\\)",
+      "\\(2\\frac{11}{20}\\)",
+      "\\(3\\frac{9}{20}\\)"
+     ],
+     "answer": 0,
+     "walkthrough": "Common denominator 20 first: \\(4\\frac{4}{20} - 1\\frac{15}{20}\\). You cannot take \\(\\frac{15}{20}\\) from \\(\\frac{4}{20}\\), so borrow one whole from the 4: \\(3\\frac{24}{20} - 1\\frac{15}{20} = 2\\frac{9}{20}\\). Choice \\(3\\frac{11}{20}\\) takes the smaller fraction from the larger and leaves the whole numbers alone, dodging the borrow entirely. Choice \\(2\\frac{11}{20}\\) borrows the whole number but still subtracts the fractions the wrong way round. Choice \\(3\\frac{9}{20}\\) gets the fraction right but forgets that borrowing drops the 4 to a 3."
+    },
+    {
+     "type": "example",
+     "stem": "A scoop holds 0.4 pounds of birdseed. How many full scoops can be filled from 4.8 pounds?",
+     "options": [
+      "12",
+      "1.92",
+      "120",
+      "1.2"
+     ],
+     "answer": 0,
+     "walkthrough": "Move the point one place in both numbers: \\(4.8 \\div 0.4\\) becomes \\(48 \\div 4 = 12\\). Choice 1.92 multiplies instead of dividing, and it fails the size check because dividing by a number below 1 has to make the result larger. Choice 1.2 divides 4.8 by 4 without moving the point in the dividend. Choice 120 moves the dividend two places while moving the divisor only one. Every wrong choice here is the same digits with the point somewhere else, which is how this question type is always built."
+    },
+    {
+     "type": "h",
+     "text": "The traps"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "<b>The percent sign without the two places.</b> \\(\\frac{3}{8}\\) is \\(37.5\\%\\), not \\(0.375\\%\\). Divide, then move two places, then write the sign.",
+      "<b>Percent change divided by the new amount.</b> The denominator is the original amount every single time.",
+      "<b>The raw difference reported as a percent.</b> A price that falls by nine dollars has not fallen by 9%.",
+      "<b>Discounts added together.</b> 30% off and then 10% off is 63% of the original, not 60%.",
+      "<b>Change offered when the result was asked for.</b> After 20% off, both 20% and 80% are on the page. Read the last few words of the question again.",
+      "<b>Dividing the wrong way round.</b> “18 is what percent of 45” is \\(18 \\div 45\\). Write the equation and let it decide.",
+      "<b>The skipped borrow.</b> In mixed number subtraction, taking the smaller fraction from the larger no matter which is on top produces an answer that is always printed.",
+      "<b>The decimal point.</b> Count the places in the factors before you write the product, and move the point in both numbers when you divide."
+     ]
+    },
+    {
+     "type": "h",
+     "text": "When you are stuck"
+    },
+    {
+     "type": "ol",
+     "items": [
+      "Convert everything to decimals. When the choices mix fractions, percents and decimals, one form turns the question into a two-second comparison.",
+      "Estimate the size and eliminate. Round the percent to 10%, 25% or 50% and see which choices survive; usually only one does.",
+      "Ask whether the answer should be bigger or smaller than the number you started with, and cross out everything on the wrong side.",
+      "Use 100 as the starting amount when the question is stated only in percents. A price of \\(\\$100\\) makes a 30% discount followed by a 10% discount into arithmetic you can do in your head.",
+      "Answer anyway. A wrong answer costs nothing on the HSPT, so eliminate what you can and pick from what is left."
+     ]
+    },
+    {
+     "type": "h",
+     "text": "Worth memorizing"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "The fraction, decimal and percent table above, in full.",
+      "That converting a decimal to a percent moves the point two places, and that going the other way moves it two places back.",
+      "\\(\\text{percent change} = \\frac{\\text{amount of change}}{\\text{original amount}} \\times 100\\).",
+      "The three percent sentences and which one divides which way.",
+      "That after a discount of \\(d\\) percent you pay \\((100 - d)\\) percent, and that successive discounts multiply.",
+      "That dividing by a number below 1 makes the result larger."
+     ]
+    }
+   ],
+   "section": "math"
+  },
+  "Ratios and Proportions": {
+   "title": "Ratios and Proportions",
+   "sectionLabel": "Mathematics",
+   "weight": "About six of the 64 Mathematics questions",
+   "oneLine": "These questions give you a relationship that holds steady while the amounts change, and ask for one amount you were not told.",
+   "practiceTopic": "Ratios and Proportions",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "A ratio compares two quantities: three parts cranberry juice to five parts soda, four altos to seven sopranos, one inch on the map to 12 miles on the ground. A proportion says that the same comparison holds at a different size. About six of the 64 Mathematics questions are built on that idea, and it turns up again inside word problems about maps, recipes, shadows and rates."
+    },
+    {
+     "type": "p",
+     "text": "The arithmetic is one multiplication and one division. What decides these questions is the setup — which number goes on top, whether the ratio is comparing a part with a part or a part with the whole and whether the two quantities are in the same unit before you compare them. Get the setup right and the rest takes ten seconds."
+    },
+    {
+     "type": "h",
+     "text": "The method"
+    },
+    {
+     "type": "ol",
+     "items": [
+      "<b>Read what is being compared with what,</b> in that order. “Altos to sopranos” means altos on top.",
+      "<b>Check the units.</b> If one quantity is in seconds and the other in hours, convert before you write anything down. A ratio of unlike units is not a ratio.",
+      "<b>Decide whether you have a part-to-part ratio or a part-to-whole one.</b> Three to five means eight parts altogether, and questions about the total need that eight.",
+      "<b>Set the proportion up with matching quantities in matching positions</b> — miles over inches on both sides, or altos over sopranos on both sides. Label the two rows in the margin if the problem is wordy.",
+      "<b>Solve by cross-multiplying,</b> or faster, by finding the scale factor between the two denominators and applying it to the top.",
+      "<b>Read the question again</b> and make sure the number you have is the one it asked for. The other quantity, the scale factor and the total are all standing by as choices."
+     ]
+    },
+    {
+     "type": "h",
+     "text": "Part to part and part to whole"
+    },
+    {
+     "type": "p",
+     "text": "A ratio of 3 to 5 tells you nothing about how many cups there are; it tells you the mixture comes in batches of eight parts. So the first move on any question that gives a total is to add the ratio numbers. A 32-cup punch mixed 3 to 5 has eight parts, and \\(32 \\div 8 = 4\\) cups a part."
+    },
+    {
+     "type": "table",
+     "head": [
+      "What the question asks for",
+      "What you compute",
+      "For a 3 to 5 mix totaling 32 cups"
+     ],
+     "rows": [
+      [
+       "the number of parts",
+       "add the ratio numbers",
+       "\\(3 + 5 = 8\\)"
+      ],
+      [
+       "the size of one part",
+       "total \\(\\div\\) number of parts",
+       "\\(32 \\div 8 = 4\\) cups"
+      ],
+      [
+       "the smaller quantity",
+       "its ratio number \\(\\times\\) one part",
+       "\\(3 \\times 4 = 12\\) cups"
+      ],
+      [
+       "the larger quantity",
+       "its ratio number \\(\\times\\) one part",
+       "\\(5 \\times 4 = 20\\) cups"
+      ],
+      [
+       "the whole, given one part",
+       "add the two quantities back up",
+       "\\(12 + 20 = 32\\) cups"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": "Notice how many different numbers that one situation produces: 8, 4, 12, 20 and 32. Four of them will be printed as choices and only one answers the question. The size of one part, 4, is the most tempting of the wrong ones, because it is the number you compute on the way and it feels like an answer."
+    },
+    {
+     "type": "note",
+     "text": "Check every ratio answer by putting the two quantities back into a ratio. If you say the punch holds 12 cups of juice and 20 of soda, then \\(12 : 20\\) must reduce to \\(3 : 5\\), and \\(12 + 20\\) must be 32. That check takes five seconds and catches a swapped answer instantly."
+    },
+    {
+     "type": "h",
+     "text": "Lowest terms"
+    },
+    {
+     "type": "p",
+     "text": "Reducing a ratio is reducing a fraction: divide both terms by their greatest common factor. \\(18 : 24\\) divides by 6 to give \\(3 : 4\\). Dividing by 2 gives \\(9 : 12\\) and dividing by 3 gives \\(6 : 8\\), and both of those are true statements about the same relationship but neither is in lowest terms. If any number divides both of your terms, you are not finished."
+    },
+    {
+     "type": "p",
+     "text": "Order is not decoration. \\(3 : 4\\) and \\(4 : 3\\) are different answers, and the reversed one is always offered. Write the two words down in the order the question named them before you write the numbers."
+    },
+    {
+     "type": "h",
+     "text": "Ratios that carry units"
+    },
+    {
+     "type": "p",
+     "text": "When the two quantities are measured in different units, convert first. The ratio of 45 seconds to one hour is not \\(45 : 1\\) and it is not \\(3 : 4\\). One hour is 3,600 seconds, so the ratio is \\(45 : 3{,}600\\), which reduces to \\(1 : 80\\). A student who compares 45 seconds with 60 minutes as though the units matched gets \\(3 : 4\\), a clean-looking answer that is wrong before any arithmetic happens."
+    },
+    {
+     "type": "table",
+     "head": [
+      "Measure",
+      "What you need"
+     ],
+     "rows": [
+      [
+       "Time",
+       "60 seconds = 1 minute; 60 minutes = 1 hour; 3,600 seconds = 1 hour; 24 hours = 1 day"
+      ],
+      [
+       "Length (customary)",
+       "12 inches = 1 foot; 3 feet = 1 yard; 36 inches = 1 yard; 5,280 feet = 1 mile"
+      ],
+      [
+       "Length (metric)",
+       "10 millimeters = 1 centimeter; 100 centimeters = 1 meter; 1,000 meters = 1 kilometer"
+      ],
+      [
+       "Weight",
+       "16 ounces = 1 pound; 2,000 pounds = 1 ton; 1,000 grams = 1 kilogram"
+      ],
+      [
+       "Volume",
+       "8 fluid ounces = 1 cup; 2 cups = 1 pint; 2 pints = 1 quart; 4 quarts = 1 gallon"
+      ]
+     ]
+    },
+    {
+     "type": "h",
+     "text": "Setting the proportion up"
+    },
+    {
+     "type": "p",
+     "text": "Write the two rows as labeled fractions and keep the labels in the same places on both sides. If the left side is <i>pages over minutes</i>, the right side must be pages over minutes too. Almost every wrong answer in this group comes from one side being upside down."
+    },
+    {
+     "type": "table",
+     "head": [
+      "The situation",
+      "Right side up",
+      "Upside down, and what it gives"
+     ],
+     "rows": [
+      [
+       "96 pages in 3 minutes; how many in 7?",
+       "\\(\\frac{96}{3} = \\frac{n}{7}\\), so \\(n = 224\\)",
+       "\\(\\frac{96}{3} = \\frac{7}{n}\\), which makes the printer slower"
+      ],
+      [
+       "A 5-foot post casts a 4-foot shadow; a tree casts 24 feet",
+       "\\(\\frac{5}{4} = \\frac{n}{24}\\), so \\(n = 30\\)",
+       "\\(\\frac{4}{5} = \\frac{n}{24}\\), giving 19.2, a tree shorter than its shadow"
+      ],
+      [
+       "\\(\\frac{3}{7} = \\frac{x}{56}\\)",
+       "\\(56 \\div 7 = 8\\), so \\(x = 3 \\times 8 = 24\\)",
+       "\\(3 \\times 56 = 168\\), forgetting to divide by 7"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": "Cross-multiplying always works: from \\(\\frac{3}{7} = \\frac{x}{56}\\) you get \\(7x = 168\\) and \\(x = 24\\). But the scale factor is faster and it comes with its own check. Ask what turns 7 into 56 — the answer is eight — and apply that same eight to the 3. If the scale factor is not a whole number, cross-multiply instead of forcing it."
+    },
+    {
+     "type": "p",
+     "text": "A last sanity check before you answer: is the number moving in the right direction? A longer time should give more pages. A taller object should cast a longer shadow. More inches on the map should mean more miles. If your answer went the wrong way, one of the two fractions is inverted."
+    },
+    {
+     "type": "h",
+     "text": "Unit rate"
+    },
+    {
+     "type": "p",
+     "text": "A unit rate is the amount for exactly one — pages per minute, miles per hour, dollars per pound. A printer producing 96 pages in three minutes runs at \\(96 \\div 3 = 32\\) pages a minute, and in seven minutes it produces \\(32 \\times 7 = 224\\). The unit rate is worth finding because it makes every later question about the same situation into a single multiplication, and because comparing two offers means comparing their unit rates."
+    },
+    {
+     "type": "p",
+     "text": "The trap is stopping there. The 32 is an intermediate result, not an answer, and it is always among the choices. So is \\(96 \\times 7 = 672\\), which is what you get by multiplying without ever dividing by the three minutes."
+    },
+    {
+     "type": "h",
+     "text": "Maps, scale drawings and shadows"
+    },
+    {
+     "type": "p",
+     "text": "A map scale is a ratio in words: one inch represents 12 miles. Two towns \\(3\\frac{1}{2}\\) inches apart are therefore \\(12 \\times 3.5 = 42\\) miles apart. Convert the mixed number to a decimal or a fraction before you multiply — dropping the half gives 36 and rounding it up to four inches gives 48, and both are printed."
+    },
+    {
+     "type": "p",
+     "text": "Shadow problems work the same way, because at one moment of the day every upright object makes the same shape of triangle with its shadow. Height over shadow is the same ratio for the fence post and for the tree, so from a 5-foot post with a 4-foot shadow you get \\(\\frac{5}{4}\\), and a 24-foot shadow belongs to a tree of \\(24 \\times \\frac{5}{4} = 30\\) feet. Similar figures in general work this way: matching sides are in the same ratio."
+    },
+    {
+     "type": "h",
+     "text": "Worked examples"
+    },
+    {
+     "type": "example",
+     "stem": "Complete the proportion: \\(\\frac{4}{9} = \\frac{x}{63}\\)",
+     "options": [
+      "28",
+      "7",
+      "36",
+      "252"
+     ],
+     "answer": 0,
+     "walkthrough": "Find the scale factor between the denominators: \\(63 \\div 9 = 7\\). Apply it to the top, \\(4 \\times 7 = 28\\). Choice 7 stops at the scale factor, which is the number you compute on the way. Choice 36 multiplies \\(4 \\times 9\\), the two numbers that happen to be nearest each other on the page. Choice 252 multiplies \\(4 \\times 63\\) without ever dividing by 9. Cross-multiplying gives the same answer: \\(9x = 252\\), so \\(x = 28\\)."
+    },
+    {
+     "type": "example",
+     "stem": "Concrete is mixed from sand and gravel in a ratio of 2 to 7. A batch weighs 45 kilograms. How many kilograms of gravel are in the batch?",
+     "options": [
+      "35",
+      "10",
+      "5",
+      "7"
+     ],
+     "answer": 0,
+     "walkthrough": "Add the ratio numbers first: \\(2 + 7 = 9\\) parts, and \\(45 \\div 9 = 5\\) kilograms a part. Gravel is seven parts, so \\(7 \\times 5 = 35\\). Choice 5 is the size of one part, choice 10 is the sand rather than the gravel and choice 7 is the ratio number repeated as though it were a weight. Check it: \\(10 + 35 = 45\\), and \\(10 : 35\\) reduces to \\(2 : 7\\)."
+    },
+    {
+     "type": "example",
+     "stem": "In a kennel the ratio of cats to dogs is 2 to 3. There are 12 cats. How many animals are in the kennel altogether?",
+     "options": [
+      "30",
+      "18",
+      "8",
+      "5"
+     ],
+     "answer": 0,
+     "walkthrough": "Here you are given one quantity rather than the total, so find the part first: \\(12 \\div 2 = 6\\) animals a part. Dogs are three parts, \\(3 \\times 6 = 18\\), and the total is \\(12 + 18 = 30\\). Choice 18 answers with the dogs, which is the last number you computed before finishing. Choice 8 comes from the proportion set up upside down, \\(12 \\times \\frac{2}{3}\\). Choice 5 simply adds the two ratio numbers, which counts parts rather than animals."
+    },
+    {
+     "type": "example",
+     "stem": "On a map, one inch represents 8 miles. Two towns are \\(2\\frac{1}{4}\\) inches apart on the map. How far apart are the towns?",
+     "options": [
+      "18 miles",
+      "16 miles",
+      "24 miles",
+      "10.25 miles"
+     ],
+     "answer": 0,
+     "walkthrough": "Multiply the scale by the map distance: \\(8 \\times 2.25 = 18\\). Choice 16 drops the quarter inch and uses two inches. Choice 24 rounds \\(2\\frac{1}{4}\\) up to three inches first. Choice 10.25 adds 8 and 2.25 instead of multiplying, which is the mistake to watch for whenever a scale is stated in words rather than as a fraction."
+    },
+    {
+     "type": "example",
+     "stem": "A machine seals 84 envelopes in four minutes. At that rate, how many envelopes does it seal in nine minutes?",
+     "options": [
+      "189",
+      "21",
+      "756",
+      "336"
+     ],
+     "answer": 0,
+     "walkthrough": "Find the unit rate: \\(84 \\div 4 = 21\\) envelopes a minute, and \\(21 \\times 9 = 189\\). Choice 21 is the unit rate, an honest intermediate result. Choice 756 multiplies \\(84 \\times 9\\) without dividing by the four minutes, and it fails a rough check — nine minutes is a bit over twice four minutes, so the answer should be a bit over twice 84. Choice 336 multiplies by the four minutes instead of the nine."
+    },
+    {
+     "type": "example",
+     "stem": "What is the ratio of nine inches to one yard, in lowest terms?",
+     "options": [
+      "\\(1:4\\)",
+      "\\(3:4\\)",
+      "\\(1:3\\)",
+      "\\(9:1\\)"
+     ],
+     "answer": 0,
+     "walkthrough": "Convert first: one yard is 36 inches, so the ratio is \\(9 : 36\\), and both terms divide by 9 to give \\(1 : 4\\). Choice \\(3 : 4\\) compares nine inches with 12 inches, using a foot where the question said a yard. Choice \\(1 : 3\\) uses 27 inches for a yard. Choice \\(9 : 1\\) never converts at all and compares a count of inches with a count of yards. Whenever two different units appear in one ratio, the conversion is the question."
+    },
+    {
+     "type": "h",
+     "text": "The traps"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "<b>The size of one part offered as the answer.</b> Dividing the total by the number of parts is step one, not the finish.",
+      "<b>The other quantity.</b> A question about gravel prints the weight of the sand; a question about the total prints one of the two shares.",
+      "<b>The proportion set up upside down.</b> Check the direction: more time gives more pages, a taller object casts a longer shadow.",
+      "<b>Unlike units compared directly.</b> Seconds against hours, inches against yards. Convert before you write the ratio.",
+      "<b>A ratio not fully reduced.</b> \\(9 : 12\\) and \\(6 : 8\\) are both true of \\(18 : 24\\) and neither is in lowest terms.",
+      "<b>The order reversed.</b> \\(3 : 4\\) is not \\(4 : 3\\), and both are on the page.",
+      "<b>Part-to-part read as part-to-whole.</b> Three to five does not mean three out of five; it means three out of eight.",
+      "<b>The unit rate multiplied by the wrong number.</b> Multiplying the original amount by the new time, without dividing first, gives a badly oversized answer that a rough estimate would have caught."
+     ]
+    },
+    {
+     "type": "h",
+     "text": "When you are stuck"
+    },
+    {
+     "type": "ol",
+     "items": [
+      "Label the rows. Write the two quantities and their units beside the fractions, and an upside-down setup becomes visible immediately.",
+      "Ask which way the answer should move. Bigger or smaller than the number you were given? Cross out everything on the wrong side.",
+      "Find the scale factor between the two numbers you know. If it is a whole number, the arithmetic is one multiplication.",
+      "For a total split in a ratio, add the parts first and write the size of one part in the margin with a label, so you do not mistake it for the answer.",
+      "Test your answer backward. Put both quantities into a ratio, reduce it and see whether you get the ratio the question stated.",
+      "Guess and move on. There is no penalty for a wrong answer, so eliminate the choices that fail a direction or size check and pick from what remains."
+     ]
+    },
+    {
+     "type": "h",
+     "text": "Worth memorizing"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "To split a total in a ratio, add the ratio numbers first and divide the total by that sum.",
+      "Cross-multiplying: \\(\\frac{a}{b} = \\frac{c}{d}\\) means \\(ad = bc\\).",
+      "That matching units go in matching positions, on both sides of the proportion.",
+      "That a ratio is not in lowest terms while any number still divides both of its terms.",
+      "The conversion table above, especially 3,600 seconds in an hour and 36 inches in a yard.",
+      "That a unit rate is an intermediate step and the question rarely stops there."
+     ]
+    }
+   ],
+   "section": "math"
+  },
+  "Computation": {
+   "title": "Computation",
    "sectionLabel": "Mathematics",
    "weight": "Part of the 24 Mathematics–Concepts questions",
    "oneLine": "These questions ask you to carry out arithmetic by hand and to apply the standard perimeter, area, volume and angle facts to a figure.",
-   "practiceTopic": "Skills Check 4: Mathematic Skills",
+   "practiceTopic": "Computation",
    "blocks": [
     {
      "type": "p",
@@ -3702,7 +5082,7 @@
       "<b>Adding and subtracting:</b> line up the decimal points, pad the shorter number with zeros, add or subtract as usual and bring the point straight down.",
       "<b>Multiplying:</b> ignore the points entirely, multiply the digits, then count the total decimal places in the two factors and give the answer that many. For \\(0.06 \\times 1.5\\): \\(6 \\times 15 = 90\\), and \\(2 + 1 = 3\\) places, so the answer is \\(0.090\\), which is \\(0.09\\).",
       "<b>Dividing:</b> move the point in the divisor until it is a whole number, move the point in the dividend the same number of places, then divide normally. \\(0.144 \\div 0.12\\) becomes \\(14.4 \\div 12 = 1.2\\).",
-      "Sanity-check the size. Multiplying a positive number by a positive number less than 1 makes the result smaller; dividing it by a positive number less than 1 makes it larger. That check alone catches most misplaced points."
+      "Sanity-check the size. Multiplying by a number less than 1 makes the result smaller; dividing by a number less than 1 makes it larger. That check alone catches most misplaced points."
      ]
     },
     {
@@ -3742,7 +5122,7 @@
       ],
       [
        "Time",
-       "60 seconds = 1 minute; 60 minutes = 1 hour; 24 hours = 1 day; 7 days = 1 week; 365 days = 1 year, which is about 52 weeks"
+       "60 seconds = 1 minute; 60 minutes = 1 hour; 24 hours = 1 day; 7 days = 1 week; 52 weeks = 1 year"
       ]
      ]
     },
@@ -4017,7 +5397,7 @@
      "items": [
       "Redraw the figure and put every number the question gave you onto it. About half the time the next step becomes visible as soon as the labels are on the drawing.",
       "Fill in every angle you can get for free — straight lines, vertical angles, the third angle of a triangle — and then look again.",
-      "Use the measurements the question gives you, not the way the drawing looks. Figures on this test are not promised to be drawn to scale, so a side that looks half as long as another proves nothing on its own.",
+      "If the figure is drawn to scale, estimate from it. An angle that looks slightly less than square is not \\(130^\\circ\\), and a side that looks like half of a side marked 12 is about 6.",
       "Check the units on all four choices and cross out anything that is not even the right kind of quantity.",
       "Guess and move on. A wrong answer costs nothing on the HSPT, so mark your best remaining choice, put a small dot beside the number and come back if time allows."
      ]
@@ -4041,16 +5421,1189 @@
    ],
    "section": "math"
   },
-  "Problem Solving": {
+  "Algebra": {
+   "title": "Algebra",
+   "sectionLabel": "Mathematics",
+   "weight": "About seven of the 64 Mathematics questions",
+   "oneLine": "These questions ask you to write, simplify, evaluate or solve something with a letter in it, one step or two at a time.",
+   "practiceTopic": "Algebra",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "About seven of the 64 Mathematics questions have a letter in them. They come in five shapes: name the parts of an expression, write an expression from a sentence, simplify an expression, substitute a value into one and solve a short equation or inequality. That is the whole of it."
+    },
+    {
+     "type": "p",
+     "text": "The ceiling is low and worth knowing. The HSPT does not ask you to graph a line, find a slope, solve two equations at once or use the quadratic formula. It asks you to solve things like \\(0.4x - 3 = 5\\) and \\(\\frac{y}{3} + 7 = 12\\), to simplify \\(4(2k - 1) - 3k\\) and to read off the two solutions of an equation that has already been factored for you. Algebra on this test is arithmetic with one letter standing in for a number, and it is scored on care rather than on cleverness."
+    },
+    {
+     "type": "h",
+     "text": "The words you need"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Word",
+      "What it means",
+      "In \\(6p + 11\\)"
+     ],
+     "rows": [
+      [
+       "variable",
+       "the letter standing for an unknown number",
+       "\\(p\\)"
+      ],
+      [
+       "coefficient",
+       "the number multiplying a variable",
+       "6"
+      ],
+      [
+       "constant",
+       "a number standing on its own",
+       "11"
+      ],
+      [
+       "term",
+       "a piece of the expression, joined to the rest by \\(+\\) or \\(-\\)",
+       "\\(6p\\) and 11 are the two terms"
+      ],
+      [
+       "factor",
+       "a piece that is multiplied by another piece",
+       "6 and \\(p\\) are the factors of the term \\(6p\\)"
+      ],
+      [
+       "like terms",
+       "terms with the same letter to the same power",
+       "\\(6p\\) and \\(2p\\) are like; \\(6p\\) and 11 are not"
+      ],
+      [
+       "expression",
+       "has no equals sign; you simplify or evaluate it",
+       "\\(6p + 11\\)"
+      ],
+      [
+       "equation",
+       "has an equals sign; you solve it",
+       "\\(6p + 11 = 29\\)"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": "Two of those rows are tested directly. A lone number is a <b>constant</b> and never a coefficient, because a coefficient has to be multiplying something. And <b>terms</b> are added while <b>factors</b> are multiplied, so \\(6p\\) and 11 are the terms of that expression and are not its factors. A question asking which statement about an expression is correct is asking exactly this vocabulary."
+    },
+    {
+     "type": "h",
+     "text": "The method"
+    },
+    {
+     "type": "ol",
+     "items": [
+      "<b>Decide which of the five things you are being asked to do</b> — name, write, simplify, evaluate or solve. The word at the start of the question tells you, and it decides what a finished answer looks like.",
+      "<b>Write the expression or equation down</b> before you touch it. These questions are short enough to tempt you into doing them in your head, and that is where the sign errors live.",
+      "<b>Work in one direction at a time.</b> Distribute before you collect. Undo addition before you undo multiplication.",
+      "<b>Keep every sign attached to the number in front of it.</b> A minus sign belongs to the term that follows it and travels with that term.",
+      "<b>Check by substituting your answer back into the original.</b> This is the whole reason algebra is the safest topic on the test — you can verify your own answer in ten seconds, and you should.",
+      "<b>Reread the question.</b> If it asked for \\(b\\) and you found \\(2b\\), you are one step short, and \\(2b\\) is printed."
+     ]
+    },
+    {
+     "type": "h",
+     "text": "Writing an expression from a sentence"
+    },
+    {
+     "type": "p",
+     "text": "One phrase reverses the order and it is tested every year. <i>Five less than three times a number</i> is \\(3n - 5\\): the quantity named second is written first. The reversal \\(5 - 3n\\) is always among the choices, and so is \\(3(n - 5)\\), which subtracts before multiplying instead of after, and \\(5n - 3\\), which puts the two numbers in each other's roles."
+    },
+    {
+     "type": "table",
+     "head": [
+      "The words",
+      "The expression"
+     ],
+     "rows": [
+      [
+       "five more than a number",
+       "\\(n + 5\\)"
+      ],
+      [
+       "five less than a number; five subtracted from a number",
+       "\\(n - 5\\)"
+      ],
+      [
+       "a number subtracted from five; five less a number",
+       "\\(5 - n\\)"
+      ],
+      [
+       "three times a number",
+       "\\(3n\\)"
+      ],
+      [
+       "five less than three times a number",
+       "\\(3n - 5\\)"
+      ],
+      [
+       "three times a number five less than another",
+       "\\(3(n - 5)\\)"
+      ],
+      [
+       "a number divided by four",
+       "\\(\\frac{n}{4}\\)"
+      ],
+      [
+       "four divided by a number",
+       "\\(\\frac{4}{n}\\)"
+      ],
+      [
+       "twice the sum of a number and seven",
+       "\\(2(n + 7)\\)"
+      ],
+      [
+       "seven more than twice a number",
+       "\\(2n + 7\\)"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": "The last two rows are the same three numbers in a different grammar and they are different expressions. Parentheses are how English marks <i>the sum of</i> and <i>the difference of</i>: whatever the sentence groups together, you group together too."
+    },
+    {
+     "type": "h",
+     "text": "Evaluating"
+    },
+    {
+     "type": "p",
+     "text": "To evaluate an expression, substitute the value and then follow the order of operations. Put the substituted number in parentheses as you write it — \\(3a - 2b\\) with \\(a = 4\\) becomes \\(3(4) - 2b\\) — because that habit protects the sign when the value is negative. With \\(x = -3\\), \\(x^2\\) is \\((-3)^2 = 9\\), and writing it without the parentheses is how a student gets \\(-9\\)."
+    },
+    {
+     "type": "p",
+     "text": "When the question gives you one value and an equation, substitute first and then solve for what is left. If \\(a = 4\\) and \\(3a - 2b = 2\\), then \\(12 - 2b = 2\\), so \\(2b = 10\\) and \\(b = 5\\). The 10 is \\(2b\\), not \\(b\\), and it is on the page as a choice — this is the single most common way to lose one of these."
+    },
+    {
+     "type": "h",
+     "text": "Simplifying"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "<b>Collect like terms</b> by adding their coefficients and leaving the letter alone. \\(8k - 3k = 5k\\), not \\(5k^2\\) and not 5.",
+      "<b>Unlike terms do not combine.</b> \\(5k - 4\\) is finished; there is no way to make it into a single term, and a choice that has made it into one is wrong.",
+      "<b>Distribute across every term inside the parentheses,</b> including the last one. \\(4(2k - 1)\\) is \\(8k - 4\\). Forgetting the \\(-1\\) and writing \\(8k - 1\\) is the standard slip here.",
+      "<b>A minus sign in front of parentheses flips every sign inside.</b> \\(-(3m - 5)\\) is \\(-3m + 5\\).",
+      "<b>Subtracting a term means subtracting it.</b> In \\(4(2k - 1) - 3k\\) the \\(3k\\) comes off: \\(8k - 3k = 5k\\), giving \\(5k - 4\\). Adding it instead gives \\(11k - 4\\), which is printed."
+     ]
+    },
+    {
+     "type": "h",
+     "text": "Solving a one- or two-step equation"
+    },
+    {
+     "type": "p",
+     "text": "Undo the operations in the reverse of the order they were done. Whatever was done to the variable last, undo first: addition and subtraction come off before multiplication and division. Everything you do to one side you do to the other."
+    },
+    {
+     "type": "table",
+     "head": [
+      "The equation",
+      "Undo first",
+      "Then",
+      "Answer"
+     ],
+     "rows": [
+      [
+       "\\(x + 9 = 23\\)",
+       "subtract 9",
+       "—",
+       "\\(x = 14\\)"
+      ],
+      [
+       "\\(7x = 91\\)",
+       "divide by 7",
+       "—",
+       "\\(x = 13\\)"
+      ],
+      [
+       "\\(0.4x - 3 = 5\\)",
+       "add 3, giving \\(0.4x = 8\\)",
+       "divide by 0.4",
+       "\\(x = 20\\)"
+      ],
+      [
+       "\\(\\frac{y}{3} + 7 = 12\\)",
+       "subtract 7, giving \\(\\frac{y}{3} = 5\\)",
+       "multiply by 3",
+       "\\(y = 15\\)"
+      ],
+      [
+       "\\(5(m - 2) = 35\\)",
+       "divide by 5, giving \\(m - 2 = 7\\)",
+       "add 2",
+       "\\(m = 9\\)"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": "Two of those rows carry the traps worth naming. When the coefficient is a decimal, you <i>divide</i> by it: \\(0.4x = 8\\) gives \\(x = 8 \\div 0.4 = 20\\), a number larger than 8, because dividing by a decimal below 1 makes things bigger. Multiplying instead gives 3.2, which is smaller and is printed. And when the variable is over a number, you <i>multiply</i> at the end: \\(\\frac{y}{3} = 5\\) gives \\(y = 15\\). Stopping at the 5 is the most frequent error on that shape, and 5 is always a choice."
+    },
+    {
+     "type": "note",
+     "text": "Substitute your answer back into the original equation before you fill in the bubble. For \\(0.4x - 3 = 5\\) with \\(x = 20\\): \\(0.4 \\times 20 = 8\\) and \\(8 - 3 = 5\\). That takes about eight seconds and it is the only topic on this test where you can prove your own answer right."
+    },
+    {
+     "type": "h",
+     "text": "Inequalities"
+    },
+    {
+     "type": "p",
+     "text": "An inequality is solved exactly like an equation, with one rule added: <b>multiplying or dividing both sides by a negative number reverses the direction of the sign</b>. So \\(-3x < 12\\) becomes \\(x > -4\\), not \\(x < -4\\). Adding or subtracting a negative changes nothing about the direction — only multiplying and dividing do."
+    },
+    {
+     "type": "p",
+     "text": "Test your answer if you are unsure. In \\(-3x < 12\\), try \\(x = 0\\): is \\(0 < 12\\)? Yes, so zero must be in the solution, and \\(x > -4\\) contains zero while \\(x < -4\\) does not. One substitution settles the direction without your having to remember the rule under pressure."
+    },
+    {
+     "type": "h",
+     "text": "An equation that is already factored"
+    },
+    {
+     "type": "p",
+     "text": "When you are given \\((n + 3)(n - 7) = 0\\), do not multiply it out. A product is zero only when one of its factors is zero, so set each factor to zero separately: \\(n + 3 = 0\\) gives \\(n = -3\\), and \\(n - 7 = 0\\) gives \\(n = 7\\). The sign of the solution is the <i>opposite</i> of the sign inside the parentheses, and all three wrong choices on a question like this are built by copying a sign instead of reversing it, on one factor or on both."
+    },
+    {
+     "type": "h",
+     "text": "Numbers between zero and one"
+    },
+    {
+     "type": "p",
+     "text": "One question a year asks what must be true of a number, and the answer turns on how numbers below 1 behave. They do the opposite of what your instinct says: squaring makes them smaller and taking a square root makes them bigger. Do not try to reason it out — substitute an easy value and read the answer off. \\(x = \\frac{1}{4}\\) is the one to use, because its square root is exact."
+    },
+    {
+     "type": "table",
+     "head": [
+      "The value",
+      "If \\(0 < x < 1\\), testing \\(x = \\frac{1}{4}\\)",
+      "If \\(x > 1\\)"
+     ],
+     "rows": [
+      [
+       "\\(x^2\\)",
+       "smaller than \\(x\\): \\(\\frac{1}{16} < \\frac{1}{4}\\)",
+       "larger than \\(x\\)"
+      ],
+      [
+       "\\(x^3\\)",
+       "smaller still: \\(\\frac{1}{64}\\)",
+       "larger still"
+      ],
+      [
+       "\\(\\sqrt{x}\\)",
+       "larger than \\(x\\): \\(\\sqrt{\\frac{1}{4}} = \\frac{1}{2}\\)",
+       "smaller than \\(x\\)"
+      ],
+      [
+       "\\(\\frac{1}{x}\\)",
+       "larger than 1: \\(\\frac{1}{x} = 4\\)",
+       "smaller than 1"
+      ]
+     ]
+    },
+    {
+     "type": "h",
+     "text": "Worked examples"
+    },
+    {
+     "type": "example",
+     "stem": "Solve for \\(x\\): \\(0.5x - 4 = 8\\)",
+     "options": [
+      "24",
+      "6",
+      "8",
+      "2.4"
+     ],
+     "answer": 0,
+     "walkthrough": "Add 4 to both sides for \\(0.5x = 12\\), then divide by 0.5 for \\(x = 24\\). Choice 6 multiplies 12 by 0.5 instead of dividing by it, and it fails the size check — dividing by a number below 1 has to make the result larger, so the answer must be more than 12. Choice 8 subtracts the 4 instead of adding it, giving \\(0.5x = 4\\). Choice 2.4 misplaces the decimal in \\(12 \\div 0.5\\). Check the winner: \\(0.5 \\times 24 = 12\\) and \\(12 - 4 = 8\\)."
+    },
+    {
+     "type": "example",
+     "stem": "Solve for \\(y\\): \\(\\frac{y}{4} + 5 = 11\\)",
+     "options": [
+      "24",
+      "6",
+      "44",
+      "64"
+     ],
+     "answer": 0,
+     "walkthrough": "Subtract 5 first, giving \\(\\frac{y}{4} = 6\\), then multiply by 4 for \\(y = 24\\). Choice 6 stops at the intermediate step, which is the most common error on this shape — the 6 is a real number you computed, but it is \\(\\frac{y}{4}\\) and not \\(y\\). Choice 44 multiplies the 11 by 4 before subtracting the 5. Choice 64 adds the 5 instead of subtracting it and then multiplies, \\((11 + 5) \\times 4\\). Substituting back settles it: \\(24 \\div 4 = 6\\) and \\(6 + 5 = 11\\)."
+    },
+    {
+     "type": "example",
+     "stem": "If \\((n - 4)(n + 9) = 0\\), what are the two values of \\(n\\)?",
+     "options": [
+      "\\(n = 4\\) and \\(n = -9\\)",
+      "\\(n = -4\\) and \\(n = 9\\)",
+      "\\(n = 4\\) and \\(n = 9\\)",
+      "\\(n = -4\\) and \\(n = -9\\)"
+     ],
+     "answer": 0,
+     "walkthrough": "Set each factor to zero. From \\(n - 4 = 0\\) you get \\(n = 4\\), and from \\(n + 9 = 0\\) you get \\(n = -9\\). Each solution has the opposite sign to the one written inside its own parentheses. Choice 2 reverses both signs the wrong way, choice 3 copies both signs straight off the page and choice 4 copies one and reverses the other. Check either solution by substituting: \\((4 - 4)(4 + 9) = 0 \\times 13 = 0\\)."
+    },
+    {
+     "type": "example",
+     "stem": "Simplify: \\(5(3m - 2) - 4m\\)",
+     "options": [
+      "\\(11m - 10\\)",
+      "\\(11m - 2\\)",
+      "\\(19m - 10\\)",
+      "\\(11m + 10\\)"
+     ],
+     "answer": 0,
+     "walkthrough": "Distribute across both terms inside the parentheses: \\(5 \\times 3m = 15m\\) and \\(5 \\times (-2) = -10\\), giving \\(15m - 10\\). Then collect: \\(15m - 4m = 11m\\), so the answer is \\(11m - 10\\). Choice \\(11m - 2\\) forgets to multiply the \\(-2\\) by 5. Choice \\(19m - 10\\) adds the \\(4m\\) instead of subtracting it. Choice \\(11m + 10\\) loses the sign of the \\(-2\\) on the way through the parentheses."
+    },
+    {
+     "type": "example",
+     "stem": "Which expression means seven less than four times a number \\(n\\)?",
+     "options": [
+      "\\(4n - 7\\)",
+      "\\(7 - 4n\\)",
+      "\\(4(n - 7)\\)",
+      "\\(7n - 4\\)"
+     ],
+     "answer": 0,
+     "walkthrough": "<i>Four times a number</i> is \\(4n\\), and <i>seven less than</i> that means taking 7 off it: \\(4n - 7\\). Choice \\(7 - 4n\\) writes the two quantities in the order the words arrive, which is exactly what <i>less than</i> forbids. Choice \\(4(n - 7)\\) subtracts before multiplying, which would be <i>four times seven less than a number</i>. Choice \\(7n - 4\\) swaps the two numbers into each other's roles. Test it with \\(n = 10\\): seven less than 40 is 33, and only \\(4n - 7\\) gives 33."
+    },
+    {
+     "type": "example",
+     "stem": "Solve the inequality \\(-5x \\geq 20\\).",
+     "options": [
+      "\\(x \\leq -4\\)",
+      "\\(x \\geq -4\\)",
+      "\\(x \\leq 4\\)",
+      "\\(x \\geq 4\\)"
+     ],
+     "answer": 0,
+     "walkthrough": "Divide both sides by \\(-5\\) and reverse the sign: \\(x \\leq -4\\). Choice \\(x \\geq -4\\) divides correctly but leaves the sign pointing the same way, which is the error this question is built around. The two choices with positive 4 have lost the negative in the division. If you distrust the rule, test a value: \\(x = -10\\) gives \\(-5 \\times -10 = 50\\), which is indeed at least 20, so \\(-10\\) belongs to the solution — and only \\(x \\leq -4\\) contains it."
+    },
+    {
+     "type": "example",
+     "stem": "If \\(c = 6\\) and \\(4c - 3d = 9\\), what is the value of \\(d\\)?",
+     "options": [
+      "5",
+      "15",
+      "11",
+      "-5"
+     ],
+     "answer": 0,
+     "walkthrough": "Substitute first: \\(4(6) - 3d = 9\\), so \\(24 - 3d = 9\\). Then \\(3d = 15\\) and \\(d = 5\\). Choice 15 is \\(3d\\), the intermediate result — right arithmetic, one step short. Choice 11 adds the 9 to 24 instead of subtracting, \\(\\frac{33}{3}\\). Choice \\(-5\\) drops a negative while isolating \\(d\\). Substituting back is quick: \\(24 - 3(5) = 24 - 15 = 9\\)."
+    },
+    {
+     "type": "h",
+     "text": "The traps"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "<b>Stopping at the intermediate value.</b> \\(2b\\) when the question asked for \\(b\\); \\(\\frac{y}{4}\\) when it asked for \\(y\\). That number is always printed.",
+      "<b>Multiplying by a decimal coefficient instead of dividing by it.</b> \\(0.4x = 8\\) gives 20, not 3.2.",
+      "<b>Undoing in the wrong order.</b> Multiply or divide before you have taken the constant across and the arithmetic goes quietly wrong.",
+      "<b>Distributing to the first term only.</b> \\(4(2k - 1)\\) is \\(8k - 4\\), and \\(8k - 1\\) is a choice.",
+      "<b>A sign copied instead of reversed.</b> \\((n + 3) = 0\\) gives \\(n = -3\\).",
+      "<b>The inequality sign left alone after dividing by a negative.</b> It reverses, every time.",
+      "<b>“Less than” written in the order the words arrive.</b> Seven less than \\(4n\\) is \\(4n - 7\\).",
+      "<b>Unlike terms combined.</b> \\(5k - 4\\) does not simplify to \\(k\\) or to 1.",
+      "<b>A constant called a coefficient.</b> A coefficient multiplies a variable; a number sitting alone is a constant."
+     ]
+    },
+    {
+     "type": "h",
+     "text": "When you are stuck"
+    },
+    {
+     "type": "ol",
+     "items": [
+      "Substitute the choices. Four candidates and one equation is faster than solving, and it cannot go wrong. Start in the middle so a miss tells you which way to move.",
+      "Put a number in for the letter. If you are choosing between expressions, try \\(n = 10\\) in all four and see which one produces the value the sentence describes.",
+      "Check your solution in the original equation. If it does not balance, you have found your own error without losing the question.",
+      "Ask whether the answer should be bigger or smaller than the numbers in the problem, and cross out what is on the wrong side.",
+      "Deal with the closed side first. In an equation where one side is all numbers, simplify that side before you touch the side with the letter.",
+      "Guess and move on. There is no penalty for a wrong answer on the HSPT, so mark your best remaining choice and keep your time for the questions you can finish."
+     ]
+    },
+    {
+     "type": "h",
+     "text": "Worth memorizing"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "Undo in reverse order: addition and subtraction first, multiplication and division last.",
+      "Dividing or multiplying an inequality by a negative reverses the sign.",
+      "If a product is zero, one of its factors is zero, and each solution has the opposite sign to the one in its parentheses.",
+      "Distribute to every term inside the parentheses, sign included.",
+      "<i>Less than</i> and <i>subtracted from</i> both put the named quantity second.",
+      "A coefficient multiplies a variable; a constant stands alone; terms are added and factors are multiplied.",
+      "For \\(0 < x < 1\\): squaring makes it smaller, the square root makes it larger and the reciprocal is greater than 1."
+     ]
+    }
+   ],
+   "section": "math"
+  },
+  "Geometry and Measurement": {
+   "title": "Geometry and Measurement",
+   "sectionLabel": "Mathematics",
+   "weight": "About ten of the 64 Mathematics questions",
+   "oneLine": "These questions ask you to apply a formula to a figure, to reason from the properties of a shape or to move a measurement from one unit to another.",
+   "practiceTopic": "Geometry and Measurement",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "About ten of the 64 Mathematics questions are geometry and measurement, which makes this the largest block outside the word problems. They divide fairly evenly: areas and perimeters, circles, angle sums, the properties of quadrilaterals, unit conversion and elapsed time."
+    },
+    {
+     "type": "p",
+     "text": "You are given no formula sheet. Everything in the tables below has to come out of memory, and it has to come out fast, because the arithmetic afterwards is usually one multiplication. The good news is that the list is short and it does not change from year to year."
+    },
+    {
+     "type": "h",
+     "text": "The method"
+    },
+    {
+     "type": "ol",
+     "items": [
+      "<b>Draw the figure if one is not drawn,</b> and put every number the question gave you onto it. Half of these questions solve themselves once the labels are on the picture.",
+      "<b>Name the shape and recall its formula</b> before you look at the numbers, so the numbers cannot suggest the wrong formula to you.",
+      "<b>Check which measurement you have been handed.</b> Radius or diameter? Perpendicular height or slanted side? This is where the question is won.",
+      "<b>Check the units</b> and convert anything that does not match before you multiply.",
+      "<b>Compute, and label the answer</b> with its unit — feet, square feet or cubic feet.",
+      "<b>Read the question again.</b> An area question that gives you a perimeter, or a perimeter question that gives you an area, wants the far end of the chain and the middle of it is printed."
+     ]
+    },
+    {
+     "type": "h",
+     "text": "The formulas"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Figure",
+      "Perimeter or circumference",
+      "Area"
+     ],
+     "rows": [
+      [
+       "Square",
+       "\\(P = 4s\\)",
+       "\\(A = s^2\\)"
+      ],
+      [
+       "Rectangle",
+       "\\(P = 2l + 2w\\)",
+       "\\(A = lw\\)"
+      ],
+      [
+       "Triangle",
+       "\\(P = a + b + c\\)",
+       "\\(A = \\frac{1}{2}bh\\)"
+      ],
+      [
+       "Parallelogram",
+       "\\(P = 2(b + s)\\)",
+       "\\(A = bh\\)"
+      ],
+      [
+       "Trapezoid",
+       "add the four sides",
+       "\\(A = \\frac{1}{2}(b_1 + b_2)h\\)"
+      ],
+      [
+       "Circle",
+       "\\(C = 2\\pi r = \\pi d\\)",
+       "\\(A = \\pi r^2\\)"
+      ],
+      [
+       "Semicircle",
+       "\\(\\frac{1}{2}\\pi d + d\\) (the arc plus the straight edge)",
+       "\\(A = \\frac{1}{2}\\pi r^2\\)"
+      ],
+      [
+       "Rectangular solid",
+       "—",
+       "\\(V = lwh\\); \\(SA = 2(lw + lh + wh)\\)"
+      ],
+      [
+       "Cube",
+       "—",
+       "\\(V = s^3\\); \\(SA = 6s^2\\); six faces, 12 edges, eight vertices"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": "The letter \\(h\\) in \\(A = bh\\) and in \\(A = \\frac{1}{2}bh\\) is a <i>perpendicular</i> height, measured at a right angle to the base. It is not the slanted side. A parallelogram with a 12-meter base, a 7-meter slanted side and a 5-meter height has area \\(12 \\times 5 = 60\\), and the 7 is there only so that \\(12 \\times 7 = 84\\) can be printed as a choice. In a trapezoid, \\(b_1\\) and \\(b_2\\) are the two <i>parallel</i> sides and \\(h\\) is the distance between them."
+    },
+    {
+     "type": "note",
+     "text": "Area is measured in square units and volume in cubic units. Before you calculate anything, look at what kind of quantity each of the four choices is. An area question with a choice written in feet rather than square feet has just handed you a free elimination, and checking costs three seconds."
+    },
+    {
+     "type": "h",
+     "text": "Working backward from an area"
+    },
+    {
+     "type": "p",
+     "text": "A common shape of question gives you the finished quantity and asks for one further step. A square patio with an area of 64 square feet has a side of \\(\\sqrt{64} = 8\\) feet, so its perimeter is \\(4 \\times 8 = 32\\) feet. The 8 is honest work and it is printed, because a student who finds the side and forgets the last multiplication has done nine tenths of the question. Write down what you found and label it — <i>side \\(=\\) 8</i> — and the missing step becomes obvious."
+    },
+    {
+     "type": "h",
+     "text": "Circles"
+    },
+    {
+     "type": "p",
+     "text": "The <b>radius</b> runs from the center to the edge and the <b>diameter</b> runs all the way across, so \\(d = 2r\\). Confusing the two is the single most common geometry error on the test, and every circle question is built to reward it. Before you use any circle formula, write \\(r =\\) and its value on your paper."
+    },
+    {
+     "type": "ul",
+     "items": [
+      "<b>Circumference</b> is \\(\\pi d\\), or equivalently \\(2\\pi r\\). A circle with a diameter of 18 has circumference \\(18\\pi\\). Using \\(2\\pi r\\) with the 18 in the radius slot gives \\(36\\pi\\), which is exactly twice too big.",
+      "<b>Area</b> is \\(\\pi r^2\\). Squaring the diameter instead of the radius makes the answer four times too large.",
+      "<b>A semicircle</b> has half the area of the whole circle. For a diameter of 12, the radius is 6, the full circle is \\(36\\pi\\) and the semicircle is \\(18\\pi\\).",
+      "<b>The perimeter of a semicircle</b> includes the straight edge across the bottom. Half the circumference alone is not the way around the figure.",
+      "<b>Leave answers in terms of \\(\\pi\\)</b> when the choices are written that way. Otherwise use 3.14, or \\(\\frac{22}{7}\\) when the radius or diameter is a multiple of seven — the numbers the question gives you say which is wanted."
+     ]
+    },
+    {
+     "type": "h",
+     "text": "Composite and cut-out figures"
+    },
+    {
+     "type": "p",
+     "text": "An L-shaped room or a shaded region is never its own formula. It is one rectangle minus another, or two rectangles added together. An L-shaped room made by cutting a 3-foot by 4-foot corner out of a 10-foot by 8-foot rectangle has area \\(80 - 12 = 68\\) square feet. Draw the cut line onto the figure and write both areas down before you subtract, because the whole (80) and the sum (92) are both printed, and so is the result of removing the wrong rectangle. Then check for plausibility: a piece cut out of a shape leaves less than the shape, so any choice at or above 80 is gone before you calculate."
+    },
+    {
+     "type": "h",
+     "text": "Angles"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "A straight line measures \\(180^\\circ\\), a right angle \\(90^\\circ\\) and a full turn \\(360^\\circ\\).",
+      "The three angles of any triangle add to \\(180^\\circ\\). With two angles given, add them first and subtract from 180 — and remember that the sum you computed on the way is not the answer.",
+      "The four angles of any quadrilateral add to \\(360^\\circ\\).",
+      "The interior angles of a polygon with \\(n\\) sides add to \\((n - 2) \\times 180^\\circ\\): \\(540^\\circ\\) for a pentagon, \\(720^\\circ\\) for a hexagon.",
+      "Where two lines cross, the angles opposite one another are equal and any two side by side add to \\(180^\\circ\\).",
+      "An isosceles triangle has two equal sides and the two angles opposite them are equal. An equilateral triangle has three \\(60^\\circ\\) angles."
+     ]
+    },
+    {
+     "type": "p",
+     "text": "The trap on every angle-sum question is the same and it is worth naming on its own. You add the given angles, get a number, and that number is one of the four choices. Two angles of a triangle measuring \\(47^\\circ\\) and \\(68^\\circ\\) add to \\(115^\\circ\\), and \\(115^\\circ\\) is printed — but the third angle is \\(180 - 115 = 65^\\circ\\). Draw a small box around the sum on your paper so you cannot mistake it for the answer."
+    },
+    {
+     "type": "h",
+     "text": "The quadrilateral family"
+    },
+    {
+     "type": "p",
+     "text": "One question a year asks which shape <i>must</i> have some property. The word <i>must</i> is doing the work: a parallelogram <i>may</i> have right angles, but only a rectangle and a square are guaranteed them."
+    },
+    {
+     "type": "table",
+     "head": [
+      "Figure",
+      "Parallel sides",
+      "Equal sides",
+      "Right angles"
+     ],
+     "rows": [
+      [
+       "Trapezoid",
+       "one pair",
+       "none required",
+       "none required"
+      ],
+      [
+       "Parallelogram",
+       "two pairs",
+       "opposite sides equal",
+       "none required"
+      ],
+      [
+       "Rhombus",
+       "two pairs",
+       "all four equal",
+       "none required"
+      ],
+      [
+       "Rectangle",
+       "two pairs",
+       "opposite sides equal",
+       "all four"
+      ],
+      [
+       "Square",
+       "two pairs",
+       "all four equal",
+       "all four"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": "Read down the last column and the answer to “which figure must contain at least one right angle” is there: rectangle and square, and if only one of the two is offered, that is the answer. Read across and you can see why every square is a rectangle and every square is a rhombus, but not the other way round."
+    },
+    {
+     "type": "h",
+     "text": "Measurement"
+    },
+    {
+     "type": "p",
+     "text": "Conversions are recall rather than method. The one rule that governs all of them: <b>multiply when you move to a smaller unit and divide when you move to a larger one</b>. That sentence tells you whether the answer should come out bigger or smaller than what you started with, which is the error worth catching."
+    },
+    {
+     "type": "table",
+     "head": [
+      "Measure",
+      "Equivalents to know"
+     ],
+     "rows": [
+      [
+       "Length (metric)",
+       "10 millimeters = 1 centimeter; 100 centimeters = 1 meter; 1,000 meters = 1 kilometer"
+      ],
+      [
+       "Volume (metric)",
+       "1,000 milliliters = 1 liter"
+      ],
+      [
+       "Weight (metric)",
+       "1,000 grams = 1 kilogram"
+      ],
+      [
+       "Length (customary)",
+       "12 inches = 1 foot; 3 feet = 1 yard; 36 inches = 1 yard; 5,280 feet = 1 mile"
+      ],
+      [
+       "Volume (customary)",
+       "3 teaspoons = 1 tablespoon; 8 fluid ounces = 1 cup; 2 cups = 1 pint; 2 pints = 1 quart; 4 quarts = 1 gallon"
+      ],
+      [
+       "Weight (customary)",
+       "16 ounces = 1 pound; 2,000 pounds = 1 ton"
+      ],
+      [
+       "Time",
+       "60 seconds = 1 minute; 60 minutes = 1 hour; 24 hours = 1 day; 7 days = 1 week"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": "Metric conversions are decimal point moves, and the number of places is the number of zeros. To turn 2.4 liters into milliliters, multiply by 1,000 and move the point three places right: 2,400. Moving it two places gives 240 and moving it four gives 24,000, and both are printed. Count the zeros in the conversion, then count the places you moved, and make sure they match."
+    },
+    {
+     "type": "p",
+     "text": "Customary conversions are often two steps, and each step is a place to stop too early. Half a cup in teaspoons: half a cup is eight tablespoons, and eight tablespoons is \\(8 \\times 3 = 24\\) teaspoons. The 8 is a real number about this situation and it is one of the choices, as is 48, which converts a whole cup instead of half of one."
+    },
+    {
+     "type": "h",
+     "text": "Comparing measurements in different units"
+    },
+    {
+     "type": "p",
+     "text": "When four choices are lengths in four different units, there is nothing to reason about — convert all four to the smallest unit and compare the plain numbers. In millimeters, 590 millimeters, 0.0006 kilometer, 0.62 meter and 61 centimeters are 590, 600, 620 and 610. The largest numeral on the page belongs to the shortest length, which is the entire point of the question. Convert all four, not two."
+    },
+    {
+     "type": "h",
+     "text": "Time"
+    },
+    {
+     "type": "p",
+     "text": "Time regroups in 60s rather than in 10s, and that is the whole difficulty. From 6:45 p.m. to 9:20 p.m., count in stages: 6:45 to 8:45 is two hours, and 8:45 to 9:20 is 35 minutes more, giving 2 hours 35 minutes. Counting in stages is safer than subtracting, because it never asks you to borrow. If you do subtract, borrow one hour as 60 minutes: from 3 hours 15 minutes take 1 hour 40 minutes by rewriting the first as 2 hours 75 minutes, which leaves 1 hour 35 minutes. Never treat clock times as decimals — an hour is not 100 minutes, and a wrong answer built on that assumption is always among the choices."
+    },
+    {
+     "type": "h",
+     "text": "Worked examples"
+    },
+    {
+     "type": "example",
+     "stem": "The area of a square garden is 49 square meters. What is its perimeter?",
+     "options": [
+      "28 meters",
+      "7 meters",
+      "14 meters",
+      "196 meters"
+     ],
+     "answer": 0,
+     "walkthrough": "Find the side first: \\(\\sqrt{49} = 7\\) meters. Then the perimeter is \\(4 \\times 7 = 28\\) meters. Choice 7 is the side length, the honest intermediate step and the most tempting wrong answer here. Choice 14 doubles the side instead of taking all four. Choice 196 multiplies the area by 4 rather than the side. Notice also that the question moves from an area to a length, so the answer must be in meters and not square meters."
+    },
+    {
+     "type": "example",
+     "stem": "A parallelogram has a base of 15 centimeters, a slanted side of 8 centimeters and a height of 6 centimeters. What is its area?",
+     "options": [
+      "90 square centimeters",
+      "120 square centimeters",
+      "45 square centimeters",
+      "46 square centimeters"
+     ],
+     "answer": 0,
+     "walkthrough": "Area is base times perpendicular height: \\(15 \\times 6 = 90\\). Choice 120 uses the 8-centimeter slanted side in place of the height, which is why the 8 was given to you at all. Choice 45 halves the product as though the figure were a triangle. Choice 46 is \\(2(15 + 8)\\), a perimeter formula answering an area question, and its unit gives it away."
+    },
+    {
+     "type": "example",
+     "stem": "A semicircle has a diameter of 10 inches. What is its area, left in terms of \\(\\pi\\)?",
+     "options": [
+      "\\(12.5\\pi\\) square inches",
+      "\\(25\\pi\\) square inches",
+      "\\(50\\pi\\) square inches",
+      "\\(10\\pi\\) square inches"
+     ],
+     "answer": 0,
+     "walkthrough": "Halve the diameter first: \\(r = 5\\). The full circle has area \\(\\pi r^2 = 25\\pi\\), and half of it is \\(12.5\\pi\\). Choice \\(25\\pi\\) is the whole circle, so it forgets the halving. Choice \\(50\\pi\\) puts the diameter into the radius slot, getting \\(100\\pi\\), and then halves that. Choice \\(10\\pi\\) is \\(\\pi d\\), the circumference of the full circle, which is a length rather than an area. Writing \\(r = 5\\) before you square anything prevents two of the three."
+    },
+    {
+     "type": "example",
+     "stem": "An L-shaped patio is made by cutting a 2-foot by 5-foot corner out of a rectangle measuring 9 feet by 7 feet. What is the area of the patio?",
+     "options": [
+      "53 square feet",
+      "63 square feet",
+      "73 square feet",
+      "45 square feet"
+     ],
+     "answer": 0,
+     "walkthrough": "Whole minus part. The rectangle is \\(9 \\times 7 = 63\\) square feet and the corner removed is \\(2 \\times 5 = 10\\), so \\(63 - 10 = 53\\). Choice 63 forgets to remove the corner. Choice 73 adds the corner instead of subtracting it, which any plausibility check rules out, since cutting a piece off cannot make the shape larger. Choice 45 removes a 2-foot by 9-foot strip, using a dimension of the big rectangle where the small one belonged."
+    },
+    {
+     "type": "example",
+     "stem": "Three angles of a quadrilateral measure \\(115^\\circ\\), \\(70^\\circ\\) and \\(90^\\circ\\). What is the measure of the fourth angle?",
+     "options": [
+      "\\(85^\\circ\\)",
+      "\\(275^\\circ\\)",
+      "\\(265^\\circ\\)",
+      "\\(90^\\circ\\)"
+     ],
+     "answer": 0,
+     "walkthrough": "The four angles of a quadrilateral add to \\(360^\\circ\\). The three given add to \\(275^\\circ\\), so the fourth is \\(360 - 275 = 85^\\circ\\). Choice \\(275^\\circ\\) is that sum, the number you compute on the way. Choice \\(265^\\circ\\) subtracts from \\(540^\\circ\\), the total for a pentagon rather than a quadrilateral. Choice \\(90^\\circ\\) assumes the leftover angle in a four-sided figure must be a right angle, which is true of a rectangle and of nothing else here."
+    },
+    {
+     "type": "example",
+     "stem": "A film began at 7:50 p.m. and ended at 10:15 p.m. How long did it last?",
+     "options": [
+      "2 hours 25 minutes",
+      "3 hours 35 minutes",
+      "2 hours 65 minutes",
+      "3 hours 25 minutes"
+     ],
+     "answer": 0,
+     "walkthrough": "Count in stages: 7:50 to 9:50 is two hours, and 9:50 to 10:15 is 25 minutes more, so 2 hours 25 minutes. Choice 3 hours 35 minutes takes \\(10 - 7\\) for the hours and then subtracts the smaller minute figure from the larger, dodging the borrow. Choice 2 hours 65 minutes borrows an hour but counts it as 100 minutes instead of 60 — and any answer holding more than 60 minutes is wrong on sight. Choice 3 hours 25 minutes has the minutes right and the hours off by one, which is what happens when you borrow the minutes and forget to reduce the hour."
+    },
+    {
+     "type": "example",
+     "stem": "Which of these lengths is the longest?",
+     "options": [
+      "0.0005 kilometer",
+      "0.48 meter",
+      "470 millimeters",
+      "49 centimeters"
+     ],
+     "answer": 0,
+     "walkthrough": "Convert all four to millimeters: 0.0005 kilometer is 500, 0.48 meter is 480, 470 millimeters is 470 and 49 centimeters is 490. The longest is 0.0005 kilometer. The question is designed so that the smallest-looking numeral wins and the largest-looking one, 470, is nearly the shortest. It is also designed so that converting only two or three of the four leaves you with a plausible wrong answer, since 480, 490 and 500 are close together. Convert all four."
+    },
+    {
+     "type": "h",
+     "text": "The traps"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "<b>Diameter used as radius.</b> The most common geometry error there is. Write \\(r =\\) and its value before you square anything.",
+      "<b>The slanted side used as the height.</b> The height in \\(A = bh\\) is perpendicular to the base, and the slanted side is in the problem to tempt you.",
+      "<b>The intermediate step offered as the answer.</b> The side of the square, the sum of the two angles, the tablespoons before you reach teaspoons.",
+      "<b>Circumference offered on an area question,</b> and area offered on a circumference one. Check whether the choices are lengths or square units.",
+      "<b>The halving forgotten.</b> A triangle carries \\(\\frac{1}{2}\\), so does a trapezoid, and so does a semicircle.",
+      "<b>The cut-out piece added instead of subtracted,</b> or the wrong rectangle removed. Draw the cut and label both areas.",
+      "<b>The wrong angle total.</b> \\(180^\\circ\\) for a triangle, \\(360^\\circ\\) for a quadrilateral, \\(540^\\circ\\) for a pentagon.",
+      "<b>The decimal moved the wrong number of places.</b> Count the zeros in the conversion and match them.",
+      "<b>Only some of the units converted</b> on a “which is longest” question.",
+      "<b>An hour treated as 100 minutes.</b> Clock arithmetic borrows 60."
+     ]
+    },
+    {
+     "type": "h",
+     "text": "When you are stuck"
+    },
+    {
+     "type": "ol",
+     "items": [
+      "Redraw the figure and put every given number onto it, with its unit. The next step usually appears as soon as the labels are on the drawing.",
+      "Fill in every angle you can get for free — straight lines, vertical angles, the third angle of a triangle — and then look at the question again.",
+      "Check the units on all four choices and cross out anything that is not even the right kind of quantity.",
+      "Ask whether the answer should be bigger or smaller than the numbers you were given. Cutting a corner off makes a shape smaller; converting to a smaller unit makes the number larger.",
+      "If a figure is drawn to scale, estimate from it. A side that looks like half of a side marked 12 is about 6, and that is often enough to leave one choice standing.",
+      "Guess and move on. A wrong answer costs nothing on the HSPT, so mark your best remaining choice and keep moving."
+     ]
+    },
+    {
+     "type": "h",
+     "text": "Worth memorizing"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "Both tables of formulas above, in full. They are short and every line of them is tested.",
+      "\\(C = \\pi d\\) and \\(A = \\pi r^2\\) — one uses the diameter, the other the radius.",
+      "The three formulas that carry a one-half: triangle, trapezoid and semicircle area.",
+      "\\(180^\\circ\\) in a triangle, \\(360^\\circ\\) in a quadrilateral and \\((n - 2) \\times 180^\\circ\\) in any polygon.",
+      "That a rectangle and a square are the only quadrilaterals guaranteed right angles.",
+      "The conversion table, especially 3 teaspoons in a tablespoon, 16 tablespoons in a cup and 5,280 feet in a mile.",
+      "Multiply going to a smaller unit, divide going to a larger one.",
+      "That area is in square units and volume in cubic units."
+     ]
+    }
+   ],
+   "section": "math"
+  },
+  "Data and Probability": {
+   "title": "Data and Probability",
+   "sectionLabel": "Mathematics",
+   "weight": "About five of the 64 Mathematics questions",
+   "oneLine": "These questions ask you to summarize a list of numbers, to find the chance of a single event or to count how many ways something can be done.",
+   "practiceTopic": "Data and Probability",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "About five of the 64 Mathematics questions come from this group, and they are among the most reliable points on the test. There are only four things being asked: the mean, median, mode or range of a short list; a missing value that produces a required average; the probability of one event; and the number of ways a set of choices can be combined."
+    },
+    {
+     "type": "p",
+     "text": "None of it is hard once you know the definitions, and that is precisely the risk. Every wrong answer in this group is a different one of the four measures, or the complement of the right probability, or the arithmetic done with the correct numbers and the wrong operation. You lose these questions to speed rather than to difficulty."
+    },
+    {
+     "type": "h",
+     "text": "The method"
+    },
+    {
+     "type": "ol",
+     "items": [
+      "<b>Name which measure or quantity is being asked for</b> and write the word down. Mean, median, mode, range, probability, number of ways.",
+      "<b>Put the list in order</b> before you do anything else, whatever the question is. It costs five seconds and it is required for the median.",
+      "<b>Count how many values there are.</b> An off-by-one count is the quiet way to lose a mean question.",
+      "<b>Compute all the pieces you might need</b> when the question compares measures — total, middle, most frequent, largest minus smallest.",
+      "<b>Check the answer for plausibility.</b> A mean has to land between the smallest and largest values. A probability has to land between 0 and 1."
+     ]
+    },
+    {
+     "type": "h",
+     "text": "The four measures"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Measure",
+      "What it is",
+      "How to find it",
+      "For 4, 9, 9, 12, 16"
+     ],
+     "rows": [
+      [
+       "Mean",
+       "the average",
+       "add the values, divide by how many there are",
+       "\\(\\frac{50}{5} = 10\\)"
+      ],
+      [
+       "Median",
+       "the middle value",
+       "put the list in order and take the middle; with an even count, average the two middle values",
+       "9"
+      ],
+      [
+       "Mode",
+       "the most frequent value",
+       "count repeats; a list may have none or several",
+       "9"
+      ],
+      [
+       "Range",
+       "how spread out the list is",
+       "largest minus smallest",
+       "\\(16 - 4 = 12\\)"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": "Two habits protect you here. <b>Sort first, always.</b> The test writes lists out of order on purpose, and a student who takes the middle of the unsorted list gets a number that is printed. For 14, 9, 21, 6, 11 and 18 the sorted order is 6, 9, 11, 14, 18, 21, so the median is the average of 11 and 14, which is 12.5 — while the middle of the unsorted list would give 13.5."
+    },
+    {
+     "type": "p",
+     "text": "<b>With an even count there are two middle values and you average them.</b> Six values means the third and fourth. Taking one of them alone gives a number from the list, and the test prints both of them as choices."
+    },
+    {
+     "type": "note",
+     "text": "<b>Total \\(=\\) mean \\(\\times\\) count.</b> That one rearrangement answers every question about a missing value, an added value, a dropped value or two groups combined. Whenever a question mentions an average you do not yet have all the pieces for, convert the average into a total and work with totals."
+    },
+    {
+     "type": "h",
+     "text": "The missing value"
+    },
+    {
+     "type": "p",
+     "text": "A question that asks what score is needed for a target average is asking for a total. If four scores of 80, 84, 92 and 88 must be joined by a fifth to give a mean of 87, then the five scores have to total \\(87 \\times 5 = 435\\). The four you have total 344, so the fifth is \\(435 - 344 = 91\\)."
+    },
+    {
+     "type": "p",
+     "text": "Three wrong answers grow out of that. The current mean, \\(344 \\div 4 = 86\\), is a real number about the situation. The target itself, 87, is the choice for a student who thinks scoring the target once produces the target. And 88 is the answer for someone who makes up the one-point shortfall once rather than for all four earlier quizzes — the shortfall has to be made up four times over, which is why the answer is four points above the target rather than one."
+    },
+    {
+     "type": "h",
+     "text": "What changes when one value changes"
+    },
+    {
+     "type": "p",
+     "text": "A question may give you a list, change one value and ask which measure moves. Work out all the measures before and after; do not reason about it. In the list 3, 5, 5, 7, 20, replacing the 20 with 40 raises the mean from 8 to 12, but the middle value is still 5 and 5 is still the most frequent value, so only the mean changes."
+    },
+    {
+     "type": "ul",
+     "items": [
+      "The <b>mean</b> responds to every value, so changing any single number changes it.",
+      "The <b>median</b> only responds to the position of the middle. Making the largest value larger, or the smallest smaller, does not move it.",
+      "The <b>mode</b> only responds to how often values repeat.",
+      "The <b>range</b> only responds to the two extremes."
+     ]
+    },
+    {
+     "type": "p",
+     "text": "That is why an unusually large or small value pulls the mean around and leaves the median alone, which is the point behind almost every question of this shape."
+    },
+    {
+     "type": "h",
+     "text": "Probability"
+    },
+    {
+     "type": "p",
+     "text": "The probability of an event is \\(\\frac{\\text{outcomes you want}}{\\text{outcomes there are}}\\), and both numbers have to be counted before you write the fraction. A bag holding five blue, four yellow and three white marbles has 12 outcomes in all, so the probability of drawing yellow is \\(\\frac{4}{12} = \\frac{1}{3}\\). Reduce the fraction, because the choices will be reduced."
+    },
+    {
+     "type": "p",
+     "text": "A probability is always between 0 and 1. Impossible is 0, certain is 1 and everything else falls in between, so any choice above 1 is wrong on sight. The denominator is the <i>whole</i> collection, not the part left over — comparing four yellow marbles with the eight that are not yellow gives \\(\\frac{4}{8}\\), a part-to-part ratio and not a probability."
+    },
+    {
+     "type": "h",
+     "text": "The complement"
+    },
+    {
+     "type": "p",
+     "text": "The probability that something does <i>not</i> happen is 1 minus the probability that it does. With 12 marbles of which four are yellow, the probability of not drawing yellow is \\(1 - \\frac{1}{3} = \\frac{2}{3}\\), and you can check it by counting directly: eight of the 12 are not yellow, and \\(\\frac{8}{12} = \\frac{2}{3}\\)."
+    },
+    {
+     "type": "p",
+     "text": "The word NOT is often printed in capitals precisely because it is so easy to read past. When a question uses it, the probability of the thing happening is always among the choices, and it is the answer to the question you did not read."
+    },
+    {
+     "type": "h",
+     "text": "The words in a probability question"
+    },
+    {
+     "type": "table",
+     "head": [
+      "The word",
+      "What you do",
+      "Example"
+     ],
+     "rows": [
+      [
+       "not",
+       "subtract from 1, or count the outcomes that are left",
+       "\\(1 - \\frac{1}{3} = \\frac{2}{3}\\)"
+      ],
+      [
+       "or, between outcomes that cannot both happen",
+       "add the probabilities",
+       "red or blue: \\(\\frac{5}{12} + \\frac{3}{12} = \\frac{8}{12}\\)"
+      ],
+      [
+       "and, for two separate stages",
+       "multiply the number of choices, or the probabilities",
+       "a shirt and a hat: \\(4 \\times 3 = 12\\) outfits"
+      ],
+      [
+       "at least one",
+       "it is usually faster to find the complement",
+       "\\(1 - P(\\text{none})\\)"
+      ],
+      [
+       "certain",
+       "the probability is 1",
+       "—"
+      ],
+      [
+       "impossible",
+       "the probability is 0",
+       "—"
+      ]
+     ]
+    },
+    {
+     "type": "h",
+     "text": "The counting principle"
+    },
+    {
+     "type": "p",
+     "text": "When something is chosen in stages, multiply the number of choices at each stage. Four kinds of bread, three meats and two cheeses make \\(4 \\times 3 \\times 2 = 24\\) different sandwiches. The instinct to add is strong and wrong — adding gives nine, which is the number of ingredients rather than the number of sandwiches."
+    },
+    {
+     "type": "p",
+     "text": "Two other slips are printed on these questions: multiplying two of the three numbers and forgetting the third, and multiplying two and then adding the third. Write the multiplication out in full, one factor for each stage named in the question, and count that you have as many factors as the question has stages."
+    },
+    {
+     "type": "h",
+     "text": "Reading a table or a graph"
+    },
+    {
+     "type": "p",
+     "text": "A graph question is a reading question that happens to use numbers. Read the title, both axis labels and the scale before you look at a single bar, and in particular work out what one grid step is worth. If the question asks for a difference, a total or a change, do that arithmetic rather than reporting a value you can read straight off — the value you can read straight off is what the wrong choices are made of."
+    },
+    {
+     "type": "h",
+     "text": "Worked examples"
+    },
+    {
+     "type": "example",
+     "stem": "What is the median of 12, 7, 19, 4, 15 and 9?",
+     "options": [
+      "10.5",
+      "9",
+      "12",
+      "11.5"
+     ],
+     "answer": 0,
+     "walkthrough": "Sort the list first: 4, 7, 9, 12, 15, 19. There are six values, so the median is the average of the third and fourth: \\(\\frac{9 + 12}{2} = 10.5\\). Choices 9 and 12 each take one of the two middle values instead of averaging them, and both look reassuring because both are numbers from the list. Choice 11.5 averages the two middle numbers of the <i>unsorted</i> list, 19 and 4, which is what happens if you skip the sorting step."
+    },
+    {
+     "type": "example",
+     "stem": "What is the mean of 4, 8, 11, 15 and 27?",
+     "options": [
+      "13",
+      "11",
+      "23",
+      "16.25"
+     ],
+     "answer": 0,
+     "walkthrough": "Add the values for 65 and divide by five: the mean is 13. Choice 11 is the median, the middle value of the sorted list, which is the wrong measure rather than wrong arithmetic. Choice 23 is the range, \\(27 - 4\\). Choice 16.25 divides the correct total by 4, which is what an off-by-one count gives you. A plausibility check helps as well: a mean has to sit between 4 and 27, and it should sit nearer the crowd of small values than the lone 27."
+    },
+    {
+     "type": "example",
+     "stem": "In the list 2, 6, 6, 9, 22 the value 22 is replaced by 42. Which measure of the list changes?",
+     "options": [
+      "The mean only",
+      "The mean and the median",
+      "The median only",
+      "The mode only"
+     ],
+     "answer": 0,
+     "walkthrough": "Work all three out on both lists rather than reasoning about them. The mean rises from \\(\\frac{45}{5} = 9\\) to \\(\\frac{65}{5} = 13\\). The list stays in order and the third value is still 6, so the median does not move. The value 6 is still the only repeat, so the mode does not move either. Only the mean changes. The three wrong choices all come from assuming that changing the largest number must shift the middle of the list as well, which it cannot, because the median depends on position and not on size."
+    },
+    {
+     "type": "example",
+     "stem": "Priya's first four test scores are 80, 84, 92 and 88. What must she score on the fifth test for her mean to be 87?",
+     "options": [
+      "91",
+      "86",
+      "87",
+      "88"
+     ],
+     "answer": 0,
+     "walkthrough": "Turn the average into a total. Five tests averaging 87 must add to \\(87 \\times 5 = 435\\), and the four she has add to 344, so she needs \\(435 - 344 = 91\\). Choice 86 is her current mean, \\(344 \\div 4\\) — real arithmetic, wrong question. Choice 87 assumes that scoring the target once produces the target, which is only true if she is already averaging it. Choice 88 makes up the one-point shortfall once instead of four times, and the shortfall has to be covered for every earlier test, which is why the answer is four points above the target."
+    },
+    {
+     "type": "example",
+     "stem": "A box holds five red pens, three green pens and four white pens. One pen is taken out without looking. What is the probability that it is NOT red?",
+     "options": [
+      "\\(\\frac{7}{12}\\)",
+      "\\(\\frac{5}{12}\\)",
+      "\\(\\frac{5}{7}\\)",
+      "\\(\\frac{3}{4}\\)"
+     ],
+     "answer": 0,
+     "walkthrough": "Count the whole collection first: \\(5 + 3 + 4 = 12\\) pens. Seven of them are not red, so the probability is \\(\\frac{7}{12}\\), and the complement confirms it: \\(1 - \\frac{5}{12} = \\frac{7}{12}\\). Choice \\(\\frac{5}{12}\\) is the probability that the pen IS red, which is what the capitalized NOT is there to catch. Choice \\(\\frac{5}{7}\\) compares red pens with the others, a part-to-part ratio rather than a probability. Choice \\(\\frac{3}{4}\\) removes the three green pens instead of the five red ones."
+    },
+    {
+     "type": "example",
+     "stem": "A yogurt shop offers three sizes, five flavors and four toppings. How many different orders are possible using one size, one flavor and one topping?",
+     "options": [
+      "60",
+      "12",
+      "15",
+      "23"
+     ],
+     "answer": 0,
+     "walkthrough": "Multiply the choices at each stage: \\(3 \\times 5 \\times 4 = 60\\). Choice 12 adds the three numbers, which counts the ingredients rather than the orders. Choice 15 multiplies the sizes and the flavors and forgets the toppings — one factor short of the three stages the question names. Choice 23 multiplies two of the numbers and adds the third, \\(5 \\times 4 + 3\\). Count your factors against the stages in the question and all three disappear."
+    },
+    {
+     "type": "h",
+     "text": "The traps"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "<b>The wrong measure.</b> A mean question prints the median, the mode and the range. Write down which one was asked for before you compute.",
+      "<b>The unsorted median.</b> Put the list in order first, every time.",
+      "<b>One middle value taken instead of two averaged.</b> An even count needs the average of the middle pair.",
+      "<b>A miscounted list.</b> Count the values twice before you divide.",
+      "<b>The target average given as the answer</b> on a missing-value question. Convert the average into a total instead.",
+      "<b>NOT read past.</b> The probability of the event happening is always printed beside the probability of its not happening.",
+      "<b>Part-to-part offered as a probability.</b> The denominator is the whole collection.",
+      "<b>Adding where the counting principle multiplies,</b> or dropping one of the stages from the multiplication.",
+      "<b>A probability left unreduced.</b> If \\(\\frac{4}{12}\\) is not among the choices, look for \\(\\frac{1}{3}\\) before you decide you are wrong."
+     ]
+    },
+    {
+     "type": "h",
+     "text": "When you are stuck"
+    },
+    {
+     "type": "ol",
+     "items": [
+      "Sort the list and write the sorted version down. Several of these questions become obvious the moment the numbers are in order.",
+      "Compute all four measures. For a five- or six-value list that takes about 20 seconds and it removes any doubt about which one the question wanted.",
+      "Turn every average into a total. Mean times count is the move behind every missing-value, added-value and combined-group question.",
+      "Count the whole collection out loud before writing a probability, and check that your fraction is between 0 and 1.",
+      "For a counting question, list the possibilities for a smaller version of the problem. Two breads and three meats obviously give six sandwiches, and seeing that makes the multiplication trustworthy.",
+      "Guess and move on. There is no penalty for a wrong answer on the HSPT, so eliminate what fails a plausibility check and pick from the rest."
+     ]
+    },
+    {
+     "type": "h",
+     "text": "Worth memorizing"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "Mean is the total over the count; median is the middle of the sorted list; mode is the most frequent value; range is largest minus smallest.",
+      "Total \\(=\\) mean \\(\\times\\) count.",
+      "With an even number of values, the median is the average of the two middle ones.",
+      "Probability is what you want over everything there is, and it always falls between 0 and 1.",
+      "\\(P(\\text{not } A) = 1 - P(A)\\).",
+      "The counting principle: multiply the number of choices at every stage.",
+      "That the median ignores how large the largest value is, while the mean does not."
+     ]
+    }
+   ],
+   "section": "math"
+  },
+  "Word Problems": {
    "title": "Word Problems",
    "sectionLabel": "Mathematics",
    "weight": "40 of the 64 Mathematics questions — the largest block on the test",
    "oneLine": "A word problem hides one or two arithmetic steps inside a situation, and the work is finding the question actually being asked and writing the relationship that answers it.",
-   "practiceTopic": "Problem Solving",
+   "practiceTopic": "Word Problems",
    "blocks": [
     {
      "type": "p",
-     "text": "Forty of the 64 Mathematics questions are word problems, which makes this one of the two largest blocks on the test, alongside reading comprehension. They do not use harder arithmetic than the rest of the section. They use the same arithmetic wrapped in a sentence or two, and nearly all of the difficulty is in the translation."
+     "text": "Forty of the 64 Mathematics questions are word problems, which makes this the largest single block anywhere on the HSPT. They do not use harder arithmetic than the rest of the section. They use the same arithmetic wrapped in a sentence or two, and nearly all of the difficulty is in the translation."
     },
     {
      "type": "p",
@@ -4471,8 +7024,8 @@
        "Ana Hayes, the principal, a senator"
       ],
       [
-       "Kleenex, Levi's, Thermos",
-       "tissue, jeans, vacuum flask"
+       "Kleenex, Levi's, Ford",
+       "tissue, jeans, truck"
       ],
       [
        "the Great Depression, the Renaissance",
@@ -4481,10 +7034,6 @@
       [
        "Mississippi River, Larimer Street, Colorado",
        "the river, that street, the state"
-      ],
-      [
-       "Mass, Advent, Lent, the Bible",
-       "a church service, the liturgy, a hymnal"
       ]
      ]
     },
@@ -4597,7 +7146,7 @@
    "blocks": [
     {
      "type": "p",
-     "text": "The format is the same as the capitalization items: three sentences labeled A, B and C, plus a fourth choice that reads <i>No mistakes.</i> One of the four is correct. You are looking for a mark that is missing, a mark that does not belong or the wrong mark in the right place."
+     "text": "The format is the same as the capitalization items: three sentences labeled A, B and C, plus a fourth choice that reads <i>No mistakes.</i> One of the four is correct. You are looking for a mark that is missing, a mark that does not belong, or the wrong mark in the right place."
     },
     {
      "type": "p",
@@ -4619,7 +7168,7 @@
     },
     {
      "type": "note",
-     "text": "A note on the serial comma. Regis Jesuit High School style leaves out the comma before <i>and</i> in a simple list: <i>napkins, cups and a folding table</i>. Other style guides put one in, and both are accepted English. A fair item will not turn on which convention a sentence follows, so if the only thing you can find in a sentence is a comma before the final <i>and</i> of a list, look again for something else before you settle on it."
+     "text": "A note on the serial comma. Regis Jesuit High School style leaves out the comma before <i>and</i> in a simple list: <i>napkins, cups and a folding table</i>. Other style guides put one in. Both are accepted English, and because they are, an HSPT item will never turn on it. If the only thing you can find in a sentence is a missing or extra comma before the final <i>and</i> of a list, that sentence is not the answer. Keep looking."
     },
     {
      "type": "h",
@@ -4665,7 +7214,7 @@
     },
     {
      "type": "p",
-     "text": "There are four repairs, and the test may use any of them: a period, a semicolon, a comma plus a coordinating conjunction or a subordinating word such as <i>because</i>, <i>although</i> or <i>when</i> that turns one clause into a dependent one. Words like <i>however</i>, <i>therefore</i> and <i>instead</i> are not coordinating conjunctions and cannot fix a splice with a comma; they need a semicolon or a period in front of them."
+     "text": "There are four repairs, and the test may use any of them: a period, a semicolon, a comma plus a coordinating conjunction, or a subordinating word such as <i>because</i>, <i>although</i> or <i>when</i> that turns one clause into a dependent one. Words like <i>however</i>, <i>therefore</i> and <i>instead</i> are not coordinating conjunctions and cannot fix a splice with a comma; they need a semicolon or a period in front of them."
     },
     {
      "type": "h",
@@ -4673,7 +7222,7 @@
     },
     {
      "type": "p",
-     "text": "A semicolon joins two independent clauses that belong together closely enough to share a sentence: <i>The bus was late; we still made it to the first inning.</i> It also separates items in a list when the items themselves already contain commas: <i>The tour stops in Pueblo, Colorado; Santa Fe, New Mexico; and Flagstaff, Arizona.</i> The semicolon before <i>and</i> is standard in a list like this one, and is a separate question from the comma discussed above."
+     "text": "A semicolon joins two independent clauses that belong together closely enough to share a sentence: <i>The bus was late; we still made it to the first inning.</i> It also separates items in a list when the items themselves already contain commas: <i>The tour stops in Pueblo, Colorado; Santa Fe, New Mexico; and Flagstaff, Arizona.</i>"
     },
     {
      "type": "p",
@@ -4795,13 +7344,13 @@
      "type": "example",
      "stem": "Find the sentence that contains a punctuation error. If there is no error, choose <i>No mistakes.</i>",
      "options": [
-      "Aunt Cecilia's recipe calls for four cups of flour and two eggs.",
+      "Aunt Cecilia's recipe calls for four cups of flour, two eggs and a pinch of salt.",
       "When the power went out, we lit candles and finished the puzzle by hand.",
       "The coach asked, \"Who wants to run the first leg?\"",
       "No mistakes."
      ],
      "answer": 3,
-     "walkthrough": "Go category by category. Apostrophes: <i>Cecilia's</i> is a singular possessive, correctly formed. Commas: A joins two things with <i>and</i> and needs none; B has one after an introductory clause and none before <i>and</i>, which is right because <i>finished the puzzle by hand</i> shares the subject <i>we</i> and cannot stand alone. Quotation marks: C puts the question mark inside because the quoted words are the question, and the comma before the quotation is standard. Nothing is wrong. The temptation is to add a comma before <i>and</i> in B, but that comma would be an error, not a fix."
+     "walkthrough": "Go category by category. Apostrophes: <i>Cecilia's</i> is a singular possessive, correctly formed. Commas: A is a series; B has one after an introductory clause and none before <i>and</i>, which is right because <i>finished the puzzle by hand</i> shares the subject <i>we</i> and cannot stand alone. Quotation marks: C puts the question mark inside because the quoted words are the question, and the comma before the quotation is standard. Nothing is wrong. The temptation is to add a comma before <i>and</i> in B, but that comma would be an error, not a fix."
     },
     {
      "type": "h",
@@ -4834,7 +7383,7 @@
     },
     {
      "type": "p",
-     "text": "The four repairs for two independent clauses: period, semicolon, comma plus a coordinating conjunction or a subordinating word. The five jobs a comma does. The apostrophe table above. And one line about quotations: periods and commas go inside the closing quotation mark; a question mark goes inside only when the quotation is itself the question."
+     "text": "The four repairs for two independent clauses: period, semicolon, comma plus a coordinating conjunction, or a subordinating word. The five jobs a comma does. The apostrophe table above. And one line about quotations: periods and commas go inside the closing quotation mark; a question mark goes inside only when the quotation is itself the question."
     }
    ],
    "section": "language"
@@ -4848,7 +7397,7 @@
    "blocks": [
     {
      "type": "p",
-     "text": "This is the largest block on the Language Skills section, and it comes in two shapes. Most items use the same format as capitalization and punctuation: three sentences labeled A, B and C, and a fourth choice reading <i>No mistakes.</i> Others give you four versions of one sentence and ask which is written correctly — the same knowledge, asked the other way round, so read the instruction before you start hunting for an error. The error, when there is one, is a grammar error — a verb that does not match its subject, a pronoun in the wrong form, a modifier attached to the wrong word."
+     "text": "This is the largest block on the Language Skills section, and it uses the same format as capitalization and punctuation: three sentences labeled A, B and C, and a fourth choice reading <i>No mistakes.</i> One of the four is right. The error, when there is one, is a grammar error — a verb that does not match its subject, a pronoun in the wrong form, a modifier attached to the wrong word."
     },
     {
      "type": "p",
@@ -5042,7 +7591,7 @@
     },
     {
      "type": "p",
-     "text": "Items joined by <i>and</i>, <i>or</i> or <i>but</i> &mdash; or listed in a series &mdash; should share the same grammatical form. <i>The job requires patience, attention to detail and a steady hand</i> lines up three noun phrases. <i>The job requires patience, paying attention and to have a steady hand</i> breaks the pattern twice."
+     "text": "Items joined by <i>and</i>, <i>or</i> or <i>but</i>, or listed in a series, should share the same grammatical form. <i>The job requires patience, attention to detail and a steady hand</i> lines up three noun phrases. <i>The job requires patience, paying attention and to have a steady hand</i> breaks the pattern twice."
     },
     {
      "type": "h",
@@ -5210,7 +7759,7 @@
     },
     {
      "type": "p",
-     "text": "The indefinite pronoun table and the three verb pairs above are the two lists that repay memorizing outright. Everything else is a test you can run in the moment: cross out the prepositional phrases, drop the other person out of the compound, substitute <i>he</i> or <i>him</i> for <i>who</i> or <i>whom</i>, ask whether a describing word is describing a noun or an action and check what the opening phrase is actually attached to."
+     "text": "The indefinite pronoun table and the six irregular verbs above are the two lists that repay memorizing outright. Everything else is a test you can run in the moment: cross out the prepositional phrases, drop the other person out of the compound, substitute <i>he</i> or <i>him</i> for <i>who</i> or <i>whom</i>, ask whether a describing word is describing a noun or an action, and check what the opening phrase is actually attached to."
     }
    ],
    "section": "language"
@@ -5218,7 +7767,7 @@
   "Spelling": {
    "title": "Spelling",
    "sectionLabel": "Language Skills",
-   "weight": "About ten of the 60 Language Skills questions",
+   "weight": "About 10 of the 60 Language Skills questions",
    "oneLine": "You are shown three sentences and must find the one that contains a misspelled word — or decide that all three are spelled correctly.",
    "practiceTopic": "Spelling",
    "blocks": [
@@ -5259,7 +7808,7 @@
     },
     {
      "type": "p",
-     "text": "The real exceptions are worth knowing because the test uses them: <i>either</i>, <i>neither</i>, <i>seize</i>, <i>weird</i>, <i>foreign</i>, <i>height</i>, <i>leisure</i>, <i>protein</i>, <i>their</i>, <i>forfeit</i> and <i>science</i>. A second group breaks the <i>after c</i> half of the rule because the c sounds like <i>sh</i>: <i>ancient</i>, <i>efficient</i>, <i>conscience</i> and <i>sufficient</i>."
+     "text": "The real exceptions are worth knowing because the test uses them: <i>either</i>, <i>neither</i>, <i>seize</i>, <i>weird</i>, <i>foreign</i>, <i>height</i>, <i>leisure</i>, <i>protein</i>, <i>their</i> and <i>forfeit</i>. A second group breaks the <i>after c</i> half of the rule because the c sounds like <i>sh</i>: <i>science</i>, <i>ancient</i>, <i>efficient</i>, <i>conscience</i>, <i>sufficient</i>."
     },
     {
      "type": "h",
@@ -5283,7 +7832,7 @@
     },
     {
      "type": "p",
-     "text": "<b>-able and -ible.</b> If what is left after you remove the ending is a complete word, the ending is usually <i>-able</i>: <i>agreeable</i>, <i>dependable</i>, <i>comfortable</i>, <i>reasonable</i>. If what is left is not a word on its own, the ending is usually <i>-ible</i>: <i>visible</i>, <i>terrible</i>, <i>possible</i>, <i>edible</i>. This is a strong tendency rather than a law — <i>digestible</i> and <i>collectible</i> break it — but it will get you the right answer far more often than a guess."
+     "text": "<b>-able and -ible.</b> If what is left after you remove the ending is a complete word, the ending is usually <i>-able</i>: <i>agreeable</i>, <i>dependable</i>, <i>comfortable</i>, <i>reasonable</i>. If what is left is not a word on its own, the ending is usually <i>-ible</i>: <i>visible</i>, <i>terrible</i>, <i>possible</i>, <i>edible</i>. This is a strong tendency rather than a law — <i>responsible</i> and <i>digestible</i> break it — but it will get you the right answer far more often than a guess."
     },
     {
      "type": "p",
@@ -5465,7 +8014,7 @@
       ],
       [
        "restaurant",
-       "restaraunt"
+       "restarant"
       ],
       [
        "rhythm",
@@ -5590,7 +8139,7 @@
   "Composition": {
    "title": "Composition & Paragraphs",
    "sectionLabel": "Language Skills",
-   "weight": "About ten of the 60 Language Skills questions",
+   "weight": "About 10 of the 60 Language Skills questions",
    "oneLine": "You are asked to choose the sentence, the transition or the wording that makes a short paragraph work — the best of four options rather than the one that breaks a rule.",
    "practiceTopic": "Composition",
    "blocks": [
@@ -5638,7 +8187,7 @@
     },
     {
      "type": "p",
-     "text": "A concluding sentence closes a paragraph. It can restate the point in different words, draw the consequence of what has been said or answer the question the paragraph raised. What it must not do is introduce a new idea. If an option would need a paragraph of its own to explain it, it is wrong, however sensible it sounds."
+     "text": "A concluding sentence closes a paragraph. It can restate the point in different words, draw the consequence of what has been said, or answer the question the paragraph raised. What it must not do is introduce a new idea. If an option would need a paragraph of its own to explain it, it is wrong, however sensible it sounds."
     },
     {
      "type": "p",
@@ -5719,7 +8268,7 @@
     },
     {
      "type": "p",
-     "text": "Shortest is not automatically right. An option that drops information, changes what the sentence claims or creates a new grammatical problem is wrong even if it is the tightest on the page. Check the short options for meaning before you take them."
+     "text": "Shortest is not automatically right. An option that drops information, changes what the sentence claims, or creates a new grammatical problem is wrong even if it is the tightest on the page. Check the short options for meaning before you take them."
     },
     {
      "type": "h",
@@ -5727,7 +8276,7 @@
     },
     {
      "type": "p",
-     "text": "When you are placing a sentence into a numbered paragraph, look at the sentence itself for a pointer word: <i>this</i>, <i>that</i>, <i>such</i>, <i>instead</i>, <i>another</i>, <i>the second</i> or a pronoun standing for a person or thing. The pointer tells you what has to come immediately before it. Then read the sentence that would follow the slot and make sure it still makes sense. A placement that works going in but breaks what comes after is wrong."
+     "text": "When you are placing a sentence into a numbered paragraph, look at the sentence itself for a pointer word: <i>this</i>, <i>that</i>, <i>such</i>, <i>instead</i>, <i>another</i>, <i>the second</i>, or a pronoun standing for a person or thing. The pointer tells you what has to come immediately before it. Then read the sentence that would follow the slot and make sure it still makes sense. A placement that works going in but breaks what comes after is wrong."
     },
     {
      "type": "h",
@@ -5737,13 +8286,13 @@
      "type": "example",
      "stem": "Choose the best topic sentence for this paragraph. ______ The first floor holds the reference desk and the newspapers. Study rooms line the second floor. The third floor is quiet by rule, and nobody talks there at all.",
      "options": [
-      "The town library is arranged by floor, and it gets quieter as you go up.",
+      "The town library is arranged by floor, and each floor is quieter than the one below it.",
       "The town library opened in 1974 and has been remodeled twice.",
       "Reading is a habit worth building early in life.",
       "None of these."
      ],
      "answer": 0,
-     "walkthrough": "Say the paragraph's point first: three floors, each quieter going up. Option A names exactly that and covers all three details. B is a fact about the library that none of the details support, so the paragraph would not follow from it. C is true and far too broad — it would sit on top of any paragraph about libraries and tells you nothing about this one. Off the point and far too broad are the two standard wrong answers, and most topic sentence items carry one of each."
+     "walkthrough": "Say the paragraph's point first: three floors, each quieter going up. Option A names exactly that and covers all three details. B is a fact about the library that none of the details support, so the paragraph would not follow from it. C is true and far too broad — it would sit on top of any paragraph about libraries and tells you nothing about this one. Too narrow and too broad are the two standard wrong answers, and you will see one of each in most topic sentence items."
     },
     {
      "type": "example",
@@ -5779,7 +8328,7 @@
       "The game, which was rained on, it was postponed."
      ],
      "answer": 1,
-     "walkthrough": "All four try to say one thing: rain, so the game was postponed. B says it in eight words with the officials doing the postponing. A is grammatical but padded — <i>due to the fact that</i> for <i>because</i>, <i>until a later date</i> for nothing at all and a passive that pushes the actors to the end. C uses the non-standard <i>being that</i> and turns a verb into the clumsy noun <i>a postponement</i>. D repeats the subject with <i>it</i> after the interrupting clause. Shorter wins here because nothing is lost, not because shorter always wins."
+     "walkthrough": "All four try to say one thing: rain, so the game was postponed. B says it in seven words with the officials doing the postponing. A is grammatical but padded — <i>due to the fact that</i> for <i>because</i>, <i>until a later date</i> for nothing at all, and a passive that pushes the actors to the end. C uses the non-standard <i>being that</i> and turns a verb into the clumsy noun <i>a postponement</i>. D repeats the subject with <i>it</i> after the interrupting clause. Shorter wins here because nothing is lost, not because shorter always wins."
     },
     {
      "type": "example",

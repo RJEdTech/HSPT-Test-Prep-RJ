@@ -2,9 +2,9 @@ import json, re, collections
 
 ORDER = [
  ("Verbal Skills", "verbal", ["Synonyms","Antonyms","Analogies","Classification","Verbal Logic"]),
- ("Quantitative Skills", "quant", ["Patterns in Numbers","Mathematic Comparisons","Skills Check 2: Quantitative Skills"]),
- ("Reading", "reading", ["Reading Comprehension","Vocabulary"]),
- ("Mathematics", "math", ["Math Principles","Skills Check 4: Mathematic Skills","Problem Solving"]),
+ ("Quantitative Skills", "quant", ["Number Series","Letter Series","Comparisons","Geometric Comparison","Number Manipulation"]),
+ ("Reading", "reading", ["Reading Comprehension","Vocabulary in Context"]),
+ ("Mathematics", "math", ["Number Sense","Fractions, Decimals and Percents","Ratios and Proportions","Computation","Algebra","Geometry and Measurement","Data and Probability","Word Problems"]),
  ("Language Skills", "language", ["Capitalization","Punctuation","Usage","Spelling","Composition"]),
 ]
 

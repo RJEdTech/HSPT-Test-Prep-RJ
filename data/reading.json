@@ -1,1130 +1,2165 @@
 {
-  "section": "reading",
-  "passages": {
-    "bonsai": {
-      "title": "The Art of Bonsai",
-      "paragraphs": [
-        "Bonsai is the art of growing miniature trees in shallow containers. The word itself means \"planted in a tray,\" but bonsai is far more than a method of container gardening. A well-made bonsai is a living sculpture — a tree shaped over years, sometimes over generations, to suggest the character of a full-sized tree standing alone in nature. Practitioners think of themselves less as gardeners than as artists whose medium happens to be alive and growing.",
-        "The practice began in China more than a thousand years ago, where it was known as penjing, or \"tray scenery.\" Chinese artists created miniature landscapes that included not only trees but rocks, water, and small figures. Buddhist monks carried the practice to Japan around the twelfth century, and Japanese artists gradually developed their own approach to the same practice. They stripped away much of the ornament, focusing attention on a single tree and the empty space around it.",
-        "This restraint reflects a particular aesthetic sensibility. A bonsai is not meant to be a perfect tree; it is meant to suggest age, endurance, and the passage of time. A trunk that twists sharply evokes decades of wind on an exposed hillside. A branch that has died and been bleached white recalls a tree that has survived hardship. The viewer is invited to imagine the full landscape that the tree implies, and the empty space in the container matters as much as the tree itself.",
-        "Over time, artists developed recognized styles. The formal upright style features a straight trunk tapering evenly toward the top. The informal upright curves gently. The cascade style sends the trunk downward past the lip of the pot, imitating a tree clinging to a cliff. The windswept style bends every branch in one direction, and the forest style groups several trees to suggest a grove. These styles are not rules so much as starting points, and skilled artists combine and adapt them freely.",
-        "Caring for a bonsai demands constant attention. Regular pruning of both branches and roots is what keeps the tree small; without it, the tree would simply grow to full size. Artists wrap branches in wire to guide their direction, water carefully, and fertilize on a schedule suited to the species. Certain species — junipers, maples, elms, and pines — are favored precisely because their small leaves or fine needles remain in proportion to a miniature tree. A serious bonsai may be tended for decades, and patience is not merely helpful but essential.",
-        "Today bonsai is practiced worldwide, and enthusiasts in North America, Europe, and Australia have begun working with native species their Japanese predecessors never saw. These experiments have produced genuine innovations in technique and style. Yet the core principles — restraint, proportion, and respect for the tree as a living thing — have carried across every border the art has crossed. That endurance is remarkable in its own right. Few art forms demand so much patience of the people who practice them, and the results reward every year of it."
-      ]
-    },
-    "timekeeping": {
-      "title": "Measuring Time",
-      "paragraphs": [
-        "For as long as people have organized their lives around planting, worship, and travel, they have needed to measure time. The history of timekeeping is a long record of devices, each solving problems the last one could not, and each opening possibilities its inventors never anticipated.",
-        "The earliest reliable timekeepers were sundials, which tracked the movement of a shadow across a marked surface as the sun crossed the sky. Sundials were simple, required no maintenance, and could be remarkably accurate. They had one obvious weakness: they were useless when the sky was overcast, and equally useless at night. To fill those gaps, ancient Egyptian and Greek engineers built water clocks, which measured time by the steady flow of water from one vessel into another. Water clocks worked in darkness and in poor weather, but their flow rate changed with temperature, and they demanded constant refilling.",
-        "Mechanical clocks appeared in European monasteries in the thirteenth century, built to summon monks to prayer at fixed hours. These early clocks had no hands or faces; they simply rang a bell. Their motion was regulated by a device called a verge escapement, which released the energy of a falling weight in small, even increments rather than all at once, keeping the mechanism turning at a steady rate. The principle was sound, but the accuracy was poor — a good mechanical clock of that era might drift by fifteen minutes in a single day.",
-        "The decisive improvement came in 1656, when the Dutch scientist Christiaan Huygens applied the pendulum to clockwork. Because a pendulum of a given length swings at a consistent rate, Huygens's design reduced daily error from minutes to seconds — an improvement of more than a hundredfold. Accuracy at sea proved harder to achieve, since a pendulum will not swing evenly on a rolling ship. That problem was solved in the eighteenth century by the marine chronometer, a spring-driven clock accurate enough that a navigator could compare local noon against the time at a known reference port and calculate his longitude — a measurement that had defeated sailors for centuries.",
-        "The twentieth century brought entirely new methods. Quartz clocks, introduced in the 1920s, keep time by the steady vibration of a quartz crystal under an electric current. They proved far more accurate than any mechanical clock and eventually became cheap enough for an ordinary wristwatch, an unusual combination of high precision and low cost. Atomic clocks, developed after 1950, went further still, counting the vibrations of cesium atoms to lose less than a second in millions of years. Global positioning satellites, telecommunications networks, and financial systems all depend on atomic clocks to keep the world's computers synchronized to a common standard.",
-        "Researchers are now building optical atomic clocks, which use light rather than microwaves and may prove a hundred times more accurate than the cesium standard. Such precision has no obvious everyday use today. But then, neither did the marine chronometer before someone needed to cross an ocean."
-      ]
-    },
-    "memory": {
-      "title": "How Memory Works",
-      "paragraphs": [
-        "Memory feels like a recording. We speak of storing a memory and playing it back, as though the brain kept a library of files waiting to be opened. Research over the past several decades has shown that the reality is stranger and more active than that. Memory is not one process but three — forming, storing, and retrieving — and each of them changes what is remembered.",
-        "Formation begins when the brain converts an experience into a lasting signal, a process called encoding. Attention matters enormously here: information we notice and think about is encoded far more strongly than information that merely passes before our eyes. The hippocampus, a curved structure deep in each temporal lobe, plays a central role at this stage, converting fragile short-term memories into stable long-term ones. Patients whose hippocampus has been damaged show a striking pattern. They can recall childhood events in detail and carry on a normal conversation, but they cannot form new lasting memories — an experience fades within minutes of its ending.",
-        "Once encoded, memories are strengthened through consolidation, much of which happens during sleep. During REM sleep in particular, the brain appears to replay patterns of activity from the day, reinforcing the connections between neurons that carry a given memory. This is one reason students who sleep after studying outperform those who stay awake through the night. Consolidated memories are not filed in any single location; a memory of a meal may be distributed across regions handling taste, smell, vision, and emotion, and recalling it means reassembling those pieces.",
-        "Retrieval, then, is reconstruction rather than playback, and this accounts for memory's malleability. Each time a memory is recalled it becomes briefly unstable and must be stored again, and details can shift in the process. The setting in which we try to remember shapes what surfaces, and so does our mood — people in a low mood recall more unhappy events. The implications reach well beyond the laboratory. Eyewitness testimony has long been treated as powerful evidence in criminal trials, yet studies have repeatedly shown that a witness's account can be altered by the phrasing of a question or by information encountered after the event, all without the witness having any sense that the memory has changed.",
-        "Understanding these mechanisms has changed how researchers think about practical problems. Study techniques that require retrieval — self-testing, spacing practice across days — produce far better retention than rereading, precisely because each act of recall strengthens the memory. Schools have begun redesigning instruction around these findings, and the same research is guiding efforts to slow memory loss in aging and in disease."
-      ]
-    },
-    "renewable-energy": {
-      "title": "The Case for Renewable Energy",
-      "paragraphs": [
-        "The world's energy system is in the middle of a substantial change. Solar, wind, hydroelectric, and geothermal power supplied a small fraction of global electricity a generation ago; today they supply a growing share, and the pace is accelerating. The shift brings real advantages, and it also brings difficulties that are not yet fully solved.",
-        "The clearest benefit is environmental. Burning coal, oil, and natural gas releases carbon dioxide and other greenhouse gases that trap heat in the atmosphere and drive climate change. Renewable sources generate electricity with dramatically lower emissions — a wind turbine or a solar panel produces none at all while operating. Renewable energy also strengthens energy security. A country that generates its own power from sunlight and wind depends far less on imported fossil fuels, and is therefore less exposed to supply disruptions abroad.",
-        "There is an economic argument as well. Fossil fuel prices are notoriously volatile, swinging sharply in response to conflicts, cartel decisions, and shifts in global demand, which makes long-term planning difficult for utilities and manufacturers alike. Sunlight and wind, by contrast, are free once the equipment is built. The obstacle is that building the equipment is expensive: solar farms, wind installations, and the transmission lines to connect them require enormous investment before they generate a single kilowatt. That upfront cost remains the single largest barrier to adoption. It is falling steadily, however — the price of solar panels has dropped by roughly ninety percent since 2010 — and analysts expect renewable energy to keep getting cheaper as manufacturing scales and technology improves.",
-        "A second challenge is less about money than about timing. Solar panels produce nothing at night and little under heavy cloud; wind turbines stand idle when the air is still. Because these sources depend on weather conditions, their output is intermittent, while demand for electricity continues around the clock. The most promising answer is storage. Researchers are developing batteries that hold far more energy at lower cost, along with alternatives such as pumped hydroelectric storage, which uses surplus power to move water uphill and recovers it later by letting the water fall. Better storage would allow energy captured on a bright, windy afternoon to be delivered on a still, dark evening.",
-        "None of this happens automatically. Governments shape the transition through research funding, tax policy, and grid regulation; businesses decide where to invest and how quickly to retire aging plants; individuals influence the market through the vehicles they drive and the power they choose to buy. Each has the capacity to accelerate the transition, and the speed of the change will depend on how vigorously all three act."
-      ]
-    },
-    "coral-reefs": {
-      "title": "Coral Reefs Under Pressure",
-      "paragraphs": [
-        "Coral reefs cover less than one percent of the ocean floor, yet they support roughly a quarter of all marine species. This extraordinary concentration of life has earned them a nickname: the rainforests of the sea. Like rainforests, they are among the most productive ecosystems on the planet, and like rainforests, they are disappearing faster than almost anyone anticipated.",
-        "A reef is built by coral polyps, tiny animals that extract calcium carbonate from seawater to construct hard skeletons. Generation after generation builds on the remains of the last, and over thousands of years the accumulated structure becomes a reef. These structures are vital to the regions around them in several distinct ways. They provide shelter and breeding grounds for fish that feed hundreds of millions of people. They draw tourism that sustains coastal economies. And they act as natural breakwaters: by absorbing the energy of incoming waves before it reaches land, reefs reduce erosion and protect shorelines from storm damage that would otherwise be far more severe.",
-        "The greatest threat to reefs today is rising ocean temperature. Corals live in partnership with microscopic algae that inhabit their tissues, providing most of the coral's food and nearly all of its color. When water grows too warm, the coral expels these algae — an event called bleaching that leaves the coral white and starving. A reef can recover from a brief bleaching, but repeated or prolonged events kill it. Warming is compounded by ocean acidification, as seawater absorbs carbon dioxide and grows more acidic, making it harder for polyps to build their skeletons at all. Overfishing, coastal pollution, and runoff from farmland add further strain. Scientists estimate that up to fifty percent of the world's coral reefs have already been lost or severely damaged.",
-        "Efforts to reverse the decline are underway. Marine Protected Areas set aside stretches of ocean where fishing, anchoring, and development are restricted, giving damaged reefs a chance to recover without additional human pressure; reefs inside well-enforced MPAs consistently show better health than those outside them. Coral farming takes a more direct approach. Scientists break healthy coral into fragments, grow them in underwater nurseries until they are large enough to survive on their own, and then transplant them onto degraded reefs. Some projects are also selecting and breeding coral varieties that tolerate warmer water.",
-        "Whether these measures will be enough is an open question, and it depends heavily on how quickly the world limits carbon emissions. Reefs have survived dramatic changes before, over spans of time far longer than human history. With sustained protection and restoration, there is reason to believe they can survive this one as well."
-      ]
-    },
-    "dark-matter": {
-      "title": "The Search for Dark Matter",
-      "paragraphs": [
-        "Everything astronomers can see — every star, planet, and glowing cloud of gas — accounts for only a small portion of the material in the universe. The rest is something else entirely: a substance that has never been directly observed but whose presence is written across the sky. Physicists call it dark matter, and understanding it is one of the central unsolved problems in modern science.",
-        "The first strong evidence came from the rotation of galaxies. In the 1970s, the astronomer Vera Rubin measured how fast stars orbit the centers of spiral galaxies and found something that should have been impossible. Stars at the outer edges were moving so quickly that the galaxy's visible mass could not possibly hold them; they should have flung off into space long ago. Something invisible was supplying the additional gravity. Later observations reinforced the conclusion. Massive galaxy clusters bend the light of more distant objects behind them, an effect called gravitational lensing, and the amount of bending consistently reveals far more mass than the visible matter can explain. Dark matter is inferred entirely in this way — not seen, but detected through its gravitational effects on the matter we can see. The measurements converge on a striking figure: roughly eighty-five percent of the matter in the universe appears to be dark matter.",
-        "Dark matter also seems to explain how the universe came to look the way it does. In the earliest moments after the Big Bang, matter was distributed almost perfectly evenly. Ordinary matter alone could not have clumped together quickly enough to form the galaxies we observe. Dark matter, unimpeded by the pressure of radiation, collapsed first into a vast web of filaments and halos, and this structure acted as a scaffolding, pulling ordinary matter into the places where galaxies would eventually form.",
-        "Why the substance has proven so elusive comes down to how little it interacts with anything. Dark matter neither emits nor absorbs light, which makes it fundamentally invisible to telescopes of every kind — optical, radio, infrared, or X-ray. Beyond gravity, it appears to interact with ordinary matter only very weakly, which is why detectors buried deep underground and shielded from cosmic rays have run for decades without a confirmed signal. The leading candidates are hypothetical particles that no experiment has yet produced: WIMPs, or weakly interacting massive particles, and lighter particles called axions.",
-        "That absence of results has not discouraged the field so much as redirected it. Detectors are growing more sensitive, particle accelerators are searching new energy ranges, and some theorists are questioning whether the standard model of particle physics is complete. A discovery in one of these areas may finally reveal what dark matter is — and in doing so, reshape our understanding of the universe's basic composition."
-      ]
-    },
-    "printing-press": {
-      "title": "The Printing Press",
-      "paragraphs": [
-        "Before the middle of the fifteenth century, every book in Europe was written by hand. A scribe working in a monastery might spend a year copying a single volume, and the result was so costly that only churches, universities, and the wealthy could own one. Because books were scarce, ideas moved slowly, and knowledge was disseminated only as fast as human hands could reproduce it. Johannes Gutenberg's printing press, developed in the German city of Mainz around 1440, broke that limit permanently.",
-        "Gutenberg's central innovation was movable type: individual metal letters that could be arranged into a page, inked, pressed onto paper, then taken apart and reused for the next page. Combined with an oil-based ink of his own formulation and a press adapted from the sort used to crush grapes, the system could produce hundreds of identical copies in the time a scribe needed for one. Among the first major works to come off his press was the Gutenberg Bible, printed around 1455, whose quality startled contemporaries who assumed it must have been made by hand. Within fifty years, printing presses were operating in more than two hundred European cities, and the price of a book had fallen far enough that a prosperous merchant could own a shelf of them.",
-        "The consequences arrived quickly. In 1517, when Martin Luther published his objections to church practice, printers reproduced his writings and carried them across Germany within weeks. Earlier reformers had raised similar objections and been silenced before their arguments spread; Luther could not be silenced, because the press allowed reformers to circulate their ideas faster than any authority could suppress them. The Protestant Reformation is difficult to imagine without it.",
-        "The scientific revolution followed a parallel path. Hand-copied manuscripts accumulated errors with every copy, and a scholar in Italy might wait years to learn what a colleague in England had discovered. Printing produced identical copies, so a diagram or a table of measurements arrived exactly as its author drew it, and researchers across the continent could build directly on one another's work rather than repeating it.",
-        "Printing reshaped language itself. Printers had to choose one spelling and one grammatical form over the alternatives, and the versions they chose spread with their books, helping standardize languages that had previously varied from town to town. Rising literacy followed the falling price of books, giving ordinary people access to information and ideas that had once been confined to a narrow elite — and with that access came the capacity to evaluate claims for themselves rather than accept them on authority.",
-        "Every technology that has expanded access to information since — the newspaper, the broadcast, the internet — has built on the foundation Gutenberg laid. The specific machinery has been replaced many times over. The principle that knowledge should circulate freely and widely has not."
-      ]
-    }
+ "section": "reading",
+ "passages": {
+  "bonsai": {
+   "title": "The Art of Bonsai",
+   "paragraphs": [
+    "Bonsai is the art of growing miniature trees in shallow containers. The word itself means \"planted in a tray,\" but bonsai is far more than a method of container gardening. A well-made bonsai is a living sculpture — a tree shaped over years, sometimes over generations, to suggest the character of a full-sized tree standing alone in nature. Practitioners think of themselves less as gardeners than as artists whose medium happens to be alive and growing.",
+    "The practice began in China more than a thousand years ago, where it was known as penjing, or \"tray scenery.\" Chinese artists created miniature landscapes that included not only trees but rocks, water, and small figures. Buddhist monks carried the practice to Japan around the twelfth century, and Japanese artists gradually developed their own approach to the same practice. They stripped away much of the ornament, focusing attention on a single tree and the empty space around it.",
+    "This restraint reflects a particular aesthetic sensibility. A bonsai is not meant to be a perfect tree; it is meant to suggest age, endurance, and the passage of time. A trunk that twists sharply evokes decades of wind on an exposed hillside. A branch that has died and been bleached white recalls a tree that has survived hardship. The viewer is invited to imagine the full landscape that the tree implies, and the empty space in the container matters as much as the tree itself.",
+    "Over time, artists developed recognized styles. The formal upright style features a straight trunk tapering evenly toward the top. The informal upright curves gently. The cascade style sends the trunk downward past the lip of the pot, imitating a tree clinging to a cliff. The windswept style bends every branch in one direction, and the forest style groups several trees to suggest a grove. These styles are not rules so much as starting points, and skilled artists combine and adapt them freely.",
+    "Caring for a bonsai demands constant attention. Regular pruning of both branches and roots is what keeps the tree small; without it, the tree would simply grow to full size. Artists wrap branches in wire to guide their direction, water carefully, and fertilize on a schedule suited to the species. Certain species — junipers, maples, elms, and pines — are favored precisely because their small leaves or fine needles remain in proportion to a miniature tree. A serious bonsai may be tended for decades, and patience is not merely helpful but essential.",
+    "Today bonsai is practiced worldwide, and enthusiasts in North America, Europe, and Australia have begun working with native species their Japanese predecessors never saw. These experiments have produced genuine innovations in technique and style. Yet the core principles — restraint, proportion, and respect for the tree as a living thing — have carried across every border the art has crossed. That endurance is remarkable in its own right. Few art forms demand so much patience of the people who practice them, and the results reward every year of it."
+   ]
   },
-  "questions": [
-    {
-      "id": "36cc77df96",
-      "stem": "What is the main focus of this passage?",
-      "options": [
-        "The history of Japanese gardening techniques",
-        "The art and practice of bonsai",
-        "The differences between Chinese penjing and Japanese bonsai",
-        "The challenges of growing miniature trees"
-      ],
-      "answer": 1,
-      "topic": "bonsai",
-      "source": "bonsai_questions",
-      "passage": "bonsai",
-      "explanation": "Every paragraph is about bonsai itself, from its origins to its styles and its care. The differences between Chinese penjing and Japanese bonsai covers only the second paragraph, so it is too narrow."
-    },
-    {
-      "id": "5e2254b482",
-      "stem": "According to the passage, where did the art of bonsai originate?",
-      "options": [
-        "Japan",
-        "China",
-        "Korea",
-        "India"
-      ],
-      "answer": 1,
-      "topic": "bonsai",
-      "source": "bonsai_questions",
-      "passage": "bonsai",
-      "explanation": "The second paragraph says the practice began in China more than a thousand years ago, where it was known as penjing. Japan comes later, when monks carried the practice there."
-    },
-    {
-      "id": "a887258289",
-      "stem": "The word 'evokes' in paragraph 3 most nearly means:",
-      "options": [
-        "Contradicts",
-        "Eliminates",
-        "Brings to mind",
-        "Exaggerates"
-      ],
-      "answer": 2,
-      "topic": "bonsai",
-      "source": "bonsai_questions",
-      "passage": "bonsai",
-      "explanation": "In paragraph three, a trunk that twists sharply evokes decades of wind, meaning it makes you picture that wind. So evokes means brings to mind here."
-    },
-    {
-      "id": "124297f414",
-      "stem": "Why does the author mention different bonsai styles in paragraph 4?",
-      "options": [
-        "To argue that some styles are superior to others",
-        "To illustrate the variety and creativity within the art form",
-        "To provide a complete list of all possible bonsai styles",
-        "To explain how bonsai trees are pruned and shaped"
-      ],
-      "answer": 1,
-      "topic": "bonsai",
-      "source": "bonsai_questions",
-      "passage": "bonsai",
-      "explanation": "Paragraph four lists the formal upright, cascade, windswept and forest styles, then says these styles are starting points that skilled artists combine and adapt freely. That shows variety and creativity, not a complete list."
-    },
-    {
-      "id": "8ea7feebcc",
-      "stem": "Based on the information in the passage, which of the following statements about caring for bonsai trees is true?",
-      "options": [
-        "Bonsai trees require less water than full-sized trees",
-        "Fertilization should be avoided to prevent excessive growth",
-        "Pruning is necessary to maintain the tree's miniature size",
-        "Bonsai trees can thrive with minimal attention and care"
-      ],
-      "answer": 2,
-      "topic": "bonsai",
-      "source": "bonsai_questions",
-      "passage": "bonsai",
-      "explanation": "Paragraph five says regular pruning of both branches and roots is what keeps the tree small, and that without it the tree would simply grow to full size."
-    },
-    {
-      "id": "f8a33a2bce",
-      "stem": "According to the passage, what is one reason certain tree species are commonly used for bonsai?",
-      "options": [
-        "They grow more quickly than other species",
-        "They have large leaves that are easy to shape",
-        "They have small leaves or needles",
-        "They require less sunlight than other species"
-      ],
-      "answer": 2,
-      "topic": "bonsai",
-      "source": "bonsai_questions",
-      "passage": "bonsai",
-      "explanation": "Paragraph five says junipers, maples, elms and pines are favored because their small leaves or fine needles remain in proportion to a miniature tree."
-    },
-    {
-      "id": "e8bdd5aef5",
-      "stem": "The passage suggests that practicing bonsai:",
-      "options": [
-        "Is a quick way to achieve gardening success",
-        "Requires a long-term commitment and patience",
-        "Is only possible with certain types of trees",
-        "Is easier than growing full-sized trees"
-      ],
-      "answer": 1,
-      "topic": "bonsai",
-      "source": "bonsai_questions",
-      "passage": "bonsai",
-      "explanation": "The last care paragraph says a serious bonsai may be tended for decades and that patience is not merely helpful but essential. That points to a long-term commitment."
-    },
-    {
-      "id": "c76165ddf5",
-      "stem": "Based on the information provided, we can infer that the global spread of bonsai has resulted in:",
-      "options": [
-        "A decline in the traditional Japanese techniques",
-        "The extinction of certain tree species",
-        "New innovations while maintaining core principles",
-        "A decrease in the overall popularity of the art form"
-      ],
-      "answer": 2,
-      "topic": "bonsai",
-      "source": "bonsai_questions",
-      "passage": "bonsai",
-      "explanation": "The final paragraph states two things: experiments with native species have produced genuine innovations, and the core principles of restraint and proportion have carried across every border. Both halves are in the text, so this inference is supported."
-    },
-    {
-      "id": "5c792963a0",
-      "stem": "The author's attitude toward bonsai can best be described as:",
-      "options": [
-        "Critical and dismissive",
-        "Neutral and objective",
-        "Admiring and respectful",
-        "Confused and uncertain"
-      ],
-      "answer": 2,
-      "topic": "bonsai",
-      "source": "bonsai_questions",
-      "passage": "bonsai",
-      "explanation": "The author calls a bonsai a living sculpture, says its endurance is remarkable in its own right and adds that the results reward every year of it. That praise is admiring and respectful, not neutral."
-    },
-    {
-      "id": "fc38115c53",
-      "stem": "The main purpose of the final paragraph is to:",
-      "options": [
-        "Argue that bonsai is no longer relevant in modern times",
-        "Criticize the westernization of traditional Japanese art forms",
-        "Highlight the global appeal and evolution of bonsai",
-        "Predict the future trends in bonsai cultivation"
-      ],
-      "answer": 2,
-      "topic": "bonsai",
-      "source": "bonsai_questions",
-      "passage": "bonsai",
-      "explanation": "The final paragraph says bonsai is practiced worldwide and that enthusiasts are working with new native species while the core principles carry across every border. That is global appeal and evolution, not criticism."
-    },
-    {
-      "id": "dfe8e47735",
-      "stem": "What is the main theme of this passage?",
-      "options": [
-        "The importance of timekeeping in navigation",
-        "The evolution of timekeeping devices throughout history",
-        "The superiority of atomic clocks over other timekeeping methods",
-        "The role of timekeeping in religious practices"
-      ],
-      "answer": 1,
-      "topic": "timekeeping",
-      "source": "timekeeping_questions",
-      "passage": "timekeeping",
-      "explanation": "The passage moves in order from sundials and water clocks to mechanical clocks, pendulums, quartz and atomic clocks. Navigation fills only part of one paragraph, so the evolution of timekeeping devices is the real theme."
-    },
-    {
-      "id": "af79d4d503",
-      "stem": "According to the passage, what was one limitation of sundials?",
-      "options": [
-        "They were too expensive to produce",
-        "They couldn't function during cloudy weather",
-        "They were too large to be practical",
-        "They could only measure minutes, not hours"
-      ],
-      "answer": 1,
-      "topic": "timekeeping",
-      "source": "timekeeping_questions",
-      "passage": "timekeeping",
-      "explanation": "The second paragraph says sundials were useless when the sky was overcast, and equally useless at night. Cloudy weather is the weakness named right there in the text."
-    },
-    {
-      "id": "bcda02cdf5",
-      "stem": "The word 'regulated' in paragraph 3 most nearly means:",
-      "options": [
-        "Controlled",
-        "Accelerated",
-        "Restricted",
-        "Randomized"
-      ],
-      "answer": 0,
-      "topic": "timekeeping",
-      "source": "timekeeping_questions",
-      "passage": "timekeeping",
-      "explanation": "Paragraph three says the verge escapement released the weight's energy in small, even increments, keeping the mechanism turning at a steady rate. Regulated means controlled here, not restricted."
-    },
-    {
-      "id": "613f0ecad0",
-      "stem": "Why does the author mention Christiaan Huygens in paragraph 4?",
-      "options": [
-        "To introduce the concept of mechanical clocks",
-        "To highlight his role in improving clock accuracy with the pendulum clock",
-        "To discuss the origins of timekeeping in medieval monasteries",
-        "To explain the workings of water clocks"
-      ],
-      "answer": 1,
-      "topic": "timekeeping",
-      "source": "timekeeping_questions",
-      "passage": "timekeeping",
-      "explanation": "Paragraph four says Huygens applied the pendulum to clockwork in 1656 and cut daily error from minutes to seconds. He is mentioned for that leap in accuracy."
-    },
-    {
-      "id": "019a9aef26",
-      "stem": "Based on the information in the passage, which of the following statements about marine chronometers is true?",
-      "options": [
-        "They were invented before mechanical clocks",
-        "They were crucial for determining latitude at sea",
-        "They helped sailors accurately determine longitude",
-        "They were less accurate than sundials"
-      ],
-      "answer": 2,
-      "topic": "timekeeping",
-      "source": "timekeeping_questions",
-      "passage": "timekeeping",
-      "explanation": "Paragraph four says the marine chronometer let a navigator compare local noon against the time at a known port and calculate his longitude. The passage says longitude, not latitude."
-    },
-    {
-      "id": "f5e6c7070a",
-      "stem": "According to the passage, what is one advantage of quartz clocks?",
-      "options": [
-        "They are more accurate than atomic clocks",
-        "They can function without electricity",
-        "They offer high accuracy at a relatively low cost",
-        "They were the first clocks to use electronic technology"
-      ],
-      "answer": 2,
-      "topic": "timekeeping",
-      "source": "timekeeping_questions",
-      "passage": "timekeeping",
-      "explanation": "Paragraph five calls quartz clocks far more accurate than any mechanical clock and cheap enough for an ordinary wristwatch, an unusual combination of high precision and low cost."
-    },
-    {
-      "id": "d27d542f9d",
-      "stem": "The passage suggests that atomic clocks:",
-      "options": [
-        "Are less accurate than quartz clocks",
-        "Are primarily used for religious purposes",
-        "Form the basis for global time synchronization",
-        "Were invented before quartz clocks"
-      ],
-      "answer": 2,
-      "topic": "timekeeping",
-      "source": "timekeeping_questions",
-      "passage": "timekeeping",
-      "explanation": "Paragraph five says positioning satellites, telecommunications networks and financial systems all depend on atomic clocks to keep the world's computers synchronized to a common standard."
-    },
-    {
-      "id": "63ac496702",
-      "stem": "Based on the information provided, we can infer that improvements in timekeeping technology have been driven by:",
-      "options": [
-        "A desire for more leisure time",
-        "Competition between clock makers",
-        "The needs of various fields such as navigation and communication",
-        "A cultural obsession with punctuality"
-      ],
-      "answer": 2,
-      "topic": "timekeeping",
-      "source": "timekeeping_questions",
-      "passage": "timekeeping",
-      "explanation": "The passage ties each advance to a need. Monks needed prayer times, sailors needed longitude and modern networks need synchronized computers. Those stated needs support the conclusion, while competition between clock makers is never mentioned."
-    },
-    {
-      "id": "660926ef68",
-      "stem": "The author's attitude toward the advancements in timekeeping can best be described as:",
-      "options": [
-        "Skeptical and cautious",
-        "Enthusiastic and appreciative",
-        "Indifferent and detached",
-        "Critical and disapproving"
-      ],
-      "answer": 1,
-      "topic": "timekeeping",
-      "source": "timekeeping_questions",
-      "passage": "timekeeping",
-      "explanation": "The author calls the pendulum an improvement of more than a hundredfold and ends by suggesting today's optical clocks will matter someday too. That admiration reads as enthusiastic and appreciative."
-    },
-    {
-      "id": "e174c9e8dd",
-      "stem": "The main purpose of the final paragraph is to:",
-      "options": [
-        "Summarize the key points of the passage",
-        "Criticize current timekeeping technologies",
-        "Highlight potential future developments in timekeeping",
-        "Argue for the superiority of optical atomic clocks"
-      ],
-      "answer": 2,
-      "topic": "timekeeping",
-      "source": "timekeeping_questions",
-      "passage": "timekeeping",
-      "explanation": "The final paragraph introduces optical atomic clocks that may prove a hundred times more accurate, then admits such precision has no obvious everyday use today. It looks forward rather than summarizing."
-    },
-    {
-      "id": "c0989a1b94",
-      "stem": "What is the main focus of this passage?",
-      "options": [
-        "The importance of the hippocampus in memory formation",
-        "The role of sleep in memory consolidation",
-        "The process of memory formation and retrieval in the brain",
-        "The potential treatments for memory-related disorders"
-      ],
-      "answer": 2,
-      "topic": "memory",
-      "source": "memory_questions",
-      "passage": "memory",
-      "explanation": "The first paragraph says memory is not one process but three - forming, storing and retrieving - and the rest of the passage takes them in turn. The hippocampus and sleep each cover only one part."
-    },
-    {
-      "id": "25ac90c9a0",
-      "stem": "According to the passage, what is one of the primary functions of the hippocampus?",
-      "options": [
-        "Organizing and retrieving memories",
-        "Converting short-term memories into long-term ones",
-        "Planning for the future",
-        "Influencing our emotional state during recall"
-      ],
-      "answer": 1,
-      "topic": "memory",
-      "source": "memory_questions",
-      "passage": "memory",
-      "explanation": "Paragraph two says the hippocampus plays a central role in converting fragile short-term memories into stable long-term ones. Patients whose hippocampus is damaged cannot form new lasting memories."
-    },
-    {
-      "id": "78e87140f5",
-      "stem": "The term 'malleability' as used in paragraph 4 most nearly means:",
-      "options": [
-        "Strength",
-        "Flexibility",
-        "Permanence",
-        "Accuracy"
-      ],
-      "answer": 1,
-      "topic": "memory",
-      "source": "memory_questions",
-      "passage": "memory",
-      "explanation": "Paragraph four says a recalled memory becomes briefly unstable and that details can shift. Malleability names that ability to be changed, so here it means flexibility, not strength."
-    },
-    {
-      "id": "a85bca7a4d",
-      "stem": "Why does the author mention eyewitness testimony in paragraph 4?",
-      "options": [
-        "To provide an example of how memory's malleability can have real-world implications",
-        "To argue that eyewitness testimony is always unreliable",
-        "To suggest that the legal system should rely more on memory-based evidence",
-        "To introduce a new topic unrelated to the main focus of the passage"
-      ],
-      "answer": 0,
-      "topic": "memory",
-      "source": "memory_questions",
-      "passage": "memory",
-      "explanation": "Paragraph four says a witness's account can be altered by the phrasing of a question. It is a real-world example of the malleability just described, not a claim that testimony is always wrong."
-    },
-    {
-      "id": "322524bbf0",
-      "stem": "According to the passage, during which stage of sleep does memory consolidation primarily occur?",
-      "options": [
-        "Deep sleep",
-        "Light sleep",
-        "REM sleep",
-        "NREM sleep"
-      ],
-      "answer": 2,
-      "topic": "memory",
-      "source": "memory_questions",
-      "passage": "memory",
-      "explanation": "Paragraph three says that during REM sleep in particular the brain replays patterns of activity from the day, reinforcing the connections between neurons that carry a memory."
-    },
-    {
-      "id": "986e421f1c",
-      "stem": "Based on the information in the passage, which of the following statements about memories is true?",
-      "options": [
-        "Memories are stored in fixed locations within the brain",
-        "Memories are not influenced by our current emotional state",
-        "Memories can be affected by the context in which we try to recall them",
-        "Memories are always accurate representations of past events"
-      ],
-      "answer": 2,
-      "topic": "memory",
-      "source": "memory_questions",
-      "passage": "memory",
-      "explanation": "Paragraph four says the setting in which we try to remember shapes what surfaces, and that people in a low mood recall more unhappy events."
-    },
-    {
-      "id": "c6566fdea5",
-      "stem": "The passage suggests that damage to the hippocampus would most likely result in:",
-      "options": [
-        "Difficulty forming new memories",
-        "Loss of all memories, both old and new",
-        "Improved memory formation and recall",
-        "Inability to plan for the future"
-      ],
-      "answer": 0,
-      "topic": "memory",
-      "source": "memory_questions",
-      "passage": "memory",
-      "explanation": "Paragraph two says patients with a damaged hippocampus can recall childhood events in detail but cannot form new lasting memories. The text supports trouble making new memories, not losing old ones."
-    },
-    {
-      "id": "856b20eb6b",
-      "stem": "Which of the following best describes the author's tone in this passage?",
-      "options": [
-        "Critical and skeptical",
-        "Informative and objective",
-        "Enthusiastic and biased",
-        "Confused and uncertain"
-      ],
-      "answer": 1,
-      "topic": "memory",
-      "source": "memory_questions",
-      "passage": "memory",
-      "explanation": "The author reports research findings and explains how they work, using calm factual language and taking no side. That is what informative and objective means."
-    },
-    {
-      "id": "ab4b7c354f",
-      "stem": "Based on the information provided in the passage, we can infer that research into memory processes might be particularly beneficial for:",
-      "options": [
-        "Developing new computer storage technologies",
-        "Improving athletic performance",
-        "Creating more effective educational methods",
-        "Enhancing artistic creativity"
-      ],
-      "answer": 2,
-      "topic": "memory",
-      "source": "memory_questions",
-      "passage": "memory",
-      "explanation": "Paragraph five says self-testing and spacing practice beat rereading, and that schools have begun redesigning instruction around these findings. The passage states that link, so the education inference is supported."
-    },
-    {
-      "id": "5a90f1b97b",
-      "stem": "The main purpose of the final paragraph is to:",
-      "options": [
-        "Summarize the key points of the passage",
-        "Introduce a new topic for discussion",
-        "Highlight the practical applications of memory research",
-        "Criticize current approaches to studying memory"
-      ],
-      "answer": 2,
-      "topic": "memory",
-      "source": "memory_questions",
-      "passage": "memory",
-      "explanation": "The final paragraph turns from how memory works to what the research is good for: better study techniques, redesigned schools and efforts to slow memory loss in aging and disease."
-    },
-    {
-      "id": "2de06d3b3e",
-      "stem": "What is the primary focus of this passage?",
-      "options": [
-        "The history of fossil fuels",
-        "The benefits and challenges of renewable energy",
-        "The role of natural gas in the energy market",
-        "The economics of oil production"
-      ],
-      "answer": 1,
-      "topic": "renewable-energy",
-      "source": "renewable_energy_questions",
-      "passage": "renewable-energy",
-      "explanation": "The passage gives benefits such as lower emissions and energy security, then challenges such as upfront cost and intermittent output, so the benefits and challenges of renewable energy covers the whole thing."
-    },
-    {
-      "id": "4c4d73acfc",
-      "stem": "According to the passage, what is one of the main environmental benefits of renewable energy?",
-      "options": [
-        "It produces more greenhouse gases than fossil fuels",
-        "It reduces greenhouse gas emissions",
-        "It requires more water than traditional energy sources",
-        "It is less efficient than coal"
-      ],
-      "answer": 1,
-      "topic": "renewable-energy",
-      "source": "renewable_energy_questions",
-      "passage": "renewable-energy",
-      "explanation": "Paragraph two says burning coal, oil and natural gas releases carbon dioxide and other greenhouse gases, while a wind turbine or solar panel produces none at all while operating."
-    },
-    {
-      "id": "be5b7b8a8d",
-      "stem": "The word 'volatile' in paragraph 3 most nearly means:",
-      "options": [
-        "Stable",
-        "Inconsistent",
-        "Affordable",
-        "Expensive"
-      ],
-      "answer": 1,
-      "topic": "renewable-energy",
-      "source": "renewable_energy_questions",
-      "passage": "renewable-energy",
-      "explanation": "Paragraph three says fossil fuel prices swing sharply in response to conflicts, cartel decisions and shifts in demand. Volatile means inconsistent here, the opposite of stable."
-    },
-    {
-      "id": "ce5df5202c",
-      "stem": "What is one of the challenges to adopting renewable energy mentioned in the passage?",
-      "options": [
-        "Renewable energy sources are unlimited",
-        "The cost of developing renewable energy systems",
-        "Fossil fuels are cleaner than renewable sources",
-        "Solar energy is always available"
-      ],
-      "answer": 1,
-      "topic": "renewable-energy",
-      "source": "renewable_energy_questions",
-      "passage": "renewable-energy",
-      "explanation": "Paragraph three says building the equipment is expensive and calls that upfront cost the single largest barrier to adoption, since solar farms and transmission lines need investment first."
-    },
-    {
-      "id": "a0816ddf6d",
-      "stem": "Why do some renewable energy sources have intermittent production?",
-      "options": [
-        "They require more manpower to operate",
-        "They depend on weather conditions",
-        "They are more expensive than fossil fuels",
-        "They can only be used at night"
-      ],
-      "answer": 1,
-      "topic": "renewable-energy",
-      "source": "renewable_energy_questions",
-      "passage": "renewable-energy",
-      "explanation": "Paragraph four says solar panels produce nothing at night and wind turbines stand idle when the air is still, because these sources depend on weather conditions."
-    },
-    {
-      "id": "409b72b888",
-      "stem": "How are researchers addressing the problem of intermittent renewable energy production?",
-      "options": [
-        "By building more power plants",
-        "By improving energy storage systems",
-        "By using more fossil fuels",
-        "By reducing energy demand"
-      ],
-      "answer": 1,
-      "topic": "renewable-energy",
-      "source": "renewable_energy_questions",
-      "passage": "renewable-energy",
-      "explanation": "Paragraph four says the most promising answer is storage, then describes cheaper batteries and pumped hydroelectric storage, which moves water uphill and recovers the energy later."
-    },
-    {
-      "id": "45bbacd866",
-      "stem": "What does the passage suggest about the future of renewable energy costs?",
-      "options": [
-        "Costs will continue to rise as renewable energy becomes more popular",
-        "Renewable energy costs are expected to decrease over time",
-        "Fossil fuel prices will drop below renewable energy costs",
-        "Renewable energy will remain too expensive to adopt widely"
-      ],
-      "answer": 1,
-      "topic": "renewable-energy",
-      "source": "renewable_energy_questions",
-      "passage": "renewable-energy",
-      "explanation": "Paragraph three says the price of solar panels has dropped by roughly ninety percent since 2010 and that analysts expect renewable energy to keep getting cheaper."
-    },
-    {
-      "id": "8db13c8cfc",
-      "stem": "According to the passage, how can renewable energy improve energy security?",
-      "options": [
-        "By reducing reliance on imported fossil fuels",
-        "By making fossil fuels more affordable",
-        "By increasing greenhouse gas emissions",
-        "By decreasing the use of solar energy"
-      ],
-      "answer": 0,
-      "topic": "renewable-energy",
-      "source": "renewable_energy_questions",
-      "passage": "renewable-energy",
-      "explanation": "Paragraph two says a country that generates its own power from sunlight and wind depends far less on imported fossil fuels and is less exposed to supply disruptions abroad."
-    },
-    {
-      "id": "5951b2c08c",
-      "stem": "Which of the following is an example of a renewable energy source mentioned in the passage?",
-      "options": [
-        "Nuclear energy",
-        "Solar energy",
-        "Natural gas",
-        "Oil"
-      ],
-      "answer": 1,
-      "topic": "renewable-energy",
-      "source": "renewable_energy_questions",
-      "passage": "renewable-energy",
-      "explanation": "The first paragraph names solar, wind, hydroelectric and geothermal power as the renewable sources. Oil and natural gas are the fossil fuels in this passage and nuclear is never mentioned."
-    },
-    {
-      "id": "e5ce8207dd",
-      "stem": "What role do governments, businesses, and individuals have in the transition to renewable energy according to the passage?",
-      "options": [
-        "To oppose renewable energy adoption",
-        "To accelerate the transition to renewable energy",
-        "To develop new fossil fuel resources",
-        "To increase greenhouse gas emissions"
-      ],
-      "answer": 1,
-      "topic": "renewable-energy",
-      "source": "renewable_energy_questions",
-      "passage": "renewable-energy",
-      "explanation": "The final paragraph says governments set policy, businesses decide where to invest and individuals influence the market, and that each has the capacity to accelerate the transition."
-    },
-    {
-      "id": "9dfe604dad",
-      "stem": "What is the primary purpose of this passage?",
-      "options": [
-        "To explain how coral reefs protect shorelines",
-        "To describe the importance and threats facing coral reefs",
-        "To discuss the benefits of coral reefs for tourism",
-        "To introduce different species that live in coral reefs"
-      ],
-      "answer": 1,
-      "topic": "coral-reefs",
-      "source": "coral_reef_questions",
-      "passage": "coral-reefs",
-      "explanation": "The passage explains why reefs matter, the threats that are killing them and the efforts to save them. Shoreline protection and tourism are single details inside paragraph two, so they are too narrow."
-    },
-    {
-      "id": "6bdfa0e089",
-      "stem": "According to the passage, coral reefs are often referred to as:",
-      "options": [
-        "The lungs of the ocean",
-        "The rainforests of the sea",
-        "The deserts of the deep",
-        "The foundations of the coast"
-      ],
-      "answer": 1,
-      "topic": "coral-reefs",
-      "source": "coral_reef_questions",
-      "passage": "coral-reefs",
-      "explanation": "The first paragraph says this extraordinary concentration of life has earned reefs a nickname: the rainforests of the sea, because they are so productive."
-    },
-    {
-      "id": "7155f39bb2",
-      "stem": "How do coral reefs help protect coastal areas?",
-      "options": [
-        "By absorbing the energy of incoming waves",
-        "By reducing water temperatures",
-        "By filtering pollution out of the water",
-        "By preventing fish from reaching the shore"
-      ],
-      "answer": 0,
-      "topic": "coral-reefs",
-      "source": "coral_reef_questions",
-      "passage": "coral-reefs",
-      "explanation": "Paragraph two says reefs act as natural breakwaters by absorbing the energy of incoming waves before it reaches land, which reduces erosion and storm damage."
-    },
-    {
-      "id": "454785d2f3",
-      "stem": "The word 'vital' in paragraph 2 most nearly means:",
-      "options": [
-        "Essential",
-        "Rare",
-        "Unnecessary",
-        "Marginal"
-      ],
-      "answer": 0,
-      "topic": "coral-reefs",
-      "source": "coral_reef_questions",
-      "passage": "coral-reefs",
-      "explanation": "Paragraph two calls reefs vital to the regions around them, then lists food, tourism and storm protection. Vital means essential here, not rare."
-    },
-    {
-      "id": "e6e3e75769",
-      "stem": "What is coral bleaching?",
-      "options": [
-        "A type of fishing that damages reefs",
-        "The process of transplanting healthy coral to damaged reefs",
-        "When corals expel algae due to rising ocean temperatures",
-        "A natural way that corals grow"
-      ],
-      "answer": 2,
-      "topic": "coral-reefs",
-      "source": "coral_reef_questions",
-      "passage": "coral-reefs",
-      "explanation": "Paragraph three says that when water grows too warm the coral expels the algae living in its tissues, an event called bleaching that leaves the coral white and starving."
-    },
-    {
-      "id": "5d78870731",
-      "stem": "Which of the following is a major threat to coral reefs according to the passage?",
-      "options": [
-        "Increased tourism",
-        "Cold ocean currents",
-        "Rising ocean temperatures",
-        "Overpopulation of coral polyps"
-      ],
-      "answer": 2,
-      "topic": "coral-reefs",
-      "source": "coral_reef_questions",
-      "passage": "coral-reefs",
-      "explanation": "Paragraph three says directly that the greatest threat to reefs today is rising ocean temperature, with acidification, overfishing and pollution adding further strain."
-    },
-    {
-      "id": "3322ff91c8",
-      "stem": "What is the purpose of Marine Protected Areas (MPAs)?",
-      "options": [
-        "To restrict human activity and allow coral reefs to recover",
-        "To promote fishing in coral reef areas",
-        "To protect shorelines from storm damage",
-        "To prevent fish migration"
-      ],
-      "answer": 0,
-      "topic": "coral-reefs",
-      "source": "coral_reef_questions",
-      "passage": "coral-reefs",
-      "explanation": "Paragraph four says Marine Protected Areas restrict fishing, anchoring and development, giving damaged reefs a chance to recover without additional human pressure."
-    },
-    {
-      "id": "6650d785ce",
-      "stem": "What is coral farming?",
-      "options": [
-        "The practice of collecting coral for trade",
-        "Growing coral fragments in nurseries to restore damaged reefs",
-        "A method of protecting coral reefs from overfishing",
-        "Using coral reefs to farm fish species"
-      ],
-      "answer": 1,
-      "topic": "coral-reefs",
-      "source": "coral_reef_questions",
-      "passage": "coral-reefs",
-      "explanation": "Paragraph four says scientists break healthy coral into fragments, grow them in underwater nurseries until they can survive on their own and then transplant them onto damaged reefs."
-    },
-    {
-      "id": "0cde3a4ea2",
-      "stem": "According to the passage, what percentage of coral reefs have been lost or severely damaged?",
-      "options": [
-        "25%",
-        "10%",
-        "Up to 50%",
-        "75%"
-      ],
-      "answer": 2,
-      "topic": "coral-reefs",
-      "source": "coral_reef_questions",
-      "passage": "coral-reefs",
-      "explanation": "The end of paragraph three says scientists estimate that up to fifty percent of the world's coral reefs have already been lost or severely damaged. The one quarter figure earlier counts marine species, not reefs."
-    },
-    {
-      "id": "f4697371de",
-      "stem": "What can be inferred about the future of coral reefs from the passage?",
-      "options": [
-        "Coral reefs will not face any further threats",
-        "Efforts to protect and restore reefs may help ensure their survival",
-        "Reefs will only survive in Marine Protected Areas",
-        "Climate change will completely destroy all coral reefs"
-      ],
-      "answer": 1,
-      "topic": "coral-reefs",
-      "source": "coral_reef_questions",
-      "passage": "coral-reefs",
-      "explanation": "The final paragraph says reefs have survived dramatic changes before and that with sustained protection and restoration there is reason to believe they can survive this one. The text supports hope, not a guarantee."
-    },
-    {
-      "id": "d7994de089",
-      "stem": "What is the main focus of this passage?",
-      "options": [
-        "The formation of stars in galaxies",
-        "The properties and role of dark matter in the universe",
-        "The discovery of dark energy",
-        "The gravitational effects of planets"
-      ],
-      "answer": 1,
-      "topic": "dark-matter",
-      "source": "dark_matter_questions",
-      "passage": "dark-matter",
-      "explanation": "The passage covers what dark matter is, the evidence for it, its role in forming galaxies and the hunt for it. Dark energy and planets are never the subject here."
-    },
-    {
-      "id": "86c20f3a6c",
-      "stem": "According to the passage, how is the presence of dark matter inferred?",
-      "options": [
-        "By observing it directly with telescopes",
-        "Through its gravitational effects on visible matter",
-        "By detecting its interactions with ordinary atoms",
-        "Through the radiation it emits"
-      ],
-      "answer": 1,
-      "topic": "dark-matter",
-      "source": "dark_matter_questions",
-      "passage": "dark-matter",
-      "explanation": "Paragraph two says dark matter is inferred entirely this way - not seen, but detected through its gravitational effects on the matter we can see, like fast orbiting stars and bent light."
-    },
-    {
-      "id": "d2a4e89972",
-      "stem": "The word 'elusive' in paragraph 4 most nearly means:",
-      "options": [
-        "Abundant",
-        "Mysterious",
-        "Nonexistent",
-        "Easily found"
-      ],
-      "answer": 1,
-      "topic": "dark-matter",
-      "source": "dark_matter_questions",
-      "passage": "dark-matter",
-      "explanation": "Paragraph four asks why the substance has proven so elusive and answers that it barely interacts with anything, so decades of detectors have found no signal. Elusive here means hard to find or pin down."
-    },
-    {
-      "id": "d824bde022",
-      "stem": "What is one of the main challenges in detecting dark matter?",
-      "options": [
-        "It does not interact with gravity",
-        "It cannot be seen through telescopes",
-        "It emits too much radiation",
-        "It can only be found near black holes"
-      ],
-      "answer": 1,
-      "topic": "dark-matter",
-      "source": "dark_matter_questions",
-      "passage": "dark-matter",
-      "explanation": "Paragraph four says dark matter neither emits nor absorbs light, which makes it fundamentally invisible to telescopes of every kind, whether optical, radio, infrared or X-ray."
-    },
-    {
-      "id": "4537d3dae8",
-      "stem": "Which of the following particles are considered possible candidates for dark matter?",
-      "options": [
-        "Protons",
-        "WIMPs",
-        "Photons",
-        "Neutrons"
-      ],
-      "answer": 1,
-      "topic": "dark-matter",
-      "source": "dark_matter_questions",
-      "passage": "dark-matter",
-      "explanation": "Paragraph four names the leading candidates as WIMPs, or weakly interacting massive particles, and lighter particles called axions. Protons and neutrons are ordinary matter."
-    },
-    {
-      "id": "9a7e555e3c",
-      "stem": "Why do scientists believe dark matter played a role in the formation of cosmic structures?",
-      "options": [
-        "It produced the first stars in the universe",
-        "It acted as a scaffolding, pulling ordinary matter together",
-        "It emitted light that helped form galaxies",
-        "It interacted strongly with ordinary matter"
-      ],
-      "answer": 1,
-      "topic": "dark-matter",
-      "source": "dark_matter_questions",
-      "passage": "dark-matter",
-      "explanation": "Paragraph three says dark matter collapsed first into a vast web of filaments and halos, and that this structure acted as a scaffolding, pulling ordinary matter into the places where galaxies formed."
-    },
-    {
-      "id": "9c8149a0e8",
-      "stem": "Which of the following best describes the tone of the passage?",
-      "options": [
-        "Skeptical and critical",
-        "Informative and objective",
-        "Casual and humorous",
-        "Emotional and dramatic"
-      ],
-      "answer": 1,
-      "topic": "dark-matter",
-      "source": "dark_matter_questions",
-      "passage": "dark-matter",
-      "explanation": "The author lays out the evidence and the open questions in plain factual language, without jokes, drama or arguing against the scientists. That is informative and objective."
-    },
-    {
-      "id": "1b74fd4ccd",
-      "stem": "What is one reason dark matter has remained undetected despite decades of research?",
-      "options": [
-        "It is located in a distant part of the universe",
-        "It only interacts weakly with ordinary matter",
-        "It is too small to be measured",
-        "It is made of ordinary particles like protons and neutrons"
-      ],
-      "answer": 1,
-      "topic": "dark-matter",
-      "source": "dark_matter_questions",
-      "passage": "dark-matter",
-      "explanation": "Paragraph four says that beyond gravity dark matter appears to interact with ordinary matter only very weakly, which is why shielded underground detectors have run for decades without a confirmed signal."
-    },
-    {
-      "id": "fcb67f5734",
-      "stem": "According to the passage, how much of the universe’s matter is believed to be dark matter?",
-      "options": [
-        "50%",
-        "75%",
-        "85%",
-        "95%"
-      ],
-      "answer": 2,
-      "topic": "dark-matter",
-      "source": "dark_matter_questions",
-      "passage": "dark-matter",
-      "explanation": "Paragraph two ends with the striking figure: roughly eighty-five percent of the matter in the universe appears to be dark matter."
-    },
-    {
-      "id": "bfd0f73b51",
-      "stem": "What does the passage suggest about the future of dark matter research?",
-      "options": [
-        "Dark matter will eventually be replaced by dark energy",
-        "Future discoveries in physics may help scientists understand dark matter",
-        "Dark matter will no longer be important to astrophysics",
-        "Scientists will abandon the search for dark matter"
-      ],
-      "answer": 1,
-      "topic": "dark-matter",
-      "source": "dark_matter_questions",
-      "passage": "dark-matter",
-      "explanation": "The final paragraph says detectors are growing more sensitive and accelerators are searching new energy ranges, and that a discovery in one of these areas may finally reveal what dark matter is."
-    },
-    {
-      "id": "52be788975",
-      "stem": "What is the main purpose of this passage?",
-      "options": [
-        "To describe the history of the Gutenberg Bible",
-        "To explain the invention and impact of the printing press",
-        "To compare different methods of book production",
-        "To discuss the role of books in ancient societies"
-      ],
-      "answer": 1,
-      "topic": "printing-press",
-      "source": "printing_press_questions",
-      "passage": "printing-press",
-      "explanation": "The passage explains Gutenberg's movable type and then traces its effects on religion, science, language and literacy. The Gutenberg Bible is one detail in paragraph two, so it is too narrow."
-    },
-    {
-      "id": "60f0ef5330",
-      "stem": "According to the passage, how were books produced before the invention of the printing press?",
-      "options": [
-        "They were printed using movable type",
-        "They were written by hand",
-        "They were produced on typewriters",
-        "They were copied using early printing machines"
-      ],
-      "answer": 1,
-      "topic": "printing-press",
-      "source": "printing_press_questions",
-      "passage": "printing-press",
-      "explanation": "The first paragraph says that before the middle of the fifteenth century every book in Europe was written by hand, and a scribe might spend a year on one volume."
-    },
-    {
-      "id": "5c2185136a",
-      "stem": "The word 'disseminated' in paragraph 1 most nearly means:",
-      "options": [
-        "Destroyed",
-        "Written",
-        "Spread",
-        "Hidden"
-      ],
-      "answer": 2,
-      "topic": "printing-press",
-      "source": "printing_press_questions",
-      "passage": "printing-press",
-      "explanation": "Paragraph one says knowledge was disseminated only as fast as human hands could reproduce it, so the word describes ideas moving outward to people. Disseminated means spread here."
-    },
-    {
-      "id": "a179ded10d",
-      "stem": "What was one of the first major works produced by Gutenberg’s press?",
-      "options": [
-        "A German dictionary",
-        "A collection of Greek texts",
-        "The Gutenberg Bible",
-        "Martin Luther's pamphlets"
-      ],
-      "answer": 2,
-      "topic": "printing-press",
-      "source": "printing_press_questions",
-      "passage": "printing-press",
-      "explanation": "Paragraph two says that among the first major works to come off his press was the Gutenberg Bible, printed around 1455. Luther's writings come later, in 1517."
-    },
-    {
-      "id": "708cfed6e7",
-      "stem": "How did the printing press contribute to the Protestant Reformation?",
-      "options": [
-        "By making books too expensive for ordinary people",
-        "By allowing reformers to spread their ideas quickly",
-        "By preventing the spread of religious texts",
-        "By printing only religious books"
-      ],
-      "answer": 1,
-      "topic": "printing-press",
-      "source": "printing_press_questions",
-      "passage": "printing-press",
-      "explanation": "Paragraph three says printers carried Luther's writings across Germany within weeks, and that he could not be silenced because the press spread ideas faster than any authority could suppress them."
-    },
-    {
-      "id": "6e181848f4",
-      "stem": "What impact did the printing press have on language?",
-      "options": [
-        "It helped standardize languages and grammar",
-        "It caused more dialects to develop",
-        "It made spelling less consistent",
-        "It prevented national languages from forming"
-      ],
-      "answer": 0,
-      "topic": "printing-press",
-      "source": "printing_press_questions",
-      "passage": "printing-press",
-      "explanation": "Paragraph five says printers had to choose one spelling and one grammatical form, and the versions they chose spread with their books, helping standardize languages that had varied from town to town."
-    },
-    {
-      "id": "2ecb821bc2",
-      "stem": "Why does the author mention the scientific revolution in the passage?",
-      "options": [
-        "To highlight another major event influenced by the printing press",
-        "To argue that science was more important than religion",
-        "To show that the printing press slowed scientific progress",
-        "To explain how scientists used hand-copied books"
-      ],
-      "answer": 0,
-      "topic": "printing-press",
-      "source": "printing_press_questions",
-      "passage": "printing-press",
-      "explanation": "Paragraph four shows a second area the press changed. Identical printed copies let researchers across the continent build directly on one another's work instead of waiting years or repeating it."
-    },
-    {
-      "id": "a84e1db985",
-      "stem": "Which of the following is a direct result of the printing press according to the passage?",
-      "options": [
-        "Lower literacy rates",
-        "Less critical thinking",
-        "Increased access to knowledge",
-        "A decrease in book production"
-      ],
-      "answer": 2,
-      "topic": "printing-press",
-      "source": "printing_press_questions",
-      "passage": "printing-press",
-      "explanation": "Paragraph five says rising literacy followed the falling price of books, giving ordinary people access to information and ideas that had once been confined to a narrow elite."
-    },
-    {
-      "id": "2ac92a9c4a",
-      "stem": "How did the printing press help empower individuals?",
-      "options": [
-        "By making them learn how to write",
-        "By allowing them to produce their own books",
-        "By giving them access to more information and ideas",
-        "By limiting the spread of new ideas"
-      ],
-      "answer": 2,
-      "topic": "printing-press",
-      "source": "printing_press_questions",
-      "passage": "printing-press",
-      "explanation": "Paragraph five says that with access came the capacity to evaluate claims for themselves rather than accept them on authority. The power came from reaching information, not from printing their own books."
-    },
-    {
-      "id": "06ff223043",
-      "stem": "What can be inferred about the importance of the printing press in modern society?",
-      "options": [
-        "It is no longer relevant due to digital media",
-        "It laid the foundation for the spread of information",
-        "It only affected scientific advancements",
-        "It had no impact on modern technology"
-      ],
-      "answer": 1,
-      "topic": "printing-press",
-      "source": "printing_press_questions",
-      "passage": "printing-press",
-      "explanation": "The final paragraph says the newspaper, the broadcast and the internet have all built on the foundation Gutenberg laid. That stated link supports the idea that the press laid the groundwork for spreading information."
-    }
-  ]
+  "timekeeping": {
+   "title": "Measuring Time",
+   "paragraphs": [
+    "For as long as people have organized their lives around planting, worship, and travel, they have needed to measure time. The history of timekeeping is a long record of devices, each solving problems the last one could not, and each opening possibilities its inventors never anticipated.",
+    "The earliest reliable timekeepers were sundials, which tracked the movement of a shadow across a marked surface as the sun crossed the sky. Sundials were simple, required no maintenance, and could be remarkably accurate. They had one obvious weakness: they were useless when the sky was overcast, and equally useless at night. To fill those gaps, ancient Egyptian and Greek engineers built water clocks, which measured time by the steady flow of water from one vessel into another. Water clocks worked in darkness and in poor weather, but their flow rate changed with temperature, and they demanded constant refilling.",
+    "Mechanical clocks appeared in European monasteries in the thirteenth century, built to summon monks to prayer at fixed hours. These early clocks had no hands or faces; they simply rang a bell. Their motion was regulated by a device called a verge escapement, which released the energy of a falling weight in small, even increments rather than all at once, keeping the mechanism turning at a steady rate. The principle was sound, but the accuracy was poor — a good mechanical clock of that era might drift by fifteen minutes in a single day.",
+    "The decisive improvement came in 1656, when the Dutch scientist Christiaan Huygens applied the pendulum to clockwork. Because a pendulum of a given length swings at a consistent rate, Huygens's design reduced daily error from minutes to seconds — an improvement of more than a hundredfold. Accuracy at sea proved harder to achieve, since a pendulum will not swing evenly on a rolling ship. That problem was solved in the eighteenth century by the marine chronometer, a spring-driven clock accurate enough that a navigator could compare local noon against the time at a known reference port and calculate his longitude — a measurement that had defeated sailors for centuries.",
+    "The twentieth century brought entirely new methods. Quartz clocks, introduced in the 1920s, keep time by the steady vibration of a quartz crystal under an electric current. They proved far more accurate than any mechanical clock and eventually became cheap enough for an ordinary wristwatch, an unusual combination of high precision and low cost. Atomic clocks, developed after 1950, went further still, counting the vibrations of cesium atoms to lose less than a second in millions of years. Global positioning satellites, telecommunications networks, and financial systems all depend on atomic clocks to keep the world's computers synchronized to a common standard.",
+    "Researchers are now building optical atomic clocks, which use light rather than microwaves and may prove a hundred times more accurate than the cesium standard. Such precision has no obvious everyday use today. But then, neither did the marine chronometer before someone needed to cross an ocean."
+   ]
+  },
+  "memory": {
+   "title": "How Memory Works",
+   "paragraphs": [
+    "Memory feels like a recording. We speak of storing a memory and playing it back, as though the brain kept a library of files waiting to be opened. Research over the past several decades has shown that the reality is stranger and more active than that. Memory is not one process but three — forming, storing, and retrieving — and each of them changes what is remembered.",
+    "Formation begins when the brain converts an experience into a lasting signal, a process called encoding. Attention matters enormously here: information we notice and think about is encoded far more strongly than information that merely passes before our eyes. The hippocampus, a curved structure deep in each temporal lobe, plays a central role at this stage, converting fragile short-term memories into stable long-term ones. Patients whose hippocampus has been damaged show a striking pattern. They can recall childhood events in detail and carry on a normal conversation, but they cannot form new lasting memories — an experience fades within minutes of its ending.",
+    "Once encoded, memories are strengthened through consolidation, much of which happens during sleep. During REM sleep in particular, the brain appears to replay patterns of activity from the day, reinforcing the connections between neurons that carry a given memory. This is one reason students who sleep after studying outperform those who stay awake through the night. Consolidated memories are not filed in any single location; a memory of a meal may be distributed across regions handling taste, smell, vision, and emotion, and recalling it means reassembling those pieces.",
+    "Retrieval, then, is reconstruction rather than playback, and this accounts for memory's malleability. Each time a memory is recalled it becomes briefly unstable and must be stored again, and details can shift in the process. The setting in which we try to remember shapes what surfaces, and so does our mood — people in a low mood recall more unhappy events. The implications reach well beyond the laboratory. Eyewitness testimony has long been treated as powerful evidence in criminal trials, yet studies have repeatedly shown that a witness's account can be altered by the phrasing of a question or by information encountered after the event, all without the witness having any sense that the memory has changed.",
+    "Understanding these mechanisms has changed how researchers think about practical problems. Study techniques that require retrieval — self-testing, spacing practice across days — produce far better retention than rereading, precisely because each act of recall strengthens the memory. Schools have begun redesigning instruction around these findings, and the same research is guiding efforts to slow memory loss in aging and in disease."
+   ]
+  },
+  "renewable-energy": {
+   "title": "The Case for Renewable Energy",
+   "paragraphs": [
+    "The world's energy system is in the middle of a substantial change. Solar, wind, hydroelectric, and geothermal power supplied a small fraction of global electricity a generation ago; today they supply a growing share, and the pace is accelerating. The shift brings real advantages, and it also brings difficulties that are not yet fully solved.",
+    "The clearest benefit is environmental. Burning coal, oil, and natural gas releases carbon dioxide and other greenhouse gases that trap heat in the atmosphere and drive climate change. Renewable sources generate electricity with dramatically lower emissions — a wind turbine or a solar panel produces none at all while operating. Renewable energy also strengthens energy security. A country that generates its own power from sunlight and wind depends far less on imported fossil fuels, and is therefore less exposed to supply disruptions abroad.",
+    "There is an economic argument as well. Fossil fuel prices are notoriously volatile, swinging sharply in response to conflicts, cartel decisions, and shifts in global demand, which makes long-term planning difficult for utilities and manufacturers alike. Sunlight and wind, by contrast, are free once the equipment is built. The obstacle is that building the equipment is expensive: solar farms, wind installations, and the transmission lines to connect them require enormous investment before they generate a single kilowatt. That upfront cost remains the single largest barrier to adoption. It is falling steadily, however — the price of solar panels has dropped by roughly ninety percent since 2010 — and analysts expect renewable energy to keep getting cheaper as manufacturing scales and technology improves.",
+    "A second challenge is less about money than about timing. Solar panels produce nothing at night and little under heavy cloud; wind turbines stand idle when the air is still. Because these sources depend on weather conditions, their output is intermittent, while demand for electricity continues around the clock. The most promising answer is storage. Researchers are developing batteries that hold far more energy at lower cost, along with alternatives such as pumped hydroelectric storage, which uses surplus power to move water uphill and recovers it later by letting the water fall. Better storage would allow energy captured on a bright, windy afternoon to be delivered on a still, dark evening.",
+    "None of this happens automatically. Governments shape the transition through research funding, tax policy, and grid regulation; businesses decide where to invest and how quickly to retire aging plants; individuals influence the market through the vehicles they drive and the power they choose to buy. Each has the capacity to accelerate the transition, and the speed of the change will depend on how vigorously all three act."
+   ]
+  },
+  "coral-reefs": {
+   "title": "Coral Reefs Under Pressure",
+   "paragraphs": [
+    "Coral reefs cover less than one percent of the ocean floor, yet they support roughly a quarter of all marine species. This extraordinary concentration of life has earned them a nickname: the rainforests of the sea. Like rainforests, they are among the most productive ecosystems on the planet, and like rainforests, they are disappearing faster than almost anyone anticipated.",
+    "A reef is built by coral polyps, tiny animals that extract calcium carbonate from seawater to construct hard skeletons. Generation after generation builds on the remains of the last, and over thousands of years the accumulated structure becomes a reef. These structures are vital to the regions around them in several distinct ways. They provide shelter and breeding grounds for fish that feed hundreds of millions of people. They draw tourism that sustains coastal economies. And they act as natural breakwaters: by absorbing the energy of incoming waves before it reaches land, reefs reduce erosion and protect shorelines from storm damage that would otherwise be far more severe.",
+    "The greatest threat to reefs today is rising ocean temperature. Corals live in partnership with microscopic algae that inhabit their tissues, providing most of the coral's food and nearly all of its color. When water grows too warm, the coral expels these algae — an event called bleaching that leaves the coral white and starving. A reef can recover from a brief bleaching, but repeated or prolonged events kill it. Warming is compounded by ocean acidification, as seawater absorbs carbon dioxide and grows more acidic, making it harder for polyps to build their skeletons at all. Overfishing, coastal pollution, and runoff from farmland add further strain. Scientists estimate that up to fifty percent of the world's coral reefs have already been lost or severely damaged.",
+    "Efforts to reverse the decline are underway. Marine Protected Areas set aside stretches of ocean where fishing, anchoring, and development are restricted, giving damaged reefs a chance to recover without additional human pressure; reefs inside well-enforced MPAs consistently show better health than those outside them. Coral farming takes a more direct approach. Scientists break healthy coral into fragments, grow them in underwater nurseries until they are large enough to survive on their own, and then transplant them onto degraded reefs. Some projects are also selecting and breeding coral varieties that tolerate warmer water.",
+    "Whether these measures will be enough is an open question, and it depends heavily on how quickly the world limits carbon emissions. Reefs have survived dramatic changes before, over spans of time far longer than human history. With sustained protection and restoration, there is reason to believe they can survive this one as well."
+   ]
+  },
+  "dark-matter": {
+   "title": "The Search for Dark Matter",
+   "paragraphs": [
+    "Everything astronomers can see — every star, planet, and glowing cloud of gas — accounts for only a small portion of the material in the universe. The rest is something else entirely: a substance that has never been directly observed but whose presence is written across the sky. Physicists call it dark matter, and understanding it is one of the central unsolved problems in modern science.",
+    "The first strong evidence came from the rotation of galaxies. In the 1970s, the astronomer Vera Rubin measured how fast stars orbit the centers of spiral galaxies and found something that should have been impossible. Stars at the outer edges were moving so quickly that the galaxy's visible mass could not possibly hold them; they should have flung off into space long ago. Something invisible was supplying the additional gravity. Later observations reinforced the conclusion. Massive galaxy clusters bend the light of more distant objects behind them, an effect called gravitational lensing, and the amount of bending consistently reveals far more mass than the visible matter can explain. Dark matter is inferred entirely in this way — not seen, but detected through its gravitational effects on the matter we can see. The measurements converge on a striking figure: roughly eighty-five percent of the matter in the universe appears to be dark matter.",
+    "Dark matter also seems to explain how the universe came to look the way it does. In the earliest moments after the Big Bang, matter was distributed almost perfectly evenly. Ordinary matter alone could not have clumped together quickly enough to form the galaxies we observe. Dark matter, unimpeded by the pressure of radiation, collapsed first into a vast web of filaments and halos, and this structure acted as a scaffolding, pulling ordinary matter into the places where galaxies would eventually form.",
+    "Why the substance has proven so elusive comes down to how little it interacts with anything. Dark matter neither emits nor absorbs light, which makes it fundamentally invisible to telescopes of every kind — optical, radio, infrared, or X-ray. Beyond gravity, it appears to interact with ordinary matter only very weakly, which is why detectors buried deep underground and shielded from cosmic rays have run for decades without a confirmed signal. The leading candidates are hypothetical particles that no experiment has yet produced: WIMPs, or weakly interacting massive particles, and lighter particles called axions.",
+    "That absence of results has not discouraged the field so much as redirected it. Detectors are growing more sensitive, particle accelerators are searching new energy ranges, and some theorists are questioning whether the standard model of particle physics is complete. A discovery in one of these areas may finally reveal what dark matter is — and in doing so, reshape our understanding of the universe's basic composition."
+   ]
+  },
+  "printing-press": {
+   "title": "The Printing Press",
+   "paragraphs": [
+    "Before the middle of the fifteenth century, every book in Europe was written by hand. A scribe working in a monastery might spend a year copying a single volume, and the result was so costly that only churches, universities, and the wealthy could own one. Because books were scarce, ideas moved slowly, and knowledge was disseminated only as fast as human hands could reproduce it. Johannes Gutenberg's printing press, developed in the German city of Mainz around 1440, broke that limit permanently.",
+    "Gutenberg's central innovation was movable type: individual metal letters that could be arranged into a page, inked, pressed onto paper, then taken apart and reused for the next page. Combined with an oil-based ink of his own formulation and a press adapted from the sort used to crush grapes, the system could produce hundreds of identical copies in the time a scribe needed for one. Among the first major works to come off his press was the Gutenberg Bible, printed around 1455, whose quality startled contemporaries who assumed it must have been made by hand. Within fifty years, printing presses were operating in more than two hundred European cities, and the price of a book had fallen far enough that a prosperous merchant could own a shelf of them.",
+    "The consequences arrived quickly. In 1517, when Martin Luther published his objections to church practice, printers reproduced his writings and carried them across Germany within weeks. Earlier reformers had raised similar objections and been silenced before their arguments spread; Luther could not be silenced, because the press allowed reformers to circulate their ideas faster than any authority could suppress them. The Protestant Reformation is difficult to imagine without it.",
+    "The scientific revolution followed a parallel path. Hand-copied manuscripts accumulated errors with every copy, and a scholar in Italy might wait years to learn what a colleague in England had discovered. Printing produced identical copies, so a diagram or a table of measurements arrived exactly as its author drew it, and researchers across the continent could build directly on one another's work rather than repeating it.",
+    "Printing reshaped language itself. Printers had to choose one spelling and one grammatical form over the alternatives, and the versions they chose spread with their books, helping standardize languages that had previously varied from town to town. Rising literacy followed the falling price of books, giving ordinary people access to information and ideas that had once been confined to a narrow elite — and with that access came the capacity to evaluate claims for themselves rather than accept them on authority.",
+    "Every technology that has expanded access to information since — the newspaper, the broadcast, the internet — has built on the foundation Gutenberg laid. The specific machinery has been replaced many times over. The principle that knowledge should circulate freely and widely has not."
+   ]
+  },
+  "thimble-rock-light": {
+   "title": "The Keeper of Thimble Rock",
+   "paragraphs": [
+    "Of the many men who tended the lamps upon our northern coast in the years before the Board thought fit to number, inspect and pension them, none is recalled with more perplexity, or with more genuine affection, than Alden Crowe, who was rowed out to Thimble Rock in the autumn of 1861 and did not willingly quit it for one and thirty years.",
+    "His method, if a habit so unvarying may be dignified by that name, was simple. He rose at four, trimmed the wicks and wound the clockwork before the sky had greyed. The weather he set down in a hand so small that the inspector was obliged to carry a reading glass. He kept, besides, a nice account of the oil consumed, down to the half-gill, and would dispute a shortage of a spoonful with the supply agent as warmly as another man might dispute a debt of fifty dollars. His superiors took this for zeal. It was nothing of the kind. It was the ordinary working of a mind that could not endure a thing to be approximate.",
+    "On the night the brig Amity went down, when the sea broke over the gallery and the lantern glass was starred by flying stones, Crowe held his lamp burning eleven hours. Afterward he brought four men off the ledge in a dory that no prudent person would have launched. His entry for that day reads, entire: \"Wind NE, thick. Lamp burning. Nothing to report.\" When the Humane Society voted him a silver medal he acknowledged it in three lines and laid it away, we are told, in the drawer with the spare wick-trimmers.",
+    "Yet it will not do to make a saint of the man. The same rigidity that held him at his post through that night held him also against every improvement proposed from the shore; he fought the new lens for two seasons and the steam fog-signal for five. The summer visitors who climbed out to admire the view he described as \"an interruption of the light,\" which they assuredly were not. Of his letters to the Board some forty survive, and they are models of correct spelling and of unbending disrespect.",
+    "His assistant, young Mr. Pell, kept a very different watch. Pell was liked in the village, sang at the church suppers and let the tourists up the stair for a coin apiece; and Pell twice allowed the lamp to gutter low before dawn. Between the man who is loved and the man who is depended upon, the sea does not hesitate.",
+    "Crowe died ashore in a rented room in 1899, having outlived the oil he burned and nearly everyone who had complained of him. Those who wish their heroes comfortable had better look elsewhere."
+   ]
+  },
+  "repair-table": {
+   "title": "The Repair Table",
+   "paragraphs": [
+    "Every second Saturday I set up two folding tables in the basement of the public library, and for four hours people bring me things that have stopped working. Almost all of them apologize. They apologize for the dust, for the tape on the cord, for not knowing what is wrong and, most of all, for having failed to fix it themselves. I have learned to answer the apology before I answer the question, because until that is out of the way nobody can think.",
+    "A woman came in last spring with a toaster her mother had given her in 1994. Four screws held the shell on. Inside, the machine was a study in economy: one spring released the carriage, one strip of metal decided when the bread was done and a length of wire did the toasting. The wire had broken at a joint about the width of a grain of rice. I mended it in nine minutes, and she watched every one of them, and when it worked she laughed the way people laugh when a magician turns over the right card.",
+    "Now set that toaster beside the one she would have bought instead. The new shell is glued, and where there are screws their heads fit no driver an ordinary person owns. A sticker across the seam warns that opening the case ends the warranty, which is a polite way of saying that a customer's curiosity is a form of misbehavior. I do not believe people have grown lazier than their grandparents were. I believe they have been told, again and again and very courteously, that the inside of an object is none of their business.",
+    "The objection I hear most is that repair is sentimental: that my nine minutes were worth more than the toaster, and that a woman who values her time should simply have bought another. This mistakes what was being made. I was not producing a toaster, because the toaster already existed. I was producing a person who believes she is allowed to open things. She came back in July with a lamp, and she had already found the fault herself.",
+    "I would not force anyone to keep a machine past its life, and I am not asking anybody to love a toaster. I am asking that the choice be a real one, and it is not real when the case will not open. Put the screws back in. Publish the diagrams. Then let people buy new toasters if they please; I will still be in that basement every second Saturday, and I suspect I will be busier than before, not idler."
+   ]
+  }
+ },
+ "questions": [
+  {
+   "id": "36cc77df96",
+   "stem": "What is the main focus of this passage?",
+   "options": [
+    "How Japanese artists simplified the Chinese practice of penjing",
+    "The pruning, wiring and watering that keep a bonsai small",
+    "The recognized styles a bonsai artist can choose among",
+    "What bonsai is, how it developed and what practicing it demands"
+   ],
+   "answer": 3,
+   "topic": "bonsai",
+   "source": "rj_original_2026",
+   "passage": "bonsai",
+   "explanation": "Each of the other three is a true summary of one paragraph. Only the first covers the whole passage, which moves from what bonsai is through its origins, its aesthetic, its styles, its care and its spread."
+  },
+  {
+   "id": "a887258289",
+   "stem": "The word 'evokes' in paragraph 3 most nearly means:",
+   "options": [
+    "Brings to mind",
+    "Exaggerates",
+    "Contradicts",
+    "Eliminates"
+   ],
+   "answer": 0,
+   "topic": "bonsai",
+   "source": "bonsai_questions",
+   "passage": "bonsai",
+   "explanation": "In paragraph three, a trunk that twists sharply evokes decades of wind, meaning it makes you picture that wind. So evokes means brings to mind here."
+  },
+  {
+   "id": "124297f414",
+   "stem": "Why does the author mention different bonsai styles in paragraph 4?",
+   "options": [
+    "To provide a complete list of all possible bonsai styles",
+    "To illustrate the variety and creativity within the art form",
+    "To explain how bonsai trees are pruned and shaped",
+    "To argue that some styles are superior to others"
+   ],
+   "answer": 1,
+   "topic": "bonsai",
+   "source": "bonsai_questions",
+   "passage": "bonsai",
+   "explanation": "Paragraph four lists the formal upright, cascade, windswept and forest styles, then says these styles are starting points that skilled artists combine and adapt freely. That shows variety and creativity, not a complete list."
+  },
+  {
+   "id": "5c792963a0",
+   "stem": "The author's attitude toward bonsai can best be described as:",
+   "options": [
+    "Admiring and respectful",
+    "Confused and uncertain",
+    "Neutral and objective",
+    "Critical and dismissive"
+   ],
+   "answer": 0,
+   "topic": "bonsai",
+   "source": "bonsai_questions",
+   "passage": "bonsai",
+   "explanation": "The author calls a bonsai a living sculpture, says its endurance is remarkable in its own right and adds that the results reward every year of it. That praise is admiring and respectful, not neutral."
+  },
+  {
+   "id": "dfe8e47735",
+   "stem": "What is the main theme of this passage?",
+   "options": [
+    "The evolution of timekeeping devices throughout history",
+    "The importance of timekeeping in navigation",
+    "The role of timekeeping in religious practices",
+    "The superiority of atomic clocks over other timekeeping methods"
+   ],
+   "answer": 0,
+   "topic": "timekeeping",
+   "source": "timekeeping_questions",
+   "passage": "timekeeping",
+   "explanation": "The passage moves in order from sundials and water clocks to mechanical clocks, pendulums, quartz and atomic clocks. Navigation fills only part of one paragraph, so the evolution of timekeeping devices is the real theme."
+  },
+  {
+   "id": "bcda02cdf5",
+   "stem": "The word 'regulated' in paragraph 3 most nearly means:",
+   "options": [
+    "Randomized",
+    "Controlled",
+    "Accelerated",
+    "Restricted"
+   ],
+   "answer": 1,
+   "topic": "timekeeping",
+   "source": "timekeeping_questions",
+   "passage": "timekeeping",
+   "explanation": "Paragraph three says the verge escapement released the weight's energy in small, even increments, keeping the mechanism turning at a steady rate. Regulated means controlled here, not restricted."
+  },
+  {
+   "id": "613f0ecad0",
+   "stem": "Why does the author mention Christiaan Huygens in paragraph 4?",
+   "options": [
+    "To highlight his role in improving clock accuracy with the pendulum clock",
+    "To discuss the origins of timekeeping in medieval monasteries",
+    "To explain the workings of water clocks",
+    "To introduce the concept of mechanical clocks"
+   ],
+   "answer": 0,
+   "topic": "timekeeping",
+   "source": "timekeeping_questions",
+   "passage": "timekeeping",
+   "explanation": "Paragraph four says Huygens applied the pendulum to clockwork in 1656 and cut daily error from minutes to seconds. He is mentioned for that leap in accuracy."
+  },
+  {
+   "id": "019a9aef26",
+   "stem": "Which of the following would be the best title for this passage?",
+   "options": [
+    "Atomic Clocks and the Networks That Depend on Them",
+    "Finding Longitude at Sea",
+    "Better Clocks, One Problem at a Time",
+    "The Pendulum That Tamed the Clock"
+   ],
+   "answer": 2,
+   "topic": "timekeeping",
+   "source": "rj_original_2026",
+   "passage": "timekeeping",
+   "explanation": "The passage traces a chain in which each device answers a weakness of the one before it, so only the third title covers all six paragraphs. The pendulum, the longitude problem and atomic clocks are each a single step in that chain."
+  },
+  {
+   "id": "63ac496702",
+   "stem": "Based on the information provided, we can infer that improvements in timekeeping technology have been driven by:",
+   "options": [
+    "Competition between clock makers",
+    "A cultural obsession with punctuality",
+    "A desire for more leisure time",
+    "The needs of various fields such as navigation and communication"
+   ],
+   "answer": 3,
+   "topic": "timekeeping",
+   "source": "timekeeping_questions",
+   "passage": "timekeeping",
+   "explanation": "The passage ties each advance to a need. Monks needed prayer times, sailors needed longitude and modern networks need synchronized computers. Those stated needs support the conclusion, while competition between clock makers is never mentioned."
+  },
+  {
+   "id": "c0989a1b94",
+   "stem": "What is the main focus of this passage?",
+   "options": [
+    "The importance of the hippocampus in memory formation",
+    "The potential treatments for memory-related disorders",
+    "The process of memory formation and retrieval in the brain",
+    "The role of sleep in memory consolidation"
+   ],
+   "answer": 2,
+   "topic": "memory",
+   "source": "memory_questions",
+   "passage": "memory",
+   "explanation": "The first paragraph says memory is not one process but three - forming, storing and retrieving - and the rest of the passage takes them in turn. The hippocampus and sleep each cover only one part."
+  },
+  {
+   "id": "78e87140f5",
+   "stem": "The term 'malleability' as used in paragraph 4 most nearly means:",
+   "options": [
+    "Flexibility",
+    "Accuracy",
+    "Strength",
+    "Permanence"
+   ],
+   "answer": 0,
+   "topic": "memory",
+   "source": "memory_questions",
+   "passage": "memory",
+   "explanation": "Paragraph four says a recalled memory becomes briefly unstable and that details can shift. Malleability names that ability to be changed, so here it means flexibility, not strength."
+  },
+  {
+   "id": "a85bca7a4d",
+   "stem": "Why does the author mention eyewitness testimony in paragraph 4?",
+   "options": [
+    "To introduce a new topic unrelated to the main focus of the passage",
+    "To suggest that the legal system should rely more on memory-based evidence",
+    "To argue that eyewitness testimony is always unreliable",
+    "To provide an example of how memory's malleability can have real-world implications"
+   ],
+   "answer": 3,
+   "topic": "memory",
+   "source": "memory_questions",
+   "passage": "memory",
+   "explanation": "Paragraph four says a witness's account can be altered by the phrasing of a question. It is a real-world example of the malleability just described, not a claim that testimony is always wrong."
+  },
+  {
+   "id": "986e421f1c",
+   "stem": "Based on the information in the passage, which of the following statements about memories is true?",
+   "options": [
+    "Memories are always accurate representations of past events",
+    "Memories can be affected by the context in which we try to recall them",
+    "Memories are stored in fixed locations within the brain",
+    "Memories are not influenced by our current emotional state"
+   ],
+   "answer": 1,
+   "topic": "memory",
+   "source": "memory_questions",
+   "passage": "memory",
+   "explanation": "Paragraph four says the setting in which we try to remember shapes what surfaces, and that people in a low mood recall more unhappy events."
+  },
+  {
+   "id": "be5b7b8a8d",
+   "stem": "The word 'volatile' in paragraph 3 most nearly means:",
+   "options": [
+    "Expensive",
+    "Stable",
+    "Affordable",
+    "Inconsistent"
+   ],
+   "answer": 3,
+   "topic": "renewable-energy",
+   "source": "renewable_energy_questions",
+   "passage": "renewable-energy",
+   "explanation": "Paragraph three says fossil fuel prices swing sharply in response to conflicts, cartel decisions and shifts in demand. Volatile means inconsistent here, the opposite of stable."
+  },
+  {
+   "id": "9dfe604dad",
+   "stem": "What is the primary purpose of this passage?",
+   "options": [
+    "To describe the importance and threats facing coral reefs",
+    "To explain how coral reefs protect shorelines",
+    "To introduce different species that live in coral reefs",
+    "To discuss the benefits of coral reefs for tourism"
+   ],
+   "answer": 0,
+   "topic": "coral-reefs",
+   "source": "coral_reef_questions",
+   "passage": "coral-reefs",
+   "explanation": "The passage explains why reefs matter, the threats that are killing them and the efforts to save them. Shoreline protection and tourism are single details inside paragraph two, so they are too narrow."
+  },
+  {
+   "id": "d7994de089",
+   "stem": "What is the main focus of this passage?",
+   "options": [
+    "What dark matter is, how its presence was established and why it remains unidentified",
+    "How Vera Rubin measured the speed of stars at the edges of spiral galaxies",
+    "The part dark matter played in gathering ordinary matter into galaxies",
+    "Why detectors buried underground have run for decades without a signal"
+   ],
+   "answer": 0,
+   "topic": "dark-matter",
+   "source": "rj_original_2026",
+   "passage": "dark-matter",
+   "explanation": "Rubin's measurements, the empty detectors and the scaffolding of early galaxies are each one paragraph of the argument. Only the third choice takes in the evidence, the role and the unsolved question together."
+  },
+  {
+   "id": "52be788975",
+   "stem": "What is the main purpose of this passage?",
+   "options": [
+    "To compare different methods of book production",
+    "To discuss the role of books in ancient societies",
+    "To describe the history of the Gutenberg Bible",
+    "To explain the invention and impact of the printing press"
+   ],
+   "answer": 3,
+   "topic": "printing-press",
+   "source": "printing_press_questions",
+   "passage": "printing-press",
+   "explanation": "The passage explains Gutenberg's movable type and then traces its effects on religion, science, language and literacy. The Gutenberg Bible is one detail in paragraph two, so it is too narrow."
+  },
+  {
+   "id": "5c2185136a",
+   "stem": "The word 'disseminated' in paragraph 1 most nearly means:",
+   "options": [
+    "Hidden",
+    "Spread",
+    "Written",
+    "Destroyed"
+   ],
+   "answer": 1,
+   "topic": "printing-press",
+   "source": "printing_press_questions",
+   "passage": "printing-press",
+   "explanation": "Paragraph one says knowledge was disseminated only as fast as human hands could reproduce it, so the word describes ideas moving outward to people. Disseminated means spread here."
+  },
+  {
+   "id": "2ecb821bc2",
+   "stem": "Why does the author mention the scientific revolution in the passage?",
+   "options": [
+    "To argue that science was more important than religion",
+    "To show that the printing press slowed scientific progress",
+    "To explain how scientists used hand-copied books",
+    "To highlight another major event influenced by the printing press"
+   ],
+   "answer": 3,
+   "topic": "printing-press",
+   "source": "printing_press_questions",
+   "passage": "printing-press",
+   "explanation": "Paragraph four shows a second area the press changed. Identical printed copies let researchers across the continent build directly on one another's work instead of waiting years or repeating it."
+  },
+  {
+   "id": "3a7f1c04e2",
+   "stem": "As used in the passage, the word \"medium\" in paragraph 1 most nearly means:",
+   "options": [
+    "The soil and water a plant needs in order to survive",
+    "The material an artist works in",
+    "A means of carrying a message to an audience",
+    "A middle point between two extremes"
+   ],
+   "answer": 1,
+   "passage": "bonsai",
+   "topic": "bonsai",
+   "source": "rj_original_2026",
+   "explanation": "Paragraph 1 calls practitioners artists \"whose medium happens to be alive and growing,\" so medium means the stuff an artist shapes. The everyday senses of medium — average, growing material, communication channel — are all wrong here."
+  },
+  {
+   "id": "9b2e5d7a10",
+   "stem": "The passage indicates that Chinese penjing differed from the Japanese approach that grew out of it mainly in that penjing:",
+   "options": [
+    "Aimed at suggesting age, while Japanese bonsai aimed at producing a perfect tree",
+    "Built whole miniature landscapes, while Japanese artists narrowed the composition to a single tree and the space around it",
+    "Was practiced by monks, while Japanese bonsai was practiced only by professional artists",
+    "Used shallow containers, while Japanese artists planted their trees directly in the ground"
+   ],
+   "answer": 1,
+   "passage": "bonsai",
+   "topic": "bonsai",
+   "source": "rj_original_2026",
+   "explanation": "Paragraph 2 says penjing included rocks, water and figures, and that Japanese artists \"stripped away much of the ornament,\" focusing on one tree and the empty space around it. Monks carried the practice to Japan, but the passage never says only professionals practiced it there."
+  },
+  {
+   "id": "c04d8ab391",
+   "stem": "Which of the following is NOT mentioned in the passage as part of caring for a bonsai?",
+   "options": [
+    "Fertilizing on a schedule suited to the species",
+    "Wrapping branches in wire to guide their direction",
+    "Trimming the roots as well as the branches",
+    "Moving the tree into a larger container as it matures"
+   ],
+   "answer": 3,
+   "passage": "bonsai",
+   "topic": "bonsai",
+   "source": "rj_original_2026",
+   "explanation": "Paragraph 5 lists root and branch pruning, wiring, careful watering and species-appropriate fertilizing. Repotting into something larger would work against the whole point of the art, and the passage never mentions it."
+  },
+  {
+   "id": "5e91f3c6db",
+   "stem": "Which of the following is most like the practice of bonsai as the passage describes it?",
+   "options": [
+    "A photographer sorting through hundreds of shots taken in one afternoon to find the single best one",
+    "A gardener planting a row of vegetables in spring and harvesting them in the fall",
+    "A person shaping a young orchard tree over many years, trimming it each season toward a form the tree itself keeps altering",
+    "A stonemason cutting a statue from a block of marble by following a finished drawing"
+   ],
+   "answer": 2,
+   "passage": "bonsai",
+   "topic": "bonsai",
+   "source": "rj_original_2026",
+   "explanation": "The passage stresses shaping a living thing over decades, so the analogy has to keep both the long timescale and the medium that goes on growing. The stonemason captures the sculpting but not the life or the years; the gardener captures the living material but finishes in a season."
+  },
+  {
+   "id": "71c6a4082f",
+   "stem": "If the passage continued past paragraph 6, which topic would most likely come next?",
+   "options": [
+    "Examples of the native species artists outside Japan have begun training, and what those experiments have taught them",
+    "A history of Buddhist monasteries in twelfth-century Japan",
+    "An argument that bonsai should be practiced only in the countries where it began",
+    "A step-by-step guide to wiring the branches of a juniper"
+   ],
+   "answer": 0,
+   "passage": "bonsai",
+   "topic": "bonsai",
+   "source": "rj_original_2026",
+   "explanation": "Paragraph 6 has just introduced work with native species and \"genuine innovations,\" so the natural next step is specific examples. The monastery history belongs to paragraph 2, which the passage has already moved past."
+  },
+  {
+   "id": "e8305bf7a4",
+   "stem": "According to the passage, a beginner who left a bonsai unpruned for several years would most likely find that the tree:",
+   "options": [
+    "Kept its shape but produced leaves too large for its container",
+    "Died, because pruning is what allows a bonsai to take in water",
+    "Grew toward its full size and lost the proportions that made it a bonsai",
+    "Developed the twisted trunk and bleached branches that suggest great age"
+   ],
+   "answer": 2,
+   "passage": "bonsai",
+   "topic": "bonsai",
+   "source": "rj_original_2026",
+   "explanation": "Paragraph 5 states that pruning is what keeps the tree small and that without it the tree \"would simply grow to full size.\" The twisted trunk and bleached branch of paragraph 3 are effects an artist works to suggest, not results of neglect."
+  },
+  {
+   "id": "2f9c71ba58",
+   "stem": "How did the water clock compare with the sundial that preceded it?",
+   "options": [
+    "The water clock was more accurate under every condition, which is why sundials were abandoned",
+    "The water clock was simpler to maintain, though it could not be used indoors",
+    "The water clock needed no attention once filled, while a sundial had to be reset each day",
+    "The water clock worked at night and in poor weather, but its rate shifted with temperature and it had to be refilled"
+   ],
+   "answer": 3,
+   "passage": "timekeeping",
+   "topic": "timekeeping",
+   "source": "rj_original_2026",
+   "explanation": "Paragraph 2 presents the trade directly: water clocks filled the sundial's two gaps but brought two problems of their own. The sundial, not the water clock, is the one the passage calls maintenance-free and \"remarkably accurate.\""
+  },
+  {
+   "id": "8d43e0c917",
+   "stem": "Which of the following is NOT mentioned in the passage as a weakness of a particular timekeeping device?",
+   "options": [
+    "A water clock's flow rate changes with temperature",
+    "A quartz clock grows less accurate as its crystal ages",
+    "An early mechanical clock could be off by roughly a quarter of an hour after one day",
+    "A sundial gives no reading after dark"
+   ],
+   "answer": 1,
+   "passage": "timekeeping",
+   "topic": "timekeeping",
+   "source": "rj_original_2026",
+   "explanation": "The first three appear in paragraphs 2 and 3, with fifteen minutes restated as a quarter of an hour. Paragraph 5 names only strengths of quartz clocks — high accuracy at low cost — and says nothing about the crystal aging."
+  },
+  {
+   "id": "46b70d2e83",
+   "stem": "In paragraph 6 the author compares optical atomic clocks to the marine chronometer in order to make a point best illustrated by which of the following?",
+   "options": [
+    "A tool that is quickly replaced by a cheaper version of itself",
+    "A device so complicated that only trained specialists can operate it",
+    "A discovery that is announced but never confirmed by other researchers",
+    "A material invented with no use in mind that later turns out to be essential to an industry nobody had imagined"
+   ],
+   "answer": 3,
+   "passage": "timekeeping",
+   "topic": "timekeeping",
+   "source": "rj_original_2026",
+   "explanation": "The author's point is that a precision with \"no obvious everyday use today\" may later become indispensable, exactly as the chronometer did once ocean crossings demanded it. The comparison is about unforeseen usefulness, not about cost, difficulty or doubt."
+  },
+  {
+   "id": "b5218fc760",
+   "stem": "Based on the passage, a navigator in the 1700s who carried a pendulum clock to sea instead of a chronometer would most likely have:",
+   "options": [
+    "Been unable to tell the time at all once the sun went down",
+    "Had to reset the clock against a sundial every noon",
+    "Calculated a faulty longitude, because a rolling ship disturbs a pendulum's swing",
+    "Calculated an accurate longitude, since a pendulum of a given length always swings at a consistent rate"
+   ],
+   "answer": 2,
+   "passage": "timekeeping",
+   "topic": "timekeeping",
+   "source": "rj_original_2026",
+   "explanation": "Paragraph 4 says a pendulum will not swing evenly on a rolling ship, which is precisely why the spring-driven chronometer was needed. The consistent-rate fact is true on land and is the trap for a student who stops reading mid-paragraph."
+  },
+  {
+   "id": "1ac7593ed4",
+   "stem": "The author's attitude toward the earliest mechanical clocks is best described as:",
+   "options": [
+    "Respectful of the idea behind them even while noting how poorly they kept time",
+    "Puzzled that monasteries would build something so unreliable",
+    "Dismissive, since a device that drifted so badly was of little real use",
+    "Admiring of a craftsmanship the author considers unmatched since"
+   ],
+   "answer": 0,
+   "passage": "timekeeping",
+   "topic": "timekeeping",
+   "source": "rj_original_2026",
+   "explanation": "Paragraph 3 credits the escapement — \"The principle was sound\" — and in the same breath grants that \"the accuracy was poor.\" The author neither writes the clocks off nor praises them beyond their principle."
+  },
+  {
+   "id": "6c8fa10b27",
+   "stem": "As used in the passage, the word \"fragile\" in paragraph 2 most nearly means:",
+   "options": [
+    "Physically delicate",
+    "Easily lost",
+    "Unimportant",
+    "Newly formed"
+   ],
+   "answer": 1,
+   "passage": "memory",
+   "topic": "memory",
+   "source": "rj_original_2026",
+   "explanation": "The hippocampus converts fragile short-term memories into stable long-term ones, so fragile is the opposite of stable — liable to slip away. Short-term memories are indeed new, but that is not what the word contributes to the sentence."
+  },
+  {
+   "id": "d72b46ec80",
+   "stem": "According to the passage, how does consolidation differ from encoding?",
+   "options": [
+    "Encoding depends on attention, while consolidation depends on the hippocampus",
+    "Encoding spreads a memory across several brain regions, while consolidation gathers it into one location",
+    "Encoding turns an experience into a lasting signal as it happens, while consolidation strengthens that memory afterward, largely during sleep",
+    "Encoding happens mainly in childhood, while consolidation continues throughout adult life"
+   ],
+   "answer": 2,
+   "passage": "memory",
+   "topic": "memory",
+   "source": "rj_original_2026",
+   "explanation": "Paragraph 2 defines encoding as the conversion of an experience into a lasting signal; paragraph 3 puts consolidation after it, much of it during sleep. The hippocampus in fact does its work at the encoding stage, and it is consolidated memories, not encoding, that end up distributed across regions."
+  },
+  {
+   "id": "a30fd51c98",
+   "stem": "Which of the following is NOT mentioned in the passage as true of patients whose hippocampus has been damaged?",
+   "options": [
+    "They can carry on an ordinary conversation",
+    "They can describe events from childhood in detail",
+    "A new experience fades within minutes of ending",
+    "They lose the memories they formed shortly before the damage occurred"
+   ],
+   "answer": 3,
+   "passage": "memory",
+   "topic": "memory",
+   "source": "rj_original_2026",
+   "explanation": "Paragraph 2 gives the first three as the \"striking pattern.\" It says these patients cannot form new lasting memories, not that older memories are erased — in fact it says childhood recall survives."
+  },
+  {
+   "id": "07e6c2d4b1",
+   "stem": "Which comparison best matches the account of retrieval given in paragraph 4?",
+   "options": [
+    "A storyteller retelling an event from a few remembered details, filling the gaps a little differently with each telling",
+    "A tape recorder playing back exactly the sound it captured",
+    "A librarian pulling the same book from the same shelf whenever it is requested",
+    "A photocopier turning out a copy that grows fainter every time it is run"
+   ],
+   "answer": 0,
+   "passage": "memory",
+   "topic": "memory",
+   "source": "rj_original_2026",
+   "explanation": "Retrieval is called reconstruction, and the passage says details can shift each time a memory is recalled and restored. The photocopier captures decay but not rebuilding; the recorder and the shelved book are the playback picture paragraph 1 rejects."
+  },
+  {
+   "id": "93b8ae5f6c",
+   "stem": "A student who took the findings in this passage seriously would most likely change her studying by:",
+   "options": [
+    "Rereading the chapter several times the night before the test",
+    "Copying her notes over neatly so the material sinks in",
+    "Quizzing herself on the material across several days and sleeping well after each study session",
+    "Highlighting the most important sentences in the chapter as she reads"
+   ],
+   "answer": 2,
+   "topic": "memory",
+   "source": "rj_original_2026",
+   "passage": "memory",
+   "explanation": "Paragraphs 3 and 5 name the two practices with evidence behind them: sleep after studying, and retrieval spaced across days. Highlighting, copying notes and rereading are all passive restudy, which paragraph 5 says works far less well than recall."
+  },
+  {
+   "id": "5410db93fe",
+   "stem": "The author's attitude toward the idea that memory works like a recording is best described as:",
+   "options": [
+    "Accepting it as a fair summary of what research has found",
+    "Treating it as a natural assumption that research has shown to be wrong",
+    "Dismissing it as a belief no one has ever seriously held",
+    "Uncertain whether the evidence for it or against it is stronger"
+   ],
+   "answer": 1,
+   "passage": "memory",
+   "topic": "memory",
+   "source": "rj_original_2026",
+   "explanation": "Paragraph 1 grants that memory \"feels like a recording\" and that we talk about it that way, then says research has shown the reality is stranger and more active. The author corrects the intuition rather than mocking it or hedging about it."
+  },
+  {
+   "id": "be7d0c3915",
+   "stem": "As used in the passage, the word \"volume\" in paragraph 1 most nearly means:",
+   "options": [
+    "A single book",
+    "The amount of space an object fills",
+    "A large quantity of something",
+    "The loudness of a sound"
+   ],
+   "answer": 0,
+   "passage": "printing-press",
+   "topic": "printing-press",
+   "source": "rj_original_2026",
+   "explanation": "A scribe spends a year \"copying a single volume,\" so a volume is one book. The quantity, loudness and space senses are the everyday ones and none of them fits a year of copying."
+  },
+  {
+   "id": "f2905a6c37",
+   "stem": "Paragraph 2 contrasts printing with scribal copying mainly in order to show that:",
+   "options": [
+    "Scribes worked mainly in monasteries, while printers worked in cities",
+    "A press could turn out hundreds of identical copies in the time a scribe needed to finish one",
+    "Printers were able to correct the mistakes scribes had introduced into older manuscripts",
+    "Printed pages were more beautiful than anything a scribe could produce"
+   ],
+   "answer": 1,
+   "passage": "printing-press",
+   "topic": "printing-press",
+   "source": "rj_original_2026",
+   "explanation": "The contrast in paragraph 2 is one of rate: hundreds of copies against one. The beauty point is a side remark about the Gutenberg Bible, and the accumulation of copying errors belongs to paragraph 4, where nobody corrects it — printing simply stops adding to it."
+  },
+  {
+   "id": "c1e47b8250",
+   "stem": "Which of the following is NOT mentioned in the passage as part of Gutenberg's printing system?",
+   "options": [
+    "Individual metal letters that could be taken apart and reused",
+    "An oil-based ink of his own formulation",
+    "A press adapted from the kind used to crush grapes",
+    "Paper produced in a mill he built for the purpose"
+   ],
+   "answer": 3,
+   "passage": "printing-press",
+   "topic": "printing-press",
+   "source": "rj_original_2026",
+   "explanation": "Paragraph 2 names the type, the ink and the grape press. Paper is mentioned only as the surface the type is pressed onto; where it came from never comes up."
+  },
+  {
+   "id": "80a6f5d3c2",
+   "stem": "The position of the authorities who could not silence Luther is most like that of:",
+   "options": [
+    "Officials trying to take down a rumor that has already been copied onto thousands of websites",
+    "A publisher deciding which of many manuscripts is worth printing",
+    "A school board choosing the textbooks a district will buy",
+    "A library that keeps its rarest books in a locked room"
+   ],
+   "answer": 0,
+   "passage": "printing-press",
+   "topic": "printing-press",
+   "source": "rj_original_2026",
+   "explanation": "Paragraph 3 turns on speed: the press circulated ideas faster than any authority could suppress them, so suppression came too late rather than being forbidden. The locked room is control exercised successfully, which is the situation of the earlier reformers who were silenced."
+  },
+  {
+   "id": "3db29e0745",
+   "stem": "According to paragraph 5, a person in the sixteenth century who learned to read as books grew cheaper would most likely gain the ability to:",
+   "options": [
+    "Write and publish books of his own",
+    "Travel more widely than someone who could not read",
+    "Weigh claims for himself rather than accept them on authority",
+    "Speak a dialect closer to the one used in his own town"
+   ],
+   "answer": 2,
+   "passage": "printing-press",
+   "topic": "printing-press",
+   "source": "rj_original_2026",
+   "explanation": "Paragraph 5 ties rising literacy to access to information and to \"the capacity to evaluate claims for themselves.\" The dialect option reverses the paragraph's other point: printing pushed language toward one standard form, away from town-by-town variation."
+  },
+  {
+   "id": "a95c30f8e6",
+   "stem": "In paragraph 6, the author's attitude toward the printing machinery itself, as distinct from what it made possible, is best described as:",
+   "options": [
+    "Untroubled that the machinery has been replaced, since the principle behind it has not",
+    "Regretful that a machine of such craftsmanship is no longer in use",
+    "Doubtful that newer media have really carried its work forward",
+    "Convinced that no later invention has equalled it"
+   ],
+   "answer": 0,
+   "passage": "printing-press",
+   "topic": "printing-press",
+   "source": "rj_original_2026",
+   "explanation": "The final two sentences set the replaceable machinery against the principle that has lasted, and the author plainly cares about the second. The newspaper, broadcast and internet are described as building on Gutenberg, not as falling short of him."
+  },
+  {
+   "id": "27bf6094ad",
+   "stem": "According to the passage, which of the following was true within fifty years of Gutenberg's press?",
+   "options": [
+    "Universities had begun printing textbooks of their own",
+    "Most European households owned a printed Bible",
+    "Presses were at work in more than two hundred European cities",
+    "Monasteries had given up copying manuscripts by hand"
+   ],
+   "answer": 2,
+   "passage": "printing-press",
+   "topic": "printing-press",
+   "source": "rj_original_2026",
+   "explanation": "Paragraph 2 gives the fifty-year figure for cities with presses, and adds only that a prosperous merchant could afford a shelf of books — not that ordinary households owned one. Nothing is said about scribes stopping or about universities printing."
+  },
+  {
+   "id": "a17c4e90b2",
+   "stem": "Which of the following would be the best alternative title for this passage?",
+   "options": [
+    "The Coming End of Fossil Fuels",
+    "The Promise and the Problems of Renewable Power",
+    "How Governments Regulate the Power Grid",
+    "Why Solar Panels Have Become Cheap"
+   ],
+   "answer": 1,
+   "passage": "renewable-energy",
+   "topic": "renewable-energy",
+   "source": "rj_original_2026",
+   "explanation": "The passage gives roughly equal space to the advantages of renewable power and to the cost and timing problems that remain unsolved. The other titles name a single detail from one paragraph or claim an ending the author never predicts."
+  },
+  {
+   "id": "5b30df71ac",
+   "stem": "The author states that the price of solar panels has dropped by roughly ninety percent since 2010 mainly in order to",
+   "options": [
+    "show that renewable power is now cheaper than coal and natural gas",
+    "illustrate how sharply energy prices can swing from year to year",
+    "support the claim that the largest barrier to adoption is shrinking",
+    "explain why sunlight and wind cost nothing once the equipment exists"
+   ],
+   "answer": 2,
+   "passage": "renewable-energy",
+   "topic": "renewable-energy",
+   "source": "rj_original_2026",
+   "explanation": "The figure appears immediately after the author calls upfront cost the single largest barrier, and it is introduced with \"It is falling steadily, however.\" The passage never compares the finished price of renewables with that of fossil fuels."
+  },
+  {
+   "id": "c8e21a6d34",
+   "stem": "How does the passage distinguish pumped hydroelectric storage from the batteries it describes?",
+   "options": [
+    "Pumped storage is already in wide use, while batteries are still only an idea",
+    "Batteries lower the cost of equipment, while pumped storage lowers the cost of fuel",
+    "Pumped storage produces new power, while batteries only move power around",
+    "Both hold surplus power for later, but pumped storage is offered as an alternative to better batteries"
+   ],
+   "answer": 3,
+   "passage": "renewable-energy",
+   "topic": "renewable-energy",
+   "source": "rj_original_2026",
+   "explanation": "Paragraph 4 names storage as the answer to intermittency and lists pumped hydroelectric storage among \"alternatives\" to the batteries researchers are improving. Neither one generates power; both hold it."
+  },
+  {
+   "id": "9f04b8c7e1",
+   "stem": "The author's attitude toward the difficulties facing renewable energy is best described as",
+   "options": [
+    "unconcerned with them, since the environmental case is decisive",
+    "frank about them while expecting that they can be solved",
+    "doubtful that they will be overcome any time soon",
+    "critical of the businesses that have been slow to invest"
+   ],
+   "answer": 1,
+   "passage": "renewable-energy",
+   "topic": "renewable-energy",
+   "source": "rj_original_2026",
+   "explanation": "The author states the cost and timing problems plainly, then reports that costs are falling steadily and that storage is \"the most promising answer.\" No group is blamed; all three are described as able to speed the change."
+  },
+  {
+   "id": "2d7a5c19f6",
+   "stem": "If the passage continued for one more paragraph, it would most likely",
+   "options": [
+    "explain how a wind turbine turns moving air into electricity",
+    "list the countries that import the most fossil fuel today",
+    "describe specific steps that governments, businesses or individuals could take",
+    "argue that the environmental benefits of renewables have been overstated"
+   ],
+   "answer": 2,
+   "passage": "renewable-energy",
+   "topic": "renewable-energy",
+   "source": "rj_original_2026",
+   "explanation": "The passage closes by naming three groups and saying the speed of the change depends on how vigorously all three act, which invites a paragraph on what each could do."
+  },
+  {
+   "id": "6ec3907ab5",
+   "stem": "The passage mentions all of the following as advantages of renewable energy EXCEPT",
+   "options": [
+    "new jobs created by building and installing the equipment",
+    "far lower emissions of greenhouse gases",
+    "freedom from the sharp price swings of fossil fuels",
+    "less dependence on fuel bought from other countries"
+   ],
+   "answer": 0,
+   "passage": "renewable-energy",
+   "topic": "renewable-energy",
+   "source": "rj_original_2026",
+   "explanation": "Paragraphs 2 and 3 supply the first three advantages. Employment is a familiar argument for renewables in general, but this author never makes it, mentioning manufacturing only in connection with falling prices."
+  },
+  {
+   "id": "48b6f2d0c9",
+   "stem": "The relationship the author describes between a bright, windy afternoon and a still, dark evening is most like the relationship between",
+   "options": [
+    "a harvest gathered in autumn and the food eaten through the winter",
+    "a photograph and the scene that it records",
+    "two roads that reach the same town by different routes",
+    "a loan from a bank and the interest paid on it"
+   ],
+   "answer": 0,
+   "passage": "renewable-energy",
+   "topic": "renewable-energy",
+   "source": "rj_original_2026",
+   "explanation": "The point of storage is that a surplus produced at one time is set aside and used at a later time when nothing is being produced, exactly as a harvest is."
+  },
+  {
+   "id": "7a95e4b3d8",
+   "stem": "According to paragraph 3, what does the author call the single largest barrier to adopting renewable energy?",
+   "options": [
+    "the slow pace of government funding for research",
+    "the large investment required before any power is produced",
+    "the unpredictable price of coal, oil and natural gas",
+    "the intermittent output of wind and solar equipment"
+   ],
+   "answer": 1,
+   "passage": "renewable-energy",
+   "topic": "renewable-energy",
+   "source": "rj_original_2026",
+   "explanation": "Intermittency is real but the author calls it \"a second challenge.\" Only upfront cost is named the single largest barrier."
+  },
+  {
+   "id": "3c1d78ea20",
+   "stem": "Which of the following best describes the way the passage is organized?",
+   "options": [
+    "a set of arguments in favor of a change, followed by the obstacles that remain",
+    "a description of one problem followed by the single solution the author prefers",
+    "a history of electricity generation told in the order events occurred",
+    "a comparison of the energy policies of two different countries"
+   ],
+   "answer": 0,
+   "passage": "renewable-energy",
+   "topic": "renewable-energy",
+   "source": "rj_original_2026",
+   "explanation": "Paragraph 2 gives environmental and security benefits and paragraph 3 an economic one; paragraphs 3 and 4 then turn to cost and intermittency. The author proposes no single preferred solution."
+  },
+  {
+   "id": "b52f0c8a76",
+   "stem": "As used in paragraph 3, the word \"compounded\" most nearly means",
+   "options": [
+    "made worse",
+    "accompanied",
+    "measured",
+    "chemically combined"
+   ],
+   "answer": 0,
+   "passage": "coral-reefs",
+   "topic": "coral-reefs",
+   "source": "rj_original_2026",
+   "explanation": "Acidification does not merely occur alongside warming; it adds a second injury by making skeletons harder to build. The familiar chemistry sense of the word does not fit the sentence."
+  },
+  {
+   "id": "e0347bd915",
+   "stem": "The author includes the estimate that up to fifty percent of the world's reefs have already been lost or severely damaged mainly in order to",
+   "options": [
+    "suggest that the reefs that remain can no longer be saved",
+    "explain why Marine Protected Areas were first created",
+    "compare the loss of reefs with the loss of rainforests",
+    "show how far the damage described in the paragraph has already gone"
+   ],
+   "answer": 3,
+   "passage": "coral-reefs",
+   "topic": "coral-reefs",
+   "source": "rj_original_2026",
+   "explanation": "The figure closes a paragraph that has just listed warming, acidification, overfishing, pollution and runoff, and it measures the result. The passage goes on to describe recovery efforts, so it is not arguing that nothing can be saved."
+  },
+  {
+   "id": "1af86e2c53",
+   "stem": "How does coral farming differ from Marine Protected Areas as the author describes them?",
+   "options": [
+    "Coral farming is run by governments, while protected areas are run by scientists",
+    "Coral farming replaces lost coral directly, while protected areas remove pressures and let reefs recover",
+    "Coral farming responds to overfishing, while protected areas respond to warming water",
+    "Coral farming is carried out only inside waters where fishing is banned"
+   ],
+   "answer": 1,
+   "passage": "coral-reefs",
+   "topic": "coral-reefs",
+   "source": "rj_original_2026",
+   "explanation": "MPAs restrict human activity so a damaged reef can recover \"without additional human pressure\"; coral farming is called \"a more direct approach\" because fragments are grown and transplanted onto the reef."
+  },
+  {
+   "id": "d69b031f4c",
+   "stem": "The author's attitude toward the survival of coral reefs is best described as",
+   "options": [
+    "resigned to the loss of most reefs within a single lifetime",
+    "detached, offering facts without any view of the outcome",
+    "uncertain of the outcome but hopeful that reefs can endure",
+    "confident that protection and restoration have already reversed the decline"
+   ],
+   "answer": 2,
+   "passage": "coral-reefs",
+   "topic": "coral-reefs",
+   "source": "rj_original_2026",
+   "explanation": "Paragraph 5 calls the result \"an open question\" and then says there is reason to believe reefs can survive, which is hope without confidence."
+  },
+  {
+   "id": "8c25a7f0be",
+   "stem": "If the passage continued, the next paragraph would most likely take up",
+   "options": [
+    "what would have to happen for carbon emissions to fall quickly enough",
+    "how coral polyps draw calcium carbonate out of seawater",
+    "which fish species use reefs as breeding grounds",
+    "the growth of tourism along tropical coastlines"
+   ],
+   "answer": 0,
+   "passage": "coral-reefs",
+   "topic": "coral-reefs",
+   "source": "rj_original_2026",
+   "explanation": "The last paragraph makes the whole outcome depend on how quickly the world limits carbon emissions, which is the thread a following paragraph would pick up. The other choices return to details already covered."
+  },
+  {
+   "id": "f471e6b208",
+   "stem": "The passage names all of the following as pressures on coral reefs EXCEPT",
+   "options": [
+    "runoff from farmland",
+    "rising ocean temperature",
+    "pollution along the coast",
+    "the collection of coral for home aquariums"
+   ],
+   "answer": 3,
+   "passage": "coral-reefs",
+   "topic": "coral-reefs",
+   "source": "rj_original_2026",
+   "explanation": "The first three all appear in paragraph 3. The aquarium trade is a genuine pressure on real reefs but is never mentioned by this author."
+  },
+  {
+   "id": "27de5a91cb",
+   "stem": "The way the author describes a reef being built over thousands of years is most like",
+   "options": [
+    "a forest that grows back in the years after a fire",
+    "a river cutting its channel a little deeper each year",
+    "a city whose new buildings rise on the foundations of older ones",
+    "a flock of birds that returns to the same island each spring"
+   ],
+   "answer": 2,
+   "passage": "coral-reefs",
+   "topic": "coral-reefs",
+   "source": "rj_original_2026",
+   "explanation": "Paragraph 2 says each generation of polyps builds on the remains of the last until the accumulated structure becomes a reef, which is building upward on what came before rather than wearing away, regrowing or returning."
+  },
+  {
+   "id": "94b7c30e6a",
+   "stem": "The comparison between reefs and rainforests in paragraph 1 rests mainly on",
+   "options": [
+    "their great age and the size of the area they cover",
+    "how much life they produce and how quickly they are vanishing",
+    "the warm climates in which both of them are found",
+    "the number of visitors each of them draws every year"
+   ],
+   "answer": 1,
+   "passage": "coral-reefs",
+   "topic": "coral-reefs",
+   "source": "rj_original_2026",
+   "explanation": "The author draws the comparison twice in one sentence pair: both are among the most productive ecosystems on the planet, and both are disappearing faster than anyone expected."
+  },
+  {
+   "id": "0b8fa2d547",
+   "stem": "According to the passage, what do the microscopic algae that live in coral tissues supply to the coral?",
+   "options": [
+    "the calcium carbonate it uses to build its skeleton",
+    "shelter for the young fish that live in the reef",
+    "most of its food and nearly all of its color",
+    "protection from the force of incoming waves"
+   ],
+   "answer": 2,
+   "passage": "coral-reefs",
+   "topic": "coral-reefs",
+   "source": "rj_original_2026",
+   "explanation": "The polyps take calcium carbonate from seawater themselves; the algae supply food and color, which is why a bleached coral is both white and starving."
+  },
+  {
+   "id": "35c9e17b04",
+   "stem": "As used in paragraph 2, the word \"reinforced\" most nearly means",
+   "options": [
+    "complicated",
+    "replaced",
+    "repeated",
+    "strengthened"
+   ],
+   "answer": 3,
+   "passage": "dark-matter",
+   "topic": "dark-matter",
+   "source": "rj_original_2026",
+   "explanation": "The lensing measurements were a different kind of observation, not a repetition of Rubin's, and they made an existing conclusion firmer rather than overturning it."
+  },
+  {
+   "id": "a6013fd8c2",
+   "stem": "The author describes Vera Rubin's measurements of spiral galaxies mainly in order to",
+   "options": [
+    "show how the case for an unseen source of gravity first became strong",
+    "explain the method astronomers use to time a star's orbit",
+    "warn that the outer stars of galaxies may yet fly off into space",
+    "credit her with the discovery of gravitational lensing"
+   ],
+   "answer": 0,
+   "passage": "dark-matter",
+   "topic": "dark-matter",
+   "source": "rj_original_2026",
+   "explanation": "Her result opens the paragraph as \"the first strong evidence.\" Lensing is introduced separately as a later observation, and the stars are not flying off, which is precisely the puzzle."
+  },
+  {
+   "id": "70e4b98c31",
+   "stem": "Which statement best describes how the passage presents WIMPs and axions?",
+   "options": [
+    "WIMPs have been detected underground, while axions have not",
+    "WIMPs account for galaxy rotation, while axions account for gravitational lensing",
+    "Both are proposed particles no experiment has produced, and axions are the lighter",
+    "Both have been ruled out by the detectors buried deep underground"
+   ],
+   "answer": 2,
+   "passage": "dark-matter",
+   "topic": "dark-matter",
+   "source": "rj_original_2026",
+   "explanation": "Paragraph 4 calls both hypothetical and describes axions as lighter particles. The underground detectors have produced no confirmed signal, which is not the same as detecting one or ruling a candidate out."
+  },
+  {
+   "id": "c34a7e05b9",
+   "stem": "The author's attitude toward the decades of searching that have produced no confirmed signal is best described as",
+   "options": [
+    "doubtful that dark matter exists at all",
+    "frustrated by so much effort spent for no return",
+    "matter-of-fact about the difficulty and still expectant of progress",
+    "puzzled that physicists have not turned to other questions"
+   ],
+   "answer": 2,
+   "passage": "dark-matter",
+   "topic": "dark-matter",
+   "source": "rj_original_2026",
+   "explanation": "Paragraph 5 says the absence of results has redirected the field rather than discouraged it, and ends by anticipating a discovery."
+  },
+  {
+   "id": "19f6d2a8e7",
+   "stem": "If the passage continued, the next paragraph would most likely",
+   "options": [
+    "argue that the search for dark matter should be given up",
+    "describe one of the newer detectors or accelerator searches in more detail",
+    "explain how infrared telescopes gather light",
+    "return to Vera Rubin's later career"
+   ],
+   "answer": 1,
+   "passage": "dark-matter",
+   "topic": "dark-matter",
+   "source": "rj_original_2026",
+   "explanation": "The final paragraph lists more sensitive detectors, new accelerator energy ranges and questions about the standard model as the current directions, and a continuation would take one of them up."
+  },
+  {
+   "id": "5e82c04fa3",
+   "stem": "The passage offers all of the following as evidence for dark matter EXCEPT",
+   "options": [
+    "galaxies forming sooner than ordinary matter alone could have managed",
+    "the temperature of the radiation left over from the Big Bang",
+    "stars at a galaxy's edge orbiting faster than its visible mass allows",
+    "the bending of light from objects behind massive galaxy clusters"
+   ],
+   "answer": 1,
+   "passage": "dark-matter",
+   "topic": "dark-matter",
+   "source": "rj_original_2026",
+   "explanation": "The first three appear in paragraphs 2 and 3. The passage mentions the earliest moments after the Big Bang but never cites leftover radiation or its temperature."
+  },
+  {
+   "id": "e7130ba946",
+   "stem": "The way astronomers know that dark matter is present is most like knowing",
+   "options": [
+    "the size of a room by measuring its walls",
+    "how a machine works by taking it apart",
+    "that a wind is blowing by watching the branches of a tree move",
+    "that a book is dull by reading its title"
+   ],
+   "answer": 2,
+   "passage": "dark-matter",
+   "topic": "dark-matter",
+   "source": "rj_original_2026",
+   "explanation": "The passage stresses that dark matter is not seen but detected through its gravitational effects on matter that can be seen, which is knowledge of a cause taken from its visible effects."
+  },
+  {
+   "id": "2b45790de8",
+   "stem": "It can be inferred from paragraph 3 that without dark matter",
+   "options": [
+    "ordinary matter would have clumped together sooner",
+    "stars at the edges of galaxies would orbit even faster",
+    "the early universe would have contained far less radiation",
+    "the galaxies we see would not have had time to form"
+   ],
+   "answer": 3,
+   "passage": "dark-matter",
+   "topic": "dark-matter",
+   "source": "rj_original_2026",
+   "explanation": "The paragraph says ordinary matter alone could not have clumped quickly enough, and that dark matter collapsed first and pulled ordinary matter into place. Remove the scaffolding and the galaxies have no head start."
+  },
+  {
+   "id": "86df3c1e50",
+   "stem": "According to paragraph 4, apart from gravity, how does dark matter interact with ordinary matter?",
+   "options": [
+    "only very weakly, which is why detectors have found no signal",
+    "strongly, but only across very great distances",
+    "through magnetism rather than through light",
+    "not at all, since nothing about it can affect ordinary matter"
+   ],
+   "answer": 0,
+   "passage": "dark-matter",
+   "topic": "dark-matter",
+   "source": "rj_original_2026",
+   "explanation": "The passage says it interacts only very weakly beyond gravity. Saying it does not interact at all overstates the claim and would contradict the fact that experiments are still looking for a signal."
+  },
+  {
+   "id": "3a7f1c2e08",
+   "stem": "Which of the following best states the central point of the passage?",
+   "options": [
+    "A famous shipwreck revealed the weaknesses of the lighthouse service.",
+    "The Board and its keepers quarreled constantly over the cost of running the lights.",
+    "A keeper whose exactness made him both dependable and difficult served the same light for decades.",
+    "Lighthouse keeping on the northern coast changed greatly during the nineteenth century."
+   ],
+   "answer": 2,
+   "passage": "thimble-rock-light",
+   "topic": "thimble-rock-light",
+   "source": "rj_original_2026",
+   "explanation": "The passage is a portrait of one man, and the author returns repeatedly to the single trait behind both his reliability and his quarrels. The wreck and the disputes with the Board are supporting episodes, not the subject."
+  },
+  {
+   "id": "9d40b6a715",
+   "stem": "According to the passage, the inspector had to carry a reading glass because",
+   "options": [
+    "salt water had damaged the pages of the log",
+    "the lantern room gave too little light to read by",
+    "Crowe wrote in a script that had gone out of use",
+    "Crowe's handwriting was extremely small"
+   ],
+   "answer": 3,
+   "passage": "thimble-rock-light",
+   "topic": "thimble-rock-light",
+   "source": "rj_original_2026",
+   "explanation": "Paragraph 2 states that Crowe set the weather down \"in a hand so small that the inspector was obliged to carry a reading glass.\" The other options describe difficulties the passage never raises."
+  },
+  {
+   "id": "c1e88f0347",
+   "stem": "As used in the passage, the word \"nice\" in paragraph 2 most nearly means",
+   "options": [
+    "generous",
+    "unusual",
+    "exact",
+    "agreeable"
+   ],
+   "answer": 2,
+   "passage": "thimble-rock-light",
+   "topic": "thimble-rock-light",
+   "source": "rj_original_2026",
+   "explanation": "The account is measured \"down to the half-gill\" and defended over a spoonful, so \"nice\" carries its older sense of precise. The everyday sense of pleasant does not fit a record of oil."
+  },
+  {
+   "id": "5b26d9ae41",
+   "stem": "The author quotes Crowe's log entry for the night of the Amity (\"Wind NE, thick. Lamp burning. Nothing to report.\") chiefly in order to",
+   "options": [
+    "show that Crowe drew no distinction between an extraordinary night and an ordinary one",
+    "suggest that Crowe was careless in keeping his records",
+    "establish that the log is the only surviving account of the wreck",
+    "hint that the rescue was less dangerous than others claimed"
+   ],
+   "answer": 0,
+   "passage": "thimble-rock-light",
+   "topic": "thimble-rock-light",
+   "source": "rj_original_2026",
+   "explanation": "The entry is quoted immediately after the rescue to show that Crowe recorded that night exactly as he recorded every other. Careless is a natural misreading, but the passage stresses how meticulous his records were."
+  },
+  {
+   "id": "7f03aa5c69",
+   "stem": "The author's attitude toward Crowe is best described as",
+   "options": [
+    "admiring of his steadiness yet unwilling to excuse his rigidity",
+    "affectionate and entirely uncritical",
+    "impatient with a man he considers greatly overrated",
+    "detached, offering no judgment of his own"
+   ],
+   "answer": 0,
+   "passage": "thimble-rock-light",
+   "topic": "thimble-rock-light",
+   "source": "rj_original_2026",
+   "explanation": "The author calls him recalled with \"genuine affection\" and then warns that \"it will not do to make a saint of the man.\" Both halves must be accounted for, which rules out the purely warm and purely hostile readings."
+  },
+  {
+   "id": "0c9e47b3d2",
+   "stem": "If the Board had installed the steam fog-signal while Crowe was still keeper, he would most likely have",
+   "options": [
+    "admitted his mistake once the signal had proved useful",
+    "tended it faithfully while continuing to write against it",
+    "allowed it quietly to fall out of repair",
+    "resigned his post rather than tend a machine he had opposed"
+   ],
+   "answer": 1,
+   "passage": "thimble-rock-light",
+   "topic": "thimble-rock-light",
+   "source": "rj_original_2026",
+   "explanation": "He opposed the signal for five seasons and kept up his letters, yet he never once neglected the light itself. The passage gives no sign that he ever changed his mind or shirked a duty."
+  },
+  {
+   "id": "e42b70f815",
+   "stem": "The comparison the author draws between Crowe and Mr. Pell suggests that",
+   "options": [
+    "Crowe would have been a better keeper had he been more like Pell",
+    "the qualities that made Pell popular were not the qualities the work required",
+    "Pell was appointed because the Board had grown tired of Crowe",
+    "the two men disagreed openly about how the light ought to be run"
+   ],
+   "answer": 1,
+   "passage": "thimble-rock-light",
+   "topic": "thimble-rock-light",
+   "source": "rj_original_2026",
+   "explanation": "Pell is likable and lets the lamp gutter; the closing line separates the man who is loved from the man who is depended upon. The passage never reports a quarrel between them or a reason for Pell's appointment."
+  },
+  {
+   "id": "b8514ce0f6",
+   "stem": "The passage mentions all of the following EXCEPT",
+   "options": [
+    "that Crowe called summer visitors an interruption of the light",
+    "that Crowe trained the assistant who was to follow him",
+    "that Crowe brought men off the ledge in a small boat",
+    "that Crowe acknowledged a medal awarded to him"
+   ],
+   "answer": 1,
+   "topic": "thimble-rock-light",
+   "source": "rj_original_2026",
+   "passage": "thimble-rock-light",
+   "explanation": "Mr. Pell appears in the passage, but nothing is said about Crowe training him or anyone else. The other three are stated in paragraphs 3 and 4."
+  },
+  {
+   "id": "26af3d9b70",
+   "stem": "The cast of mind the author describes at the end of paragraph 2 is most like that of",
+   "options": [
+    "a general who keeps the plan of his campaign a secret",
+    "a judge who decides cases quickly in order to clear his docket",
+    "a collector who buys far more than he can ever display",
+    "a bookkeeper who will not close the accounts while a single penny is unexplained"
+   ],
+   "answer": 3,
+   "passage": "thimble-rock-light",
+   "topic": "thimble-rock-light",
+   "source": "rj_original_2026",
+   "explanation": "The author defines Crowe as a mind \"that could not endure a thing to be approximate,\" which is the bookkeeper's refusal to let a discrepancy stand. Secrecy, accumulation and haste are all foreign to him."
+  },
+  {
+   "id": "f70d6182ac",
+   "stem": "The final sentence of the passage (\"Those who wish their heroes comfortable had better look elsewhere\") suggests that the author believes",
+   "options": [
+    "Crowe was owed a far more comfortable retirement than he received",
+    "the story of Thimble Rock is too bleak to be worth retelling",
+    "readers should not look for heroes among ordinary working men",
+    "Crowe's life will disappoint readers who want their heroes easy to like"
+   ],
+   "answer": 3,
+   "passage": "thimble-rock-light",
+   "topic": "thimble-rock-light",
+   "source": "rj_original_2026",
+   "explanation": "The line answers the reader who wants a pleasant hero, not the Board that underpaid him. The author has spent the whole passage insisting that the story is worth telling."
+  },
+  {
+   "id": "1ab5e39c04",
+   "stem": "Which of the following best states the author's main argument?",
+   "options": [
+    "People have been taught to believe that they are not permitted to open the things they own.",
+    "Appliances built today break down far more often than older ones did.",
+    "Repairing an appliance is almost always cheaper than replacing it.",
+    "Manufacturers ought to be required to repair the products they sell."
+   ],
+   "answer": 0,
+   "passage": "repair-table",
+   "topic": "repair-table",
+   "source": "rj_original_2026",
+   "explanation": "Paragraph 3 states the thesis directly: people have been told the inside of an object is none of their business. The author never claims new machines fail more often, and in paragraph 5 she declines to demand anything of manufacturers beyond access."
+  },
+  {
+   "id": "48c0f7d215",
+   "stem": "According to the passage, what had actually failed in the woman's toaster?",
+   "options": [
+    "the spring that released the carriage",
+    "the metal strip that judged when the bread was done",
+    "a wire that had broken at a joint",
+    "the cord, which had been mended with tape"
+   ],
+   "answer": 2,
+   "passage": "repair-table",
+   "topic": "repair-table",
+   "source": "rj_original_2026",
+   "explanation": "All four parts are named in the passage, but only the wire is said to have broken. The spring and the metal strip are listed as working parts, and the taped cord belongs to paragraph 1."
+  },
+  {
+   "id": "d6e2907b4f",
+   "stem": "As used in the passage, the word \"economy\" in paragraph 2 most nearly means",
+   "options": [
+    "cheapness of manufacture",
+    "the system by which goods are bought and sold",
+    "carefulness about spending money",
+    "the achieving of much with very few parts"
+   ],
+   "answer": 3,
+   "passage": "repair-table",
+   "topic": "repair-table",
+   "source": "rj_original_2026",
+   "explanation": "The word introduces a list of three parts that do the whole job, so it describes spare design rather than money. The financial senses are the everyday ones and are exactly what the sentence does not mean."
+  },
+  {
+   "id": "a03c5be871",
+   "stem": "The author mentions the warranty sticker in paragraph 3 mainly to",
+   "options": [
+    "argue that warranties on appliances should last longer",
+    "warn readers that opening a case may cost them their warranty",
+    "show that manufacturers treat a customer's curiosity as improper",
+    "explain why the newer toaster is cheaper than the older one"
+   ],
+   "answer": 2,
+   "passage": "repair-table",
+   "topic": "repair-table",
+   "source": "rj_original_2026",
+   "explanation": "The author reads the sticker as a message about permission, calling it a polite way of naming curiosity a form of misbehavior. Taking it as practical advice to the reader mistakes an example for a warning."
+  },
+  {
+   "id": "72fb18d5c3",
+   "stem": "The narrator's attitude toward the people who apologize at the repair table is best described as",
+   "options": [
+    "impatient, since the apologies use up time the narrator needs for repairs",
+    "puzzled, since the narrator cannot see what they imagine they have done wrong",
+    "quietly amused by their embarrassment",
+    "sympathetic, since the narrator blames their training rather than their character"
+   ],
+   "answer": 3,
+   "topic": "repair-table",
+   "source": "rj_original_2026",
+   "passage": "repair-table",
+   "explanation": "The narrator answers the apology first so that the person can think, and says outright that people are not lazier than their grandparents, only taught. That understanding of the apology rules out puzzlement."
+  },
+  {
+   "id": "5e94a0c637",
+   "stem": "Based on the passage, if someone brought the narrator a device whose case was glued shut, the narrator would most likely",
+   "options": [
+    "refuse the repair and send the owner back to the manufacturer",
+    "open it anyway and treat the difficulty as proof of the point being made",
+    "advise the owner to buy a replacement, since the repair is not worth the time",
+    "make the repair privately, without letting the owner watch"
+   ],
+   "answer": 1,
+   "topic": "repair-table",
+   "source": "rj_original_2026",
+   "passage": "repair-table",
+   "explanation": "The glued case is the very thing the passage objects to, and its purpose is to show owners that they are allowed to open things, so the work would not be hidden and the owner would not be sent away. The time-is-worth-more argument is rejected outright in paragraph 4."
+  },
+  {
+   "id": "8cd371fe20",
+   "stem": "In setting the 1994 toaster beside the one the woman would have bought instead, the author emphasizes a difference in",
+   "options": [
+    "how easily each machine could be opened and understood",
+    "how much each machine cost to buy",
+    "how long each machine could be expected to last",
+    "how well each machine performed the job of making toast"
+   ],
+   "answer": 0,
+   "passage": "repair-table",
+   "topic": "repair-table",
+   "source": "rj_original_2026",
+   "explanation": "The comparison is entirely about screws, glue and stickers, that is, about access. Lifespan, price and toasting quality are natural assumptions the passage never makes."
+  },
+  {
+   "id": "bf6520e91d",
+   "stem": "The passage mentions all of the following EXCEPT",
+   "options": [
+    "the year in which the woman was given the toaster",
+    "what the woman did on a later visit",
+    "how long the repair took the narrator",
+    "what a replacement toaster would have cost"
+   ],
+   "answer": 3,
+   "topic": "repair-table",
+   "source": "rj_original_2026",
+   "passage": "repair-table",
+   "explanation": "The passage argues about whether replacing the toaster would have been worth the time, but it never names a price. The year, the nine minutes and the July visit with the lamp are all stated."
+  },
+  {
+   "id": "37e1cb84a5",
+   "stem": "The narrator's claim to be \"producing a person who believes she is allowed to open things\" is most like",
+   "options": [
+    "a teacher who cares less about one finished problem than about the student's willingness to attempt the next",
+    "a shopkeeper who sells tools to customers at a discount",
+    "a mechanic who guarantees his own work for a full year",
+    "a cook who prepares a good meal for a hungry guest"
+   ],
+   "answer": 0,
+   "topic": "repair-table",
+   "source": "rj_original_2026",
+   "passage": "repair-table",
+   "explanation": "The point is that the lasting product is the owner's confidence rather than the mended object, which matches the teacher whose aim is the next attempt. The cook, mechanic and shopkeeper all deliver a finished good or service instead."
+  },
+  {
+   "id": "6402fd7ea9",
+   "stem": "The last paragraph suggests that the author's goal is",
+   "options": [
+    "to persuade people to stop buying new appliances altogether",
+    "to make repair a genuine option, whether or not people take it",
+    "to bring more visitors to her Saturday clinic in the library basement",
+    "to have manufacturers pay for the repairs their designs make necessary"
+   ],
+   "answer": 1,
+   "passage": "repair-table",
+   "topic": "repair-table",
+   "source": "rj_original_2026",
+   "explanation": "She says plainly that people may buy new toasters if they please, provided the choice is a real one. Her remark about being busier is a prediction, not the aim, and she asks manufacturers for screws and diagrams rather than money."
+  },
+  {
+   "id": "1d722c7d26",
+   "stem": "an ambiguous answer",
+   "options": [
+    "vague",
+    "confident",
+    "clear",
+    "enthusiastic"
+   ],
+   "answer": 0,
+   "topic": "Vocabulary in Context",
+   "source": "new_vocabulary_questions_1",
+   "explanation": "Ambiguous means it could be taken more than one way, so an ambiguous answer is vague. Clear is its opposite, not its meaning."
+  },
+  {
+   "id": "a1ceb69752",
+   "stem": "to foster creativity",
+   "options": [
+    "ignore",
+    "promote",
+    "hinder",
+    "forget"
+   ],
+   "answer": 1,
+   "topic": "Vocabulary in Context",
+   "source": "new_vocabulary_questions_1",
+   "explanation": "To foster something is to help it grow, the way a foster family cares for a child. Fostering creativity means you promote it."
+  },
+  {
+   "id": "b025913ba6",
+   "stem": "a mundane task",
+   "options": [
+    "ordinary",
+    "complex",
+    "exciting",
+    "dangerous"
+   ],
+   "answer": 0,
+   "topic": "Vocabulary in Context",
+   "source": "new_vocabulary_questions_1",
+   "explanation": "Mundane means everyday and plain, nothing special. A mundane task is ordinary, like folding laundry or taking out the trash."
+  },
+  {
+   "id": "6789da5110",
+   "stem": "an audacious plan",
+   "options": [
+    "hasty",
+    "showy",
+    "bold",
+    "cautious"
+   ],
+   "answer": 2,
+   "topic": "Vocabulary in Context",
+   "source": "rj_original_2026",
+   "explanation": "Audacious means daring. A bold plan may be carefully thought out, so hasty is not the same, and audacious describes the risk taken rather than any display."
+  },
+  {
+   "id": "4c37844a95",
+   "stem": "to refute an argument with evidence",
+   "options": [
+    "weaken",
+    "disprove",
+    "restate",
+    "dismiss"
+   ],
+   "answer": 1,
+   "topic": "Vocabulary in Context",
+   "source": "rj_original_2026",
+   "explanation": "With evidence brought against it, the argument is shown to be false rather than merely brushed aside or made a little less convincing."
+  },
+  {
+   "id": "a1228aeed7",
+   "stem": "a formidable challenge",
+   "options": [
+    "formal",
+    "easily met",
+    "overwhelming",
+    "unexpected"
+   ],
+   "answer": 2,
+   "topic": "Vocabulary in Context",
+   "source": "rj_original_2026",
+   "explanation": "Formidable describes something so difficult that it inspires fear or respect. Formal is the look-alike trap, and a challenge can arrive unexpectedly without being hard."
+  },
+  {
+   "id": "8d9bf851d8",
+   "stem": "an impartial judge",
+   "options": [
+    "strict",
+    "lenient",
+    "biased",
+    "fair"
+   ],
+   "answer": 3,
+   "topic": "Vocabulary in Context",
+   "source": "new_vocabulary_questions_1",
+   "explanation": "Impartial means not taking sides. The prefix im- means not, so an impartial judge is fair instead of biased toward one person."
+  },
+  {
+   "id": "ff1a85e64e",
+   "stem": "a sporadic event",
+   "options": [
+    "brief",
+    "occasional",
+    "sudden",
+    "steady"
+   ],
+   "answer": 1,
+   "topic": "Vocabulary in Context",
+   "source": "rj_original_2026",
+   "explanation": "Sporadic describes something that happens now and then at irregular intervals. It says nothing about how quickly the event begins or how long it lasts."
+  },
+  {
+   "id": "e9a9a09cfd",
+   "stem": "to instigate a conflict",
+   "options": [
+    "investigate",
+    "worsen",
+    "start",
+    "settle"
+   ],
+   "answer": 2,
+   "topic": "Vocabulary in Context",
+   "source": "rj_original_2026",
+   "explanation": "To instigate is to bring something about, so it means to start the conflict. Investigate is the look-alike trap, and making a quarrel worse is not the same as beginning it."
+  },
+  {
+   "id": "24d7a442f5",
+   "stem": "an inevitable outcome",
+   "options": [
+    "unfortunate",
+    "unexpected",
+    "long delayed",
+    "certain"
+   ],
+   "answer": 3,
+   "topic": "Vocabulary in Context",
+   "source": "rj_original_2026",
+   "explanation": "Inevitable means it cannot be avoided, so the outcome is certain. Results called inevitable are often unwelcome, but the word describes the certainty rather than the bad news."
+  },
+  {
+   "id": "cbfe4443fd",
+   "stem": "a conspicuous error",
+   "options": [
+    "minor",
+    "suspicious",
+    "careless",
+    "obvious"
+   ],
+   "answer": 3,
+   "topic": "Vocabulary in Context",
+   "source": "rj_original_2026",
+   "explanation": "Conspicuous means easy to notice. Suspicious is the look-alike trap, and an error can be careless or small without standing out."
+  },
+  {
+   "id": "3a7f1c9b02",
+   "stem": "a meager portion",
+   "options": [
+    "uneven",
+    "generous",
+    "bland",
+    "skimpy"
+   ],
+   "answer": 3,
+   "topic": "Vocabulary in Context",
+   "source": "rj_original_2026",
+   "explanation": "Meager describes how little there is, so skimpy is the match. Bland and uneven describe the food itself rather than the amount, and generous is its opposite."
+  },
+  {
+   "id": "b18d4e6a75",
+   "stem": "to console a grieving friend",
+   "options": [
+    "comfort",
+    "congratulate",
+    "advise",
+    "accompany"
+   ],
+   "answer": 0,
+   "topic": "Vocabulary in Context",
+   "source": "rj_original_2026",
+   "explanation": "To console is to ease someone's sorrow. Accompanying or advising a grieving friend are things you might also do, but neither is what console means."
+  },
+  {
+   "id": "6c2019fbd4",
+   "stem": "a candid but gentle answer",
+   "options": [
+    "honest",
+    "hasty",
+    "lengthy",
+    "blunt"
+   ],
+   "answer": 0,
+   "topic": "Vocabulary in Context",
+   "source": "rj_original_2026",
+   "explanation": "Candid means truthful and open. Blunt is the near miss, but gentle rules it out: a candid answer can be delivered kindly."
+  },
+  {
+   "id": "df5308a2e1",
+   "stem": "to abolish an old law",
+   "options": [
+    "do away with",
+    "enforce",
+    "revise",
+    "suspend"
+   ],
+   "answer": 0,
+   "topic": "Vocabulary in Context",
+   "source": "rj_original_2026",
+   "explanation": "Abolish means to end something permanently, not to change it (revise) or to pause it (suspend)."
+  },
+  {
+   "id": "90e7ab314c",
+   "stem": "an ample supply of water for a crew twice that size",
+   "options": [
+    "more than enough",
+    "carefully rationed",
+    "adequate",
+    "steady"
+   ],
+   "answer": 0,
+   "topic": "Vocabulary in Context",
+   "source": "rj_original_2026",
+   "explanation": "Adequate is the trap, since it means just enough. A supply that would serve twice the crew is ample, which means generously beyond what is needed."
+  },
+  {
+   "id": "27c6d0f95a",
+   "stem": "a courteous reply",
+   "options": [
+    "polite",
+    "prompt",
+    "brief",
+    "formal"
+   ],
+   "answer": 0,
+   "topic": "Vocabulary in Context",
+   "source": "rj_original_2026",
+   "explanation": "Courteous refers to good manners. A reply can be prompt, formal or brief without being courteous."
+  },
+  {
+   "id": "4e91b7c608",
+   "stem": "to conceal the damage",
+   "options": [
+    "repair",
+    "exaggerate",
+    "report",
+    "hide"
+   ],
+   "answer": 3,
+   "topic": "Vocabulary in Context",
+   "source": "rj_original_2026",
+   "explanation": "Conceal means to keep out of sight. Exaggerating or reporting the damage both draw attention to it instead."
+  },
+  {
+   "id": "a05f2d8e63",
+   "stem": "a feeble excuse",
+   "options": [
+    "frail",
+    "rude",
+    "hurried",
+    "unconvincing"
+   ],
+   "answer": 3,
+   "topic": "Vocabulary in Context",
+   "source": "rj_original_2026",
+   "explanation": "Frail is the everyday sense of feeble applied to a body; applied to an excuse, feeble means weak in the sense of unconvincing."
+  },
+  {
+   "id": "7b3ce1409f",
+   "stem": "to postpone the ceremony",
+   "options": [
+    "cut short",
+    "put off",
+    "hurry through",
+    "call off"
+   ],
+   "answer": 1,
+   "topic": "Vocabulary in Context",
+   "source": "rj_original_2026",
+   "explanation": "To postpone is to move an event to a later time; calling it off cancels it altogether."
+  },
+  {
+   "id": "12fa8b76dc",
+   "stem": "a prudent investor",
+   "options": [
+    "wealthy",
+    "fortunate",
+    "sensible",
+    "timid"
+   ],
+   "answer": 2,
+   "topic": "Vocabulary in Context",
+   "source": "rj_original_2026",
+   "explanation": "Timid is close but not right: a prudent investor uses good judgment, which sometimes means acting boldly."
+  },
+  {
+   "id": "e64d097a2b",
+   "stem": "obsolete equipment",
+   "options": [
+    "borrowed",
+    "broken",
+    "out of date",
+    "expensive"
+   ],
+   "answer": 2,
+   "topic": "Vocabulary in Context",
+   "source": "rj_original_2026",
+   "explanation": "Obsolete equipment may still work perfectly; it has simply been replaced by something newer."
+  },
+  {
+   "id": "58bf3e2c10",
+   "stem": "to verify the report",
+   "options": [
+    "summarize",
+    "question",
+    "publish",
+    "confirm"
+   ],
+   "answer": 3,
+   "topic": "Vocabulary in Context",
+   "source": "rj_original_2026",
+   "explanation": "Verify means to check something and establish that it is true, which is the opposite of merely questioning it."
+  },
+  {
+   "id": "c9017da4f8",
+   "stem": "a somber mood",
+   "options": [
+    "tense",
+    "restless",
+    "hopeful",
+    "gloomy"
+   ],
+   "answer": 3,
+   "topic": "Vocabulary in Context",
+   "source": "rj_original_2026",
+   "explanation": "Somber is specifically dark and serious; tense and restless are unpleasant moods of a different kind."
+  },
+  {
+   "id": "0d4a86eb37",
+   "stem": "to relinquish the title",
+   "options": [
+    "give up",
+    "hand down",
+    "take back",
+    "compete for"
+   ],
+   "answer": 0,
+   "topic": "Vocabulary in Context",
+   "source": "rj_original_2026",
+   "explanation": "To relinquish is to surrender something you hold. Hand down suggests passing it to an heir, which is a different act."
+  },
+  {
+   "id": "91e5c37b02",
+   "stem": "a benevolent ruler",
+   "options": [
+    "wealthy",
+    "strict",
+    "kindly",
+    "powerful"
+   ],
+   "answer": 2,
+   "topic": "Vocabulary in Context",
+   "source": "rj_original_2026",
+   "explanation": "Benevolent describes goodwill toward others, not the amount of power or money a ruler has."
+  },
+  {
+   "id": "aa6209f1d5",
+   "stem": "a novice sailor",
+   "options": [
+    "occasional",
+    "fearless",
+    "careless",
+    "beginning"
+   ],
+   "answer": 3,
+   "topic": "Vocabulary in Context",
+   "source": "rj_original_2026",
+   "explanation": "Occasional is the near miss: a novice is new to the activity, which is about experience rather than how often the person sails."
+  },
+  {
+   "id": "36b8f0e7ca",
+   "stem": "to ponder an offer",
+   "options": [
+    "think over",
+    "mention",
+    "refuse",
+    "accept"
+   ],
+   "answer": 0,
+   "topic": "Vocabulary in Context",
+   "source": "rj_original_2026",
+   "explanation": "To ponder is to consider carefully; accepting or refusing comes after the pondering is done."
+  },
+  {
+   "id": "5f2c9a3106",
+   "stem": "to deter trespassers",
+   "options": [
+    "warn",
+    "discourage",
+    "identify",
+    "punish"
+   ],
+   "answer": 1,
+   "topic": "Vocabulary in Context",
+   "source": "rj_original_2026",
+   "explanation": "Deter means to prevent an action by making it unappealing. Warning and punishing are methods that may deter, not the meaning itself."
+  },
+  {
+   "id": "bd70e4165c",
+   "stem": "a resilient community",
+   "options": [
+    "rapidly growing",
+    "closely knit",
+    "well funded",
+    "quick to recover"
+   ],
+   "answer": 3,
+   "topic": "Vocabulary in Context",
+   "source": "rj_original_2026",
+   "explanation": "Resilient describes the ability to bounce back after hardship, which a community can have whether or not it is wealthy or close."
+  },
+  {
+   "id": "e83b16fa04",
+   "stem": "a plausible excuse",
+   "options": [
+    "detailed",
+    "familiar",
+    "truthful",
+    "believable"
+   ],
+   "answer": 3,
+   "topic": "Vocabulary in Context",
+   "source": "rj_original_2026",
+   "explanation": "Truthful is the trap: a plausible excuse sounds believable, and it may still be a lie."
+  },
+  {
+   "id": "7412c0d9be",
+   "stem": "a meticulous record",
+   "options": [
+    "unusually long",
+    "painstakingly careful",
+    "neatly typed",
+    "strictly private"
+   ],
+   "answer": 1,
+   "topic": "Vocabulary in Context",
+   "source": "rj_original_2026",
+   "explanation": "Meticulous refers to attention to every detail; length and neatness are not the same thing."
+  },
+  {
+   "id": "cf98a6072d",
+   "stem": "an obstinate child",
+   "options": [
+    "bashful",
+    "spoiled",
+    "stubborn",
+    "restless"
+   ],
+   "answer": 2,
+   "topic": "Vocabulary in Context",
+   "source": "rj_original_2026",
+   "explanation": "Obstinate means refusing to change one's mind. Spoiled is a common companion trait but describes upbringing, not stubbornness."
+  },
+  {
+   "id": "20de5b81a7",
+   "stem": "a tranquil evening",
+   "options": [
+    "dull",
+    "peaceful",
+    "chilly",
+    "lonely"
+   ],
+   "answer": 1,
+   "topic": "Vocabulary in Context",
+   "source": "rj_original_2026",
+   "explanation": "Tranquil means calm and untroubled; dull adds a negative judgment that tranquil does not carry."
+  },
+  {
+   "id": "96b3fa270e",
+   "stem": "a vigilant guard",
+   "options": [
+    "armed",
+    "patient",
+    "strict",
+    "watchful"
+   ],
+   "answer": 3,
+   "topic": "Vocabulary in Context",
+   "source": "rj_original_2026",
+   "explanation": "Vigilant means alert to danger. A guard may be strict or patient without being vigilant."
+  },
+  {
+   "id": "4d1e07c5ab",
+   "stem": "indifferent to the criticism",
+   "options": [
+    "grateful for",
+    "puzzled by",
+    "unconcerned about",
+    "angered by"
+   ],
+   "answer": 2,
+   "topic": "Vocabulary in Context",
+   "source": "rj_original_2026",
+   "explanation": "Indifferent means simply not caring one way or the other, which is a milder reaction than being angered or puzzled."
+  },
+  {
+   "id": "18a2fe6403",
+   "stem": "a remote possibility that anyone was hurt",
+   "options": [
+    "far away",
+    "slight",
+    "alarming",
+    "growing"
+   ],
+   "answer": 1,
+   "topic": "Vocabulary in Context",
+   "source": "rj_original_2026",
+   "explanation": "Far away is the trap drawn from the everyday sense of remote. Applied to a possibility, remote means very unlikely."
+  },
+  {
+   "id": "e7c04b39f1",
+   "stem": "to ridicule the plan",
+   "options": [
+    "revise",
+    "doubt",
+    "make fun of",
+    "reject"
+   ],
+   "answer": 2,
+   "topic": "Vocabulary in Context",
+   "source": "rj_original_2026",
+   "explanation": "Ridicule adds mockery to disapproval; a person can doubt or reject a plan while treating it seriously."
+  },
+  {
+   "id": "53fb1e802c",
+   "stem": "seldom absent from practice",
+   "options": [
+    "briefly",
+    "never",
+    "rarely",
+    "willingly"
+   ],
+   "answer": 2,
+   "topic": "Vocabulary in Context",
+   "source": "rj_original_2026",
+   "explanation": "Never is the tempting choice, but seldom allows for a few absences."
+  },
+  {
+   "id": "a4602df7b9",
+   "stem": "to tarnish a reputation",
+   "options": [
+    "damage",
+    "reveal",
+    "exaggerate",
+    "dispute"
+   ],
+   "answer": 0,
+   "topic": "Vocabulary in Context",
+   "source": "rj_original_2026",
+   "explanation": "Tarnish literally describes metal losing its shine; applied to a reputation it means to damage it, not merely to argue about it."
+  },
+  {
+   "id": "0be9c14f26",
+   "stem": "a drastic change in policy",
+   "options": [
+    "extreme",
+    "permanent",
+    "unpopular",
+    "sudden"
+   ],
+   "answer": 0,
+   "topic": "Vocabulary in Context",
+   "source": "rj_original_2026",
+   "explanation": "Sudden is the near miss: drastic describes how far-reaching the change is, not how quickly it arrives."
+  },
+  {
+   "id": "71d3a09e5f",
+   "stem": "a rash promise",
+   "options": [
+    "broken",
+    "generous",
+    "bold",
+    "hasty"
+   ],
+   "answer": 3,
+   "topic": "Vocabulary in Context",
+   "source": "rj_original_2026",
+   "explanation": "Here rash has nothing to do with skin: it means made without thinking. Bold is close but lacks the sense of carelessness."
+  },
+  {
+   "id": "c50f827ad3",
+   "stem": "a quaint village",
+   "options": [
+    "unusually small",
+    "charmingly old-fashioned",
+    "poorly kept",
+    "newly built"
+   ],
+   "answer": 1,
+   "topic": "Vocabulary in Context",
+   "source": "rj_original_2026",
+   "explanation": "Quaint carries approval for something pleasingly old-fashioned; small alone does not make a village quaint."
+  },
+  {
+   "id": "9e18b607c4",
+   "stem": "the supplies dwindled",
+   "options": [
+    "steadily decreased",
+    "were divided up",
+    "suddenly vanished",
+    "were spoiled"
+   ],
+   "answer": 0,
+   "topic": "Vocabulary in Context",
+   "source": "rj_original_2026",
+   "explanation": "Dwindle describes a gradual shrinking, so a sudden disappearance is not it."
+  },
+  {
+   "id": "2f7ac35190",
+   "stem": "a sharp retort",
+   "options": [
+    "gesture",
+    "tone of voice",
+    "quick reply",
+    "criticism"
+   ],
+   "answer": 2,
+   "topic": "Vocabulary in Context",
+   "source": "rj_original_2026",
+   "explanation": "A retort is an answer given back to someone. It is often critical, but the word itself means the reply."
+  },
+  {
+   "id": "b6d09e4213",
+   "stem": "a gaunt face",
+   "options": [
+    "pale and freckled",
+    "thin and drawn",
+    "stern and angry",
+    "round and full"
+   ],
+   "answer": 1,
+   "topic": "Vocabulary in Context",
+   "source": "rj_original_2026",
+   "explanation": "Gaunt describes thinness from hunger, illness or exhaustion rather than an expression."
+  },
+  {
+   "id": "8c1740fb6e",
+   "stem": "a keen observer of small details",
+   "options": [
+    "patient",
+    "sharp-eyed",
+    "eager",
+    "quiet"
+   ],
+   "answer": 1,
+   "topic": "Vocabulary in Context",
+   "source": "rj_original_2026",
+   "explanation": "Eager is the everyday sense of keen, but a keen observer is one who notices what others miss. Patience may help such a person, though it is not what the word means."
+  },
+  {
+   "id": "3d92e6c807",
+   "stem": "to coax the cat from under the porch",
+   "options": [
+    "firmly command",
+    "gently persuade",
+    "carefully lift",
+    "slowly chase"
+   ],
+   "answer": 1,
+   "topic": "Vocabulary in Context",
+   "source": "rj_original_2026",
+   "explanation": "Coaxing works by patient encouragement, so commanding and chasing are both too forceful."
+  },
+  {
+   "id": "6a40bd1935",
+   "stem": "to quench the flames",
+   "options": [
+    "spread",
+    "contain",
+    "put out",
+    "satisfy"
+   ],
+   "answer": 2,
+   "topic": "Vocabulary in Context",
+   "source": "rj_original_2026",
+   "explanation": "Satisfy comes from quenching a thirst; with flames the word means to extinguish them, and containing a fire is not the same as putting it out."
+  },
+  {
+   "id": "f2b8016cea",
+   "stem": "to vex the substitute teacher",
+   "options": [
+    "defy",
+    "confuse",
+    "annoy",
+    "interrupt"
+   ],
+   "answer": 2,
+   "topic": "Vocabulary in Context",
+   "source": "rj_original_2026",
+   "explanation": "Vex means to irritate. Interrupting or defying may cause irritation, but neither is the meaning of the word."
+  },
+  {
+   "id": "05e3ca9f78",
+   "stem": "to feign surprise",
+   "options": [
+    "exaggerate",
+    "pretend",
+    "admit",
+    "overcome"
+   ],
+   "answer": 1,
+   "topic": "Vocabulary in Context",
+   "source": "rj_original_2026",
+   "explanation": "Exaggerate is the near miss: to feign surprise is to fake a feeling you do not have at all."
+  }
+ ]
 }

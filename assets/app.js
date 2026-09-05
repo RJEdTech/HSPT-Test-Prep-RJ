@@ -9,50 +9,52 @@ const HSPT = (() => {
   /* secsPerQ is the real HSPT allowance for that section, rounded to the second:
      Verbal 16min/60Q, Quantitative 30/52, Reading 25/62, Math 45/64, Language 25/60. */
   const SECTIONS = {
-    verbal:   { label: 'Verbal Skills',       file: 'verbal',   secsPerQ: 16 },
-    quant:    { label: 'Quantitative Skills', file: 'math',     secsPerQ: 35 },
-    reading:  { label: 'Reading',             file: 'reading',  secsPerQ: 24 },
-    math:     { label: 'Mathematics',         file: 'math',     secsPerQ: 42 },
-    language: { label: 'Language Skills',     file: 'language', secsPerQ: 25 }
+    verbal:   { label: 'Verbal Skills',       file: 'verbal',       secsPerQ: 16 },
+    quant:    { label: 'Quantitative Skills', file: 'quantitative', secsPerQ: 35 },
+    reading:  { label: 'Reading',             file: 'reading',      secsPerQ: 24 },
+    math:     { label: 'Mathematics',         file: 'math',         secsPerQ: 42 },
+    language: { label: 'Language Skills',     file: 'language',     secsPerQ: 25 }
   };
 
-  // The math bank covers both HSPT math sections. Split it by topic.
-  const QUANT_TOPICS = ['Patterns in Numbers', 'Mathematic Comparisons', 'Skills Check 2: Quantitative Skills'];
+  /* Quantitative Skills and Mathematics are separate sections of the real test that ask for
+     different things, so they are separate files now. They used to share math.json and be
+     split by topic at runtime. */
 
-  /* Student-facing names. The bank's internal topic strings stay as they are so the
-     data files and every saved result keep working; this is presentation only. */
+  /* Student-facing names, where the bank's topic string is not already the right one. */
   const TOPIC_LABELS = {
-    'Patterns in Numbers': 'Number Series & Patterns',
-    'Mathematic Comparisons': 'Comparisons',
-    'Skills Check 2: Quantitative Skills': 'Quantitative Reasoning',
-    'Math Principles': 'Number Sense',
-    'Problem Solving': 'Word Problems',
-    'Skills Check 4: Mathematic Skills': 'Computation & Geometry',
     'Usage': 'Grammar & Usage',
-    'Composition': 'Composition & Paragraphs',
-    'Vocabulary': 'Vocabulary in Context',
-    'Verbal Logic': 'Verbal Logic'
+    'Composition': 'Composition & Paragraphs'
   };
 
   /* One line telling a student what the skill actually asks of them. */
   const TOPIC_BLURBS = {
-    'Synonyms': 'Pick the word closest in meaning.',
+    'Synonyms': 'Pick the word closest in meaning — two of the four choices will be close.',
     'Antonyms': 'Pick the word that means the opposite — watch for the synonym hiding in the choices.',
     'Analogies': 'Work out the relationship in the first pair, then apply it to the second.',
     'Classification': 'Find what three words share; the fourth is the odd one out.',
     'Verbal Logic': 'If the first two statements are true, is the third true, false or uncertain?',
-    'Vocabulary': 'Work out a word’s meaning from the phrase it sits in.',
+
+    'Number Series': 'Find the step between terms, then check whether the step itself changes.',
+    'Letter Series': 'Letters and letter-number pairs move by their own rules — track each separately.',
+    'Comparisons': 'Work out all three quantities before you look at the answer choices.',
+    'Geometric Comparison': 'Compare areas, perimeters, angles or lengths using the figure and its labels.',
+    'Number Manipulation': 'Arithmetic hidden in awkward English — translate one clause at a time.',
+
+    'Number Sense': 'Place value, rounding, factors, multiples and estimation.',
+    'Fractions, Decimals and Percents': 'Moving between the three, and percent of, off and more than.',
+    'Ratios and Proportions': 'Set the proportion up with matching units on top.',
+    'Computation': 'Order of operations, negatives, and arithmetic in mixed units.',
+    'Algebra': 'Solve for the unknown, and know what to call each part of an expression.',
+    'Geometry and Measurement': 'Area, perimeter, angles, circles and unit conversion.',
+    'Data and Probability': 'Mean, median, mode, probability and counting combinations.',
+    'Word Problems': 'Money, rates, distance and interest — read for what is actually asked.',
+
+    'Vocabulary in Context': 'Work out a word\u2019s meaning from the phrase it sits in.',
     'Spelling': 'One misspelled word among three sentences — or none at all.',
     'Capitalization': 'Proper nouns, titles, seasons and the things that only look like proper nouns.',
     'Punctuation': 'Commas, semicolons, apostrophes and quotation marks.',
-    'Usage': 'Subject–verb agreement, pronoun case, comparatives and the rest.',
-    'Composition': 'Topic sentences, concluding sentences and which sentence does not belong.',
-    'Patterns in Numbers': 'Find the step between terms, then check whether the step itself changes.',
-    'Mathematic Comparisons': 'Work out each quantity before you look at the answer choices.',
-    'Skills Check 2: Quantitative Skills': 'Mixed reasoning — series, comparisons and short problems.',
-    'Math Principles': 'Place value, rounding, averages, factors and estimation.',
-    'Problem Solving': 'Word problems: rates, percents, ratios and money.',
-    'Skills Check 4: Mathematic Skills': 'Computation, proportions, area and perimeter.'
+    'Usage': 'Agreement, pronoun case, comparatives, tense and the words people confuse.',
+    'Composition': 'Topic sentences, joining words, clarity and which sentence does not belong.'
   };
 
   const topicLabel = t => TOPIC_LABELS[t] ||
@@ -72,16 +74,46 @@ const HSPT = (() => {
   async function section(key) {
     const spec = SECTIONS[key];
     const bank = await loadBank(spec.file);
-    let qs = bank.questions;
-    if (key === 'quant') qs = qs.filter(q => QUANT_TOPICS.includes(q.topic));
-    if (key === 'math')  qs = qs.filter(q => !QUANT_TOPICS.includes(q.topic));
-    return qs.map(q => ({ ...q, section: key }));
+    return bank.questions.map(q => ({ ...q, section: key }));
   }
 
   async function passages() { return (await loadBank('reading')).passages; }
 
   /* Reading topics are passage slugs (bonsai, coral-reefs...), and one lesson covers them all. */
   const READING_TOPIC = t => /^[a-z][a-z-]*$/.test(t);
+
+  /* Spread a section's questions across its skills rather than clustering, then top up from
+     what is left so a short skill never leaves the section under its target count. */
+  function buildTopicSpread(qs, n) {
+    const byTopic = {};
+    qs.forEach(q => (byTopic[q.topic] = byTopic[q.topic] || []).push(q));
+    const topics = Object.keys(byTopic);
+    const per = Math.ceil(n / topics.length);
+    let picked = [];
+    shuffle(topics).forEach(t => { picked = picked.concat(sample(byTopic[t], per)); });
+    picked = shuffle(picked).slice(0, n);
+    if (picked.length < n) {
+      const have = new Set(picked.map(q => q.id));
+      picked = picked.concat(sample(qs.filter(q => !have.has(q.id)), n - picked.length));
+    }
+    return shuffle(picked);
+  }
+
+  /* The real Reading section is 62 questions: 40 comprehension across four passages and 22
+     standalone vocabulary items. Keep that ratio at whatever size a page asks for, and take
+     passages whole so a student never meets a question whose passage was not shown. */
+  function buildReading(qs, n) {
+    const nVocab = Math.round(n * 22 / 62);
+    const comp = qs.filter(q => q.passage), vocab = qs.filter(q => !q.passage);
+    const bySlug = {};
+    comp.forEach(q => (bySlug[q.passage] = bySlug[q.passage] || []).push(q));
+    let picked = [];
+    for (const slug of shuffle(Object.keys(bySlug))) {
+      if (picked.length >= n - nVocab) break;
+      picked = picked.concat(bySlug[slug]);
+    }
+    return shuffle(picked.slice(0, n - nVocab).concat(sample(vocab, nVocab)));
+  }
 
   /* ---------------- full lessons ---------------- */
 
@@ -306,6 +338,7 @@ const HSPT = (() => {
         ${passageHtml}
         <div class="qnum">${esc(q.topic || '')}</div>
         <p class="stem">${esc(q.stem)}</p>
+        ${q.figure ? `<div class="figure">${q.figure}</div>` : ''}
         <ul class="choices">
           ${q.options.map((o, n) => `
             <li><button class="choice" data-n="${n}">
@@ -751,6 +784,7 @@ const HSPT = (() => {
       return `<div class="review-item">
         ${q.topic ? `<div class="qnum">${esc(topicLabel(q.topic))}</div>` : ''}
         <p class="stem">${esc(q.stem)}</p>
+        ${q.figure ? `<div class="figure">${q.figure}</div>` : ''}
         <ul class="choices review-choices">${choices}</ul>
         ${a.pick === null ? '<p class="ans muted">You skipped this one.</p>' : ''}
         ${q.explanation
@@ -904,9 +938,14 @@ const HSPT = (() => {
         <div class="policy">
           <p>${POLICY.replace(/\s+/g, ' ')}</p>
           <p>${TRADEMARK.replace(/\s+/g, ' ')}</p>
-          <p>Practice questions were written for this site. Nothing you do here is recorded or sent
-          anywhere; your progress is stored in this browser only. HSPT is a registered trademark of
-          Scholastic Testing Service, Inc., which does not endorse and is not affiliated with this site.</p>
+          <p>Every question here was written for this site. It is practice material built to
+          resemble the HSPT in format, timing and level of difficulty — it is not the exam, not a copy
+          of any past exam, and not drawn from one. The real test may prove harder or easier than what
+          you meet here, and a score on this site does not predict a score on the HSPT. HSPT is a
+          registered trademark of Scholastic Testing Service, Inc., which neither endorses nor is
+          affiliated with this site or Regis Jesuit High School's use of it.</p>
+          <p>Nothing you do here is recorded or sent anywhere; your progress is stored in this
+          browser only.</p>
         </div>
       </div></footer>`);
   }
@@ -930,7 +969,7 @@ const HSPT = (() => {
     return out;
   }
 
-  return { SECTIONS, QUANT_TOPICS, TOPIC_LABELS, TOPIC_BLURBS, topicLabel, practiceLink,
+  return { SECTIONS, buildTopicSpread, buildReading, TOPIC_LABELS, TOPIC_BLURBS, topicLabel, practiceLink,
            section, passages, loadBank, shuffle, sample, skillIndex,
            shuffleOptions, esc, fmtTime, typeset, latexToText, run, bars, reviewList, scoreSheet, resultsTop, skillChart, skillRows, rankWeak,
            paceReport, saveResult, results, chrome, FRONT, FRONT_PAGES,

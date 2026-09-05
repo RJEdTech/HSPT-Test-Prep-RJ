@@ -1,6 +1,36 @@
 {
-  "_comment": "Vocabulary tested by this site's own question bank. Edit freely; vocab.html reads this file directly.",
+  "_comment": "The words this site's own question bank tests, plus a few more at the same level. Edit freely; vocab.html reads this file directly.",
   "words": [
+    {
+      "word": "abolish",
+      "part": "verb",
+      "meaning": "to end something officially and for good",
+      "sentence": "Our town voted to abolish the library card fee, so borrowing books is free now.",
+      "hook": "Abolish rhymes with demolish, and both knock something down for good.",
+      "synonyms": [
+        "end",
+        "cancel"
+      ],
+      "antonyms": [
+        "create",
+        "establish"
+      ]
+    },
+    {
+      "word": "abrupt",
+      "part": "adjective",
+      "meaning": "sudden and without warning",
+      "sentence": "The bus made an abrupt stop and my backpack slid all the way down the aisle.",
+      "hook": "Same 'rupt' as interrupt - something breaks off with no warning.",
+      "synonyms": [
+        "sudden",
+        "quick"
+      ],
+      "antonyms": [
+        "gradual",
+        "gentle"
+      ]
+    },
     {
       "word": "agile",
       "part": "adjective",
@@ -17,6 +47,36 @@
       ]
     },
     {
+      "word": "ambiguous",
+      "part": "adjective",
+      "meaning": "able to be understood in more than one way",
+      "sentence": "Her ambiguous text said only 'maybe later', so nobody knew if she was coming.",
+      "hook": "'Ambi' means both, like ambidextrous - it points both ways at once.",
+      "synonyms": [
+        "unclear",
+        "vague"
+      ],
+      "antonyms": [
+        "clear",
+        "exact"
+      ]
+    },
+    {
+      "word": "ample",
+      "part": "adjective",
+      "meaning": "more than enough",
+      "sentence": "We packed ample food for the camping trip and still had two full bags on Sunday.",
+      "hook": "Amplify shares its root - ample means made large, past what you need.",
+      "synonyms": [
+        "plentiful",
+        "generous"
+      ],
+      "antonyms": [
+        "scarce",
+        "limited"
+      ]
+    },
+    {
       "word": "archaic",
       "part": "adjective",
       "meaning": "very old and no longer used today",
@@ -29,6 +89,21 @@
       "antonyms": [
         "modern",
         "new"
+      ]
+    },
+    {
+      "word": "audacious",
+      "part": "adjective",
+      "meaning": "boldly daring, even reckless",
+      "sentence": "His audacious plan was to bike all twenty miles to the beach before sunrise.",
+      "hook": "The adjective for audacity - nerve enough to actually try it.",
+      "synonyms": [
+        "bold",
+        "daring"
+      ],
+      "antonyms": [
+        "cautious",
+        "timid"
       ]
     },
     {
@@ -92,6 +167,21 @@
       ]
     },
     {
+      "word": "bewildered",
+      "part": "adjective",
+      "meaning": "completely confused",
+      "sentence": "The bewildered freshman stood in the hall holding a schedule with no room numbers.",
+      "hook": "Picture someone lost in a wild forest with no trail - be-wild-ered.",
+      "synonyms": [
+        "confused",
+        "puzzled"
+      ],
+      "antonyms": [
+        "sure",
+        "certain"
+      ]
+    },
+    {
       "word": "blunt",
       "part": "adjective",
       "meaning": "having a dull edge, not able to cut",
@@ -119,6 +209,21 @@
       "antonyms": [
         "dull",
         "foolish"
+      ]
+    },
+    {
+      "word": "brisk",
+      "part": "adjective",
+      "meaning": "quick and lively",
+      "sentence": "We took a brisk walk around the block and were back before the pizza arrived.",
+      "hook": "Brisk sounds like whisk - short, snappy and quick.",
+      "synonyms": [
+        "quick",
+        "lively"
+      ],
+      "antonyms": [
+        "slow",
+        "sluggish"
       ]
     },
     {
@@ -167,6 +272,21 @@
       ]
     },
     {
+      "word": "coax",
+      "part": "verb",
+      "meaning": "to gently persuade someone to do something",
+      "sentence": "It took my brother ten minutes to coax the puppy out from behind the dryer.",
+      "hook": "You coax with a soft voice and a treat, never with a shout.",
+      "synonyms": [
+        "persuade",
+        "urge"
+      ],
+      "antonyms": [
+        "force",
+        "order"
+      ]
+    },
+    {
       "word": "coherent",
       "part": "adjective",
       "meaning": "clear and easy to follow",
@@ -212,6 +332,36 @@
       ]
     },
     {
+      "word": "conceal",
+      "part": "verb",
+      "meaning": "to hide something from view",
+      "sentence": "He tried to conceal the dent by parking that side of the car against the fence.",
+      "hook": "Conceal ends in 'seal' - sealed away where nobody can see it.",
+      "synonyms": [
+        "hide",
+        "cover"
+      ],
+      "antonyms": [
+        "reveal",
+        "show"
+      ]
+    },
+    {
+      "word": "concise",
+      "part": "adjective",
+      "meaning": "short and clear, with no wasted words",
+      "sentence": "Coach gave one concise instruction at halftime: pass more.",
+      "hook": "Same 'cise' as scissors - the extra words are cut away.",
+      "synonyms": [
+        "brief",
+        "short"
+      ],
+      "antonyms": [
+        "wordy",
+        "rambling"
+      ]
+    },
+    {
       "word": "condemn",
       "part": "verb",
       "meaning": "to say strongly that something is very wrong",
@@ -224,6 +374,36 @@
       "antonyms": [
         "praise",
         "approve"
+      ]
+    },
+    {
+      "word": "console",
+      "part": "verb",
+      "meaning": "to comfort someone who is sad",
+      "sentence": "She stayed after the game to console the goalie who had let in the last shot.",
+      "hook": "Think of a consolation prize, handed over to make a loser feel better.",
+      "synonyms": [
+        "comfort",
+        "soothe"
+      ],
+      "antonyms": [
+        "upset",
+        "distress"
+      ]
+    },
+    {
+      "word": "conspicuous",
+      "part": "adjective",
+      "meaning": "easy to notice and standing out",
+      "sentence": "The bright orange cast on his arm made him conspicuous in every team photo.",
+      "hook": "Same root as spectacles and inspect - you cannot help seeing it.",
+      "synonyms": [
+        "obvious",
+        "noticeable"
+      ],
+      "antonyms": [
+        "hidden",
+        "unnoticed"
       ]
     },
     {
@@ -242,6 +422,21 @@
       ]
     },
     {
+      "word": "courteous",
+      "part": "adjective",
+      "meaning": "polite and showing good manners",
+      "sentence": "The courteous host offered every guest a drink before she sat down herself.",
+      "hook": "Courteous behavior is what you would show in a royal court.",
+      "synonyms": [
+        "polite",
+        "respectful"
+      ],
+      "antonyms": [
+        "rude",
+        "disrespectful"
+      ]
+    },
+    {
       "word": "dense",
       "part": "adjective",
       "meaning": "packed tightly together",
@@ -257,6 +452,36 @@
       ]
     },
     {
+      "word": "deter",
+      "part": "verb",
+      "meaning": "to discourage someone from doing something",
+      "sentence": "One motion-sensor light was enough to deter people from cutting through our yard.",
+      "hook": "'Terr' as in terrify - you scare someone off the idea before they act.",
+      "synonyms": [
+        "discourage",
+        "prevent"
+      ],
+      "antonyms": [
+        "encourage",
+        "tempt"
+      ]
+    },
+    {
+      "word": "diligent",
+      "part": "adjective",
+      "meaning": "hardworking and steady in effort",
+      "sentence": "She was diligent about her paper route and never missed a house, even in the rain.",
+      "hook": "Picture the one person still working after everyone else has quit.",
+      "synonyms": [
+        "hardworking",
+        "careful"
+      ],
+      "antonyms": [
+        "lazy",
+        "careless"
+      ]
+    },
+    {
       "word": "dismal",
       "part": "adjective",
       "meaning": "gloomy, dark and depressing",
@@ -269,6 +494,36 @@
       "antonyms": [
         "bright",
         "cheerful"
+      ]
+    },
+    {
+      "word": "drastic",
+      "part": "adjective",
+      "meaning": "extreme and far-reaching",
+      "sentence": "Cutting the season from twelve games down to four was a drastic decision.",
+      "hook": "Drastic measures are the ones you take when nothing small will do.",
+      "synonyms": [
+        "extreme",
+        "severe"
+      ],
+      "antonyms": [
+        "mild",
+        "slight"
+      ]
+    },
+    {
+      "word": "dwindle",
+      "part": "verb",
+      "meaning": "to shrink little by little",
+      "sentence": "Our snack supply dwindled until a single granola bar was left by Thursday.",
+      "hook": "Picture a candle burning down, getting smaller and smaller.",
+      "synonyms": [
+        "shrink",
+        "decrease"
+      ],
+      "antonyms": [
+        "grow",
+        "increase"
       ]
     },
     {
@@ -296,7 +551,39 @@
         "imitate",
         "copy"
       ],
-      "antonyms": []
+      "antonyms": [
+        "ignore"
+      ]
+    },
+    {
+      "word": "feeble",
+      "part": "adjective",
+      "meaning": "weak and lacking force",
+      "sentence": "His feeble excuse for missing the bus convinced nobody on the team.",
+      "hook": "A frail body is the everyday trap - a feeble excuse is simply a weak one.",
+      "synonyms": [
+        "weak",
+        "faint"
+      ],
+      "antonyms": [
+        "strong",
+        "powerful"
+      ]
+    },
+    {
+      "word": "feign",
+      "part": "verb",
+      "meaning": "to pretend to have a feeling you do not have",
+      "sentence": "He tried to feign a stomachache, but the smell of pancakes gave him away.",
+      "hook": "A feint in boxing is a fake punch, and it comes from this same word.",
+      "synonyms": [
+        "pretend",
+        "fake"
+      ],
+      "antonyms": [
+        "admit",
+        "reveal"
+      ]
     },
     {
       "word": "flawless",
@@ -326,6 +613,36 @@
       "antonyms": [
         "lasting",
         "permanent"
+      ]
+    },
+    {
+      "word": "formidable",
+      "part": "adjective",
+      "meaning": "so difficult or powerful that it inspires fear",
+      "sentence": "The state champions were a formidable opponent for us in the first round.",
+      "hook": "Do not be fooled by 'formal' hiding inside - the root here is fear.",
+      "synonyms": [
+        "powerful",
+        "frightening"
+      ],
+      "antonyms": [
+        "weak",
+        "harmless"
+      ]
+    },
+    {
+      "word": "foster",
+      "part": "verb",
+      "meaning": "to help something grow or develop",
+      "sentence": "The new art club was started to foster friendships between the grades.",
+      "hook": "A foster family takes a child in and helps that child grow.",
+      "synonyms": [
+        "encourage",
+        "promote"
+      ],
+      "antonyms": [
+        "block",
+        "discourage"
       ]
     },
     {
@@ -389,6 +706,36 @@
       ]
     },
     {
+      "word": "gaunt",
+      "part": "adjective",
+      "meaning": "very thin from hunger, illness or exhaustion",
+      "sentence": "The stray dog was gaunt when we found it, with every rib showing.",
+      "hook": "Gaunt rhymes with haunt - picture a hollow-cheeked ghost.",
+      "synonyms": [
+        "thin",
+        "bony"
+      ],
+      "antonyms": [
+        "plump",
+        "healthy"
+      ]
+    },
+    {
+      "word": "genuine",
+      "part": "adjective",
+      "meaning": "real and sincere, not faked",
+      "sentence": "Her surprise was genuine, since she had no idea we were hiding in the kitchen.",
+      "hook": "A genuine leather jacket is the real thing, not an imitation.",
+      "synonyms": [
+        "real",
+        "sincere"
+      ],
+      "antonyms": [
+        "fake",
+        "phony"
+      ]
+    },
+    {
       "word": "gregarious",
       "part": "adjective",
       "meaning": "friendly and enjoying being around people",
@@ -401,6 +748,21 @@
       "antonyms": [
         "shy",
         "reserved"
+      ]
+    },
+    {
+      "word": "hasty",
+      "part": "adjective",
+      "meaning": "done in a hurry, without enough thought",
+      "sentence": "A hasty glance at the map sent us three blocks in the wrong direction.",
+      "hook": "Haste makes waste - same word and the same warning.",
+      "synonyms": [
+        "hurried",
+        "quick"
+      ],
+      "antonyms": [
+        "careful",
+        "slow"
       ]
     },
     {
@@ -419,6 +781,21 @@
       ]
     },
     {
+      "word": "immense",
+      "part": "adjective",
+      "meaning": "extremely large",
+      "sentence": "An immense pile of leaves filled the whole corner of the yard by October.",
+      "hook": "'Mens' means measure, so immense is more than you could measure.",
+      "synonyms": [
+        "huge",
+        "enormous"
+      ],
+      "antonyms": [
+        "tiny",
+        "small"
+      ]
+    },
+    {
       "word": "imminent",
       "part": "adjective",
       "meaning": "about to happen very soon",
@@ -431,6 +808,21 @@
       "antonyms": [
         "distant",
         "faraway"
+      ]
+    },
+    {
+      "word": "impartial",
+      "part": "adjective",
+      "meaning": "not favoring one side over another",
+      "sentence": "An impartial neighbor judged the pie contest, since both our moms had entered.",
+      "hook": "'Im' means not, so an impartial judge takes no part on either side.",
+      "synonyms": [
+        "fair",
+        "neutral"
+      ],
+      "antonyms": [
+        "biased",
+        "unfair"
       ]
     },
     {
@@ -449,6 +841,21 @@
       ]
     },
     {
+      "word": "indifferent",
+      "part": "adjective",
+      "meaning": "not caring one way or the other",
+      "sentence": "He shrugged, indifferent to which movie we picked, and let his sister choose.",
+      "hook": "The adjective form of indifference - it makes no difference to you.",
+      "synonyms": [
+        "unconcerned",
+        "uninterested"
+      ],
+      "antonyms": [
+        "caring",
+        "eager"
+      ]
+    },
+    {
       "word": "inept",
       "part": "adjective",
       "meaning": "clumsy and lacking skill",
@@ -461,6 +868,21 @@
       "antonyms": [
         "skilled",
         "capable"
+      ]
+    },
+    {
+      "word": "inevitable",
+      "part": "adjective",
+      "meaning": "certain to happen and impossible to avoid",
+      "sentence": "With the score forty to nothing and two minutes left, our loss was inevitable.",
+      "hook": "'In' means not and the rest means avoidable - there is no dodging it.",
+      "synonyms": [
+        "certain",
+        "unavoidable"
+      ],
+      "antonyms": [
+        "avoidable",
+        "uncertain"
       ]
     },
     {
@@ -494,6 +916,21 @@
       ]
     },
     {
+      "word": "instigate",
+      "part": "verb",
+      "meaning": "to start or stir up something, usually trouble",
+      "sentence": "He instigated the food fight and then looked shocked when the trays started flying.",
+      "hook": "Not investigate - to instigate is to start the trouble, not look into it.",
+      "synonyms": [
+        "start",
+        "provoke"
+      ],
+      "antonyms": [
+        "stop",
+        "end"
+      ]
+    },
+    {
       "word": "intricate",
       "part": "adjective",
       "meaning": "having many small parts, complicated",
@@ -521,6 +958,36 @@
       "antonyms": [
         "miserable",
         "sad"
+      ]
+    },
+    {
+      "word": "keen",
+      "part": "adjective",
+      "meaning": "quick to notice what others miss",
+      "sentence": "A keen birdwatcher, my aunt spots a hawk on a wire before anyone else does.",
+      "hook": "Eager is the everyday sense and the trap - a keen eye is a sharp one.",
+      "synonyms": [
+        "sharp",
+        "observant"
+      ],
+      "antonyms": [
+        "dull",
+        "careless"
+      ]
+    },
+    {
+      "word": "loyal",
+      "part": "adjective",
+      "meaning": "faithful and sticking by someone",
+      "sentence": "He stayed a loyal fan of the team through six losing seasons.",
+      "hook": "Picture a dog waiting by the door all day for one person.",
+      "synonyms": [
+        "faithful",
+        "devoted"
+      ],
+      "antonyms": [
+        "disloyal",
+        "unfaithful"
       ]
     },
     {
@@ -554,6 +1021,51 @@
       ]
     },
     {
+      "word": "meticulous",
+      "part": "adjective",
+      "meaning": "extremely careful about every small detail",
+      "sentence": "My grandfather is meticulous with his tools and wipes each one before hanging it up.",
+      "hook": "Picture someone lining up pencils until all the tips are perfectly even.",
+      "synonyms": [
+        "careful",
+        "thorough"
+      ],
+      "antonyms": [
+        "sloppy",
+        "careless"
+      ]
+    },
+    {
+      "word": "mundane",
+      "part": "adjective",
+      "meaning": "ordinary and everyday, nothing special",
+      "sentence": "Most of the job was mundane: sorting mail and refilling the copier.",
+      "hook": "'Mundus' means world - mundane things belong to the ordinary world.",
+      "synonyms": [
+        "ordinary",
+        "plain"
+      ],
+      "antonyms": [
+        "exciting",
+        "special"
+      ]
+    },
+    {
+      "word": "nimble",
+      "part": "adjective",
+      "meaning": "quick and light in movement",
+      "sentence": "Her nimble fingers braided the whole rope in under a minute.",
+      "hook": "Nimble fingers, nimble feet - both move lightly and fast.",
+      "synonyms": [
+        "quick",
+        "agile"
+      ],
+      "antonyms": [
+        "clumsy",
+        "stiff"
+      ]
+    },
+    {
       "word": "notorious",
       "part": "adjective",
       "meaning": "widely known for something bad",
@@ -566,6 +1078,21 @@
       "antonyms": [
         "unknown",
         "respected"
+      ]
+    },
+    {
+      "word": "novice",
+      "part": "noun",
+      "meaning": "a beginner with little experience",
+      "sentence": "As a novice on the climbing wall, he stuck to the easiest route all month.",
+      "hook": "'Nov' means new, as in novel and November - a novice is new at it.",
+      "synonyms": [
+        "beginner",
+        "newcomer"
+      ],
+      "antonyms": [
+        "expert",
+        "veteran"
       ]
     },
     {
@@ -599,6 +1126,21 @@
       ]
     },
     {
+      "word": "obstinate",
+      "part": "adjective",
+      "meaning": "stubbornly refusing to change your mind",
+      "sentence": "My obstinate little brother refused to wear a coat the entire winter.",
+      "hook": "Picture a mule with its feet planted, refusing to budge an inch.",
+      "synonyms": [
+        "stubborn",
+        "unyielding"
+      ],
+      "antonyms": [
+        "flexible",
+        "agreeable"
+      ]
+    },
+    {
       "word": "omit",
       "part": "verb",
       "meaning": "to leave something out",
@@ -629,6 +1171,21 @@
       ]
     },
     {
+      "word": "peculiar",
+      "part": "adjective",
+      "meaning": "strange or odd",
+      "sentence": "The soup had a peculiar taste, like oranges mixed with pepper.",
+      "hook": "A peculiar thing is one of a kind - odd enough that you notice it.",
+      "synonyms": [
+        "odd",
+        "strange"
+      ],
+      "antonyms": [
+        "normal",
+        "ordinary"
+      ]
+    },
+    {
       "word": "perilous",
       "part": "adjective",
       "meaning": "full of danger",
@@ -646,16 +1203,46 @@
     {
       "word": "plausible",
       "part": "adjective",
-      "meaning": "believable and likely to be true",
-      "sentence": "His excuse about the flat tire sounded plausible, so we believed him.",
-      "hook": "Plausible shares its start with applause - a claim worth clapping for.",
+      "meaning": "believable, whether or not it is actually true",
+      "sentence": "His excuse about a flat tire sounded plausible, but he had been seen at the mall.",
+      "hook": "Sounding true is not the same as being true, and that gap is the trap.",
       "synonyms": [
         "believable",
-        "reasonable"
+        "convincing"
       ],
       "antonyms": [
-        "unbelievable",
-        "unlikely"
+        "unlikely",
+        "unbelievable"
+      ]
+    },
+    {
+      "word": "ponder",
+      "part": "verb",
+      "meaning": "to think something over carefully",
+      "sentence": "She pondered the job offer all weekend before calling on Monday to accept.",
+      "hook": "'Pond' here means weight - you weigh the idea in your mind.",
+      "synonyms": [
+        "consider",
+        "think"
+      ],
+      "antonyms": [
+        "ignore",
+        "dismiss"
+      ]
+    },
+    {
+      "word": "postpone",
+      "part": "verb",
+      "meaning": "to move something to a later time",
+      "sentence": "Rain forced us to postpone the picnic until the following Saturday.",
+      "hook": "'Post' means after - you put the event after where it used to be.",
+      "synonyms": [
+        "delay",
+        "reschedule"
+      ],
+      "antonyms": [
+        "advance",
+        "proceed"
       ]
     },
     {
@@ -704,6 +1291,51 @@
       ]
     },
     {
+      "word": "prudent",
+      "part": "adjective",
+      "meaning": "showing good judgment and care",
+      "sentence": "It was prudent of her to save half her summer earnings instead of spending it all.",
+      "hook": "A prudent choice is the one your most sensible friend would make.",
+      "synonyms": [
+        "sensible",
+        "wise"
+      ],
+      "antonyms": [
+        "reckless",
+        "foolish"
+      ]
+    },
+    {
+      "word": "quaint",
+      "part": "adjective",
+      "meaning": "pleasantly old-fashioned and charming",
+      "sentence": "The quaint inn had oil lamps in the windows and a stone well out front.",
+      "hook": "Quaint is a compliment - old-fashioned enough for a postcard.",
+      "synonyms": [
+        "charming",
+        "old-fashioned"
+      ],
+      "antonyms": [
+        "modern",
+        "plain"
+      ]
+    },
+    {
+      "word": "quench",
+      "part": "verb",
+      "meaning": "to put out a fire completely",
+      "sentence": "Firefighters needed two hours to quench the blaze in the old barn.",
+      "hook": "Quenching a thirst is the trap - with flames the word means to put them out.",
+      "synonyms": [
+        "extinguish",
+        "smother"
+      ],
+      "antonyms": [
+        "ignite",
+        "light"
+      ]
+    },
+    {
       "word": "radiant",
       "part": "adjective",
       "meaning": "shining brightly",
@@ -719,6 +1351,21 @@
       ]
     },
     {
+      "word": "rash",
+      "part": "adjective",
+      "meaning": "done too quickly, without thinking",
+      "sentence": "Quitting the team after one bad practice was a rash decision he soon regretted.",
+      "hook": "The itchy skin kind is the trap - this rash is acting before you think.",
+      "synonyms": [
+        "hasty",
+        "reckless"
+      ],
+      "antonyms": [
+        "careful",
+        "thoughtful"
+      ]
+    },
+    {
       "word": "recede",
       "part": "verb",
       "meaning": "to move back or away",
@@ -731,6 +1378,21 @@
       "antonyms": [
         "advance",
         "approach"
+      ]
+    },
+    {
+      "word": "refute",
+      "part": "verb",
+      "meaning": "to prove that something is false",
+      "sentence": "One photograph was enough to refute his claim that he had never been there.",
+      "hook": "To refute you need proof, not just a louder argument.",
+      "synonyms": [
+        "disprove",
+        "contradict"
+      ],
+      "antonyms": [
+        "prove",
+        "support"
       ]
     },
     {
@@ -779,6 +1441,21 @@
       ]
     },
     {
+      "word": "remote",
+      "part": "adjective",
+      "meaning": "so slight that it is barely possible",
+      "sentence": "There is only a remote chance of snow in September, so we planned the hike anyway.",
+      "hook": "Far away is the everyday trap - a remote chance is a tiny one.",
+      "synonyms": [
+        "slight",
+        "unlikely"
+      ],
+      "antonyms": [
+        "likely",
+        "certain"
+      ]
+    },
+    {
       "word": "resilient",
       "part": "adjective",
       "meaning": "able to recover quickly from trouble",
@@ -809,6 +1486,20 @@
       ]
     },
     {
+      "word": "retort",
+      "part": "noun",
+      "meaning": "a quick sharp reply",
+      "sentence": "Her retort came back so fast that the whole lunch table went quiet.",
+      "hook": "A retort is fired straight back at you, like a ball off a wall.",
+      "synonyms": [
+        "reply",
+        "comeback"
+      ],
+      "antonyms": [
+        "silence"
+      ]
+    },
+    {
       "word": "revoke",
       "part": "verb",
       "meaning": "to officially take back or cancel",
@@ -821,6 +1512,21 @@
       "antonyms": [
         "grant",
         "allow"
+      ]
+    },
+    {
+      "word": "ridicule",
+      "part": "verb",
+      "meaning": "to make fun of someone or something cruelly",
+      "sentence": "They ridiculed his haircut all week until he started wearing a hat to school.",
+      "hook": "Ridicule makes a thing look ridiculous - the same word underneath.",
+      "synonyms": [
+        "mock",
+        "tease"
+      ],
+      "antonyms": [
+        "praise",
+        "respect"
       ]
     },
     {
@@ -854,6 +1560,21 @@
       ]
     },
     {
+      "word": "seldom",
+      "part": "adverb",
+      "meaning": "not often, only once in a while",
+      "sentence": "My uncle seldom misses a Sunday dinner, maybe twice in a whole year.",
+      "hook": "Seldom is not never - it leaves room for the rare exception.",
+      "synonyms": [
+        "rarely",
+        "infrequently"
+      ],
+      "antonyms": [
+        "often",
+        "frequently"
+      ]
+    },
+    {
       "word": "serene",
       "part": "adjective",
       "meaning": "calm and peaceful",
@@ -866,6 +1587,21 @@
       "antonyms": [
         "stormy",
         "frantic"
+      ]
+    },
+    {
+      "word": "shrewd",
+      "part": "adjective",
+      "meaning": "clever in a practical, calculating way",
+      "sentence": "A shrewd shopper, my mom waits until the day after a holiday to buy anything.",
+      "hook": "A shrewd person spots the angle everyone else walks right past.",
+      "synonyms": [
+        "clever",
+        "sharp"
+      ],
+      "antonyms": [
+        "foolish",
+        "unwise"
       ]
     },
     {
@@ -884,6 +1620,21 @@
       ]
     },
     {
+      "word": "somber",
+      "part": "adjective",
+      "meaning": "dark, serious and gloomy",
+      "sentence": "The team rode home in somber silence after their captain was carried off.",
+      "hook": "'Umbra' means shadow, as in umbrella - somber is being under one.",
+      "synonyms": [
+        "gloomy",
+        "solemn"
+      ],
+      "antonyms": [
+        "cheerful",
+        "lively"
+      ]
+    },
+    {
       "word": "sparse",
       "part": "adjective",
       "meaning": "thinly spread, with not much there",
@@ -896,6 +1647,36 @@
       "antonyms": [
         "crowded",
         "plentiful"
+      ]
+    },
+    {
+      "word": "sporadic",
+      "part": "adjective",
+      "meaning": "happening now and then at irregular times",
+      "sentence": "Sporadic showers all afternoon kept sending us in and out of the pool.",
+      "hook": "Same root as spore - things scattered here and there with no pattern.",
+      "synonyms": [
+        "occasional",
+        "scattered"
+      ],
+      "antonyms": [
+        "constant",
+        "steady"
+      ]
+    },
+    {
+      "word": "stern",
+      "part": "adjective",
+      "meaning": "severe and strict in manner",
+      "sentence": "One stern look from the librarian ended the argument at our table.",
+      "hook": "A stern face has no smile in it - picture a strict principal.",
+      "synonyms": [
+        "strict",
+        "severe"
+      ],
+      "antonyms": [
+        "gentle",
+        "easygoing"
       ]
     },
     {
@@ -971,6 +1752,21 @@
       "antonyms": [
         "imaginary",
         "abstract"
+      ]
+    },
+    {
+      "word": "tarnish",
+      "part": "verb",
+      "meaning": "to damage something's good name",
+      "sentence": "One cheating scandal tarnished a reputation the school had built over thirty years.",
+      "hook": "Dull silver is the everyday trap - a tarnished name is a damaged one.",
+      "synonyms": [
+        "damage",
+        "spoil"
+      ],
+      "antonyms": [
+        "restore",
+        "improve"
       ]
     },
     {
@@ -1079,6 +1875,36 @@
       ]
     },
     {
+      "word": "verify",
+      "part": "verb",
+      "meaning": "to check that something is true",
+      "sentence": "The coach called both parents to verify that we really had a ride home.",
+      "hook": "'Ver' means true, as in verdict - you check whether it holds up.",
+      "synonyms": [
+        "confirm",
+        "check"
+      ],
+      "antonyms": [
+        "disprove",
+        "doubt"
+      ]
+    },
+    {
+      "word": "vex",
+      "part": "verb",
+      "meaning": "to annoy or irritate someone",
+      "sentence": "The buzzing fly vexed him so much that he gave up on reading.",
+      "hook": "Picture a mosquito you cannot swat - that is what vexes you.",
+      "synonyms": [
+        "annoy",
+        "irritate"
+      ],
+      "antonyms": [
+        "soothe",
+        "please"
+      ]
+    },
+    {
       "word": "vibrant",
       "part": "adjective",
       "meaning": "bright, colorful and full of energy",
@@ -1091,6 +1917,36 @@
       "antonyms": [
         "dull",
         "faded"
+      ]
+    },
+    {
+      "word": "vigilant",
+      "part": "adjective",
+      "meaning": "watchful and alert to danger",
+      "sentence": "The lifeguard stayed vigilant even when only two swimmers were left in the pool.",
+      "hook": "A vigil is a night spent watching, and a vigilant person keeps watch.",
+      "synonyms": [
+        "watchful",
+        "alert"
+      ],
+      "antonyms": [
+        "careless",
+        "distracted"
+      ]
+    },
+    {
+      "word": "vivid",
+      "part": "adjective",
+      "meaning": "bright and clear enough to picture",
+      "sentence": "She gave such a vivid description of the beach that I could almost smell the salt.",
+      "hook": "'Viv' means alive, as in survive - a vivid picture feels alive.",
+      "synonyms": [
+        "bright",
+        "colorful"
+      ],
+      "antonyms": [
+        "dull",
+        "faint"
       ]
     },
     {
