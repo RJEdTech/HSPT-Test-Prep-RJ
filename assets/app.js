@@ -938,3 +938,57 @@ const HSPT = (() => {
            lessons, lessonLink, hasLesson, lessonTopicFor,
            TEST_DATE, TEST_DATE_LABEL, TEST_MAKEUP_DATE, TEST_MAKEUP, daysToTest, activeTest, MIN_ITEMS_FOR_RANK: 3 };
 })();
+
+/* ---------------------------------------------------------------------------
+   "Found a mistake?" — adds a report link to the site footer on every page.
+   It points at the Microsoft Form and pre-fills question 2 ("Which page were
+   you on?") with this page's name and, on a practice run, the skill — so a
+   13-year-old never has to describe where they were for us to find it.
+   --------------------------------------------------------------------------- */
+
+(function () {
+  const FORM = 'https://forms.cloud.microsoft/Pages/ResponsePage.aspx' +
+    '?id=4SwuQZc-CEClZjjFdYLisQzihhIB-7hPp9L3AOSeJONUM1NKUEZDNjU2R1VFVUpMNVAzMVo5VElIQy4u';
+  /* Pre-fill key for "Which page were you on?". Regenerate from Forms →
+     ... → Get Pre-filled URL if that question is ever deleted and re-added. */
+  const PAGE_FIELD = 'r7e39387e0bfe4c9493e1dc208ac3ee19';
+
+  const PAGE_NAMES = {
+    'index.html': 'Start here',
+    'diagnostic.html': 'What should I study?',
+    'plan.html': 'Your study plan',
+    'learn.html': 'Learn a skill',
+    'practice.html': 'Practice a skill',
+    'vocab.html': 'Vocabulary',
+    'mock.html': 'Full practice test',
+    'guide.html': 'How the test works',
+    'resources.html': 'More help'
+  };
+
+  function whereAmI() {
+    const file = location.pathname.split('/').pop() || 'index.html';
+    const name = PAGE_NAMES[file] || file;
+    let topic = '';
+    try { topic = new URLSearchParams(location.search).get('topic') || ''; } catch (e) {}
+    return topic ? `${name} — ${topic} (${file})` : `${name} (${file})`;
+  }
+
+  function addReportLink() {
+    const foot = document.querySelector('footer.site .wrap-wide');
+    if (!foot || foot.querySelector('.report')) return;
+    const href = `${FORM}&${PAGE_FIELD}=${encodeURIComponent(whereAmI())}`;
+    const p = document.createElement('p');
+    p.className = 'report';
+    p.innerHTML = `<a class="btn plain small" href="${href}" target="_blank" rel="noopener">` +
+      `Found a mistake on this page? Tell us</a> ` +
+      `<span class="small muted">Takes a minute. No sign-in, and you do not have to give your name.</span>`;
+    const policy = foot.querySelector('.policy');
+    if (policy) foot.insertBefore(p, policy); else foot.appendChild(p);
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', addReportLink);
+  } else {
+    addReportLink();
+  }
+})();
