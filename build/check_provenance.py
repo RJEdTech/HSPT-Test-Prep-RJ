@@ -1,5 +1,23 @@
+#!/usr/bin/env python3
+"""Licensing check: does anything we publish share an 8-word run with the source books?
+
+This is the one script in build/ that is still meant to be run. Everything under
+build/applied/ is spent. Run it from the repo root before publishing lesson or bank
+changes:
+
+    HSPT_SRC=~/hspt-src python3 build/check_provenance.py
+
+HSPT_SRC is a directory of .txt text layers extracted from the licensed chapters. Those
+files are deliberately NOT in this repo — they are the copyrighted material this check
+exists to keep us clear of. Without them the script tells you so and exits, rather than
+reporting a clean run it did not actually perform.
+"""
 import json, re, glob, os, sys, html
 from collections import defaultdict
+
+# Repo root, so the script works from anywhere.
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+SRC_DIR = os.environ.get('HSPT_SRC') or (sys.argv[1] if len(sys.argv) > 1 else '')
 
 def norm(s):
     s = html.unescape(re.sub(r'<[^>]+>', ' ', s))
@@ -11,7 +29,15 @@ def norm(s):
 # ---- source corpus (licensed) ----
 src_words, src_shingles = {}, {}
 N = 8
-for p in sorted(glob.glob('/home/claude/src/*.txt')):
+if not SRC_DIR or not os.path.isdir(SRC_DIR):
+    sys.exit('No source corpus. Set HSPT_SRC to the folder of extracted chapter .txt files,\n'
+             'or pass it as the first argument. Refusing to report a clean run without it.')
+
+paths = sorted(glob.glob(os.path.join(SRC_DIR, '*.txt')))
+if not paths:
+    sys.exit(f'No .txt files in {SRC_DIR} — nothing to check against.')
+
+for p in paths:
     name = re.sub(r'^[0-9a-f]{8}-', '', os.path.basename(p)).replace('_',' ')[:-4]
     w = norm(open(p, errors='ignore').read()).split()
     src_words[name] = w
@@ -39,7 +65,7 @@ def scan(label, items):
     print()
 
 # ---- lessons ----
-d = json.load(open('/home/claude/merged/data/lessons.json'))['lessons']
+d = json.load(open(os.path.join(ROOT, 'data', 'lessons.json')))['lessons']
 items=[]
 for t, les in d.items():
     for i, b in enumerate(les['blocks']):
@@ -56,7 +82,7 @@ scan('LESSONS', items)
 # ---- question banks ----
 qitems=[]
 for f in ['verbal','language','math','reading']:
-    bank = json.load(open(f'../data/{f}.json'))
+    bank = json.load(open(os.path.join(ROOT, 'data', f'{f}.json')))
     for q in bank['questions']:
         qitems.append((f"{f}:{q['id']}:stem", q['stem']))
         for j,o in enumerate(q['options']): qitems.append((f"{f}:{q['id']}:opt{j}", o))
