@@ -22,7 +22,7 @@
     "type": "ol",
     "items": [
      "Read the whole series before you write anything. Notice what kind of terms these are, and notice exactly where the blank sits.",
-     "Write the difference between each pair of neighbouring terms in the gap between them. Do this even when you think you already see the pattern.",
+     "Write the difference between each pair of neighboring terms in the gap between them. Do this even when you think you already see the pattern.",
      "If the differences are all the same, the rule is add that number. You are done.",
      "If the differences are not the same, take the differences of the differences. If those are constant, the series is progressive and the next gap is predictable.",
      "If the terms climb or fall steeply, look for a ratio instead. Divide each term by the one before it.",
@@ -56,7 +56,7 @@
    },
    {
     "type": "p",
-    "text": "Every series on the test is one of these shapes. Read the table once, then work through the examples below — recognising the family is most of the battle, because once you name it the arithmetic is trivial."
+    "text": "Every series on the test is one of these shapes. Read the table once, then work through the examples below — recognizing the family is most of the battle, because once you name it the arithmetic is trivial."
    },
    {
     "type": "table",
@@ -457,7 +457,7 @@
    },
    {
     "type": "h",
-    "text": "Worth memorising"
+    "text": "Worth memorizing"
    },
    {
     "type": "ul",
@@ -474,16 +474,16 @@
   "title": "Comparisons",
   "sectionLabel": "Quantitative Skills",
   "weight": "About 16 to 19 of the 52 questions, split between figure comparisons and expression comparisons",
-  "oneLine": "Three labelled quantities or figures are given, and you choose the statement that correctly orders them.",
+  "oneLine": "Three labeled quantities or figures are given, and you choose the statement that correctly orders them.",
   "practiceTopic": "Comparisons",
   "blocks": [
    {
     "type": "p",
-    "text": "A comparison item hands you three things labelled A, B and C and asks for the best answer. The four choices are not numbers — they are statements about how the three compare, built from $=$, $\\lt$ and $\\gt$. Your job is to work out what A, B and C actually are and then find the statement that is true of them."
+    "text": "A comparison item hands you three things labeled A, B and C and asks for the best answer. The four choices are not numbers — they are statements about how the three compare, built from $=$, $\\lt$ and $\\gt$. Your job is to work out what A, B and C actually are and then find the statement that is true of them."
    },
    {
     "type": "p",
-    "text": "Two different kinds of item share this format, and they need different work. In a <b>nongeometric comparison</b> the three quantities are arithmetic or algebraic expressions and you evaluate them. In a <b>geometric comparison</b> A, B and C are figures, or parts of one figure, and the choices compare lengths, angles, areas, shaded regions or counts of sides and corners. Both appear on every form of the test."
+    "text": "Two different kinds of item share this format, and they need different work. Sometimes A, B and C are <b>number or algebra expressions</b>, and you work each one out. Sometimes they are <b>figures</b> — whole shapes, or parts of one shape. Then the choices compare lengths, angles, areas, shaded parts or the number of sides and corners. Both appear on every form of the test."
    },
    {
     "type": "note",
@@ -619,7 +619,7 @@
    },
    {
     "type": "note",
-    "text": "Figures on the HSPT are <b>not necessarily drawn to scale</b>. A line that looks longer may not be. An angle that looks square may be $80^\\circ$. Two shaded regions that look equal may not be. Reason only from what the figure states — labelled measurements, tick marks, right-angle boxes, the words <i>square</i> or <i>equilateral</i> — and never from what the picture looks like."
+    "text": "Figures on the HSPT are <b>not necessarily drawn to scale</b>. A line that looks longer may not be. An angle that looks square may be $80^\\circ$. Two shaded regions that look equal may not be. Reason only from what the figure states — labeled measurements, tick marks, right-angle boxes, the words <i>square</i> or <i>equilateral</i> — and never from what the picture looks like."
    },
    {
     "type": "p",
@@ -742,7 +742,7 @@
    },
    {
     "type": "h",
-    "text": "Worth memorising"
+    "text": "Worth memorizing"
    },
    {
     "type": "ul",
@@ -769,7 +769,7 @@
    },
    {
     "type": "p",
-    "text": "That is worth saying plainly, because it changes how you practise. If you get one of these wrong, it is almost never because you cannot multiply. It is because you wrote $5 - n$ where the sentence said $n - 5$, or because you took the square of a sum when the sentence asked for the sum of the squares. Translation is a skill, and it can be drilled."
+    "text": "That is worth saying plainly, because it changes how you practice. If you get one of these wrong, it is almost never because you cannot multiply. It is because you wrote $5 - n$ where the sentence said $n - 5$, or because you took the square of a sum when the sentence asked for the sum of the squares. Translation is a skill, and it can be drilled."
    },
    {
     "type": "h",
@@ -1072,7 +1072,7 @@
    },
    {
     "type": "h",
-    "text": "Worth memorising"
+    "text": "Worth memorizing"
    },
    {
     "type": "ul",
@@ -1286,7 +1286,7 @@
    },
    {
     "type": "p",
-    "text": "In three-letter terms one position is often frozen. MCF, MEF, MGF holds the M and the F and moves only the middle letter. PDQ, PGT, PJW holds the P at the front and moves the other two. Find the frozen letter first, write it into the answer straight away and you have turned a three-letter problem into a one-letter or two-letter problem. The choices will include a term that moves the frozen letter as well, which is why it is worth naming it out loud before you go on."
+    "text": "In three-letter terms one position is often frozen. MCF, MEF, MGF holds the M and the F and moves only the middle letter. PDQ, PGT, PJW holds the P at the front and moves the other two. Find the frozen letter first, write it into the answer right away and you have turned a three-letter problem into a one-letter or two-letter problem. The choices will include a term that moves the frozen letter as well, which is why it is worth naming it out loud before you go on."
    },
    {
     "type": "example",
@@ -1433,7 +1433,7 @@
   "title": "Geometric Comparison",
   "sectionLabel": "Quantitative Skills",
   "weight": "About six of the 52 Quantitative Skills questions",
-  "oneLine": "Three labeled figures are compared on area, perimeter, angle measure or length, and you pick the compound statement that is true of all three.",
+  "oneLine": "Three labeled figures are compared on area, perimeter, angle measure or length, and you pick the two-part statement that is true of all three.",
   "practiceTopic": "Geometric Comparison",
   "blocks": [
    {

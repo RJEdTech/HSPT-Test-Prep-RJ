@@ -3,7 +3,7 @@
   "title": "Reading Comprehension",
   "sectionLabel": "Reading",
   "weight": "40 of the 62 Reading questions — four passages, about 10 questions each",
-  "oneLine": "Four short non-fiction passages, each followed by about 10 questions about what the passage says, what it forces you to conclude and how it is built.",
+  "oneLine": "Four short non-fiction passages, each followed by about 10 questions on what the passage says, what it lets you conclude and how it is built.",
   "practiceTopic": null,
   "practiceHref": "practice.html",
   "blocks": [
@@ -21,7 +21,7 @@
    },
    {
     "type": "note",
-    "text": "You get 25 minutes for the whole Reading section. Budget five minutes for each passage and its questions — roughly 90 seconds to read and three and a half minutes to answer — and five minutes for the entire 22-question vocabulary block at the end. Four passages at five minutes plus five minutes of vocabulary is 25 minutes exactly. There is no slack in that budget. A passage you are still arguing with at the six-minute mark is not costing you that question; it is costing you questions on a passage you have not reached yet."
+    "text": "You get 25 minutes for the whole Reading section. Give each passage and its questions five minutes: about 90 seconds to read, then three and a half minutes to answer. That leaves five minutes for the 22 vocabulary questions at the end. Four passages at five minutes plus five minutes of vocabulary is 25 minutes exactly. There is no slack in that budget. A passage you are still arguing with at the six-minute mark is not costing you that question; it is costing you questions on a passage you have not reached yet."
    },
    {
     "type": "p",

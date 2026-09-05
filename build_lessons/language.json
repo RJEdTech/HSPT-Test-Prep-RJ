@@ -3,7 +3,7 @@
   "title": "Capitalization",
   "sectionLabel": "Language Skills",
   "weight": "Part of the 12 punctuation and capitalization questions",
-  "oneLine": "You are shown three sentences and must find the one that capitalizes a word it should not, or fails to capitalize one it should — or decide that all three are correct.",
+  "oneLine": "You are shown three sentences. Find the one that capitalizes a word it should not, or misses a capital it needs — or decide all three are correct.",
   "practiceTopic": "Capitalization",
   "blocks": [
    {
@@ -236,7 +236,7 @@
   "title": "Punctuation",
   "sectionLabel": "Language Skills",
   "weight": "Part of the 12 punctuation and capitalization questions",
-  "oneLine": "You are shown three sentences and must find the one whose commas, semicolons, apostrophes or end marks are wrong — or decide that all three are right.",
+  "oneLine": "You are shown three sentences. Find the one whose commas, semicolons, apostrophes or end marks are wrong — or decide that all three are right.",
   "practiceTopic": "Punctuation",
   "blocks": [
    {
@@ -1232,7 +1232,7 @@
   "title": "Composition & Paragraphs",
   "sectionLabel": "Language Skills",
   "weight": "About 10 of the 60 Language Skills questions",
-  "oneLine": "You are asked to choose the sentence, the transition or the wording that makes a short paragraph work — the best of four options rather than the one that breaks a rule.",
+  "oneLine": "You pick the sentence, the joining word or the wording that makes a short paragraph work. You are after the best of four options, not the one that breaks a rule.",
   "practiceTopic": "Composition",
   "blocks": [
    {
