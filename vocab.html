@@ -181,7 +181,7 @@ document.querySelectorAll('#deck button').forEach(b => b.addEventListener('click
 
 (async () => {
   try {
-    const res = await fetch('data/vocab.json');
+    const res = await fetch(`data/vocab.json?v=${HSPT.BUILD}`);
     WORDS = (await res.json()).words;
   } catch (e) {
     $('#card-area').innerHTML = '<div class="note"><p>The word list could not load. Try refreshing the page.</p></div>';

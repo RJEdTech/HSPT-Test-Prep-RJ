@@ -6,6 +6,13 @@ const HSPT = (() => {
 
   /* ---------------- data ---------------- */
 
+  /* Every fetch of a data file carries this. GitHub Pages caches assets for ten minutes, so
+     without it a returning visitor can run a fresh app.js against a stale bank — which is worse
+     than either being old alone, because the engine and the data disagree about what a topic is
+     called and a whole section quietly comes up empty. Bump it, and the query string in the
+     <script> and <link> tags in every page, on any deploy that changes app.js or data/. */
+  const BUILD = '2026-09-05';
+
   /* secsPerQ is the real HSPT allowance for that section, rounded to the second:
      Verbal 16min/60Q, Quantitative 30/52, Reading 25/62, Math 45/64, Language 25/60. */
   const SECTIONS = {
@@ -63,7 +70,7 @@ const HSPT = (() => {
   const cache = {};
   async function loadBank(file) {
     if (!cache[file]) {
-      const res = await fetch(`data/${file}.json`);
+      const res = await fetch(`data/${file}.json?v=${BUILD}`);
       if (!res.ok) throw new Error(`Could not load ${file}.json`);
       cache[file] = await res.json();
     }
@@ -124,7 +131,7 @@ const HSPT = (() => {
   let fullCache = null;
   async function lessons() {
     if (!fullCache) {
-      const res = await fetch('data/lessons.json');
+      const res = await fetch(`data/lessons.json?v=${BUILD}`);
       if (!res.ok) throw new Error('Could not load lessons.json');
       fullCache = await res.json();
     }
@@ -819,7 +826,7 @@ const HSPT = (() => {
   async function primers() {
     if (!primerCache) {
       try {
-        const res = await fetch('data/primers.json');
+        const res = await fetch(`data/primers.json?v=${BUILD}`);
         primerCache = res.ok ? (await res.json()).lessons : {};
       } catch (e) { primerCache = {}; }
     }
@@ -969,7 +976,7 @@ const HSPT = (() => {
     return out;
   }
 
-  return { SECTIONS, buildTopicSpread, buildReading, TOPIC_LABELS, TOPIC_BLURBS, topicLabel, practiceLink,
+  return { BUILD, SECTIONS, buildTopicSpread, buildReading, TOPIC_LABELS, TOPIC_BLURBS, topicLabel, practiceLink,
            section, passages, loadBank, shuffle, sample, skillIndex,
            shuffleOptions, esc, fmtTime, typeset, latexToText, run, bars, reviewList, scoreSheet, resultsTop, skillChart, skillRows, rankWeak,
            paceReport, saveResult, results, chrome, FRONT, FRONT_PAGES,

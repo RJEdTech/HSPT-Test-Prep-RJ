@@ -429,8 +429,13 @@ ten-minute-old `app.js` while already fetching the new `data/*.json`. That pairi
 either being stale on its own: the old engine looks for Quantitative questions inside `math.json`,
 which no longer holds them, so the section comes up empty with no error.
 
-**Bump the date in that query whenever you change `assets/app.js`, `assets/home.js` or
-`assets/style.css` in the same push as anything in `data/`.** One command, from the repo root:
+The same stamp covers the question banks. `BUILD` at the top of `assets/app.js` is appended to
+every `data/*.json` fetch, so a deploy moves the engine and the banks together instead of letting a
+fresh `app.js` run against a stale bank — the failure that put 204 verbal and 67 maths questions in
+front of a browser that had already loaded the new engine.
+
+**On any deploy that touches `assets/` or `data/`, bump both: `BUILD` in `assets/app.js`, and the
+`?v=` in every page's script and link tags.** One command from the repo root does the pages:
 
 ```sh
 V=$(date +%F); for f in *.html; do
