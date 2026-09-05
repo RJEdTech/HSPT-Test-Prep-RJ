@@ -475,6 +475,16 @@ td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
   border: 1px solid var(--line); border-top: 3px solid var(--rj-red);
   border-radius: var(--radius); background: var(--bg);
   padding: 30px 24px; text-align: center; min-height: 220px;
+  cursor: pointer; -webkit-tap-highlight-color: transparent;
+  transition: box-shadow .15s ease, transform .15s ease, border-color .15s ease;
+}
+.vcard:hover { box-shadow: 0 4px 14px rgba(0, 0, 0, .09); transform: translateY(-1px); }
+.vcard:active { transform: translateY(0); box-shadow: none; }
+.vcard:focus-visible { outline: 3px solid var(--rj-red); outline-offset: 3px; }
+.vcard-hint { text-align: center; font-size: 13px; color: var(--ink-3); margin: 12px 0 0; }
+@media (prefers-reduced-motion: reduce) {
+  .vcard { transition: none; }
+  .vcard:hover { transform: none; }
 }
 .vcard-count { font-size: 13px; color: var(--ink-3); margin: 0 0 14px;
   text-transform: uppercase; letter-spacing: .06em; }
