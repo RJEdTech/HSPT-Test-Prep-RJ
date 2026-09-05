@@ -1,4 +1,4 @@
-/* Landing-page behaviour: the five-question taster, and the "pick up where you left off" block. */
+/* Landing-page behavior: the five-question taster, and the "pick up where you left off" block. */
 /* Five questions on the landing page — the first thing a student sees.
 
    Deliberately hand-picked rather than sampled: the point is one gettable question from
@@ -160,8 +160,8 @@
        here and three there reads like two different pieces of advice. */
     const list = (todo.length ? todo : last.weak).slice(0, 3);
     lead = todo.length
-      ? `Your diagnostic ${when(last.at)} said these are worth your time next:`
-      : `You have practiced everything your diagnostic flagged. Nice. Worth taking it again to see what moved:`;
+      ? `The starting point you found ${when(last.at)} says these are worth your time next:`
+      : `You have practiced everything it named. Nice. Worth doing it again to see what moved:`;
     actions = `<div class="btn-row wrapy">${list.map(t =>
       `<a class="btn plain" href="${HSPT.practiceLink(t)}">${HSPT.esc(HSPT.topicLabel(t))}</a>`).join('')}
       <a class="btn" href="${todo.length ? HSPT.practiceLink(list[0]) : 'diagnostic.html'}">${
@@ -182,7 +182,7 @@
       <h2>Where you left off</h2>
       <p>${lead}</p>
       ${actions}
-      <p class="small muted">${done.size} of 17 skills practiced on this device.
+      <p class="small muted">${done.size} ${done.size === 1 ? 'skill' : 'skills'} practiced on this device.
       This is stored in this browser only — nobody else can see it.</p>
     </section>`;
 })();

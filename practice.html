@@ -20,7 +20,7 @@
   <!-- all skills -->
   <div class="wrap-wide hide" id="index">
     <h1>Practice by skill</h1>
-    <p class="lede">Every skill the HSPT tests, on its own. Pick the one you need — you get the answer
+    <p class="lede">Every skill the HSPT tests, on its own. Pick the one you need. You get the answer
     and an explanation after each question, so this is for learning rather than for testing yourself
     under pressure.</p>
     <p class="muted">Not sure where to start? <a href="diagnostic.html">Find your starting point</a> and it
@@ -64,11 +64,9 @@
   <div id="quiz" class="hide"></div>
 
   <div class="wrap hide" id="done">
-    <div class="score-hero">
-      <div class="big" id="pct"></div>
-      <div class="sub" id="sub"></div>
-    </div>
+    <div class="result-lede" id="verdict"></div>
     <div class="btn-row center" style="justify-content:center">
+      <a class="btn hide" id="lessonbtn" href="#">Read the lesson</a>
       <button class="btn" id="again">Practice this again</button>
       <a class="btn plain" href="practice.html">Pick a different skill</a>
     </div>
@@ -135,7 +133,7 @@ async function showSkill(topic) {
   if (count > pool.length) { count = 0; pressCount(); }
   paceNote();
 
-  // Teach before drilling. Practising a skill nobody has explained is just repeated failure.
+  // Teach before drilling. Practicing a skill nobody has explained is just repeated failure.
   // The primer is the short version; it links on to the full lesson when one exists.
   const primer = await HSPT.primerFor(skill.topic);
   await HSPT.lessons().catch(() => null);
@@ -187,6 +185,8 @@ function start() {
   $('#index').classList.add('hide');
   $('#setup').classList.add('hide');
   $('#done').classList.add('hide');
+  $('#lessonbtn').classList.add('hide');
+  $('#again').className = 'btn';
   $('#quiz').classList.remove('hide');
   window.scrollTo(0, 0);
 
@@ -205,8 +205,6 @@ async function showResults(res) {
   window.scrollTo(0, 0);
 
   const pct = Math.round((res.correct / res.total) * 100);
-  $('#pct').textContent = pct + '%';
-  $('#sub').textContent = `${res.correct} of ${res.total} correct · ${skill.label}`;
   $('#pace-report').innerHTML =
     HSPT.paceReport(res, HSPT.SECTIONS[skill.section].secsPerQ, HSPT.SECTIONS[skill.section].label);
   $('#review').innerHTML = HSPT.reviewList(res.answers, true);
@@ -217,14 +215,35 @@ async function showResults(res) {
     correct: res.correct, total: res.total, timed, seconds: res.seconds
   });
 
-  // Under 70% the thing to fix is usually the method, not the number of reps.
-  let lead = '';
+  /* The result screen leads with what to do next, not with the score. A student who
+     has just got 1 of 10 needs the instruction first; the number underneath it is
+     context, not the verdict. Under 70% the thing to fix is the method, not the
+     number of reps, so the lesson becomes the primary button. */
   const lessonKey = HSPT.lessonTopicFor(skill.topic);
+  const scoreLine = `<p class="score-line"><b>${res.correct} of ${res.total} right</b>`
+    + ` &middot; ${HSPT.esc(skill.label)} &middot; ${pct}%</p>`;
+  let lead = '';
+
   if (pct < 70 && lessonKey) {
     const { lessons } = await HSPT.lessons();
-    lead = `<div class="note"><p>Worth reading before you try again:
-      <a href="${HSPT.lessonLink(lessonKey)}">the ${HSPT.esc(lessons[lessonKey].title)} lesson</a>.
-      At this score more questions rarely help on their own.</p></div>`;
+    const title = HSPT.esc(lessons[lessonKey].title);
+    const href = HSPT.lessonLink(lessonKey);
+    $('#verdict').innerHTML = `<h1>Read the ${title} lesson next.</h1>${scoreLine}
+      <p>At this score more questions rarely help on their own — the method is what is missing.</p>`;
+    const lb = $('#lessonbtn');
+    lb.href = href;
+    lb.textContent = `Read the ${lessons[lessonKey].title} lesson`;
+    lb.classList.remove('hide');
+    $('#again').className = 'btn plain';
+  } else if (pct < 70) {
+    $('#verdict').innerHTML = `<h1>Worth another go, more slowly.</h1>${scoreLine}
+      <p>Read every choice before you pick. Most of what goes wrong here is speed, not knowledge.</p>`;
+  } else if (pct < 85) {
+    $('#verdict').innerHTML = `<h1>Nearly there. One more set should lock it in.</h1>${scoreLine}
+      <p>Read why you missed the ones below before you start again.</p>`;
+  } else {
+    $('#verdict').innerHTML = `<h1>Strong. Time to move to another skill.</h1>${scoreLine}
+      <p>Nothing more to gain here today — pick something you are weaker at.</p>`;
   }
 
   // Suggest the next skill in the same section.
@@ -259,7 +278,7 @@ function showHistory() {
 
 (wantTopic ? showSkill(wantTopic) : showIndex()).catch(e => {
   document.querySelector('main').insertAdjacentHTML('afterbegin',
-    `<div class="wrap"><div class="note"><p>Could not load the questions: ${HSPT.esc(e.message)}</p></div></div>`);
+    `<div class="wrap"><div class="note"><p>The questions did not load. Refresh the page and try again — if it keeps happening, check your internet connection.</p></div></div>`);
 });
 </script>
 </body>

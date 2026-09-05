@@ -19,8 +19,8 @@
   <div class="wrap" id="setup">
     <h1>Find your starting point</h1>
     <p class="lede">Answer questions from all five sections and you get back a plain answer: the one
-    skill to start with, the two after it, and a lesson and a practice set behind each. Every skill you
-    were asked about is scored, so you can see the whole picture too.</p>
+    skill to start with, and the two after it. Each one comes with a lesson and a practice set. Every
+    skill you were asked about is scored, so you can see the whole picture too.</p>
 
     <p>Work straight through without looking anything up. A result is only useful if it is honest,
     and nobody sees this but you. You will not find out whether you got each one right until the end,
@@ -264,7 +264,7 @@ const past = HSPT.results('diagnostic');
 if (past.length) {
   $('#history').innerHTML = `<h2>Your previous attempts</h2>
     <div class="table-scroll"><table>
-      <thead><tr><th>When</th><th class="num">Score</th><th>Flagged</th></tr></thead>
+      <thead><tr><th>When</th><th class="num">Score</th><th>What to work on</th></tr></thead>
       <tbody>${past.slice(0, 6).map(r => `<tr>
         <td>${new Date(r.at).toLocaleDateString()}</td>
         <td class="num">${r.correct}/${r.total}</td>

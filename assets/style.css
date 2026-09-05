@@ -948,3 +948,35 @@ td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
   color: var(--ink);
 }
 .figure svg { width: 100%; height: auto; display: block; }
+
+
+/* ---------- result screen: the next move first, the number second ----------
+   A bare percentage is the worst thing to show a 13-year-old who has just done
+   badly, and it pushes the advice that helps below the fold on a phone. The
+   lede carries the instruction; the score sits under it as a plain line. */
+
+.result-lede {
+  border-left: 5px solid var(--rj-red);
+  background: var(--rj-red-tint);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  padding: 16px 18px;
+  margin: 4px 0 18px;
+}
+.result-lede h1 { font-size: 26px; line-height: 1.25; margin: 0 0 6px; }
+.result-lede .score-line { margin: 0; color: var(--ink-2); font-size: 16px; font-variant-numeric: tabular-nums; }
+.result-lede .score-line b { color: var(--ink); }
+.result-lede p + p { margin-top: 8px; }
+
+@media (max-width: 620px) {
+  .result-lede { padding: 14px 16px; }
+  .result-lede h1 { font-size: 22px; }
+}
+
+/* The pace line was clipped off the right edge on a phone — "...the 16s allowed
+   in Verbal Ski". Let it wrap instead of running off the screen. */
+.bar-row .bar-top { flex-wrap: wrap; }
+.bar-row .bar-top .val { white-space: normal; }
+
+@media print {
+  .result-lede { border-left: 3pt solid #000; background: none; padding-left: 10pt; }
+}

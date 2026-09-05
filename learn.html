@@ -20,8 +20,8 @@
   <div class="wrap-wide hide" id="index">
     <h1>Learn a skill</h1>
     <p class="lede">One lesson for every skill the HSPT tests. Each shows you what the questions
-    actually look like, gives you a method you can run at test pace, works through examples and
-    names the traps. Read the lesson, then drill the skill.</p>
+    actually look like and gives you a method you can run at test pace. Then it works through
+    examples and names the traps. Read the lesson, then drill the skill.</p>
     <p class="muted">Every practice set opens with a short version of its lesson, so you never
     drill something you have not been taught. These are the long versions, for the skills you want
     to fix rather than review. Not sure which? <a href="diagnostic.html">Find out what to study</a>.</p>
@@ -130,10 +130,10 @@ async function showLesson(topic) {
 
   const href = L.practiceHref || (L.practiceTopic ? HSPT.practiceLink(L.practiceTopic) : 'practice.html');
   $('#ls-foot').innerHTML = `
-    <h2>Now practise it</h2>
+    <h2>Now practice it</h2>
     <p>Reading about a skill and doing it are different things, and only the second one moves your
     score. Work a set untimed until the method is automatic, then switch the clock on.</p>
-    <div class="btn-row"><a class="btn" href="${href}">Practise ${HSPT.esc(L.title)}</a>
+    <div class="btn-row"><a class="btn" href="${href}">Practice ${HSPT.esc(L.title)}</a>
     <a class="btn plain" href="learn.html">All lessons</a></div>`;
 
   const i = order.indexOf(topic);
@@ -150,7 +150,7 @@ async function showLesson(topic) {
 const wanted = new URLSearchParams(location.search).get('topic');
 (wanted ? showLesson(wanted) : showIndex()).catch(e => {
   document.querySelector('main').insertAdjacentHTML('afterbegin',
-    `<div class="wrap"><div class="note"><p>The lessons could not load: ${HSPT.esc(e.message)}</p></div></div>`);
+    `<div class="wrap"><div class="note"><p>The lessons did not load. Refresh the page and try again — if it keeps happening, check your internet connection.</p></div></div>`);
 });
 
 HSPT.chrome('learn.html');

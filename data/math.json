@@ -644,7 +644,7 @@
    "topic": "Geometry and Measurement",
    "source": "rj_original_2026",
    "explanation": "A side is \\(\\sqrt{64} = 8\\) feet, and four sides give 32 feet. Choosing 8 answers the intermediate step, the side length; 16 doubles the side instead of taking all four; 256 multiplies the area by 4 rather than the side.",
-   "figure": "<svg viewBox=\"0 0 360 146\" role=\"img\" aria-label=\"A square. The area inside the square is labelled 64 square feet. The side lengths are not labelled.\"><rect x=\"125\" y=\"18\" width=\"110\" height=\"110\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"180\" y=\"68\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">Area =</text><text x=\"180\" y=\"86\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">64 sq ft</text></svg>"
+   "figure": "<svg viewBox=\"0 0 360 146\" role=\"img\" aria-label=\"A square. The area inside the square is labeled 64 square feet. The side lengths are not labeled.\"><rect x=\"125\" y=\"18\" width=\"110\" height=\"110\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"180\" y=\"68\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">Area =</text><text x=\"180\" y=\"86\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">64 sq ft</text></svg>"
   },
   {
    "id": "a94b6f210d",
@@ -704,7 +704,7 @@
    "topic": "Geometry and Measurement",
    "source": "rj_original_2026",
    "explanation": "Circumference is \\(\\pi d\\), so it is \\(18\\pi\\). Choosing \\(36\\pi\\) treats the 18 as the radius in \\(2\\pi r\\); \\(9\\pi\\) puts the radius into \\(\\pi d\\); \\(81\\pi\\) is the area, \\(\\pi r^2\\) with \\(r = 9\\).",
-   "figure": "<svg viewBox=\"0 0 360 136\" role=\"img\" aria-label=\"A circle with a dashed diameter drawn across it, labelled 18 centimeters.\"><circle cx=\"180\" cy=\"68\" r=\"54\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"126\" y1=\"68\" x2=\"234\" y2=\"68\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\"/><text x=\"180\" y=\"62\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">18 cm</text></svg>"
+   "figure": "<svg viewBox=\"0 0 360 136\" role=\"img\" aria-label=\"A circle with a dashed diameter drawn across it, labeled 18 centimeters.\"><circle cx=\"180\" cy=\"68\" r=\"54\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"126\" y1=\"68\" x2=\"234\" y2=\"68\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\"/><text x=\"180\" y=\"62\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">18 cm</text></svg>"
   },
   {
    "id": "8b03e5da19",
@@ -719,7 +719,7 @@
    "topic": "Geometry and Measurement",
    "source": "rj_original_2026",
    "explanation": "The radius is 6, so the full circle is \\(36\\pi\\) and half of it is \\(18\\pi\\). Choosing \\(36\\pi\\) forgets to halve; \\(72\\pi\\) uses the diameter as the radius before halving; \\(12\\pi\\) is the circumference of the full circle, not an area.",
-   "figure": "<svg viewBox=\"0 0 360 134\" role=\"img\" aria-label=\"A semicircle. Its flat side, the diameter, is labelled 12 inches.\"><path d=\"M120,104 A60,60 0 0 1 240,104 Z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"180\" y=\"120\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">12 in</text></svg>"
+   "figure": "<svg viewBox=\"0 0 360 134\" role=\"img\" aria-label=\"A semicircle. Its flat side, the diameter, is labeled 12 inches.\"><path d=\"M120,104 A60,60 0 0 1 240,104 Z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"180\" y=\"120\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">12 in</text></svg>"
   },
   {
    "id": "5e7c1b40f2",
@@ -1198,7 +1198,7 @@
    "topic": "Geometry and Measurement",
    "source": "rj_original_2026",
    "explanation": "Half the perimeter is 23, so the width is \\(23-14=9\\) and the area is \\(14\\times9=126\\). The choice 252 uses 18 as the width, forgetting that the perimeter counts each width twice; 322 multiplies the length by the half-perimeter 23; and 448 uses \\(46-14=32\\) as the width.",
-   "figure": "<svg viewBox=\"0 0 360 158\" role=\"img\" aria-label=\"A rectangle. The length across the bottom is labelled 14 centimeters and the perimeter of 46 centimeters is given inside the figure. The width is not labelled. Not drawn to scale.\"><rect x=\"95\" y=\"22\" width=\"170\" height=\"90\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"180\" y=\"72\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">Perimeter = 46 cm</text><text x=\"180\" y=\"128\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">14 cm</text><text x=\"180\" y=\"146\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">Not drawn to scale</text></svg>"
+   "figure": "<svg viewBox=\"0 0 360 158\" role=\"img\" aria-label=\"A rectangle. The length across the bottom is labeled 14 centimeters and the perimeter of 46 centimeters is given inside the figure. The width is not labeled. Not drawn to scale.\"><rect x=\"95\" y=\"22\" width=\"170\" height=\"90\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"180\" y=\"72\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">Perimeter = 46 cm</text><text x=\"180\" y=\"128\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">14 cm</text><text x=\"180\" y=\"146\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">Not drawn to scale</text></svg>"
   },
   {
    "id": "dd0c7047c5",
@@ -1228,7 +1228,7 @@
    "topic": "Geometry and Measurement",
    "source": "rj_original_2026",
    "explanation": "Since \\(C=2\\pi r\\), the radius is 7 and the area is \\(\\pi(7)^2=49\\pi\\). The choice \\(196\\pi\\) squares 14 as though 14 were the radius, \\(28\\pi\\) doubles the circumference instead of halving it to reach the radius, and \\(7\\pi\\) finds the radius but multiplies by \\(\\pi\\) rather than squaring it.",
-   "figure": "<svg viewBox=\"0 0 360 152\" role=\"img\" aria-label=\"A circle labelled with a circumference of 14 pi inches. The radius is not drawn.\"><circle cx=\"180\" cy=\"72\" r=\"52\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"180\" y=\"140\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">Circumference = 14&#960; in</text></svg>"
+   "figure": "<svg viewBox=\"0 0 360 152\" role=\"img\" aria-label=\"A circle labeled with a circumference of 14 pi inches. The radius is not drawn.\"><circle cx=\"180\" cy=\"72\" r=\"52\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"180\" y=\"140\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">Circumference = 14&#960; in</text></svg>"
   },
   {
    "id": "2323801f5b",
@@ -1243,7 +1243,7 @@
    "topic": "Geometry and Measurement",
    "source": "rj_original_2026",
    "explanation": "The two equal base angles share the remaining \\(180-40=140\\) degrees, so each is \\(70^{\\circ}\\). The choice \\(140^{\\circ}\\) gives the two base angles together rather than one of them, \\(50^{\\circ}\\) subtracts from \\(90^{\\circ}\\), and \\(20^{\\circ}\\) halves the vertex angle instead of the remainder.",
-   "figure": "<svg viewBox=\"0 0 360 140\" role=\"img\" aria-label=\"An isosceles triangle with its vertex angle at the top marked 40 degrees. Small tick marks on the two slanted sides show that those sides are equal. The two base angles at the bottom are not labelled.\"><polygon points=\"180,26 213,116 147,116\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M 170.4 52.3 A 28 28 0 0 0 189.6 52.3\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"158.8\" y1=\"69.3\" x2=\"168.2\" y2=\"72.7\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"191.8\" y1=\"69.3\" x2=\"201.2\" y2=\"72.7\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"180\" y=\"88\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">40&#176;</text></svg>"
+   "figure": "<svg viewBox=\"0 0 360 140\" role=\"img\" aria-label=\"An isosceles triangle with its vertex angle at the top marked 40 degrees. Small tick marks on the two slanted sides show that those sides are equal. The two base angles at the bottom are not labeled.\"><polygon points=\"180,26 213,116 147,116\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M 170.4 52.3 A 28 28 0 0 0 189.6 52.3\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"158.8\" y1=\"69.3\" x2=\"168.2\" y2=\"72.7\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"191.8\" y1=\"69.3\" x2=\"201.2\" y2=\"72.7\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"180\" y=\"88\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">40&#176;</text></svg>"
   },
   {
    "id": "49a902aece",
@@ -1258,7 +1258,7 @@
    "topic": "Geometry and Measurement",
    "source": "rj_original_2026",
    "explanation": "The curved edge is half of \\(10\\pi\\), or \\(5\\pi\\), and the straight edge adds 10 more centimeters. The choice \\(10\\pi\\) gives the circumference of the whole circle, \\(5\\pi\\) leaves the straight edge out, and \\(5\\pi+5\\) adds the radius instead of the diameter.",
-   "figure": "<svg viewBox=\"0 0 360 118\" role=\"img\" aria-label=\"A semicircle. Its straight edge, the diameter across the bottom, is labelled 10 centimeters. The curved edge is the half circle above it.\"><path d=\"M 122 88 A 58 58 0 0 1 238 88 Z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"180\" y=\"104\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">10 cm</text></svg>"
+   "figure": "<svg viewBox=\"0 0 360 118\" role=\"img\" aria-label=\"A semicircle. Its straight edge, the diameter across the bottom, is labeled 10 centimeters. The curved edge is the half circle above it.\"><path d=\"M 122 88 A 58 58 0 0 1 238 88 Z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"180\" y=\"104\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">10 cm</text></svg>"
   },
   {
    "id": "b10e4aa41b",
@@ -1288,7 +1288,7 @@
    "topic": "Geometry and Measurement",
    "source": "rj_original_2026",
    "explanation": "The nine parts share \\(180^{\\circ}\\), so one part is \\(20^{\\circ}\\) and the largest angle is \\(4\\times20=80\\) degrees. The choice \\(90^{\\circ}\\) assumes the largest angle of a triangle must be a right angle, \\(40^{\\circ}\\) gives the smallest angle, and \\(160^{\\circ}\\) shares \\(360^{\\circ}\\) among the nine parts.",
-   "figure": "<svg viewBox=\"0 0 360 150\" role=\"img\" aria-label=\"A triangle whose three angles are labelled 2x, 3x and 4x, one at each vertex. No angle is given in degrees. Not drawn to scale.\"><polygon points=\"100,120 260,120 208,30\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"133\" y=\"113\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">2x</text><text x=\"237\" y=\"111\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">3x</text><text x=\"204\" y=\"57\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">4x</text><text x=\"180\" y=\"142\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">Not drawn to scale</text></svg>"
+   "figure": "<svg viewBox=\"0 0 360 150\" role=\"img\" aria-label=\"A triangle whose three angles are labeled 2x, 3x and 4x, one at each vertex. No angle is given in degrees. Not drawn to scale.\"><polygon points=\"100,120 260,120 208,30\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"133\" y=\"113\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">2x</text><text x=\"237\" y=\"111\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">3x</text><text x=\"204\" y=\"57\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">4x</text><text x=\"180\" y=\"142\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">Not drawn to scale</text></svg>"
   },
   {
    "id": "2918e87ced",
@@ -1303,7 +1303,7 @@
    "topic": "Geometry and Measurement",
    "source": "rj_original_2026",
    "explanation": "Each of the six faces has an area of 16 square inches, and \\(6\\times16=96\\). The choice 64 is the volume \\(4^3\\), 16 is the area of one face only, and 24 multiplies the six faces by the edge length instead of by the area of a face.",
-   "figure": "<svg viewBox=\"0 0 360 162\" role=\"img\" aria-label=\"A cube drawn in three dimensions, with its three hidden edges shown as dashed lines. One edge along the bottom front is labelled 4 inches; every edge of a cube is the same length.\"><rect x=\"123\" y=\"58\" width=\"80\" height=\"80\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"157\" y1=\"24\" x2=\"237\" y2=\"24\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"237\" y1=\"24\" x2=\"237\" y2=\"104\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"123\" y1=\"58\" x2=\"157\" y2=\"24\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"203\" y1=\"58\" x2=\"237\" y2=\"24\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"203\" y1=\"138\" x2=\"237\" y2=\"104\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"157\" y1=\"24\" x2=\"157\" y2=\"104\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\"/><line x1=\"157\" y1=\"104\" x2=\"237\" y2=\"104\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\"/><line x1=\"123\" y1=\"138\" x2=\"157\" y2=\"104\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\"/><text x=\"163\" y=\"152\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">4 in</text></svg>"
+   "figure": "<svg viewBox=\"0 0 360 162\" role=\"img\" aria-label=\"A cube drawn in three dimensions, with its three hidden edges shown as dashed lines. One edge along the bottom front is labeled 4 inches; every edge of a cube is the same length.\"><rect x=\"123\" y=\"58\" width=\"80\" height=\"80\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"157\" y1=\"24\" x2=\"237\" y2=\"24\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"237\" y1=\"24\" x2=\"237\" y2=\"104\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"123\" y1=\"58\" x2=\"157\" y2=\"24\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"203\" y1=\"58\" x2=\"237\" y2=\"24\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"203\" y1=\"138\" x2=\"237\" y2=\"104\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"157\" y1=\"24\" x2=\"157\" y2=\"104\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\"/><line x1=\"157\" y1=\"104\" x2=\"237\" y2=\"104\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\"/><line x1=\"123\" y1=\"138\" x2=\"157\" y2=\"104\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\"/><text x=\"163\" y=\"152\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">4 in</text></svg>"
   },
   {
    "id": "46de6d7cdf",
@@ -1332,7 +1332,7 @@
    "topic": "Geometry and Measurement",
    "source": "rj_original_2026",
    "explanation": "From \\(54=\\frac{1}{2}\\times12\\times h\\) the height is \\(108\\div12=9\\) inches. The choice 4.5 divides the area by the base without doubling it first, 108 doubles the area but never divides by the base, and 42 subtracts the base from the area.",
-   "figure": "<svg viewBox=\"0 0 360 166\" role=\"img\" aria-label=\"A triangle with a base labelled 12 inches and an area of 54 square inches. A dashed line runs from the top vertex straight down to the base, meeting it at a right angle, to show the height. The height is not labelled.\"><polygon points=\"120,120 240,120 165,30\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"165\" y1=\"30\" x2=\"165\" y2=\"120\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\"/><path d=\"M 165 110 L 175 110 L 175 120\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"180\" y=\"136\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">12 in</text><text x=\"180\" y=\"153\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">Area = 54 sq in</text></svg>"
+   "figure": "<svg viewBox=\"0 0 360 166\" role=\"img\" aria-label=\"A triangle with a base labeled 12 inches and an area of 54 square inches. A dashed line runs from the top vertex straight down to the base, meeting it at a right angle, to show the height. The height is not labeled.\"><polygon points=\"120,120 240,120 165,30\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"165\" y1=\"30\" x2=\"165\" y2=\"120\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\"/><path d=\"M 165 110 L 175 110 L 175 120\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"180\" y=\"136\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">12 in</text><text x=\"180\" y=\"153\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">Area = 54 sq in</text></svg>"
   },
   {
    "id": "3657123b55",
@@ -2344,7 +2344,7 @@
    "topic": "Geometry and Measurement",
    "source": "rj_original_2026_expansion",
    "explanation": "One turn covers the circumference, \\(2\\pi r=2\\times\\frac{22}{7}\\times14=88\\) inches, so 10 turns cover 880 inches. Choosing 440 uses 14 as the diameter rather than the radius, giving a circumference of 44. Choosing 6,160 uses the area formula \\(\\pi r^2=616\\) instead of the circumference; area cannot measure a distance traveled. Choosing 1,760 doubles the circumference a second time, in effect using \\(2\\pi d\\).",
-   "figure": "<svg viewBox=\"0 0 360 128\" role=\"img\" aria-label=\"A circle standing for a bicycle wheel. A dashed line runs from the centre out to the edge and is labelled 14 inches, the radius.\"><circle cx=\"180\" cy=\"68\" r=\"48\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"180\" y1=\"68\" x2=\"228\" y2=\"68\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\"/><text x=\"204\" y=\"62\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">14 in</text></svg>"
+   "figure": "<svg viewBox=\"0 0 360 128\" role=\"img\" aria-label=\"A circle standing for a bicycle wheel. A dashed line runs from the center out to the edge and is labeled 14 inches, the radius.\"><circle cx=\"180\" cy=\"68\" r=\"48\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"180\" y1=\"68\" x2=\"228\" y2=\"68\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\"/><text x=\"204\" y=\"62\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">14 in</text></svg>"
   },
   {
    "id": "c70e81a541",

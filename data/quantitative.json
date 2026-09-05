@@ -1417,8 +1417,8 @@
   },
   {
    "id": "9c31be4a86",
-   "stem": "Examine the circle with centre T, in which VW is a diameter, TR is a radius and SU is a chord. Choose the best answer.",
-   "figure": "<svg viewBox=\"0 0 360 116\" role=\"img\" aria-label=\"A circle with centre T. VW is a diameter drawn straight across through T. TR is a radius of 5 cm drawn up and to the right. SU is a chord of 8 cm drawn below the centre and parallel to VW.\"><circle cx=\"180\" cy=\"58\" r=\"45\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"135\" y1=\"58\" x2=\"225\" y2=\"58\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"180\" y1=\"58\" x2=\"202.5\" y2=\"19\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"144\" y1=\"85\" x2=\"216\" y2=\"85\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"174\" y=\"72\" text-anchor=\"end\" fill=\"currentColor\" font-size=\"11\">T</text><text x=\"130\" y=\"62\" text-anchor=\"end\" fill=\"currentColor\" font-size=\"11\">V</text><text x=\"230\" y=\"62\" text-anchor=\"start\" fill=\"currentColor\" font-size=\"11\">W</text><text x=\"207.5\" y=\"17\" text-anchor=\"start\" fill=\"currentColor\" font-size=\"11\">R</text><text x=\"139\" y=\"89\" text-anchor=\"end\" fill=\"currentColor\" font-size=\"11\">S</text><text x=\"221\" y=\"89\" text-anchor=\"start\" fill=\"currentColor\" font-size=\"11\">U</text><text x=\"199.2\" y=\"40.5\" text-anchor=\"start\" fill=\"currentColor\" font-size=\"11\">5 cm</text><text x=\"180\" y=\"98\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">8 cm</text></svg>",
+   "stem": "Examine the circle with center T, in which VW is a diameter, TR is a radius and SU is a chord. Choose the best answer.",
+   "figure": "<svg viewBox=\"0 0 360 116\" role=\"img\" aria-label=\"A circle with center T. VW is a diameter drawn straight across through T. TR is a radius of 5 cm drawn up and to the right. SU is a chord of 8 cm drawn below the center and parallel to VW.\"><circle cx=\"180\" cy=\"58\" r=\"45\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"135\" y1=\"58\" x2=\"225\" y2=\"58\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"180\" y1=\"58\" x2=\"202.5\" y2=\"19\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"144\" y1=\"85\" x2=\"216\" y2=\"85\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"174\" y=\"72\" text-anchor=\"end\" fill=\"currentColor\" font-size=\"11\">T</text><text x=\"130\" y=\"62\" text-anchor=\"end\" fill=\"currentColor\" font-size=\"11\">V</text><text x=\"230\" y=\"62\" text-anchor=\"start\" fill=\"currentColor\" font-size=\"11\">W</text><text x=\"207.5\" y=\"17\" text-anchor=\"start\" fill=\"currentColor\" font-size=\"11\">R</text><text x=\"139\" y=\"89\" text-anchor=\"end\" fill=\"currentColor\" font-size=\"11\">S</text><text x=\"221\" y=\"89\" text-anchor=\"start\" fill=\"currentColor\" font-size=\"11\">U</text><text x=\"199.2\" y=\"40.5\" text-anchor=\"start\" fill=\"currentColor\" font-size=\"11\">5 cm</text><text x=\"180\" y=\"98\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">8 cm</text></svg>",
    "options": [
     "SU equals VW, and SU is greater than TR.",
     "SU is greater than TR, and SU is less than VW.",
@@ -1428,7 +1428,7 @@
    "answer": 1,
    "topic": "Geometric Comparison",
    "source": "rj_original_2026",
-   "explanation": "The radius is 5 cm so the diameter VW is 10 cm, and the chord SU is 8 cm. Any chord that misses the centre is shorter than the diameter, and this one is still longer than a radius."
+   "explanation": "The radius is 5 cm so the diameter VW is 10 cm, and the chord SU is 8 cm. Any chord that misses the center is shorter than the diameter, and this one is still longer than a radius."
   },
   {
    "id": "70fa25db9c",

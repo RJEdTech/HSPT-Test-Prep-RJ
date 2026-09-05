@@ -469,11 +469,11 @@
     {
      "type": "ol",
      "items": [
-      "Register that this is an antonym question. Some students underline the word <i>opposite</i> every time. It looks unnecessary until the day you are tired and it is not.",
+      "Notice that this is an antonym question. Some students underline the word <i>opposite</i> every time. It looks unnecessary until the day you are tired and it is not.",
       "Say what the word means, in your own words.",
       "Say the opposite out loud in your head <i>before</i> you look at the choices. Now you are looking for something specific instead of shopping.",
       "Find the choice closest to what you said.",
-      "Check the charge. If the word was negative and your answer is also negative, stop — you have almost certainly picked the planted synonym."
+      "Check the charge — whether the word is a good thing or a bad thing. If the word was negative and your answer is also negative, stop. You have almost certainly picked the planted synonym."
      ]
     },
     {
@@ -1434,7 +1434,7 @@
      "type": "ol",
      "items": [
       "Read the whole series before you write anything. Notice what kind of terms these are, and notice exactly where the blank sits.",
-      "Write the difference between each pair of neighbouring terms in the gap between them. Do this even when you think you already see the pattern.",
+      "Write the difference between each pair of neighboring terms in the gap between them. Do this even when you think you already see the pattern.",
       "If the differences are all the same, the rule is add that number. You are done.",
       "If the differences are not the same, take the differences of the differences. If those are constant, the series is progressive and the next gap is predictable.",
       "If the terms climb or fall steeply, look for a ratio instead. Divide each term by the one before it.",
@@ -1468,7 +1468,7 @@
     },
     {
      "type": "p",
-     "text": "Every series on the test is one of these shapes. Read the table once, then work through the examples below — recognising the family is most of the battle, because once you name it the arithmetic is trivial."
+     "text": "Every series on the test is one of these shapes. Read the table once, then work through the examples below — recognizing the family is most of the battle, because once you name it the arithmetic is trivial."
     },
     {
      "type": "table",
@@ -1869,7 +1869,7 @@
     },
     {
      "type": "h",
-     "text": "Worth memorising"
+     "text": "Worth memorizing"
     },
     {
      "type": "ul",
@@ -2232,16 +2232,16 @@
    "title": "Comparisons",
    "sectionLabel": "Quantitative Skills",
    "weight": "About 16 to 19 of the 52 questions, split between figure comparisons and expression comparisons",
-   "oneLine": "Three labelled quantities or figures are given, and you choose the statement that correctly orders them.",
+   "oneLine": "Three labeled quantities or figures are given, and you choose the statement that correctly orders them.",
    "practiceTopic": "Comparisons",
    "blocks": [
     {
      "type": "p",
-     "text": "A comparison item hands you three things labelled A, B and C and asks for the best answer. The four choices are not numbers — they are statements about how the three compare, built from \\(=\\), \\(\\lt\\) and \\(\\gt\\). Your job is to work out what A, B and C actually are and then find the statement that is true of them."
+     "text": "A comparison item hands you three things labeled A, B and C and asks for the best answer. The four choices are not numbers — they are statements about how the three compare, built from \\(=\\), \\(\\lt\\) and \\(\\gt\\). Your job is to work out what A, B and C actually are and then find the statement that is true of them."
     },
     {
      "type": "p",
-     "text": "Two different kinds of item share this format, and they need different work. In a <b>nongeometric comparison</b> the three quantities are arithmetic or algebraic expressions and you evaluate them. In a <b>geometric comparison</b> A, B and C are figures, or parts of one figure, and the choices compare lengths, angles, areas, shaded regions or counts of sides and corners. Both appear on every form of the test."
+     "text": "Two different kinds of item share this format, and they need different work. Sometimes A, B and C are <b>number or algebra expressions</b>, and you work each one out. Sometimes they are <b>figures</b> — whole shapes, or parts of one shape. Then the choices compare lengths, angles, areas, shaded parts or the number of sides and corners. Both appear on every form of the test."
     },
     {
      "type": "note",
@@ -2377,7 +2377,7 @@
     },
     {
      "type": "note",
-     "text": "Figures on the HSPT are <b>not necessarily drawn to scale</b>. A line that looks longer may not be. An angle that looks square may be \\(80^\\circ\\). Two shaded regions that look equal may not be. Reason only from what the figure states — labelled measurements, tick marks, right-angle boxes, the words <i>square</i> or <i>equilateral</i> — and never from what the picture looks like."
+     "text": "Figures on the HSPT are <b>not necessarily drawn to scale</b>. A line that looks longer may not be. An angle that looks square may be \\(80^\\circ\\). Two shaded regions that look equal may not be. Reason only from what the figure states — labeled measurements, tick marks, right-angle boxes, the words <i>square</i> or <i>equilateral</i> — and never from what the picture looks like."
     },
     {
      "type": "p",
@@ -2500,7 +2500,7 @@
     },
     {
      "type": "h",
-     "text": "Worth memorising"
+     "text": "Worth memorizing"
     },
     {
      "type": "ul",
@@ -2519,7 +2519,7 @@
    "title": "Geometric Comparison",
    "sectionLabel": "Quantitative Skills",
    "weight": "About six of the 52 Quantitative Skills questions",
-   "oneLine": "Three labeled figures are compared on area, perimeter, angle measure or length, and you pick the compound statement that is true of all three.",
+   "oneLine": "Three labeled figures are compared on area, perimeter, angle measure or length, and you pick the two-part statement that is true of all three.",
    "practiceTopic": "Geometric Comparison",
    "blocks": [
     {
@@ -2821,7 +2821,7 @@
     },
     {
      "type": "p",
-     "text": "That is worth saying plainly, because it changes how you practise. If you get one of these wrong, it is almost never because you cannot multiply. It is because you wrote \\(5 - n\\) where the sentence said \\(n - 5\\), or because you took the square of a sum when the sentence asked for the sum of the squares. Translation is a skill, and it can be drilled."
+     "text": "That is worth saying plainly, because it changes how you practice. If you get one of these wrong, it is almost never because you cannot multiply. It is because you wrote \\(5 - n\\) where the sentence said \\(n - 5\\), or because you took the square of a sum when the sentence asked for the sum of the squares. Translation is a skill, and it can be drilled."
     },
     {
      "type": "h",
@@ -3124,7 +3124,7 @@
     },
     {
      "type": "h",
-     "text": "Worth memorising"
+     "text": "Worth memorizing"
     },
     {
      "type": "ul",
@@ -3142,7 +3142,7 @@
    "title": "Reading Comprehension",
    "sectionLabel": "Reading",
    "weight": "40 of the 62 Reading questions — four passages, about 10 questions each",
-   "oneLine": "Four short non-fiction passages, each followed by about 10 questions about what the passage says, what it forces you to conclude and how it is built.",
+   "oneLine": "Four short non-fiction passages, each followed by about 10 questions on what the passage says, what it lets you conclude and how it is built.",
    "practiceTopic": null,
    "practiceHref": "practice.html",
    "blocks": [
@@ -3160,7 +3160,7 @@
     },
     {
      "type": "note",
-     "text": "You get 25 minutes for the whole Reading section. Budget five minutes for each passage and its questions — roughly 90 seconds to read and three and a half minutes to answer — and five minutes for the entire 22-question vocabulary block at the end. Four passages at five minutes plus five minutes of vocabulary is 25 minutes exactly. There is no slack in that budget. A passage you are still arguing with at the six-minute mark is not costing you that question; it is costing you questions on a passage you have not reached yet."
+     "text": "You get 25 minutes for the whole Reading section. Give each passage and its questions five minutes: about 90 seconds to read, then three and a half minutes to answer. That leaves five minutes for the 22 vocabulary questions at the end. Four passages at five minutes plus five minutes of vocabulary is 25 minutes exactly. There is no slack in that budget. A passage you are still arguing with at the six-minute mark is not costing you that question; it is costing you questions on a passage you have not reached yet."
     },
     {
      "type": "p",
@@ -6598,7 +6598,7 @@
    "title": "Word Problems",
    "sectionLabel": "Mathematics",
    "weight": "40 of the 64 Mathematics questions — the largest block on the test",
-   "oneLine": "A word problem hides one or two arithmetic steps inside a situation, and the work is finding the question actually being asked and writing the relationship that answers it.",
+   "oneLine": "A word problem hides one or two arithmetic steps inside a story. The work is finding what is actually being asked, then writing the relationship that answers it.",
    "practiceTopic": "Word Problems",
    "blocks": [
     {
@@ -6907,7 +6907,7 @@
    "title": "Capitalization",
    "sectionLabel": "Language Skills",
    "weight": "Part of the 12 punctuation and capitalization questions",
-   "oneLine": "You are shown three sentences and must find the one that capitalizes a word it should not, or fails to capitalize one it should — or decide that all three are correct.",
+   "oneLine": "You are shown three sentences. Find the one that capitalizes a word it should not, or misses a capital it needs — or decide all three are correct.",
    "practiceTopic": "Capitalization",
    "blocks": [
     {
@@ -7141,7 +7141,7 @@
    "title": "Punctuation",
    "sectionLabel": "Language Skills",
    "weight": "Part of the 12 punctuation and capitalization questions",
-   "oneLine": "You are shown three sentences and must find the one whose commas, semicolons, apostrophes or end marks are wrong — or decide that all three are right.",
+   "oneLine": "You are shown three sentences. Find the one whose commas, semicolons, apostrophes or end marks are wrong — or decide that all three are right.",
    "practiceTopic": "Punctuation",
    "blocks": [
     {
@@ -8140,7 +8140,7 @@
    "title": "Composition & Paragraphs",
    "sectionLabel": "Language Skills",
    "weight": "About 10 of the 60 Language Skills questions",
-   "oneLine": "You are asked to choose the sentence, the transition or the wording that makes a short paragraph work — the best of four options rather than the one that breaks a rule.",
+   "oneLine": "You pick the sentence, the joining word or the wording that makes a short paragraph work. You are after the best of four options, not the one that breaks a rule.",
    "practiceTopic": "Composition",
    "blocks": [
     {

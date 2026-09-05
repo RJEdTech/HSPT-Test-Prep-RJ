@@ -212,6 +212,34 @@ Reading is built differently from the other four, by `buildReading` in `app.js`:
 and that 40:22 ratio is held at whatever size a page asks for. Passages are taken whole, so a student
 never meets a question whose passage was not shown.
 
+## Writing for the reader
+
+Every student-facing string on this site is read by a 13- or 14-year-old, often a nervous one, on a
+phone. Three rules came out of a pass that read the whole site at that age and at that width, and
+they are worth keeping:
+
+**Lead with the move, not the number.** A result screen opens with the sentence that says what to do
+next — "Read the Antonyms lesson next." — and the score sits under it as a plain line. It used to
+open with a large red percentage, which is the worst thing to show a student who has just done badly
+and which pushed the useful advice below the fold on a phone. The primary button follows the same
+rule: under 70% it becomes the lesson, because at that score more questions rarely help, and a button
+saying "Practice this again" directly above advice saying the opposite is a contradiction the student
+has to resolve. `diagnostic.html` already worked this way; `practice.html` and `mock.html` now match.
+
+**Never praise a guess.** `paceReport` treats a run far under the time allowance *with a low score*
+as rushing rather than as headroom, because "comfortably inside the limit" is the wrong thing to tell
+someone who answered ten questions in six seconds. The one verdict with a real problem in it — over
+the limit — carries an instruction, since a verdict without a next step is just bad news.
+
+**The student's sentence comes before the school's.** The footer still carries the
+non-discrimination policy and the trademark text verbatim, as required, but the plain line a student
+actually needs — free, open to anyone, nothing recorded — is now first. The same applies to the
+practice-test page, where a legal paragraph sat between a nervous student and the start button.
+
+Plain words throughout: no *caveat*, *vetted*, *allowance*, *register*, *consolidate*, *sittings*,
+*nongeometric*. US spelling, since this is a US school. Sentences under about 25 words. Error and
+empty states say what to do, not what failed — a raw JavaScript error message is not a message.
+
 ## Teaching content — two layers
 
 Practising a skill nobody has explained is just repeated failure, so the site teaches first and drills

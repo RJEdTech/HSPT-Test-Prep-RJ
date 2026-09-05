@@ -45,10 +45,10 @@ const HSPT = (() => {
     'Letter Series': 'Letters and letter-number pairs move by their own rules — track each separately.',
     'Comparisons': 'Work out all three quantities before you look at the answer choices.',
     'Geometric Comparison': 'Compare areas, perimeters, angles or lengths using the figure and its labels.',
-    'Number Manipulation': 'Arithmetic hidden in awkward English — translate one clause at a time.',
+    'Number Manipulation': 'Arithmetic hidden in awkward English — translate one piece at a time.',
 
     'Number Sense': 'Place value, rounding, factors, multiples and estimation.',
-    'Fractions, Decimals and Percents': 'Moving between the three, and percent of, off and more than.',
+    'Fractions, Decimals and Percents': 'Moving between the three, and working out percent of, percent off and percent more than.',
     'Ratios and Proportions': 'Set the proportion up with matching units on top.',
     'Computation': 'Order of operations, negatives, and arithmetic in mixed units.',
     'Algebra': 'Solve for the unknown, and know what to call each part of an expression.',
@@ -60,7 +60,7 @@ const HSPT = (() => {
     'Spelling': 'One misspelled word among three sentences — or none at all.',
     'Capitalization': 'Proper nouns, titles, seasons and the things that only look like proper nouns.',
     'Punctuation': 'Commas, semicolons, apostrophes and quotation marks.',
-    'Usage': 'Agreement, pronoun case, comparatives, tense and the words people confuse.',
+    'Usage': 'Does the verb match the subject? Is it <i>me</i> or <i>I</i>? Is it <i>fewer</i> or <i>less</i>?',
     'Composition': 'Topic sentences, joining words, clarity and which sentence does not belong.'
   };
 
@@ -609,7 +609,7 @@ const HSPT = (() => {
           </div>
         </li>`;
       }).join('')}</ol>
-      <p class="moves-note">Work down that list in order. One skill per sitting beats skimming all
+      <p class="moves-note">Work down that list in order. One skill per session beats skimming all
         ${head.length === 1 ? 'of it' : 'three'} &mdash; number one is where the points are.</p>`;
   }
 
@@ -642,7 +642,7 @@ const HSPT = (() => {
     const weak = rankWeak(all);
     return verdictHTML(res, all, weak) + movesHTML(weak) + planHandoff(weak) +
       `<h2>Every skill, weakest first</h2>
-       <p class="small muted">How much of each skill you got right. Grey means this test did not ask
+       <p class="small muted">How much of each skill you got right. Gray means this test did not ask
        enough questions about it to judge you fairly.</p>
        ${skillChart(all)}`;
   }
@@ -714,7 +714,7 @@ const HSPT = (() => {
       </table></div>
       ${thin.length ? `<p class="small muted">${thin.length === 1 ? 'One skill' : `${thin.length} skills`}
         had fewer than ${MIN_ITEMS} questions here, so ${thin.length === 1 ? 'it is' : 'they are'} marked
-        &ldquo;too few to tell&rdquo; rather than ranked. The <a href="diagnostic.html?full=1">full diagnostic</a>
+        &ldquo;too few to tell&rdquo; rather than ranked. The <a href="diagnostic.html?full=1">full version</a>
         gives every skill enough questions to score properly.</p>` : ''}
       ${restHTML}
     </div>`;
@@ -744,14 +744,23 @@ const HSPT = (() => {
     }
 
     const pace = `${mine.toFixed(1)}s a question against the ${Math.round(secsPerQ)}s allowed in ${esc(sectionLabel)}`;
-    if (mine <= secsPerQ * 0.75) {
+    const scorePct = res.total ? (res.correct / res.total) * 100 : 0;
+    if (mine <= secsPerQ * 0.4 && scorePct < 60) {
+      // Far under the allowance and getting them wrong: the student did not read the
+      // questions. Telling them they have "room to slow down" reads as praise for guessing.
+      verdict = `You went much faster than you needed to. There is time to read every question and
+        every choice — take it, and the score climbs on its own.`;
+      cls = 'weak';
+    } else if (mine <= secsPerQ * 0.75) {
       verdict = `Comfortably inside the limit. You have room to slow down and read more carefully.`;
       cls = 'good';
     } else if (mine <= secsPerQ) {
       verdict = `Inside the limit, but not by much. Worth building a little more margin.`;
       cls = '';
     } else {
-      verdict = `Over the limit. At this pace you would not finish the section in time.`;
+      verdict = `Over the limit. At this speed you would run out of time before the section ended.
+        Do this set again untimed until the method is automatic, then time yourself again — speed
+        comes from knowing the method, not from hurrying.`;
       cls = 'weak';
     }
     const pct = Math.min(100, Math.round((mine / secsPerQ) * 100));
@@ -766,7 +775,7 @@ const HSPT = (() => {
   /* The review after a diagnostic, practice set or mock test. It shows the whole
      lettered choice set, not just two bare lines, so a student who remembers
      "I put C" can find C, see why it was wrong and see which letter was right.
-     The colours and letter chips are the same ones used during the quiz. */
+     The colors and letter chips are the same ones used during the quiz. */
   function reviewList(answers, onlyWrong = true) {
     const items = answers.filter(a => !onlyWrong || !a.correct);
     if (!items.length) return '<p class="muted">Nothing missed — every answer was correct.</p>';
@@ -817,7 +826,7 @@ const HSPT = (() => {
 
   /* ---------------- primers ---------------- */
 
-  /* A short primer per skill, shown above the questions. Practising a skill you have never
+  /* A short primer per skill, shown above the questions. Practicing a skill you have never
      been taught is just repeated failure, so the site teaches first and drills second.
      The primer is the thirty-second version; the full lesson behind it lives in
      data/lessons.json and is rendered by learn.html. Content lives in data/primers.json
@@ -943,16 +952,16 @@ const HSPT = (() => {
         accommodations go to the Admissions Welcome Center at <a href="tel:+13032698000">303.269.8000</a>
         or <a href="mailto:admissions@regisjesuit.com">admissions@regisjesuit.com</a>.</p>
         <div class="policy">
-          <p>${POLICY.replace(/\s+/g, ' ')}</p>
-          <p>${TRADEMARK.replace(/\s+/g, ' ')}</p>
+          <p><b>This site is free and open to any student, and nothing you do here is recorded or
+          sent anywhere</b> — your progress is stored in this browser only.</p>
           <p>Every question here was written for this site. It is practice material built to
           resemble the HSPT in format, timing and level of difficulty — it is not the exam, not a copy
           of any past exam, and not drawn from one. The real test may prove harder or easier than what
           you meet here, and a score on this site does not predict a score on the HSPT. HSPT is a
           registered trademark of Scholastic Testing Service, Inc., which neither endorses nor is
           affiliated with this site or Regis Jesuit High School's use of it.</p>
-          <p>Nothing you do here is recorded or sent anywhere; your progress is stored in this
-          browser only.</p>
+          <p>${POLICY.replace(/\s+/g, ' ')}</p>
+          <p>${TRADEMARK.replace(/\s+/g, ' ')}</p>
         </div>
       </div></footer>`);
   }

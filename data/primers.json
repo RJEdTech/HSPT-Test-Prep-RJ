@@ -128,7 +128,7 @@
     "work": "Read it's as it is: the dog wagged it is tail. That is nonsense, so it needs the possessive its. This test works every single time.",
     "a": "the sentence with it's"
    },
-   "trap": "The serial comma - the one before and in a list. This site follows the Regis Jesuit stylebook, which leaves it out, so you will not be asked to call its absence an error."
+   "trap": "Apostrophes. An apostrophe does one of two jobs: it stands in for missing letters (it's = it is) or it shows that something is owned (Maria's coat). A plain plural gets neither, so more than one parent is parents, never parent's. And hers, ours, yours and theirs never take one, however much they look like they should."
   },
   "Usage": {
    "what": "The biggest part of Language Skills. Some items give three sentences and ask which has a grammar mistake. Others give four versions of one sentence and ask which is correct. Read the question first - they are opposites.",
@@ -206,7 +206,7 @@
   "Number Sense": {
    "what": "The number facts underneath everything else: place value, rounding, averages, factors, order of operations and estimation.",
    "how": [
-    "For order of operations, do brackets, then exponents, then multiply and divide left to right, then add and subtract.",
+    "For order of operations, do parentheses, then exponents, then multiply and divide left to right, then add and subtract.",
     "For an average, add the values and divide by how many there are.",
     "For rounding, look at the digit to the right of where you are rounding.",
     "Estimate before you calculate, so you notice if your answer is wildly off."

@@ -28,18 +28,18 @@
     </table>
     </div>
 
-    <p><b>This is a full-length form.</b> Five sections, 298 questions, 2 hours 21 minutes — the
+    <p><b>This is a full-length test.</b> Five sections, 298 questions, 2 hours 21 minutes — the
     real test's length, section sizes and per-section timing. Questions are drawn fresh from the bank
-    each time, so a second sitting is a different test.</p>
+    each time, so a second run is a different test.</p>
 
-    <p class="small muted"><b>It is practice, not the exam.</b> Every question here was written for
-    this site to resemble the HSPT in format and difficulty. It is not a copy of any real exam and no
-    real exam questions were used. The test you sit in December may prove harder or easier than this,
-    and a score here does not predict a score there. What it does tell you is which skills to work on.</p>
+    <p class="small muted"><b>This is practice, not the real exam.</b> Every question here was
+    written for this site. None of them came from a real HSPT and none of them is a copy of one. The
+    test you take in December may turn out harder or easier than this one. What this tells you is which
+    skills to work on &mdash; not what you will score on the day.</p>
 
     <h3>Before you start</h3>
     <ul>
-      <li>Find two and a half uninterrupted hours. Stopping halfway defeats the point.</li>
+      <li>Find two and a half hours with no interruptions. Stopping halfway defeats the point.</li>
       <li>Phone away. Paper and pencil next to you for the math.</li>
       <li>Each section is timed on its own. When time runs out, it moves on — the same as the real test.</li>
       <li>No feedback until the end. You will see everything you missed once you finish.</li>
@@ -48,7 +48,7 @@
 
     <div class="btn-row">
       <button class="btn" id="start">Begin the test</button>
-      <a class="btn plain" href="diagnostic.html">Take the shorter diagnostic instead</a>
+      <a class="btn plain" href="diagnostic.html">Find your starting point instead</a>
     </div>
 
     <div id="history"></div>
@@ -67,10 +67,7 @@
   <div id="quiz" class="hide"></div>
 
   <div class="wrap hide" id="done">
-    <div class="score-hero">
-      <div class="big" id="pct"></div>
-      <div class="sub" id="sub"></div>
-    </div>
+    <div class="result-lede" id="verdict"></div>
     <h2>By section</h2>
     <div id="secbars"></div>
     <h2>By skill</h2>
@@ -175,8 +172,6 @@ async function finishAll() {
 
   const correct = all.filter(a => a.correct).length;
   const pct = Math.round((correct / all.length) * 100);
-  $('#pct').textContent = pct + '%';
-  $('#sub').textContent = `${correct} of ${all.length} correct`;
 
   const bySection = {}, byTopic = {};
   all.forEach(a => {
@@ -214,6 +209,20 @@ async function finishAll() {
   }
   $('#advice').innerHTML = advice;
 
+  /* Lead with the move, not the number. After two and a half hours the useful
+     sentence is which skill to open next; the percentage is context under it. */
+  const scoreLine = `<p class="score-line"><b>${correct} of ${all.length} right</b> &middot; ${pct}%</p>`;
+  if (weak.length) {
+    const first = HSPT.esc(HSPT.topicLabel(weak[0]));
+    $('#verdict').innerHTML = `<h1>Start with ${first}.</h1>${scoreLine}
+      <p>That is the skill this test found weakest. The full list is below, and every skill
+      you were asked about is scored, so you can see the whole picture too.</p>`;
+  } else {
+    $('#verdict').innerHTML = `<h1>No weak spot stood out.</h1>${scoreLine}
+      <p>Read through what you missed below, then sit another form &mdash; the questions are
+      drawn fresh each time.</p>`;
+  }
+
   $('#review').innerHTML = HSPT.reviewList(all, true);
   HSPT.typeset($('#review'));
 
@@ -226,14 +235,14 @@ $('#again').addEventListener('click', () => start().catch(showError));
 function showError(e) {
   $('#setup').classList.remove('hide');
   $('#setup').insertAdjacentHTML('beforeend',
-    `<div class="note"><p>Could not load the questions: ${HSPT.esc(e.message)}</p></div>`);
+    `<div class="note"><p>The questions did not load. Refresh the page and try again — if it keeps happening, check your internet connection.</p></div>`);
 }
 
 const past = HSPT.results('mock');
 if (past.length) {
   $('#history').innerHTML = `<h2>Your previous tests</h2>
     <div class="table-scroll"><table>
-      <thead><tr><th>When</th><th class="num">Score</th><th class="num">Left blank</th><th>Flagged</th></tr></thead>
+      <thead><tr><th>When</th><th class="num">Score</th><th class="num">Left blank</th><th>What to work on</th></tr></thead>
       <tbody>${past.slice(0, 6).map(r => `<tr>
         <td>${new Date(r.at).toLocaleDateString()}</td>
         <td class="num">${r.correct}/${r.total}</td>

@@ -80,29 +80,29 @@ function buildStages(weak, practiced, lessonsLoaded) {
   });
 
   if (weak.length > 1) stages.push({
-    tag: 'Consolidate',
+    tag: 'Review',
     title: 'Go back over all ' + (weak.length === 2 ? 'two' : 'three'),
     body: `Redo the practice sets for ${listOf(weak.map(HSPT.topicLabel))}. You are looking for the
-           questions you still get wrong on the second pass — those are the real gaps, and there will
+           questions you still get wrong on the second pass. Those are the real gaps, and there will
            be fewer of them than you fear.`,
     links: weak.map(t => [HSPT.topicLabel(t), HSPT.practiceLink(t)])
   });
 
   stages.push({
     tag: 'Timing',
-    title: 'Sit the full practice test',
-    body: `All five sections at full length, timed the way the real one is — about two and a half hours. Knowing an answer and
-           knowing it in sixteen seconds are different things, and this is the only place you find out
-           which one you have.`,
+    title: 'Take the full practice test',
+    body: `All five sections at full length, timed the way the real one is — about two and a half hours.
+           Knowing an answer and knowing it in sixteen seconds are different things. This is the only
+           place you find out which one you have.`,
     links: [['Take the practice test', 'mock.html']]
   });
 
   stages.push({
     tag: 'Check',
-    title: 'Take the diagnostic again',
-    body: `See what moved. This is the part most students skip and it is the part that tells you
-           whether the work is paying. Come back to this page afterwards — it rebuilds itself from
-           whatever the new result says.`,
+    title: 'Find your starting point again',
+    body: `See what moved. This is the part most students skip, and it is the part that tells you
+           whether the work is paying off. Come back to this page afterwards — it rebuilds itself
+           from whatever the new result says.`,
     links: [['Find your starting point again', 'diagnostic.html']]
   });
 
@@ -126,12 +126,12 @@ function genericStages() {
       and names the three worth your time. Everything below this is guesswork until you have done it.`,
       links: [['Find your starting point', 'diagnostic.html']] },
     { tag: 'Step 2', title: 'Work your weakest skill', body: `Read its lesson, then drill it. One skill
-      per sitting.`, links: [['All the lessons', 'learn.html'], ['Practice a skill', 'practice.html']] },
-    { tag: 'Step 3', title: 'Then the next two', body: `Same again for the second and third skills the
-      diagnostic named.`, links: [['Practice a skill', 'practice.html']] },
-    { tag: 'Timing', title: 'Sit the full practice test', body: `All five sections, timed. About 70
-      minutes.`, links: [['Take the practice test', 'mock.html']] },
-    { tag: 'Check', title: 'Take the diagnostic again', body: `See what moved.`,
+      per session.`, links: [['All the lessons', 'learn.html'], ['Practice a skill', 'practice.html']] },
+    { tag: 'Step 3', title: 'Then the next two', body: `Same again for the second and third skills your
+      starting point named.`, links: [['Practice a skill', 'practice.html']] },
+    { tag: 'Timing', title: 'Take the full practice test', body: `All five sections, timed. About two
+      and a half hours.`, links: [['Take the practice test', 'mock.html']] },
+    { tag: 'Check', title: 'Find your starting point again', body: `See what moved.`,
       links: [['Find your starting point again', 'diagnostic.html']] },
     { tag: 'Test week', title: 'Read the tips, then stop', body: `No new material in the last week.
       Sleep the night before.`, links: [['Test-taking tips', HSPT.FRONT_PAGES.tips]] }
@@ -194,11 +194,11 @@ async function render() {
 
   /* --- the strip at the top --- */
   $('#countdown').innerHTML = past
-    ? `<div class="countdown past"><b>Both ${HSPT.TEST_DATE_LABEL} sittings have passed.</b>
+    ? `<div class="countdown past"><b>Both test dates have passed.</b>
        <span>The plan below is the order to work in; add your own dates.</span></div>`
     : `<div class="countdown"><b>${days === 0 ? 'The test is today' :
          `${days} ${days === 1 ? 'day' : 'days'} until the test`}</b>
-       <span>${HSPT.esc(test.label)}${test.makeup ? ' — the make-up sitting' : ''}${
+       <span>${HSPT.esc(test.label)}${test.makeup ? ' — the make-up date' : ''}${
          days > 60 ? ' — there is no hurry yet' : ''}</span></div>`;
 
   const stages = weak.length ? buildStages(weak, practiced, lessonsLoaded) : genericStages();
@@ -211,9 +211,9 @@ async function render() {
       <b>${listOf(weak.map(t => HSPT.esc(HSPT.topicLabel(t))))}</b>. Here is where those go.</p>`;
   } else {
     lead = `<div class="note">
-      <p><b>This plan is generic until you take the diagnostic.</b> It knows how many days you have,
-      but not what you are weak at — so the middle of it says "your weakest skill" rather than naming
-      one. Eighteen minutes fixes that, and this page rebuilds itself the moment it can.</p>
+      <p><b>This plan does not know you yet.</b> It knows how many days you have, but not what you
+      are weak at. So the middle of it says "your weakest skill" instead of naming one. Eighteen
+      minutes fixes that, and this page rebuilds itself the moment it can.</p>
       <div class="btn-row"><a class="btn" href="diagnostic.html">Find your starting point</a></div>
     </div>`;
   }
@@ -225,7 +225,7 @@ async function render() {
     /* No live date to count from. Print the arc in order and let them date it. */
     rows = chunk(stages, stages.length).map((sts, i) =>
       rowHTML(`Step ${i + 1}`, null, sts)).join('');
-    preface = `<p>In this order. Each step is one sitting or one week, depending on how much time you
+    preface = `<p>In this order. Each step is one session or one week, depending on how much time you
       give yourself.</p>`;
   } else if (days <= DAY_MODE) {
     /* A week or less: real dates, one lump a day, and the night before is empty on purpose.
@@ -235,8 +235,8 @@ async function render() {
     const today = new Date();
     rows = work.map((sts, i) => rowHTML(fmtDay(addDays(today, i)), null, sts)).join('');
     if (days >= 2) rows += rowHTML(fmtDay(addDays(test.date, -1)), 'The night before', [], 'rest');
-    preface = `<p>Not much time, so this is day by day. Skip nothing in the first three days — that is
-      where the points are — and treat the last line as an instruction, not a suggestion.</p>`;
+    preface = `<p>Not much time, so this is day by day. Skip nothing in the first three days — that
+      is where the points are. And treat the last line as an instruction, not a suggestion.</p>`;
   } else {
     const weeksLeft = Math.ceil(days / 7);
     const planWeeks = Math.min(weeksLeft, MAX_WEEKS);
@@ -262,7 +262,7 @@ async function render() {
       </div>`;
     }
     preface = `<p>One row per week. Everything in a row can be spread over that week however suits
-      you — short sittings beat one long one, by a wide margin.</p>`;
+      you — short sessions beat one long one, by a wide margin.</p>`;
   }
 
   $('#plan').innerHTML = `
@@ -278,8 +278,9 @@ async function render() {
       <a class="btn plain" href="${HSPT.FRONT_PAGES.plans}">See the plans on the main page</a>
     </div>
     <div class="note no-print">
-      <p>This plan lives in this browser and nowhere else. It is built from your last diagnostic, so
-      taking the diagnostic again rebuilds it — that is the point of the "take it again" row.</p>
+      <p>This plan lives in this browser and nowhere else. It is built from the last time you found
+      your starting point. Do that again and this page rebuilds itself — that is what the
+      "find your starting point again" row is for.</p>
     </div>`;
 
   const btn = document.getElementById('print');
