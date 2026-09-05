@@ -421,6 +421,23 @@ question with the page name and, on a practice run, the skill — so *Practice a
 
 `claude/error-report-form.md` in the project has the form's questions and how to read responses.
 
+## Cache-busting when you deploy
+
+Every page loads its CSS and JavaScript with a version query — `assets/app.js?v=2026-09-05`. GitHub
+Pages serves assets with `Cache-Control: max-age=600`, so without this a returning visitor can hold a
+ten-minute-old `app.js` while already fetching the new `data/*.json`. That pairing is worse than
+either being stale on its own: the old engine looks for Quantitative questions inside `math.json`,
+which no longer holds them, so the section comes up empty with no error.
+
+**Bump the date in that query whenever you change `assets/app.js`, `assets/home.js` or
+`assets/style.css` in the same push as anything in `data/`.** One command, from the repo root:
+
+```sh
+V=$(date +%F); for f in *.html; do
+  sed -i '' -E "s|(assets/(app|home)\.js|assets/style\.css)\?v=[0-9-]+|\1?v=$V|g" "$f"
+done
+```
+
 ## Privacy
 
 The site has no backend, no analytics, no cookies and no accounts. A student's progress is written to
