@@ -22,8 +22,8 @@
   off directly in the practice sets.</p>
 
   <div class="note">
-    <p><b>How to use these.</b> Look at the word and try to say what it means <i>before</i> you flip the
-    card. The guessing is what makes it stick — a card you flip straight away teaches you almost nothing.
+    <p><b>How to use these.</b> Look at the word and try to say what it means <i>before</i> you tap the
+    card to flip it. The guessing is what makes it stick — a card you flip straight away teaches you almost nothing.
     Ten words a day beats 131 words the night before.</p>
   </div>
 
@@ -68,7 +68,7 @@
 const $ = s => document.querySelector(s);
 const KEY = 'hspt.vocab';
 
-let WORDS = [], mode = 'cards', deck = 'all', i = 0, flipped = false;
+let WORDS = [], mode = 'cards', deck = 'all', i = 0, flipped = false, keepFocus = false;
 
 /* Which words the student has marked as known. Stored in this browser only, like
    everything else on the site - nothing is sent anywhere. */
@@ -109,7 +109,8 @@ function renderCard() {
   const known = readKnown().has(w.word);
 
   area.innerHTML = `
-    <div class="vcard ${flipped ? 'is-flipped' : ''}">
+    <div class="vcard ${flipped ? 'is-flipped' : ''}" id="card" role="button" tabindex="0"
+         aria-pressed="${flipped}" aria-label="${flipped ? 'Hide the meaning' : 'Show the meaning'}">
       <p class="vcard-count">Card ${i + 1} of ${pool.length}${known ? ' · marked known' : ''}</p>
       <p class="vcard-word">${HSPT.esc(w.word)}</p>
       <p class="vcard-part">${HSPT.esc(w.part)}</p>
@@ -122,23 +123,35 @@ function renderCard() {
             ${w.synonyms && w.synonyms.length ? `<p><b>Similar:</b> ${w.synonyms.map(HSPT.esc).join(', ')}</p>` : ''}
             ${w.antonyms && w.antonyms.length ? `<p><b>Opposite:</b> ${w.antonyms.map(HSPT.esc).join(', ')}</p>` : ''}
           </div>
-        </div>` : `<p class="vcard-prompt">Say what it means, then flip.</p>`}
+        </div>` : `<p class="vcard-prompt">Say what it means &mdash; then tap the card.</p>`}
     </div>
     <div class="btn-row">
       ${flipped
         ? `<button class="btn" id="know">I know this one</button>
            <button class="btn plain" id="learning">Still learning it</button>`
-        : `<button class="btn" id="flip">Flip the card</button>`}
+        : ''}
       <button class="btn plain" id="skip">${flipped ? 'Skip' : 'Next word'}</button>
-    </div>`;
+    </div>
+    <p class="vcard-hint">Tap the card ${flipped ? 'again to hide the meaning' : 'to see the meaning'} &middot;
+      or press the space bar</p>`;
 
   if (flipped) {
     $('#know').addEventListener('click', () => mark(w.word, true));
     $('#learning').addEventListener('click', () => mark(w.word, false));
-  } else {
-    $('#flip').addEventListener('click', () => { flipped = true; renderCard(); });
   }
   $('#skip').addEventListener('click', next);
+
+  const card = $('#card');
+  if (keepFocus) { card.focus(); keepFocus = false; }
+  card.addEventListener('click', () => {
+    // Do not flip when the student was just highlighting text on the card.
+    const sel = window.getSelection();
+    if (sel && String(sel).length > 0) return;
+    flip();
+  });
+  card.addEventListener('keydown', e => {
+    if (e.key === 'Enter' || e.key === ' ' || e.key === 'Spacebar') { e.preventDefault(); keepFocus = true; flip(); }
+  });
 }
 
 function mark(word, isKnown) {
@@ -148,6 +161,8 @@ function mark(word, isKnown) {
   progress();
   next();
 }
+
+function flip() { flipped = !flipped; renderCard(); }
 
 function next() { i++; flipped = false; renderCard(); }
 
@@ -174,6 +189,15 @@ document.querySelectorAll('#modes button').forEach(b => b.addEventListener('clic
   $('#list').classList.toggle('hide', mode !== 'list');
   if (mode === 'list') renderList();
 }));
+
+// Space bar flips the current card, arrow keys move through the deck.
+document.addEventListener('keydown', e => {
+  if (mode !== 'cards') return;
+  const t = e.target;
+  if (t && (t.closest('#card') || ['BUTTON', 'INPUT', 'TEXTAREA', 'SELECT', 'A'].includes(t.tagName))) return;
+  if (e.key === ' ' || e.key === 'Spacebar') { e.preventDefault(); flip(); }
+  else if (e.key === 'ArrowRight') { e.preventDefault(); next(); }
+});
 
 document.querySelectorAll('#deck button').forEach(b => b.addEventListener('click', () => {
   deck = b.dataset.d; press('#deck', 'd', deck); i = 0; flipped = false; renderCard();
