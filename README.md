@@ -74,14 +74,14 @@ images/            official logos — see Brand below
 assets/style.css   all styling
 assets/app.js      shared quiz engine, site chrome, the primer renderer and the lesson bank
 assets/home.js     the landing-page taster and the "where you left off" block
-data/verbal.json       Verbal Skills — 154 questions
-data/quantitative.json Quantitative Skills — 128 questions
-data/reading.json      Reading — 141 questions, and the nine passages
-data/math.json         Mathematics — 128 questions
-data/language.json     Language Skills — 168 questions
+data/verbal.json       Verbal Skills — 170 questions
+data/quantitative.json Quantitative Skills — 135 questions
+data/reading.json      Reading — 175 questions, and the 12 passages
+data/math.json         Mathematics — 167 questions
+data/language.json     Language Skills — 176 questions
 data/primers.json  one short primer per skill, shown above the practice questions
 data/lessons.json  the 25 full lessons behind those primers, rendered by learn.html
-data/vocab.json    the 131 words the banks test, plus a few more at the same level
+data/vocab.json    the 140 words the banks test, plus a few more at the same level
 build/*.py         the repair scripts, plus verify_math.py — see Checking the maths below
 ```
 
@@ -286,7 +286,7 @@ All are fixed in `build/patch_reconcile.py`. **If you edit one layer, read the o
 
 Written from scratch. The commercial books — Peterson's and McGraw-Hill — are reference-only and none
 of their text, examples or exercises appear here. That is measured, not asserted:
-`build/check_provenance.py` shingles every string in the lessons, the primers, all four banks and the
+`build/check_provenance.py` shingles every string in the lessons, the primers, all five banks and the
 vocabulary list against the full text of the source chapters. The last run found **no shared phrase of
 12 words or more anywhere**. The only shorter matches are the test's own standard prompts, such as
 *Which word does not belong with the others?*, which are nobody's protected expression.
@@ -295,6 +295,67 @@ Verbatim matching is necessary and not sufficient — a separate structural revi
 category table that used the publisher's own labels and two classification items that were near
 variants of published ones, all original word for word. **Run both checks on new content: the script,
 and a person asking whether it is derivative in shape.**
+
+## The question-bank expansion
+
+A third pass took the bank from 719 questions to 823 and the passages from nine to 12, so that every
+skill now holds **at least two and a half questions for every one a full-length form uses**. At that
+depth a student can sit the 298-question practice test three times and meet mostly fresh material,
+and a ten-question drill never repeats.
+
+- **104 new questions**, written to the per-skill counts in `claude/next-session-plan.md`: 40 across
+  Mathematics and Quantitative Skills, 30 across three new reading passages, 12 Classification, 5
+  Geometric Comparison and the rest as top-ups in Usage, Vocabulary in Context, Synonyms,
+  Punctuation and Analogies.
+- **Three new reading passages** — an older-prose field memoir, a contemporary narrative and an
+  expository piece on map projections — 400-450 words each, ten questions each spanning the nine
+  Peterson's question types, at most two stated-detail items apiece. Twelve passages means three
+  non-overlapping forms.
+- **46 Mathematics questions now carry a drawn figure.** The real test prints a diagram for its
+  geometry items and the bank described them in words only. The `figure` field already existed for
+  Quantitative Skills; the same conventions now apply in `data/math.json` — `viewBox` only,
+  `stroke="currentColor"`, and an `aria-label` naming every dimension in words. A figure never shows
+  the answer: an item that gives the area and asks for the perimeter labels the area and leaves the
+  sides bare.
+
+### Provenance, checked properly this time
+
+Fifteen items were caught and rewritten as **re-skins** — not copied word for word, but the licensed
+item's structure with the nouns, the numbers or the sentence swapped. A verbatim scan finds none of
+these, which is why the structural read matters. Three were in the new work; the rest were older
+items the earlier passes had cleared. Two examples of what a re-skin looks like: a containers-and-
+contents classification item keyed on the contents, with every noun changed; an eight-term
+interleaved number series with the blank in the sixth slot and only the step rules changed.
+
+`build/check_provenance.py` was also repaired. It had been scanning four banks — the list predates
+the `math.json` / `quantitative.json` split, so **`quantitative.json` was never checked at all**. It
+now scans all five, filters the test's own stock prompts, and ranks hits by the longest contiguous
+shared run so a real lift sorts above the formulas the format forces. Run it with the extracted
+source text:
+
+```
+HSPT_SRC=~/hspt-src python3 build/check_provenance.py        # 8-word runs
+HSPT_SRC=~/hspt-src HSPT_N=12 python3 build/check_provenance.py
+```
+
+Current state: **zero non-boilerplate matches of 12 words or more** in the lessons or in any of the
+five banks. The only 8-word hits are two Language stems using the test's own printed prompt.
+
+`build/verify_math.py` learned two new series rules while checking this work — a gap that grows as
+the square numbers (a constant third difference), and a term that is the square of the one before.
+
+### What was verified
+
+- **Every one of the 104 new questions was re-solved from scratch with the keys removed**, by passes
+  that did not write them, and every item edited afterwards was re-solved again. Zero unresolved
+  disagreements.
+- `python3 build/verify_math.py` — clean.
+- Structural sweep — keys in range, no duplicate ids or options, an explanation on all 823, balanced
+  LaTeX, no unescaped `$` inside a maths span, every reading question pointed at a passage that
+  exists, every cited paragraph number checked, every drawn dimension present in its figure's
+  `aria-label`, "No mistakes" last wherever it is offered and keyed on 20% of those items.
+- Browser — all nine pages load with no JavaScript errors, a full 298-question form builds with the
+  right section counts and the right reading split, and the figures render at size in both themes.
 
 ## How the banks were built
 

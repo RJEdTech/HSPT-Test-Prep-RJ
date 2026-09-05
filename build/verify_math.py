@@ -318,6 +318,18 @@ def consistent(seq):
         strands = [seq[i::3] for i in range(3)]
         if all(len(st) >= 3 and simple_ok(st) for st in strands):
             return True
+    # the gaps themselves follow a growing pattern one level deeper: 3, 4, 8, 17, 33, 58
+    # has gaps 1, 4, 9, 16, 25 - the square numbers - which shows up as a constant third
+    # difference. Six terms make this two equations against one unknown, so it stays tight.
+    if len(seq) >= 6:
+        d1 = [seq[i + 1] - seq[i] for i in range(len(seq) - 1)]
+        d2 = [d1[i + 1] - d1[i] for i in range(len(d1) - 1)]
+        d3 = [d2[i + 1] - d2[i] for i in range(len(d2) - 1)]
+        if len(d3) >= 2 and all(abs(x - d3[0]) < 1e-7 for x in d3):
+            return True
+    # each term is the square of the one before it: 2, 4, 16, 256
+    if len(seq) >= 3 and all(abs(seq[i] ** 2 - seq[i + 1]) < 1e-7 for i in range(len(seq) - 1)):
+        return True
     # alternating operations: one rule on the odd steps, another on the even steps.
     # Covers 2, 4, 7, 14, 17, 34, 37 — times two, then add three, repeating.
     if len(seq) >= 5:

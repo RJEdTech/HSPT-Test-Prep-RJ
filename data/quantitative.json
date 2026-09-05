@@ -101,17 +101,17 @@
   },
   {
    "id": "1f6d84c20a",
-   "stem": "Look at this series: 305, 303, 299, 293, 285, ... What number should come next?",
+   "stem": "Look at this series: 2, 4, ___, 256. What number is missing?",
    "options": [
-    "273",
-    "275",
-    "277",
-    "263"
+    "8",
+    "12",
+    "16",
+    "128"
    ],
-   "answer": 1,
+   "answer": 2,
    "topic": "Number Series",
    "source": "rj_original_2026",
-   "explanation": "The series falls by 2, then 4, then 6, then 8, so the next drop is ten and 285 - 10 = 275. You get 277 by holding the step at eight, 273 by jumping to 12 and 263 by taking two more steps."
+   "explanation": "Each term is the square of the one before it: 2 x 2 = 4, 4 x 4 = 16 and 16 x 16 = 256, so the missing term is 16. You get eight by taking the first step, doubling, as the rule for every step, which would end the series at 16 rather than 256. You get 12 by assuming the multiplier climbs by one, two then three. You get 128 by working backwards from 256 and halving it, which assumes the last step is a doubling."
   },
   {
    "id": "9c05b7e3d1",
@@ -255,17 +255,17 @@
   },
   {
    "id": "5a1907cd3b",
-   "stem": "Look at this series: 2, 5, 6, 10, 18, ___, 54, 40. What number is missing?",
+   "stem": "Look at this series: 3, 4, 8, 17, 33, ... What number should come next?",
    "options": [
-    "15",
-    "25",
-    "30",
-    "20"
+    "49",
+    "56",
+    "65",
+    "58"
    ],
    "answer": 3,
    "topic": "Number Series",
    "source": "rj_original_2026",
-   "explanation": "The terms in the odd positions triple (2, 6, 18, 54) and those in the even positions double (5, 10, 20, 40), so the missing term is 20. You get 15 by adding five to that series, 30 by applying the tripling rule to 10 and 25 by splitting the difference between 10 and 40."
+   "explanation": "The gaps are the square numbers in order: 4 - 3 = 1, 8 - 4 = 4, 17 - 8 = 9 and 33 - 17 = 16, so the next gap is 25 and 33 + 25 = 58. You get 49 by holding the gap at 16 instead of moving on to the next square. You get 56 by treating the gaps as an ordinary growing sequence: they rise by three, then five, then seven, so keeping that rise at seven gives a gap of 23. You get 65 by assuming the gap doubles, from 16 to 32."
   },
   {
    "id": "2b6e4f0d85",
@@ -1283,7 +1283,7 @@
   {
    "id": "54a0be1832",
    "stem": "Examine figures A, B and C. Choose the best answer.",
-   "figure": "<svg viewBox=\"0 0 360 112\" role=\"img\" aria-label=\"Three figures. Figure A is a circle with a radius of 3 cm. Figure B is a square 6 cm on each side. Figure C is a rectangle 8 cm wide and 3 cm tall.\"><circle cx=\"60\" cy=\"53\" r=\"21\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"60\" y1=\"53\" x2=\"81\" y2=\"53\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"70.5\" y=\"49\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">3 cm</text><text x=\"60\" y=\"104\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">A</text><rect x=\"157\" y=\"32\" width=\"42\" height=\"42\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"178\" y=\"87\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">6 cm</text><text x=\"204\" y=\"57\" text-anchor=\"start\" fill=\"currentColor\" font-size=\"11\">6 cm</text><text x=\"178\" y=\"104\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">B</text><rect x=\"260.5\" y=\"53\" width=\"56\" height=\"21\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"292\" y=\"87\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">8 cm</text><text x=\"328.5\" y=\"67.5\" text-anchor=\"start\" fill=\"currentColor\" font-size=\"11\">3 cm</text><text x=\"292\" y=\"104\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">C</text></svg>",
+   "figure": "<svg viewBox=\"0 0 360 112\" role=\"img\" aria-label=\"Three figures. Figure A is a circle with a radius of 3 cm. Figure B is a square 6 cm on each side. Figure C is a rectangle 8 cm wide and 3 cm tall.\"><circle cx=\"60\" cy=\"53\" r=\"21\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"60\" y1=\"53\" x2=\"81\" y2=\"53\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"86\" y=\"57\" text-anchor=\"start\" fill=\"currentColor\" font-size=\"11\">3 cm</text><text x=\"60\" y=\"104\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">A</text><rect x=\"157\" y=\"32\" width=\"42\" height=\"42\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"178\" y=\"87\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">6 cm</text><text x=\"204\" y=\"57\" text-anchor=\"start\" fill=\"currentColor\" font-size=\"11\">6 cm</text><text x=\"178\" y=\"104\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">B</text><rect x=\"260.5\" y=\"53\" width=\"56\" height=\"21\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"292\" y=\"87\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">8 cm</text><text x=\"328.5\" y=\"67.5\" text-anchor=\"start\" fill=\"currentColor\" font-size=\"11\">3 cm</text><text x=\"292\" y=\"104\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">C</text></svg>",
    "options": [
     "The area of A is greater than the area of B, and the area of B is greater than the area of C.",
     "The area of B is greater than the area of A, and the area of A is greater than the area of C.",
@@ -1343,7 +1343,7 @@
   {
    "id": "a306e1d75c",
    "stem": "Examine figures A, B and C. Compare the distance around each figure and choose the best answer.",
-   "figure": "<svg viewBox=\"0 0 360 120\" role=\"img\" aria-label=\"Three figures. Figure A is a circle with a radius of 3 cm. Figure B is a square 3 cm on each side. Figure C is a rectangle 4 cm wide and 2 cm tall.\"><circle cx=\"60\" cy=\"52\" r=\"24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"60\" y1=\"52\" x2=\"84\" y2=\"52\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"66\" y=\"48\" fill=\"currentColor\" font-size=\"11\">3 cm</text><text x=\"52\" y=\"100\" fill=\"currentColor\" font-size=\"11\">A</text><rect x=\"168\" y=\"40\" width=\"24\" height=\"24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"196\" y=\"56\" fill=\"currentColor\" font-size=\"11\">3 cm</text><text x=\"176\" y=\"100\" fill=\"currentColor\" font-size=\"11\">B</text><rect x=\"284\" y=\"44\" width=\"32\" height=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"288\" y=\"76\" fill=\"currentColor\" font-size=\"11\">4 cm</text><text x=\"320\" y=\"56\" fill=\"currentColor\" font-size=\"11\">2 cm</text><text x=\"296\" y=\"100\" fill=\"currentColor\" font-size=\"11\">C</text></svg>",
+   "figure": "<svg viewBox=\"0 0 360 120\" role=\"img\" aria-label=\"Three figures. Figure A is a circle with a radius of 3 cm. Figure B is a square 3 cm on each side. Figure C is a rectangle 4 cm wide and 2 cm tall.\"><circle cx=\"60\" cy=\"52\" r=\"24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"60\" y1=\"52\" x2=\"84\" y2=\"52\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"89\" y=\"56\" fill=\"currentColor\" font-size=\"11\">3 cm</text><text x=\"52\" y=\"100\" fill=\"currentColor\" font-size=\"11\">A</text><rect x=\"168\" y=\"40\" width=\"24\" height=\"24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"196\" y=\"56\" fill=\"currentColor\" font-size=\"11\">3 cm</text><text x=\"176\" y=\"100\" fill=\"currentColor\" font-size=\"11\">B</text><rect x=\"284\" y=\"44\" width=\"32\" height=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"288\" y=\"76\" fill=\"currentColor\" font-size=\"11\">4 cm</text><text x=\"320\" y=\"56\" fill=\"currentColor\" font-size=\"11\">2 cm</text><text x=\"296\" y=\"100\" fill=\"currentColor\" font-size=\"11\">C</text></svg>",
    "options": [
     "The perimeter of B equals the perimeter of C, and the perimeter of A is greater than the perimeter of B.",
     "The perimeter of B equals the perimeter of C, and the perimeter of A is less than the perimeter of B.",
@@ -1531,17 +1531,17 @@
   },
   {
    "id": "b8471ce0d5",
-   "stem": "Look at this series: 6, 80, 9, 72, 13, ___, 18, 56. What number is missing?",
+   "stem": "Look at this series: 512, 384, 288, 216, ... What number should come next?",
    "options": [
-    "64",
-    "56",
-    "63",
-    "18"
+    "162",
+    "144",
+    "180",
+    "108"
    ],
    "answer": 0,
    "topic": "Number Series",
    "source": "rj_original_2026",
-   "explanation": "Two series take turns: 6, 9, 13, 18 climbs by gaps that grow one at a time while 80, 72, 64, 56 falls by eight every time, so the missing term is 72 - 8 = 64. You get 18 by filling the blank from the climbing series, 63 by assuming the falling series' step grows the way the climbing one's does and 56 by dropping eight twice."
+   "explanation": "Each term is three-fourths of the one before it: 512 becomes 384, 384 becomes 288 and 288 becomes 216, so the next term is three-fourths of 216, which is 162. You get 144 by subtracting 72 again, the gap you just used, as though the series fell by a fixed amount each time. You get 180 by shrinking that gap by half, from 72 to 36, instead of taking three-fourths of it. You get 108 by taking the ratio to be one half rather than three-fourths."
   },
   {
    "id": "9fc3b70e28",
@@ -1812,6 +1812,109 @@
    "topic": "Letter Series",
    "source": "rj_original_2026",
    "explanation": "Every other letter of the alphabet is written out and then cut into groups of three, so after M, O and Q come S, U and W. RTV starts the group one letter early, SUV moves the last letter only one place and SUY moves it four instead of two."
+  },
+  {
+   "id": "4a040d2c22",
+   "stem": "The number that is 5 less than 40 is how many times the number that is 3 more than 4?",
+   "options": [
+    "5",
+    "7",
+    "28",
+    "245"
+   ],
+   "answer": 0,
+   "topic": "Number Manipulation",
+   "source": "rj_original_2026_expansion",
+   "explanation": "Untangle the sentence one piece at a time. Five less than 40 is 35, and 3 more than 4 is 7. The question asks how many times 7 goes into 35, so divide: \\(35\\div7=5\\). Choosing 7 answers with the second number itself rather than the comparison. Choosing 28 subtracts, \\(35-7\\), instead of dividing. Choosing 245 multiplies the two numbers."
+  },
+  {
+   "id": "66b8a39296",
+   "stem": "Look at this series: 40, 38, 35, 31, ___, 20. What number is missing?",
+   "options": [
+    "27",
+    "23",
+    "26",
+    "25"
+   ],
+   "answer": 2,
+   "topic": "Number Series",
+   "source": "rj_original_2026_expansion",
+   "explanation": "The amount taken away grows by one each step: \\(40-2=38\\), \\(38-3=35\\) and \\(35-4=31\\), so the next step is 5 and the missing term is \\(31-5=26\\). The 20 at the end confirms it, since \\(26-6=20\\). Choosing 27 repeats the previous step of 4 instead of letting it grow. Choosing 23 doubles the step from 4 to 8 rather than raising it by one. Choosing 25 works backward from 20 with a step of 5, when the step on that side of the blank is 6."
+  },
+  {
+   "id": "2566692596",
+   "stem": "Examine figures A, B and C. Compare the areas and choose the best answer.",
+   "options": [
+    "The area of C is less than the area of A, and the area of A is less than the area of B.",
+    "The area of C is less than the area of B, and the area of B is less than the area of A.",
+    "The area of A is less than the area of C, and the area of C is less than the area of B.",
+    "The area of B equals the area of C, and the area of A is less than the area of C."
+   ],
+   "answer": 0,
+   "topic": "Geometric Comparison",
+   "source": "rj_original_2026_expansion",
+   "figure": "<svg viewBox=\"0 0 360 112\" role=\"img\" aria-label=\"Three figures. Figure A is a circle. Its diameter is 10 cm. Figure B is a square 9 cm on each side. Figure C is a rectangle 12 cm wide and 6 cm tall.\"><circle cx=\"60\" cy=\"50\" r=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"40\" y1=\"50\" x2=\"80\" y2=\"50\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"60\" y=\"83\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">10 cm</text><text x=\"60\" y=\"104\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">A</text><rect x=\"162\" y=\"34\" width=\"36\" height=\"36\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"180\" y=\"83\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">9 cm</text><text x=\"202\" y=\"56\" text-anchor=\"start\" fill=\"currentColor\" font-size=\"11\">9 cm</text><text x=\"180\" y=\"104\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">B</text><rect x=\"268\" y=\"46\" width=\"48\" height=\"24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"292\" y=\"83\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">12 cm</text><text x=\"320\" y=\"62\" text-anchor=\"start\" fill=\"currentColor\" font-size=\"11\">6 cm</text><text x=\"292\" y=\"104\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">C</text></svg>",
+   "explanation": "The diameter of A is 10 cm, so its radius is 5 cm and its area is \\(\\pi \\times 5^2\\), about 78.5 square centimeters. B is 9 x 9 = 81 and C is 12 x 6 = 72, so C is the smallest and B the largest. Even taking \\(\\pi\\) as 3 the circle comes to 75 and the order does not change. Squaring the 10 as though it were the radius gives about 314 and makes A the largest. Using \\(\\pi \\times 10\\), which is the distance around, gives about 31.4 and makes A the smallest, and comparing the distance around all three gives 31.4, 36 and 36, which ties B to C."
+  },
+  {
+   "id": "904b816a79",
+   "stem": "Examine figures A, B and C. Compare the areas and choose the best answer.",
+   "options": [
+    "The area of B is less than the area of C, and the area of C is less than the area of A.",
+    "The area of A is less than the area of C, and the area of C is less than the area of B.",
+    "The area of C is less than the area of B, and the area of B is less than the area of A.",
+    "The area of B is less than the area of A, and the area of A is less than the area of C."
+   ],
+   "answer": 3,
+   "topic": "Geometric Comparison",
+   "source": "rj_original_2026_expansion",
+   "figure": "<svg viewBox=\"0 0 360 112\" role=\"img\" aria-label=\"Three figures. Figure A is a parallelogram with a base of 8 cm, a slanted side of 6 cm and a vertical height of 4 cm shown by a dashed line. Figure B is a circle with a radius of 3 cm. Figure C is a trapezoid with parallel sides of 11 cm and 7 cm and a vertical height of 5 cm shown by a dashed line.\"><polygon points=\"25,76 73,76 100,52 52,52\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"52\" y1=\"52\" x2=\"52\" y2=\"76\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"3 3\"/><text x=\"49\" y=\"89\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">8 cm</text><text x=\"52\" y=\"45\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">4 cm</text><text x=\"105\" y=\"63\" text-anchor=\"start\" fill=\"currentColor\" font-size=\"11\">6 cm</text><text x=\"62\" y=\"104\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">A</text><circle cx=\"170\" cy=\"58\" r=\"18\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"170\" y1=\"58\" x2=\"188\" y2=\"58\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"193\" y=\"62\" text-anchor=\"start\" fill=\"currentColor\" font-size=\"11\">3 cm</text><text x=\"170\" y=\"104\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">B</text><polygon points=\"258,76 324,76 312,46 270,46\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"291\" y1=\"46\" x2=\"291\" y2=\"76\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"3 3\"/><text x=\"291\" y=\"89\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">11 cm</text><text x=\"291\" y=\"39\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">7 cm</text><text x=\"328\" y=\"65\" text-anchor=\"start\" fill=\"currentColor\" font-size=\"11\">5 cm</text><text x=\"291\" y=\"104\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">C</text></svg>",
+   "explanation": "A is a parallelogram, so its area is the base times the vertical height, \\(8\\times4=32\\) square centimeters. B is a circle of radius 3, so its area is \\(\\pi\\times3^2\\), about 28.3. C is a trapezoid, so its area is one half of \\((11+7)\\) times 5, which is 45. B is therefore the smallest and C the largest. Even taking \\(\\pi\\) as 3 the circle comes to 27, so the order does not change. Using the slanted 6 cm side in place of the height gives 48 for A and makes A the largest. Putting the 6 cm distance across the circle into \\(\\pi r^2\\) gives about 113 and makes B the largest. Averaging the trapezoid's two parallel sides and stopping there gives 9, which drops C to last."
+  },
+  {
+   "id": "d60bf2dc0f",
+   "stem": "Examine figures A, B and C. Compare the distance all the way around each figure and choose the best answer.",
+   "options": [
+    "The perimeter of B is less than the perimeter of A, and the perimeter of A is less than the perimeter of C.",
+    "The perimeter of A is less than the perimeter of B, and the perimeter of B is less than the perimeter of C.",
+    "The perimeter of B equals the perimeter of C, and the perimeter of A is less than the perimeter of B.",
+    "The perimeter of B is less than the perimeter of C, and the perimeter of C is less than the perimeter of A."
+   ],
+   "answer": 1,
+   "topic": "Geometric Comparison",
+   "source": "rj_original_2026_expansion",
+   "figure": "<svg viewBox=\"0 0 360 112\" role=\"img\" aria-label=\"Three figures. Figure A is a semicircle. Its straight edge is 8 cm long. Figure B is a square 6 cm on each side. Figure C is a rectangle 9 cm wide and 4 cm tall.\"><path d=\"M 44 70 A 16 16 0 0 1 76 70 Z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"60\" y=\"83\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">8 cm</text><text x=\"60\" y=\"104\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">A</text><rect x=\"158\" y=\"46\" width=\"24\" height=\"24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"170\" y=\"83\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">6 cm</text><text x=\"186\" y=\"60\" text-anchor=\"start\" fill=\"currentColor\" font-size=\"11\">6 cm</text><text x=\"170\" y=\"104\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">B</text><rect x=\"268\" y=\"54\" width=\"36\" height=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"286\" y=\"83\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">9 cm</text><text x=\"308\" y=\"66\" text-anchor=\"start\" fill=\"currentColor\" font-size=\"11\">4 cm</text><text x=\"286\" y=\"104\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">C</text></svg>",
+   "explanation": "The straight edge of A is a diameter, so the radius is 4 cm and the curved part is half of \\(2\\pi \\times 4\\), about 12.6 cm. The straight edge itself adds 8 cm, giving about 20.6 cm. B is 4 x 6 = 24 cm and C is 2 x (9 + 4) = 26 cm, so A is the shortest. Even taking \\(\\pi\\) as 3 the curve is 12 cm and A comes to 20 cm, still the shortest. Counting A as a whole circle gives about 25.1 cm and lifts it above B. Comparing the space inside instead of the distance around gives about 25, 36 and 36, which ties B to C. Using the 8 cm straight edge as the radius gives about 33 cm and makes A the longest."
+  },
+  {
+   "id": "eb1b210c3d",
+   "stem": "Examine figures A, B and C, which are not drawn to scale. In each figure three of the four angles are given. Compare the angles marked x and choose the best answer.",
+   "options": [
+    "The marked angle in A equals the marked angle in B, and the marked angle in B equals the marked angle in C.",
+    "The marked angle in B is less than the marked angle in A, and the marked angle in A is less than the marked angle in C.",
+    "The marked angle in B is less than the marked angle in C, and the marked angle in C is less than the marked angle in A.",
+    "The marked angle in A is less than the marked angle in C, and the marked angle in C is less than the marked angle in B."
+   ],
+   "answer": 3,
+   "topic": "Geometric Comparison",
+   "source": "rj_original_2026_expansion",
+   "figure": "<svg viewBox=\"0 0 360 112\" role=\"img\" aria-label=\"Three four-sided figures, not drawn to scale, each with three of its angles given and the fourth marked x. In figure A the angles are 95 degrees, 80 degrees, 115 degrees and x. In figure B the angles are 100 degrees, 90 degrees, 85 degrees and x. In figure C the angles are 75 degrees, 120 degrees, 90 degrees and x.\"><polygon points=\"26,78 92,78 84,40 38,46\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"36\" y=\"71\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">95°</text><text x=\"80\" y=\"71\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">80°</text><text x=\"74\" y=\"53\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">115°</text><text x=\"46\" y=\"58\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">x</text><text x=\"60\" y=\"104\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">A</text><polygon points=\"146,78 212,78 206,42 152,38\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"157\" y=\"71\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">100°</text><text x=\"200\" y=\"71\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">90°</text><text x=\"196\" y=\"55\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">85°</text><text x=\"160\" y=\"50\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">x</text><text x=\"180\" y=\"104\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">B</text><polygon points=\"266,78 332,78 320,44 274,40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"276\" y=\"71\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">75°</text><text x=\"319\" y=\"71\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">120°</text><text x=\"310\" y=\"56\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">90°</text><text x=\"282\" y=\"52\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">x</text><text x=\"300\" y=\"104\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">C</text></svg>",
+   "explanation": "The four angles of a four-sided figure add to 360 degrees, so x is 360 - 290 = 70 in A, 360 - 275 = 85 in B and 360 - 285 = 75 in C. The three given angles take up the most room in A, which is exactly why the angle left over there is the smallest, so ranking the figures by the size of those given angles hands back the true order reversed. Assuming a four-sided figure always has four right angles makes all three equal at 90 degrees. Picking out the largest angle drawn in each figure, 115 then 100 then 120, ranks them B, A, C."
+  },
+  {
+   "id": "ce89ca3b62",
+   "stem": "Examine figures A, B and C. Compare the areas and choose the best answer.",
+   "options": [
+    "The area of B is less than the area of C, and the area of C is less than the area of A.",
+    "The area of A is less than the area of B, and the area of B is less than the area of C.",
+    "The area of C is less than the area of A, and the area of A is less than the area of B.",
+    "The area of A is less than the area of C, and the area of C is less than the area of B."
+   ],
+   "answer": 1,
+   "topic": "Geometric Comparison",
+   "source": "rj_original_2026_expansion",
+   "figure": "<svg viewBox=\"0 0 360 112\" role=\"img\" aria-label=\"Three figures drawn to the same scale. Figure A is a right triangle with a base of 8 cm and a height of 5 cm. Figure B is a semicircle whose straight edge, its diameter, is 8 cm long. Figure C is a parallelogram with a base of 9 cm and a vertical height of 4 cm shown by a dashed line.\"><polygon points=\"40,74 72,74 40,54\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"56\" y=\"87\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">8 cm</text><text x=\"36\" y=\"66\" text-anchor=\"end\" fill=\"currentColor\" font-size=\"11\">5 cm</text><text x=\"56\" y=\"104\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">A</text><path d=\"M 154 74 A 16 16 0 0 1 186 74 Z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"170\" y=\"87\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">8 cm</text><text x=\"170\" y=\"104\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">B</text><polygon points=\"266,74 302,74 314,58 278,58\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"278\" y1=\"58\" x2=\"278\" y2=\"74\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"3 3\"/><text x=\"284\" y=\"87\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">9 cm</text><text x=\"278\" y=\"51\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">4 cm</text><text x=\"290\" y=\"104\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">C</text></svg>",
+   "explanation": "A is a triangle, so its area is one half of 8 x 5 = 20 square centimeters. B is half a circle of radius 4 cm, so its area is one half of pi x 4 x 4, which is a little over 25 square centimeters whichever usual value of pi you use. C is a parallelogram, base times vertical height, so 9 x 4 = 36 square centimeters. The order is A, then B, then C. You get the option that puts B below C below A by forgetting to halve the triangle, which makes A 40. You get the option that puts A below C below B by forgetting to halve the circle, which makes B a little over 50. You get the option that puts C below A below B by halving the parallelogram as though it were a triangle, which makes C 18."
   }
  ]
 }

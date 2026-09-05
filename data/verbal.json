@@ -2112,6 +2112,230 @@
    "topic": "Verbal Logic",
    "source": "rj_original_2026",
    "explanation": "The equality ties Marta to Vidal and the second premise ties Bennett to Adele, but no premise connects either pair to the other."
+  },
+  {
+   "id": "acdc31a781",
+   "stem": "Which word does not belong with the others?",
+   "options": [
+    "Inch",
+    "Meter",
+    "Foot",
+    "Yard"
+   ],
+   "answer": 1,
+   "topic": "Classification",
+   "source": "rj_original_2026_expansion",
+   "explanation": "Inch, foot and yard are all customary units of length. Meter is the metric one, so it is the odd word out. The split is one level below \"units of length\", which is where this question type usually hides — three of the four always belong to the same obvious class."
+  },
+  {
+   "id": "d8d70c460f",
+   "stem": "Which word does not belong with the others?",
+   "options": [
+    "Lion",
+    "Wolf",
+    "Tiger",
+    "Leopard"
+   ],
+   "answer": 1,
+   "topic": "Classification",
+   "source": "rj_original_2026_expansion",
+   "explanation": "The lion, the tiger and the leopard all belong to the cat family. The wolf belongs to the dog family, so it is the one that does not fit. Size does not settle it, since the lion and the tiger are large while the leopard and the wolf are closer in size, and neither does habitat: the split has to be made on which animal family each one belongs to."
+  },
+  {
+   "id": "99925cdd74",
+   "stem": "Which word does not belong with the others?",
+   "options": [
+    "Gigantic",
+    "Enormous",
+    "Expand",
+    "Immense"
+   ],
+   "answer": 2,
+   "topic": "Classification",
+   "source": "rj_original_2026_expansion",
+   "explanation": "Gigantic, enormous and immense are all adjectives meaning very large, and they are close enough in meaning that no line can be drawn between them. Expand is a verb — it names an action rather than describing a size — so it is the odd word out. The split here is grammatical, not about meaning, which is the hardest kind to spot when all four words sit in the same field."
+  },
+  {
+   "id": "44d6b70c00",
+   "stem": "Which word does not belong with the others?",
+   "options": [
+    "Teapot",
+    "Spout",
+    "Handle",
+    "Lid"
+   ],
+   "answer": 0,
+   "topic": "Classification",
+   "source": "rj_original_2026_expansion",
+   "explanation": "The spout, the handle and the lid are all pieces of a teapot. The teapot is the whole thing, so it names the object rather than a part of it."
+  },
+  {
+   "id": "cb2173538d",
+   "stem": "Which word does not belong with the others?",
+   "options": [
+    "Anger",
+    "Emotion",
+    "Envy",
+    "Sorrow"
+   ],
+   "answer": 1,
+   "topic": "Classification",
+   "source": "rj_original_2026_expansion",
+   "explanation": "Anger, envy and sorrow are each one particular feeling. Emotion is the general class that all three of them belong to, not a feeling of its own."
+  },
+  {
+   "id": "123fc8dad6",
+   "stem": "Which word does not belong with the others?",
+   "options": [
+    "Spanish",
+    "Italian",
+    "Latin",
+    "French"
+   ],
+   "answer": 2,
+   "topic": "Classification",
+   "source": "rj_original_2026_expansion",
+   "explanation": "Spanish, Italian and French are modern languages that people speak at home today. Latin is the ancient language the other three grew out of, and it is no longer anyone's first language, so it is the one that does not belong. All four use the same alphabet and all four are studied in schools, so those shared traits are no help."
+  },
+  {
+   "id": "af69f6eb57",
+   "stem": "Which word does not belong with the others?",
+   "options": [
+    "Pine",
+    "Birch",
+    "Willow",
+    "Elm"
+   ],
+   "answer": 0,
+   "topic": "Classification",
+   "source": "rj_original_2026_expansion",
+   "explanation": "All four are trees, so the split has to be narrower. Birch, willow and elm are broadleaf trees that drop their leaves every fall, while a pine is an evergreen that carries needles and cones all year."
+  },
+  {
+   "id": "6105adad63",
+   "stem": "Which word does not belong with the others?",
+   "options": [
+    "Emerald",
+    "Pearl",
+    "Ruby",
+    "Sapphire"
+   ],
+   "answer": 1,
+   "topic": "Classification",
+   "source": "rj_original_2026_expansion",
+   "explanation": "All four are used in jewelry, so the split is one level down. Emerald, ruby and sapphire are gemstones cut and polished out of rock, while a pearl is made inside a living oyster."
+  },
+  {
+   "id": "b62466f6c4",
+   "stem": "Which word does not belong with the others?",
+   "options": [
+    "Bay",
+    "Gulf",
+    "Cove",
+    "Peninsula"
+   ],
+   "answer": 3,
+   "topic": "Classification",
+   "source": "rj_original_2026_expansion",
+   "explanation": "All four name a feature of a coastline. A bay, a gulf and a cove are bodies of water with land curving around them, while a peninsula is the reverse: land with water around it."
+  },
+  {
+   "id": "99e513a229",
+   "stem": "Which word does not belong with the others?",
+   "options": [
+    "Sculpture",
+    "Painter",
+    "Composer",
+    "Author"
+   ],
+   "answer": 0,
+   "topic": "Classification",
+   "source": "rj_original_2026_expansion",
+   "explanation": "A painter, a composer and an author are people who make something. A sculpture is the finished work itself, not the person who made it. The word for the person would be sculptor."
+  },
+  {
+   "id": "bf0a190d5e",
+   "stem": "Which word does not belong with the others?",
+   "options": [
+    "Courteous",
+    "Polite",
+    "Manners",
+    "Gracious"
+   ],
+   "answer": 2,
+   "topic": "Classification",
+   "source": "rj_original_2026_expansion",
+   "explanation": "All four have to do with treating people well, so the split is grammatical. Courteous, polite and gracious are adjectives that describe a person, while manners is a noun naming the behavior itself."
+  },
+  {
+   "id": "08430e4126",
+   "stem": "A wary shopper is:",
+   "options": [
+    "tired",
+    "stingy",
+    "curious",
+    "cautious"
+   ],
+   "answer": 3,
+   "topic": "Synonyms",
+   "source": "rj_original_2026_expansion",
+   "explanation": "Wary means watchful and on guard against being fooled. Tired is the trap, since weary - one letter away - is the word that means tired. Stingy tempts because a careful shopper is often thrifty too, but wary is about suspicion rather than about money."
+  },
+  {
+   "id": "bf2919dba0",
+   "stem": "A vain attempt is:",
+   "options": [
+    "careless",
+    "useless",
+    "conceited",
+    "desperate"
+   ],
+   "answer": 1,
+   "topic": "Synonyms",
+   "source": "rj_original_2026_expansion",
+   "explanation": "A vain attempt is one that produces nothing, as in the phrase in vain. Conceited is the everyday sense of vain, but it describes people and an attempt cannot be conceited. Desperate tempts because a hopeless try often feels frantic, yet vain reports how the attempt ended, not how it felt."
+  },
+  {
+   "id": "a445127124",
+   "stem": "An amiable host is:",
+   "options": [
+    "generous",
+    "talkative",
+    "friendly",
+    "attentive"
+   ],
+   "answer": 2,
+   "topic": "Synonyms",
+   "source": "rj_original_2026_expansion",
+   "explanation": "Amiable means good-natured and easy to get along with; the French ami, meaning friend, sits inside it. Every option here is something a good host might be, which is the point: generous is about what a host gives, attentive is about what a host notices and talkative is about how much a host says. Only friendly is what amiable actually means, and a quiet host can be perfectly amiable."
+  },
+  {
+   "id": "9ade90ade6",
+   "stem": "Bark is to tree as fur is to:",
+   "options": [
+    "warmth",
+    "bear",
+    "den",
+    "winter"
+   ],
+   "answer": 1,
+   "topic": "Analogies",
+   "source": "rj_original_2026_expansion",
+   "explanation": "The relation is the outer covering to the living thing it covers. Bark covers a tree, and fur covers a bear. Every wrong option is true of fur in some way — fur gives warmth, a bear sleeps in a den, and fur matters most in winter — but none of them is the thing the fur is on."
+  },
+  {
+   "id": "27651415fc",
+   "stem": "A dubious claim is:",
+   "options": [
+    "false",
+    "risky",
+    "doubtful",
+    "dishonest"
+   ],
+   "answer": 2,
+   "topic": "Synonyms",
+   "source": "rj_original_2026_expansion",
+   "explanation": "Dubious means open to doubt, so a dubious claim is a doubtful one. False overshoots: it settles the question the word deliberately leaves open, since a dubious claim may still turn out to be true. Dishonest moves the doubt from the claim to the speaker and adds an intent to deceive that the word does not carry. Risky confuses dubious with dangerous, the sense a reader might guess from a phrase like a dubious decision."
   }
  ]
 }

@@ -73,17 +73,17 @@
   },
   {
    "id": "db2596076b",
-   "stem": "What is the least common multiple of 12 and 18?",
+   "stem": "What is the least common multiple of 10 and 15?",
    "options": [
-    "36",
-    "72",
-    "6",
-    "216"
+    "150",
+    "30",
+    "5",
+    "60"
    ],
-   "answer": 0,
+   "answer": 1,
    "topic": "Number Sense",
    "source": "rj_original_2026",
-   "explanation": "\\(12=2^2\\times3\\) and \\(18=2\\times3^2\\), so the least common multiple is \\(2^2\\times3^2=36\\). The choice 6 is the greatest common factor instead, 216 is the plain product \\(12\\times18\\) and 72 is a common multiple but not the least one."
+   "explanation": "\\(10=2\\times5\\) and \\(15=3\\times5\\), so the least common multiple is \\(2\\times3\\times5=30\\). The choice 5 is the greatest common factor instead of the least common multiple, 150 is the plain product \\(10\\times15\\), and 60 is a common multiple of both but not the least one."
   },
   {
    "id": "aa6065c53c",
@@ -577,17 +577,17 @@
   },
   {
    "id": "5a6d18f3c4",
-   "stem": "If \\(0 < x < 1\\), which statement must be true?",
+   "stem": "If \\(5x + 8 = 38\\), what is the value of \\(3x - 4\\)?",
    "options": [
-    "\\(\\sqrt{x} < x\\)",
-    "\\(x^2 > x\\)",
-    "\\(\\frac{1}{x} < x\\)",
-    "\\(x^2 < x\\)"
+    "6",
+    "14",
+    "18",
+    "22"
    ],
-   "answer": 3,
+   "answer": 1,
    "topic": "Algebra",
    "source": "rj_original_2026",
-   "explanation": "Test a value such as \\(\\frac{1}{2}\\): squaring it gives \\(\\frac{1}{4}\\), which is smaller. \\(x^2 > x\\) assumes squaring always makes a number bigger; \\(\\sqrt{x} < x\\) assumes a square root always makes it smaller, but here \\(\\sqrt{x}\\) is larger; \\(\\frac{1}{x} < x\\) forgets that the reciprocal of a number below 1 is greater than 1."
+   "explanation": "Solve first: \\(5x + 8 = 38\\) gives \\(5x = 30\\) and \\(x = 6\\). The question asks for \\(3x - 4\\), which is \\(3(6) - 4 = 18 - 4 = 14\\). You get six by solving for \\(x\\) correctly and then answering with \\(x\\) instead of the expression the question asks about. You get 18 by working out \\(3x\\) and forgetting to subtract the four. You get 22 by adding four instead of subtracting it."
   },
   {
    "id": "e28b40d915",
@@ -643,7 +643,8 @@
    "answer": 3,
    "topic": "Geometry and Measurement",
    "source": "rj_original_2026",
-   "explanation": "A side is \\(\\sqrt{64} = 8\\) feet, and four sides give 32 feet. Choosing 8 answers the intermediate step, the side length; 16 doubles the side instead of taking all four; 256 multiplies the area by 4 rather than the side."
+   "explanation": "A side is \\(\\sqrt{64} = 8\\) feet, and four sides give 32 feet. Choosing 8 answers the intermediate step, the side length; 16 doubles the side instead of taking all four; 256 multiplies the area by 4 rather than the side.",
+   "figure": "<svg viewBox=\"0 0 360 146\" role=\"img\" aria-label=\"A square. The area inside the square is labelled 64 square feet. The side lengths are not labelled.\"><rect x=\"125\" y=\"18\" width=\"110\" height=\"110\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"180\" y=\"68\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">Area =</text><text x=\"180\" y=\"86\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">64 sq ft</text></svg>"
   },
   {
    "id": "a94b6f210d",
@@ -657,7 +658,8 @@
    "answer": 2,
    "topic": "Geometry and Measurement",
    "source": "rj_original_2026",
-   "explanation": "Area is \\(\\frac{1}{2}\\times14\\times9 = 63\\). Choosing 126 forgets to halve the product; 23 adds the base and height instead of multiplying; 46 computes \\(2(14+9)\\), a perimeter formula rather than an area formula."
+   "explanation": "Area is \\(\\frac{1}{2}\\times14\\times9 = 63\\). Choosing 126 forgets to halve the product; 23 adds the base and height instead of multiplying; 46 computes \\(2(14+9)\\), a perimeter formula rather than an area formula.",
+   "figure": "<svg viewBox=\"0 0 360 146\" role=\"img\" aria-label=\"A triangle with a base of 14 inches. A dashed height of 9 inches is drawn from the top vertex straight down to the base, meeting it at a right angle.\"><polygon points=\"105,114 255,114 165,18\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"165\" y1=\"18\" x2=\"165\" y2=\"114\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\"/><path d=\"M165,102 L177,102 L177,114\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"180\" y=\"130\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">14 in</text><text x=\"171\" y=\"62\" text-anchor=\"start\" fill=\"currentColor\" font-size=\"11\">9 in</text></svg>"
   },
   {
    "id": "06f2c8b37e",
@@ -671,7 +673,8 @@
    "answer": 2,
    "topic": "Geometry and Measurement",
    "source": "rj_original_2026",
-   "explanation": "Area is base times height, \\(12\\times5 = 60\\). Choosing 84 uses the 7-meter slanted side in place of the height; 30 halves the product as if the figure were a triangle; 38 is the perimeter \\(2(12+7)\\)."
+   "explanation": "Area is base times height, \\(12\\times5 = 60\\). Choosing 84 uses the 7-meter slanted side in place of the height; 30 halves the product as if the figure were a triangle; 38 is the perimeter \\(2(12+7)\\).",
+   "figure": "<svg viewBox=\"0 0 360 140\" role=\"img\" aria-label=\"A parallelogram with a base of 12 meters and a slanted side of 7 meters. A dashed height of 5 meters is drawn inside from the top left vertex straight down to the base, meeting it at a right angle.\"><polygon points=\"75,112 225,112 286,50 136,50\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"136\" y1=\"50\" x2=\"136\" y2=\"112\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\"/><path d=\"M136,100 L148,100 L148,112\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"150\" y=\"128\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">12 m</text><text x=\"268\" y=\"84\" text-anchor=\"start\" fill=\"currentColor\" font-size=\"11\">7 m</text><text x=\"142\" y=\"88\" text-anchor=\"start\" fill=\"currentColor\" font-size=\"11\">5 m</text></svg>"
   },
   {
    "id": "db85310e4c",
@@ -685,7 +688,8 @@
    "answer": 2,
    "topic": "Geometry and Measurement",
    "source": "rj_original_2026",
-   "explanation": "The whole rectangle is 80 square feet and the cut-out corner is 12 square feet, leaving 68. Choosing 80 forgets to remove the corner; 92 adds the corner instead of subtracting it; 56 removes a 3-foot by 8-foot strip by using the wrong second dimension."
+   "explanation": "The whole rectangle is 80 square feet and the cut-out corner is 12 square feet, leaving 68. Choosing 80 forgets to remove the corner; 92 adds the corner instead of subtracting it; 56 removes a 3-foot by 8-foot strip by using the wrong second dimension.",
+   "figure": "<svg viewBox=\"0 0 360 162\" role=\"img\" aria-label=\"An L-shaped room formed by cutting a corner out of a rectangle. The full width across the bottom is 10 feet and the full height up the left side is 8 feet. The cut-out corner measures 4 feet across and 3 feet down.\"><polygon points=\"105,14 195,14 195,59 255,59 255,134 105,134\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"180\" y=\"150\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">10 ft</text><text x=\"99\" y=\"80\" text-anchor=\"end\" fill=\"currentColor\" font-size=\"11\">8 ft</text><text x=\"201\" y=\"36\" text-anchor=\"start\" fill=\"currentColor\" font-size=\"11\">3 ft</text><text x=\"225\" y=\"53\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">4 ft</text></svg>"
   },
   {
    "id": "2f4a97c60b",
@@ -699,7 +703,8 @@
    "answer": 1,
    "topic": "Geometry and Measurement",
    "source": "rj_original_2026",
-   "explanation": "Circumference is \\(\\pi d\\), so it is \\(18\\pi\\). Choosing \\(36\\pi\\) treats the 18 as the radius in \\(2\\pi r\\); \\(9\\pi\\) puts the radius into \\(\\pi d\\); \\(81\\pi\\) is the area, \\(\\pi r^2\\) with \\(r = 9\\)."
+   "explanation": "Circumference is \\(\\pi d\\), so it is \\(18\\pi\\). Choosing \\(36\\pi\\) treats the 18 as the radius in \\(2\\pi r\\); \\(9\\pi\\) puts the radius into \\(\\pi d\\); \\(81\\pi\\) is the area, \\(\\pi r^2\\) with \\(r = 9\\).",
+   "figure": "<svg viewBox=\"0 0 360 136\" role=\"img\" aria-label=\"A circle with a dashed diameter drawn across it, labelled 18 centimeters.\"><circle cx=\"180\" cy=\"68\" r=\"54\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"126\" y1=\"68\" x2=\"234\" y2=\"68\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\"/><text x=\"180\" y=\"62\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">18 cm</text></svg>"
   },
   {
    "id": "8b03e5da19",
@@ -713,7 +718,8 @@
    "answer": 1,
    "topic": "Geometry and Measurement",
    "source": "rj_original_2026",
-   "explanation": "The radius is 6, so the full circle is \\(36\\pi\\) and half of it is \\(18\\pi\\). Choosing \\(36\\pi\\) forgets to halve; \\(72\\pi\\) uses the diameter as the radius before halving; \\(12\\pi\\) is the circumference of the full circle, not an area."
+   "explanation": "The radius is 6, so the full circle is \\(36\\pi\\) and half of it is \\(18\\pi\\). Choosing \\(36\\pi\\) forgets to halve; \\(72\\pi\\) uses the diameter as the radius before halving; \\(12\\pi\\) is the circumference of the full circle, not an area.",
+   "figure": "<svg viewBox=\"0 0 360 134\" role=\"img\" aria-label=\"A semicircle. Its flat side, the diameter, is labelled 12 inches.\"><path d=\"M120,104 A60,60 0 0 1 240,104 Z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"180\" y=\"120\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">12 in</text></svg>"
   },
   {
    "id": "5e7c1b40f2",
@@ -727,7 +733,8 @@
    "answer": 1,
    "topic": "Geometry and Measurement",
    "source": "rj_original_2026",
-   "explanation": "The three angles add to \\(180^{\\circ}\\), and \\(180 - 115 = 65\\). Choosing \\(115^{\\circ}\\) answers the intermediate step, the sum of the two given angles; \\(133^{\\circ}\\) subtracts only the \\(47^{\\circ}\\); \\(245^{\\circ}\\) subtracts from \\(360^{\\circ}\\), the sum for a quadrilateral."
+   "explanation": "The three angles add to \\(180^{\\circ}\\), and \\(180 - 115 = 65\\). Choosing \\(115^{\\circ}\\) answers the intermediate step, the sum of the two given angles; \\(133^{\\circ}\\) subtracts only the \\(47^{\\circ}\\); \\(245^{\\circ}\\) subtracts from \\(360^{\\circ}\\), the sum for a quadrilateral.",
+   "figure": "<svg viewBox=\"0 0 360 158\" role=\"img\" aria-label=\"A triangle with one angle measuring 47 degrees, a second angle measuring 68 degrees, and the third angle marked with a question mark. Not drawn to scale.\"><polygon points=\"80,120 280,120 150,34\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M102,120 A22,22 0 0 0 93.9,102.9\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M258,120 A22,22 0 0 1 261.7,107.9\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M136.1,51.1 A22,22 0 0 0 168.3,46.1\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"116.1\" y=\"106.8\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">47&#176;</text><text x=\"241.7\" y=\"112.5\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">68&#176;</text><text x=\"156.3\" y=\"79.5\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">?</text><text x=\"180\" y=\"148\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">Not drawn to scale</text></svg>"
   },
   {
    "id": "c1a806d3be",
@@ -741,7 +748,8 @@
    "answer": 0,
    "topic": "Geometry and Measurement",
    "source": "rj_original_2026",
-   "explanation": "The angles of a quadrilateral add to \\(360^{\\circ}\\), and \\(360 - 280 = 80\\). Choosing \\(280^{\\circ}\\) answers the intermediate sum; \\(260^{\\circ}\\) subtracts from \\(540^{\\circ}\\), the total for a pentagon; \\(90^{\\circ}\\) assumes the leftover angle in a four-sided figure must be a right angle."
+   "explanation": "The angles of a quadrilateral add to \\(360^{\\circ}\\), and \\(360 - 280 = 80\\). Choosing \\(280^{\\circ}\\) answers the intermediate sum; \\(260^{\\circ}\\) subtracts from \\(540^{\\circ}\\), the total for a pentagon; \\(90^{\\circ}\\) assumes the leftover angle in a four-sided figure must be a right angle.",
+   "figure": "<svg viewBox=\"0 0 360 162\" role=\"img\" aria-label=\"A four-sided figure with three angles measuring 100 degrees, 85 degrees and 95 degrees, and a fourth angle marked with a question mark. Not drawn to scale.\"><polygon points=\"75,120 285,116 272,38 92,44\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M79.8,98.5 A22,22 0 0 1 97,119.6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M263,116.4 A22,22 0 0 1 281.4,94.3\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M275.6,59.7 A22,22 0 0 1 250,38.7\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M114,43.3 A22,22 0 0 1 87.2,65.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"106\" y=\"98.7\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">100&#176;</text><text x=\"254.2\" y=\"94.4\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">85&#176;</text><text x=\"246.7\" y=\"72.9\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">95&#176;</text><text x=\"117.5\" y=\"78.8\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">?</text><text x=\"180\" y=\"152\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">Not drawn to scale</text></svg>"
   },
   {
    "id": "39fb2e70ad",
@@ -1189,7 +1197,8 @@
    "answer": 0,
    "topic": "Geometry and Measurement",
    "source": "rj_original_2026",
-   "explanation": "Half the perimeter is 23, so the width is \\(23-14=9\\) and the area is \\(14\\times9=126\\). The choice 252 uses 18 as the width, forgetting that the perimeter counts each width twice; 322 multiplies the length by the half-perimeter 23; and 448 uses \\(46-14=32\\) as the width."
+   "explanation": "Half the perimeter is 23, so the width is \\(23-14=9\\) and the area is \\(14\\times9=126\\). The choice 252 uses 18 as the width, forgetting that the perimeter counts each width twice; 322 multiplies the length by the half-perimeter 23; and 448 uses \\(46-14=32\\) as the width.",
+   "figure": "<svg viewBox=\"0 0 360 158\" role=\"img\" aria-label=\"A rectangle. The length across the bottom is labelled 14 centimeters and the perimeter of 46 centimeters is given inside the figure. The width is not labelled. Not drawn to scale.\"><rect x=\"95\" y=\"22\" width=\"170\" height=\"90\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"180\" y=\"72\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">Perimeter = 46 cm</text><text x=\"180\" y=\"128\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">14 cm</text><text x=\"180\" y=\"146\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">Not drawn to scale</text></svg>"
   },
   {
    "id": "dd0c7047c5",
@@ -1203,7 +1212,8 @@
    "answer": 0,
    "topic": "Geometry and Measurement",
    "source": "rj_original_2026",
-   "explanation": "Volume is \\(8\\times5\\times3=120\\). The choice 158 is the surface area, \\(2(40+24+15)\\); 40 multiplies only two of the three dimensions; and 16 adds the dimensions instead of multiplying them."
+   "explanation": "Volume is \\(8\\times5\\times3=120\\). The choice 158 is the surface area, \\(2(40+24+15)\\); 40 multiplies only two of the three dimensions; and 16 adds the dimensions instead of multiplying them.",
+   "figure": "<svg viewBox=\"0 0 360 148\" role=\"img\" aria-label=\"A rectangular shipping box drawn in three dimensions with its hidden edges dashed. It is 8 inches long across the front, 5 inches deep, and 3 inches tall.\"><rect x=\"100\" y=\"72\" width=\"128\" height=\"48\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polyline points=\"100,72 134,38 262,38 228,72\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polyline points=\"262,38 262,86 228,120\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M134,38 L134,86 L262,86 M134,86 L100,72\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\"/><text x=\"164\" y=\"136\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">8 in</text><text x=\"94\" y=\"100\" text-anchor=\"end\" fill=\"currentColor\" font-size=\"11\">3 in</text><text x=\"252\" y=\"110\" text-anchor=\"start\" fill=\"currentColor\" font-size=\"11\">5 in</text></svg>"
   },
   {
    "id": "49f2c1aefe",
@@ -1217,7 +1227,8 @@
    "answer": 0,
    "topic": "Geometry and Measurement",
    "source": "rj_original_2026",
-   "explanation": "Since \\(C=2\\pi r\\), the radius is 7 and the area is \\(\\pi(7)^2=49\\pi\\). The choice \\(196\\pi\\) squares 14 as though 14 were the radius, \\(28\\pi\\) doubles the circumference instead of halving it to reach the radius, and \\(7\\pi\\) finds the radius but multiplies by \\(\\pi\\) rather than squaring it."
+   "explanation": "Since \\(C=2\\pi r\\), the radius is 7 and the area is \\(\\pi(7)^2=49\\pi\\). The choice \\(196\\pi\\) squares 14 as though 14 were the radius, \\(28\\pi\\) doubles the circumference instead of halving it to reach the radius, and \\(7\\pi\\) finds the radius but multiplies by \\(\\pi\\) rather than squaring it.",
+   "figure": "<svg viewBox=\"0 0 360 152\" role=\"img\" aria-label=\"A circle labelled with a circumference of 14 pi inches. The radius is not drawn.\"><circle cx=\"180\" cy=\"72\" r=\"52\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"180\" y=\"140\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">Circumference = 14&#960; in</text></svg>"
   },
   {
    "id": "2323801f5b",
@@ -1231,7 +1242,8 @@
    "answer": 1,
    "topic": "Geometry and Measurement",
    "source": "rj_original_2026",
-   "explanation": "The two equal base angles share the remaining \\(180-40=140\\) degrees, so each is \\(70^{\\circ}\\). The choice \\(140^{\\circ}\\) gives the two base angles together rather than one of them, \\(50^{\\circ}\\) subtracts from \\(90^{\\circ}\\), and \\(20^{\\circ}\\) halves the vertex angle instead of the remainder."
+   "explanation": "The two equal base angles share the remaining \\(180-40=140\\) degrees, so each is \\(70^{\\circ}\\). The choice \\(140^{\\circ}\\) gives the two base angles together rather than one of them, \\(50^{\\circ}\\) subtracts from \\(90^{\\circ}\\), and \\(20^{\\circ}\\) halves the vertex angle instead of the remainder.",
+   "figure": "<svg viewBox=\"0 0 360 140\" role=\"img\" aria-label=\"An isosceles triangle with its vertex angle at the top marked 40 degrees. Small tick marks on the two slanted sides show that those sides are equal. The two base angles at the bottom are not labelled.\"><polygon points=\"180,26 213,116 147,116\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M 170.4 52.3 A 28 28 0 0 0 189.6 52.3\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"158.8\" y1=\"69.3\" x2=\"168.2\" y2=\"72.7\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"191.8\" y1=\"69.3\" x2=\"201.2\" y2=\"72.7\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"180\" y=\"88\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">40&#176;</text></svg>"
   },
   {
    "id": "49a902aece",
@@ -1245,7 +1257,8 @@
    "answer": 3,
    "topic": "Geometry and Measurement",
    "source": "rj_original_2026",
-   "explanation": "The curved edge is half of \\(10\\pi\\), or \\(5\\pi\\), and the straight edge adds 10 more centimeters. The choice \\(10\\pi\\) gives the circumference of the whole circle, \\(5\\pi\\) leaves the straight edge out, and \\(5\\pi+5\\) adds the radius instead of the diameter."
+   "explanation": "The curved edge is half of \\(10\\pi\\), or \\(5\\pi\\), and the straight edge adds 10 more centimeters. The choice \\(10\\pi\\) gives the circumference of the whole circle, \\(5\\pi\\) leaves the straight edge out, and \\(5\\pi+5\\) adds the radius instead of the diameter.",
+   "figure": "<svg viewBox=\"0 0 360 118\" role=\"img\" aria-label=\"A semicircle. Its straight edge, the diameter across the bottom, is labelled 10 centimeters. The curved edge is the half circle above it.\"><path d=\"M 122 88 A 58 58 0 0 1 238 88 Z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"180\" y=\"104\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">10 cm</text></svg>"
   },
   {
    "id": "b10e4aa41b",
@@ -1259,7 +1272,8 @@
    "answer": 2,
    "topic": "Geometry and Measurement",
    "source": "rj_original_2026",
-   "explanation": "Each side is \\(12\\div3=4\\) yards and \\(9\\div3=3\\) yards, so the area is 12 square yards. The choice 108 gives the area in square feet, 36 divides those 108 square feet by 3 instead of by 9, and 324 multiplies by 3 rather than dividing."
+   "explanation": "Each side is \\(12\\div3=4\\) yards and \\(9\\div3=3\\) yards, so the area is 12 square yards. The choice 108 gives the area in square feet, 36 divides those 108 square feet by 3 instead of by 9, and 324 multiplies by 3 rather than dividing.",
+   "figure": "<svg viewBox=\"0 0 360 140\" role=\"img\" aria-label=\"A rectangular patio drawn as a rectangle, 12 feet along the bottom and 9 feet along the side.\"><rect x=\"120\" y=\"22\" width=\"120\" height=\"90\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"180\" y=\"128\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">12 feet</text><text x=\"248\" y=\"72\" text-anchor=\"start\" fill=\"currentColor\" font-size=\"11\">9 feet</text></svg>"
   },
   {
    "id": "2cb9c35bd3",
@@ -1273,7 +1287,8 @@
    "answer": 1,
    "topic": "Geometry and Measurement",
    "source": "rj_original_2026",
-   "explanation": "The nine parts share \\(180^{\\circ}\\), so one part is \\(20^{\\circ}\\) and the largest angle is \\(4\\times20=80\\) degrees. The choice \\(90^{\\circ}\\) assumes the largest angle of a triangle must be a right angle, \\(40^{\\circ}\\) gives the smallest angle, and \\(160^{\\circ}\\) shares \\(360^{\\circ}\\) among the nine parts."
+   "explanation": "The nine parts share \\(180^{\\circ}\\), so one part is \\(20^{\\circ}\\) and the largest angle is \\(4\\times20=80\\) degrees. The choice \\(90^{\\circ}\\) assumes the largest angle of a triangle must be a right angle, \\(40^{\\circ}\\) gives the smallest angle, and \\(160^{\\circ}\\) shares \\(360^{\\circ}\\) among the nine parts.",
+   "figure": "<svg viewBox=\"0 0 360 150\" role=\"img\" aria-label=\"A triangle whose three angles are labelled 2x, 3x and 4x, one at each vertex. No angle is given in degrees. Not drawn to scale.\"><polygon points=\"100,120 260,120 208,30\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"133\" y=\"113\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">2x</text><text x=\"237\" y=\"111\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">3x</text><text x=\"204\" y=\"57\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">4x</text><text x=\"180\" y=\"142\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">Not drawn to scale</text></svg>"
   },
   {
    "id": "2918e87ced",
@@ -1287,7 +1302,8 @@
    "answer": 3,
    "topic": "Geometry and Measurement",
    "source": "rj_original_2026",
-   "explanation": "Each of the six faces has an area of 16 square inches, and \\(6\\times16=96\\). The choice 64 is the volume \\(4^3\\), 16 is the area of one face only, and 24 multiplies the six faces by the edge length instead of by the area of a face."
+   "explanation": "Each of the six faces has an area of 16 square inches, and \\(6\\times16=96\\). The choice 64 is the volume \\(4^3\\), 16 is the area of one face only, and 24 multiplies the six faces by the edge length instead of by the area of a face.",
+   "figure": "<svg viewBox=\"0 0 360 162\" role=\"img\" aria-label=\"A cube drawn in three dimensions, with its three hidden edges shown as dashed lines. One edge along the bottom front is labelled 4 inches; every edge of a cube is the same length.\"><rect x=\"123\" y=\"58\" width=\"80\" height=\"80\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"157\" y1=\"24\" x2=\"237\" y2=\"24\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"237\" y1=\"24\" x2=\"237\" y2=\"104\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"123\" y1=\"58\" x2=\"157\" y2=\"24\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"203\" y1=\"58\" x2=\"237\" y2=\"24\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"203\" y1=\"138\" x2=\"237\" y2=\"104\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"157\" y1=\"24\" x2=\"157\" y2=\"104\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\"/><line x1=\"157\" y1=\"104\" x2=\"237\" y2=\"104\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\"/><line x1=\"123\" y1=\"138\" x2=\"157\" y2=\"104\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\"/><text x=\"163\" y=\"152\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">4 in</text></svg>"
   },
   {
    "id": "46de6d7cdf",
@@ -1315,7 +1331,8 @@
    "answer": 0,
    "topic": "Geometry and Measurement",
    "source": "rj_original_2026",
-   "explanation": "From \\(54=\\frac{1}{2}\\times12\\times h\\) the height is \\(108\\div12=9\\) inches. The choice 4.5 divides the area by the base without doubling it first, 108 doubles the area but never divides by the base, and 42 subtracts the base from the area."
+   "explanation": "From \\(54=\\frac{1}{2}\\times12\\times h\\) the height is \\(108\\div12=9\\) inches. The choice 4.5 divides the area by the base without doubling it first, 108 doubles the area but never divides by the base, and 42 subtracts the base from the area.",
+   "figure": "<svg viewBox=\"0 0 360 166\" role=\"img\" aria-label=\"A triangle with a base labelled 12 inches and an area of 54 square inches. A dashed line runs from the top vertex straight down to the base, meeting it at a right angle, to show the height. The height is not labelled.\"><polygon points=\"120,120 240,120 165,30\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"165\" y1=\"30\" x2=\"165\" y2=\"120\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\"/><path d=\"M 165 110 L 175 110 L 175 120\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"180\" y=\"136\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">12 in</text><text x=\"180\" y=\"153\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">Area = 54 sq in</text></svg>"
   },
   {
    "id": "3657123b55",
@@ -1329,7 +1346,8 @@
    "answer": 0,
    "topic": "Geometry and Measurement",
    "source": "rj_original_2026",
-   "explanation": "From \\(\\pi r^2=36\\pi\\) the radius is 6, so the diameter is 12 meters. The choice 6 stops at the radius, 18 halves 36 as though the area were twice the radius, and 36 never takes the square root at all."
+   "explanation": "From \\(\\pi r^2=36\\pi\\) the radius is 6, so the diameter is 12 meters. The choice 6 stops at the radius, 18 halves 36 as though the area were twice the radius, and 36 never takes the square root at all.",
+   "figure": "<svg viewBox=\"0 0 360 138\" role=\"img\" aria-label=\"A circle with its area written inside it as 36 pi square meters. No radius or diameter is drawn.\"><circle cx=\"180\" cy=\"64\" r=\"48\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"180\" y=\"130\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">Area = 36&#960; sq m</text></svg>"
   },
   {
    "id": "ce757abe9b",
@@ -1792,6 +1810,555 @@
    "topic": "Algebra",
    "source": "rj_original_2026",
    "explanation": "Subtracting six gives \\(\\frac{n}{2}=8\\), and doubling gives \\(n=16\\). The choice 4 halves the 8 instead of doubling it, 22 reads the sentence as one-half of the quantity \\(n+6\\), and 28 doubles the 14 without subtracting the six first."
+  },
+  {
+   "id": "268c3ccb6a",
+   "stem": "In the number \\(8{,}204.539\\), what is the value of the digit 2?",
+   "options": [
+    "2,000",
+    "20",
+    "200",
+    "0.2"
+   ],
+   "answer": 2,
+   "topic": "Number Sense",
+   "source": "rj_original_2026_expansion",
+   "explanation": "Counting left from the decimal point, the places are ones, tens, hundreds, so the 2 stands for 200. The choice 2,000 shifts one place too far left, which is where the 8 sits; 20 shifts one place too far right, which is the 0; and 0.2 reads the digit as though it came after the decimal point."
+  },
+  {
+   "id": "c56d5d2301",
+   "stem": "Which of these is \\(40.506\\) written in words?",
+   "options": [
+    "Forty and five hundred six thousandths",
+    "Forty and five hundred six hundredths",
+    "Four and five hundred six thousandths",
+    "Forty and fifty-six thousandths"
+   ],
+   "answer": 0,
+   "topic": "Number Sense",
+   "source": "rj_original_2026_expansion",
+   "explanation": "Three digits after the decimal point means the last place is thousandths, so 0.506 is five hundred six thousandths. The hundredths version names the wrong final place, which would need only two decimal digits; \"four\" misreads the whole-number part; and \"fifty-six thousandths\" drops the zero in the tenths place, which describes 40.056."
+  },
+  {
+   "id": "1587ab6f23",
+   "stem": "Which of these is the prime factorization of 180?",
+   "options": [
+    "\\(2\\times3^2\\times5\\)",
+    "\\(2^2\\times3\\times5\\)",
+    "\\(4\\times9\\times5\\)",
+    "\\(2^2\\times3^2\\times5\\)"
+   ],
+   "answer": 3,
+   "topic": "Number Sense",
+   "source": "rj_original_2026_expansion",
+   "explanation": "\\(180=2\\times2\\times3\\times3\\times5\\), which is \\(2^2\\times3^2\\times5\\). The choice \\(2\\times3^2\\times5\\) drops one factor of 2 and equals 90; \\(2^2\\times3\\times5\\) drops one factor of 3 and equals 60; and \\(4\\times9\\times5\\) does multiply to 180 but 4 and 9 are not prime, so the factoring is not finished."
+  },
+  {
+   "id": "94a1b6bbec",
+   "stem": "How many different whole numbers are factors of 36?",
+   "options": [
+    "8",
+    "9",
+    "10",
+    "7"
+   ],
+   "answer": 1,
+   "topic": "Number Sense",
+   "source": "rj_original_2026_expansion",
+   "explanation": "The factors are 1, 2, 3, 4, 6, 9, 12, 18 and 36, so there are nine of them. The choice 10 counts 6 twice, once from each side of the pair \\(6\\times6\\); 8 leaves out 36 itself; and 7 leaves out both 1 and 36."
+  },
+  {
+   "id": "a20673d761",
+   "stem": "What is the least whole number greater than 1 that leaves a remainder of 1 when it is divided by 4 and also a remainder of 1 when it is divided by 6?",
+   "options": [
+    "12",
+    "25",
+    "13",
+    "11"
+   ],
+   "answer": 2,
+   "topic": "Number Sense",
+   "source": "rj_original_2026_expansion",
+   "explanation": "The least common multiple of 4 and 6 is 12, and one more than a common multiple leaves a remainder of 1 each time, so the number is 13. The choice 12 stops at the common multiple, which leaves no remainder at all; 25 uses \\(4\\times6=24\\) instead of the least common multiple; and 11 subtracts one from 12 instead of adding one."
+  },
+  {
+   "id": "a558aaf3c3",
+   "stem": "\\(\\sqrt{150}\\) is closest to which whole number?",
+   "options": [
+    "12",
+    "13",
+    "11",
+    "75"
+   ],
+   "answer": 0,
+   "topic": "Number Sense",
+   "source": "rj_original_2026_expansion",
+   "explanation": "\\(12^2=144\\) and \\(13^2=169\\). Since 150 is only 6 above 144 but 19 below 169, the square root is closer to 12. The choice 13 rounds up simply because 150 is larger than 144, without comparing the two gaps; 11 uses \\(11^2=121\\); and 75 halves 150 instead of taking a square root."
+  },
+  {
+   "id": "2614cbffcc",
+   "stem": "Which of these numbers lies between \\(-\\frac{3}{4}\\) and \\(-\\frac{1}{4}\\) on the number line?",
+   "options": [
+    "\\(-0.9\\)",
+    "\\(-0.2\\)",
+    "\\(0.5\\)",
+    "\\(-0.5\\)"
+   ],
+   "answer": 3,
+   "topic": "Number Sense",
+   "source": "rj_original_2026_expansion",
+   "explanation": "The two endpoints are \\(-0.75\\) and \\(-0.25\\), and \\(-0.5\\) sits between them. The choice \\(-0.9\\) is below \\(-0.75\\) and is picked by comparing 0.9 with 0.75 as though both were positive; \\(-0.2\\) is above \\(-0.25\\) for the same reason; and 0.5 has the right distance from zero but the wrong sign."
+  },
+  {
+   "id": "0d0d9eaa0a",
+   "stem": "Which of these has a value greater than 9?",
+   "options": [
+    "\\(9\\times0.9\\)",
+    "\\(9\\div0.9\\)",
+    "\\(9\\div1.8\\)",
+    "\\(0.9\\div9\\)"
+   ],
+   "answer": 1,
+   "topic": "Number Sense",
+   "source": "rj_original_2026_expansion",
+   "explanation": "Dividing by a number less than 1 asks how many of that small piece fit into the whole, so the result is larger than the number you started with: \\(9\\div0.9=10\\), which is greater than 9. Choice \\(9\\times0.9=8.1\\) comes from assuming that multiplying always makes a number larger; multiplying by a number less than 1 makes it smaller. Choice \\(9\\div1.8=5\\) comes from assuming that dividing by a decimal always makes a number larger; 1.8 is greater than 1, so dividing by it shrinks the number. Choice \\(0.9\\div9=0.1\\) comes from reversing the dividend and the divisor, dividing the small number by the large one."
+  },
+  {
+   "id": "8d3e93e9e4",
+   "stem": "Which of these has the greatest value?",
+   "options": [
+    "\\(0.61\\)",
+    "62%",
+    "\\(\\frac{5}{8}\\)",
+    "\\(\\frac{3}{5}\\)"
+   ],
+   "answer": 2,
+   "topic": "Number Sense",
+   "source": "rj_original_2026_expansion",
+   "explanation": "Put them all in the same form: \\(0.61\\), \\(62\\%=0.62\\), \\(\\frac{5}{8}=0.625\\) and \\(\\frac{3}{5}=0.6\\). So \\(\\frac{5}{8}\\) is the greatest. 62% tempts anyone who estimates \\(\\frac{5}{8}\\) as \"about six tenths\" instead of dividing it out. \\(0.61\\) tempts a student who compares the two decimals to each other and never converts the fractions. \\(\\frac{3}{5}\\) tempts a student who reads \\(\\frac{5}{8}\\) as \"a bit over a half\" and settles for the fraction they can picture."
+  },
+  {
+   "id": "9b97f0c15a",
+   "stem": "Which of these numbers is divisible by both 3 and 4?",
+   "options": [
+    "126",
+    "132",
+    "128",
+    "122"
+   ],
+   "answer": 1,
+   "topic": "Number Sense",
+   "source": "rj_original_2026_expansion",
+   "explanation": "The digits of 132 add to 6, a multiple of 3, and its last two digits, 32, make a multiple of 4, so \\(132=3\\times44=4\\times33\\). The choice 126 passes the digit-sum test for 3 and is even, but even is not the same as divisible by 4, since 26 is not a multiple of 4; 128 is divisible by 4 but its digits add to 11, so it fails the test for 3; and 122 is only even, failing both tests."
+  },
+  {
+   "id": "37f919be4b",
+   "stem": "Simplify: \\(18-3^2\\div3+4\\)",
+   "options": [
+    "19",
+    "11",
+    "7",
+    "20"
+   ],
+   "answer": 0,
+   "topic": "Computation",
+   "source": "rj_original_2026_expansion",
+   "explanation": "The exponent goes first: \\(3^2=9\\). Then \\(9\\div3=3\\), leaving \\(18-3+4=19\\). The choice 11 adds the last two terms first and computes \\(18-(3+4)\\); 7 subtracts before dividing, as \\((18-9)\\div3+4\\); and 20 treats \\(3^2\\) as \\(3\\times2=6\\), giving \\(18-2+4\\)."
+  },
+  {
+   "id": "a57281bb60",
+   "stem": "If \\(m=-2\\) and \\(n=\\frac{3}{4}\\), what is the value of \\(8n-m^3\\)?",
+   "options": [
+    "\\(-2\\)",
+    "12",
+    "\\(-14\\)",
+    "14"
+   ],
+   "answer": 3,
+   "topic": "Computation",
+   "source": "rj_original_2026_expansion",
+   "explanation": "\\(8\\times\\frac{3}{4}=6\\) and \\((-2)^3=-8\\), so the expression is \\(6-(-8)=14\\). The choice \\(-2\\) drops the double negative and computes \\(6-8\\); 12 treats \\(m^3\\) as \\(-6\\), multiplying by 3 instead of cubing; and \\(-14\\) subtracts in the wrong order, as \\(m^3-8n=-8-6\\)."
+  },
+  {
+   "id": "00594d11e4",
+   "stem": "A relay team of five runners finished a race in 21 minutes 40 seconds. If each runner took exactly the same time, how long did each runner take?",
+   "options": [
+    "4 minutes 8 seconds",
+    "4 minutes 28 seconds",
+    "4 minutes 20 seconds",
+    "4 minutes 12 seconds"
+   ],
+   "answer": 2,
+   "topic": "Computation",
+   "source": "rj_original_2026_expansion",
+   "explanation": "Change the total to seconds: \\(21\\times60+40=1{,}300\\) seconds. Then \\(1{,}300\\div5=260\\) seconds, which is 4 minutes 20 seconds. The choice 4 minutes 8 seconds divides the minutes and the seconds separately and throws away the leftover minute; 4 minutes 28 seconds uses 100 seconds to the minute both going in and coming back, from \\(2{,}140\\div5=428\\); and 4 minutes 12 seconds ignores the 40 seconds altogether and divides only \\(21\\div5=4.2\\) minutes."
+  },
+  {
+   "id": "0c07b40e74",
+   "stem": "Simplify: \\(-3(4-9)-12\\div(-4)\\)",
+   "options": [
+    "12",
+    "18",
+    "\\(-12\\)",
+    "\\(-18\\)"
+   ],
+   "answer": 1,
+   "topic": "Computation",
+   "source": "rj_original_2026_expansion",
+   "explanation": "Inside the parentheses, \\(4-9=-5\\), and \\(-3\\times(-5)=15\\). Then \\(12\\div(-4)=-3\\), so the expression is \\(15-(-3)=18\\). The choice 12 loses the double negative and computes \\(15-3\\); \\(-12\\) multiplies \\(-3\\times(-5)\\) as \\(-15\\); and \\(-18\\) makes both sign errors at once, giving \\(-15-3\\)."
+  },
+  {
+   "id": "8764e283d0",
+   "stem": "Simplify: \\(12+8\\div\\frac{1}{2}\\)",
+   "options": [
+    "16",
+    "40",
+    "10",
+    "28"
+   ],
+   "answer": 3,
+   "topic": "Computation",
+   "source": "rj_original_2026_expansion",
+   "explanation": "Dividing by \\(\\frac{1}{2}\\) is multiplying by 2, so \\(8\\div\\frac{1}{2}=16\\) and the total is \\(12+16=28\\). The choice 16 divides 8 by 2 instead of by one-half, giving \\(12+4\\); 40 adds before dividing, as \\((12+8)\\div\\frac{1}{2}\\); and 10 makes both slips, computing \\((12+8)\\div2\\)."
+  },
+  {
+   "id": "8eb00d76c6",
+   "stem": "Simplify: \\(\\frac{12+8}{2+3}\\)",
+   "options": [
+    "4",
+    "19",
+    "10",
+    "13.6"
+   ],
+   "answer": 0,
+   "topic": "Computation",
+   "source": "rj_original_2026_expansion",
+   "explanation": "A fraction bar groups the whole top and the whole bottom, so this is \\(20\\div5=4\\). The choice 19 ignores both groupings and reads the expression as \\(12+8\\div2+3\\); 10 divides the top by the 2 alone and forgets the \\(+3\\); and 13.6 divides only the 8 by 5, giving \\(12+1.6\\)."
+  },
+  {
+   "id": "372dd39403",
+   "stem": "If \\(x=-5\\), what is the value of \\(x^2-3x\\)?",
+   "options": [
+    "10",
+    "\\(-10\\)",
+    "40",
+    "\\(-40\\)"
+   ],
+   "answer": 2,
+   "topic": "Computation",
+   "source": "rj_original_2026_expansion",
+   "explanation": "\\((-5)^2=25\\) and \\(-3(-5)=15\\), so the value is \\(25+15=40\\). The choice 10 squares correctly but treats \\(-3x\\) as \\(-15\\), forgetting that \\(x\\) is itself negative; \\(-10\\) squares \\(-5\\) as \\(-25\\) and then adds 15; and \\(-40\\) makes both errors, giving \\(-25-15\\)."
+  },
+  {
+   "id": "aa6b147a53",
+   "stem": "Attendance at the fall play fell from 320 one year to 272 the next. What is the percent decrease?",
+   "options": [
+    "48%",
+    "15%",
+    "17.6%",
+    "85%"
+   ],
+   "answer": 1,
+   "topic": "Fractions, Decimals and Percents",
+   "source": "rj_original_2026_expansion",
+   "explanation": "The drop is \\(320-272=48\\), and the percent decrease compares that drop with the original: \\(48\\div320=0.15\\), or 15%. The choice 48% uses the raw drop as though it were already a percent; 17.6% divides the drop by 272, the new attendance, instead of by the original; and 85% is the percent of the original still attending rather than the percent lost."
+  },
+  {
+   "id": "cdfec8b8b7",
+   "stem": "At Lincoln Middle School, 45% of the 240 eighth graders ordered a yearbook. At Jefferson Middle School, 60% of the 160 eighth graders ordered one. How many more yearbooks were ordered at Lincoln than at Jefferson?",
+   "options": [
+    "12",
+    "15",
+    "80",
+    "204"
+   ],
+   "answer": 0,
+   "topic": "Fractions, Decimals and Percents",
+   "source": "rj_original_2026_expansion",
+   "explanation": "Each percent must be taken of its own school's enrollment. Lincoln: \\(0.45\\times240=108\\) yearbooks. Jefferson: \\(0.60\\times160=96\\) yearbooks. The difference is \\(108-96=12\\). Choice 15 comes from subtracting the percents, \\(60\\%-45\\%=15\\), and reporting that 15-percentage-point gap as a number of yearbooks; percents taken of different totals cannot be subtracted from each other. Choice 80 comes from subtracting the enrollments, \\(240-160\\), and never applying the percents at all. Choice 204 comes from adding the two orders, \\(108+96\\), instead of subtracting to find how many more."
+  },
+  {
+   "id": "c14c89c843",
+   "stem": "12 is 40% of what number?",
+   "options": [
+    "4.8",
+    "48",
+    "20",
+    "30"
+   ],
+   "answer": 3,
+   "topic": "Fractions, Decimals and Percents",
+   "source": "rj_original_2026_expansion",
+   "explanation": "If 40% of the number is 12, then \\(12\\div0.40=30\\), and checking, \\(0.40\\times30=12\\). The choice 4.8 finds 40% of 12 instead, reversing which value is the part; 48 multiplies by 4, treating 40% as 4 rather than 0.4; and 20 divides by 0.60, using the leftover 60% instead of the 40% named in the question."
+  },
+  {
+   "id": "dec98bccc6",
+   "stem": "Nine students recorded the number of sit-ups they did: 22, 30, 18, 25, 30, 27, 18, 30 and 24. What is the difference between the mode and the median?",
+   "options": [
+    "0",
+    "5",
+    "12",
+    "30"
+   ],
+   "answer": 1,
+   "topic": "Data and Probability",
+   "source": "rj_original_2026_expansion",
+   "explanation": "Put the list in order first: 18, 18, 22, 24, 25, 27, 30, 30, 30. With nine values the median is the fifth one, 25. The mode is 30, the value that appears most often, so the difference is 5. Choosing 0 comes from taking the fifth number in the list as it was written, 30, without ordering it. Choosing 12 gives the range, 30 minus 18, instead of the difference asked for. Choosing 30 reports the mode itself rather than the difference."
+  },
+  {
+   "id": "9e0f2aec00",
+   "stem": "A locker code is one letter chosen from A, B, C or D followed by two digits, and the two digits must be different from each other. How many different codes are possible?",
+   "options": [
+    "23",
+    "90",
+    "360",
+    "400"
+   ],
+   "answer": 2,
+   "topic": "Data and Probability",
+   "source": "rj_original_2026_expansion",
+   "explanation": "By the counting principle, multiply the choices at each step: four letters, then 10 choices for the first digit, then only nine for the second because it cannot repeat the first. That is \\(4\\times10\\times9=360\\). Choosing 400 ignores the condition that the digits differ and uses \\(4\\times10\\times10\\). Choosing 90 counts the digits only and forgets the letter. Choosing 23 adds the choices, \\(4+10+9\\), instead of multiplying them."
+  },
+  {
+   "id": "14acf11c53",
+   "stem": "A bag holds only red and green counters. The probability of drawing a red counter is \\(\\frac{2}{5}\\). If there are 12 red counters, how many counters are in the bag altogether?",
+   "options": [
+    "30",
+    "4.8",
+    "18",
+    "42"
+   ],
+   "answer": 0,
+   "topic": "Data and Probability",
+   "source": "rj_original_2026_expansion",
+   "explanation": "The red counters are \\(\\frac{2}{5}\\) of the whole bag, so two parts equal 12 and one part equals 6. Five parts make \\(5\\times6=30\\) counters. Choosing 18 stops at the green counters, which is the three remaining parts, and answers the wrong question. Choosing 42 reads \\(\\frac{2}{5}\\) as a part-to-part ratio of red to green, giving 30 green and 42 in all; the probability is part-to-whole. Choosing 4.8 multiplies 12 by \\(\\frac{2}{5}\\) instead of dividing by it."
+  },
+  {
+   "id": "fae1eb58e5",
+   "stem": "The numbers 1 through 20 are written on 20 slips of paper and one slip is drawn at random. What is the probability that the number drawn is prime?",
+   "options": [
+    "\\(\\frac{9}{20}\\)",
+    "\\(\\frac{7}{20}\\)",
+    "\\(\\frac{3}{5}\\)",
+    "\\(\\frac{2}{5}\\)"
+   ],
+   "answer": 3,
+   "topic": "Data and Probability",
+   "source": "rj_original_2026_expansion",
+   "explanation": "The primes up to 20 are 2, 3, 5, 7, 11, 13, 17 and 19, which is eight numbers, so the probability is \\(\\frac{8}{20}=\\frac{2}{5}\\). Choosing \\(\\frac{9}{20}\\) counts 1 as prime, but 1 has only one factor. Choosing \\(\\frac{7}{20}\\) drops 2 on the idea that every prime is odd; 2 is the one even prime. Choosing \\(\\frac{3}{5}\\) gives the complement, the probability that the number is not prime."
+  },
+  {
+   "id": "33a0e52f7b",
+   "stem": "The mean of five numbers is 18. One more number is added to the list and the mean of the six numbers is 20. What is the number that was added?",
+   "options": [
+    "12",
+    "20",
+    "30",
+    "2"
+   ],
+   "answer": 2,
+   "topic": "Data and Probability",
+   "source": "rj_original_2026_expansion",
+   "explanation": "Work with totals, not averages. Five numbers averaging 18 total \\(5\\times18=90\\); six numbers averaging 20 total \\(6\\times20=120\\). The number added is \\(120-90=30\\). Choosing 20 assumes the new number must equal the new mean, which would leave the mean unchanged. Choosing 12 uses six numbers for both totals, \\(120-108\\). Choosing 2 subtracts the two means and never converts to totals."
+  },
+  {
+   "id": "b16445f401",
+   "stem": "Solve for \\(m\\): \\(2.5m + 4 = 19\\)",
+   "options": [
+    "37.5",
+    "6",
+    "7.5",
+    "9.2"
+   ],
+   "answer": 1,
+   "topic": "Algebra",
+   "source": "rj_original_2026_expansion",
+   "explanation": "Subtract 4 from both sides to get \\(2.5m=15\\), then divide both sides by 2.5 to get \\(m=6\\). Choosing 9.2 adds the 4 instead of subtracting it, giving \\(23\\div2.5\\). Choosing 37.5 multiplies by the coefficient, \\(15\\times2.5\\), instead of dividing by it. Choosing 7.5 divides by 2 rather than by 2.5, dropping the decimal part of the coefficient."
+  },
+  {
+   "id": "ffa735db11",
+   "stem": "The sum of three consecutive even integers is 78. What is the greatest of the three integers?",
+   "options": [
+    "24",
+    "26",
+    "27",
+    "28"
+   ],
+   "answer": 3,
+   "topic": "Algebra",
+   "source": "rj_original_2026_expansion",
+   "explanation": "Let the least integer be \\(n\\). Consecutive even integers go up by 2, so the three are \\(n\\), \\(n+2\\) and \\(n+4\\), and \\(n+(n+2)+(n+4)=78\\) gives \\(3n+6=78\\), \\(3n=72\\), \\(n=24\\). The integers are 24, 26 and 28, and the greatest is 28. Choice 24 solves the equation correctly but reports the least integer instead of the greatest one the question asks for. Choice 26 comes from dividing \\(78\\div3=26\\) and stopping; that shortcut gives the middle integer, not the greatest. Choice 27 comes from using consecutive integers \\(n\\), \\(n+1\\), \\(n+2\\) and ignoring the word even: that gives 25, 26, 27, whose sum is also 78, but 25 and 27 are not even."
+  },
+  {
+   "id": "358462feda",
+   "stem": "Which expression is equivalent to \\(5 - 2(x - 3)\\)?",
+   "options": [
+    "\\(3x - 9\\)",
+    "\\(-2x - 1\\)",
+    "\\(11 + 2x\\)",
+    "\\(11 - 2x\\)"
+   ],
+   "answer": 3,
+   "topic": "Algebra",
+   "source": "rj_original_2026_expansion",
+   "explanation": "The \\(-2\\) multiplies both terms inside the parentheses: \\(-2(x-3)=-2x+6\\). Adding that to the 5 gives \\(11-2x\\). Choosing \\(-2x-1\\) distributes the 2 but keeps the minus sign on the second term, writing \\(5-2x-6\\); multiplying \\(-2\\) by \\(-3\\) gives \\(+6\\). Choosing \\(3x-9\\) subtracts \\(5-2\\) before multiplying, which breaks the order of operations. Choosing \\(11+2x\\) gets the constant right but leaves the \\(x\\) term positive."
+  },
+  {
+   "id": "83191e2500",
+   "stem": "A plumber charges a $45 service fee plus $30 an hour. Which equation gives the number of hours \\(h\\) worked on a job that cost $225 in all?",
+   "options": [
+    "\\(30h + 45 = 225\\)",
+    "\\(45h + 30 = 225\\)",
+    "\\(30h - 45 = 225\\)",
+    "\\(30(h + 45) = 225\\)"
+   ],
+   "answer": 0,
+   "topic": "Algebra",
+   "source": "rj_original_2026_expansion",
+   "explanation": "The $30 is charged for each hour, so it is the amount multiplied by \\(h\\); the $45 is charged once, so it is added on. That gives \\(30h+45=225\\). Choosing \\(45h+30=225\\) swaps the one-time fee and the hourly rate. Choosing \\(30h-45=225\\) subtracts the fee, though the customer pays it on top. Choosing \\(30(h+45)=225\\) multiplies the fee by the hourly rate as well, charging $45 every hour."
+  },
+  {
+   "id": "ed9bbdf6f2",
+   "stem": "Solve for \\(w\\): \\(\\frac{2w}{3} - 5 = 7\\)",
+   "options": [
+    "3",
+    "18",
+    "8",
+    "10.5"
+   ],
+   "answer": 1,
+   "topic": "Algebra",
+   "source": "rj_original_2026_expansion",
+   "explanation": "Add 5 to both sides to get \\(\\frac{2w}{3}=12\\). Multiply both sides by 3 to get \\(2w=36\\), then divide by 2 to get \\(w=18\\). Choosing 3 subtracts the 5 instead of adding it, working from \\(\\frac{2w}{3}=2\\). Choosing 8 undoes the fraction backwards, dividing 12 by 3 and then multiplying by 2. Choosing 10.5 skips the \\(-5\\) entirely and solves \\(\\frac{2w}{3}=7\\)."
+  },
+  {
+   "id": "8e57314328",
+   "stem": "A paint mix uses three parts blue to two parts white. A painter has 12 quarts of white paint and all the blue paint he needs. If he uses all of the white, how many quarts of mix can he make?",
+   "options": [
+    "8",
+    "18",
+    "20",
+    "30"
+   ],
+   "answer": 3,
+   "topic": "Ratios and Proportions",
+   "source": "rj_original_2026_expansion",
+   "explanation": "The white is two parts, so 12 quarts makes one part 6 quarts. Blue is three parts, or 18 quarts, and the mix is all five parts, \\(5\\times6=30\\) quarts. Choosing 18 gives the blue paint alone and answers the wrong question. Choosing 8 reverses the ratio, treating the 12 quarts as the three parts of blue. Choosing 20 reverses the ratio and then adds, \\(12+8\\)."
+  },
+  {
+   "id": "f7537cb4d8",
+   "stem": "Nine identical folders cost $12.60. At the same price per folder, what do 14 folders cost?",
+   "options": [
+    "$19.60",
+    "$17.60",
+    "$8.10",
+    "$1.40"
+   ],
+   "answer": 0,
+   "topic": "Ratios and Proportions",
+   "source": "rj_original_2026_expansion",
+   "explanation": "One folder costs \\(12.60\\div9=1.40\\) dollars, so 14 folders cost \\(14\\times1.40=19.60\\) dollars. Choosing $17.60 reasons additively, adding $1 for each of the five extra folders instead of $1.40. Choosing $8.10 inverts the proportion and computes \\(12.60\\times\\frac{9}{14}\\), which would be the cost of fewer folders, not more. Choosing $1.40 stops at the unit price."
+  },
+  {
+   "id": "55e0fa92c0",
+   "stem": "In a parking lot the ratio of cars to trucks is \\(7:4\\), and there are 33 more cars than trucks. How many trucks are in the lot?",
+   "options": [
+    "12",
+    "44",
+    "77",
+    "121"
+   ],
+   "answer": 1,
+   "topic": "Ratios and Proportions",
+   "source": "rj_original_2026_expansion",
+   "explanation": "Cars exceed trucks by \\(7-4=3\\) parts, and those three parts equal 33, so one part is 11. Trucks are four parts, \\(4\\times11=44\\). Choosing 12 treats 33 as the total number of vehicles rather than the difference, making one part 3. Choosing 77 gives the cars. Choosing 121 gives the total of all 11 parts."
+  },
+  {
+   "id": "f41676f6e2",
+   "stem": "The ratio of the length of a rectangle to its width is \\(5:3\\), and its perimeter is 64 centimeters. What is the length?",
+   "options": [
+    "12 centimeters",
+    "24 centimeters",
+    "20 centimeters",
+    "40 centimeters"
+   ],
+   "answer": 2,
+   "topic": "Ratios and Proportions",
+   "source": "rj_original_2026_expansion",
+   "explanation": "The perimeter counts two lengths and two widths, so it holds \\(2(5+3)=16\\) parts. One part is \\(64\\div16=4\\) centimeters, and the length is \\(5\\times4=20\\) centimeters. Choosing 40 divides by only eight parts, forgetting that each side is counted twice. Choosing 24 makes that same eight-part error and then reports the width. Choosing 12 sets up the parts correctly but answers with the width instead of the length."
+  },
+  {
+   "id": "a12f2fbb7e",
+   "stem": "A soup recipe calls for 2 quarts 1 pint of broth. How many cups of broth is that?",
+   "options": [
+    "5",
+    "9",
+    "10",
+    "12"
+   ],
+   "answer": 2,
+   "topic": "Geometry and Measurement",
+   "source": "rj_original_2026_expansion",
+   "explanation": "There are two cups in a pint and two pints, or four cups, in a quart. So 2 quarts is eight cups and the extra pint is two more, making 10 cups. Choosing 9 counts the pint as a single cup. Choosing 12 counts the pint as a whole quart, or four cups. Choosing 5 converts everything to pints, \\(4+1\\), and stops one step short of cups."
+  },
+  {
+   "id": "7c5bf103b1",
+   "stem": "A garden bed is shaped like a rectangle 20 meters long and 14 meters wide with a semicircle attached to each of the two 14-meter ends. What is the total area of the bed, in terms of \\(\\pi\\)?",
+   "options": [
+    "\\(280 + 24.5\\pi\\) square meters",
+    "\\(280 + 49\\pi\\) square meters",
+    "\\(280 + 98\\pi\\) square meters",
+    "\\(280 + 196\\pi\\) square meters"
+   ],
+   "answer": 1,
+   "topic": "Geometry and Measurement",
+   "source": "rj_original_2026_expansion",
+   "explanation": "The rectangle contributes \\(20\\times14=280\\) square meters. Each semicircle has diameter 14 and therefore radius 7, and the two of them together make one full circle of area \\(\\pi(7)^2=49\\pi\\). The total is \\(280+49\\pi\\). Choosing \\(280+24.5\\pi\\) counts only one of the two semicircles. Choosing \\(280+98\\pi\\) treats each end as a whole circle rather than a half. Choosing \\(280+196\\pi\\) uses the diameter 14 as the radius.",
+   "figure": "<svg viewBox=\"0 0 360 130\" role=\"img\" aria-label=\"A garden bed drawn as one outline: a rectangle 20 meters long and 14 meters wide, with a semicircle attached to each of its two 14-meter ends, so the two semicircles together make one whole circle. Dashed lines mark the two 14-meter ends where the semicircles join the rectangle.\"><path d=\"M 120 30 L 240 30 A 42 42 0 0 1 240 114 L 120 114 A 42 42 0 0 1 120 30 Z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"120\" y1=\"30\" x2=\"120\" y2=\"114\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\"/><line x1=\"240\" y1=\"30\" x2=\"240\" y2=\"114\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\"/><text x=\"180\" y=\"22\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">20 m</text><text x=\"127\" y=\"77\" text-anchor=\"start\" fill=\"currentColor\" font-size=\"11\">14 m</text></svg>"
+  },
+  {
+   "id": "269f1856d1",
+   "stem": "A rectangular garden measures 15 feet by 8 feet. Fencing costs $6 a foot. What is the cost of fencing all the way around the garden?",
+   "options": [
+    "$46",
+    "$138",
+    "$720",
+    "$276"
+   ],
+   "answer": 3,
+   "topic": "Geometry and Measurement",
+   "source": "rj_original_2026_expansion",
+   "explanation": "Fencing goes around the edge, so use the perimeter: \\(2(15)+2(8)=46\\) feet, and \\(46\\times6=276\\) dollars. Choosing $720 uses the area, \\(15\\times8=120\\) square feet, which measures the ground inside rather than the distance around. Choosing $138 adds only one length and one width, 23 feet, and forgets the opposite two sides. Choosing $46 gives the perimeter without multiplying by the cost per foot.",
+   "figure": "<svg viewBox=\"0 0 360 122\" role=\"img\" aria-label=\"A rectangular garden drawn as a rectangle, 15 feet along the bottom and 8 feet along the side.\"><rect x=\"120\" y=\"26\" width=\"120\" height=\"64\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"180\" y=\"106\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">15 feet</text><text x=\"248\" y=\"62\" text-anchor=\"start\" fill=\"currentColor\" font-size=\"11\">8 feet</text></svg>"
+  },
+  {
+   "id": "acb07be362",
+   "stem": "A bicycle wheel has a radius of 14 inches. Using \\(\\pi\\approx\\frac{22}{7}\\), how far does the bicycle travel in 10 complete turns of the wheel?",
+   "options": [
+    "880 inches",
+    "440 inches",
+    "1,760 inches",
+    "6,160 inches"
+   ],
+   "answer": 0,
+   "topic": "Geometry and Measurement",
+   "source": "rj_original_2026_expansion",
+   "explanation": "One turn covers the circumference, \\(2\\pi r=2\\times\\frac{22}{7}\\times14=88\\) inches, so 10 turns cover 880 inches. Choosing 440 uses 14 as the diameter rather than the radius, giving a circumference of 44. Choosing 6,160 uses the area formula \\(\\pi r^2=616\\) instead of the circumference; area cannot measure a distance traveled. Choosing 1,760 doubles the circumference a second time, in effect using \\(2\\pi d\\).",
+   "figure": "<svg viewBox=\"0 0 360 128\" role=\"img\" aria-label=\"A circle standing for a bicycle wheel. A dashed line runs from the centre out to the edge and is labelled 14 inches, the radius.\"><circle cx=\"180\" cy=\"68\" r=\"48\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"180\" y1=\"68\" x2=\"228\" y2=\"68\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\"/><text x=\"204\" y=\"62\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"11\">14 in</text></svg>"
+  },
+  {
+   "id": "c70e81a541",
+   "stem": "A teacher asked all 20 students in her class how many pets they own. Four students own no pets, seven own one pet, five own two pets and four own three pets. What is the mean number of pets per student?",
+   "options": [
+    "1",
+    "1.45",
+    "1.5",
+    "7.25"
+   ],
+   "answer": 1,
+   "topic": "Data and Probability",
+   "source": "rj_original_2026_expansion",
+   "explanation": "Count the pets, not the categories. The class owns \\(4\\times0+7\\times1+5\\times2+4\\times3=29\\) pets, shared among 20 students, so the mean is \\(29\\div20=1.45\\). Choice 1.5 comes from averaging only the four pet amounts 0, 1, 2 and 3 and ignoring how many students reported each one, which would treat the four students with no pets as counting the same as the seven with one. Choice 1 comes from reporting the most common answer, the mode, instead of the mean. Choice 7.25 comes from dividing the 29 pets by the four categories rather than by the 20 students."
   }
  ]
 }

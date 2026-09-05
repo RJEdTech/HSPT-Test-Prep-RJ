@@ -2352,6 +2352,118 @@
    "topic": "Composition",
    "source": "rj_original_2026",
    "explanation": "Heat, flooding and property values are all reasons to plant. When one species changes color is a fact about street trees that gives a city no reason to plant more of them."
+  },
+  {
+   "id": "f1645c2747",
+   "stem": "Which sentence has a mistake in grammar or usage? If all three are correct, choose “No mistakes.”",
+   "options": [
+    "The pitcher warmed up in the bullpen before the first inning.",
+    "The guide led us through the greenhouse and points out the orchids near the back.",
+    "The kitchen window fogs up whenever the dishwasher runs.",
+    "No mistakes"
+   ],
+   "answer": 1,
+   "topic": "Usage",
+   "source": "rj_original_2026_expansion",
+   "explanation": "The two things the guide does happen at the same time, so both verbs need the same tense. The sentence starts in the past with \"led\" and then slides into the present with \"points,\" so it should read \"and pointed out the orchids near the back.\" The other two sentences each hold one tense throughout: the first stays in the past, and the third stays in the present because it describes what happens every time the dishwasher runs."
+  },
+  {
+   "id": "8007d975d5",
+   "stem": "Which sentence has a mistake in grammar or usage? If all three are correct, choose “No mistakes.”",
+   "options": [
+    "The forecast called for snow before midnight.",
+    "Our new goalie played good in the second half.",
+    "He refilled the water bottles between periods.",
+    "No mistakes"
+   ],
+   "answer": 1,
+   "topic": "Usage",
+   "source": "rj_original_2026_expansion",
+   "explanation": "\"Played\" is an action verb, so it needs the adverb \"well\": the goalie played well in the second half. \"Good\" is an adjective and cannot describe how someone performed an action. The other two sentences use ordinary past-tense verbs correctly."
+  },
+  {
+   "id": "d000806fa3",
+   "stem": "Which sentence has a mistake in grammar or usage? If all three are correct, choose “No mistakes.”",
+   "options": [
+    "The band tuned up while the gym slowly filled.",
+    "My grandmother saves every postcard we send her.",
+    "We couldn't hardly hear the announcement over the crowd.",
+    "No mistakes"
+   ],
+   "answer": 2,
+   "topic": "Usage",
+   "source": "rj_original_2026_expansion",
+   "explanation": "\"Hardly\" is already a negative word, so pairing it with \"couldn't\" makes a double negative. The sentence should read \"We could hardly hear the announcement.\" The first two sentences are correct, and \"saves\" agrees with the singular subject \"grandmother.\""
+  },
+  {
+   "id": "db18114c37",
+   "stem": "Which sentence has a mistake in grammar or usage? If all three are correct, choose “No mistakes.”",
+   "options": [
+    "Us volunteers carried the folding tables in from the van.",
+    "The line for tickets stretched around the corner of the building.",
+    "She had finished her lab report before the fire drill started.",
+    "No mistakes"
+   ],
+   "answer": 0,
+   "topic": "Usage",
+   "source": "rj_original_2026_expansion",
+   "explanation": "\"Volunteers\" is the subject of the sentence, so the pronoun in front of it must be the subject form: \"We volunteers carried the tables.\" Drop the noun and the error is easy to hear — \"Us carried the tables.\" In the third sentence \"had finished\" is correct, because that action was over before the fire drill began."
+  },
+  {
+   "id": "1378cdf8ed",
+   "stem": "Which sentence has a mistake in grammar or usage? If all three are correct, choose “No mistakes.”",
+   "options": [
+    "The sidewalk in front of the school buckled after the freeze.",
+    "There was two chairs missing from the front row.",
+    "My brother waters the tomatoes every evening in July.",
+    "No mistakes"
+   ],
+   "answer": 1,
+   "topic": "Usage",
+   "source": "rj_original_2026_expansion",
+   "explanation": "In a sentence beginning with \"there,\" the verb agrees with the noun that follows it. The subject is the plural \"two chairs,\" so it must be \"There were two chairs missing.\" The first sentence is also correct even though it looks similar: its subject is the singular \"sidewalk,\" not \"school,\" so \"buckled\" is right."
+  },
+  {
+   "id": "ed39d0eb82",
+   "stem": "Which sentence has a mistake in grammar or usage? If all three are correct, choose “No mistakes.”",
+   "options": [
+    "Each of the three routes takes about the same amount of time.",
+    "The team was ready long before the referees arrived.",
+    "Neither of my cousins has seen the new gym.",
+    "No mistakes"
+   ],
+   "answer": 3,
+   "topic": "Usage",
+   "source": "rj_original_2026_expansion",
+   "explanation": "All three sentences are correct, so the answer is \"No mistakes.\" \"Each\" and \"neither\" are singular subjects, so \"takes\" and \"has seen\" are right even though \"routes\" and \"cousins\" sit between them and the verb, and \"amount\" is the correct word for time, which cannot be counted."
+  },
+  {
+   "id": "55ff5b3606",
+   "stem": "Which sentence has a punctuation mistake? If all three are correct, choose “No mistakes.”",
+   "options": [
+    "The side doors of the gym stay locked until seven, so we waited out front.",
+    "Mr. Kaminski's van was parked behind the cafeteria.",
+    "The coach thanked the parent's who drove to the meet.",
+    "No mistakes"
+   ],
+   "answer": 2,
+   "topic": "Punctuation",
+   "source": "rj_original_2026_expansion",
+   "explanation": "\"Parent's\" is a possessive, but the sentence simply means more than one parent, so it should be the plural \"parents\" with no apostrophe. The apostrophe in \"Mr. Kaminski's van\" is correct, because the van belongs to him, and the comma before \"so\" correctly joins two complete thoughts."
+  },
+  {
+   "id": "643c0dd392",
+   "stem": "Which sentence has a punctuation mistake? If all three are correct, choose “No mistakes.”",
+   "options": [
+    "Ms. Farrow's office is at the end of the hallway on the second floor.",
+    "The bus leaves before sunrise, so we agreed to meet at the flagpole.",
+    "He asked, \"Is the library open on Saturday?\"",
+    "No mistakes"
+   ],
+   "answer": 3,
+   "topic": "Punctuation",
+   "source": "rj_original_2026_expansion",
+   "explanation": "Every sentence is punctuated correctly, so choose \"No mistakes.\" The possessive \"Ms. Farrow's\" takes an apostrophe, the comma before \"so\" is right because it joins two complete sentences, and the question mark belongs inside the quotation marks because the question is what he actually asked."
   }
  ]
 }

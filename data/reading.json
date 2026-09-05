@@ -94,6 +94,39 @@
     "The objection I hear most is that repair is sentimental: that my nine minutes were worth more than the toaster, and that a woman who values her time should simply have bought another. This mistakes what was being made. I was not producing a toaster, because the toaster already existed. I was producing a person who believes she is allowed to open things. She came back in July with a lamp, and she had already found the fault herself.",
     "I would not force anyone to keep a machine past its life, and I am not asking anybody to love a toaster. I am asking that the choice be a real one, and it is not real when the case will not open. Put the screws back in. Publish the diagrams. Then let people buy new toasters if they please; I will still be in that basement every second Saturday, and I suspect I will be busier than before, not idler."
    ]
+  },
+  "ardeth-glacier": {
+   "title": "A Season at the Head of the Ardeth Valley",
+   "paragraphs": [
+    "In the spring of my thirty-fourth year I accepted, for a sum that did not cover my boots, a commission from the Ardeth Valley Subscription: to determine whether the great ice at the head of that valley was advancing upon the high pastures, as the older farmers insisted, or drawing back from them, as their sons as stoutly maintained.",
+    "My method had nothing of genius. I drove nine iron stakes into the moraine along the foot of the ice, painted each a conspicuous white and fixed every one by transit from a cairn I built upon the rock ridge above, where neither flood nor frost could shift it. Every Saturday I walked the line and set the figures down. For six weeks I could report no sensible change whatever, and this discouraged me more than any hardship of the place.",
+    "The valley kept a record older than mine and not to be despised. Below the church stands a stone cross, set up in a year of fear, when the ice had come within a stone's throw of the mill; every child in Ardeth can give you its date. I copied it, paced the distance and found the ice now lying more than a mile above. I entered this not as anything I had proved, but as a caution: one summer's measuring was a single letter of a word many centuries in the writing.",
+    "By August the stakes had begun to speak. Those at the northern arm, fed by a steep snowfield, had been shoved forward a little over 11 feet, the ice pressing the moraine before it; those at the southern arm had not stirred. The reason was plain: the southern ice is poorly fed and would long since have shrunk back, but it lies beneath a coat of fallen rubble a foot thick, which shields it from the sun. The one arm advanced because it received; the other held its ground because it was covered.",
+    "This is not the answer the Subscription wished to buy. They wanted a verdict; one summer's figures cannot supply one; a single warm season may drive an arm forward while the body of the ice wastes quietly away behind it. I have left the stakes standing, the cairn marked and the book of readings with the schoolmaster, and have urged that some patient person walk the line each summer for 20 years.",
+    "It is a poor trade for anyone who wishes to be told something at once. The mountain is under no obligation to be interesting within the term of one appointment, and whoever would read it must consent to be as deliberate as the thing read. I came down in October with 60 pages of figures and no verdict."
+   ]
+  },
+  "first-two-laps": {
+   "title": "The First Two Laps",
+   "paragraphs": [
+    "The Ridgeline Invitational started at eight, and by seven-forty the infield grass was still stiff with frost. Wren Padgett walked the first turn, counting the seams in the track the way she had at every meet since seventh grade. She had a number pinned crooked to her jersey and a time in her head, 5:31, that she had carried since November.",
+    "Coach Halloran found her by the high-jump pit, and his instructions were spare. Teddy Sarno needed 5:24 to qualify for regionals. Teddy could not run an even pace; she went out too fast at every meet and paid for it in the last lap. Wren would take the field through the first two laps at seventy-eight seconds each, and then step off the track.",
+    "There is a word for what he was asking, and Wren knew it. A rabbit runs at the front so that somebody else can run a good race. A rabbit does not finish. She had spent the winter running hills in the dark before school, and now she would not be in the race she had run them for. For about ninety seconds she considered saying so. What she said was, \"Seventy-eight. Okay.\"",
+    "The gun went and she did as she had been asked. The first lap came up in seventy-seven, the second in seventy-eight, and the whole field came with her, strung out behind her shoulder in a line she could hear but never see: spikes, breathing, a coach shouting splits from the fence. At the eight-hundred mark she swung into lane four and slowed, the pack went past her like a train leaving, and then she was standing on the infield with nothing to do.",
+    "That was where the race changed for her, though nobody watching would have seen it. From there she could take in the whole thing at once. She saw the pack tighten on the third lap. She saw a girl in green go to the front with six hundred meters left, far too early, and she knew, the way you know a wrong note, that the girl was finished; two hundred meters later she was. She saw Teddy sit in third and come off the last turn with something left. Teddy ran 5:22.",
+    "Wren had raced for two seasons with her eyes on the four feet of track in front of her. She had never once watched a race she was in. On the bus home she worked it out on the back of her heat sheet: where the girl in green had made her mistake, and what the same mistake had been costing Wren all year. She was still writing when the bus reached the school."
+   ]
+  },
+  "map-projections": {
+   "title": "The Trouble with Flat Maps",
+   "paragraphs": [
+    "Every flat map of the world is wrong. In 1827 the German mathematician Carl Friedrich Gauss proved that a curved surface such as the outside of a sphere cannot be laid flat without being stretched, squeezed or torn somewhere. A globe shows the Earth's shapes, areas, distances and directions all at once; a sheet of paper cannot. Every world map ever printed is a set of decisions about which errors its maker accepted.",
+    "The most famous of those decisions was made in 1569 by Gerardus Mercator, a Flemish mapmaker working for sailors rather than for schools. A navigator needed one thing: a map on which a straight line drawn between two ports could be followed as a single unchanging compass bearing. Mercator's grid delivered exactly that. The price was fidelity to size. To hold the directions steady he had to stretch the map further and further from the equator, so Greenland, an island of roughly two million square kilometers, swells until it looks the equal of Africa, which is about 14 times larger.",
+    "Mercator's chart was never meant for a classroom wall, but that is where it ended up, and generations of students grew up with a picture in which the countries nearest the poles towered over those nearest the equator. In 1973 Arno Peters presented an alternative, arguing that the familiar map had done the tropics an injustice. His projection, nearly identical to one the Scottish clergyman James Gall had described in 1855, holds every country's area in correct proportion, and pays for that by pulling shapes out of true: continents come out the right size but strangely stretched.",
+    "Most cartographers replied that Peters had swapped one error for another, and many turned instead to compromise projections, which aim to keep no single property perfectly and every property tolerably. Arthur Robinson built one in 1963 by adjusting the curves until the result looked right to his eye rather than to a formula. The National Geographic Society adopted it in 1988 and set it aside ten years later for the Winkel tripel, which handles the poles more gently.",
+    "The useful question is not which map tells the truth but which map is for what. A pilot choosing a heading and a researcher comparing the forest two countries have lost are entitled to different maps. Phone maps are a case in point: they run on a version of Mercator's old grid, which holds local shapes and angles true at the scale of a few city blocks.",
+    "A map is not a photograph of the world. It is an argument about what deserves to be shown accurately, and reading one well starts with asking what its maker agreed to give up."
+   ]
   }
  },
  "questions": [
@@ -2160,6 +2193,512 @@
    "topic": "Vocabulary in Context",
    "source": "rj_original_2026",
    "explanation": "Exaggerate is the near miss: to feign surprise is to fake a feeling you do not have at all."
+  },
+  {
+   "id": "082418a056",
+   "stem": "to weather a difficult season",
+   "options": [
+    "predict",
+    "come safely through",
+    "avoid entirely",
+    "complain about"
+   ],
+   "answer": 1,
+   "topic": "Vocabulary in Context",
+   "source": "rj_original_2026_expansion",
+   "explanation": "Predict is the trap, because the everyday sense of weather has to do with rain and sunshine and the forecast. Used as a verb about hardship, to weather something is to come through it without being destroyed. Avoid entirely is the near miss: a person who weathers a hard season goes through it rather than around it."
+  },
+  {
+   "id": "834912062f",
+   "stem": "to harbor a grudge",
+   "options": [
+    "hold on to",
+    "shelter",
+    "settle",
+    "explain"
+   ],
+   "answer": 0,
+   "topic": "Vocabulary in Context",
+   "source": "rj_original_2026_expansion",
+   "explanation": "To harbor a feeling is to keep it and hold on to it long after the event that caused it. Shelter is the tempting wrong answer because a harbor shelters ships and a person can harbor a stray cat, but a grudge is not protected from anything - it is simply kept. Settle is the opposite: settling a grudge ends it."
+  },
+  {
+   "id": "85e09c992e",
+   "stem": "a fickle friend",
+   "options": [
+    "dishonest",
+    "demanding",
+    "jealous",
+    "changeable"
+   ],
+   "answer": 3,
+   "topic": "Vocabulary in Context",
+   "source": "rj_original_2026_expansion",
+   "explanation": "Fickle means changing often, especially in loyalty or affection. Dishonest and jealous both tempt because all three words describe a friend you cannot count on, but fickle makes no claim about lying or envy. It says only that the friend is close one week and gone the next."
+  },
+  {
+   "id": "2663fe6d2e",
+   "stem": "to dispel a rumor",
+   "options": [
+    "spread",
+    "drive away",
+    "confirm",
+    "start"
+   ],
+   "answer": 1,
+   "topic": "Vocabulary in Context",
+   "source": "rj_original_2026_expansion",
+   "explanation": "To dispel something is to drive it off until nothing of it is left. Spread is the trap, both because rumors are usually spread and because dispel looks like disperse. The dis- is the one in dismiss: the rumor is sent away, not passed along."
+  },
+  {
+   "id": "b8b961617c",
+   "stem": "Which of the following would be the best title for this passage?",
+   "options": [
+    "The Advance of the Ardeth Glacier",
+    "A Summer's Measurements and What They Could Not Settle",
+    "How a Glacier Moves Down a Valley",
+    "The Vanished Ice of the Ardeth Valley"
+   ],
+   "answer": 1,
+   "topic": "ardeth-glacier",
+   "source": "rj_original_2026_expansion",
+   "passage": "ardeth-glacier",
+   "explanation": "The passage is an account of one season's careful measuring that deliberately refuses to deliver the verdict it was hired to give. The first option names a conclusion the author explicitly declines to draw; the third promises a general explanation of glacier motion, which the passage never attempts; the fourth describes a disappearance the passage does not report."
+  },
+  {
+   "id": "01332fc6ec",
+   "stem": "According to the passage, the author fixed the position of each stake by",
+   "options": [
+    "pacing the distance from the stone cross below the church",
+    "comparing it each week with the edge of the snowfield",
+    "taking a transit from a cairn built on the rock ridge above the ice",
+    "measuring from the wall of the mill in the village"
+   ],
+   "answer": 2,
+   "topic": "ardeth-glacier",
+   "source": "rj_original_2026_expansion",
+   "passage": "ardeth-glacier",
+   "explanation": "Paragraph 2 states that the position of every stake was fixed by transit from a cairn built on the rock ridge, chosen because neither flood nor frost could move it. The pacing from the stone cross (paragraph 3) was a separate, one-time comparison, not the method of fixing the stakes."
+  },
+  {
+   "id": "21310d097c",
+   "stem": "As used in the passage, the word \"sensible\" in paragraph 2 most nearly means",
+   "options": [
+    "reasonable",
+    "noticeable",
+    "cautious",
+    "agreeable"
+   ],
+   "answer": 1,
+   "topic": "ardeth-glacier",
+   "source": "rj_original_2026_expansion",
+   "passage": "ardeth-glacier",
+   "explanation": "\"No sensible change whatever\" means no change that could be sensed or detected — the readings showed nothing measurable. \"Reasonable\" is the word's ordinary modern meaning and is the trap; a change cannot be reasonable or cautious, and the sentence is about what the instruments could register."
+  },
+  {
+   "id": "2bd7472e17",
+   "stem": "The author describes the stone cross below the church chiefly in order to",
+   "options": [
+    "prove that the ice has retreated a great distance over the centuries",
+    "show that the villagers' memory of the ice cannot be trusted",
+    "explain why the Subscription was formed and the commission offered",
+    "keep a single season's findings in proportion against a far longer record"
+   ],
+   "answer": 3,
+   "topic": "ardeth-glacier",
+   "source": "rj_original_2026_expansion",
+   "passage": "ardeth-glacier",
+   "explanation": "The author says plainly that the cross was entered in the report \"not as anything I had proved, but as a caution to myself,\" and follows it with the image of one summer as a single letter of a very long word. The first option is tempting because the ice does now lie a mile above the cross, but the author expressly refuses to treat that as proof."
+  },
+  {
+   "id": "e097493f98",
+   "stem": "The author's attitude toward the valley's own record of the ice is best described as",
+   "options": [
+    "respectful of what it preserves, yet unwilling to let it stand in place of measurement",
+    "dismissive of it as village superstition",
+    "convinced that it is more trustworthy than any instrument",
+    "wholly indifferent, since it lay outside the commission"
+   ],
+   "answer": 0,
+   "topic": "ardeth-glacier",
+   "source": "rj_original_2026_expansion",
+   "passage": "ardeth-glacier",
+   "explanation": "The record is called \"older than mine and not to be despised,\" and the author copies the date and paces the distance — but enters it as a caution rather than as evidence. That is respect without substitution. Nothing in the passage mocks the villagers, and nothing ranks their memory above the transit readings."
+  },
+  {
+   "id": "db070d3e5a",
+   "stem": "If the schoolmaster wrote the following summer to report that the northern arm had gone forward another nine feet, the author would most likely",
+   "options": [
+    "announce that the question was settled and the glacier advancing",
+    "conclude that the first season's readings must have been mistaken",
+    "enter the figure in the book and still decline to call the question settled",
+    "recommend that the stakes be pulled up and reset higher in the valley"
+   ],
+   "answer": 2,
+   "topic": "ardeth-glacier",
+   "source": "rj_original_2026_expansion",
+   "passage": "ardeth-glacier",
+   "explanation": "The author warns that a single warm season may drive an arm forward while the whole glacier wastes away behind it, and asks for 20 years of readings. A second season is one more letter of the word, not the answer. The first option is what the Subscription wants, which is exactly what the author refuses to give."
+  },
+  {
+   "id": "71ec16c3ef",
+   "stem": "The passage treats the difference between the two arms as evidence that",
+   "options": [
+    "the glacier as a whole must be advancing, since one arm has clearly moved forward",
+    "what one arm of a glacier does may say more about its own local conditions than about the glacier as a whole",
+    "stakes driven into a moraine are an unreliable way to measure ice",
+    "the older farmers were right and their sons were mistaken"
+   ],
+   "answer": 1,
+   "topic": "ardeth-glacier",
+   "source": "rj_original_2026_expansion",
+   "passage": "ardeth-glacier",
+   "explanation": "Paragraph 4 gives each arm a separate local cause — a steep snowfield feeding the one, a foot of fallen rubble shielding the other — and paragraph 5 warns that a single warm season may drive an arm forward while the body of the ice wastes quietly away behind it. The first option is exactly the leap the Subscription wanted and the author refuses to make. The third blames a method the author defends and goes on recommending. The fourth picks a side the author explicitly declines to pick."
+  },
+  {
+   "id": "22facf719b",
+   "stem": "The passage mentions all of the following EXCEPT",
+   "options": [
+    "that the author built a cairn on the rock ridge above the ice",
+    "that the author photographed the ice front at each visit",
+    "that a coat of fallen rubble lay over the southern arm",
+    "that the book of readings was left with the schoolmaster"
+   ],
+   "answer": 1,
+   "topic": "ardeth-glacier",
+   "source": "rj_original_2026_expansion",
+   "passage": "ardeth-glacier",
+   "explanation": "The cairn (paragraph 2), the rubble (paragraph 4) and the book left with the schoolmaster (paragraph 5) all appear. The author paints the stakes white and sets the weekly figures down in a book; no camera and no photograph is mentioned anywhere."
+  },
+  {
+   "id": "04fb9c488e",
+   "stem": "The way the fallen rubble acts upon the southern arm is most like the way",
+   "options": [
+    "sawdust heaped over blocks of ice in an icehouse keeps them through the summer",
+    "a dam built across a stream holds back the water of the spring flood",
+    "a coat of paint on an iron gate keeps the rust from starting",
+    "a load of stone in a wagon keeps it steady on a rough road"
+   ],
+   "answer": 0,
+   "topic": "ardeth-glacier",
+   "source": "rj_original_2026_expansion",
+   "passage": "ardeth-glacier",
+   "explanation": "The rubble is a blanket: it does not hold the ice back or strengthen it, it only shuts out the heat that would otherwise melt it, which is precisely the work sawdust does in an icehouse. Paint against rust is the tempting answer because it also protects, but it protects by sealing out damp rather than by insulating."
+  },
+  {
+   "id": "546143438d",
+   "stem": "In writing that \"the mountain is under no obligation to be interesting within the term of one appointment,\" the author is chiefly",
+   "options": [
+    "complaining that the Subscription paid far too little for the work",
+    "suggesting that the glacier is unlikely to change again for centuries",
+    "conceding that honest work may yield no result inside the time allowed for it",
+    "urging the reader to visit the valley and see the ice while it remains"
+   ],
+   "answer": 2,
+   "topic": "ardeth-glacier",
+   "source": "rj_original_2026_expansion",
+   "passage": "ardeth-glacier",
+   "explanation": "The sentence explains why the author returns with figures and no verdict: the ice keeps its own pace, not the pace of a season's employment. The complaint about pay is a real note in paragraph 1 and makes the first option tempting, but this sentence is about time rather than money."
+  },
+  {
+   "id": "ba963f8b2b",
+   "stem": "Which of the following would make the best alternative title for this passage?",
+   "options": [
+    "Learning to See a Race",
+    "How to Run a Faster Mile",
+    "A Coach Who Asked Too Much",
+    "The Morning Teddy Qualified"
+   ],
+   "answer": 0,
+   "topic": "first-two-laps",
+   "source": "rj_original_2026_expansion",
+   "passage": "first-two-laps",
+   "explanation": "The passage is built around what Wren comes to understand once she is outside the race and can watch it. Teddy's qualifying time and Coach Halloran's request are the occasion for that change, not the subject of the passage, and the writer offers no running instruction at all."
+  },
+  {
+   "id": "6319d91863",
+   "stem": "According to the passage, why did Coach Halloran want someone to set the pace for Teddy Sarno?",
+   "options": [
+    "Teddy had never raced the distance before",
+    "Teddy had asked to run beside a teammate",
+    "Teddy always started too fast and lost time in the last lap",
+    "Teddy was returning from an injury and needed to be protected"
+   ],
+   "answer": 2,
+   "topic": "first-two-laps",
+   "source": "rj_original_2026_expansion",
+   "passage": "first-two-laps",
+   "explanation": "Paragraph 2 states that Teddy could not run an even pace, went out too fast at every meet and paid for it in the last lap. The other options describe reasons a pacer might be used, but none of them appears in the passage."
+  },
+  {
+   "id": "be3647d169",
+   "stem": "The word \"spare\" in paragraph 2 most nearly means",
+   "options": [
+    "kept in reserve for later",
+    "harsh and unfeeling",
+    "using no more words than were needed",
+    "hard to follow"
+   ],
+   "answer": 2,
+   "topic": "first-two-laps",
+   "source": "rj_original_2026_expansion",
+   "passage": "first-two-laps",
+   "explanation": "The instructions that follow are three short factual sentences with nothing added, so \"spare\" describes their plainness. \"Kept in reserve\" is the more common everyday meaning of the word and is the tempting choice, but nothing here is being held back."
+  },
+  {
+   "id": "c1bd567051",
+   "stem": "The writer includes the girl in green mainly to",
+   "options": [
+    "explain how Teddy was able to qualify",
+    "show that Wren could now read a race from the outside",
+    "argue that taking the lead early is always a mistake",
+    "suggest that the race was closer than the times make it look"
+   ],
+   "answer": 1,
+   "topic": "first-two-laps",
+   "source": "rj_original_2026_expansion",
+   "passage": "first-two-laps",
+   "explanation": "Wren watches the girl move too early and knows at once how it will end, which is the first evidence that she can see the shape of a race. The girl's mistake does bear on the finish, but the writer's interest is in what Wren perceives, not in the placings."
+  },
+  {
+   "id": "e1324450e4",
+   "stem": "The writer's attitude toward Wren's reluctance in paragraph 3 is best described as",
+   "options": [
+    "disapproving, since Wren puts herself ahead of her team",
+    "amused, since the writer finds her disappointment childish",
+    "indifferent, since the writer never says what Wren feels",
+    "sympathetic, though the writer does not linger on it"
+   ],
+   "answer": 3,
+   "topic": "first-two-laps",
+   "source": "rj_original_2026_expansion",
+   "passage": "first-two-laps",
+   "explanation": "The winter hills and the ninety seconds of hesitation are given respectfully, so the writer is not mocking her; but the moment is dispatched in one short line of dialogue and never returned to. \"Indifferent\" tempts a literal reader, because the passage dramatizes the reluctance rather than naming a feeling."
+  },
+  {
+   "id": "c353f6173c",
+   "stem": "Based on the ending, Wren is most likely to",
+   "options": [
+    "change how she runs her own races because of what she noticed from the infield",
+    "ask to be the pacer at every meet for the rest of the season",
+    "give up distance running and try a shorter event",
+    "tell Coach Halloran that she will not step off the track again"
+   ],
+   "answer": 0,
+   "topic": "first-two-laps",
+   "source": "rj_original_2026_expansion",
+   "passage": "first-two-laps",
+   "explanation": "The last sentences have her calculating what the girl in green's error had been costing Wren all year, which points her attention back at her own racing. Nothing suggests she has come to prefer pacing or to resent it."
+  },
+  {
+   "id": "b8dab0e6fb",
+   "stem": "The passage contrasts running inside a race with watching one from the infield chiefly in terms of",
+   "options": [
+    "how tiring each one is",
+    "how much of the race a person is able to take in",
+    "how the crowd reacts to each",
+    "how accurately the times are recorded"
+   ],
+   "answer": 1,
+   "topic": "first-two-laps",
+   "source": "rj_original_2026_expansion",
+   "passage": "first-two-laps",
+   "explanation": "Inside the race Wren hears a line of runners she can never see; from the grass she takes in the whole thing at once. Every detail in paragraphs 4 and 5 is arranged around that difference in what is visible."
+  },
+  {
+   "id": "5afc32ad3e",
+   "stem": "The passage mentions all of the following EXCEPT",
+   "options": [
+    "the pace Wren was told to run",
+    "the time Teddy Sarno ran",
+    "the name of the school Wren runs for",
+    "the point on the track where Wren stopped"
+   ],
+   "answer": 2,
+   "topic": "first-two-laps",
+   "source": "rj_original_2026_expansion",
+   "passage": "first-two-laps",
+   "explanation": "The pace (seventy-eight seconds), Teddy's 5:22 and the eight-hundred mark are all given. The passage ends with a bus pulling in at the school but never names it."
+  },
+  {
+   "id": "084db960d4",
+   "stem": "Wren's experience on the infield is most like that of",
+   "options": [
+    "an athlete who comes back from an injury stronger than before",
+    "a student who is given the answers before taking the test",
+    "a traveler who finally visits a city she has read about for years",
+    "a musician who has only ever played inside a band and then hears a recording of it"
+   ],
+   "answer": 3,
+   "topic": "first-two-laps",
+   "source": "rj_original_2026_expansion",
+   "passage": "first-two-laps",
+   "explanation": "Wren has been part of something she could never perceive as a whole, and stepping out of it lets her hear the whole at last, which is what the recording does for the player in the band. The traveler is tempting because it involves seeing something new, but the traveler was never inside the thing to begin with."
+  },
+  {
+   "id": "1e9d85df48",
+   "stem": "The passage ends with Wren working figures out on the back of a heat sheet rather than with a statement of what she has learned. This choice mainly",
+   "options": [
+    "shows the change in her through what she does instead of announcing it",
+    "leaves the reader unsure whether anything has changed",
+    "suggests that she cares more about numbers than about running",
+    "keeps the reader's attention on Teddy's qualifying time"
+   ],
+   "answer": 0,
+   "topic": "first-two-laps",
+   "source": "rj_original_2026_expansion",
+   "passage": "first-two-laps",
+   "explanation": "A girl who has never watched a race is now taking one apart on paper, which demonstrates the change more convincingly than a summary would. The behavior is specific enough that the reader is not left in doubt, and Teddy has dropped out of view by then."
+  },
+  {
+   "id": "a44ce15158",
+   "stem": "The best title for this passage would be:",
+   "options": [
+    "Mercator's Mistake",
+    "How Sailors Learned to Cross the Ocean",
+    "The Choices Behind Every Flat Map",
+    "A Short History of the National Geographic Society"
+   ],
+   "answer": 2,
+   "topic": "map-projections",
+   "source": "rj_original_2026_expansion",
+   "passage": "map-projections",
+   "explanation": "The passage argues that distortion is unavoidable, so every projection reflects a decision about which errors to accept. 'Mercator's Mistake' tempts a reader who noticed the criticism of Mercator, but the first paragraph says outright that the error is not the mapmaker's fault. Navigation and National Geographic are supporting examples, not the subject."
+  },
+  {
+   "id": "97bd03717d",
+   "stem": "According to paragraph 2, Mercator built his grid so that a straight line drawn between two ports would:",
+   "options": [
+    "Represent a single compass bearing a navigator could hold the whole way",
+    "Represent the shortest possible route across the ocean",
+    "Show the true distance between the ports at any latitude",
+    "Show the two ports at their correct relative sizes"
+   ],
+   "answer": 0,
+   "topic": "map-projections",
+   "source": "rj_original_2026_expansion",
+   "passage": "map-projections",
+   "explanation": "Paragraph 2 states that a navigator needed a map on which a straight line 'could be followed as a single unchanging compass bearing', and that Mercator's grid delivered it. 'Shortest route' and 'true distance' are what a reader assumes a straight line must mean; the passage never claims either, and paragraph 2 goes on to say size and scale are exactly what Mercator sacrificed."
+  },
+  {
+   "id": "dc179f9559",
+   "stem": "The word \"fidelity\" in paragraph 2 most nearly means:",
+   "options": [
+    "Boldness",
+    "Accuracy",
+    "Loyalty to a ruler",
+    "Simplicity"
+   ],
+   "answer": 1,
+   "topic": "map-projections",
+   "source": "rj_original_2026_expansion",
+   "passage": "map-projections",
+   "explanation": "The sentence says the price of Mercator's convenience was 'fidelity to size', and the next sentence explains that sizes came out wrong. In context the word means faithfulness to the truth, that is, accuracy. 'Loyalty to a ruler' is a genuine meaning of fidelity elsewhere, which is what makes it the tempting choice, but nothing here is pledging loyalty to anyone."
+  },
+  {
+   "id": "a54ac542d7",
+   "stem": "The word \"tolerably\" in paragraph 4 most nearly means:",
+   "options": [
+    "Painfully",
+    "Rarely",
+    "Acceptably",
+    "Exactly"
+   ],
+   "answer": 2,
+   "topic": "map-projections",
+   "source": "rj_original_2026_expansion",
+   "passage": "map-projections",
+   "explanation": "A compromise projection keeps 'no single property perfectly and every property tolerably' — the sentence sets tolerably against perfectly, so it must mean well enough to be acceptable. 'Painfully' comes from associating tolerate with enduring something unpleasant, but that reading makes the sentence describe a failure rather than the compromise the paragraph is defining."
+  },
+  {
+   "id": "c99206629c",
+   "stem": "The author mentions Greenland and Africa in paragraph 2 mainly in order to:",
+   "options": [
+    "Show that Greenland is the largest island in the world",
+    "Argue that Mercator did not know how large Africa really was",
+    "Explain why the polar regions are difficult to survey",
+    "Put a concrete figure on what Mercator gave up in exchange for reliable bearings"
+   ],
+   "answer": 3,
+   "topic": "map-projections",
+   "source": "rj_original_2026_expansion",
+   "passage": "map-projections",
+   "explanation": "The comparison follows immediately after the claim that Mercator traded away accuracy of size, and it measures that trade: two landmasses that look alike differ by a factor of about 14. The passage never suggests Mercator was ignorant of Africa's size — the stretching is a consequence of the grid he chose, not a mistake he made."
+  },
+  {
+   "id": "cedda0df96",
+   "stem": "The author's attitude toward Mercator is best described as:",
+   "options": [
+    "Impatient with a mapmaker who ignored evidence available to him",
+    "Understanding of a map that was later judged against a purpose it was never built for",
+    "Amused by the seriousness with which cartographers treat their work",
+    "Convinced that his grid should be abandoned completely"
+   ],
+   "answer": 1,
+   "topic": "map-projections",
+   "source": "rj_original_2026_expansion",
+   "passage": "map-projections",
+   "explanation": "Paragraph 1 says the distortion is not the mapmaker's fault, paragraph 2 says Mercator was working for sailors, and paragraph 3 says the chart 'was never meant for a classroom wall'. Paragraph 5 then defends keeping his grid on phones. A reader who notices only the criticism of the classroom map picks impatience or abandonment, but the passage consistently separates the map from the use later made of it."
+  },
+  {
+   "id": "116f31abcc",
+   "stem": "A researcher wants to compare, on a single flat map, how many acres of forest each country has lost. Based on the passage, that researcher would be best served by:",
+   "options": [
+    "A Mercator map, because directions on it stay reliable",
+    "A compromise projection, because it keeps no single property perfectly",
+    "An equal-area projection such as the Gall-Peters, because sizes stay in correct proportion",
+    "A globe, because the passage says a flat sheet can never be trusted"
+   ],
+   "answer": 2,
+   "topic": "map-projections",
+   "source": "rj_original_2026_expansion",
+   "passage": "map-projections",
+   "explanation": "The comparison being made is a comparison of areas, and paragraph 3 says the Gall-Peters projection holds every country's area in correct proportion. The globe option is ruled out by the stem, which asks for a single flat map, and it tempts a reader who remembers paragraph 1 without reading the question closely."
+  },
+  {
+   "id": "1315485db1",
+   "stem": "According to the passage, how does the Gall-Peters projection differ from Mercator's?",
+   "options": [
+    "Gall-Peters keeps areas in true proportion but distorts shapes, while Mercator keeps bearings reliable but distorts areas",
+    "Gall-Peters was designed for navigation, while Mercator's map was designed for classrooms",
+    "Gall-Peters distorts nothing, while Mercator distorts everything far from the equator",
+    "Gall-Peters stretches the polar regions, while Mercator squeezes them"
+   ],
+   "answer": 0,
+   "topic": "map-projections",
+   "source": "rj_original_2026_expansion",
+   "passage": "map-projections",
+   "explanation": "Each projection protects one property and pays with another: Mercator holds compass bearings and swells the far north, Gall-Peters holds areas and pulls shapes out of true. Option three is ruled out by paragraph 1, where Gauss's proof means no flat map can escape distortion altogether. Option two reverses the two purposes given in paragraphs 2 and 3."
+  },
+  {
+   "id": "0737cadcda",
+   "stem": "Which of the following is NOT mentioned in the passage?",
+   "options": [
+    "The year Gauss proved that a curved surface cannot be laid flat without distortion",
+    "The approximate area of Greenland",
+    "The year Arthur Robinson produced his projection",
+    "The number of schools that replaced their Mercator maps after 1973"
+   ],
+   "answer": 3,
+   "topic": "map-projections",
+   "source": "rj_original_2026_expansion",
+   "passage": "map-projections",
+   "explanation": "The passage gives 1827 for Gauss, roughly two million square kilometers for Greenland and 1963 for Robinson. It reports that Peters made his case in 1973 but never says how many schools, if any, changed their maps in response."
+  },
+  {
+   "id": "ca3c1a4983",
+   "stem": "A mapmaker choosing which projection to use is most like:",
+   "options": [
+    "A librarian shelving books alphabetically by author",
+    "A student with one evening before two tests, deciding which subject gets the hours",
+    "A student copying a diagram exactly out of a textbook",
+    "A painter returning to the same landscape season after season"
+   ],
+   "answer": 1,
+   "topic": "map-projections",
+   "source": "rj_original_2026_expansion",
+   "passage": "map-projections",
+   "explanation": "The passage's point is that shape, area, distance and direction cannot all be preserved at once, so choosing a projection means deciding which good thing to sacrifice. The student dividing one evening between two tests faces the same kind of forced trade-off. The librarian is following a fixed rule, the copying student is reproducing something exactly and the painter can do all of the versions rather than having to choose among them."
   }
  ]
 }
