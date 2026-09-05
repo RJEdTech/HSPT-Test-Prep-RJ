@@ -69,7 +69,7 @@ function block(b, i) {
         <p class="wex-stem">${b.stem}</p>
         <ol class="wex-opts">${b.options.map((o, n) =>
           `<li data-opt="${n}"><span class="ltr">${LTR[n]}</span>${o}</li>`).join('')}</ol>
-        <button class="reveal" type="button">Show the working</button>
+        <button class="reveal" type="button">Show me how</button>
         <div class="working hide">
           <p class="verdict-line">${LTR[b.answer]} &mdash; ${b.options[b.answer]}</p>
           <p>${b.walkthrough}</p>
