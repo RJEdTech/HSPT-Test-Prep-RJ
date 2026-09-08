@@ -100,16 +100,26 @@ const $ = s => document.querySelector(s);
 
 /* Two lengths, because they answer different questions.
 
-   The quick one is a taster: enough to tell a student roughly where they stand without
-   asking for 40 minutes on a first visit. It cannot rank five weaknesses honestly, because
-   40 questions across 18 skills leaves some skills with one question.
+   The full one is the replacement for the paper score sheet: 61 questions, every skill
+   getting at least three, so every skill can be scored and the five weakest ranked. Under
+   the clock that is 26 min 36 s. Reading is whole passages, since reading questions need
+   something to sit on.
 
-   The full one is the replacement for the paper score sheet. Every skill gets at least
-   three questions, so every skill can be scored and the five weakest can be ranked. The
-   mix is proportional to the real test where it can be; reading is one whole passage,
-   since reading questions need something to sit on. */
+   The quick one is a taster for a first visit — and its mix is deliberately NOT
+   proportional to the real test. Time here is not spent evenly: the clock allows 16 s a
+   question in Verbal and 42 s in Mathematics, so a question of Math costs as much of a
+   student's afternoon as two and a half of Verbal. An evenly proportional short version
+   therefore barely saves any time. The old mix (10/9/10/11/10, 50 questions) ran 23 min
+   47 s — eleven fewer questions than the full one for three fewer minutes, which made
+   "A quick check" a promise the page did not keep.
+
+   So the quick mix leans on the cheap sections: 40 questions in 16 min 57 s, a genuine
+   saving. The cost is that Quantitative and Mathematics get five questions each rather
+   than nine and eleven, so their read is noisier. That is the right trade for a taster
+   whose own note already says it cannot rank five weaknesses — but do not reuse these
+   counts anywhere that needs a dependable per-section score. */
 const PLANS = {
-  quick: { label: 'A quick check', bySection: { verbal: 10, quant: 9, reading: 10, math: 11, language: 10 }, perSkill: null },
+  quick: { label: 'A quick check', bySection: { verbal: 12, quant: 5, reading: 10, math: 5, language: 8 }, perSkill: null },
   full:  { label: 'The full one',  bySection: null, perSkill: 3 }
 };
 
@@ -142,7 +152,7 @@ function notes() {
 
   $('#len-note').textContent = which === 'full'
     ? `${totalQ} questions. Every skill gets at least ${PLANS.full.perSkill}, so every skill can be scored and the five weakest ranked. This is the one to take if you want a real study plan.`
-    : `${totalQ} questions. Quicker, but some skills only come up once or twice, so it can point you at two or three areas rather than rank five.`;
+    : `${totalQ} questions, and genuinely quicker. It leans on the shorter sections, so Quantitative Skills and Mathematics only come up a few times — it can point you at two or three areas rather than rank five.`;
 
   $('#pace-note').textContent = timed
     ? `${HSPT.fmtTime(limit)} — each question gets the time the real HSPT allows for its section.`
