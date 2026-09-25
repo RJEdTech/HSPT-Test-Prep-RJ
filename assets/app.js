@@ -54,7 +54,7 @@ const HSPT = (() => {
     'Algebra': 'Solve for the unknown, and know what to call each part of an expression.',
     'Geometry and Measurement': 'Area, perimeter, angles, circles and unit conversion.',
     'Data and Probability': 'Mean, median, mode, probability and counting combinations.',
-    'Word Problems': 'Money, rates, distance and interest — read for what is actually asked.',
+    'Word Problems': 'Money, rates, distance, interest and writing expressions — read for what is actually asked.',
 
     'Vocabulary in Context': 'Work out a word\u2019s meaning from the phrase it sits in.',
     'Spelling': 'One misspelled word among three sentences — or none at all.',

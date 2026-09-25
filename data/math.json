@@ -1009,13 +1009,13 @@
    "options": [
     "$55.00",
     "$30.00",
-    "$6.00",
+    "$49.00",
     "$31.00"
    ],
    "answer": 3,
    "topic": "Word Problems",
    "source": "rj_original_2026",
-   "explanation": "He is 50 messages over, and \\(50\\times0.12 = 6\\), so the bill is \\(25 + 6 = 31\\) dollars. Choosing $6.00 gives the extra charge alone and forgets the monthly fee; $30.00 charges all 250 messages and drops the fee; $55.00 charges all 250 messages and then adds the fee."
+   "explanation": "He is 50 messages over, and \\(50\\times0.12 = 6\\), so the bill is \\(25 + 6 = 31\\) dollars. Choosing $49.00 charges the first 200 messages instead of the 50 over them; $30.00 charges all 250 messages and drops the fee; $55.00 charges all 250 messages and then adds the fee."
   },
   {
    "id": "82af371964",
@@ -1536,14 +1536,14 @@
    "stem": "How much simple interest does $1,200 earn in six months at an annual rate of 6%?",
    "options": [
     "$36",
-    "$432",
+    "$1,236",
     "$18",
     "$72"
    ],
    "answer": 0,
    "topic": "Word Problems",
    "source": "rj_original_2026",
-   "explanation": "A full year would earn \\(1200\\times0.06=72\\) dollars, and six months earns half of that. The choice $72 charges a whole year, $18 halves the rate and the time both, and $432 treats the six months as six years."
+   "explanation": "A full year would earn \\(1200\\times0.06=72\\) dollars, and six months earns half of that. The choice $72 charges a whole year, $18 halves the rate and the time both, and $1,236 gives the balance in the account instead of the interest the question asks for."
   },
   {
    "id": "8742fdb804",
@@ -1600,6 +1600,118 @@
    "topic": "Word Problems",
    "source": "rj_original_2026",
    "explanation": "The bill with the tip is $88, and \\(88\\div4=22\\) dollars each. The choice $19 splits the bill before the tip is added, $31 gives each friend the whole $12 tip instead of a quarter of it, and $88 is the total for the table rather than one share."
+  },
+  {
+   "id": "cc49f06221",
+   "stem": "Maya reads \\(p\\) pages on each weekday and twice as many pages on each day of the weekend. Which expression gives the number of pages she reads in one full week?",
+   "options": [
+    "\\(7p\\)",
+    "\\(9p\\)",
+    "\\(12p\\)",
+    "\\(7p + 2\\)"
+   ],
+   "answer": 1,
+   "topic": "Word Problems",
+   "source": "rj_original_2026",
+   "explanation": "Five weekdays give \\(5p\\) pages and two weekend days at \\(2p\\) each give \\(4p\\), so the week is \\(9p\\). The choice \\(7p\\) forgets that weekend days are doubled, \\(12p\\) doubles the five weekdays instead of the two weekend days, and \\(7p + 2\\) adds 2 where it should multiply by 2."
+  },
+  {
+   "id": "e99dd9d839",
+   "stem": "Lena has \\(d\\) dollars. She spends $6 on lunch and then spends half of the money she has left on a book. Which expression shows how much money Lena has now?",
+   "options": [
+    "\\(\\frac{d}{2} - 6\\)",
+    "\\(d - 3\\)",
+    "\\(2(d - 6)\\)",
+    "\\(\\frac{d - 6}{2}\\)"
+   ],
+   "answer": 3,
+   "topic": "Word Problems",
+   "source": "rj_original_2026",
+   "explanation": "After lunch she has \\(d - 6\\), and spending half of that leaves the other half, \\(\\frac{d - 6}{2}\\). The choice \\(\\frac{d}{2} - 6\\) does the steps in the wrong order, halving first and paying for lunch second; \\(d - 3\\) halves only the lunch money; \\(2(d - 6)\\) doubles what is left instead of halving it."
+  },
+  {
+   "id": "23e0b82650",
+   "stem": "A school club pays a flat $150 to rent a bus and $4 for each student's museum ticket. The club has $390 to spend. If \\(n\\) is the number of students who can go, which equation could be used to find \\(n\\)?",
+   "options": [
+    "\\(150 + 4n = 390\\)",
+    "\\(4(150 + n) = 390\\)",
+    "\\(150n + 4 = 390\\)",
+    "\\(4n - 150 = 390\\)"
+   ],
+   "answer": 0,
+   "topic": "Word Problems",
+   "source": "rj_original_2026",
+   "explanation": "The bus costs 150 once and the tickets cost \\(4n\\), so together \\(150 + 4n = 390\\), which gives 60 students. The choice \\(4(150 + n)\\) charges $4 on the bus rental too; \\(150n + 4\\) swaps the flat cost and the per-student cost; \\(4n - 150\\) subtracts the bus cost when it should be added."
+  },
+  {
+   "id": "a14022e7e7",
+   "stem": "An empty tank holds 240 gallons. A pipe fills it at 12 gallons per minute, but a drain left open lets out 4 gallons per minute at the same time. How many minutes does it take to fill the tank?",
+   "options": [
+    "20 minutes",
+    "15 minutes",
+    "30 minutes",
+    "60 minutes"
+   ],
+   "answer": 2,
+   "topic": "Word Problems",
+   "source": "rj_original_2026",
+   "explanation": "The tank gains \\(12 - 4 = 8\\) gallons each minute, and \\(240 \\div 8 = 30\\) minutes. The choice 20 minutes ignores the drain, 15 minutes adds the drain's 4 gallons instead of subtracting them, and 60 minutes divides by the drain's rate alone."
+  },
+  {
+   "id": "7cd28d8de8",
+   "stem": "On the same test, a class of 20 students averaged 80 points and a class of 30 students averaged 90 points. What was the average score of all 50 students together?",
+   "options": [
+    "85",
+    "84",
+    "86",
+    "43"
+   ],
+   "answer": 2,
+   "topic": "Word Problems",
+   "source": "rj_original_2026",
+   "explanation": "The totals are \\(20\\times80 = 1600\\) and \\(30\\times90 = 2700\\), and \\(4300 \\div 50 = 86\\). The choice 85 averages the two averages, which would only work if the classes were the same size; 84 gives the larger class the lower score; 43 divides the combined total by 100 instead of by the 50 students."
+  },
+  {
+   "id": "4645bc43a4",
+   "stem": "A farm stand sells small baskets of peaches for $8 and large baskets for $12. On Saturday it sold 150 baskets in all and took in $1,440. How many large baskets did it sell?",
+   "options": [
+    "90",
+    "60",
+    "120",
+    "75"
+   ],
+   "answer": 1,
+   "topic": "Word Problems",
+   "source": "rj_original_2026",
+   "explanation": "If all 150 baskets were small, the stand would take in \\(150\\times8 = 1200\\) dollars. The extra 240 dollars comes from large baskets, each worth 4 dollars more, so \\(240 \\div 4 = 60\\) large baskets. Check: \\(90\\times8 + 60\\times12 = 720 + 720 = 1440\\). The choice 90 is the number of small baskets; 120 divides all the money by the large price; 75 splits the baskets evenly."
+  },
+  {
+   "id": "8e011757c0",
+   "stem": "A printer prints \\(p\\) pages per minute. How many pages does it print in \\(h\\) hours?",
+   "options": [
+    "\\(ph\\)",
+    "\\(\\frac{ph}{60}\\)",
+    "\\(60ph\\)",
+    "\\(\\frac{60h}{p}\\)"
+   ],
+   "answer": 2,
+   "topic": "Word Problems",
+   "source": "rj_original_2026",
+   "explanation": "An hour is 60 minutes, so \\(h\\) hours is \\(60h\\) minutes, and at \\(p\\) pages a minute that is \\(60ph\\) pages. The choice \\(ph\\) forgets to change hours to minutes, \\(\\frac{ph}{60}\\) converts in the wrong direction, and \\(\\frac{60h}{p}\\) divides by the printing rate instead of multiplying."
+  },
+  {
+   "id": "1a2fad53d7",
+   "stem": "Sam is 3 years older than twice his sister's age. If his sister is \\(s\\) years old now, how old was Sam 4 years ago?",
+   "options": [
+    "\\(2s - 5\\)",
+    "\\(2s - 1\\)",
+    "\\(2s + 7\\)",
+    "\\(2s + 2\\)"
+   ],
+   "answer": 1,
+   "topic": "Word Problems",
+   "source": "rj_original_2026",
+   "explanation": "Sam is \\(2s + 3\\) now, so 4 years ago he was \\(2s + 3 - 4 = 2s - 1\\). The choice \\(2s - 5\\) takes 4 years off his sister's age before doubling it, which counts the 4 years twice; \\(2s + 7\\) adds the 4 years instead of subtracting; \\(2s + 2\\) reads the first sentence as twice the sum \\(s + 3\\)."
   },
   {
    "id": "bbedf5e55a",
