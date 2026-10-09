@@ -951,6 +951,9 @@ const HSPT = (() => {
         <a href="${FRONT_PAGES.start}">main HSPT page</a>. Questions about registration, fee waivers or
         accommodations go to the Admissions Welcome Center at <a href="tel:+13032698000">303.269.8000</a>
         or <a href="mailto:admissions@regisjesuit.com">admissions@regisjesuit.com</a>.</p>
+        <p>Found a practice question that looks wrong, or something on the site not working? Email
+        <a href="mailto:jbeyer@regisjesuit.com?subject=HSPT%20practice%20site%3A%20problem%20report">Jason Beyer</a>,
+        Educational Technology. Tell him which page or question, and what happened.</p>
         <div class="policy">
           <p><b>This site is free and open to any student, and nothing you do here is recorded or
           sent anywhere</b> — your progress is stored in this browser only.</p>
