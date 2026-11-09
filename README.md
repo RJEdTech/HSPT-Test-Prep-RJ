@@ -536,3 +536,7 @@ done
 
 The site has no backend, no analytics, no cookies and no accounts. A student's progress is written to
 `localStorage` in their own browser and never leaves the device. Clearing site data clears it.
+
+## License
+
+© 2026 Jason Beyer, RJ Ed Tech. Licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/): free to share and adapt for non-commercial use with credit. See [LICENSE](LICENSE) for what the license does not cover.
